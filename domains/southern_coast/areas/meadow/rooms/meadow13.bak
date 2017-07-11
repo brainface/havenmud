@@ -1,0 +1,36 @@
+/* a meadow room
+   Kyla 10-17-97
+*/
+#include <lib.h>
+#include "../meadow.h"
+inherit LIB_ROOM;
+
+static void create() {
+  room::create();
+  SetShort("a meadow");
+  SetObviousExits("north, west");
+  SetExits( ([
+          "north" : MEADOW_ROOMS + "meadow9",
+           "west" : MEADOW_ROOMS + "meadow12",
+           ]) );
+  SetSmell( ([
+           "default" : "The scent of sea water overwhelms you.",
+           ]) );
+  SetListen( ([
+             "default" : "The call of wild canines can be heard "
+                          "in the distance.",
+           ]) );
+  SetInventory( ([ 
+                ]) );
+  SetLong("The grass here thins and gives way to sand. The meadow "
+          "continues to the north and the bay is off to the west. "
+          "Footprints are plentiful here indicating plentiful "
+          "wildlife.");
+  SetItems( ([
+           "grass" : "This brown grass is quite short.",
+           "sand" : "Fine brown sand covers the area.",
+           "bay" : "A small inlet from the Ruined Sea.",
+            ({"footprint", "footprints"}) : "These are exceptionally " 
+                                            "long footprints.",
+           ]) );
+  }

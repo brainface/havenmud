@@ -1,0 +1,145 @@
+#/secure/save/players/h/henry.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N of Lloryk (Lloryk halfling)"
+CapName "Henry"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":15,\"Mass\":4,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/frostmarches/areas/lab/obj/amulet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":193,\"Poison\":0,])","([\"Value\":500,\"Mass\":20,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/southern_coast/towns/kresh/leatherstore/clothglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":500,\"Mass\":20,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/southern_coast/towns/kresh/leatherstore/clothglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":500,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/towns/kresh/leatherstore/clothhelmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":768,\"Poison\":0,])","([\"Value\":500,\"Mass\":20,\"Worn\":({\"left foot\",}),\"#base_name#\":\"/domains/southern_coast/towns/kresh/leatherstore/clothsock\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":500,\"Mass\":20,\"Worn\":({\"right foot\",}),\"#base_name#\":\"/domains/southern_coast/towns/kresh/leatherstore/clothsock\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":9,\"Mass\":5,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/boot1\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":30,\"Poison\":0,])","([\"Value\":15,\"Mass\":50,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/pant3\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":140,\"Poison\":0,])","([\"Value\":10,\"Mass\":6,\"Worn\":({\"left arm\",\"left hand\",}),\"#base_name#\":\"/domains/valley/areas/castle/obj/glove_l\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":115,\"Poison\":0,])","([\"Value\":10,\"Mass\":6,\"Worn\":({\"right arm\",\"right hand\",}),\"#base_name#\":\"/domains/valley/areas/castle/obj/glove_l\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":103,\"Poison\":0,])","([\"Value\":2,\"Mass\":5,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/westwood/areas/hiker/obj/mat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":50,\"Poison\":0,])","([\"Value\":93,\"Mass\":30,\"Worn\":({\"right hand\",}),\"Class\":29,\"#base_name#\":\"/domains/islands/areas/monkey/obj/knife\",\"Broken\":0,\"DamagePoints\":2977,\"Poison\":0,])","([\"Value\":0,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/bread\",\"MealType\":2,\"Broken\":0,\"Short\":\"a small loaf of bread\",\"Long\":\"This is a rather plain, small loaf of bread.  It looks moderately filling.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/bread\",\"MealType\":2,\"Broken\":0,\"Short\":\"a small loaf of bread\",\"Long\":\"This is a rather plain, small loaf of bread.  It looks moderately filling.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/bread\",\"MealType\":2,\"Broken\":0,\"Short\":\"a small loaf of bread\",\"Long\":\"This is a rather plain, small loaf of bread.  It looks moderately filling.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/bread\",\"MealType\":2,\"Broken\":0,\"Short\":\"a small loaf of bread\",\"Long\":\"This is a rather plain, small loaf of bread.  It looks moderately filling.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/bread\",\"MealType\":2,\"Broken\":0,\"Short\":\"a small loaf of bread\",\"Long\":\"This is a rather plain, small loaf of bread.  It looks moderately filling.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/bread\",\"MealType\":2,\"Broken\":0,\"Short\":\"a small loaf of bread\",\"Long\":\"This is a rather plain, small loaf of bread.  It looks moderately filling.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/bread\",\"MealType\":2,\"Broken\":0,\"Short\":\"a small loaf of bread\",\"Long\":\"This is a rather plain, small loaf of bread.  It looks moderately filling.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/bread\",\"MealType\":2,\"Broken\":0,\"Short\":\"a small loaf of bread\",\"Long\":\"This is a rather plain, small loaf of bread.  It looks moderately filling.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":550,\"Mass\":40,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/domains/westwood/areas/monastery/obj/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":513,\"Poison\":0,])","([\"Value\":850,\"Mass\":80,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/robe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":663,\"Poison\":0,])","([\"Value\":15,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/hiker/obj/tee\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":109,\"Poison\":0,])","([\"Value\":11,\"Mass\":6,\"Worn\":0,\"#base_name#\":\"/domains/frostmarches/areas/lab/obj/belt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":230,\"Poison\":0,])","([\"Value\":100,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/hiker/obj/pjs\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":75,\"Mass\":175,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/shield\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":80,\"Mass\":200,\"Worn\":0,\"Class\":12,\"#base_name#\":\"/domains/tairi/areas/hermitage/obj/knife\",\"Broken\":0,\"DamagePoints\":621,\"Poison\":0,])","([\"Value\":600,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/frostmarches/areas/vergoth/obj/ring\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":750,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":3,\"#base_name#\":\"/std/spells/obj/create_light_ob\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["chrma":"cast charm animal on $*","la":"look at $*","hs":"highscore $*","hsp":"highscore players $*","w":"go west","gac":"get all from $* corpse","invis":"cast invisibility $*","u":"go up","out":"go out","s":"go south","dark":"cast create shadows $*","q":"quote $*","str":"cast planar strength $*","p":"who","oe":"oocemote $*","n":"go north",".":"status","m":"money $*","l":"look $*","rep":"reputation $*","spells":"spells -l -c $*","k":"kill $*","mi":"cast missile $*","i":"inventory","vis":"cast dispel invisibility $*","e":"go east","d":"go down","con":"consider $*","dp":"cast disperse protections $*","water":"cast create water $*","adv":"ask feckel to advance $*","pr":"cast sphere $*","pp":"protections","dl":"drop limbs $*","dur":"cast planar durability $*","nw":"go northwest","light":"cast create light $*","shock":"cast shock $*","pro":"protections $*","ka":"kill all","sw":"go southwest","exa":"look at $*","food":"cast create food $*","..":"skills $*","...":"spells -l -c $*","sr":"shipreport $*","channel":"cast channeling $*","detect":"cast detect magic on $*","ne":"go northeast","blind":"cast blindness $*","se":"go southeast","ga":"get all $*","para":"cast paralysis $*","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ooc":0,])
+Screen ({99,41,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 29221
+WhereBlock 0
+Brief 1
+LoginTime 1497684346
+BirthTime 1353392021
+Password "chddhfid!ljgekecfihbgehbkheaehe`mnhadghcf"
+Email "bjorn.brown@yahoo.com"
+RealName "Henry"
+Rank 0
+LoginSite "/domains/southern_coast/areas/meadow/rooms/meadow11"
+HostSite "cpe-107-185-216-1.socal.res.rr.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 26
+Experience 11202
+Skills (["cloth armour":(["class":2,"level":22,]),"metal working":(["class":4,"level":15,]),"accuracy":(["class":4,"level":10,]),"shock magic":(["class":1,"level":54,]),"conjuring":(["class":1,"level":54,]),"knife combat":(["class":2,"level":50,]),"mithril working":(["class":4,"level":5,]),"armour smithing":(["class":4,"level":10,]),"fishing":(["class":3,"level":3,]),"weapon smithing":(["class":4,"level":15,]),"bargaining":(["class":4,"level":10,]),"textile working":(["class":2,"level":10,]),"parry":(["class":1,"level":53,]),"cooking":(["class":4,"level":1,]),"enchantment":(["class":2,"level":45,]),"evokation":(["class":1,"level":54,]),])
+Morality 2200
+CanMulti 1
+Class "evoker"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Eclat","Eclat",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Conditions 0
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gwonish":-51,"Lloryk":102,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 330
+MagicPoints 580
+Bleeding 0
+Alcohol 0
+Caffeine 15
+Food 620
+Drink 206
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 340.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":150,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":290,"class":1,"parent":"torso",]),"left arm":(["armours":733192,"children":({}),"health":150,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"left leg",]),"torso":(["armours":751616,"children":({"head","right leg","left arm","right arm",}),"health":290,"class":1,"parent":0,]),"left leg":(["armours":525472,"children":({}),"health":150,"class":2,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"right arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":150,"class":2,"parent":"torso",]),"left hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"left arm",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({15,65,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":34,]),"wisdom":(["class":2,"points":0,"level":40,]),"coordination":(["class":2,"points":0,"level":41,]),"strength":(["class":4,"points":0,"level":29,]),"intelligence":(["class":3,"points":0,"level":53,]),"luck":(["class":1,"points":0,"level":60,]),"durability":(["class":4,"points":0,"level":28,]),"charisma":(["class":3,"points":0,"level":43,]),])
+Languages (["eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Lloryk"
+Race "halfling"
+Gender "male"
+Nationality "Lloryk"
+Size 8
+CombatStyle 0
+CombatStyles ([])
+Wimpy 50
+WimpyCmd "go out"
+LastWimpy 1353732359
+Cooldowns ([])
+Currency (["rounds":102746,"rupies":125,"imperials":11496,"koken":6888,])
+Bank (["Shire Trade Commissariat":(["rounds":5,"audit":"({ OBJ(keller /domains/crystal_reaches/towns/lloryk/npc/keller#48822), OBJ(keller /domains/crystal_reaches/towns/lloryk/npc/keller#48822), OBJ(/verbs/common/ask), OBJ(henry /secure/save/players/h/henry) })","last time":1353400385,"open":1353400385,"last trans":"opened account",]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#36916), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#36916), OBJ(/verbs/common/ask), OBJ(henry /secure/save/players/h/henry) })","last time":1353395780,"imperials":5,"open":1353395780,"last trans":"opened account",]),"Grymxoria Bank":(["audit":"({ OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#36721), OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#36721), OBJ(/verbs/common/ask), OBJ(henry /secure/save/players/h/henry) })","last time":1353395334,"open":1353395334,"last trans":"opened account","bloodgems":5,]),"Bank of Glimmerdin":(["audit":"({ OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#42935), OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#42935), OBJ(/verbs/common/ask), OBJ(henry /secure/save/players/h/henry) })","nuggets":5,"last time":1353398354,"open":1353398354,"last trans":"opened account",]),])
+CraftingRecipes ({})
+SpellBook (["invisibility":1,"missile":100,"buffer":100,"charm animal":1,"dispel invisibility":1,"detect morality":1,"discern killer":1,"planar strength":6,"telepathy":5,"earth touch":1,"poison sphere":1,"fireball":1,"create water":9,"ethereal touch":1,"sphere":47,"create light":20,"blindness":1,"disperse protections":8,"shock":100,"create shadows":11,"discern morality":1,"capsule":1,"ice ball":1,"unravel wards":1,"detect invisibility":1,"paralysis":1,"planar durability":1,"detect magic":1,"create staff":1,"create food":1,"channeling":92,"detect magic fully":1,"aura":6,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"of Lloryk","the Greater Adeptus","the Exorcist","the Defender of the Keep","the Eradicator of Outlaws","the Zombie Slayer","the Crypt Keeper","the Guardian of the Old Cemetery","the Crystal Courier","the Reposessor","the Adeptus","the Chef's Aide","the Adversary of Arachnids","the Bandit Slayer","the Ronin Slayer","the Glimmerdin Tourist","the Envoy of Haven Town","the Haven Town Messenger","the Haven Town Courier","the Haven Town Runner","the Vampire Hunter","the Bird Watcher","the Explorer","the Blueberry Picker","the Arboretum Visitor","the Island Explorer","the Vacationer","the Equipped","the Trash Picker","the Aspiring Adeptus","the Feather Ruffler",})
+Story "Our story begins with %^YELLOW%^Henry Hudsonfoot Stinktoe the First%^RESET%^. He was a decent Halfling until one day, while having a picnic in the park. He and his lady friend where celebrating their engagement with honey goat cheese and spumante chapagne, a dirty old halfling gypsy beggar began her barrage of begging for basics. When he could take no more he reprimanded the woman in his Halfling way, standing as tall as he could and telling her what he thought about her as a halfling being as well as he could. Jinxed by the gypsy, he went wildly mad and was never seen again. Little did he know, the future-misses-Stinktoe would have a baby boy. %^YELLOW%^Stinktoe the Second%^RESET%^, wary of keeping his father's reputation about his person, strived to work hard but the gypsy's curse struck his life, the same time it struck the father's. His business failed, his wife gone with children, he was driven to drink and eventually drowned in a bog. %^YELLOW%^Stinktoe the Third%^RESET%^ scoffed at the idea of a gypsy curse throughout his life. During his birthday, with his family and the whole town there, he thought he would be safe. The celebration was a festival, a carnival of halflings. He met a girl and found love on the lake but did not know the girl's past and she spiked his drink with halfling drugs! Shortly thereafter he was terrified by the topiary and fell down a well. %^YELLOW%^Henry Hudsonfoot Stinktoe the Fourth%^RESET%^ has been terrified from age of knowing his family history until this very moment. He began studying magical shields. Obsessed with being able to prevent any harm to his person he has worked long hours in libraries across Kailie. Shields are the only thing keeping him from the curse of his great-grandfather. He travels the world, seeking as much and as powerful information he can, boosting his defenses for the time when he can either break the curse, or it breaks him."
+Surname "Hudsonfoot Stinktoe the Fourth"
+ApprovedStory 1
+OOCName "Henry"
+Quests ({(/1353392030,"Newbie Book",/),(/1353392393,"Chicken Coop",/),(/1353392803,"Explored Grove",/),(/1353392824,"Gurov Trash Search",/),(/1353392867,"Bandit Camp",/),(/1353392882,"Leather Emporium",/),(/1353392897,"Platypus Bay",/),(/1353392952,"Ronin Camp",/),(/1353392962,"Cherry Blossom",/),(/1353393195,"Rabbit Food",/),(/1353393300,"Blueberry Picker",/),(/1353397145,"Bird Watcher",/),(/1353401365,"Tower Assault 1",/),(/1353401473,"Tower Assault 2",/),(/1353401593,"Message Courier",/),(/1353401637,"Message Courier pt 2",/),(/1353401681,"Message Courier pt 3",/),(/1353401793,"Message Courier pt 4",/),(/1353402655,"Glimmerdin Tour",/),(/1353403349,"Ronin Slayer",/),(/1353405429,"Bandit Slayer",/),(/1353406469,"Tarantula Slayer",/),(/1353406589,"Monkey Meat",/),(/1353664628,"Bandit Leader",/),(/1353664948,"Reposession",/),(/1353664980,"Crystal Ball Delivery",/),(/1353665556,"Defender of the Keep pt 1",/),(/1353665688,"Graveyard Cleanup",/),(/1353665716,"Crypt Keeper",/),(/1353666048,"Ronin Leader",/),(/1353666076,"Purification Part 1",/),(/1353666892,"Purification Part 2",/),})
+Deaths 0
+DevelopmentPoints 2
+TitleLength 1
+TitleAnd 0
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 102
+LastLevel 1353666999
+HighestLevel 26
+LongDaemonData ({"green","light brown","pale","tanned","thin hair covering $POS body.",})
+PermanentProperties (["status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

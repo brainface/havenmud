@@ -1,0 +1,143 @@
+#/secure/save/players/a/assyri.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Mendicant of Kylin (Haven elf)"
+CapName "Assyri"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":50,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/collar\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":50,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/collar\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":992,\"Poison\":0,])","([\"Value\":50,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/collar\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":992,\"Poison\":0,])","([\"Value\":150,\"Mass\":190,\"Worn\":0,\"#base_name#\":\"/std/armour/shirt/studded_leather\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":750,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/kylin_book\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right hand\",}),\"Class\":10,\"#base_name#\":\"/std/weapon/blunt/mace\",\"Broken\":0,\"DamagePoints\":43,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":991,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","t":"cast touch $*","out":"go out","..":"skills","s":"go south","...":"spells","1":"ask dalahalus to advance $*","p":"who","oe":"oocemote $*","n":"go north",".":"status","bc":"burn $* corpse","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","b":"cast bless $*","a":"cast smite $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({78,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 1593
+WhereBlock 0
+Brief 0
+LoginTime 1496013223
+BirthTime 1496013209
+Password "joh`oiom!knhimkgjknijdniaebgo`jfhbcm`l`ia"
+Email "duuk@duuk.com"
+RealName "Unknown"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/imperial_road/ir2"
+HostSite "50.225.111.216"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 4
+Experience 6461
+Skills (["reinforced armour":(["class":2,"level":1,]),"metal working":(["class":4,"level":0,]),"cloth armour":(["class":2,"level":1,]),"fire magic":(["class":2,"level":0,]),"chain armour":(["class":2,"level":1,]),"faith":(["class":1,"level":10,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":0,]),"healing":(["class":1,"level":10,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":1,]),"skinning":(["class":4,"level":0,]),"weapon smithing":(["class":4,"level":0,]),"bargaining":(["class":2,"level":1,]),"leather working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"blunt combat":(["class":1,"level":10,]),"enchantment":(["class":1,"level":8,]),])
+Morality 1499
+CanMulti 1
+Class "cleric"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Haven":56,"Malveillant":-28,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 360
+MagicPoints 80
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1933
+Drink 528
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 320.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":160,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":320,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":160,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":320,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":160,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":160,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 15
+LightSensitivity ({17,73,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["wisdom":(["class":3,"points":0,"level":30,]),"agility":(["class":3,"points":0,"level":35,]),"coordination":(["class":3,"points":0,"level":35,]),"luck":(["class":4,"points":0,"level":31,]),"intelligence":(["class":1,"points":0,"level":37,]),"strength":(["class":4,"points":0,"level":27,]),"durability":(["class":3,"points":0,"level":31,]),"charisma":(["class":1,"points":0,"level":47,]),])
+Languages (["eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1496013313,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"*snoops you immediately*.%^RESET%^\"",}),({1496013321,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Good idea.%^RESET%^\"",}),({1496014747,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Your assistant deity finds you weird but says nothing, for you outrank him.%^RESET%^\"",}),({1496014804,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"!!%^RESET%^\"",}),})
+sphist ({})
+Town "Haven"
+Race "elf"
+Gender "female"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 60
+WimpyCmd "go north"
+LastWimpy 1496015255
+Currency ([])
+Bank ([])
+CraftingRecipes ({})
+SpellBook (["detect magic":1,"bless":16,"touch":11,"halt bleeding":1,"divine whisper":1,"desert divining":1,"smite":11,"turn undead":1,"unravel wards":1,"revive":1,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Mendicant of Kylin","of Haven",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName 0
+Quests ({(/1496013274,"Newbie Book",/),})
+Deaths 0
+DevelopmentPoints 6
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 1
+LastLevel 1496015319
+HighestLevel 4
+LongDaemonData ({"pale green","blonde","almond","fair","slightly pointed ears and almond shaped eyes.",})
+PermanentProperties (["status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

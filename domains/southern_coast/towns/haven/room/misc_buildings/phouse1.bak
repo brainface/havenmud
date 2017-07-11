@@ -1,0 +1,36 @@
+//
+// A Player House
+// Filename: p_house.c
+// Created by Duuktsaryth@Haven
+// Modified by Kazgaroth@Haven
+//
+
+#include <lib.h>
+#include "../haven.h"
+
+inherit LIB_PLAYER_HOUSE;
+
+static void create() {
+   ::create();
+   SetExits( ([
+     "out" : H_ROOM "imperial_road/ir3",
+     ]) );
+   SetDoor("out", H_OBJ "phouse_1/door_001");
+   SetShort("inside a small house");
+   SetLong(
+     "This house appears abandoned and unused in any way. Dust covers "
+     "the floor and the walls suffer from lack of cleaning.  Small piles "
+     "of mouse droppings litter the room, and what little furnishings "
+     "this house offers have long since rotted to worthlessness. "
+     "The city government has listed this building for sale."
+     );
+   SetSmell("The house smells of decay.");
+   SetListen("The quiet creak of old wood and settling house is unnerving.");
+   SetLotID("haven_ph_1");
+   SetInventory( ([
+     H_OBJ "phouse_1/chest" : 1,
+     ]) );
+}
+
+
+/* Approved by Duuktsaryth on Tue Apr 27 21:13:47 1999. */

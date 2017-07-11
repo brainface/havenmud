@@ -1,0 +1,65 @@
+#/secure/save/immortals/u/urien.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "Reverend $N the Keeper of Sorrows"
+CapName "Urien"
+ExternalDesc "$N is nondescript."
+Invisible 2
+Items ([])
+Inventory ({"([\"Value\":4,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/natural/glass_red\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/urien/attic/examples/redruby\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory "/realms/urien/attic/spells"
+Nicknames ([])
+Aliases (["la":"look at $*","hq":"goto /realms/urien/invasions/room/headquarters $*","w":"go west","gac":"get all from $* corpse","u":"go up","out":"go out","s":"go south","p":"who","oe":"oocemote $*","n":"go north",".":"status","ruins":"goto ~urien/ruins/room/throne $*","l":"look $*","k":"kill $*","memory":"more ~urien/attic/memory $*","i":"inventory","e":"go east","d":"go down","pp":"protections","nw":"go northwest","ka":"kill all","sw":"go southwest","exa":"look at $*","..":"skills","...":"spells","renew":"duc $*","ne":"go northeast","kresh":"goto /realms/urien/kresh/room/m_1 $*","se":"go southeast","ga":"get all $*","dupdate":"update * $*","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["imm":0,"intergossip":1,"dc":1,"reports":0,"ooc":0,"isport":1,"muse":0,])
+Screen ({119,35,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 701749
+WhereBlock 0
+Brief 0
+LoginTime 1495640985
+BirthTime 1382483137
+Password "hmlefifi!ohabhimbjajldkchbjkco`glalibbijb"
+Email "BrackDiesel@live.com"
+RealName "Urien"
+Rank 0
+LoginSite "/realms/urien/workroom"
+HostSite "cpe-72-225-37-187.rochester.res.rr.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.announcements":1,])
+NewServerLogin 1
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({({1383764460,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"He's better.%^RESET%^\"",}),({1383764468,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Ah thank ye.%^RESET%^\"",}),({1383764488,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Just using him as a bypass for the newb equipper test thingie.%^RESET%^\"",}),({1383965458,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Just remembered where i left off.%^RESET%^\"",}),({1383970667,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"I see nothing on TMC.%^RESET%^\"",}),({1383970679,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"What?%^RESET%^\"",}),({1383970696,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Torak <ooc> hey, quick, someone change the mudcoonect page to 10 - 20.%^RESET%^\"",}),({1383970755,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"So you tried to go edit TMC page?%^RESET%^\"",}),({1383970973,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Are you talking of our listing?%^RESET%^\"",}),({1383971011,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"It was a joke, dude :)  yeah i was but 1) only duuk can edit it and 2) it would be dishonest of us to change it based on a chance encounter of 10 characters logged in.%^RESET%^\"",}),({1383971011,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"And, no. I havent \"tried to go edit TMC Page\".%^RESET%^\"",}),({1383971016,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Ah ok.%^RESET%^\"",}),({1383971024,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Well, you obviouslt went to go check.%^RESET%^\"",}),({1383971049,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Ahhhh derp.%^RESET%^\"",}),({1384063813,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Yeah? :P.%^RESET%^\"",}),({1384063824,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Eh?%^RESET%^\"",}),({1384063863,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Saw you popped in :P.%^RESET%^\"",}),({1384063877,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Probably randomly bored.%^RESET%^\"",}),({1384063878,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Wasnt sure if ya needed me for something.%^RESET%^\"",}),({1384063882,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Ah okies.%^RESET%^\"",}),({1384063887,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Nope! random boredom!%^RESET%^\"",}),({1384063893,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Hehehehehehehe.%^RESET%^\"",}),({1384640363,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"What is a basic entry position for Life INsurance? I doubt i would be a good salesman, but if its to get familiar with policies i could do it.%^RESET%^\"",}),({1384640394,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"And with Syracuse 'not hiring' hard to give them a position im applyinig for.%^RESET%^\"",}),({1384640414,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Well, that's their HQ.  So admin, clerks, etc.%^RESET%^\"",}),({1384640440,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Ah ok. As soon as I pwn this resume i have to mail/fax to them and then the fun begins.%^RESET%^\"",}),({1384640458,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Also, thanks for the opportunity to use your name. :).%^RESET%^\"",}),({1384640556,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"You're welcome.%^RESET%^\"",}),({1384742698,"%^BOLD%^RED%^You tell Alessandra,%^RESET%^ \"You want in on the breakdancing vid? Is verymaud....... your email?%^RESET%^\"",}),({1384743976,"%^BOLD%^RED%^You tell Alessandra,%^RESET%^ \"Is your email the same as your finger info?%^RESET%^\"",}),({1384743988,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"Yes.%^RESET%^\"",}),({1384744009,"%^BOLD%^RED%^You tell Alessandra,%^RESET%^ \"Ok gimme 2 secs to send the vid. PLEASE. DO NOT. post it anywhere.%^RESET%^\"",}),({1384744021,"%^BOLD%^RED%^You tell Alessandra,%^RESET%^ \"Doing so will fuck me royally.%^RESET%^\"",}),({1384744059,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"I will not.. I swear.%^RESET%^\"",}),({1384744066,"%^BOLD%^RED%^You tell Alessandra,%^RESET%^ \"Okies thank ye.%^RESET%^\"",}),({1384744131,"%^BOLD%^RED%^You tell Alessandra,%^RESET%^ \"Sent.%^RESET%^\"",}),({1384820942,"%^BOLD%^RED%^You tell Alessandra,%^RESET%^ \"Deff call him a guebo muerto, it means your calling him a 'dead dick'.%^RESET%^\"",}),({1384820963,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"Lol.%^RESET%^\"",}),({1384820984,"%^BOLD%^RED%^You tell Alessandra,%^RESET%^ \"If you need some spanish hate speech, im your guy. I grew up with Dominicans.%^RESET%^\"",}),({1384822566,"%^BOLD%^RED%^You tell Alessandra,%^RESET%^ \"'Chinga tu madre' = Go fuck your mother, 'En tu carra' = In your face sorry forgot to tell you that too.%^RESET%^\"",}),})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1382486997
+Position 2
+WhoInvis 0
+Angel 0
+Retired 0
+Sponsor 0
+Religion ({"Kylin",})
+ReligionTitle 0
+Department 0
+Domain "Kailie"
+DomainTitle 0
+Sponsorees ({})
+Gender "male"
+Status 0

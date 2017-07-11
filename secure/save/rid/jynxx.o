@@ -1,0 +1,64 @@
+#/secure/save/immortals/j/jynxx.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Angel"
+CapName "Jynxx"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":25,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/std/weapon/knife/hunting_knife\",\"Broken\":0,\"DamagePoints\":540,\"Poison\":0,])","([\"Value\":0,\"Mass\":25,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/std/weapon/knife/hunting_knife\",\"Broken\":0,\"DamagePoints\":540,\"Poison\":0,])","([\"Value\":0,\"Mass\":25,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/std/weapon/knife/hunting_knife\",\"Broken\":0,\"DamagePoints\":168,\"Poison\":0,])","([\"Value\":50,\"Mass\":87,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/std/obj/digging/shovel\",\"Broken\":0,\"DamagePoints\":100,\"Poison\":0,])","([\"Value\":30,\"Mass\":20,\"Worn\":0,\"Class\":7,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/weapons/cleric_knife\",\"Broken\":0,\"DamagePoints\":195,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/misc/dayofroses\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":2000,\"Mass\":7,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/ruby\",\"Broken\":0,\"DamagePoints\":7000,\"Poison\":0,])","([\"Value\":600,\"Mass\":3,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/jade\",\"Broken\":0,\"DamagePoints\":2000,\"Poison\":0,])","([\"Value\":600,\"Mass\":3,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/jade\",\"Broken\":0,\"DamagePoints\":2000,\"Poison\":0,])","([\"Value\":3500,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/mithril\",\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":500,\"Mass\":3,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/topaz\",\"Broken\":0,\"DamagePoints\":2500,\"Poison\":0,])","([\"Value\":750,\"Mass\":3,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/aquamarine\",\"Broken\":0,\"DamagePoints\":2500,\"Poison\":0,])","([\"Value\":200,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/copper\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":2000,\"Mass\":7,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/ruby\",\"Broken\":0,\"DamagePoints\":7000,\"Poison\":0,])","([\"Value\":500,\"Mass\":4,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/sapphire\",\"Broken\":0,\"DamagePoints\":3000,\"Poison\":0,])","([\"Value\":1500,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/silver\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":500,\"Mass\":4,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/sapphire\",\"Broken\":0,\"DamagePoints\":3000,\"Poison\":0,])","([\"Value\":500,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/iron\",\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":1500,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/silver\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":3000,\"Mass\":8,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/diamond\",\"Broken\":0,\"DamagePoints\":10000,\"Poison\":0,])","([\"Value\":500,\"Mass\":2,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/bloodstone\",\"Broken\":0,\"DamagePoints\":2500,\"Poison\":0,])","([\"Value\":500,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/iron\",\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":500,\"Mass\":4,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/sapphire\",\"Broken\":0,\"DamagePoints\":3000,\"Poison\":0,])","([\"Value\":200,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/copper\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":2500,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/gold\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":2000,\"Mass\":7,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/ruby\",\"Broken\":0,\"DamagePoints\":7000,\"Poison\":0,])","([\"Value\":1500,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/silver\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":500,\"Mass\":4,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/sapphire\",\"Broken\":0,\"DamagePoints\":3000,\"Poison\":0,])","([\"Value\":500,\"Mass\":4,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/sapphire\",\"Broken\":0,\"DamagePoints\":3000,\"Poison\":0,])","([\"Value\":500,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/iron\",\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":750,\"Mass\":3,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/aquamarine\",\"Broken\":0,\"DamagePoints\":2500,\"Poison\":0,])","([\"Value\":750,\"Mass\":3,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mine/aquamarine\",\"Broken\":0,\"DamagePoints\":2500,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["w":"go west","u":"go up","invis":"cast dim $*","out":"go out","s":"go south","dark":"cast skull of darkness $*","oe":"oocemote $*","trans":"cast transmutation $*","n":"go north",".":"status","m":"money $*","bless":"cast bless on $*",",":"stats $*","l":"look $*","k":"kill $*","ad":"cast animate dead on first corpse $*","i":"inventory","e":"go east","d":"go down","pr":"protections $*","nw":"go northwest","curse":"cast curse on $*","shield":"cast cloak of darkness $*","sw":"go southwest","db":"cast dark burial on first corpse $*","..":"skills","...":"spells -c $*","ne":"go northeast","dispel":"cast disperse protections $*","se":"go southeast","sc":"cast spirit call on first corpse $*","all":"attack all $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({78,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 11955
+WhereBlock 0
+Brief 0
+LoginTime 1357521186
+BirthTime 1357507552
+Password "hmdf`gmg!odeamgedndn`mom`eekkikooeldnldfg"
+Email "elite.jynxx@gmail.com"
+RealName "Reno"
+Rank 0
+LoginSite "/domains/staff/staffroom"
+HostSite "c-69-180-133-215.hsd1.mn.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.announcements":1,])
+NewServerLogin 1
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1357521186
+Position 2
+WhoInvis 0
+Angel 1
+Retired 0
+Sponsor "None"
+Religion ({"None",})
+ReligionTitle 0
+Department 0
+Domain "None"
+DomainTitle 0
+Sponsorees ({})
+Gender "male"
+Status 0

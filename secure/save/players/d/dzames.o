@@ -1,0 +1,145 @@
+#/secure/save/players/d/dzames.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N of Lisht (Lisht gnoll)"
+CapName "Dzames"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":5,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/survival/scrap_metal\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":10,\"Lit\":1,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":164,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":200,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/std/clothing/tail_wrap\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":450,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/survival/scrap_leather\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/survival/scrap_metal\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/survival/scrap_metal\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/survival/scrap_wood\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/survival/scrap_natural\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/survival/scrap_wood\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":5,\"Class\":2,\"Worn\":0,\"Broken\":0,\"Poison\":0,\"PickBonus\":5,\"Mass\":10,\"#base_name#\":\"/std/crafting/survival/shim\",\"DamagePoints\":200,])","([\"Value\":15,\"Class\":2,\"Worn\":0,\"Broken\":0,\"Poison\":0,\"PickBonus\":5,\"Mass\":10,\"#base_name#\":\"/std/crafting/survival/crude_spade\",\"DamagePoints\":500,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/planes/obj/planeswalker/alpenstock\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":15,\"Portions\":1,\"MealStrength\":30,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/farm/temperate/potato\",\"MealType\":2,\"Broken\":0,\"Short\":\"a potato\",\"Long\":\"This is a home grown potato.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":10,\"Mass\":5,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/guppy_food\",\"MealType\":2,\"Broken\":0,\"Short\":\"a guppy\",\"Long\":\"This guppy is a small fish.  It is barely worth eating.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":50,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/farm/temperate/hemp\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({79,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 7867
+WhereBlock 0
+Brief 0
+LoginTime 1499294416
+BirthTime 1498100278
+Password "mkgcajaf!leoogiemdjbaaiclmbabgehfgmghndoe"
+Email "brainface_mike@yahoo.com"
+RealName "Testy"
+Rank 0
+LoginSite "/domains/estergrym/areas/skaven/room/r1"
+HostSite "cpe-172-73-117-211.carolina.res.rr.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 26
+Experience 4249
+Skills (["cloth armour":(["class":4,"level":50,]),"metal working":(["class":2,"level":50,]),"navigation":(["class":4,"level":50,]),"lockpicking":(["class":1,"level":25,]),"slash combat":(["class":2,"level":50,]),"knife combat":(["class":2,"level":50,]),"mithril working":(["class":1,"level":50,]),"mining":(["class":1,"level":50,]),"armour smithing":(["class":2,"level":50,]),"fishing":(["class":1,"level":50,]),"healing":(["class":3,"level":50,]),"wood working":(["class":2,"level":50,]),"skinning":(["class":2,"level":50,]),"weapon smithing":(["class":2,"level":50,]),"swimming":(["class":3,"level":50,]),"bargaining":(["class":1,"level":50,]),"leather working":(["class":2,"level":50,]),"farming":(["class":1,"level":50,]),"textile working":(["class":2,"level":50,]),"natural working":(["class":2,"level":50,]),"dodge":(["class":4,"level":50,]),"sailing":(["class":4,"level":50,]),])
+Morality -1500
+CanMulti 1
+Class "merchant"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Enniae","Enniae",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Conditions ([])
+Enemies ({})
+SpecialTargets ({})
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Lisht":50,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 570
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 2831
+Drink 2831
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 430.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right foot":(["armours":240,"children":({}),"health":140,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":270,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":530,"class":1,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":140,"class":4,"parent":"left leg",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":270,"class":2,"parent":"torso",]),"left leg":(["armours":525472,"children":({"left foot",}),"health":270,"class":2,"parent":"torso",]),"torso":(["armours":686080,"children":({"head","left leg","left arm","right arm","right leg",}),"health":530,"class":1,"parent":0,]),"right hand":(["armours":98318,"children":({}),"health":140,"class":4,"parent":"right arm",]),"left hand":(["armours":98318,"children":({}),"health":140,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":270,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 17
+LightSensitivity ({10,70,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":131070,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":37,]),"wisdom":(["class":3,"points":0,"level":38,]),"coordination":(["class":4,"points":0,"level":22,]),"intelligence":(["class":3,"points":0,"level":37,]),"luck":(["class":3,"points":0,"level":34,]),"strength":(["class":3,"points":0,"level":38,]),"durability":(["class":2,"points":0,"level":52,]),"charisma":(["class":5,"points":0,"level":24,]),])
+Languages (["rehshai":(["native":1,"name":"Rehshai","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Lisht"
+Race "gnoll"
+Gender "male"
+Nationality "Lisht"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1498100278
+Cooldowns ([])
+Currency (["imperials":2100,])
+Bank ([])
+CraftingRecipes ({"torch","boot broth","darkfire torch","shim","crude spade",})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"of Lisht",})
+Story 0
+Surname 0
+ApprovedStory 1
+OOCName 0
+Quests ({(/1498100293,"Newbie Book",/),})
+Deaths ({(/1498177971,"melchezidek",/),})
+DevelopmentPoints 210
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 1
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 0
+LastLevel 1499097331
+HighestLevel 26
+LongDaemonData ({0,0,0,0,0,})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

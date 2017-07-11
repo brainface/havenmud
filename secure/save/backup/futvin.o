@@ -1,0 +1,143 @@
+#/secure/save/players/f/futvin.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "Baron $N the Squire of Glimmerdin (Glimmerdin dwarf)"
+CapName "Futvin"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":1500,\"Mass\":250,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/crystal_reaches/towns/glimmerdin/obj/steelgauntlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":24995,\"Poison\":0,])","([\"Value\":87,\"Mass\":80,\"Worn\":({\"right hand\",}),\"Class\":15,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/cler_rap\",\"Broken\":0,\"DamagePoints\":316,\"Poison\":0,])","([\"#base_name#\":\"/domains/frostmarches/areas/underkeep/obj/key\",])","([\"Value\":75,\"Mass\":175,\"Worn\":({\"left arm\",}),\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/shield\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":196,\"Poison\":0,])","([\"Value\":75,\"Mass\":175,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/shield\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":1500,\"Mass\":250,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/crystal_reaches/towns/glimmerdin/obj/steelgauntlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":24521,\"Poison\":0,])","([\"Value\":4000,\"Mass\":350,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/domains/crystal_reaches/towns/glimmerdin/obj/steelbreastplate\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1981,\"Poison\":0,])","([\"Value\":4000,\"Mass\":400,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/domains/crystal_reaches/towns/glimmerdin/obj/steelcuisse\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":3311,\"Poison\":0,])","([\"Value\":3000,\"Mass\":150,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/crystal_reaches/towns/glimmerdin/obj/steelboots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":24190,\"Poison\":0,])","([\"Value\":2000,\"Mass\":75,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/crystal_reaches/towns/glimmerdin/obj/steelhelm\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":24490,\"Poison\":0,])","([\"Value\":200,\"Mass\":120,\"Worn\":0,\"Class\":15,\"#base_name#\":\"/std/mine/pickaxe\",\"Broken\":0,\"DamagePoints\":500,\"Poison\":0,])","([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":194,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":13,\"Mass\":35,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/shirt4\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":11,\"Poison\":0,])","([\"Value\":25,\"Mass\":50,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/pant4\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":140,\"Poison\":0,])","([\"Value\":40,\"Mass\":350,\"Worn\":0,\"Class\":6,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/hammer\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":20,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/torch\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":20,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/torch\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":45,\"Mass\":200,\"Worn\":0,\"Class\":6,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/shovel\",\"Broken\":0,\"DamagePoints\":678,\"Poison\":0,])","([\"Value\":4,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/shirt2\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":35,\"Poison\":0,])","([\"Value\":50,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/boot2\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":100,\"Poison\":0,])","([\"Value\":15,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/pant2\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":116,\"Poison\":0,])","([\"Value\":45,\"Mass\":200,\"Worn\":0,\"Class\":6,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/shovel\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":4,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/shirt2\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":35,\"Poison\":0,])","([\"Value\":50,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/boot2\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":76,\"Poison\":0,])","([\"Value\":15,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/pant2\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":140,\"Poison\":0,])","([\"Value\":4,\"Mass\":35,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/shirt3\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":23,\"Poison\":0,])","([\"Value\":40,\"Mass\":120,\"Worn\":0,\"Class\":7,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/pick\",\"Broken\":0,\"DamagePoints\":199,\"Poison\":0,])","([\"Value\":15,\"Mass\":50,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/pant3\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":140,\"Poison\":0,])","([\"Value\":10,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/boot1\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":30,\"Poison\":0,])","([\"Value\":4,\"Mass\":35,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/shirt3\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":35,\"Poison\":0,])","([\"Value\":40,\"Mass\":120,\"Worn\":0,\"Class\":7,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/pick\",\"Broken\":0,\"DamagePoints\":199,\"Poison\":0,])","([\"Value\":15,\"Mass\":50,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/pant3\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":128,\"Poison\":0,])","([\"Value\":10,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/boot1\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":30,\"Poison\":0,])","([\"Value\":45,\"Mass\":200,\"Worn\":0,\"Class\":6,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/shovel\",\"Broken\":0,\"DamagePoints\":678,\"Poison\":0,])","([\"Value\":5,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/shirt2\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":11,\"Poison\":0,])","([\"Value\":50,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/boot2\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":76,\"Poison\":0,])","([\"Value\":15,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/mines/obj/pant2\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":116,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","w":"go west","gac":"get all from $* corpse","tr":"ask kuthan to advance $*","u":"go up","cf":"consider first $*","out":"go out","oh":"chanhist ooc $*","s":"go south","cc":"cook first corpse $*","p":"who","oe":"oocemote $*","n":"go north",".":"status","sell":"ask tylus to buy $*","l":"look $*","k":"kill $*","mi":"mine with first pickaxe $*","i":"inventory","e":"go east","d":"go down","c":"consider $*","saysp":"say in sprith $*","pp":"protections","nw":"go northwest","kf":"kill first $*","ka":"kill all","sayel":"say in eltherian $*","sw":"go southwest","exa":"look at $*","..":"skills","...":"spells","ne":"go northeast","se":"go southeast","ga":"get all $*","lf":"look first $*","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ooc":0,])
+Screen ({99,43,})
+Wrapping 1
+SocialRank 2
+ConfirmedEmail 1
+Age 81774
+WhereBlock 0
+Brief 1
+LoginTime 1434803558
+BirthTime 1404876956
+Password "kkg`gdig!ebilhef`gbo`eebeanoaoej`ljcikn`i"
+Email "futvin@outlook.com"
+RealName "Aaron"
+Rank 0
+LoginSite "/domains/frostmarches/virtual/frostmarchrd/0,-4"
+HostSite "c-76-103-118-33.hsd1.ca.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Baron","citizen","Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 28
+Experience 7402
+Skills (["multi-weapon":(["class":4,"level":0,]),"metal working":(["class":2,"level":50,]),"melee combat":(["class":4,"level":0,]),"accuracy":(["class":2,"level":34,]),"heavy plate armour":(["class":4,"level":10,]),"combat rage":(["class":4,"level":10,]),"chain armour":(["class":2,"level":0,]),"slash combat":(["class":1,"level":54,]),"disarm":(["class":3,"level":15,]),"pierce combat":(["class":1,"level":57,]),"projectile combat":(["class":4,"level":0,]),"mining":(["class":2,"level":46,]),"armour smithing":(["class":4,"level":15,]),"weapon smithing":(["class":4,"level":15,]),"plate armour":(["class":1,"level":54,]),"bargaining":(["class":2,"level":36,]),"blunt combat":(["class":2,"level":9,]),"cooking":(["class":2,"level":34,]),"parry":(["class":1,"level":54,]),"hack combat":(["class":2,"level":10,]),])
+Morality 1950
+CanMulti 1
+Class "cavalier"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gwonish":-16,"Lloryk":8,"Karak":-52,"Glimmerdin":104,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 226
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 425
+Drink 461
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 460.000000
+Torso "torso"
+Fingers (["right hand":4,"left hand":4,])
+Limbs (["right foot":(["armours":240,"children":({}),"health":140,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":270,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":530,"class":1,"parent":"torso",]),"left arm":(["armours":733192,"children":({}),"health":270,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":140,"class":4,"parent":"left leg",]),"left leg":(["armours":525472,"children":({"left foot",}),"health":270,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","left arm","right arm",}),"health":530,"class":1,"parent":0,]),"right hand":(["armours":98318,"children":({}),"health":140,"class":4,"parent":"right arm",]),"left hand":(["armours":98318,"children":({}),"health":140,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":270,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 1
+LightSensitivity ({0,60,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["wisdom":(["class":2,"points":0,"level":45,]),"agility":(["class":4,"points":0,"level":28,]),"coordination":(["class":3,"points":0,"level":36,]),"luck":(["class":3,"points":0,"level":44,]),"intelligence":(["class":3,"points":0,"level":43,]),"strength":(["class":3,"points":0,"level":41,]),"durability":(["class":2,"points":0,"level":52,]),"charisma":(["class":3,"points":0,"level":35,]),])
+Languages (["sprith":(["native":0,"name":"Sprith","points":1000,"level":85,]),"runic":(["native":1,"name":"Runic","points":0,"level":100,]),"eltherian":(["native":0,"name":"Eltherian","points":1000,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1406358824,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Try to make it.%^RESET%^\"",}),})
+sphist ({})
+Town "Glimmerdin"
+Race "dwarf"
+Gender "male"
+Nationality "Glimmerdin"
+Size 8
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1405691726
+Currency (["nuggets":22,])
+Bank (["Bank of Glimmerdin":(["audit":"({ OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#73125), OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#73125), OBJ(/verbs/common/ask), OBJ(futvin /secure/save/players/f/futvin) })","nuggets":7436,"crystals":283,"last time":1407391587,"open":1405119674,"imperials":11977,"last trans":"withdrawal",]),])
+CraftingRecipes ({"iron ingot","bronze ingot",})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Squire of Glimmerdin","the Glimmerdin Tourist","of Glimmerdin","the Explorer",})
+Story "Futvin SilverAxe grew up wandering the caves and tunnels near Glimmerdin.  The SilverAxes tend to be miners and smiths, but occationally train as knifes for Glimmerdin.  He has a younger brother and sister.  Like the rest of his family, he has learned to work in the mines and he has learned some smithing.  Futvin joined the knights of Glimmerdin to help protect his family, and to occationally visit the neighboring areas as a lesser diplomat.  He hopes to make some good relations with the neiboring towns, and ensure the trade routes back to Glimmerdin."
+Surname 0
+ApprovedStory 1
+OOCName "Aaron"
+Quests ({(/1404877042,"Newbie Book",/),(/1404877780,"Glimmerdin Tour",/),(/1404884759,"Explored Grove",/),(/1406412309,"Bandit Camp",/),})
+Deaths 0
+DevelopmentPoints 33
+TitleLength 1
+TitleAnd 1
+NoRank 0
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 17
+LastLevel 1407864407
+HighestLevel 28
+LongDaemonData ({"black","brown","black","rough",0,})
+PermanentProperties (["mission":"/std/missions/southern_coast/swashbuckler",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

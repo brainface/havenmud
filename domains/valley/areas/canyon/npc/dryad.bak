@@ -1,0 +1,38 @@
+#include <lib.h>
+inherit LIB_NPC;
+#include "../jidnewbi.h"
+
+static void create() {
+   string DRYAD_GENDER;
+   npc::create();
+   SetProperty("jidnewbinoleave",1);
+   switch(random(2)) {
+
+      case 0:
+      DRYAD_GENDER = "male";
+      SetLong("The male dryad seems to want to protect his tree from "
+              "intruders.");
+      break;
+
+      case 1:
+      DRYAD_GENDER = "female";
+      SetLong("The female dryad seems to want to protect her tree from "
+              "intruders.");
+      break;
+   }
+   SetKeyName(DRYAD_GENDER + " dryad");
+   SetShort("a " + DRYAD_GENDER + " dryad");
+   SetId( ({ "dryad" }) );
+   SetAdjectives( ({ DRYAD_GENDER }) );
+   SetGender(DRYAD_GENDER);
+   SetRace("dryad");
+   SetClass("valkyr");
+   SetLevel(3+random(3));
+   SetInventory( ([
+                    JD_OBJ + "/glove" : "wear first glove on left hand",
+                    JD_OBJ + "/glove2" : "wear second glove on right hand",
+               ]) );
+}
+
+
+/* Approved by Zaxan on Sat Jan 17 02:19:16 1998. */

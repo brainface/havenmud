@@ -1,0 +1,4 @@
+#/secure/daemon/letters.c
+NoClean 1
+__Letter "The current way raised undead start with 1% spell knowledge isn't intentional per se so far as i know, it's just a result of how npcs and spellcasting are coded. It could potentially be changed in any number of ways but that's kind of project #136 to be honest."
+__Folders (["torak":({"new",}),])

@@ -1,0 +1,4 @@
+#/secure/daemon/options.c
+NoClean 1
+__MyGroups ([])
+__Options (["notify":1,"sig file":"-Signed, Alan Diran the faithful Marine",])

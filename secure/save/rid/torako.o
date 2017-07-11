@@ -1,0 +1,64 @@
+#/secure/save/immortals/t/torako.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Angel of Nausea"
+CapName "Torako"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":-1,\"Mass\":0,\"Portions\":1,\"MealStrength\":30,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/torako/obj/kegbeer\",\"MealType\":20,\"Broken\":0,\"Short\":\"a dixie cup of beer\",\"Long\":\"This dixie cup holds ice cold Miller High Life. The Champs! The dixie cup itself is bright red. There's a picture of a naked lady on it.                          8888  8888888                   888888888888888888888888                8888:::8888888888888888888888888              8888::::::8888888888888888888888888888             88::::::::888:::8888888888888888888888888           88888888::::8:::::::::::88888888888888888888         888 8::888888::::::::::::::::::88888888888   888            88::::88888888::::m::::::::::88888888888    8          888888888888888888:M:::::::::::8888888888888         88888888888888888888::::::::::::M88888888888888         8888888888888888888888:::::::::M8888888888888888         8888888888888888888888:::::::M888888888888888888         8888888888888888::88888::::::M88888888888888888888       88888888888888888:::88888:::::M888888888888888   8888      88888888888888888:::88888::::M::;o*M*o;888888888    88     88888888888888888:::8888:::::M:::::::::::88888888    8    88888888888888888::::88::::::M:;:::::::::::888888888       8888888888888888888:::8::::::M::aAa::::::::M8888888888       8   88   8888888888::88::::8::::M:::::::::::::888888888888888 8888  88  88888888888:::8:::::::::M::::::::::;::88:88888888888888888  8  8888888888888:::::::::::M:: @@@@@@@ ::::8w8888888888888888   88888888888:888::::::::::M::::: @a@ :::::M8i888888888888888  8888888888::::88:::::::::M88:::::::::::::M88z88888888888888888 8888888888:::::8:::::::::M88888:::::::::MM888!888888888888888888 888888888:::::8:::::::::M8888888MAmmmAMVMM888*88888888   88888888 888888 M:::::::::::::::M888888888:::::::MM88888888888888   8888888 8888   M::::::::::::::M88888888888::::::MM888888888888888    88888  888   M:::::::::::::M8888888888888M:::::mM888888888888888    8888   888  M::::::::::::M8888:888888888888::::m::Mm88888 888888   8888    88  M::::::::::::8888:88888888888888888::::::Mm8   88888   888    88  M::::::::::8888M::88888::888888888888:::::::Mm88888    88    8   MM::::::::8888M:::8888:::::888888888888::::::::Mm8     4        8M:::::::8888M:::::888:::::::88:::8888888::::::::Mm    2       88MM:::::8888M:::::::88::::::::8:::::888888:::M:::::M      8888M:::::888MM::::::::8:::::::::::M::::8888::::M::::M     88888M:::::88:M::::::::::8:::::::::::M:::8888::::::M::M    88 888MM:::888:M:::::::::::::::::::::::M:8888:::::::::M:    8 88888M:::88::M:::::::::::::::::::::::MM:88::::::::::::M      88888M:::88::M::::::::::*88*::::::::::M:88::::::::::::::M        888888M:::88::M:::::::::88@@88:::::::::M::88::::::::::::::M     888888MM::88::MM::::::::88@@88:::::::::M:::8::::::::::::::*8     88888  M:::8::MM:::::::::*88*::::::::::M:::::::::::::::::88@@     8888   MM::::::MM:::::::::::::::::::::MM:::::::::::::::::88@@      888    M:::::::MM:::::::::::::::::::MM::M::::::::::::::::*8      888    MM:::::::MMM::::::::::::::::MM:::MM:::::::::::::::M       88     M::::::::MMMM:::::::::::MMMM:::::MM::::::::::::MM        88    MM:::::::::MMMMMMMMMMMMMMM::::::::MMM::::::::MMM         88    MM::::::::::::MMMMMMM::::::::::::::MMMMMMMMMM          88   8MM::::::::::::::::::::::::::::::::::MMMMMM           8   88MM::::::::::::::::::::::M:::M::::::::MM \",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/sickmeal\",\"MealType\":18,\"Broken\":0,\"Short\":\"a bowl of chicken and noodles (and whiskey)\",\"Long\":\"Just like grandma used to make when you were sick. Your eyes water due to the savory smell and also seriously that is some whiskey oh god it's burning your eyes.\",\"DamagePoints\":0,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","say":"fart","telout":"$N teleports away.","leave":"$N leaves $D.","exclaim":"fart","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","ask":"fart","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory "/realms/torako"
+Nicknames (["aless":"alessandra","mel":"melchezidek",])
+Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","ie":"immemote $*","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ds":1,"ooc":0,"isport":1,"ibsg":1,"fs":1,])
+Screen ({99,44,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 441156
+WhereBlock 0
+Brief 1
+LoginTime 1397327453
+BirthTime 1395963773
+Password "alci`o`h!gmib`fgkfa`aokcbnacjebleiglnafld"
+Email "bjorn.brown@yahoo.com"
+RealName "Bjorn"
+Rank 0
+LoginSite "/domains/staff/adm/void"
+HostSite "199-241-202-99.PUBLIC.monkeybrains.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.announcements":1,])
+NewServerLogin 1
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({({1396086760,"%^BOLD%^RED%^You tell Cratylus@Dead Souls:%^RESET%^ dev you and i are BEST FRIENDS now, buddy",}),({1396086784,"%^BOLD%^RED%^You tell \"cratylus@Dead Souls:%^RESET%^ dev\" you and i are BEST FRIENDS now, buddy",}),({1396555232,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"I'M YOUR BOOBERRY.%^RESET%^\"",}),({1396555242,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Im gonna log into urban dictionary and create footbro and the definition will be, 'this is not a word.'.%^RESET%^\"",}),({1396555267,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Shine on you crazy diamond.%^RESET%^\"",}),})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1395963812
+Position 2
+WhoInvis 0
+Angel 1
+Retired 0
+Sponsor "None"
+Religion ({"None",})
+ReligionTitle 0
+Department 0
+Domain "None"
+DomainTitle 0
+Sponsorees ({})
+Gender "male"
+Status 0

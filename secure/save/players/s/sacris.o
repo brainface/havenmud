@@ -1,0 +1,143 @@
+#/secure/save/players/s/sacris.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Vampire Hunter (Haven half-elf)"
+CapName "Sacris"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":50,\"Mass\":100,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/staff\",\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":10,\"Mass\":45,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":9,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/shirt\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":230,\"Poison\":0,])","([\"Value\":50,\"Mass\":100,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/staff\",\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":10,\"Mass\":45,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":10,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":211,\"Poison\":0,])","([\"Value\":10,\"Mass\":45,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":231,\"Poison\":0,])","([\"Value\":10,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":219,\"Poison\":0,])","([\"Value\":10,\"Mass\":45,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":234,\"Poison\":0,])","([\"Value\":10,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":213,\"Poison\":0,])","([\"Value\":120,\"Mass\":20,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/knife\",\"Broken\":0,\"DamagePoints\":545,\"Poison\":0,])","([\"Value\":10,\"Mass\":45,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":10,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":192,\"Poison\":0,])","([\"Value\":40,\"Mass\":200,\"Worn\":0,\"Class\":12,\"#base_name#\":\"/std/mission_obj/stake\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":150,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":150,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":150,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":150,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":10,\"Mass\":45,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":218,\"Poison\":0,])","([\"Value\":10,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":242,\"Poison\":0,])","([\"Value\":120,\"Mass\":20,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/knife\",\"Broken\":0,\"DamagePoints\":112,\"Poison\":0,])","([\"Value\":10,\"Mass\":45,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":10,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":234,\"Poison\":0,])","([\"Value\":150,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":10,\"Mass\":45,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":10,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":221,\"Poison\":0,])","([\"Value\":50,\"Mass\":100,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/staff\",\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":120,\"Mass\":20,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/knife\",\"Broken\":0,\"DamagePoints\":650,\"Poison\":0,])","([\"Value\":10,\"Mass\":45,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":10,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":236,\"Poison\":0,])","([\"Value\":120,\"Mass\":20,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/knife\",\"Broken\":0,\"DamagePoints\":650,\"Poison\":0,])","([\"Value\":10,\"Mass\":45,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":10,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/items/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":188,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":50,\"Mass\":80,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/southern_coast/areas/dw/obj/club\",\"Broken\":0,\"DamagePoints\":185,\"Poison\":0,])","([\"Value\":75,\"Mass\":230,\"Worn\":0,\"Class\":14,\"#base_name#\":\"/std/weapon/blunt/justice\",\"Broken\":0,\"DamagePoints\":838,\"Poison\":0,])","([\"Value\":0,\"Mass\":175,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/oldvest\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":731,\"Poison\":0,])","([\"Value\":0,\"Mass\":160,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/oldpants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":391,\"Poison\":0,])","([\"Value\":0,\"Mass\":95,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/oldhelmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":176,\"Poison\":0,])","([\"Value\":108,\"Mass\":190,\"Worn\":0,\"#base_name#\":\"/std/armour/shirt/studded_leather\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":231,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/kylin_book\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":60,\"Worn\":0,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/turban\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":397,\"Poison\":0,])","([\"Value\":0,\"Mass\":87,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/std/obj/digging/shovel\",\"Broken\":0,\"DamagePoints\":100,\"Poison\":0,])","([\"Value\":0,\"Mass\":100,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/crystal_reaches/towns/lloryk/obj/hoe\",\"Broken\":0,\"DamagePoints\":1100,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":874,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":958,\"Poison\":0,])","([\"Value\":100,\"Mass\":15,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/leatherglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":2500,\"Poison\":0,])","([\"Value\":100,\"Mass\":15,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/leatherglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":2398,\"Poison\":0,])","([\"Value\":300,\"Mass\":40,\"Worn\":0,\"Class\":11,\"#base_name#\":\"/domains/southern_coast/areas/dw/obj/dagger\",\"Broken\":0,\"DamagePoints\":900,\"Poison\":0,])","([\"Value\":12,\"Mass\":80,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/dw/obj/club\",\"Broken\":0,\"DamagePoints\":434,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt ">"
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","w":"go west","gac":"get all from $* corpse","sav":"save $*","u":"go up","out":"go out","s":"go south","cb":"cast bless on sacris $*","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","k":"kill $*","i":"inventory","td":"cast turn undead $*","e":"go east","con":"consider $*","d":"go down","fd":"cast fidei defensor $*","pp":"protections","inv":"inventory $*","nw":"go northwest","wi":"wield $*","ka":"kill all","dd":"cast desert divining $*","sw":"go southwest","exa":"look at $*","..":"skills $*","st":"stand $*","...":"spells","ne":"go northeast","se":"go southeast","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "xterm"
+Blocked (["ooc":0,])
+Screen ({120,68,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 43459
+WhereBlock 0
+Brief 0
+LoginTime 1494462668
+BirthTime 1493685657
+Password "flocfjkg!godfbicb`abdkeekdnilncein`jfgbh`"
+Email "rln.taylor@gmail.com"
+RealName "Sacris"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/church/hospice"
+HostSite "host-184-166-213-78.but-mt.client.bresnan.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 12
+Experience 0
+Skills (["reinforced armour":(["class":2,"level":25,]),"metal working":(["class":4,"level":22,]),"cloth armour":(["class":2,"level":22,]),"fire magic":(["class":2,"level":26,]),"chain armour":(["class":2,"level":23,]),"faith":(["class":1,"level":25,]),"mining":(["class":4,"level":26,]),"armour smithing":(["class":4,"level":22,]),"healing":(["class":1,"level":24,]),"fishing":(["class":4,"level":22,]),"leather armour":(["class":2,"level":25,]),"skinning":(["class":4,"level":26,]),"weapon smithing":(["class":4,"level":20,]),"bargaining":(["class":2,"level":24,]),"leather working":(["class":4,"level":20,]),"farming":(["class":4,"level":21,]),"blunt combat":(["class":1,"level":26,]),"enchantment":(["class":1,"level":25,]),])
+Morality 2500
+CanMulti 1
+Class "cleric"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({,})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Haven":72,"Malveillant":-36,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 350
+MagicPoints 290
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1301
+Drink 1118
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 13
+Cursed 0
+StaminaPoints 360.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":160,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","left arm","right arm",}),"health":310,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":160,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":310,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":160,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":160,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({20,75,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["wisdom":(["class":3,"points":0,"level":45,]),"agility":(["class":3,"points":0,"level":31,]),"coordination":(["class":3,"points":0,"level":30,]),"luck":(["class":4,"points":0,"level":33,]),"intelligence":(["class":2,"points":0,"level":30,]),"strength":(["class":3,"points":0,"level":31,]),"durability":(["class":3,"points":0,"level":30,]),"charisma":(["class":3,"points":0,"level":41,]),])
+Languages (["imperial":(["native":0,"name":"Imperial","points":1000,"level":16,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Haven"
+Race "half-elf"
+Gender "male"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1494463568
+Currency (["cuicui":2555,"rupies":1485,"imperials":6085,])
+Bank (["Haven Bank":(["rounds":17999,"open":1493691226,"imperials":105054,"last trans":"withdrawal","audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#36972), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#36972), OBJ(/verbs/common/ask), OBJ(sacris /secure/save/players/s/sacris) })","cuicui":7546,"orcteef":1620,"chits":1,"last time":1494441765,]),])
+CraftingRecipes ({})
+SpellBook (["fortify":35,"create detox potion":35,"halt bleeding":7,"create shadows":35,"desert divining":100,"fidei defensor":30,"discern morality":1,"discern killer":1,"unravel wards":3,"remove paralysis":1,"detect magic":80,"bless":100,"touch":70,"divine whisper":100,"divine morality":1,"create water":3,"turn undead":100,"smite":100,"revive":85,"create light":40,"mend":3,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Vampire Hunter","the Zombie Slayer","the Haven Town Courier","the Glimmerdin Tourist","the Bird Watcher","the Chef's Aide","the Adversary of Arachnids","the Guardian of the Old Cemetery","the Blueberry Picker","the Bandit Slayer","the Platypus Skinner","the Haven Town Runner","the Vacationer","the Equipped","the Explorer","the Mendicant of Kylin","the Haven Tourist","of Haven",})
+Story "Sacris Ardent was born to an elf father and human mother near the town of Haven.  From his earliest years, he has always been organized and abhorred chaos.  No one from Haven was surprised when he became a Kylin cleric. It seemed it was his destiny.  Sacris is a traveler, preaching the virtues of order and balance.  Those who will not convert and are servants of chaos are dispatched with his weapon, which he calls Justice."
+Surname "Ardent"
+ApprovedStory 1
+OOCName 0
+Quests ({(/1493685829,"Newbie Book",/),(/1493687240,"Haven Tour",/),(/1493687644,"Bandit Camp",/),(/1493687748,"Leather Emporium",/),(/1493687916,"Platypus Bay",/),(/1493688128,"Message Courier",/),(/1493689536,"Platypus Skinner",/),(/1493690120,"Bandit Slayer",/),(/1493691887,"Rabbit Food",/),(/1493691992,"Blueberry Picker",/),(/1493819026,"Graveyard Cleanup",/),(/1494209641,"Tarantula Slayer",/),(/1494256150,"Monkey Meat",/),(/1494257078,"Bird Watcher",/),(/1494264484,"Glimmerdin Tour",/),(/1494457232,"Message Courier pt 2",/),(/1494457664,"Tower Assault 1",/),(/1494463216,"Tower Assault 2",/),})
+Deaths ({(/1494446561,"extreme temperature",/),(/1494463568,"black octopus",/),})
+DevelopmentPoints 26
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 11
+LastLevel 1494441832
+HighestLevel 12
+LongDaemonData ({"hazel","dirty blonde","almond","tanned",0,})
+PermanentProperties (["mission":"/std/missions/valley/ji_tower_assault_3","no_autosave_spam":1,"status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

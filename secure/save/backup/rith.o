@@ -1,0 +1,143 @@
+#/secure/save/players/r/rith.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Nurturer of Death (Gwonish lizardman)"
+CapName "Rith"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":80,\"Mass\":200,\"Worn\":0,\"Class\":12,\"#base_name#\":\"/std/weapon/pole/staff\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Class\":8,\"Worn\":0,\"CatchChance\":40,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":125,\"PoleStrength\":300,\"#base_name#\":\"/std/obj/fishing/pole\",\"DamagePoints\":400,])","([\"Value\":0,\"Mass\":175,\"Worn\":({\"right hand\",\"left hand\",}),\"Class\":8,\"#base_name#\":\"/std/weapon/staff\",\"Broken\":0,\"DamagePoints\":391,\"Poison\":0,])","([\"Value\":0,\"Mass\":25,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/std/weapon/knife/hunting_knife\",\"Broken\":0,\"DamagePoints\":540,\"Poison\":0,])","([\"Value\":0,\"PeltClass\":0,\"Class\":1,\"Worn\":0,\"PeltSource\":\"swamprat\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/crystal_reaches/areas/gwonish/obj/generic_skin\",\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":0,\"PeltClass\":0,\"Class\":1,\"Worn\":0,\"PeltSource\":\"swamprat\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/crystal_reaches/areas/gwonish/obj/generic_skin\",\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":0,\"PeltClass\":0,\"Class\":1,\"Worn\":0,\"PeltSource\":\"swamprat\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/crystal_reaches/areas/gwonish/obj/generic_skin\",\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":0,\"#base_name#\":\"/std/armour/free_armour/medium/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":95,\"Worn\":({\"head\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldhelmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":80,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldboots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":160,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldpants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":175,\"Worn\":({\"torso\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldvest\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":30,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"swamprat\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2,\"Mass\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/crystal_reaches/areas/gwonish/obj/generic_skin\",\"Broken\":0,\"DamagePoints\":250,\"Poison\":0,])","([\"Value\":15,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"beaver\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":30,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/crystal_reaches/areas/gwonish/obj/generic_skin\",\"Broken\":0,\"DamagePoints\":120,\"Poison\":0,])","([\"Value\":15,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"bunny\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":30,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/crystal_reaches/areas/gwonish/obj/generic_skin\",\"Broken\":0,\"DamagePoints\":120,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","gac":"get all from $* corpse","w":"go west","tr":"ask essellias to train $*","u":"go up","cf":"consider first $*","out":"go out","s":"go south","aci":"cast acid splash $*","oe":"oocemote $*","p":"who",".":"status","n":"go north","l":"look $*","k":"kill $*","buff":"cast buffer $*","i":"inventory","te":"ask essellias to teach $*","e":"go east","d":"go down","disp":"cast disperse protections $*","pp":"protections","nw":"go northwest","kf":"kill first $*","bs":"backstab first $*","locz":"cast locate zombie $*","ka":"kill all","exa":"look at $*","sw":"go southwest","..":"skills","...":"spells","ex":"ask $* to explain","skul":"cast skull of darkness $*","ne":"go northeast","sk":"skin first corpse $*","ani":"cast anmate dead on $* corpse","cur":"cast curse on $*","mis":"cast missile $*","ga":"get all $*","se":"go southeast","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({99,38,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 0
+WhereBlock 0
+Brief 1
+LoginTime 1434614265
+BirthTime 1412313928
+Password "gm`egnm`!`ifammec`kcjfogfdhhngcnkn`cagmji"
+Email "merman.frenzy@gmail.com"
+RealName "Aaron"
+Rank 0
+LoginSite "/domains/crystal_reaches/towns/gwonish/room/necros"
+HostSite "c-76-103-118-33.hsd1.ca.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 2
+Experience 170
+Skills (["cloth armour":(["class":1,"level":3,]),"stealth":(["class":1,"level":3,]),"combat rage":(["class":4,"level":0,]),"conjuring":(["class":1,"level":5,]),"knife combat":(["class":2,"level":0,]),"mithril working":(["class":4,"level":0,]),"natural armour":(["class":4,"level":0,]),"necromancy":(["class":1,"level":5,]),"mining":(["class":4,"level":1,]),"fishing":(["class":4,"level":1,]),"pole combat":(["class":2,"level":0,]),"skinning":(["class":2,"level":1,]),"bargaining":(["class":4,"level":1,]),"leather working":(["class":2,"level":0,]),"farming":(["class":4,"level":1,]),"natural working":(["class":2,"level":0,]),"dodge":(["class":4,"level":0,]),"poison magic":(["class":2,"level":0,]),"evokation":(["class":2,"level":3,]),])
+Morality -10
+CanMulti 1
+Class "necromancer"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kuthar","Kuthar",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gwonish":52,"Lloryk":-26,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 400
+MagicPoints 300
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1930
+Drink 1930
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 330.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":360,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":180,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":90,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":90,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":180,]),"torso":(["children":({"head","tail","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":360,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":180,]),"tail":(["children":({}),"armours":1048576,"parent":"torso","class":2,"health":180,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":90,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":180,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":90,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 15
+LightSensitivity ({-10,40,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":28,]),"wisdom":(["class":3,"points":0,"level":25,]),"coordination":(["class":3,"points":0,"level":28,]),"strength":(["class":3,"points":0,"level":28,]),"intelligence":(["class":4,"points":0,"level":25,]),"luck":(["class":3,"points":0,"level":30,]),"durability":(["class":2,"points":0,"level":35,]),"charisma":(["class":4,"points":0,"level":24,]),])
+Languages (["slith":(["native":1,"name":"Slith","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Gwonish"
+Race "lizardman"
+Gender "male"
+Nationality "Gwonish"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1412313928
+Currency ([])
+Bank ([])
+CraftingRecipes ({})
+SpellBook (["missile":4,"buffer":7,"disperse protections":1,"spirit call":1,"curse":4,"animate dead":1,"shroud":1,"skull of darkness":1,"locate zombie":1,"acid splash":11,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Nurturer of Death","of Gwonish",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "Aaron"
+Quests ({(/1412313972,"Newbie Book",/),})
+Deaths 0
+DevelopmentPoints 2
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 0
+LastLevel 1412316597
+HighestLevel 2
+LongDaemonData ({0,0,0,0,0,})
+PermanentProperties (["status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

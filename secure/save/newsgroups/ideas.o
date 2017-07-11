@@ -1,0 +1,11 @@
+#/secure/lib/newsgroup.c
+__GroupId "ideas"
+__RaceRestriction ""
+__TownRestriction ""
+__GuildRestriction ""
+__ClassRestriction ""
+__ReligionRestriction ""
+__FriendlyName "Idea Discussion"
+__ReadRankRestriction 1
+__PostRankRestriction 1
+__Posts ({})

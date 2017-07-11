@@ -1,0 +1,143 @@
+#/secure/save/players/r/ruakh.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "Hajji $N the Butcher of Kailie (Yozrath human)"
+CapName "Ruakh"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":50,\"Mass\":70,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/domains/xandria/areas/mastaba_area/obj/bandages\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":637,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":50,\"Mass\":4,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/zills\",\"Broken\":0,\"DamagePoints\":500,\"Poison\":0,])","([\"Value\":75,\"Mass\":80,\"Worn\":0,\"#base_name#\":\"/std/clothing/body/gray_robe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":236,\"Poison\":0,])","([\"Value\":1200,\"Mass\":180,\"Worn\":({\"right hand\",}),\"Class\":24,\"#base_name#\":\"/domains/tairi/towns/tairi/obj/katana\",\"Broken\":0,\"DamagePoints\":3988,\"Poison\":0,])","([\"Value\":600,\"Mass\":180,\"Worn\":({\"left hand\",}),\"Class\":23,\"#base_name#\":\"/domains/tairi/towns/tairi/obj/katana\",\"Broken\":0,\"DamagePoints\":3265,\"Poison\":0,])","([\"Value\":1200,\"Mass\":180,\"Worn\":0,\"Class\":24,\"#base_name#\":\"/domains/tairi/towns/tairi/obj/katana\",\"Broken\":0,\"DamagePoints\":4000,\"Poison\":0,])","([\"Value\":1200,\"Mass\":180,\"Worn\":0,\"Class\":24,\"#base_name#\":\"/domains/tairi/towns/tairi/obj/katana\",\"Broken\":0,\"DamagePoints\":4000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["sofb":"sing song of forgotten battles to $*","la":"look at $*","ts":"sing tavernsong to $*","gac":"get all from first corpse $*","w":"go west","u":"go up","out":"go out","s":"go south","oe":"oocemote $*","p":"who","n":"go north",".":"status","bless":"cast bless on $*","l":"look $*","sof":"cast shield of faith $*","kt":"cast kylin touch on $*","k":"kill $*","touch":"cast kylin touch on $*","spells":"spells -c -l $*","acb":"ask acoma to buy $*","hb":"cast harm body on $*","i":"inventory","dr":"cast divine retribution $*","aoa":"sing aria of angels $*","e":"go east","d":"go down","dp":"cast divine power on $*","adv":"ask bektash to advance $*","aks":"ask kikuchiyo to sell $*","ma":"sing melodic allure to $*","pp":"protections","atb":"ask tylus to buy $*","po":"cast pious obstructions $*","nw":"go northwest","hoj":"cast hand of judgement on $*","ka":"kill all","swof":"cast superior wall of force $*","exa":"look at $*","sw":"go southwest $*","db":"cast desert banishment on $*","wrath":"cast wrath on $*","sup":"cast superior wrath on $*","..":"skills","fort":"cast fortify on $*","...":"spells","prot":"protections $*","bos":"sing ballad of the seasons to $*","wof":"cast wall of force $*","ne":"go northeast","aib":"ask ishmael to buy $*","smite":"cast smite on $*","el":"say in eltherian $*","advv":"ask hurley to advance $*","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ooc":0,])
+Screen ({127,23,})
+Wrapping 1
+SocialRank 2
+ConfirmedEmail 1
+Age 324147
+WhereBlock 0
+Brief 1
+LoginTime 1496697887
+BirthTime 1215397978
+Password "ahimicad!kljkomiejglmaligjhfdkbbajkcgcafm"
+Email "fuzzydemon84@hotmail.com"
+RealName "John"
+Rank 0
+LoginSite "/domains/yozrath/towns/yozrath/room/mosque3"
+HostSite "localhost"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Hajji","Citizen","Pasha","Hajji","Hajji","Hajji",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 128
+Experience 5440
+Skills (["multi-weapon":(["class":1,"level":254,]),"metal working":(["class":4,"level":25,]),"cloth armour":(["class":2,"level":200,]),"melee combat":(["class":4,"level":25,]),"accuracy":(["class":2,"level":200,]),"fire magic":(["class":2,"level":109,]),"instrumental music":(["class":2,"level":204,]),"vocal music":(["class":2,"level":204,]),"slash combat":(["class":1,"level":255,]),"mithril working":(["class":4,"level":28,]),"faith":(["class":1,"level":255,]),"armour smithing":(["class":4,"level":50,]),"healing":(["class":1,"level":255,]),"weapon smithing":(["class":4,"level":24,]),"leather working":(["class":4,"level":24,]),"bargaining":(["class":4,"level":10,]),"textile working":(["class":4,"level":24,]),"blunt combat":(["class":2,"level":0,]),"parry":(["class":4,"level":100,]),"enchantment":(["class":1,"level":255,]),"evokation":(["class":1,"level":255,]),])
+Morality 2146
+CanMulti 1
+Class "imam"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gwonish":-8,"Durgoroth":-26,"Tairi":-10,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 900
+MagicPoints 930
+Bleeding 0
+Alcohol 0
+Caffeine 1107
+Food 599
+Drink 388
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 890.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":860,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":430,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":220,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":220,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":430,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":860,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":430,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":220,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":430,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":220,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 7
+LightSensitivity ({25,75,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":65534,])
+Stats (["wisdom":(["class":3,"points":0,"level":85,]),"agility":(["class":3,"points":0,"level":73,]),"coordination":(["class":3,"points":0,"level":74,]),"luck":(["class":3,"points":0,"level":78,]),"intelligence":(["class":3,"points":0,"level":77,]),"strength":(["class":3,"points":0,"level":84,]),"durability":(["class":3,"points":0,"level":85,]),"charisma":(["class":3,"points":0,"level":91,]),])
+Languages (["imperial":(["native":0,"name":"Imperial","points":1000,"level":100,]),"padashi":(["native":1,"name":"Padashi","points":0,"level":100,]),"eltherian":(["native":0,"name":"Eltherian","points":1000,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1215930290,"%^BOLD%^RED%^Laoise tells you,%^RESET%^ \"Aww, you made a friend. Just wait, A/S comes next.%^RESET%^\"",}),({1215930300,"%^BOLD%^RED%^You tell Laoise,%^RESET%^ \"13/f/cali!%^RESET%^\"",}),({1215930308,"%^BOLD%^RED%^Laoise tells you,%^RESET%^ \"....ew.%^RESET%^\"",}),({1246579610,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"?%^RESET%^\"",}),({1313861550,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"I can't make them drop more. SetCurrency is weird as crap.%^RESET%^\"",}),({1313861569,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Same line of code, different creatures, thousands of coins. :P.%^RESET%^\"",}),({1313861594,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Feel free to look at it!%^RESET%^\"",}),({1313861619,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"What about... who->GetLevel() case 1..25 my_money=random(25).%^RESET%^\"",}),({1313861642,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Then SetCurrency(my_money)\"? I'd have to look at it.%^RESET%^\"",}),})
+sphist ({})
+Town "Yozrath"
+Race "human"
+Gender "male"
+Nationality "Yozrath"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 60
+WimpyCmd "go south"
+LastWimpy 1335564419
+Currency (["imperials":300000,"koken":202662,])
+Bank (["Tai MoneyChanger":(["audit":"({ OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#2011193), OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#2011193), OBJ(/verbs/players/request), OBJ(ruakh /secure/save/players/r/ruakh) })","last time":1215993511,"open":1215993511,"koken":10,"last trans":"opened account",]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#24788), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#24788), OBJ(/verbs/common/ask), OBJ(ruakh /secure/save/players/r/ruakh) })","dinar":1409272,"last time":1313356274,"open":1215457647,"imperials":5,"last trans":"deposit",]),"Yozrath Trust":(["dinar":1167976,"skins":95208,"imperials":34307,"open":1215413997,"last trans":"withdrawal","audit":"({ OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#29105), OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#29105), OBJ(/verbs/common/ask), OBJ(ruakh /secure/save/players/r/ruakh) })","crystals":19185,"last time":1313861821,]),])
+CraftingRecipes ({})
+SpellBook (["divine power":100,"halt bleeding":25,"flaming arrow":35,"purify":1,"desert divining":1,"discern killer":7,"remove paralysis":1,"invisibility purge":89,"touch":21,"desert banishment":68,"hand of judgement":100,"divine religion":13,"summon lesser effigy":49,"divine retribution":100,"holy shield":1,"create detox potion":1,"kylin touch":100,"heal":30,"wrath":100,"cure disease":41,"holy fury":1,"holy celerity":100,"detect magic":1,"unholy guardian":1,"rejuvenation":100,"gate":30,"protect":12,"reinforce shields":1,"create food":100,"clarity of thought":1,"serenity":100,"harm body":100,"turn undead":13,"revive":100,"superior wall of force":100,"aegis of the faithful":100,"sting":5,"divine elemental resistance":1,"bless":100,"empower":100,"cure blindness":2,"jolt":100,"create water":100,"shield of faith":100,"divine cataclysm":1,"summon relic":100,"banish lesser effigy":40,"burning hand":1,"create light":84,"fortify":100,"superior wrath":100,"dispel poison":39,"disperse protections":14,"create shadows":29,"fidei defensor":100,"sanctify":2,"discern morality":1,"barrier of faith":1,"wall of force":100,"resurrect":100,"desert walk":46,"unravel wards":1,"divine magic fully":1,"pious obstructions":100,"reveal soul":1,"divine whisper":8,"divine morality":6,"imbue weapon":100,"smite":100,"detect magic fully":1,"regenerate limb":30,"shockwave":1,"mend":100,])
+SongBook (["de capo":1,"warrior's honor":1,"ballad of the seasons":1,"reveillez":1,"staccato":1,"banshee scream":1,"star strike":4,"harpy's shriek":1,"harmonic replenishment":1,"solar ballad":1,"harmonic shield":1,"angel whisper":1,"wail of the banshee":1,"desert path":1,"hymn of the chorist":1,"shielding song":1,"lunar ballad":1,"dirge of the rogue":1,"tavernsong":100,"aria of stone":1,"nourishment":1,"debutant aria":1,"aria of ice":1,"vibrations of destruction":1,"aria of midnight":99,"quenching":1,"aria of angels":100,"pianissimo":1,"aura of brilliance":1,"ballad of winter":1,"aural shield":1,"tingling song":1,"famine":100,"expulsion":1,"glory of the mage":1,"mesmerize audience":1,"song of the dance":3,"song of sorrow":1,"dispel aria of midnight":68,"magical lullaby":1,"charm individual":1,"protective note":1,"ballad of summer":1,"thirst":100,"melodic allure":100,"melody of war":1,"song of forgotten battles":100,"ballad of autumn":1,"aria of air":1,"drift":1,"aria of fire":1,"ballad of spring":1,])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Butcher of Kailie","the Prophet of the Desert","$N the Preacher of the Sands","the Exorcist","of Yozrath","the Ransacker of the Mage Tower","the Defender of Parva against Pirates","the Destroyer of the Orcish Raiding Party","the Consecrated Defender of the Shrine","the Eradicator of Outlaws","the Enlightened Climber","the Ronin Slayer","the Arboretum Visitor","the Island Explorer","the Mahdi of the Dunes","the Caravan Guard","the Swashbuckler","the Desert Imam","the Reposessor","$N the Desert Acolyte of Kylin","the Organ Carrier","the Ferry Rider","the Defender of the Keep","the Crystal Courier","the Bandit Slayer","the Chef's Aide","the Adversary of Arachnids","the Platypus Skinner","the Envoy of Haven Town","the Trash Picker","the Haven Town Messenger","the Haven Town Courier","the Haven Town Runner","the Vacationer","the Equipped","the Explorer",})
+Story 0
+Surname "al-Siddiqqi"
+ApprovedStory 1
+OOCName "john"
+Quests ({(/1215398622,"Newbie Book",/),(/1215400614,"Bandit Camp",/),(/1215400646,"Leather Emporium",/),(/1215400726,"Platypus Bay",/),(/1215400782,"Message Courier",/),(/1215400826,"Explored Grove",/),(/1215412926,"Message Courier pt 2",/),(/1215413030,"Message Courier pt 3",/),(/1215413124,"Gurov Trash Search",/),(/1215413134,"Message Courier pt 4",/),(/1215419578,"Platypus Skinner",/),(/1215420367,"Tarantula Slayer",/),(/1215420391,"Monkey Meat",/),(/1215423143,"Bandit Slayer",/),(/1215423367,"Bandit Leader",/),(/1215425808,"Crystal Ball Delivery",/),(/1215426480,"Defender of the Keep pt 1",/),(/1215426673,"Averath Ferry",/),(/1215456014,"Organ Delivery",/),(/1215477940,"Reposession",/),(/1215559489,"Swashbuckling",/),(/1215960198,"Dwarf Merchant",/),(/1215993001,"Ronin Camp",/),(/1215993033,"Cherry Blossom",/),(/1215993201,"Ronin Slayer",/),(/1215993217,"Ronin Leader",/),(/1215993261,"Purification Part 1",/),(/1215994201,"Purification Part 2",/),(/1215994757,"Purification Part 3",/),(/1215996034,"Mount Shatadru",/),(/1242202528,"Defender of the Keep pt 2",/),(/1244182762,"Haven Mage Tower",/),})
+Deaths ({(/1215950714,"gag",/),(/1216063326,"elf mage",/),(/1313362872,"kysanth",/),(/1313726957,"elemental knight",/),(/1313861326,"pirate",/),})
+DevelopmentPoints 32
+TitleLength 1
+TitleAnd 0
+NoRank 0
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 520
+LastLevel 1269399818
+HighestLevel 128
+LongDaemonData ({"blue","black",0,"tanned",0,})
+PermanentProperties (["mission":"/std/missions/all/visit_xandria","status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

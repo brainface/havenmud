@@ -1,0 +1,142 @@
+#/secure/save/players/a/alheimer.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Young Glimmerdin Fighter (Glimmerdin dwarf) (undead)"
+CapName "Alheimer"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/small_shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/small_shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/small_pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({99,66,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 1612
+WhereBlock 0
+Brief 0
+LoginTime 1375041592
+BirthTime 1374865900
+Password "jecki`od!jiel`ohfjecbi`dj`ghniaibobalcena"
+Email "matthewjdevito@gmail.com"
+RealName "Matt"
+Rank 0
+LoginSite "/domains/crystal_reaches/towns/glimmerdin/room/cemetery"
+HostSite "pool-96-255-206-49.washdc.fios.verizon.net"
+WebPage 0
+AdditionalId ({"zombie",})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 6
+Experience 0
+Skills (["reinforced armour":(["class":2,"level":0,]),"multi-weapon":(["class":1,"level":14,]),"metal working":(["class":4,"level":0,]),"melee combat":(["class":4,"level":0,]),"accuracy":(["class":4,"level":1,]),"slash combat":(["class":1,"level":14,]),"combat rage":(["class":1,"level":14,]),"chain armour":(["class":2,"level":0,]),"disarm":(["class":4,"level":1,]),"knife combat":(["class":4,"level":0,]),"disorient":(["class":4,"level":1,]),"armour smithing":(["class":4,"level":0,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":1,]),"pole combat":(["class":4,"level":0,]),"skinning":(["class":4,"level":0,]),"weapon smithing":(["class":4,"level":0,]),"plate armour":(["class":2,"level":0,]),"leather working":(["class":4,"level":0,]),"dodge":(["class":4,"level":1,]),"blunt combat":(["class":4,"level":0,]),"parry":(["class":4,"level":1,]),"hack combat":(["class":1,"level":14,]),])
+Morality 1550
+CanMulti 1
+Class "fighter"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Karak":-30,"Glimmerdin":60,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 1
+UndeadType "zombie"
+HealthPoints 470
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 2348
+Drink 2348
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 400.000000
+Torso "torso"
+Fingers (["right hand":4,"left hand":4,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":220,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","left arm","right arm",}),"health":430,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":110,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":220,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":430,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":110,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":220,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":110,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":110,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":220,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 15
+LightSensitivity ({0,60,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["wisdom":(["class":2,"points":0,"level":33,]),"agility":(["class":4,"points":0,"level":20,]),"coordination":(["class":3,"points":0,"level":31,]),"luck":(["class":3,"points":0,"level":31,]),"intelligence":(["class":3,"points":0,"level":29,]),"strength":(["class":3,"points":0,"level":35,]),"durability":(["class":2,"points":0,"level":42,]),"charisma":(["class":3,"points":0,"level":29,]),])
+Languages (["runic":(["native":1,"name":"Runic","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Glimmerdin"
+Race "dwarf"
+Gender "male"
+Nationality "Glimmerdin"
+Size 8
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1375045380
+Currency ([])
+Bank ([])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Young Glimmerdin Fighter","of Glimmerdin",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "Matt"
+Quests ({(/1374866148,"Newbie Book",/),})
+Deaths ({(/1375045397,"bandit",/),})
+DevelopmentPoints 10
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 4
+LastLevel 1375043565
+HighestLevel 6
+LongDaemonData ({"black","grey","brown","rugged",0,})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

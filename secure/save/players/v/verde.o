@@ -1,0 +1,145 @@
+#/secure/save/players/v/verde.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Hiding Elfling (Lisht elf)"
+CapName "Verde"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"insect\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":225,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"snake\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"insect\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"insect\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":225,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"snake\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":225,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"snake\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":225,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"snake\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"insect\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"insect\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"insect\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"insect\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":375,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"lizard\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":10,\"Mass\":0,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/domains/xandria/areas/newbie/obj/tusk\",\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":10,\"Mass\":0,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/domains/xandria/areas/newbie/obj/tusk\",\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":600,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"mammal\",\"PeltLevel\":8,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":600,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"mammal\",\"PeltLevel\":8,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":10,\"Mass\":3,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/xandria/areas/newbie/obj/feather\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":150,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"bird\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":100,\"Mass\":15,\"Worn\":0,\"Class\":17,\"#base_name#\":\"/domains/xandria/towns/lisht/obj/knife\",\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":50,\"Class\":4,\"Worn\":0,\"Broken\":0,\"Poison\":0,\"PickBonus\":5,\"Mass\":60,\"#base_name#\":\"/std/lockpicks/newbiepicks\",\"DamagePoints\":400,])","([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":62,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":0,\"Class\":4,\"Worn\":0,\"CatchChance\":20,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":125,\"PoleStrength\":26,\"#base_name#\":\"/domains/xandria/towns/lisht/obj/newbie_pole\",\"DamagePoints\":400,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"right hand\",}),\"Class\":7,\"#base_name#\":\"/domains/xandria/towns/lisht/obj/knife\",\"Broken\":0,\"DamagePoints\":535,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","oe":"oocemote $*","p":"who",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","ext":"extinguish torch $*","e":"go east","ga":"get all $*","se":"go southeast","d":"go down","ltt":"light torch $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({78,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 15810
+WhereBlock 0
+Brief 0
+LoginTime 1499409767
+BirthTime 1498631191
+Password "cjceelka!m`ceicnjkihi`ngnaeodlnmcagllhkab"
+Email "Taleladar@yahoo.com"
+RealName "Verde"
+Rank 0
+LoginSite "/domains/xandria/towns/lisht/room/elf/ra4"
+HostSite "c-75-74-177-244.hsd1.fl.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 17
+Experience 5242
+Skills (["reinforced armour":(["class":4,"level":0,]),"multi-weapon":(["class":4,"level":0,]),"cloth armour":(["class":4,"level":0,]),"melee combat":(["class":4,"level":0,]),"stealth":(["class":1,"level":34,]),"accuracy":(["class":4,"level":25,]),"lockpicking":(["class":2,"level":0,]),"slash combat":(["class":4,"level":0,]),"disarm":(["class":4,"level":0,]),"knife combat":(["class":1,"level":36,]),"pierce combat":(["class":2,"level":0,]),"projectile combat":(["class":2,"level":0,]),"stealing":(["class":1,"level":26,]),"disorient":(["class":4,"level":0,]),"fishing":(["class":4,"level":24,]),"leather armour":(["class":4,"level":0,]),"skinning":(["class":4,"level":26,]),"swimming":(["class":4,"level":0,]),"bargaining":(["class":2,"level":36,]),"leather working":(["class":4,"level":0,]),"dodge":(["class":1,"level":34,]),])
+Morality -1562
+CanMulti 1
+Class "rogue"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Enniae","Enniae",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Conditions 0
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Lisht":80,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 410
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 484
+Drink 394
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 380.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":370,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":190,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":100,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":100,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":190,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":370,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":190,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":100,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":190,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":100,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({17,73,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":131070,"high":0,"medium":0,])
+Stats (["wisdom":(["class":3,"points":0,"level":32,]),"agility":(["class":3,"points":0,"level":39,]),"coordination":(["class":3,"points":0,"level":36,]),"luck":(["class":4,"points":0,"level":33,]),"intelligence":(["class":1,"points":0,"level":43,]),"strength":(["class":4,"points":0,"level":33,]),"durability":(["class":3,"points":0,"level":36,]),"charisma":(["class":1,"points":0,"level":52,]),])
+Languages (["alatherian":(["native":1,"name":"Alatherian","points":0,"level":100,]),"rehshai":(["native":0,"name":"Rehshai","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Lisht"
+Race "elf"
+Gender "female"
+Nationality "Lisht"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1498631191
+Cooldowns ([])
+Currency (["deben":7836,])
+Bank (["Bank of Lisht":(["audit":"({ OBJ(sahure /domains/xandria/towns/lisht/npc/sahure#80402), OBJ(sahure /domains/xandria/towns/lisht/npc/sahure#80402), OBJ(/verbs/common/ask), OBJ(verde /secure/save/players/v/verde) })","deben":11679,"last time":1499237444,"open":1498681925,"last trans":"deposit",]),])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Hiding Elfling","of Lisht",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName 0
+Quests ({(/1498631687,"Newbie Book",/),})
+Deaths 0
+DevelopmentPoints 24
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 15
+LastLevel 1499316414
+HighestLevel 17
+LongDaemonData ({"green","green","green","fragile",0,})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

@@ -1,0 +1,11 @@
+#/secure/lib/newsgroup.c
+__GroupId "town.lloryk"
+__RaceRestriction ""
+__TownRestriction "Lloryk"
+__GuildRestriction ""
+__ClassRestriction ""
+__ReligionRestriction ""
+__FriendlyName "Lloryk Town News"
+__ReadRankRestriction 1
+__PostRankRestriction 1
+__Posts ({})

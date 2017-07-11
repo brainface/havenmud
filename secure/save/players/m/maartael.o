@@ -1,0 +1,143 @@
+#/secure/save/players/m/maartael.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "Count $N the Darkness of Haven (Haven human)"
+CapName "Maartael"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":50,\"Mass\":30,\"Worn\":0,\"Class\":13,\"#base_name#\":\"/domains/southern_coast/towns/kresh/obj/knifer\",\"Broken\":0,\"DamagePoints\":238,\"Poison\":0,])","([\"Value\":800,\"Mass\":400,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/domains/southern_coast/areas/beornwulf_keep/obj/leggreaves\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":332,\"Poison\":0,])","([\"Value\":540,\"Mass\":350,\"Worn\":({\"left arm\",\"right arm\",}),\"#base_name#\":\"/domains/southern_coast/areas/beornwulf_keep/obj/armgreaves\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1928,\"Poison\":0,])","([\"Value\":1000,\"Mass\":180,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/southern_coast/areas/beornwulf_keep/obj/helmet1\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1001,\"Poison\":0,])","([\"Value\":1575,\"Mass\":750,\"Worn\":({\"torso\",}),\"#base_name#\":\"/domains/southern_coast/areas/beornwulf_keep/obj/torso\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1219,\"Poison\":0,])","([\"Value\":3000,\"Mass\":150,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/steelboots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":22090,\"Poison\":0,])","([\"Value\":1500,\"Mass\":250,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/steelgauntlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":24117,\"Poison\":0,])","([\"Value\":1500,\"Mass\":250,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/steelgauntlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":23416,\"Poison\":0,])","([\"Value\":10000,\"Mass\":500,\"Worn\":({\"right arm\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/lwallshield\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1950,\"Poison\":0,])","([\"Value\":9000,\"Mass\":500,\"Worn\":({\"left arm\",\"torso\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/lwallshield\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1340,\"Poison\":0,])","([\"Value\":104,\"Mass\":20,\"Worn\":({\"right foot\",\"right leg\",}),\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/jikatabi\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":438,\"Poison\":0,])","([\"Value\":116,\"Mass\":20,\"Worn\":({\"left foot\",\"left leg\",}),\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/jikatabi\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":399,\"Poison\":0,])","([\"Value\":181,\"Mass\":20,\"Worn\":({\"right arm\",\"right hand\",}),\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/sleeve\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":91,\"Poison\":0,])","([\"Value\":100,\"Mass\":20,\"Worn\":({\"left arm\",\"left hand\",}),\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/sleeve\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":437,\"Poison\":0,])","([\"Value\":405,\"Mass\":30,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/sanjakutenugui\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":437,\"Poison\":0,])","([\"Value\":55,\"Mass\":50,\"Worn\":({\"torso\",}),\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/obi\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":500,\"Poison\":0,])","([\"Value\":900,\"Mass\":120,\"Worn\":({\"right leg\",\"left arm\",\"torso\",\"left leg\",\"right arm\",}),\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/mastershozoku\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1612,\"Poison\":0,])","([\"Value\":400,\"Class\":6,\"Worn\":0,\"Broken\":0,\"Poison\":0,\"PickBonus\":10,\"Mass\":60,\"#base_name#\":\"/std/lockpicks/picks\",\"DamagePoints\":800,])","([\"Value\":400,\"Class\":6,\"Worn\":0,\"Broken\":0,\"Poison\":0,\"PickBonus\":10,\"Mass\":60,\"#base_name#\":\"/std/lockpicks/picks\",\"DamagePoints\":800,])","([\"Value\":80,\"Mass\":200,\"Worn\":0,\"Class\":12,\"#base_name#\":\"/std/weapon/pole/staff\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":6,\"Mass\":30,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/southern_coast/towns/kresh/obj/knifer\",\"Broken\":0,\"DamagePoints\":617,\"Poison\":0,])","([\"Value\":80,\"Mass\":200,\"Worn\":0,\"Class\":12,\"#base_name#\":\"/std/weapon/pole/staff\",\"Broken\":0,\"DamagePoints\":786,\"Poison\":0,])","([\"Value\":-1,\"Mass\":10,\"Portions\":1,\"MealStrength\":75,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/stew\",\"MealType\":2,\"Broken\":0,\"Short\":\"hot elven stew\",\"Long\":\"This stew is made from the left-overs of other dishes served at the inn.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":10,\"Portions\":1,\"MealStrength\":75,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/stew\",\"MealType\":2,\"Broken\":0,\"Short\":\"hot elven stew\",\"Long\":\"This stew is made from the left-overs of other dishes served at the inn.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":10,\"Portions\":1,\"MealStrength\":75,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/stew\",\"MealType\":2,\"Broken\":0,\"Short\":\"hot elven stew\",\"Long\":\"This stew is made from the left-overs of other dishes served at the inn.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":10,\"Portions\":1,\"MealStrength\":75,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/stew\",\"MealType\":2,\"Broken\":0,\"Short\":\"hot elven stew\",\"Long\":\"This stew is made from the left-overs of other dishes served at the inn.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":10,\"Portions\":1,\"MealStrength\":75,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/stew\",\"MealType\":2,\"Broken\":0,\"Short\":\"hot elven stew\",\"Long\":\"This stew is made from the left-overs of other dishes served at the inn.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":10,\"Portions\":1,\"MealStrength\":75,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/stew\",\"MealType\":2,\"Broken\":0,\"Short\":\"hot elven stew\",\"Long\":\"This stew is made from the left-overs of other dishes served at the inn.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":2138,\"Mass\":300,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/rath_tower/obj/chain\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1047,\"Poison\":0,])","([\"Value\":1968,\"Mass\":300,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/rath_tower/obj/chain\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1038,\"Poison\":0,])","([\"Value\":2204,\"Mass\":300,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/rath_tower/obj/chain\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1063,\"Poison\":0,])","([\"Value\":222,\"Mass\":100,\"Worn\":({\"left hand\",}),\"Class\":20,\"#base_name#\":\"/domains/crystal_reaches/areas/rath_tower/obj/gleamer\",\"Broken\":0,\"DamagePoints\":398,\"Poison\":0,])","([\"Value\":99,\"Mass\":100,\"Worn\":({\"right hand\",}),\"Class\":20,\"#base_name#\":\"/domains/crystal_reaches/areas/rath_tower/obj/gleamer\",\"Broken\":0,\"DamagePoints\":1895,\"Poison\":0,])","([\"Value\":2269,\"Mass\":300,\"Worn\":0,\"#base_name#\":\"/domains/crystal_reaches/areas/rath_tower/obj/chain\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1102,\"Poison\":0,])","([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":10,\"Lit\":1,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":192,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":200,\"Mass\":5,\"Worn\":0,\"Class\":13,\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/boshuriken\",\"Broken\":0,\"DamagePoints\":444,\"Poison\":0,])","([\"Value\":200,\"Mass\":5,\"Worn\":0,\"Class\":13,\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/boshuriken\",\"Broken\":0,\"DamagePoints\":472,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames (["xod":"xodeidhiur",])
+Aliases (["la":"look at $*","cm":"command mule to get $*","say":"say $*","w":"go west $*","gac":"get all from $* corpse","ts":"throw shuriken at $*","u":"go up","out":"go out $*","s":"go south $*","p":"who","ak":"ask kikuchiyo to $*","oe":"oocemote $*",".":"status","n":"go north $*","l":"look $*","k":"kill $*","i":"inventory","dt":"set style to dirty tricks $*","d2":"disorient 2nd mage $*","d1":"disorient 1st mage $*","e":"go east $*","ninja":"set style to ninjitsu $*","d":"go down","dis":"disorient $*","adv":"ask elian to advance $*","pp":"protections","atb":"ask tylus to buy $*","nw":"go northwest $*","bs":"backstab $*","ka":"kill all","none":"set style to none $*","sw":"go southwest $*","exa":"look at $*","gs":"get shurikens $*","..":"skills","ss":"set style to sword slinging $*","...":"spells","prot":"protections $*","ne":"go northeast $*","tts":"throw 1st shuriken at $*","ga":"get all $*","se":"go southeast $*","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ooc":0,"smut":1,])
+Screen ({127,54,})
+Wrapping 1
+SocialRank 6
+ConfirmedEmail 1
+Age 359947
+WhereBlock 0
+Brief 1
+LoginTime 1474743528
+BirthTime 1192242296
+Password "kl`bndhg!oalemlckajkbfkelflnk`ganekifmlbk"
+Email "fuzzydemon84@hotmail.com"
+RealName "John"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/imperial_road/ir3"
+HostSite "localhost"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Count","Citizen","Archduke","Duke","Marquis","Baron",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 100
+Experience 878355
+Skills (["multi-weapon":(["class":1,"level":201,]),"cloth armour":(["class":4,"level":50,]),"combat rage":(["class":1,"level":200,]),"chain armour":(["class":2,"level":112,]),"disarm":(["class":4,"level":49,]),"knife combat":(["class":1,"level":201,]),"mithril working":(["class":4,"level":24,]),"pierce combat":(["class":2,"level":0,]),"weapon smithing":(["class":4,"level":22,]),"plate armour":(["class":2,"level":137,]),"swimming":(["class":4,"level":41,]),"bargaining":(["class":2,"level":49,]),"natural working":(["class":4,"level":25,]),"blunt combat":(["class":4,"level":0,]),"reinforced armour":(["class":4,"level":0,]),"metal working":(["class":4,"level":24,]),"melee combat":(["class":4,"level":73,]),"stealth":(["class":1,"level":201,]),"accuracy":(["class":2,"level":134,]),"lockpicking":(["class":2,"level":88,]),"slash combat":(["class":1,"level":200,]),"stealing":(["class":1,"level":200,]),"projectile combat":(["class":2,"level":78,]),"disorient":(["class":4,"level":86,]),"armour smithing":(["class":4,"level":43,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":19,]),"pole combat":(["class":1,"level":124,]),"leather working":(["class":4,"level":34,]),"textile working":(["class":4,"level":21,]),"dodge":(["class":1,"level":201,]),"parry":(["class":4,"level":50,]),"brawling":(["class":4,"level":73,]),])
+Morality 507
+CanMulti 1
+Class "assassin"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"agnostic","agnostic",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Parva":-2,"Haven":-42,"Kresh":-4,"Malveillant":42,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 880
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 440
+Drink 367
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 890.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right leg":(["armours":525472,"children":({"right foot",}),"health":420,"parent":"torso","class":2,]),"head":(["armours":262912,"children":({}),"health":840,"parent":"torso","class":1,]),"right foot":(["armours":240,"children":({}),"health":210,"parent":"right leg","class":4,]),"left arm":(["armours":729096,"children":({"left hand",}),"health":420,"parent":"torso","class":2,]),"left foot":(["armours":240,"children":({}),"health":210,"parent":"left leg","class":4,]),"left leg":(["armours":525472,"children":({"left foot",}),"health":420,"parent":"torso","class":2,]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":840,"parent":0,"class":1,]),"right hand":(["armours":98318,"children":({}),"health":210,"parent":"right arm","class":4,]),"left hand":(["armours":98318,"children":({}),"health":210,"parent":"left arm","class":4,]),"right arm":(["armours":729096,"children":({"right hand",}),"health":420,"parent":"torso","class":2,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 2
+LightSensitivity ({25,75,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":32766,])
+Stats (["agility":(["class":3,"points":0,"level":73,]),"wisdom":(["class":3,"points":0,"level":68,]),"coordination":(["class":3,"points":0,"level":71,]),"strength":(["class":3,"points":0,"level":84,]),"intelligence":(["class":3,"points":0,"level":65,]),"luck":(["class":3,"points":0,"level":66,]),"durability":(["class":3,"points":0,"level":83,]),"charisma":(["class":3,"points":0,"level":66,]),])
+Languages (["slith":(["native":0,"name":"Slith","points":1000,"level":100,]),"imperial":(["native":0,"name":"Imperial","points":1000,"level":100,]),"enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),"skavish":(["native":0,"name":"Skavish","points":1000,"level":100,]),"uruk":(["native":0,"name":"Uruk","points":1000,"level":100,]),"sprith":(["native":0,"name":"Sprith","points":1000,"level":100,]),"gurovian":(["native":0,"name":"Gurovian","points":1000,"level":100,]),"tai":(["native":0,"name":"Tai","points":1000,"level":100,]),"oiseau":(["native":0,"name":"Oiseau","points":1000,"level":100,]),"gobyshkin":(["native":0,"name":"Gobyshkin","points":1000,"level":100,]),"runic":(["native":0,"name":"Runic","points":1000,"level":100,]),"blaodric":(["native":0,"name":"Blaodric","points":1000,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1192242522,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Did you notice I re-added rogues?%^RESET%^\"",}),({1192242534,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Yeah, I can't believe it, but that's why I\"m here.%^RESET%^\"",}),({1192242546,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"I want an assassin, the skill set would be amazing.%^RESET%^\"",}),({1192242588,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"I think there are fighters in Haven, right?%^RESET%^\"",}),({1192242599,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Yeah, just deciding on which to go with first.%^RESET%^\"",}),({1192242616,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"I think fighter, so I can build up combat rage and other specialties first.%^RESET%^\"",}),({1195184283,"%^BOLD%^RED%^Aerelus tells you,%^RESET%^ \"Waking life.. seen it?%^RESET%^\"",}),({1195184295,"%^BOLD%^RED%^You tell Aerelus,%^RESET%^ \"I sent it to you, about a year ago :-).%^RESET%^\"",}),({1195184337,"%^BOLD%^RED%^Aerelus tells you,%^RESET%^ \"You lie.%^RESET%^\"",}),({1195184341,"%^BOLD%^RED%^You tell Aerelus,%^RESET%^ \"I don't.%^RESET%^\"",}),({1195184365,"%^BOLD%^RED%^You tell Aerelus,%^RESET%^ \"If you didn't watch it, that's not my fault. I was very much into spreading that movie. It's one of my favorites.%^RESET%^\"",}),({1195184379,"%^BOLD%^RED%^Aerelus tells you,%^RESET%^ \"Sure? i kept backups of the ftp server, and it isn't there.%^RESET%^\"",}),({1195184395,"%^BOLD%^RED%^You tell Aerelus,%^RESET%^ \"I'm 90% sure I did.%^RESET%^\"",}),({1195184443,"%^BOLD%^RED%^Aerelus tells you,%^RESET%^ \"That's weird, i would've watched it if you did. downloaded it tonight, going to check it out before bed. or in bed.%^RESET%^\"",}),({1195184449,"%^BOLD%^RED%^You tell Aerelus,%^RESET%^ \"But yes, I\"ve seen it, quite a few times. I first saw it a few years back, a club I was in sponsored a showing of it.%^RESET%^\"",}),({1195185522,"%^BOLD%^RED%^You tell Aerelus,%^RESET%^ \"15 stamina per round?%^RESET%^\"",}),({1195185532,"%^BOLD%^RED%^Aerelus tells you,%^RESET%^ \"Yup.%^RESET%^\"",}),({1195186186,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Seriously.  How fucking dumb is he?%^RESET%^\"",}),})
+sphist ({})
+Town "Haven"
+Race "human"
+Gender "male"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 80
+WimpyCmd "go north"
+LastWimpy 1320369449
+Currency (["rounds":170,"rupies":440,"oros":30,"imperials":52575,"roni":625,"koken":194526,])
+Bank (["Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#7379655), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#7379655), OBJ(/verbs/common/ask), OBJ(maartael /secure/save/players/m/maartael) })","last time":1218588660,"imperials":2952716,"open":1192252479,"last trans":"withdrawal",]),"Tai MoneyChanger":(["audit":"({ OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#136704), OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#136704), OBJ(/verbs/players/request), OBJ(maartael /secure/save/players/m/maartael) })","last time":1193875808,"open":1193875808,"koken":10,"last trans":"opened account",]),])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 253
+NoSing 0
+isPK 0
+Titles ({"the Darkness","of Haven","the Exorcist","the Supreme Guardsman of Haven Town","the Caravan Guard","the Desert Caravaner","the Defender of Parva against Pirates","the Consecrated Defender of the Shrine","the Eradicator of Outlaws","the Havenroad Bandit","the Ronin Slayer","the Destroyer of the Orcish Raiding Party","the Shadow","the Arboretum Visitor","the Island Explorer","the Enlightened Climber","the Ferry Rider","the Destroyer of Hope","the Knife","the Greater Guardsman of Haven Town","the Guardsman of Haven Town","the Soldier of Haven Town","the Swashbuckler","the Reposessor","the Raider of the Keep","the Trash Picker","the Defender of the Keep","the Sneak","the Slinker","the Crystal Courier","the Bandit Slayer","the Platypus Skinner","the Vacationer","the Explorer","the Warrior of Haven Town",})
+Story "Born the fourth son in a family of seven boys, there wasn't much room in the home Maartael was raised in. His father, a local constable in the Haven Town Guard, was ill equipped at providing for his family and often the children went hungry. This ineffective display of parenting was more than enough to drive Maartael and his brothers to a life of struggling on the streets for their own keep. While they were not hoodlums by any means, they did form a bond, a gang of sorts, and soon were providing for themselves and their family of friends they'd found on the streets. Shortly after reaching the age of maturity, Maartael went into service with the local fighters guild in order to obtain some standardized training. He excelled in all forms of melee combat, and soon he began to crave dedicate the entirety of his free time to fighting and more importantly in his eyes, killing. Maartael aspires to be a competent killing machine, capable of dispatching any who oppose him, yet disciplined enough to only engage those who pose an actual threat."
+Surname "Du'Tan"
+ApprovedStory 1
+OOCName "john"
+Quests ({(/1192242345,"Newbie Book",/),(/1192242760,"Bandit Camp",/),(/1192242776,"Platypus Bay",/),(/1192243608,"Platypus Skinner",/),(/1192248092,"Explored Grove",/),(/1192249128,"Bandit Slayer",/),(/1192288739,"Bandit Leader",/),(/1192289459,"Crystal Ball Delivery",/),(/1192305573,"Defender of the Keep pt 1",/),(/1192308147,"Raider of the Keep pt 1",/),(/1192405021,"Gurov Trash Search",/),(/1192460425,"Reposession",/),(/1192587198,"Swashbuckling",/),(/1192853392,"Raider of the Keep pt 2",/),(/1192854226,"Defender of the Keep pt 2",/),(/1192854544,"Averath Ferry",/),(/1193605629,"Mount Shatadru",/),(/1193605781,"Ronin Camp",/),(/1193605793,"Cherry Blossom",/),(/1193856555,"Ronin Slayer",/),(/1193856879,"Ronin Leader",/),(/1193856906,"Purification Part 1",/),(/1193857423,"Purification Part 2",/),(/1193857439,"Purification Part 3",/),(/1194730295,"Dwarf Merchant",/),(/1194763824,"Desert Merchant",/),(/1200513866,"Havenroad Bandit",/),})
+Deaths ({(/1211330899,"mekrzi",/),})
+DevelopmentPoints 71
+TitleLength 2
+TitleAnd 0
+NoRank 0
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 771
+LastLevel 1195418458
+HighestLevel 100
+LongDaemonData ({"blue","black","tanned","tanned",0,})
+PermanentProperties (["homedock":"tairi","status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

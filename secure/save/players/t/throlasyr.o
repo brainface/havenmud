@@ -1,0 +1,143 @@
+#/secure/save/players/t/throlasyr.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Cursed (Haven half-elf)"
+CapName "Throlasyr"
+ExternalDesc "Throlasyr is a male half-elf standing six feet tall. He has green eyes and has dirty blonde hair. His tanned body has an almond color. Throlasyr has slightly pointed ears with a tiny hint of almond shape to his eyes."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":707,\"Mass\":250,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/chaingauntlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":24135,\"Poison\":0,])","([\"Value\":786,\"Mass\":250,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/chaingauntlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":22371,\"Poison\":0,])","([\"Value\":-1,\"Mass\":5,\"Portions\":1,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/westwood/areas/hiker/obj/blueberries\",\"MealType\":2,\"Broken\":0,\"Short\":\"a handful of blueberries\",\"Long\":\"The blueberries are large, blue, and ripe.  Not a single one has any sign of having been infected by a bug, either.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":5,\"Portions\":1,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/westwood/areas/hiker/obj/blueberries\",\"MealType\":2,\"Broken\":0,\"Short\":\"a handful of blueberries\",\"Long\":\"The blueberries are large, blue, and ripe.  Not a single one has any sign of having been infected by a bug, either.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":5,\"Portions\":1,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/westwood/areas/hiker/obj/blueberries\",\"MealType\":2,\"Broken\":0,\"Short\":\"a handful of blueberries\",\"Long\":\"The blueberries are large, blue, and ripe.  Not a single one has any sign of having been infected by a bug, either.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":5,\"Portions\":1,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/westwood/areas/hiker/obj/blueberries\",\"MealType\":2,\"Broken\":0,\"Short\":\"a handful of blueberries\",\"Long\":\"The blueberries are large, blue, and ripe.  Not a single one has any sign of having been infected by a bug, either.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":28,\"Mass\":0,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/havenwood/towns/parva/obj/bandana\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":206,\"Poison\":0,])","([\"Value\":3542,\"Mass\":20,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/southern_coast/areas/mage_tower/obj/amulet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":892,\"Poison\":0,])","([\"Value\":0,\"Mass\":80,\"Worn\":({\"right leg\",\"left arm\",\"torso\",\"left leg\",\"right arm\",}),\"#base_name#\":\"/std/clothing/body/black_robe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":36,\"Mass\":30,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/southern_coast/areas/acove/obj/pendant\",\"Deterioration\":7,\"Broken\":0,\"DamagePoints\":700,\"Poison\":0,])","([\"Value\":1749,\"Mass\":150,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/chainboots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":16488,\"Poison\":0,])","([\"Value\":423,\"Mass\":400,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/domains/southern_coast/areas/beornwulf_keep/obj/leggreaves\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":957,\"Poison\":0,])","([\"Value\":486,\"Mass\":350,\"Worn\":({\"left arm\",\"right arm\",}),\"#base_name#\":\"/domains/southern_coast/areas/beornwulf_keep/obj/armgreaves\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1454,\"Poison\":0,])","([\"Value\":3060,\"Mass\":400,\"Worn\":({\"left arm\",\"left hand\",}),\"#base_name#\":\"/domains/planes/obj/bracer\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":88,\"Mass\":4,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/xandria/areas/mastaba_area/obj/mummy_ring\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":780,\"Poison\":0,])","([\"Value\":218,\"Mass\":4,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/xandria/areas/mastaba_area/obj/mummy_ring\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":160,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/coat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":384,\"Mass\":750,\"Worn\":({\"torso\",}),\"#base_name#\":\"/domains/southern_coast/areas/beornwulf_keep/obj/torso\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":432,\"Poison\":0,])","([\"Value\":2686,\"Mass\":400,\"Worn\":({\"right hand\",\"right arm\",}),\"#base_name#\":\"/domains/planes/obj/bracer\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":866,\"Mass\":200,\"Worn\":({\"right leg\",\"left arm\",\"torso\",\"left leg\",\"right arm\",}),\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/guard_armour\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1550,\"Poison\":0,])","([\"Value\":360,\"Mass\":20,\"Worn\":({\"right foot\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/clothsock\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":492,\"Poison\":0,])","([\"Value\":151,\"Mass\":20,\"Worn\":({\"left foot\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/clothsock\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":2500,\"Mass\":20,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/planes/obj/halo\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1125,\"Poison\":0,])","([\"Value\":400,\"Mass\":35,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/domains/valley/areas/jidoor_forest/obj/silk_slacks\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":275,\"Poison\":0,])","([\"Value\":201,\"Mass\":25,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/domains/valley/areas/jidoor_forest/obj/silk_shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":200,\"Poison\":0,])","([\"Value\":300,\"Keys\":({}),\"CanLock\":0,\"Class\":1,\"Worn\":0,\"Broken\":0,\"LockStrength\":0,\"Poison\":0,\"Closed\":0,\"Mass\":150,\"Locked\":0,\"#base_name#\":\"/domains/valley/areas/jidoor_forest/obj/bulky_pack\",\"CanClose\":1,\"DamagePoints\":1500,])","([\"Value\":200,\"Mass\":40,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/valley/areas/jidoor_forest/obj/soft_boots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":350,\"Poison\":0,])","([\"Value\":1600,\"Mass\":300,\"Worn\":({\"right hand\",\"left hand\",}),\"Class\":35,\"#base_name#\":\"/domains/innersea/encounters/obj/narwhale\",\"Broken\":0,\"DamagePoints\":1811,\"Poison\":0,])","([\"Value\":1049,\"Mass\":75,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/chainhelm\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":23910,\"Poison\":0,])","([\"Value\":252,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/averath/towns/averath/obj/waistcoat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":436,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames (["quel":"quelthon","ele":"elemental","aless":"alessandra","thro":"Throlasyr","Thro":"Throlasyr","pand":"Pandemonium","Pand":"Pandemonium","mah":"Mahkefel","prot":"protectors","peg":"pegasi","wak":"wakizashi","cit":"citizens","ta":"Taigis","Ta":"Taigis","Gly":"glyvmort","gly":"glyvmort",])
+Aliases (["sse":"sail southeast $*","cbj":"cast create blood jar $*","ee":"sail east $*","la":"look at $*","as":"cast asphyxiation $*","llca":"launch attack on canoe $*","w":"go west","bw2":"cast bless on 2nd rapier $*","bw1":"cast bless on 1st rapier $*","u":"go up","out":"go out","s":"go south","cmbm":"cast mend bones on mummy $*","som":"command skeleton to $*","csh":"cast choking shadows $*","oe":"oocemote $*","p":"who","xch":"ask ilian to exchange $* to imperials","n":"go north","hf":"cast holy fury $*","rs":"repair ship $*","xcha":"ask althus to exchange $* to imperials","l":"look $*","spells":"spells -c -l $*","k":"kill $*","hb":"cast harm body $*","i":"inventory","ad":"cast animate dead on $*","dr":"cast divine retribution $*","e":"go east","con":"consider $*","dis":"disorient $*","disp":"cast disperse protections $*","d":"go down","com":"command $*","zom":"command zombie to $*","uv":"cast undying vitality $*","nw":"go northwest","wos":"cast wall of souls $*","coe":"command effigy to $*","up":"cast unholy power $*","ka":"kill all","dc":"cast divine cataclysm $*","ske":"command skeleton to $*","db":"cast dark burial on 1st corpse $*","exa":"look at $*","nn":"sail north $*","..":"skills","gp":"get piles $*","dbe":"cast dark burial on 1st greater elemental $*","...":"spells","ug":"cast unholy guardian $*","dbb":"cast dark burial on $*","cw2":"cast corrupt weapon on 2nd rapier $*","cw1":"cast corrupt weapon on 1st rapier $*","hff":"cast hellfire $*","ne":"go northeast","hfe":"cast holy fury on 1st elemental $*","cus":"cast unshackle servant $*","jt":"cast jolt $*","cw":"cast corrupt weapon on $*","ga":"get all $*","ct":"cast chill touch $*","eff":"cast summon lesser effigy $*","cug":"cast unholy growth on $*","tu":"cast turn undead $*","cj":"cast create blood jar $*","nav":"navigate $*","mv":"cast maddening visions $*","gac":"get all from $* corpse","tr":"cast transmutation $*","bfe":"cast banefire on 1st greater elemental $*","rss":"repair sails $*","tyb":"ask tylus to buy $*","sch":"cast spirit call on $* hand","cb":"cast cause bleeding $*","mm":"cast mummify on $*",".":"status","tde":"cast touch of death on 1st elemental $*","ww":"sail west $*","td":"cast touch of death $*","pu":"cast purify $*","pt":"cast pain touch $*","bw":"cast bless on $*","pp":"protections","llw":"launch attack on warship $*","fa":"cast flaming arrow $*","po":"cast pious obstructions $*","llt":"launch attack on trireme $*","nnw":"sail northwest $*","gpack":"get $* from backpack","cmm":"command mummy to $*","llo":"launch attack on outrigger $*","bm":"cast bless on me $*","sw":"go southwest $*","lll":"launch attack on longship $*","st":"cast soul taint $*","ppack":"put $* in pack","ss":"sail south $*","bh":"cast burning hand $*","llgg":"launch attack on galleon $*","ssw":"sail southwest $*","cfg":"cast flaming grasp on $*","bf":"cast banefire $*","llg":"launch attack on galley $*","llc":"launch attack on caravel $*","llb":"launch attack on boat $*","nne":"sail northeast $*","ll":"launch attack on $*","cpm":"cast preserve on mummy $*","en":"cast ennervate $*","llco":"launch attack on corvair $*","ban":"cast banish lesser effigy on $*","sf":"cast stitch flesh on $*","se":"go southeast","sd":"cast speak with dead on $*","vt":"cast vampiric touch $*","sc":"cast spirit call on 1st corpse $*","gcc":"get coins from $* corpse","csw":"cast sense weakness on $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ooc":0,"hl":1,])
+Screen ({114,43,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 725317
+WhereBlock 0
+Brief 0
+LoginTime 1418442685
+BirthTime 1214875877
+Password "agioilgi!`gnagg`jkdnoclhib`oiljfehfon``aa"
+Email "rharrison@student.bridgew.edu"
+RealName "Rick"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/shops/warehouse"
+HostSite "c-24-63-0-243.hsd1.ma.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen","Cultist",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 133
+Experience 6245968
+Skills (["multi-weapon":(["class":1,"level":262,]),"cloth armour":(["class":2,"level":90,]),"navigation":(["class":2,"level":150,]),"fire magic":(["class":2,"level":266,]),"chain armour":(["class":1,"level":260,]),"combat rage":(["class":1,"level":266,]),"disarm":(["class":4,"level":0,]),"knife combat":(["class":4,"level":0,]),"mithril working":(["class":4,"level":28,]),"pierce combat":(["class":1,"level":266,]),"faith":(["class":1,"level":268,]),"necromancy":(["class":1,"level":268,]),"weapon smithing":(["class":4,"level":50,]),"plate armour":(["class":2,"level":125,]),"swimming":(["class":2,"level":125,]),"bargaining":(["class":2,"level":75,]),"blunt combat":(["class":4,"level":0,]),"sailing":(["class":2,"level":220,]),"evokation":(["class":1,"level":268,]),"reinforced armour":(["class":2,"level":0,]),"metal working":(["class":4,"level":49,]),"melee combat":(["class":4,"level":0,]),"accuracy":(["class":4,"level":61,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":49,]),"disorient":(["class":4,"level":60,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":0,]),"pole combat":(["class":4,"level":0,]),"skinning":(["class":4,"level":49,]),"leather working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"textile working":(["class":4,"level":50,]),"dodge":(["class":4,"level":61,]),"parry":(["class":4,"level":61,]),])
+Morality -2454
+CanMulti 1
+Class "fanatic"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Saahagoth","Saahagoth",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gwonish":21,"Parva":-144,"Gurov":-14,"Averath":-100,"Malveillant":-268,"Tairi":-92,"Jidoor":-14,"Haven":140,"Sanctum":-4,"Baria":-30,"Karak":3,"Ungkh":7,"Glimmerdin":-15,"Lisht":-6,"Lloryk":-66,"Keryth":-158,"Soleil":-524,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 1470
+MagicPoints 1460
+Bleeding 0
+Alcohol 0
+Caffeine 568
+Food 232
+Drink 116
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 18
+Cursed 0
+StaminaPoints 1370.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right leg":(["armours":525472,"children":({}),"health":720,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":1430,"class":1,"parent":"torso",]),"right foot":(["armours":240,"children":({}),"health":360,"class":4,"parent":"right leg",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":720,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":360,"class":4,"parent":"left leg",]),"left leg":(["armours":525472,"children":({"left foot",}),"health":720,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","left arm","right arm",}),"health":1430,"class":1,"parent":0,]),"right hand":(["armours":98318,"children":({}),"health":360,"class":4,"parent":"right arm",]),"left hand":(["armours":98318,"children":({}),"health":360,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":720,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 1
+LightSensitivity ({20,75,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":65534,])
+Stats (["agility":(["class":3,"points":0,"level":67,]),"wisdom":(["class":2,"points":0,"level":121,]),"coordination":(["class":3,"points":0,"level":63,]),"intelligence":(["class":2,"points":0,"level":94,]),"strength":(["class":3,"points":0,"level":90,]),"luck":(["class":3,"points":0,"level":91,]),"durability":(["class":3,"points":0,"level":100,]),"charisma":(["class":3,"points":0,"level":97,]),])
+Languages (["alatherian":(["native":0,"name":"Alatherian","points":400,"level":100,]),"imperial":(["native":0,"name":"Imperial","points":400,"level":100,]),"tai":(["native":0,"name":"Tai","points":20,"level":100,]),"enlan":(["native":0,"name":"Enlan","points":400,"level":100,]),"barian":(["native":0,"name":"Barian","points":68,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),"rehshai":(["native":0,"name":"Rehshai","points":400,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1214884663,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"It's 'Taigis'.%^RESET%^\"",}),({1214884681,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"I will fix it.%^RESET%^\"",}),({1416684648,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Hey man.%^RESET%^\"",}),({1416684654,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"How did you get fire magic?%^RESET%^\"",}),({1416684665,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Did bandit cleric train it when you joined?%^RESET%^\"",}),({1416684672,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Yes.%^RESET%^\"",}),({1416684687,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Ah, so he probably just doesn't know while townless.%^RESET%^\"",}),({1416684697,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"*now*.%^RESET%^\"",}),({1416684828,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Hmm most town magic class leaders state magic boost skill when you ask them to describe... but if bandit cleric is townless maybe he give boost skill based on town.%^RESET%^\"",}),({1416684853,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Player's town i meant.%^RESET%^\"",}),({1416684867,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Rally hard to do. also i have idea!%^RESET%^\"",}),({1416684893,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Like... \"chaos magic\" and it um... somehow randomly equals a magic boost in ways i haven't figured out yet.%^RESET%^\"",}),({1416684901,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Should fit this guy and rath khan.%^RESET%^\"",}),({1416684912,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"It would.%^RESET%^\"",}),({1416684913,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Cuz chaos.%^RESET%^\"",}),({1416684933,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"I just need to figure out a non-stupid way to do it ^_^.%^RESET%^\"",}),({1416684966,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Nod.%^RESET%^\"",}),({1416684979,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Probably like... \"cast chaotic infusion\" and you get a hidden with a skill bonus = to chaos magic skill level in random element... and you can't cast it again while that hidden persists... and it decays over time?%^RESET%^\"",}),({1416685014,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"So like you might essentially have fire magic 100 for an hour/5 minutes/some time and after that you recast and poison magic or whatev.%^RESET%^\"",}),})
+sphist ({})
+Town "Haven"
+Race "half-elf"
+Gender "male"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1368988880
+Currency (["rounds":753,"senones":17769,"dinar":272500,"deben":7785,"nuggets":67,"rupies":94325,"imperials":1354391,"koken":13456,"cuicui":57456,"oros":231478,"chits":13513,"rubles":18340,"roni":2405,"bloodgems":24990,"ducats":3900,])
+Bank (["Sanctum Moneychanger":(["audit":"({ OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#2423555), OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#2423555), OBJ(/verbs/common/ask), OBJ(throlasyr /secure/save/players/t/throlasyr) })","cuicui":2,"last time":1216210146,"imperials":125004,"open":1214928887,"last trans":"withdrawal",]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#133432), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#133432), OBJ(/verbs/common/ask), OBJ(throlasyr /secure/save/players/t/throlasyr) })","last time":1249774048,"imperials":2498005,"open":1215024602,"last trans":"withdrawal",]),"Tai MoneyChanger":(["audit":"({ OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#1404384), OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#1404384), OBJ(/verbs/common/ask), OBJ(throlasyr /secure/save/players/t/throlasyr) })","last time":1215738500,"open":1215738500,"koken":10,"last trans":"opened account",]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#217751), OBJ(magna /domains/havenwood/towns/parva/npc/banker#217751), OBJ(/verbs/players/request), OBJ(throlasyr /secure/save/players/t/throlasyr) })","last time":1416172345,"oros":5,"open":1416172345,"last trans":"opened account",]),"Grymxoria Bank":(["audit":"({ OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#5834553), OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#5834553), OBJ(/verbs/common/ask), OBJ(throlasyr /secure/save/players/t/throlasyr) })","last time":1215041477,"open":1215041477,"bloodgems":5,"last trans":"opened account",]),])
+CraftingRecipes ({})
+SpellBook (["mend bones":33,"chill aura":9,"asphyxiation":100,"flaming arrow":100,"animate dead":100,"create blood jar":36,"wall of souls":72,"soul taint":22,"purify":100,"aegis of the faithful":100,"sting":100,"dark burial":100,"skull of darkness":100,"unshackle servant":100,"stitch flesh":39,"chill touch":100,"pain touch":100,"bless":100,"banefire":95,"spirit call":100,"jolt":100,"maddening visions":10,"shield of faith":100,"corrupt weapon":100,"divine cataclysm":100,"choking shadows":100,"summon lesser effigy":65,"vampiric touch":49,"speak with dead":100,"unholy growth":82,"banish lesser effigy":45,"burning hand":100,"divine retribution":100,"holy shield":100,"disperse protections":47,"mummify":100,"sense weakness":27,"curse":100,"ennervate":100,"barrier of faith":100,"holy fury":100,"undying vitality":50,"pious obstructions":100,"unholy guardian":95,"protect":100,"cause bleeding":100,"hellfire":100,"reveal soul":26,"touch of death":100,"transmutation":100,"blood rite":1,"harm body":100,"turn undead":100,"preserve":100,"flaming grasp":100,"shockwave":100,"locate zombie":8,"unholy power":100,"spook":100,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Cursed","the Liberator of Sheep","the Distant Traveller","the Explorer","the Ransacker of the Mage Tower","the Runner","the Ferry Rider","the Crystal Courier","the Reposessor","the Soldier of Haven Town","the Supreme Guardsman of Haven Town","the Greater Guardsman of Haven Town","the Guardsman of Haven Town","the Warrior of Haven Town","the Envoy of Haven Town","the Glimmerdin Tourist","the Mark of Chaos","the Bandit Slayer","the Haven Town Messenger","the Haven Town Courier","the Enlightened Climber","the Trash Picker","the Mage Slayer","the Silencer of Songs","the Destroyer of Hope","the Centaur Hunter","the Haven Tourist","the Taint of Taigis","the Raider of the Keep","the Bringer of Chaos","the Haven Town Runner","the Chef's Aide","the Adversary of Arachnids","the Organ Carrier","the Havenwood Grocer","the Roaster of Rabbits","the Gatherer of Coconuts","the Follower of the Fallen God","the Fruit Harvester","the Forager","the Blueberry Picker","the Vacationer","the Equipped","of Haven","the Initiate of the Fallen God",})
+Story "Born to a human woman, who waited tables at Rupert's Hole, and a male elf I will never meet. My mother told me he was a great elf who stood for everything good and just. When I was ten, she finally told me my father's name, Archduke Caranthir. I was so proud that day and I told all my friends. That is when I learned the true. My friends told me about how Duuk punished him for crimes that were heinous to mention.  I ran to his estate and sat there crying. I went there every day just sitting in the dark talk to myself asking why our Lord killed my father.  Several days later I heard someone answer me. The voice told me to seek out the cleric in the bandit camp. I would sneak out of Haven and meet with the cleric in camp. The cleric open my mind and heart to Taigis. He told me if my father served Taigis he would never have been killed. When I was old enough the cleric made me an Initate of the Fallen God."
+Surname "Telemnar"
+ApprovedStory 1
+OOCName "Rick"
+Quests ({(/1214875963,"Newbie Book",/),(/1214878984,"Haven Tour",/),(/1214879481,"Bandit Camp",/),(/1214880103,"Leather Emporium",/),(/1214882072,"Platypus Bay",/),(/1214882984,"Rabbit Food",/),(/1214885321,"Blueberry Picker",/),(/1214885561,"Desert Fruit",/),(/1214920972,"Fruit Basket",/),(/1214921116,"Gurov Trash Search",/),(/1214929343,"Tropical Fruit",/),(/1214929383,"Roasted Rabbit",/),(/1214929559,"Shopping List",/),(/1214929655,"Organ Delivery",/),(/1214930810,"Tarantula Slayer",/),(/1214931057,"Monkey Meat",/),(/1215018844,"Explored Grove",/),(/1215048427,"Treasure Hunting pt 1",/),(/1215086468,"Message Courier",/),(/1215092987,"Raider of the Keep pt 1",/),(/1215313283,"Centaur Hunting",/),(/1215313307,"Raider of the Keep pt 2",/),(/1215314715,"Singers of Song",/),(/1215314752,"Silence the Mage",/),(/1215716348,"Mount Shatadru",/),(/1215828358,"Message Courier pt 2",/),(/1215876786,"Message Courier pt 3",/),(/1216172862,"Message Courier pt 4",/),(/1216177892,"Bandit Slayer",/),(/1216504078,"Glimmerdin Tour",/),(/1218900693,"Bandit Leader",/),(/1218901175,"Reposession",/),(/1218901247,"Crystal Ball Delivery",/),(/1219164080,"Averath Ferry",/),(/1219164108,"Care package Delivery",/),(/1219165998,"Xandrian Journey",/),(/1245454474,"Barian Merchant",/),(/1245595988,"Haven Mage Tower",/),(/1411828483,"Ending the Curse",/),(/1416176175,"Liberated Elban Isle",/),})
+Deaths ({(/1215283588,"xylophant",/),(/1215788372,"elemental knight",/),(/1215958396,"drowning",/),(/1216692364,"thirst",/),(/1408817153,"greater water elemental",/),})
+DevelopmentPoints 19
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 2864
+LastLevel 1417382318
+HighestLevel 133
+LongDaemonData ({"green","dirty blonde","almond","tanned","slightly pointed ears with a tiny hint of almond shape to $POS eyes.",})
+PermanentProperties (["animate_zombie":"/std/spells/obj/animate_mummy#200234","faithless":1,"homedock":"haven","status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({"wisdom",})
+PartyMembers ({})

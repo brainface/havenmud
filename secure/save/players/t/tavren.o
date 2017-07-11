@@ -1,0 +1,142 @@
+#/secure/save/players/t/tavren.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Caravan Guard (Haven human)"
+CapName "Tavren"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","se":"go southeast","ga":"get all $*","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["non":0,"reboot":1,"ooc":0,"hl":0,"time":1,"notify":0,])
+Screen ({107,45,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 122765
+WhereBlock 0
+Brief 1
+LoginTime 1333528175
+BirthTime 1273131206
+Password "lddf`kgd!bkkcbbffgbheledfhlelhgeiiccea`hk"
+Email "joshy1977@bigpond.com"
+RealName "Josh"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/church/entrance"
+HostSite "123-243-192-37.static.tpgi.com.au"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 86
+Experience 16903307
+Skills (["reinforced armour":(["class":2,"level":10,]),"multi-weapon":(["class":4,"level":2,]),"metal working":(["class":4,"level":20,]),"cloth armour":(["class":2,"level":69,]),"melee combat":(["class":1,"level":174,]),"fire magic":(["class":2,"level":59,]),"accuracy":(["class":2,"level":133,]),"slash combat":(["class":1,"level":174,]),"chain armour":(["class":2,"level":10,]),"heavy plate armour":(["class":1,"level":174,]),"combat rage":(["class":4,"level":2,]),"disarm":(["class":3,"level":1,]),"pierce combat":(["class":1,"level":174,]),"faith":(["class":1,"level":171,]),"projectile combat":(["class":4,"level":1,]),"mining":(["class":4,"level":1,]),"armour smithing":(["class":4,"level":41,]),"healing":(["class":1,"level":171,]),"fishing":(["class":4,"level":1,]),"leather armour":(["class":2,"level":10,]),"weapon smithing":(["class":4,"level":20,]),"skinning":(["class":4,"level":1,]),"plate armour":(["class":1,"level":166,]),"bargaining":(["class":2,"level":10,]),"leather working":(["class":4,"level":1,]),"farming":(["class":4,"level":1,]),"blunt combat":(["class":1,"level":174,]),"parry":(["class":1,"level":174,]),"hack combat":(["class":2,"level":0,]),"enchantment":(["class":1,"level":171,]),])
+Morality 2500
+CanMulti 1
+Class "paladin"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations ([])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 780
+MagicPoints 630
+Bleeding 0
+Alcohol 0
+Caffeine 413
+Food 509
+Drink 257
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 6
+Cursed 0
+StaminaPoints 610.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":740,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":190,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":370,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":190,]),"left arm":(["children":({}),"armours":729096,"parent":"torso","class":2,"health":370,]),"left leg":(["children":({}),"armours":525472,"parent":"torso","class":2,"health":370,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":740,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":190,]),"right arm":(["children":({"right hand",}),"armours":729096,"parent":"torso","class":2,"health":370,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":190,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 23
+LightSensitivity ({25,75,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":65534,])
+Stats (["agility":(["class":3,"points":0,"level":54,]),"wisdom":(["class":3,"points":0,"level":58,]),"coordination":(["class":3,"points":0,"level":66,]),"intelligence":(["class":3,"points":0,"level":59,]),"strength":(["class":3,"points":0,"level":56,]),"luck":(["class":3,"points":0,"level":63,]),"durability":(["class":3,"points":0,"level":73,]),"charisma":(["class":3,"points":0,"level":57,]),])
+Languages (["uruk":(["native":0,"name":"Uruk","points":1000,"level":100,]),"imperial":(["native":0,"name":"Imperial","points":1000,"level":100,]),"enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Haven"
+Race "human"
+Gender "male"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 50
+WimpyCmd "go out"
+LastWimpy 1333528170
+Currency (["imperials":656962,])
+Bank (["Sanctum Moneychanger":(["audit":"({ OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#97910), OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#97910), OBJ(/verbs/players/request), OBJ(tavren /secure/save/players/t/tavren) })","last time":1273143785,"imperials":5,"open":1273143785,"last trans":"opened account",]),"Sulumus Bank":(["audit":"({ OBJ(bujak /domains/peninsula/areas/sulumus/npc/teller#98548), OBJ(bujak /domains/peninsula/areas/sulumus/npc/teller#98548), OBJ(/verbs/players/request), OBJ(tavren /secure/save/players/t/tavren) })","last time":1273147498,"imperials":5,"open":1273147498,"last trans":"opened account",]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#266243), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#266243), OBJ(/verbs/common/ask), OBJ(tavren /secure/save/players/t/tavren) })","last time":1273563326,"imperials":1300005,"open":1273134004,"last trans":"deposit",]),"the Barian Jungle Bank":(["audit":"({ OBJ(pakal /domains/baria/towns/baria/npc/pakal#126523), OBJ(pakal /domains/baria/towns/baria/npc/pakal#126523), OBJ(/verbs/players/request), OBJ(tavren /secure/save/players/t/tavren) })","last time":1273246650,"chits":5,"open":1273246650,"last trans":"opened account",]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#94886), OBJ(magna /domains/havenwood/towns/parva/npc/banker#94886), OBJ(/verbs/players/request), OBJ(tavren /secure/save/players/t/tavren) })","oros":5,"last time":1273134463,"open":1273134463,"last trans":"opened account",]),])
+CraftingRecipes ({})
+SpellBook (["halt bleeding":20,"desert divining":100,"discern killer":100,"remove paralysis":100,"bless":100,"touch":100,"empower":100,"cure blindness":100,"desert banishment":1,"create water":100,"divine religion":100,"summon lesser effigy":1,"banish lesser effigy":1,"create light":100,"superior wrath":100,"fortify":100,"dispel poison":100,"create detox potion":100,"kylin touch":100,"create shadows":100,"fidei defensor":100,"wrath":100,"heal":100,"cure disease":50,"sanctify":100,"wall of force":100,"resurrect":1,"desert walk":100,"holy celerity":100,"rejuvenation":100,"detect magic":100,"divine whisper":100,"divine morality":100,"imbue weapon":100,"create food":100,"serenity":100,"turn undead":100,"smite":100,"detect magic fully":100,"regenerate limb":100,"revive":100,"mend":100,])
+SongBook ([])
+RecoveryTime 165
+NoSing 0
+isPK 0
+Titles ({"the Caravan Guard","the Pirate Scourge","the Crypt Keeper","the Roaster of Rabbits","the Defender of Parva against Pirates","the Guardian of the Old Cemetery","the Swashbuckler","the Defender of the Keep","the Crystal Courier","the Reposessor","the Envoy of Haven Town","the Haven Town Messenger","the Haven Town Courier","the Lord Knight of Haven Town","the Knight of Haven Town","the Squire of Haven Town","the Paladin of Haven Town","the Havenwood Grocer","the Gatherer of Coconuts","the Fruit Harvester","the Forager","the Blueberry Picker","the Bandit Slayer","the Platypus Skinner","the Haven Town Runner","the Vacationer","the Equipped","the Explorer","the mendicant of Kylin","of Haven",})
+Story "Tavren Greystall of Haven Town, Son of Marrick and Rosanna Greystall is a trainee Cleric. He one day hopes to be a mighty Paladin of Kylin like his brother Sarin Greystall and make his parents proud. His teen years have been troubled as his older sister Shyla was murdered when he was twelve, the culprit was never found. He turned deeper into his faith and prayed to Duuktsaryth, the Lord of Order to ease the anguish in his heart. He diligently trains his fighting skills in order to gain enough experience to travel distant lands with his brother in search of the one that killed his sister, one day hoping to avenge her death and bring balance back to his life."
+Surname 0
+ApprovedStory 1
+OOCName "Josh"
+Quests ({(/1273131248,"Newbie Book",/),(/1273134691,"Bandit Camp",/),(/1273134716,"Leather Emporium",/),(/1273134740,"Platypus Bay",/),(/1273134764,"Message Courier",/),(/1273135356,"Bandit Slayer",/),(/1273136085,"Platypus Skinner",/),(/1273136813,"Explored Grove",/),(/1273234527,"Rabbit Food",/),(/1273234647,"Blueberry Picker",/),(/1273246413,"Desert Fruit",/),(/1273246533,"Fruit Basket",/),(/1273246860,"Tropical Fruit",/),(/1273246948,"Roasted Rabbit",/),(/1273247313,"Shopping List",/),(/1273282673,"Message Courier pt 2",/),(/1273282737,"Message Courier pt 3",/),(/1273282818,"Message Courier pt 4",/),(/1273283436,"Bandit Leader",/),(/1273298945,"Reposession",/),(/1273298977,"Crystal Ball Delivery",/),(/1273299545,"Defender of the Keep pt 1",/),(/1273299913,"Swashbuckling",/),(/1273300193,"Graveyard Cleanup",/),(/1273300241,"Crypt Keeper",/),(/1273655933,"Dwarf Merchant",/),})
+Deaths 0
+DevelopmentPoints 26
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 0
+SeveredHeads 656
+LastLevel 1280917408
+HighestLevel 86
+LongDaemonData ({"green","blonde","brownish","tanned",0,})
+PermanentProperties (["mission":"/std/missions/southern_coast/visit_averath",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({"atrus",})

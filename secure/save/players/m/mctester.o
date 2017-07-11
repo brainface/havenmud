@@ -1,0 +1,142 @@
+#/secure/save/players/m/mctester.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the unaccomplished (Haven elf)"
+CapName "Mctester"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({78,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 38
+WhereBlock 0
+Brief 0
+LoginTime 1356654009
+BirthTime 1356653640
+Password "mckbblib!kjahbdgjbbjadefooc`clkiogijfbead"
+Email "duuk@duuk.com"
+RealName "Scrooge McTester"
+Rank 0
+LoginSite "/domains/staff/room/start"
+HostSite "192.168.1.1"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 97
+Experience 0
+Skills (["reinforced armour":(["class":4,"level":604,]),"multi-weapon":(["class":4,"level":604,]),"cloth armour":(["class":4,"level":604,]),"melee combat":(["class":4,"level":604,]),"stealth":(["class":1,"level":604,]),"accuracy":(["class":4,"level":604,]),"lockpicking":(["class":2,"level":604,]),"slash combat":(["class":4,"level":604,]),"disarm":(["class":4,"level":604,]),"knife combat":(["class":1,"level":604,]),"pierce combat":(["class":2,"level":604,]),"stealing":(["class":1,"level":604,]),"projectile combat":(["class":2,"level":604,]),"disorient":(["class":4,"level":604,]),"fishing":(["class":4,"level":604,]),"leather armour":(["class":4,"level":604,]),"swimming":(["class":4,"level":604,]),"leather working":(["class":4,"level":604,]),"bargaining":(["class":2,"level":604,]),"dodge":(["class":1,"level":604,]),])
+Morality 1500
+CanMulti 1
+Class "rogue"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets ({})
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Haven":50,"Malveillant":-25,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 493
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1989
+Drink 1989
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 459.399994
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right foot":(["armours":240,"children":({}),"health":140,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":260,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":453,"class":1,"parent":"torso",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":260,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":140,"class":4,"parent":"left leg",]),"left leg":(["armours":525472,"children":({"left foot",}),"health":260,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":453,"class":1,"parent":0,]),"right hand":(["armours":98318,"children":({}),"health":140,"class":4,"parent":"right arm",]),"left hand":(["armours":98318,"children":({}),"health":140,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":260,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 18
+LightSensitivity ({17,73,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":64,]),"wisdom":(["class":3,"points":0,"level":59,]),"coordination":(["class":3,"points":0,"level":67,]),"strength":(["class":4,"points":0,"level":44,]),"intelligence":(["class":1,"points":0,"level":100,]),"luck":(["class":4,"points":0,"level":43,]),"durability":(["class":3,"points":0,"level":62,]),"charisma":(["class":1,"points":0,"level":93,]),])
+Languages (["eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Haven"
+Race "elf"
+Gender "male"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1356653640
+Currency ([])
+Bank ([])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({})
+Story 0
+Surname 0
+ApprovedStory 1
+OOCName "Scrooge McTester"
+Quests ({})
+Deaths 0
+DevelopmentPoints 194
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 1
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 0
+LastLevel 1356654029
+HighestLevel 97
+LongDaemonData ({0,0,0,0,0,})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

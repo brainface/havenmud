@@ -1,0 +1,143 @@
+#/secure/save/players/f/fluff.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "Eldest Sky Brother $N the Revered and Dreaded Champion of the WestWood and the Sagacious Master of the WestWood (Soleil muezzin)"
+CapName "Fluff"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":3,\"#base_name#\":\"/std/spells/obj/create_light_ob\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":5250,\"PeltClass\":35,\"Class\":1,\"Worn\":0,\"PeltSource\":\"unicorn\",\"PeltLevel\":50,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/small_shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":911,\"Poison\":0,])","([\"Value\":600,\"Mass\":85,\"Worn\":0,\"Class\":15,\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjato\",\"Broken\":0,\"DamagePoints\":1200,\"Poison\":0,])","([\"Value\":600,\"Mass\":85,\"Worn\":0,\"Class\":15,\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjato\",\"Broken\":0,\"DamagePoints\":1176,\"Poison\":0,])","([\"Value\":600,\"Mass\":85,\"Worn\":0,\"Class\":15,\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjato\",\"Broken\":0,\"DamagePoints\":1200,\"Poison\":0,])","([\"Value\":600,\"Mass\":85,\"Worn\":0,\"Class\":15,\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjato\",\"Broken\":0,\"DamagePoints\":1200,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/small_pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/small_shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/small_shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/small_shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/small_pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({"non",})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["sse":"sail east $*","hw":"cast harmony wind $*","lb":"cast lunar blast on $*","op":"open pack $*","walk":"cast wind walk on $*","hs":"highscore players $*","w":"go west $*","u":"go up","invis":"cast chameleon $*","out":"go out","s":"go south","dark":"cast create shadows $*","oe":"oocemote $*","p":"who","fire":"launch attack on $*","n":"go north","m":"money $*","l":"look $*","k":"kill $*","i":"inventory","kill":"kill first $*","e":"go east","d":"go down","limb":"cast regrowth on $*","mwood":"cast mend wood on $*","joy":"cast enhance joy on $*","nw":"go northwest","inv":"cast invigorate $*","ka":"kill all","suck1":"get money from first corpse $*","..":"skills","...":"spells -c -l $*","bliz":"cast blizzard $*","ne":"go northeast","haste":"cast embodiment of wind on $*","nc":"cast natural charge $*","blind":"cast color spray on $*","wield":"wield first $*","dispel":"cast disperse protections $*","wwood":"cast warp wood on $*","horn":"use first horn to heal fluff $*","soothe":"cast soothe on $*","herb":"cast create natural herbs $*","cp":"close pack $*","rain":"cast joyful rain $*","take":"get first $* from my pack","rez":"cast eclat gift on $*","fw":"cast fire whirl $*","trans":"cast metasynthesis $*","wboard":"command first wolf to board the featherbottom ii $*","suck":"get all from first corpse $*",".":"status",",":"stats $*","fn":"cast force of nature on $*","ww":"cast wall of wood on $*","material":"cast mend material on $*","tb":"cast thicken blood on $*","water":"cast hydrate on $*","ps":"cast prismatic spray on $*","pack":"look in my backpack $*","pr":"protections $*","reg":"cast full regeneration on $*","cfire":"launch attack on caravel $*","fb":"cast forest banishment on $*","light":"cast create light $*","in":"put first $* in my pack","sw":"go southwest","skin":"skin first corpse $*","food":"cast feast on $*","metal":"cast mend metal on $*","wguard":"command first wolf to guard fluff $*","ohs":"oldhighscore players $*","ss":"sail south $*","ssw":"sail west $*","sails":"repair sails $*","sn":"sail north $*","bloom":"cast bloom $*","cboard":"board the cloud $*","fboard":"board the featherbottom ii $*","rose":"cast create rose $*","se":"go southeast","sa":"cast summon animal $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ooc":0,])
+Screen ({120,68,})
+Wrapping 1
+SocialRank 6
+ConfirmedEmail 1
+Age 525526
+WhereBlock 0
+Brief 0
+LoginTime 1453087093
+BirthTime 1219609346
+Password "cjgconlc!ikbeeo`mhfejllcbaealogjaoednihij"
+Email "elite.jynxx@gmail.com"
+RealName "Reno"
+Rank 0
+LoginSite "/domains/westwood/towns/soleil/room/cemetery"
+HostSite "71-220-28-107.mpls.qwest.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Eldest Sky Brother","Citizen","Suncloud","Rain Brother","Cloud Elder","Rainbow Sky","Eldest Sky Brother","Rainbow Sky","Suncloud","Cloud Elder","Rain Brother","Brother",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 126
+Experience 0
+Skills (["multi-weapon":(["class":2,"level":103,]),"cloth armour":(["class":4,"level":50,]),"stealth":(["class":4,"level":30,]),"navigation":(["class":2,"level":124,]),"shock magic":(["class":2,"level":128,]),"knife combat":(["class":1,"level":242,]),"natural armour":(["class":4,"level":14,]),"projectile combat":(["class":4,"level":0,]),"stealing":(["class":2,"level":119,]),"mining":(["class":4,"level":13,]),"natural magic":(["class":1,"level":254,]),"healing":(["class":1,"level":254,]),"fishing":(["class":2,"level":5,]),"leather armour":(["class":4,"level":28,]),"skinning":(["class":2,"level":57,]),"swimming":(["class":2,"level":100,]),"bargaining":(["class":2,"level":120,]),"leather working":(["class":4,"level":5,]),"farming":(["class":2,"level":23,]),"sailing":(["class":2,"level":124,]),"dodge":(["class":2,"level":201,]),"cooking":(["class":4,"level":24,]),"parry":(["class":2,"level":56,]),"enchantment":(["class":1,"level":252,]),"evokation":(["class":1,"level":254,]),])
+Morality 2398
+CanMulti 1
+Class "druid"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Eclat","Eclat",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Soleil":2,])
+OpposingFactions (["Gwonish":"Lloryk","Lloryk":"Gwonish","Haven":"Malveillant","Karak":"Glimmerdin","Malveillant":"Haven","Glimmerdin":"Karak",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 660
+MagicPoints 1130
+Bleeding 0
+Alcohol 0
+Caffeine 416
+Food 1472
+Drink 1523
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 830.000000
+Torso "torso"
+Fingers (["right hand":4,"left hand":4,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":310,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":620,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":160,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":310,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":620,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":160,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":310,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":160,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":160,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":310,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 4
+LightSensitivity ({17,73,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":65534,])
+Stats (["wisdom":(["class":2,"points":0,"level":108,]),"agility":(["class":3,"points":0,"level":73,]),"coordination":(["class":3,"points":0,"level":64,]),"intelligence":(["class":3,"points":0,"level":66,]),"strength":(["class":2,"points":0,"level":78,]),"luck":(["class":3,"points":0,"level":82,]),"durability":(["class":4,"points":0,"level":61,]),"charisma":(["class":3,"points":0,"level":68,]),])
+Languages (["slith":(["native":0,"name":"Slith","points":338,"level":61,]),"imperial":(["native":0,"name":"Imperial","points":1000,"level":50,]),"enlan":(["native":0,"name":"Enlan","points":1000,"level":100,]),"avera":(["native":0,"name":"Avera","points":1000,"level":100,]),"eetria":(["native":0,"name":"Eetria","points":430,"level":100,]),"tai":(["native":0,"name":"Tai","points":1000,"level":100,]),"oiseau":(["native":1,"name":"Oiseau","points":0,"level":100,]),"runic":(["native":0,"name":"Runic","points":1000,"level":100,]),"eltherian":(["native":0,"name":"Eltherian","points":1000,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1219609632,"%^BOLD%^RED%^Zalbar tells you,%^RESET%^ \"Yes?%^RESET%^\"",}),({1219609662,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Yo zal you have any idea why kiee wont let you join cleric or when that will be available again?%^RESET%^\"",}),({1219609698,"%^BOLD%^RED%^Zalbar tells you,%^RESET%^ \"'cause soleil does not have clerics they are druids.%^RESET%^\"",}),({1219609706,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Ahh well greet kiee once :).%^RESET%^\"",}),({1219609712,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Thats why i asked for the setting lol.%^RESET%^\"",}),({1219609855,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Ok so no cleric in soleil period then correct? wanna make sure before i make a move!%^RESET%^\"",}),({1219609866,"%^BOLD%^RED%^Zalbar tells you,%^RESET%^ \"Not going to happen, soliel is nature based.%^RESET%^\"",}),({1219609878,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Also the help file says cleric(eclat) for soleil may want to change that :).%^RESET%^\"",}),({1219609882,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"K thanks.%^RESET%^\"",}),({1219609910,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Maybe druids should be able to multi also then? Since they are nothing special and are the \"clerics\" or soleil?%^RESET%^\"",}),({1219609922,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Afk thanks for your help again zabar.%^RESET%^\"",}),({1219609926,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Zalbar :).%^RESET%^\"",}),({1219609944,"%^BOLD%^RED%^Zalbar tells you,%^RESET%^ \"That would be like a imam being able to multi.%^RESET%^\"",}),({1219610690,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Um no it wouldn't lol... imam's have faith/conjuring/evokation/healing and both magics.%^RESET%^\"",}),({1219610704,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Druid have natural, enchant, evok, heali.... thats all.%^RESET%^\"",}),({1219610710,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Thats not even close to the same lol.%^RESET%^\"",}),({1219610726,"%^BOLD%^RED%^Zalbar tells you,%^RESET%^ \"It would not be in theme for them to multi.%^RESET%^\"",}),({1219610748,"%^BOLD%^RED%^Zalbar tells you,%^RESET%^ \"They happy go lucky hippies with natural magic.%^RESET%^\"",}),({1219610770,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"And music... why wouldn't that be in the theme? Its perfect actually lol.%^RESET%^\"",}),({1219610786,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Not gonna argue just saying no one prolly plays 'em cause they blow chunks! :).%^RESET%^\"",}),})
+sphist ({})
+Town "Soleil"
+Race "muezzin"
+Gender "male"
+Nationality "Soleil"
+Size 8
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go south"
+LastWimpy 1325963035
+Currency (["cuicui":39357,])
+Bank (["Sanctum Moneychanger":(["audit":"({ OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#525620), OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#525620), OBJ(/verbs/common/ask), OBJ(fluff /secure/save/players/f/fluff) })","last time":1263144706,"imperials":2,"open":1253797690,"last trans":"withdrawal",]),"Tai MoneyChanger":(["audit":"({ OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#624923), OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#624923), OBJ(/verbs/players/request), OBJ(fluff /secure/save/players/f/fluff) })","last time":1262708406,"open":1262708406,"last trans":"opened account","koken":10,]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#37723), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#37723), OBJ(/verbs/common/ask), OBJ(fluff /secure/save/players/f/fluff) })","last time":1261880732,"imperials":357099,"open":1260112208,"last trans":"withdrawal",]),"First Averath Bank":(["audit":"({ OBJ(orris /domains/averath/towns/averath/npc/teller#338082), OBJ(orris /domains/averath/towns/averath/npc/teller#338082), OBJ(/verbs/common/ask), OBJ(fluff /secure/save/players/f/fluff) })","last time":1260369956,"open":1253813648,"last trans":"deposit","ducats":20005,]),"Keryth Bank":(["senones":5,"audit":"({ OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#644418), OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#644418), OBJ(/verbs/players/request), OBJ(fluff /secure/save/players/f/fluff) })","last time":1261668365,"open":1261668365,"last trans":"opened account",]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#379007), OBJ(magna /domains/havenwood/towns/parva/npc/banker#379007), OBJ(/verbs/players/request), OBJ(fluff /secure/save/players/f/fluff) })","last time":1253797885,"oros":5,"open":1253797885,"last trans":"opened account",]),"First Bank of Soleil":(["audit":"({ OBJ(aegri portare /domains/westwood/towns/soleil/npc/banker_aegri#2549110), OBJ(aegri portare /domains/westwood/towns/soleil/npc/banker_aegri#2549110), OBJ(/verbs/common/ask), OBJ(fluff /secure/save/players/f/fluff) })","cuicui":32284756,"last time":1317423048,"open":1219803600,"last trans":"withdrawal",]),])
+CraftingRecipes ({})
+SpellBook (["plume":1,"force of nature":100,"regrowth":22,"thicken blood":18,"color spray":12,"discern killer":2,"create natural herbs":100,"dispel chameleon":1,"natural veil":100,"nature's gift":1,"blizzard":100,"joyful rain":27,"eclat gift":10,"terra":1,"mend wood":100,"create tainted spring":1,"sense hidden":2,"heat":2,"bunnies":1,"lunar blast":60,"mend textile":1,"create flower":58,"tend wounds":1,"forest banishment":44,"thicken skin":100,"embodiment of wind":100,"detect magic":5,"barkskin":22,"orc prick":1,"cleanse flesh":1,"reinforce shields":1,"enhance joy":14,"create food":100,"mend material":1,"hydrate":100,"seal flesh":1,"soothe":100,"harmony wind":56,"water wall":1,"create rose":100,"reveal rainbow":1,"fire whirl":1,"mend metal":43,"snakebite":1,"divine elemental resistance":1,"natural charge":100,"summon animal":100,"vermin horde":8,"invigorate":100,"create water":100,"lightning storm":1,"ice storm":100,"create light":100,"swarm":5,"disperse protections":10,"mend leather":1,"nature's recovery":1,"tangle":2,"transmorph":1,"full regeneration":45,"wind wall":1,"wind walk":7,"create shadows":100,"warp wood":15,"metasynthesis":100,"condense air":1,"cure poison":22,"vine wall":100,"bloom":100,"chameleon":25,"prismatic spray":100,"eclat bite":2,"detect magic fully":1,"freeze":100,"feast":100,"wall of wood":100,"harmony hand":27,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Revered and Dreaded Champion of the WestWood","the Sagacious Master of the WestWood","the Jungle Blight","the Destroyer of the Undead Host","the Trash Picker","the Guardian Angel of the WestWood","the Majestic Soleil Druid Priest","the Butcher of Kailie","the Enlightened Climber","the Ransacker of the Mage Tower","the Averan Ferry Rider","the Rodent Exterminator","the Caravan Guard","the Explorer","of Soleil","the Initiate Druid of Eclat",})
+Story "Fluff Featherbottom, proud niece of Acclima of Soleil. Several years ago her parents her home for what they called her own safety as they set out to travel the world. They claimed it would be harmful for such a small muezzin to be away from the safe havens of Soleil the most joyous town of them all for such a long time. Fluff obviously was very upset and all though she did not show it extremely worried for her parents. Fluff became more worried and more worried as days went by so she decided to take practice in her aunts magic ways so that she could venture out in the huge world and maybe one day reunite with her parents. It has been several years since they have now been gone however Fluff has never forgot and has finally began to see the world. She has got into some serious magic and combat with some of the evil outside her walls. One day the town of Soleil went under attack by some blood hungry daemons. Thankful for the knights of the forest and her aunt Acclima the town lived to see the next day. That was the finaly straw for Fluff. Her life style went from daily playing and joking to pure business. The people around her hardly knew who she was anymore because she had become so focused on the town and its people and no longer the loss of her parents. She is now bound and determined to make sure these evil monsters never set foot in Soleil again!"
+Surname "Featherbottom"
+ApprovedStory 1
+OOCName "Reno"
+Quests ({(/1219609562,"Newbie Book",/),(/1219613220,"Explored Grove",/),(/1260543138,"Dwarf Merchant",/),(/1260648375,"Care package Delivery",/),(/1260648441,"Rodent Extermination",/),(/1260649569,"Haven Ferry",/),(/1262538004,"Haven Mage Tower",/),(/1262708294,"Mount Shatadru",/),(/1263210587,"Gurov Trash Search",/),})
+Deaths ({(/1221177452,"bleeding",/),(/1234727533,"lesser effigy",/),(/1244403289,"bleeding",/),(/1261161462,"maralith",/),(/1261164775,"human captain",/),(/1261597823,"drowning",/),(/1262444183,"elf mage",/),(/1262715361,"angry troll",/),(/1262960020,"greater water elemental",/),(/1263147313,"angry troll",/),(/1263153185,"angry troll",/),(/1263655300,"tulu cultist fighter",/),(/1317423826,"borsch",/),(/1453088680,"worker",/),})
+DevelopmentPoints 0
+TitleLength 2
+TitleAnd 1
+NoRank 0
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 968
+LastLevel 1317423054
+HighestLevel 126
+LongDaemonData ({"black","brown","brown","cuddly",0,})
+PermanentProperties (["homedock":"haven","status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({"strength",})
+PartyMembers ({})

@@ -1,0 +1,143 @@
+#/secure/save/players/a/ainent.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "Count $N the Tomb Raider (Haven elf)"
+CapName "Ainent"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":948,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":952,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":997,\"Poison\":0,])","([\"Value\":600,\"Mass\":5,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/frostmarches/areas/vergoth/obj/ring\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":733,\"Poison\":0,])","([\"Value\":100,\"Mass\":15,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/leatherglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":2438,\"Poison\":0,])","([\"Value\":50,\"Mass\":45,\"Worn\":({\"left hand\",}),\"Class\":18,\"#base_name#\":\"/domains/averath/areas/sewers/obj/jorin_knife\",\"Broken\":0,\"DamagePoints\":22,\"Poison\":0,])","([\"Value\":25,\"Mass\":45,\"Worn\":({\"right hand\",}),\"Class\":17,\"#base_name#\":\"/domains/averath/areas/sewers/obj/jorin_knife\",\"Broken\":0,\"DamagePoints\":917,\"Poison\":0,])","([\"Value\":75,\"Mass\":175,\"Worn\":({\"left arm\",}),\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/shield\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":316,\"Poison\":0,])","([\"Value\":2,\"Mass\":5,\"Worn\":({\"torso\",}),\"#base_name#\":\"/std/clothing/belt/blt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":26,\"Poison\":0,])","([\"Value\":100,\"Mass\":15,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/leatherglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":2486,\"Poison\":0,])","([\"Value\":225,\"Mass\":175,\"Worn\":({\"torso\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/leathervest\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":2426,\"Poison\":0,])","([\"Value\":250,\"Mass\":80,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/leatherboots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":2496,\"Poison\":0,])","([\"Value\":200,\"Mass\":160,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/leatherpants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":2432,\"Poison\":0,])","([\"Value\":10000,\"Class\":5,\"Worn\":0,\"CatchChance\":90,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":10,\"PoleStrength\":4637,\"#base_name#\":\"/std/fish/oceanpole\",\"DamagePoints\":900,])","([\"Value\":600,\"Mass\":5,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/frostmarches/areas/vergoth/obj/ring\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":736,\"Poison\":0,])","([\"Value\":1000,\"Mass\":200,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/instruments/lyre\",\"Broken\":0,\"DamagePoints\":300,\"Poison\":0,])","([\"Value\":600,\"Mass\":5,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/frostmarches/areas/vergoth/obj/ring\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":677,\"Poison\":0,])","([\"Value\":600,\"Mass\":5,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/frostmarches/areas/vergoth/obj/ring\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":677,\"Poison\":0,])","([\"Value\":75,\"Mass\":80,\"Worn\":({\"left leg\",\"torso\",\"right leg\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/body/brown_robe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":463,\"Poison\":0,])","([\"Value\":1000,\"Mass\":200,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/instruments/lyre\",\"Broken\":0,\"DamagePoints\":300,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":3,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/worm\",\"Broken\":0,\"DamagePoints\":1,\"Poison\":0,])","([\"Value\":35,\"Mass\":5,\"Worn\":({\"head\",}),\"#base_name#\":\"/std/invasions/haven_pirate/obj/hat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":40,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt ">"
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["lb":"sing lunar ballad $*","la":"look at $*","aw":"sing angel whisper $*","hr":"sing harmonic replenishment $*","w":"go west","u":"go up","out":"go out","s":"go south","am":"sing aria of midnight $*","p":"who","oe":"oocemote $*","n":"go north","l":"look $*","af":"sing aria of fire $*","k":"kill $*","i":"inventory","ab":"sing aura of brilliance $*","e":"go east","con":"consider $*","d":"go down","c":"cook $*","snnw":"sneak northwest $*","nw":"go northwest","snw":"sneak west $*","ka":"kill all","snu":"sneak up $*","exa":"look at $*","sns":"sneak south $*","..":"skills","...":"spells","sno":"sneak out $*","snne":"sneak northeast $*","snn":"sneak north $*","ne":"go northeast","sne":"sneak east $*","snd":"sneak down $*","ga":"get all $*","lang":"languages $*","ck":"cook first corpse $*","gac":"get all from first corpse $*","ts":"sing tingling song $*","dam":"sing dispel aria of midnight $*","gotm":"sing glory of the mage $*","rev":"sing reveillez $*",".":"status","rep":"reputation $*","songs":"songs -l -c $*","wt":"weight $*","banshee":"sing banshee scream $*","pp":"protections","bs":"backstab $*","snsw":"sneak southwest $*","wh":"sing warrior's honor $*","sw":"go southwest","st":"status $*","browse":"ask $* to browse","bos":"sing ballad of spring $*","sl":"sleep $*","sk":"skills $*","snse":"sneak southeast $*","si":"sing $*","sh":"songhelp $*","se":"go southeast","sc":"score $*","sb":"sing solar ballad $*","gcc":"get coins from $* corpse","ld":"lie down $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "xterm"
+Blocked (["ooc":0,"notify":0,])
+Screen ({99,34,})
+Wrapping 1
+SocialRank 3
+ConfirmedEmail 1
+Age 264988
+WhereBlock 0
+Brief 0
+LoginTime 1466791732
+BirthTime 1446913526
+Password "hnamiflb!njcc`kmjeiooghmlaabofnniefdlikli"
+Email "jdmarshall1990@gmail.com"
+RealName "Justin"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/misc_buildings/office"
+HostSite "194.sub-70-194-65.myvzw.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Count","citizen","Baron","Citizen","Count","Baron","citizen","Count","Baron","citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":3,"news.announcements":3,])
+NewServerLogin 1
+Level 33
+Experience 1437
+Skills (["reinforced armour":(["class":2,"level":0,]),"multi-weapon":(["class":4,"level":51,]),"stealth":(["class":2,"level":51,]),"fire magic":(["class":2,"level":60,]),"instrumental music":(["class":1,"level":68,]),"vocal music":(["class":1,"level":68,]),"slash combat":(["class":2,"level":0,]),"knife combat":(["class":1,"level":64,]),"pierce combat":(["class":4,"level":0,]),"disorient":(["class":4,"level":0,]),"fishing":(["class":2,"level":51,]),"leather armour":(["class":2,"level":51,]),"swimming":(["class":4,"level":0,]),"bargaining":(["class":1,"level":64,]),"dodge":(["class":4,"level":52,]),"cooking":(["class":4,"level":68,]),])
+Morality 2369
+CanMulti 1
+Class "bard"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gwonish":-4,"Averath":-2,"Karak":-4,"Malveillant":-56,"Glimmerdin":2,"Lloryk":2,"Haven":126,"Soleil":-4,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 430
+MagicPoints 680
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 712
+Drink 586
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 400.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":390,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":200,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":100,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":100,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":200,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":390,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":200,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":100,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":200,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":100,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({17,73,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":44,]),"wisdom":(["class":3,"points":0,"level":42,]),"coordination":(["class":3,"points":0,"level":46,]),"strength":(["class":4,"points":0,"level":35,]),"intelligence":(["class":1,"points":0,"level":66,]),"luck":(["class":4,"points":0,"level":33,]),"durability":(["class":3,"points":0,"level":38,]),"charisma":(["class":1,"points":0,"level":63,]),])
+Languages (["imperial":(["native":0,"name":"Imperial","points":1000,"level":100,]),"enlan":(["native":0,"name":"Enlan","points":1000,"level":100,]),"uruk":(["native":0,"name":"Uruk","points":1000,"level":100,]),"sprith":(["native":0,"name":"Sprith","points":1000,"level":100,]),"gryshnak":(["native":0,"name":"Gryshnak","points":1000,"level":100,]),"gurovian":(["native":0,"name":"Gurovian","points":1000,"level":100,]),"padashi":(["native":0,"name":"Padashi","points":1000,"level":100,]),"eetria":(["native":0,"name":"Eetria","points":1000,"level":100,]),"tai":(["native":0,"name":"Tai","points":1000,"level":100,]),"runic":(["native":0,"name":"Runic","points":1000,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),"blaodric":(["native":0,"name":"Blaodric","points":1000,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1448085733,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Like it may or may not be rendered as a unique color.%^RESET%^\"",}),({1448085750,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Oh really?%^RESET%^\"",}),({1448085755,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"It's not on mine and not on mudlet, clearly, and mudlet apparently also sucks at bold.%^RESET%^\"",}),({1448085775,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Are you on Mudlet too?%^RESET%^\"",}),({1448085793,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"No, putty->tintin.%^RESET%^\"",}),({1448085812,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Gahhhh magenta.%^RESET%^\"",}),({1448085821,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Ah. Tried tintin but didn't like that it was 100% command based for connections, at least on OS X.%^RESET%^\"",}),({1448085830,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"I like it because.%^RESET%^\"",}),({1448085844,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"I tried it years ago on windows and it wasn't bad, but back then I used CMUD.%^RESET%^\"",}),({1448085859,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"I use ssh clients on whatever client i'm on to ssh into a linux box that has my scripts/client set up however i like it from anywhere ^^.%^RESET%^\"",}),({1448085872,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"So it's not the best client but it's the most portable!%^RESET%^\"",}),({1448085888,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Why tintin over terminal for SSH?%^RESET%^\"",}),({1448085903,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Um--putty is the ssh client?%^RESET%^\"",}),({1448085920,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"And putty has no installation? so it can downloaded onto whatever and run from the desktop?%^RESET%^\"",}),({1448085938,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"(and i mean looks inocuous, as opposed to the \"clearly for a game\" nature of wintintin ^^).%^RESET%^\"",}),({1448085939,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Oh you're on Windows. I was thinking OS X / Unix based.%^RESET%^\"",}),({1448085962,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Which is why I said terminal.%^RESET%^\"",}),({1448086241,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Thanks again!!!%^RESET%^\"",}),({1448086244,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Fixing spells too, please let us know if anything else causes issue.%^RESET%^\"",}),({1448086251,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Ok.%^RESET%^\"",}),({1448086264,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"This... isn't the most accessible place, but if somethings doable without causing agonizing headaches we'll try to do it.%^RESET%^\"",}),({1448086272,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Customer service on Haven is excellent, you guys get right on stuff.%^RESET%^\"",}),({1448086312,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"I appreciate it. Usually I don't have issues, but then again I haven't mudded in years, so... haha.%^RESET%^\"",}),({1448086332,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"I like how ddo does things?%^RESET%^\"",}),({1448086348,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Ddo?%^RESET%^\"",}),({1448086349,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"There's like.. color wheel puzzles? so you have a purple sign a purple level etc?%^RESET%^\"",}),({1448086355,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Dungeons and dragons online.%^RESET%^\"",}),({1448086387,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"But anyway, above the signs/levers there's also like \"x number of dots\"--so if you can't parse the colors for whatever reasons, oh, hey: it's the three dot sign that goes with the three dot wheel etc ^^.%^RESET%^\"",}),({1448086388,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"As part of a quest?%^RESET%^\"",}),({1448086412,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Yeah, there's a lot of little puzzles in their quests of varying difficulty / annoyance ^^.%^RESET%^\"",}),({1448086441,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Http://i1002.photobucket.com/albums/af144/blaaargh88/ScreenShot00066.jpg.%^RESET%^\"",}),({1448086487,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Oh cool.%^RESET%^\"",}),({1448086506,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Is DDO Wow-ish?%^RESET%^\"",}),({1448086515,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"It's an mmo yes.%^RESET%^\"",}),({1448086531,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"With elves? but beyond that no ^^.%^RESET%^\"",}),({1448086561,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"In that it's not one of those mmos you play and say \"oh, it's just like wow\" I'M LOOKING AT YOU RIFTS AND WILDSTAR.%^RESET%^\"",}),({1448086594,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Only MMO I've really played (graphical, at least) is WoW. And as much as I wanna go back...%^RESET%^\"",}),({1448086605,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"It's nicknamed World of WarCRACK for a reason.%^RESET%^\"",}),({1448086612,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"So, I'm not gonna.%^RESET%^\"",}),({1448086626,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"In particular--every mission is pretty much a wow-like raid/dungeon? there are no \"the entire zone's population is here\" areas, outside of like... the cities? which aren't combat zones.%^RESET%^\"",}),})
+sphist ({})
+Town "Haven"
+Race "elf"
+Gender "male"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1447013742
+Currency (["imperials":4975,])
+Bank (["Gurov Treasury":(["audit":"({ OBJ(grimble /domains/gurov/towns/gurov/npc/treasurer#398374), OBJ(grimble /domains/gurov/towns/gurov/npc/treasurer#398374), OBJ(/verbs/common/ask), OBJ(ainent /secure/save/players/a/ainent) })","last time":1448345209,"open":1448345205,"rubles":0,"last trans":"withdrawal",]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#24996), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#24996), OBJ(/verbs/common/ask), OBJ(ainent /secure/save/players/a/ainent) })","last time":1449030215,"imperials":1487425,"open":1447014171,"shrydes":0,"last trans":"deposit",]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#375883), OBJ(magna /domains/havenwood/towns/parva/npc/banker#375883), OBJ(/verbs/common/ask), OBJ(ainent /secure/save/players/a/ainent) })","oros":0,"last time":1448317578,"open":1448317571,"last trans":"withdrawal",]),])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook (["warrior's honor":100,"staccato":100,"reveillez":100,"banshee scream":100,"harpy's shriek":100,"harmonic replenishment":100,"solar ballad":100,"harmonic shield":100,"angel whisper":100,"desert path":1,"shielding song":100,"lunar ballad":100,"tavernsong":100,"aria of stone":100,"debutant aria":100,"nourishment":100,"aria of midnight":85,"quenching":100,"pianissimo":100,"aura of brilliance":100,"tingling song":100,"famine":100,"expulsion":10,"glory of the mage":100,"mesmerize audience":1,"song of sorrow":100,"dispel aria of midnight":33,"magical lullaby":58,"vulgar verse":100,"charm individual":10,"protective note":100,"thirst":100,"ballad of summer":100,"melodic allure":35,"drift":100,"aria of fire":10,"ballad of spring":53,])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Tomb Raider","the Swashbuckler","the Crystal Courier","the Reposessor","the Averan Ferry Rider","the Subterranean Bandit Basher","the Rodent Exterminator","the Ferry Rider","the Crypt Keeper","the Guardian of the Old Cemetery","the Defender of the Keep","the Bandit Slayer","the Envoy of Haven Town","the Haven Town Messenger","the Haven Town Courier","the Haven Town Runner","the Vacationer","the Equipped","the Explorer","the Storyteller of Haven Town","the Soft Storyteller of Haven Town","the Haven Tourist","of Haven",})
+Story "Born to elven parents in a small cottage on the outskirts of Haven Town, Ainent Canere is the son of Ain and Emmta Canere. His parents chose him name as a simplified contraction of their combined names. Ain came from a long line of musicians, but, much to his parents' disappointment chose the life of a farmer instead. He married Emmta at age 17, when she was 19. Ainent was the second of their three children, but the first son. When he decided to join the ranks of the bards, his grandparents on his father Ain's side were ecstatic. Ever since, whenever he plays any music he does so with fond memories of his grandfather."
+Surname "Canere"
+ApprovedStory 1
+OOCName "Justin"
+Quests ({(/1446950740,"Newbie Book",/),(/1446952212,"Haven Tour",/),(/1447027188,"Bandit Camp",/),(/1447027300,"Leather Emporium",/),(/1447027448,"Platypus Bay",/),(/1447027832,"Message Courier",/),(/1447125839,"Message Courier pt 2",/),(/1447211013,"Message Courier pt 3",/),(/1447388612,"Message Courier pt 4",/),(/1447389023,"Bandit Slayer",/),(/1447473614,"Defender of the Keep pt 1",/),(/1447474418,"Graveyard Cleanup",/),(/1447475106,"Crypt Keeper",/),(/1448072507,"Averath Ferry",/),(/1448073455,"Care package Delivery",/),(/1448076551,"Rodent Extermination",/),(/1448076790,"Bandit Routing",/),(/1448078807,"Haven Ferry",/),(/1448079235,"Bandit Leader",/),(/1448603952,"Reposession",/),(/1448679954,"Crystal Ball Delivery",/),(/1448681148,"Swashbuckling",/),(/1448683947,"Tomb Raider",/),})
+Deaths ({(/1447013746,"bandit",/),(/1448937005,"elite guard",/),})
+DevelopmentPoints 66
+TitleLength 1
+TitleAnd 1
+NoRank 0
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 43
+LastLevel 1448942678
+HighestLevel 33
+LongDaemonData ({"blue","light brown","almond","fair","slightly pointed ears and almond shaped eyes.",})
+PermanentProperties (["status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

@@ -1,0 +1,142 @@
+#/secure/save/players/r/rayzor.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Shadow (Haven human)"
+CapName "Rayzor"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames (["kh":"khamul","abr":"Abracadabris","fo":"fortunado","mah":"mahkefel","mel":"melchezidek",])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","p":"who","oe":"oocemote $*",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","se":"go southeast","ga":"get all $*","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({107,45,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 212288
+WhereBlock 0
+Brief 1
+LoginTime 1333528132
+BirthTime 1280122953
+Password "memi`fbc!hfmeffnbcjianbegnmgmlhied`jea`gj"
+Email "joshy1977@bigpond.com"
+RealName "Josh"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/church/hospice"
+HostSite "123-243-192-37.static.tpgi.com.au"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 223
+Experience 1105513
+Skills (["reinforced armour":(["class":4,"level":1,]),"multi-weapon":(["class":1,"level":448,]),"cloth armour":(["class":2,"level":95,]),"melee combat":(["class":4,"level":1,]),"stealth":(["class":1,"level":435,]),"fire magic":(["class":2,"level":10,]),"accuracy":(["class":2,"level":101,]),"lockpicking":(["class":2,"level":1,]),"slash combat":(["class":1,"level":448,]),"disarm":(["class":4,"level":1,]),"knife combat":(["class":1,"level":448,]),"conjuring":(["class":1,"level":448,]),"pierce combat":(["class":2,"level":1,]),"mithril working":(["class":2,"level":100,]),"projectile combat":(["class":2,"level":1,]),"stealing":(["class":1,"level":435,]),"disorient":(["class":4,"level":1,]),"armour smithing":(["class":2,"level":100,]),"fishing":(["class":3,"level":10,]),"leather armour":(["class":4,"level":1,]),"pole combat":(["class":1,"level":448,]),"weapon smithing":(["class":2,"level":100,]),"swimming":(["class":4,"level":1,]),"bargaining":(["class":4,"level":10,]),"leather working":(["class":4,"level":1,]),"textile working":(["class":2,"level":100,]),"dodge":(["class":1,"level":448,]),"parry":(["class":1,"level":448,]),"enchantment":(["class":1,"level":447,]),"evokation":(["class":1,"level":448,]),])
+Morality 2500
+CanMulti 1
+Class "shadowmage"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"agnostic","agnostic",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations ([])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 950
+MagicPoints 950
+Bleeding 0
+Alcohol 0
+Caffeine 1848
+Food 434
+Drink 468
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 990.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":910,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":230,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":460,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":230,]),"left arm":(["children":({"left hand",}),"armours":729096,"parent":"torso","class":2,"health":460,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":460,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":910,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":230,]),"right arm":(["children":({"right hand",}),"armours":729096,"parent":"torso","class":2,"health":460,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":230,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 54
+LightSensitivity ({25,75,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":65534,])
+Stats (["agility":(["class":3,"points":0,"level":91,]),"wisdom":(["class":3,"points":0,"level":91,]),"coordination":(["class":3,"points":0,"level":92,]),"intelligence":(["class":3,"points":0,"level":90,]),"strength":(["class":3,"points":0,"level":94,]),"luck":(["class":3,"points":0,"level":99,]),"durability":(["class":3,"points":0,"level":90,]),"charisma":(["class":3,"points":0,"level":89,]),])
+Languages (["imperial":(["native":0,"name":"Imperial","points":500,"level":100,]),"enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Haven"
+Race "human"
+Gender "male"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 50
+WimpyCmd "go out"
+LastWimpy 1333528129
+Currency (["cuicui":694666,"imperials":11017556,])
+Bank (["Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#27456), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#27456), OBJ(/verbs/common/ask), OBJ(rayzor /secure/save/players/r/rayzor) })","last time":1284561016,"imperials":207599092,"open":1280125836,"last trans":"deposit",]),])
+CraftingRecipes ({})
+SpellBook (["missile":55,"dispel invisibility":2,"detect morality":1,"planar wisdom":100,"discern killer":1,"planar strength":100,"anti magic field":58,"lock person":100,"mesmer barrier":100,"telepathy":37,"fireball":1,"create energy mine":14,"transport":100,"avalanche":1,"sphere":2,"meteor swarm":100,"venomous blood":1,"energy field":100,"mage's bane":35,"blindness":100,"shock":1,"energy wall":91,"chain lightning":100,"teleport":100,"capsule":49,"create magic reserve":1,"paralysis":100,"detect invisibility":1,"planar durability":100,"detect magic":50,"lock area":100,"haste":100,"create food":1,"temporal barrier":100,"channeling":100,"aura":5,"temperature shield":1,"instantaneous movement":1,"bolt":1,"invisibility":100,"buffer":100,"charm animal":1,"aetheric rift":100,"death":1,"clairvoyance":1,"disintegrate":1,"dimensional rift":1,"alarm":1,"poison sphere":1,"earth touch":1,"create water":1,"dimension door":1,"ethereal touch":1,"charm sentient":1,"create light":5,"enchant armour":1,"planar charisma":100,"disperse protections":82,"poison orbs":1,"create shadows":5,"ice lance":7,"ice ball":5,"flamestrike":100,"planar intelligence":100,"enhanced energy wall":100,"lightning blast":100,"lava storm":1,"shield area":6,"detect magic fully":49,"temporal explosion":100,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Shadow","the Knife","the Dragon Slayer","the Closer of the WestWood Rift","the LightsBane","the Darkness","the Sneak","the Slinker","the Runner","the Ransacker of the Mage Tower","the Enlightened Climber","the Desert Caravaner","the Guardian of the Old Cemetery","the Caravan Guard","the Platypus Skinner","the Bandit Slayer","the Haven Town Runner","the Vacationer","the Equipped","the Explorer","of Haven","the Apprentice Evoker of Haven Town",})
+Story "Rayzor, citizen of Haven, spent much of his youth in Haven library studying magic books and scrolls. From a young age he has always been fascinated in magic. And so the day came which he always knew would when he signed up to become a young apprentice mage under the tutalage of Alhana Valen. Swearing to protect the forces of magic and energy."
+Surname 0
+ApprovedStory 1
+OOCName "Josh"
+Quests ({(/1280122989,"Newbie Book",/),(/1280127651,"Bandit Camp",/),(/1280127683,"Leather Emporium",/),(/1280127699,"Platypus Bay",/),(/1280127740,"Message Courier",/),(/1280129100,"Bandit Slayer",/),(/1280129681,"Platypus Skinner",/),(/1280130035,"Graveyard Cleanup",/),(/1280134241,"Dwarf Merchant",/),(/1280135185,"Explored Grove",/),(/1280137558,"Barian Merchant",/),(/1280144992,"Desert Merchant",/),(/1281850867,"Mount Shatadru",/),(/1282103885,"Haven Mage Tower",/),})
+Deaths ({(/1283189328,"wasting sickness",/),})
+DevelopmentPoints 279
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 0
+SeveredHeads 2004
+LastLevel 1284570761
+HighestLevel 223
+LongDaemonData ({"green","black","brownish","tanned",0,})
+PermanentProperties (["status":"normal",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})
