@@ -1,0 +1,3 @@
+#/daemon/races.c
+NoClean 1
+Races (["elemental":(/({({"torso",0,1,({131072,524288,8192,16384,4096,262144,2048,}),}),({"head","torso",1,({524288,512,256,8192,}),}),({"left arm","torso",2,({8,4096,131072,524288,65536,}),}),({"right arm","torso",2,({8,4096,131072,524288,65536,}),}),({"right hand","right arm",4,({4,8,32768,65536,}),}),({"left hand","left arm",4,({4,8,32768,65536,}),}),}),([2:"low",64:"low",32:"high",]),(["wisdom":(/3,21,/),"agility":(/3,21,/),"coordination":(/3,21,/),"speed":(/3,21,/),"strength":(/3,21,/),"luck":(/3,21,/),"intelligence":(/3,21,/),"durability":(/3,21,/),"charisma":(/3,21,/),]),(["right hand":6,"left hand":6,]),({20,80,}),1,0,"Elementalish",16,/),])
