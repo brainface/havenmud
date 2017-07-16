@@ -1,0 +1,145 @@
+#/secure/save/players/r/reythirren.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "Wraith $N, Death Incarnate (Grymxoria nosferatu) (undead)"
+CapName "Reythirren"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":450,\"Mass\":500,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/frostmarches/areas/lodge/obj/boots\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":600,\"Mass\":5,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/frostmarches/areas/vergoth/obj/ring\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":750,\"Poison\":0,])","([\"Value\":1000,\"Mass\":120,\"Worn\":({\"left leg\",\"right leg\",\"left arm\",\"right arm\",\"torso\",}),\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/mastershozoku\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":4500,\"Poison\":0,])","([\"Value\":1200,\"Mass\":180,\"Worn\":({\"left hand\",}),\"Class\":24,\"#base_name#\":\"/domains/tairi/towns/tairi/obj/katana\",\"Broken\":0,\"DamagePoints\":1633,\"Poison\":0,])","([\"Value\":1200,\"Mass\":180,\"Worn\":({\"right hand\",}),\"Class\":24,\"#base_name#\":\"/domains/tairi/towns/tairi/obj/katana\",\"Broken\":0,\"DamagePoints\":3582,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","st":"status $*","...":"spells","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","k":"kill $*","ne":"go northeast","sk":"skills $*","i":"inventory","e":"go east","ga":"get all $*","se":"go southeast","d":"go down","pr":"protections $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["intergossip":1,"dc":1,"ooc":0,"isport":1,])
+Screen ({136,60,})
+Wrapping 1
+SocialRank 4
+ConfirmedEmail 1
+Age 3917773
+WhereBlock 0
+Brief 1
+LoginTime 1500124371
+BirthTime 1175342949
+Password "jbelfghc!jkm`fghmlhomgjbhdhbnhiijdjnkckdk"
+Email "vir182@yahoo.de"
+RealName "Max"
+Rank 0
+LoginSite "/domains/estergrym/towns/grymxoria/room/road16"
+HostSite "84-113-247-75.cable.dynamic.surfer.at"
+WebPage 0
+AdditionalId ({"zombie",})
+Ranks ({"Citizen","Officer","citizen","Baron","Shade","DeathKnight","Sergeant","Count","Lord Captain","Captain","Lord","DeathKnight","Lord","Shade","DeathKnight","Lord","Shade","Count","Baron","citizen","Count","Baron","citizen","Count","Baron","citizen","Marquis","DeathKnight","Lord","Shade","DeathKnight","Lord","Shade",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 493
+Experience 0
+Skills (["multi-weapon":(["class":1,"level":988,]),"cloth armour":(["class":1,"level":984,]),"ice magic":(["class":1,"level":988,]),"combat rage":(["class":1,"level":988,]),"chain armour":(["class":2,"level":235,]),"heavy plate armour":(["class":1,"level":988,]),"disarm":(["class":3,"level":0,]),"knife combat":(["class":2,"level":0,]),"mithril working":(["class":2,"level":101,]),"necromancy":(["class":1,"level":988,]),"weapon smithing":(["class":2,"level":101,]),"plate armour":(["class":1,"level":984,]),"sword slinging":(["class":1,"level":988,]),"bargaining":(["class":4,"level":101,]),"natural working":(["class":2,"level":42,]),"blunt combat":(["class":2,"level":0,]),"hack combat":(["class":2,"level":0,]),"evokation":(["class":1,"level":988,]),"metal working":(["class":4,"level":101,]),"melee combat":(["class":2,"level":301,]),"accuracy":(["class":1,"level":988,]),"slash combat":(["class":1,"level":988,]),"conjuring":(["class":1,"level":988,]),"natural armour":(["class":4,"level":0,]),"projectile combat":(["class":4,"level":0,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":2,"level":58,]),"fishing":(["class":4,"level":0,]),"pole combat":(["class":1,"level":982,]),"skinning":(["class":2,"level":0,]),"practical magic":(["class":4,"level":100,]),"leather working":(["class":2,"level":44,]),"farming":(["class":4,"level":0,]),"textile working":(["class":4,"level":109,]),"dodge":(["class":2,"level":301,]),"parry":(["class":1,"level":988,]),])
+Morality 2337
+CanMulti 1
+Class "deathknight"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Aberach","Aberach",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Conditions ([])
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Sanctum":-10,"Grymxoria":141,"Parva":-4,"Karak":6,"Ungkh":8,"Malveillant":33,"Lisht":-2,"Glimmerdin":-12,"Durgoroth":-90,"Tairi":-8,"Havenwood":-2,"Jidoor":-16,"Haven":-72,"First Lower Plane":-2,"Soleil":-38,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 1
+UndeadType "zombie"
+HealthPoints 1390
+MagicPoints 1360
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 887
+Drink 741
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 1620.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":1350,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":680,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":340,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":680,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":340,]),"torso":(["children":({"head","left leg","right leg","right arm","left arm",}),"armours":686080,"parent":0,"class":1,"health":1350,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":680,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":340,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":680,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":340,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({0,40,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":32766,])
+Stats (["wisdom":(["class":2,"points":0,"level":148,]),"agility":(["class":3,"points":0,"level":138,]),"coordination":(["class":3,"points":0,"level":132,]),"intelligence":(["class":3,"points":0,"level":151,]),"strength":(["class":3,"points":0,"level":157,]),"luck":(["class":3,"points":0,"level":131,]),"durability":(["class":2,"points":0,"level":134,]),"charisma":(["class":4,"points":0,"level":112,]),])
+Languages (["barian":(["native":0,"name":"Barian","points":400,"level":100,]),"trog":(["native":0,"name":"Trog","points":400,"level":100,]),"uruk":(["native":0,"name":"Uruk","points":400,"level":100,]),"sprith":(["native":0,"name":"Sprith","points":1000,"level":100,]),"heyami":(["native":0,"name":"Heyami","points":400,"level":100,]),"koblich":(["native":0,"name":"Koblich","points":400,"level":100,]),"valsor":(["native":0,"name":"Valsor","points":72,"level":100,]),"eetria":(["native":0,"name":"Eetria","points":1000,"level":100,]),"padashi":(["native":0,"name":"Padashi","points":354,"level":100,]),"oiseau":(["native":0,"name":"Oiseau","points":400,"level":100,]),"rehshai":(["native":0,"name":"Rehshai","points":400,"level":100,]),"eltherian":(["native":0,"name":"Eltherian","points":1000,"level":100,]),"shangtai":(["native":0,"name":"Shangtai","points":400,"level":100,]),"alatherian":(["native":0,"name":"Alatherian","points":500,"level":100,]),"slith":(["native":0,"name":"Slith","points":400,"level":100,]),"imperial":(["native":0,"name":"Imperial","points":1000,"level":98,]),"enlan":(["native":0,"name":"Enlan","points":1000,"level":100,]),"skavish":(["native":0,"name":"Skavish","points":400,"level":100,]),"avera":(["native":0,"name":"Avera","points":400,"level":100,]),"dragonish":(["native":0,"name":"Dragonish","points":400,"level":100,]),"archaic":(["native":0,"name":"Archaic","points":400,"level":100,]),"gryshnak":(["native":0,"name":"Gryshnak","points":1000,"level":100,]),"gurovian":(["native":0,"name":"Gurovian","points":1000,"level":100,]),"dasinri":(["native":0,"name":"Dasinri","points":68,"level":100,]),"tai":(["native":0,"name":"Tai","points":1000,"level":100,]),"gobyshkin":(["native":0,"name":"Gobyshkin","points":400,"level":100,]),"runic":(["native":0,"name":"Runic","points":1000,"level":100,]),"blaodric":(["native":1,"name":"Blaodric","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1337117833,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Im thinking i need less workers and more higher end npcs on that minaret.%^RESET%^\"",}),({1337117871,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Maybe even add a random 0 - 1 guardian to the lower tier rooms.%^RESET%^\"",}),({1380063687,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"Hey, i wanted to talk to you about something.%^RESET%^\"",}),({1380063725,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Shot.%^RESET%^\"",}),({1380063738,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"I meant shoot.%^RESET%^\"",}),({1380063752,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"Your final spell as a necromancer you want to morph? Wouldnt you want to become a Lich?%^RESET%^\"",}),({1380063797,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"Or something that would enable you to control more dead, or something?%^RESET%^\"",}),({1380063832,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Hmm lemme think.%^RESET%^\"",}),({1380063855,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"I already have a spell which creates undeads or mummies.%^RESET%^\"",}),({1380063898,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Morphing to a lich sounds good. but what defines a lich? if i\"m undead and die do i get purged?%^RESET%^\"",}),({1380063908,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"True. Only way i can see this working is turning into a 'lich dragon'.%^RESET%^\"",}),({1380063930,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"Nah think of it as a safe undead phase.%^RESET%^\"",}),({1380063930,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Lich dragon, bone dragon.%^RESET%^\"",}),({1380064008,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"BC your a necro, and we need to get ya something.%^RESET%^\"",}),({1380064015,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Does my corpse (limbs) change? if yes i have to get real high immunity to attacks. otherwise all the armours which icant wear would be a backdraft.%^RESET%^\"",}),({1380064057,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"We'll balance everything to make it not suck.%^RESET%^\"",}),({1380064095,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Cool ... i'm so exited ... i never thought Dukk or any immortal would work on such a spell.%^RESET%^\"",}),({1380064128,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"No doubt, i'll see what i can do up here.%^RESET%^\"",}),({1380064148,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Cool. thx you very much.%^RESET%^\"",}),({1380064255,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"It would be really cool if i had 'random' morphing targets. like at lower spell knowledge to spectre, then to lich, ... undead dragon. no clue how expensive it is to code such thing.%^RESET%^\"",}),({1380064283,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"How i have seen it on other games is a number system that runs off of 'soul points' or something. We can do anything hehehe.%^RESET%^\"",}),({1380064328,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"Plus since this will be the 'spell of all spells' it will be painful to get it high. But obv any end result is completely worth it.%^RESET%^\"",}),({1380064345,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"What i mean is the more knowledge i have about the spell the more likely is i morph to the best form - an undead dragon.%^RESET%^\"",}),({1380064355,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"Spectre -> dragon at the highest form wouldnt be a problem.%^RESET%^\"",}),({1380064362,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"There ya go :D.%^RESET%^\"",}),({1380064401,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Well dont posion the spell at lev 500. i thin i cant go past 1000 and so i could not train the spell ;-).%^RESET%^\"",}),({1380064407,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Err position.%^RESET%^\"",}),({1380064461,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"I cant wait to see the spell ...%^RESET%^\"",}),({1380064600,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"Someone will review everything before we put it in. To make sure it is all smooth and polished. If you pass the spell level its ok, its a simple quit/relog fix for you after its implemented.%^RESET%^\"",}),({1383074040,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Hey.%^RESET%^\"",}),({1383074064,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"I looked and we dont currently HAVE medium sized helmets nor gauntlets.  i'll code you some after i eat.%^RESET%^\"",}),({1386094347,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Hey.%^RESET%^\"",}),({1386094363,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"I'm going to tweak the minaret abit.%^RESET%^\"",}),({1386094394,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"The one in the yoz.  i as wondering, if i recall correctly you said that everything was too low a level?%^RESET%^\"",}),({1386108308,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"So i should make all the NPCs a higher level?%^RESET%^\"",}),({1386108426,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"They are not really too low level. it is more that they are not worth the XPs. with all those shielding, special nasty moves they are hard earned XPs. maybe if they are more hight level the XPs increase ...%^RESET%^\"",}),({1386108438,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Hard to tell how balancing with XPs works.%^RESET%^\"",}),({1386108484,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"All i can tell you is that - for me it is easier to kill 10 Tulu priests - in the same time i kill max. 4 of those warriors.%^RESET%^\"",}),({1386108516,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"The lowe level is easy to clean. but upper levels ... I still fear those warrior moves. though i havent tried those since i got heavy plate.%^RESET%^\"",}),({1386109536,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"K.%^RESET%^\"",}),})
+sphist ({})
+Town "Grymxoria"
+Race "nosferatu"
+Gender "male"
+Nationality "Grymxoria"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 0
+WimpyCmd "go out"
+LastWimpy 1321910763
+Cooldowns ([])
+Currency (["koken":480,])
+Bank (["Bank of Lisht":(["audit":"({ OBJ(sahure /domains/xandria/towns/lisht/npc/sahure#1368706), OBJ(sahure /domains/xandria/towns/lisht/npc/sahure#1368706), OBJ(/verbs/players/request), OBJ(reythirren /secure/save/players/r/reythirren) })","deben":5,"last time":1220700717,"open":1220700717,"last trans":"opened account",]),"First Averath Bank":(["audit":"({ OBJ(orris /domains/averath/towns/averath/npc/teller#342240), OBJ(orris /domains/averath/towns/averath/npc/teller#342240), OBJ(/verbs/players/request), OBJ(reythirren /secure/save/players/r/reythirren) })","last time":1180350835,"open":1180350835,"last trans":"opened account","ducats":5,]),"Grymxoria Bank":(["deben":33234,"open":1175343089,"imperials":154139797,"koken":0,"last trans":"deposit","audit":"({ OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#103621), OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#103621), OBJ(/verbs/common/ask), OBJ(reythirren /secure/save/players/r/reythirren) })","crystals":1802,"last time":1457382623,"chits":645072,"bloodgems":1891740407,]),])
+CraftingRecipes ({})
+SpellBook (["missile":1,"fireburst":100,"hunger":100,"animate dead":100,"skull of darkness":100,"grave walk":100,"mesmer barrier":7,"practical darkness":1,"will o' wisp":1,"fireball":1,"create energy mine":15,"shroud":1,"avalanche":100,"sphere":1,"meteor swarm":17,"vampiric touch":100,"fimbulwinter":100,"venomous blood":1,"energy field":80,"drain soul":31,"mummify":79,"shock":1,"curse":100,"energy wall":11,"chain lightning":100,"capsule":24,"wound":1,"undying vitality":100,"soultap":100,"acid rain":4,"steam flash":1,"temporal barrier":100,"advanced chain lightning":1,"aura":100,"temperature shield":100,"ice floe":1,"bolt":1,"umbral shield":100,"buffer":11,"frostbite":100,"death":100,"aetheric rift":100,"disintegrate":100,"wither":100,"practical water":100,"unshackle servant":1,"bone shell":1,"practical light":1,"poison sphere":1,"spirit call":100,"acid blast":1,"speak with dead":100,"crown of flames":2,"acid splash":1,"wives' tale":100,"disperse protections":100,"sense weakness":100,"poison orbs":1,"ice lance":100,"cloud kill":100,"wards of light":100,"necromantic shield":78,"ice ball":31,"flamestrike":1,"veil from beyond":100,"poison explosion":100,"enhanced energy wall":100,"fortress of solitude":100,"lightning blast":1,"transmutation":100,"lava storm":99,"blood rite":100,"locate zombie":100,"temporal explosion":100,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"Wraith $N, Death Incarnate","the Runner","the Spike Crafter","the Averan Ferry Rider","the Rodent Exterminator","the Trash Picker","the Mystic Murderer","the Thief of Wings","the Bird Watcher","the Cursed","the Defiler of the Havenwood","the Destroyer of the Undead Host","the Defender of Parva against Pirates","the Bringer of Fire","the Distant Traveller","the LightsBane","the Daemon Queller","the Eradicator of Outlaws","the Ronin Slayer","the Arboretum Visitor","a Scion of Taigis","the Island Explorer","the Ravager of Flames","the Ransacker of the Mage Tower","the Organ Carrier","the Bandit Killer","the Jungle Blight","the Butcher of Kailie","the Caravan Guard","the Dark Heart of the Grymxoria Guard","of the Grymxorian Army","the Explorer","the Master of the Black Arts","the Wraithful Diabolist","the Baneful Conjurer","the Wayward Aspiring Theurgist","the Malevolent Spectre","the Enlightened Climber","of the Grymxorian Guard","the Trainee of the Grymxorian Guard","of Grymxoria",})
+Story "Reythirren, son of Radaeas, was born in Grymxoria. Not much is known about his doings in his young years. The enrollment in the Grymxorian brute squad is the only offical testemony of his existence."
+Surname 0
+ApprovedStory 1
+OOCName "Max"
+Quests ({(/1175342965,"Newbie Book",/),(/1176034325,"Mount Shatadru",/),(/1176151507,"Explored Grove",/),(/1177159204,"Dwarf Merchant",/),(/1197205217,"Organ Delivery",/),(/1201083216,"Haven Mage Tower",/),(/1217013336,"Elemental Castle Quest",/),(/1218575325,"Ronin Camp",/),(/1220435862,"Repel the Kylin Invaders",/),(/1220435902,"Kill the Kylin Leaders",/),(/1220705758,"Cherry Blossom",/),(/1220705878,"Ronin Slayer",/),(/1220705994,"Ronin Leader",/),(/1220791074,"Invade the Ruins",/),(/1220791647,"Kill the Leaders",/),(/1232395595,"Xandrian Journey",/),(/1232399898,"Quenching the Fire",/),(/1299273047,"Ending the Curse",/),(/1332073838,"Bird Watcher",/),(/1332074150,"Bird Thief",/),(/1338834062,"Gurov Trash Search",/),(/1338870061,"Care package Delivery",/),(/1338870137,"Rodent Extermination",/),(/1338870193,"Haven Ferry",/),(/1359240795,"Spike Crafter",/),(/1379507607,"Barian Merchant",/),})
+Deaths ({(/1175347548,"citizen",/),(/1175354667,"rat",/),(/1177627041,"narrin",/),(/1178114958,"magic shock",/),(/1180788741,"rook",/),(/1218670137,"effigy",/),(/1218883002,"rook",/),(/1218915577,"greater water elemental",/),(/1235933010,"extreme temperature",/),(/1237123592,"dux",/),(/1237853099,"extreme temperature",/),(/1280512821,"tanov",/),(/1280514645,"tanov",/),(/1335036171,"guardian",/),(/1350813733,"bleeding",/),(/1388013683,"stryke",/),(/1458496981,"tulu cultist priest",/),})
+DevelopmentPoints 323
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 0
+SeveredHeads 105871
+LastLevel 1458405626
+HighestLevel 493
+LongDaemonData ({"black",0,"pale","fair",0,})
+PermanentProperties (["i3_enable":1,"animate_zombie":"/std/spells/obj/animate_mummy#3749","defaultlanguage":"blaodric","morgul_attacker":1,"status":"normal",])
+ExploredWorlds ({})
+ImprovedStats ({"intelligence","agility",})
+PartyMembers ({})

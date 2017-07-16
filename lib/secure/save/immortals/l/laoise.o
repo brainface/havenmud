@@ -1,0 +1,63 @@
+#/secure/save/immortals/l/laoise.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "%^RED%^$N the Iron Fist of Darkness%^RESET%^"
+CapName "Laoise"
+ExternalDesc "$N is nondescript."
+Invisible 3
+Items ([])
+Inventory ({"([\"Deterioration\":0,\"Worn\":0,\"DamagePoints\":1000000,\"Broken\":0,\"#base_name#\":\"/std/obj/wed_ring\",\"Spouse\":\"Duuk\",\"Value\":0,\"Mass\":10,\"Poison\":0,])",})
+Messages (["vis":"%^RED%^Shadows thicken and pile upon each other then slide slowly away, revealing $N.%^RESET%^","telout":"%^RED%^Shadows thicken to dark tendrils which wrap around $N, who vanishes into the blackness.%^RESET%^","invis":"%^RED%^Shadows thicken to dark tendrils which wrap around $N, who vanishes into the blackness.%^RESET%^","home":"%^RED%^Shadows thicken to dark tendrils which wrap around $N, who vanishes into the blackness.%^RESET%^","dest":"%^RED%^$N glares hotly at $O which crumples rapidly to dust and disappears.%^RESET%^","clone":"%^RED%^$N opens her hand as sphere of darkness forms there, dropping from her palm to form %O.%^RESET%^","telin":"%^RED%^Shadows thicken and pile upon each other then slide slowly away, revealing $N.%^RESET%^","leave":"%^RED%^$N blurs and smears a streak of black behind her as she leaves $D.%^RESET%^","come":"%^RED%^Shadows thicken and pile upon each other then slide slowly away, revealing $N.%^RESET%^",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory "/log"
+Nicknames (["xod":"xodeidhiur","mel":"melchezidek",])
+Aliases (["s":"go south","sw":"go southwest","thm":"tell hellmonger@trilogy $*","d":"go down","...":"morals $*","ne":"go northeast","la":"look at $*","ga":"get all $*","evilcookie":"clone /realms/laoise/home/cookie_chocochip.c $*","pp":"people $*","..":"allstatus $*","gac":"get all from $* corpse","ka":"kill all","bb":"broadcast $*","tjc":"tell jcdenton@discworld $*","ar":"arch $*","ig":"intergossip $*",".":"summ $*","nw":"go northwest","ae":"archemote $*","ie":"immemote $*","mue":"museemote $*","ade":"adminemote $*","ige":"intergossipemote $*","oe":"oocemote $*","map":"ooc http://havenmud.com/havenmud.com/haven/img/maplarge.jpg will give you some idea of the basic world arrangement. Towns are shown and generally they are connected by long roads with areas branching off them. $*","exa":"look at $*","se":"go southeast","td":"more /realms/laoise/todo $*","w":"go west","mu":"muse $*","k":"kill $*","....":"locations $*","ad":"admin $*","u":"go up","i":"inventory","e":"go east","out":"go out","n":"go north","l":"look $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["shipreports":1,"nws":1,"isport":1,"debug":1,"fs":1,"dc":1,"hl":0,"ooc":1,"error":1,"intercre":1,"spam":1,"intergossip":0,"ds":1,"reports":0,])
+Screen ({112,60,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 2318113
+WhereBlock 0
+Brief 0
+LoginTime 1232951634
+BirthTime 1174849084
+Password "UKRdOonCUClWw"
+Email "laoise@duuk.com"
+RealName "Unknown"
+Rank 0
+LoginSite "/realms/laoise/workroom"
+HostSite "c-68-46-47-137.hsd1.nj.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({(/1175309465,0,"Duuk","/domains/southern_coast/towns/haven/room/church/sanctuary",/),})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.announcements":1,])
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({})
+sphist ({({1232952463,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Also have had two weekends off in a row.",}),({1232952465,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ 26 and look 40",}),({1232952485,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Well, it's not so much just that as before the \"me\" time came from doing things with Dad and/or Don.",}),({1232952493,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ It's hard living alone nowhere near anyone I know except through work.",}),({1232952501,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Still trying to figure out socalization that will work for me.",}),({1232952511,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ nods.",}),({1232952515,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Can't do stuff that weekly on a given day/time since I'll only be avaliable once a month.",}),({1232952519,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Hunt down a local group of something you enjoy.",}),({1232952527,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ nods.",}),({1232952531,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ That's the plan. Been trying to figure out what that is though.",}),({1232952537,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ relax at a coffeehouse that has a crowd?",}),({1232952545,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ did that after the 1st divorce.",}),({1232952549,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ It was good for me.",}),({1232952549,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Well, that's where the second problem comes in - I live in the ghetto.",}),({1232952557,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ so figure out where whiteland is.",}),({1232952562,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Anywhere safe for me to hangout is like a 10 min drive away.",}),({1232952567,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ oh boo hoo",}),({1232952593,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ :P I didn't say I wasn't pondering. I'm more trying to think of activity",}),({1232952607,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Hoping I can get in better shape and play some pick up volleyball. Figure exercise will also help.",}),({1232952657,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Your schedule doesn't allow for a league, right?",}),({1232952661,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Right.",}),({1232952665,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ So figure out what night teh local gym has \"open play\" or whatever",}),({1232952673,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Join the gym.",}),({1232952673,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ etc",}),({1232952683,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Yes, thanks dad, I already had thought of those.",}),({1232952695,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Mostly step 1 needs to be getting back in some sort of shape though. It's all a process.",}),({1232952711,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ :P",}),({1232952717,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Aren't... we... witty.",}),({1232952737,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Your other option, of course, is to become a barslut.",}),({1232952743,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ But that's only good for sex and stds.",}),({1232952749,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Luckily, you're a doctor.",}),({1232952753,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ I've considered that one too, but think that might involve better shape too *pokes at tummy*",}),({1232952757,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ That doesn't work well, actually.",}),({1232952768,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Does for guys. For women it's like \"oh eep, you are? uuuuuh bye\"",}),({1232952795,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ would be all about it.",}),({1232952800,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Some guys are. Most aren't.",}),({1232952805,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ would be like \"woo hoo, suga momma!\"",}),({1232952807,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ I'd get more play claiming I was a nurse.",}),({1232952819,"Duuk %^BOLD%^MAGENTA%^<spouse>%^RESET%^ yeah but that's for kinky shit",}),({1232952827,"Laoise %^BOLD%^MAGENTA%^<spouse>%^RESET%^ snorts.",}),})
+CreatorAge 0
+CreatorBirth 1174849202
+Position 2
+WhoInvis 0
+Angel 0
+Retired 0
+Sponsor "Duuk"
+Religion ({"Aberach",})
+ReligionTitle 0
+Department 0
+Domain "None"
+DomainTitle 0
+Sponsorees ({})
+Gender "female"
+Status 0

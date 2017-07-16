@@ -1,0 +1,30 @@
+#/domains/estates/virtual/boxes/Haven/Itkupaju.c
+Opacity 100
+MaxDamagePoints 20000
+PreventGet "The box is firmly nailed to the floor."
+DisableChance 50
+Short "a large wooden chest"
+CapName "Chest"
+ExternalDesc "This large wooden box looks like it could hold much loot. It looks durable."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","BoxInventory",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Closed 1
+Keys ({"Haven_Itkupaju_key",})
+Locked 1
+LockStrength 1250
+CanClose 1
+CanLock 1
+BoxInventory ({"([\"Value\":100000,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/estates/obj/estatebox\",\"Broken\":0,\"DamagePoints\":10000,\"Poison\":0,])","([\"Value\":200,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/areas/acove/obj/comb\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":500,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/areas/acove/obj/bottle\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":20,\"Class\":1,\"Worn\":0,\"CatchChance\":25,\"Broken\":1,\"Poison\":0,\"Bait\":0,\"Mass\":25,\"PoleStrength\":52,\"#base_name#\":\"/domains/havenwood/towns/parva/obj/fisher_pole\",\"DamagePoints\":38,])","([\"Value\":125,\"Mass\":45,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/havenwood/areas/wood/obj/goldenbow\",\"Broken\":0,\"DamagePoints\":1295,\"Poison\":0,])","([\"Value\":40,\"Mass\":200,\"Worn\":0,\"Class\":12,\"#base_name#\":\"/std/mission_obj/stake\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":200,\"Lit\":0,\"Mass\":100,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/valley/areas/undead_tower/obj/candles\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":0,\"Poison\":0,])",})
+BoxID "Haven_Itkupaju_storage"

@@ -1,0 +1,9 @@
+Reported by: Borsch (bjorn.brown@yahoo.com)
+Time       : Fri Jul 22 03:18:17 2011
+Type       : idea
+Location   : ^EE/~v/upper_estate/Grymxoria/Borsch
+Status     : NEW
+Bug        : basic set of aliases addition
+ 
+unlock unlock $* with my key
+lock lock $* with my key

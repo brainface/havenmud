@@ -1,0 +1,15 @@
+Reported by: Borsch (bjorn.brown@yahoo.com)
+Time       : Tue Jan  3 14:47:05 2012
+Type       : unexplained behaviour
+Location   : ^FM/~a/catacombs/room/stair5
+Status     : NEW
+Bug        : i found a nifty bug with player stores
+
+if i have an object that is at 100% broken and i cant fix it
+
+i give it to my store
+then i retrieve it
+
+now its at 0% broken
+
+nice huh?

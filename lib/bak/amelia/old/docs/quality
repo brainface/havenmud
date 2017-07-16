@@ -1,0 +1,78 @@
+BUILDING A QUALITY AREA AT HAVEN
+--------------------------------  
+ 
+ 
+1.  NEVER use 'you' in a description.
+ 
+Using "you" oftens expresses feelings that someone (in their rp charector)
+may not have.  Huge burly orcs of level 50 won't feel the same as a
+newbie sprite without any spells
+
+2.  Use quality descriptions.
+
+Using quality descriptions, one can make an area come alive to the players.
+Describing every noun in the room gives more feel to an area, and makes
+playing the mud more enjoyable.
+
+3.  Make NPCs unique and interesting.
+
+Not every single NPC should be a huge sentient file, but a few NPCs in
+every area should have special parts to them to make them interesting.
+
+4.  Don't give out hoardes of treasure and items.
+
+Instead of giving out quanity, give out quality:  interesting items will
+remain in a player's inventory a lot longer than boring ones.  Also, the
+amount of things given out should reflect the levels needed to obtain
+them.
+
+-- Amelia
+
+EXAMPLE ROOM
+------------
+
+> look
+
+The library is cold and lifeless in it's timeless manner.  The
+books on the shelves seem to be in the same condition that they
+were left countless centuries ago in the days of Rath-Khan's
+empire.  There is a desk off to the northern corner of the room
+which has several books stacked on it.  A window looks out over
+the eastern forest from this height.
+The room is deathly quiet.
+There is a large amount of dust in the air.
+A small robed man is standing here.
+
+> exa ({ book, books })
+
+The books seem to be historical works, philosophy works,
+and more of the works one would expect in a library.
+
+> exa ({ shelf, shelves })
+
+The shelves are covered with dust and the countless books
+from the days of Rath-Khan's rule.
+
+> exa window
+The window looks out over the snow covered forest.
+
+> exa desk
+
+The desk is covered in books and dust.
+
+> exa ({ man, robed man, librarian })
+
+This man seems to be going about his business doing the tasks
+that he has done through the centuries.  His skeletal hands
+are shifting books around the room in a false and disquieting
+manner.
+
+> whisper <string>
+
+The librarian looks at you almost kindly.
+
+> ({ say, yell }) <string>
+
+The librarian attacks you!
+
+-- Duuktsaryth

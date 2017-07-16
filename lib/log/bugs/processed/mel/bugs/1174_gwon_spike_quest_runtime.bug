@@ -1,0 +1,18 @@
+Reported by: Alan (BrackDiesel@live.com)
+Time       : Sat Dec 22 06:29:44 2012
+Type       : runtime
+Location   : ^CR/~t/gwonish/room/gw09
+*Array index out of bounds.
+Object: /std/missions/crystal_reaches/gwonish_spike_crafter at line 25
+
+'<fake>' at /secure/save/players/a/alan (/<driver>) at line 0
+'cmdAll' at /secure/save/players/a/alan (/lib/users/player.c) at line 1010
+'cmdAll' at /secure/save/players/a/alan (/lib/livings/command.c) at line 63
+'cmd' at /cmds/players/score at line 52
+'eventScore' at /cmds/players/score at line 117
+'CheckMission' at /secure/daemon/mission at line 54
+'CheckCompletedMission' at /std/missions/crystal_reaches/gwonish_spike_crafter at line 25
+
+
+Status     : NEW
+Bug        : The quest bugs when you type score (to view the spike quest) while IN the bamboo enclosement.

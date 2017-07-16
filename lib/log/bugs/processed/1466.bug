@@ -1,0 +1,25 @@
+Reported by: Darur (ratienz1@jhu.edu)
+Time       : Sun Jun  5 14:40:16 2016
+Type       : runtime
+Location   : ^SC/~v/havenroad/21,0
+*Bad argument 1 to sort_array()
+Expected: array Got: 0.
+Object: <none> (/secure/cmds/common/links.c) at line 38
+
+'<fake>' at /secure/save/players/d/darur (/<driver>) at line 0
+'cmdAll' at /secure/save/players/d/darur (/lib/users/player.c) at line 1035
+'cmdAll' at /secure/save/players/d/darur (/lib/livings/command.c) at line 63
+'cmd' at <none> (/secure/cmds/common/links.c) at line 38
+
+
+COMMAND HISTORY
+=================
+00393 idle kamian
+00394 afk
+00395 chanhist
+00396 help story
+00397 help bug
+
+Status     : NEW
+Bug        : Runtime error happened around 1pm EST on 6/5/16 on character Darur. Command issued prior to runtime error: links. Previous two commands: eset (no args) and halt (no args). Command issued after runtime error: questlist.
+Context: I was just testing the different player commands to see what they did. Saw that error and just moved on without reporting initially.

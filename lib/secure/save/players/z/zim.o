@@ -1,0 +1,142 @@
+#/secure/save/players/z/zim.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N of Haven (Haven human)"
+CapName "Zim"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","p":"who","oe":"oocemote $*",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","se":"go southeast","ga":"get all $*","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({107,45,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 64602
+WhereBlock 0
+Brief 1
+LoginTime 1333528358
+BirthTime 1281496589
+Password "cebcbeb`!hbgcf`dc`ciloeek`k`ibmhmknod`njm"
+Email "joshy1977@bigpond.com"
+RealName "Josh"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/church/entrance"
+HostSite "123-243-192-37.static.tpgi.com.au"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 60
+Experience 818717
+Skills (["reinforced armour":(["class":2,"level":10,]),"metal working":(["class":4,"level":10,]),"cloth armour":(["class":2,"level":68,]),"fire magic":(["class":2,"level":72,]),"chain armour":(["class":2,"level":10,]),"pierce combat":(["class":1,"level":121,]),"faith":(["class":1,"level":120,]),"necromancy":(["class":1,"level":120,]),"mining":(["class":4,"level":10,]),"armour smithing":(["class":4,"level":10,]),"fishing":(["class":4,"level":10,]),"leather armour":(["class":2,"level":10,]),"weapon smithing":(["class":4,"level":10,]),"skinning":(["class":4,"level":10,]),"bargaining":(["class":2,"level":10,]),"leather working":(["class":4,"level":10,]),"farming":(["class":4,"level":10,]),"evokation":(["class":1,"level":120,]),])
+Morality -1754
+CanMulti 1
+Class "priest"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Saahagoth","Saahagoth",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations ([])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 550
+MagicPoints 620
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 354
+Drink 367
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 550.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":510,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":130,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":260,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":130,]),"left arm":(["children":({"left hand",}),"armours":729096,"parent":"torso","class":2,"health":260,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":260,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":510,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":130,]),"right arm":(["children":({"right hand",}),"armours":729096,"parent":"torso","class":2,"health":260,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":130,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 25
+LightSensitivity ({25,75,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":65534,])
+Stats (["agility":(["class":3,"points":0,"level":46,]),"wisdom":(["class":3,"points":0,"level":57,]),"coordination":(["class":3,"points":0,"level":50,]),"intelligence":(["class":3,"points":0,"level":59,]),"strength":(["class":3,"points":0,"level":50,]),"luck":(["class":3,"points":0,"level":57,]),"durability":(["class":3,"points":0,"level":50,]),"charisma":(["class":3,"points":0,"level":45,]),])
+Languages (["enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Haven"
+Race "human"
+Gender "male"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1333528349
+Currency (["dinar":40000,"cuicui":51751,"chits":2000,"imperials":1919862,])
+Bank (["Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#371649), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#371649), OBJ(/verbs/common/ask), OBJ(zim /secure/save/players/z/zim) })","last time":1283672481,"imperials":47950550,"open":1281500130,"last trans":"withdrawal",]),])
+CraftingRecipes ({})
+SpellBook (["animate dead":5,"flaming arrow":2,"asphyxiation":1,"create blood jar":8,"wall of souls":96,"aegis of the faithful":1,"sting":1,"dark burial":100,"skull of darkness":100,"pain touch":1,"chill touch":1,"bless":74,"spirit call":53,"jolt":1,"shield of faith":1,"choking shadows":1,"unholy growth":1,"speak with dead":1,"burning hand":1,"divine retribution":1,"holy shield":1,"disperse protections":12,"curse":100,"ennervate":56,"barrier of faith":1,"protect":24,"hellfire":100,"cause bleeding":38,"transmutation":63,"turn undead":1,"harm body":1,"shockwave":1,"locate zombie":9,"spook":1,"unholy power":22,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"of Haven","the Enlightened Climber","the Runner","the Desert Caravaner","the Caravan Guard","the Bandit Slayer","the Guardian of the Old Cemetery","the Platypus Skinner","the Haven Town Runner","the Vacationer","the Initiate of the Fallen God","the Equipped","the Explorer",})
+Story "Zim is a citizen of Haven Town. Zim has always been somewhat of a trouble maker so to speak. From a young age always getting in trouble with the law, pickpocketing, pub brawling, gambling and cheating people with three-card monte. In a lawful town such as Haven this has led to many nights spent in the town guards cells, and the guards now keep a close watch on him. He generally keeps to the underground, lurking in the shadows and he secretly worships Taigas, Lord of Chaos. He must keep this secret as in such a town as Haven he would most likely be killed on sight for heresy."
+Surname 0
+ApprovedStory 1
+OOCName "Josh"
+Quests ({(/1281496657,"Newbie Book",/),(/1281497820,"Bandit Camp",/),(/1281497867,"Leather Emporium",/),(/1281500071,"Platypus Bay",/),(/1281500097,"Message Courier",/),(/1281500911,"Bandit Slayer",/),(/1281501456,"Platypus Skinner",/),(/1281925628,"Graveyard Cleanup",/),(/1281933069,"Dwarf Merchant",/),(/1281934579,"Explored Grove",/),(/1281944512,"Desert Merchant",/),(/1282284751,"Barian Merchant",/),(/1282285712,"Mount Shatadru",/),})
+Deaths 0
+DevelopmentPoints 144
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 0
+SeveredHeads 111
+LastLevel 1283748545
+HighestLevel 60
+LongDaemonData ({"green","red","pale","lined",0,})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

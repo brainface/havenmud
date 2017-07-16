@@ -1,0 +1,2 @@
+lines 66 and 69 of /lib/rooms/exits.c are return 1 instead of return 0.
+Line 858 of spell.c

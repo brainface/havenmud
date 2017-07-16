@@ -1,0 +1,38 @@
+// Amelia
+#include <lib.h>
+#include <magic.h>
+#include <damage_types.h>
+inherit LIB_SPELL;
+
+static void create() {
+   ::create();
+   SetSpell("burn heretic");
+   SetRules("","LIV");
+   SetSpellType(SPELL_COMBAT);
+   SetRequiredMagic(a);
+   SetSkills( ([
+                "faith" : x,
+           ]) );
+   SetMagicCost(x,y);
+   SetDifficulty(z);
+   SetMorality(0);
+   SetAutoDamage(0);
+   SetDamage(HEAT, x, y);
+   SetMessages( ({
+                   ({ "attempts","%^ORANGE%^$agent_name $agent_verb to "
+                      "send the fiery wrath of $agent_possessive "
+                      "diety agaisnt $target_name, but has yet "
+                      "to master the powers into more than a "
+                      "mild display of colors.%^RESET%^" }),
+                   ({ "singe","%^ORANGE$agent_name $agent_verb $target_name, "
+                      "denouncing $target_object as a heretic and an enemy "
+                      "of the faith." }),
+                   ({ "broil","$agent_name $agent_verb $target_name with the "
+                      "fiery wrath of $agent_possessive diety, screaming "
+                      "obscenities about $target_possessive_name heathen "
+                      "actions." }),
+              }) );
+   SetHelp("Burn heretic causes the wrath of the caster's diety to burn the "
+           "heretical target.  The target is either supplied, or is the "
+           "caster's present enemy.");
+}

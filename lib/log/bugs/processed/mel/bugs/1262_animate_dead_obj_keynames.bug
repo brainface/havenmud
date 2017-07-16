@@ -1,0 +1,30 @@
+Reported by: Juilet (verymaudlin@gmail.com)
+Time       : Sun Aug 25 13:29:32 2013
+Type       : unexplained behaviour
+Location   : ^HW/~a/wood/rooms/beach14
+Status     : NEW
+Bug        : Animate Dead
+
+cast animate dead on first corpse
+You close your eyes and begin uttering an incantation.
+hp: 340/340   mp: 174/370   sp: 340/340 (lying down)
+Food (1570) Drink (1570)
+XP: 27169 Morality: -1500
+You receive 20 experience.
+You summon power from yourself and force a mostly rotted corpse back into the world of the living.
+Zombie blinks its eyes open.
+Zombie asks in Eltherian, "You... rang...?"
+You are now leading Zombie.
+> l zombie
+There is no zombie here.
+l skeleton
+This is an animated corpse of a gelfling that has been summoned back into the material world.
+The male gelfling is in top condition.
+Zombie is carrying:
+A short shovel
+
+> l zombie
+There is no zombie here.
+
+
+I feel like I should be able to target it as a zombie? 

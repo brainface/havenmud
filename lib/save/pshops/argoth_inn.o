@@ -1,0 +1,20 @@
+#/realms/laoise/argoth/room/player_inn.c
+AmbientLight 40
+Opacity 100
+Items ([])
+Domain "Crystal Reaches"
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1141314679
+Town "Karak"
+Towns (["Baria":"human","Wilderness":"elf","Jidoor":"sprite","Haven":"elf","Keryth":"human","Ungkh":"ogre","the HavenWood":"gelfling","Grymxoria":"nosferatu","Heyam":"gnoll","Lloryk":"halfling","Kresh":"goblin","Glimmerdin":"dwarf","Argoth":"orc","Yozrath":"human","Soleil":"muezzin",])
+Languages (["Baria":"Barian","Haven":"Eltherian","Jidoor":"Sprith","Ungkh":"Shangtai","Grymxoria":"Blaodric","Durgoroth":"Blaodric","Glimmerdin":"Runic","Argoth":"Uruk","Yozrath":"Padashi","Keryth":"Drakem","the HavenWood":"Eltherian","Heyam":"Heyami","wilderness":"Eltherian","Lloryk":"Eltherian","Kresh":"Gobyshkin","Soleil":"Oiseau",])
+Meat (["Strong":0,"Medium":0,"Weak":0,])
+MeatCost (["Strong":0,"Medium":0,"Weak":0,])
+SaleCost ([])
+ShopInfo (["Name":"an unowned inn","ShopLong":"This is a large, empty room that will someday make a fine shop of some kind. For now, it is undecorated.","ShopId":"argoth_inn","CurrentBidder":"none","Funds":0,"Owner":"none","CurrentBid":0,])
+PayOut ([])
+Inv ([])
+SaleInv ([])
+Curr "khuca"

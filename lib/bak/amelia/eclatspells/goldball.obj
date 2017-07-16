@@ -1,0 +1,28 @@
+#include <lib.h>
+inherit LIB_ITEM;
+
+void BlahDie();
+
+static void create() {
+   item::create();
+   SetKeyName("shining ball");
+   SetShort("a shining ball of gold");
+   SetId( ({ "ball","gold" }) );
+   SetAdjectives( ({ "shining","ball of","gold","golden" }) );
+   SetLong("The ball shimmers in golden colors, casting joy on the "
+           "area.");
+   SetClass(4);
+   SetMass(1);
+   SetValue(0);
+   SetRadiantLight(15);
+   call_out( (: BlahDie :), 400+random(50));
+   SetProperty("magic","This ball of gold was conjured to cast light.");
+}
+
+void BlahDie() {
+   if(environment(this_object())) {
+      send_messages( ({ "" }), "The shining ball of light collapses "
+                        "in on itself.",environment(this_object()));
+   }
+   eventDestruct();
+}

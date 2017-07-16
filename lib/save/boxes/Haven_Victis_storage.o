@@ -1,0 +1,30 @@
+#/domains/estates/virtual/boxes/Haven/Victis.c
+Opacity 100
+MaxDamagePoints 20000
+PreventGet "The box is firmly nailed to the floor."
+DisableChance 50
+Short "a large wooden chest"
+CapName "Chest"
+ExternalDesc "This large wooden box looks like it could hold much loot. It looks durable."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","BoxInventory",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Closed 1
+Keys ({"Haven_Victis_key",})
+Locked 1
+LockStrength 1250
+CanClose 1
+CanLock 1
+BoxInventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/obj/kittens\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/obj/peapod\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":4500,\"Mass\":200,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/guard_armour\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1662,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/kylin_book\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":2500,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/planes/obj/halo\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1500,\"Poison\":0,])","([\"#base_name#\":\"/domains/frostmarches/areas/underkeep/obj/key\",])","([\"#base_name#\":\"/domains/frostmarches/areas/underkeep/obj/obsidian_key\",])","([\"Value\":125,\"Mass\":600,\"Worn\":0,\"Class\":30,\"#base_name#\":\"/domains/westwood/towns/soleil/obj/sword\",\"Broken\":0,\"DamagePoints\":64,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":1,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/islands/areas/monkey/obj/mushroom\",\"MealType\":50,\"Broken\":0,\"Short\":\"a curious mushroom\",\"Long\":\"This small, red mushroom is covered with white speckles. There is a thin layer of transparent slime on the top. The stalk is very thick, and appears to have been nibbled by a small animal or insect.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":4500,\"Mass\":200,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/guard_armour\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1877,\"Poison\":0,])","([\"Value\":4500,\"Mass\":200,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/guard_armour\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1840,\"Poison\":0,])","([\"Value\":4500,\"Mass\":200,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/guard_armour\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1462,\"Poison\":0,])","([\"Value\":4500,\"Mass\":200,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/guard_armour\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1145,\"Poison\":0,])","([\"Value\":4500,\"Mass\":200,\"Worn\":0,\"#base_name#\":\"/domains/planes/obj/divine_armour\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1959,\"Poison\":0,])","([\"Value\":4050,\"Mass\":200,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/guard_armour\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1005,\"Poison\":0,])","([\"Value\":4500,\"Mass\":200,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/guard_armour\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1864,\"Poison\":0,])","([\"Value\":180,\"Mass\":90,\"Worn\":0,\"Class\":14,\"#base_name#\":\"/domains/southern_coast/towns/haven/obj/rapier\",\"Broken\":0,\"DamagePoints\":988,\"Poison\":0,])","([\"#base_name#\":\"/domains/frostmarches/areas/catacombs/obj/casket_key\",])","([\"Value\":4000,\"Mass\":100,\"Worn\":0,\"#base_name#\":\"/domains/yozrath/areas/minaret/obj/yellow_exo\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1969,\"Poison\":0,])","([\"Value\":1097,\"Mass\":50,\"Worn\":0,\"Class\":30,\"#base_name#\":\"/domains/yozrath/areas/minaret/obj/claws\",\"Broken\":0,\"DamagePoints\":4004,\"Poison\":0,])","([\"Value\":943,\"Mass\":50,\"Worn\":0,\"Class\":30,\"#base_name#\":\"/domains/yozrath/areas/minaret/obj/claws\",\"Broken\":0,\"DamagePoints\":2213,\"Poison\":0,])","([\"Value\":1248,\"Mass\":50,\"Worn\":0,\"Class\":30,\"#base_name#\":\"/domains/yozrath/areas/minaret/obj/claws\",\"Broken\":0,\"DamagePoints\":2000,\"Poison\":0,])","([\"Value\":896,\"Mass\":50,\"Worn\":0,\"Class\":30,\"#base_name#\":\"/domains/yozrath/areas/minaret/obj/claws\",\"Broken\":0,\"DamagePoints\":2617,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/obj/kittens\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])",})
+BoxID "Haven_Victis_storage"

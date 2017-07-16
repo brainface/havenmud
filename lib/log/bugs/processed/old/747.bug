@@ -1,0 +1,6 @@
+Reported by: Din (elite.jynxx@gmail.com)
+Time       : Fri Jun  4 15:38:54 2010
+Type       : unexplained behaviour
+Location   : ^PN/~t/sanctum/room/forum
+Status     : NEW
+Bug        : The blessed plague spell is not checking for religion as it says it does. It is however spreading on some people but not others.

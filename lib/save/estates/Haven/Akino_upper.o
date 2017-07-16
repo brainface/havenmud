@@ -1,0 +1,16 @@
+#/domains/estates/virtual/upper_estate.c
+AmbientLight 35
+InternalDesc "This bedroom is little different from the entrance room, perhaps less dust. A one person wooden bed is pushed against one corner. with a nightstand next to it. Nothing else adorns this room save a large wooden chest, at the foot of the bed."
+Opacity 100
+ProperNoun 1
+Short "Akino's Bedroom"
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1193946743
+Town "Haven"
+Saved ({"ELong","EShort","Owner",})
+ELong "This bedroom is little different from the entrance room, perhaps less dust. A one person wooden bed is pushed against one corner. with a nightstand next to it. Nothing else adorns this room save a large wooden chest, at the foot of the bed."
+EShort "Akino's Bedroom"
+Owner "Akino"

@@ -1,0 +1,14 @@
+Reported by: Borsch (bjorn.brown@yahoo.com)
+Time       : Tue Sep 20 19:55:04 2011
+Type       : idea
+Location   : /lib/special/vehicle#589222 @ ^IN/~v/ocean/-52,181
+Status     : NEW
+Bug        : ICE WALL
+ 
+aberach spell
+ 
+creates a giant, impassable wall of ice blocking <direction>
+ 
+ie : cast wall of ice on north
+ 
+ice boost spell

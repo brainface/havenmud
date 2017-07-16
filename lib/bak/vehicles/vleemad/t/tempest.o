@@ -1,0 +1,41 @@
+#/lib/special/vehicle.c
+Opacity 100
+DamagePoints 3199757
+MaxDamagePoints 3200000
+PreventGet ""
+DisableChance 50
+ProperNoun 1
+Short "the dreadnaught Tempest"
+CapName "Tempest"
+ExternalDesc "This is the dreadnaught Tempest."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","SensorSuite","DriveSystem","VehicleSize","Owner","Captain","BridgeDescription","WeaponSystem","DamagedSystems","CurrentLocation","VehicleName","ShipStyle","Crystals","ShieldSystem","VId","VLong","VShort",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+Hands 1
+WeaponType "blunt"
+Keys ({})
+CanClose 1
+Messages (["leave":"$N leaves $D.","telout":"$N goes into nowhere.","telin":"$N comes out of nowhere.","come":"$N enters.",])
+VehicleName "Tempest"
+CurrentLocation "/domains/peninsula/towns/sanctum/room/docks"
+BridgeDescription "The bridge of the ship is clean and sparkles with newness."
+Owner "vleemad"
+Captain "Vleemad"
+ShipStyle "human"
+SensorSuite 4
+DriveSystem 4
+VehicleSize 16
+WeaponSystem 16
+Crystals 14809
+DamagedSystems ({})
+VId ({"Tempest","ship","dreadnaught",})
+VLong "This is the dreadnaught Tempest."
+VShort "the dreadnaught Tempest"
+ShipEnemies ({})

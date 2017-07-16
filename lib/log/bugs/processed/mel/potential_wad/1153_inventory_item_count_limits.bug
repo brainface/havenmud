@@ -1,0 +1,23 @@
+Reported by: Borsch (bjorn.brown@yahoo.com)
+Time       : Fri Nov  9 17:05:21 2012
+Type       : other
+Location   : ^GV/~v/lagoon/-11,-8
+Status     : NEW
+Bug        : The Lagoon in Gurov has a strange oddity about it.
+I can in effect neutralize the ability of the elementals
+to destroy my armour simply by carrying lots of unwielded
+things in my inventory.
+
+sure the items in my inventory eventually get destroyed
+but its still an unexpected 'shield'
+
+## this is a common tactic to avoid random item destruction in
+quite a few games. Additionally, this works for the spell
+failure as well. However, as our inventory is based upon weight
+and not item count it's hard to circumvent unless we introduce
+item count into inventory as well. I'll need to mull it over.
+-Mel 2014/2/23
+
+HEY JOHN!
+An easy fix, to me, for this one, is to have it only effect worn items. I tried to make the water ellies do that once and someone got really testy. I don't know.
+Mahk

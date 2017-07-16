@@ -1,0 +1,6 @@
+Reported by: Luciole (sgmorton@live.com)
+Time       : Sun Dec  6 11:06:12 2015
+Type       : unexplained behaviour
+Location   : ^SC/~t/haven/room/imperial_road/ir4
+Status     : NEW
+Bug        : A big and bulky backpack is a weapon type as opposed to an armour type.

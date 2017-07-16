@@ -1,0 +1,30 @@
+#/domains/estates/virtual/boxes/Malveillant/Sigmar.c
+Opacity 100
+MaxDamagePoints 20000
+PreventGet "The box is firmly nailed to the floor."
+DisableChance 50
+Short "a large wooden chest"
+CapName "Chest"
+ExternalDesc "This large wooden box looks like it could hold much loot. It looks durable."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","BoxInventory",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Closed 1
+Keys ({"Malveillant_Sigmar_key",})
+Locked 1
+LockStrength 1250
+CanClose 1
+CanLock 1
+BoxInventory ({"([\"#base_name#\":\"/domains/frostmarches/areas/underkeep/obj/key\",])","([\"#base_name#\":\"/domains/southern_coast/areas/mage_tower/obj/chest_key\",])","([\"#base_name#\":\"/domains/frostmarches/areas/underkeep/obj/obsidian_key\",])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":8000,\"Mass\":200,\"Worn\":0,\"Class\":25,\"#base_name#\":\"/domains/estergrym/areas/tulu/obj/cultist_staff\",\"Broken\":0,\"DamagePoints\":7807,\"Poison\":0,])",})
+BoxID "Malveillant_Sigmar_storage"

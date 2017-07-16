@@ -1,0 +1,17 @@
+Reported by: Tavren (joshy1977@bigpond.com)
+Time       : Tue May 11 01:59:44 2010
+Type       : runtime
+Location   : ^SC/~t/haven/room/imperial_road/ir2
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/westwood/areas/hiker/obj/mediumbackpack#261405 (/lib/items/get_from.c) at line 95
+
+'<function>' at /secure/save/players/t/tavren (<function>) at /:0
+'cmdAll' at /secure/save/players/t/tavren (/lib/users/player.c) at line 1007
+'cmdAll' at /secure/save/players/t/tavren (/lib/livings/command.c) at line 44
+'do_put_obj_word_obj' at /verbs/items/put at line 33
+'eventPutInto' at /domains/westwood/areas/hiker/obj/mediumbackpack#261405 (/lib/items/get_from.c) at line 95
+
+
+Status     : NEW
+Bug        : when you have 1 sword in your inventory and type 'put 2nd sword in pack' a runtime error message comes up

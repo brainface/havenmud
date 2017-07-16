@@ -1,0 +1,17 @@
+#/domains/estates/virtual/upper_estate.c
+AmbientLight 35
+NoClean 1
+InternalDesc "This room has a single window in the east wall which proudly displays the shrine on the beach covered in shells. On the floor is a giant bed with no frame, stuffed with feathers next to a chest. The chest is mostly used as a nightstand due to the alcohol rings along the top of it. In a simple frame hanging on the east wall is a miraculous painting of two human men in Gurovian guard apparel. The elderly man is embracing a teenager in his arms with his face ripped off the painting and a knife through the teenager's heart."
+Opacity 100
+ProperNoun 1
+Short "a small bedroom"
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1244068177
+Town "Parva"
+Saved ({"ELong","EShort","Owner",})
+ELong "This room has a single window in the east wall which proudly displays the shrine on the beach covered in shells. On the floor is a giant bed with no frame, stuffed with feathers next to a chest. The chest is mostly used as a nightstand due to the alcohol rings along the top of it. In a simple frame hanging on the east wall is a miraculous painting of two human men in Gurovian guard apparel. The elderly man is embracing a teenager in his arms with his face ripped off the painting and a knife through the teenager's heart."
+EShort "a small bedroom"
+Owner "Alan"

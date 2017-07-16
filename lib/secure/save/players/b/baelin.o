@@ -1,0 +1,142 @@
+#/secure/save/players/b/baelin.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Tesserarius of the Sanctum Legion (Sanctum human)"
+CapName "Baelin"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","p":"who","oe":"oocemote $*",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","se":"go southeast","ga":"get all $*","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["non":0,"reboot":1,"ooc":0,"hl":0,"time":1,"notify":0,])
+Screen ({107,45,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 76511
+WhereBlock 0
+Brief 1
+LoginTime 1333528105
+BirthTime 1272095801
+Password "nboonani!acdgbbignbiefjacllh`dkagmelgndih"
+Email "joshy1977@bigpond.com"
+RealName "Josh"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/misc_buildings/office"
+HostSite "123-243-192-37.static.tpgi.com.au"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 62
+Experience 1213396
+Skills (["multi-weapon":(["class":1,"level":126,]),"cloth armour":(["class":2,"level":50,]),"chain armour":(["class":2,"level":1,]),"combat rage":(["class":1,"level":126,]),"disarm":(["class":4,"level":1,]),"knife combat":(["class":4,"level":1,]),"pierce combat":(["class":1,"level":115,]),"faith":(["class":1,"level":126,]),"necromancy":(["class":1,"level":126,]),"weapon smithing":(["class":4,"level":30,]),"plate armour":(["class":1,"level":126,]),"bargaining":(["class":2,"level":10,]),"blunt combat":(["class":4,"level":1,]),"poison magic":(["class":2,"level":1,]),"hack combat":(["class":1,"level":115,]),"evokation":(["class":1,"level":125,]),"reinforced armour":(["class":2,"level":1,]),"metal working":(["class":4,"level":30,]),"melee combat":(["class":4,"level":1,]),"stealth":(["class":2,"level":1,]),"accuracy":(["class":4,"level":77,]),"slash combat":(["class":1,"level":126,]),"mining":(["class":4,"level":1,]),"disorient":(["class":4,"level":1,]),"armour smithing":(["class":4,"level":30,]),"fishing":(["class":4,"level":1,]),"leather armour":(["class":2,"level":1,]),"pole combat":(["class":4,"level":1,]),"skinning":(["class":4,"level":1,]),"leather working":(["class":4,"level":30,]),"farming":(["class":4,"level":1,]),"dodge":(["class":4,"level":1,]),"parry":(["class":4,"level":1,]),])
+Morality -2500
+CanMulti 1
+Class "fanatic"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Soirin","Soirin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations ([])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 600
+MagicPoints 570
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 463
+Drink 181
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 14
+Cursed 0
+StaminaPoints 550.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":560,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":140,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":280,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":140,]),"left arm":(["children":({}),"armours":729096,"parent":"torso","class":2,"health":280,]),"left leg":(["children":({}),"armours":525472,"parent":"torso","class":2,"health":280,]),"torso":(["children":({"head","right leg","left leg","right arm",}),"armours":751616,"parent":0,"class":1,"health":560,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":140,]),"right arm":(["children":({"right hand",}),"armours":729096,"parent":"torso","class":2,"health":280,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":140,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 17
+LightSensitivity ({25,75,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":65534,])
+Stats (["agility":(["class":3,"points":0,"level":54,]),"wisdom":(["class":3,"points":0,"level":52,]),"coordination":(["class":3,"points":0,"level":52,]),"intelligence":(["class":3,"points":0,"level":52,]),"strength":(["class":3,"points":0,"level":50,]),"luck":(["class":3,"points":0,"level":51,]),"durability":(["class":3,"points":0,"level":55,]),"charisma":(["class":3,"points":0,"level":50,]),])
+Languages (["uruk":(["native":0,"name":"Uruk","points":1000,"level":10,]),"imperial":(["native":1,"name":"Imperial","points":0,"level":100,]),"enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),"eltherian":(["native":0,"name":"Eltherian","points":1000,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Sanctum"
+Race "human"
+Gender "male"
+Nationality "Sanctum"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 50
+WimpyCmd "go out"
+LastWimpy 1333528103
+Currency (["rounds":173,"senones":208,"nuggets":16,"rupies":575,"imperials":4816112,"cuicui":21714,"oros":255,])
+Bank (["Sanctum Moneychanger":(["audit":"({ OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#149812), OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#149812), OBJ(/verbs/players/request), OBJ(baelin /secure/save/players/b/baelin) })","last time":1272099110,"imperials":5,"open":1272099110,"last trans":"opened account",]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#26603), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#26603), OBJ(/verbs/common/ask), OBJ(baelin /secure/save/players/b/baelin) })","last time":1280631974,"imperials":15083412,"open":1272157291,"last trans":"deposit",]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#40575), OBJ(magna /domains/havenwood/towns/parva/npc/banker#40575), OBJ(/verbs/common/ask), OBJ(baelin /secure/save/players/b/baelin) })","oros":5,"last time":1272350165,"imperials":340,"open":1272180735,"last trans":"withdrawal",]),])
+CraftingRecipes ({})
+SpellBook (["animate dead":16,"flaming arrow":100,"asphyxiation":100,"seduce":1,"wall of souls":80,"aegis of the faithful":100,"sting":100,"dark burial":100,"skull of darkness":100,"pain touch":100,"chill touch":100,"bless":100,"spirit call":100,"jolt":100,"shield of faith":100,"choking shadows":100,"unholy growth":1,"speak with dead":13,"burning hand":100,"dim":59,"divine retribution":1,"holy shield":100,"disperse protections":100,"gilded touch":1,"curse":100,"barrier of faith":56,"stab in the dark":100,"protect":100,"hellfire":100,"transmutation":100,"poison arrow":100,"turn undead":10,"poison weapon":10,"harm body":69,"shockwave":100,"locate zombie":100,"cloak of darkness":100,"spook":100,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Tesserarius of the Sanctum Legion","the Defender of the Joyful","the Crypt Keeper","the Crystal Courier","the Reposessor","the Envoy of Haven Town","the Haven Town Messenger","the Haven Town Courier","the Optio of the Sanctum Legion","the Forager","of Sanctum","the Blueberry Picker","the Guardian of the Old Cemetery","the Platypus Skinner","the Bandit Slayer","the Haven Town Runner","the Vacationer","the Equipped","the Explorer","the Tempted",})
+Story "Baelin is a citizen of Sanctum and a devout Soirin priest. Baelin was actually born in Parva where he was raised by his parents. His father a rogue and his mother a bard were divorced when he was a young teen. He was left under the care of his father and they moved to Sanctum to live. He was tought the arts of deception by his father and without the influence of his mother he embraced this. He learned quickly that he gained pleasure from violence and one day Lilia Ravenhair showed him the way to greater pleasure and he joined the Soirin faith and became a priest. He seeks personal glory, power and wealth and will do almost anything to fulfill these desires. No act of treachery is too low, no deed of violence is too vile for him. He often wonders what his life would of been like if his parents had remained together, perhaps he would of become a more reputable bard, but these thoughts are quickly taken over by the desire for pleasure from his next kill."
+Surname 0
+ApprovedStory 1
+OOCName "Josh"
+Quests ({(/1272096039,"Newbie Book",/),(/1272097773,"Explored Grove",/),(/1272098241,"Bandit Camp",/),(/1272098285,"Leather Emporium",/),(/1272098383,"Platypus Bay",/),(/1272098870,"Message Courier",/),(/1272103986,"Bandit Slayer",/),(/1272105368,"Platypus Skinner",/),(/1272147029,"Graveyard Cleanup",/),(/1272147742,"Rabbit Food",/),(/1272159233,"Blueberry Picker",/),(/1272176910,"Desert Fruit",/),(/1272246010,"Message Courier pt 2",/),(/1272246185,"Message Courier pt 3",/),(/1272246835,"Message Courier pt 4",/),(/1272246955,"Bandit Leader",/),(/1272247321,"Reposession",/),(/1272247382,"Crystal Ball Delivery",/),(/1272247483,"Crypt Keeper",/),})
+Deaths ({(/1272166988,"dwarven adventurer",/),(/1272267915,"thirst",/),})
+DevelopmentPoints 39
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 588
+LastLevel 1280902619
+HighestLevel 62
+LongDaemonData ({"hazel","dark brown","black","tanned",0,})
+PermanentProperties (["mission":"/std/missions/southern_coast/visit_averath",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({"atrus",})

@@ -1,0 +1,16 @@
+#/domains/estates/virtual/upper_estate.c
+AmbientLight 35
+InternalDesc "This is an empty, unfurnished keep. It is quite bare."
+Opacity 100
+ProperNoun 1
+Short "inside an Estate"
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1310683482
+Town "Haven"
+Saved ({"ELong","EShort","Owner",})
+ELong "This is an empty, unfurnished keep. It is quite bare."
+EShort "inside an Estate"
+Owner "Itkupaju"

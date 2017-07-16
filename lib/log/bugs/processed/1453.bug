@@ -1,0 +1,7 @@
+Reported by: Ainent (jdmarshall1990@gmail.com)
+Time       : Mon Nov 30 21:04:30 2015
+Type       : typo
+Location   : ^CR/room/hb4oryk/room/hb4
+Status     : NEW
+Bug        : There is a sign west of Haven in the room "An intersection along Heroes Lane [south, north, east, west]".
+The sign says that "Soliel" is to the south. Pretty sure this is a typo and should be "Soleil".

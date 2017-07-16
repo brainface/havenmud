@@ -1,0 +1,143 @@
+#/secure/save/players/k/kazzarath.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Contemptible Initiate of Fear (Durgoroth daemon)"
+CapName "Kazzarath"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":50,\"Mass\":25,\"Worn\":({\"right hand\",}),\"Class\":5,\"#base_name#\":\"/std/weapon/melee/brass_knuckles\",\"Broken\":0,\"DamagePoints\":806,\"Poison\":0,])","([\"Value\":100,\"Mass\":25,\"Worn\":({\"left hand\",}),\"Class\":5,\"#base_name#\":\"/std/weapon/melee/brass_knuckles\",\"Broken\":0,\"DamagePoints\":28,\"Poison\":0,])","([\"Value\":20,\"Mass\":300,\"Worn\":({\"torso\",}),\"#base_name#\":\"/domains/frostmarches/towns/durgoroth/obj/newb_chain\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":326,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/lg_coat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":150,\"Worn\":({\"head\",}),\"#base_name#\":\"/std/armour/free_armour/large/oldhelmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":787,\"Poison\":0,])","([\"Value\":0,\"Mass\":30,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/std/armour/free_armour/large/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":30,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/std/armour/free_armour/large/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":799,\"Poison\":0,])","([\"Value\":0,\"Mass\":240,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/std/armour/free_armour/large/oldpants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":776,\"Poison\":0,])","([\"Value\":0,\"Mass\":30,\"Worn\":({\"left hoof\",}),\"#base_name#\":\"/domains/frostmarches/towns/durgoroth/obj/newbie_horseshoe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":742,\"Poison\":0,])","([\"Value\":0,\"Mass\":30,\"Worn\":({\"right hoof\",}),\"#base_name#\":\"/domains/frostmarches/towns/durgoroth/obj/newbie_horseshoe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":750,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/monkeymeat\",\"MealType\":2,\"Broken\":0,\"Short\":\"a scrap of monkey meat\",\"Long\":\"This is a small scrap of monkey meat. It looks rather tough and gamey.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":188,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":-1,\"Mass\":0,\"Portions\":1,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/frostmarches/areas/vergoth/obj/brandy\",\"MealType\":20,\"Broken\":0,\"Short\":\"a decanter of brandy\",\"Long\":\"This is a small decanter of fine brandy.  It is light brown in color and smells very old.  The decanter is made of a light gray crystal of some sort.\",\"DamagePoints\":0,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","gac":"get all from $* corpse","w":"go west","tr":"ask niscronma to train $*","u":"go up","cf":"consider first $*","out":"go out","s":"go south","oh":"chanhist ooc $*","oe":"oocemote $*","p":"who",".":"status","n":"go north","sell":"ask borxtl to buy $*","l":"look $*","k":"kill $*","i":"inventory","saf":"scream at first $*","e":"go east","d":"go down","pp":"protections","nw":"go northwest","kf":"kill first $*","ka":"kill all","exa":"look at $*","sw":"go southwest","..":"skills","...":"spells","ne":"go northeast","sk":"skin first corpse $*","ga":"get all $*","se":"go southeast","gcc":"get coins from $* corpse","sa":"scream at $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ooc":0,])
+Screen ({63,42,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 4354
+WhereBlock 0
+Brief 0
+LoginTime 1410078784
+BirthTime 1406931827
+Password "mcah``be!nfhjo`ffecihcdaololjnlblha`eefjl"
+Email "merman.frenzy@gmail.com"
+RealName "Futty"
+Rank 0
+LoginSite "/domains/frostmarches/towns/durgoroth/room/fountain"
+HostSite "c-50-135-68-187.hsd1.wa.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 9
+Experience 134
+Skills (["multi-weapon":(["class":1,"level":18,]),"metal working":(["class":4,"level":3,]),"melee combat":(["class":1,"level":18,]),"accuracy":(["class":4,"level":6,]),"heavy plate armour":(["class":2,"level":1,]),"chain armour":(["class":2,"level":2,]),"combat rage":(["class":1,"level":16,]),"disarm":(["class":4,"level":1,]),"armour smithing":(["class":4,"level":1,]),"disorient":(["class":4,"level":1,]),"leather armour":(["class":2,"level":2,]),"weapon smithing":(["class":4,"level":3,]),"plate armour":(["class":4,"level":0,]),"leather working":(["class":4,"level":0,]),"bargaining":(["class":4,"level":2,]),"dodge":(["class":1,"level":18,]),"parry":(["class":2,"level":8,]),])
+Morality -200
+CanMulti 1
+Class "horror"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Saahagoth","Saahagoth",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Durgoroth":66,"Grymxoria":-33,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 490
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1532
+Drink 1532
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 490.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["armours":262912,"children":({}),"health":450,"class":1,"parent":"torso",]),"right leg":(["armours":525472,"children":({"right hoof",}),"health":230,"class":2,"parent":"torso",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":150,"class":3,"parent":"torso",]),"right hoof":(["armours":192,"children":({}),"health":150,"class":3,"parent":"right leg",]),"left hoof":(["armours":192,"children":({}),"health":150,"class":3,"parent":"left leg",]),"left leg":(["armours":525472,"children":({"left hoof",}),"health":230,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","left arm","right arm","right wing","left wing",}),"health":450,"class":1,"parent":0,]),"right hand":(["armours":98318,"children":({}),"health":150,"class":3,"parent":"right arm",]),"right wing":(["armours":2097152,"children":({}),"health":150,"class":3,"parent":"torso",]),"left hand":(["armours":98318,"children":({}),"health":150,"class":3,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":150,"class":3,"parent":"torso",]),"left wing":(["armours":2097152,"children":({}),"health":150,"class":3,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 15
+LightSensitivity ({5,70,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65406,"high":0,"medium":128,])
+Stats (["agility":(["class":3,"points":0,"level":32,]),"wisdom":(["class":5,"points":0,"level":23,]),"coordination":(["class":3,"points":0,"level":33,]),"strength":(["class":2,"points":0,"level":44,]),"intelligence":(["class":3,"points":0,"level":31,]),"luck":(["class":3,"points":0,"level":31,]),"durability":(["class":2,"points":0,"level":44,]),"charisma":(["class":4,"points":0,"level":24,]),])
+Languages (["gryshnak":(["native":1,"name":"Gryshnak","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Durgoroth"
+Race "daemon"
+Gender "male"
+Nationality "Durgoroth"
+Size 32
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1407126985
+Currency ([])
+Bank (["Durgoroth Bank":(["audit":"({ OBJ(balishae /domains/frostmarches/towns/durgoroth/npc/banker#30263), OBJ(balishae /domains/frostmarches/towns/durgoroth/npc/banker#30263), OBJ(/verbs/common/ask), OBJ(kazzarath /secure/save/players/k/kazzarath) })","crystals":382,"last time":1407129608,"open":1407022375,"last trans":"deposit",]),])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Contemptible Initiate of Fear","of Durgoroth",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "Futty"
+Quests ({(/1406931900,"Newbie Book",/),})
+Deaths 0
+DevelopmentPoints 16
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 0
+LastLevel 1407129197
+HighestLevel 9
+LongDaemonData ({"bright yellow",0,"dark red","rubbery","large horns curving upwards from $POS head.",})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

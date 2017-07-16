@@ -1,0 +1,19 @@
+#/domains/estates/virtual/main_estate.c
+AmbientLight 35
+NoClean 1
+InternalDesc "The foyer opens up into a small but comfortable lounging area before the doorway to the master bedroom.  Various bean bags and pillows are scattered about the floor for guests to create a spot of their own.  A low sitting round table rests in the middle of the room."
+Opacity 100
+ProperNoun 1
+Short "Inside a Comfortable Lounge"
+Items ([])
+Domain "Estates"
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1311016806
+Town "Haven"
+Saved ({"EOut","ELong","EShort","Owner",})
+ELong "The foyer opens up into a small but comfortable lounging area before the doorway to the master bedroom.  Various bean bags and pillows are scattered about the floor for guests to create a spot of their own.  A low sitting round table rests in the middle of the room."
+EShort "Inside a Comfortable Lounge"
+EOut "/domains/southern_coast/towns/haven/room/wharf"
+Owner "Itkupaju"

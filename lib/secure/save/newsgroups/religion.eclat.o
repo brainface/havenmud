@@ -1,0 +1,11 @@
+#/secure/lib/newsgroup.c
+__GroupId "religion.eclat"
+__RaceRestriction ""
+__TownRestriction ""
+__GuildRestriction ""
+__ClassRestriction ""
+__ReligionRestriction "eclat"
+__FriendlyName "Eclat Discussion"
+__ReadRankRestriction 1
+__PostRankRestriction 1
+__Posts ({(["author":"fortunado","time":1246597561,"post":"Haven's up in arms about you and Arcturus getting in a fight. Shizer and Shademaster want your blood. Ruarkh wants your entire families' blood. If you don't unwind that whirlwind now, they may go off on Lloryk to teach you some sort of backwards lesson that makes sense to those folk.Esae might be another matter--she seems to have some loyalty to you. Best you not test it though, she might end up dead.If there's something I can do, let me know. You never did me any wrong.","subject":"watch your back, marroc","read":({"fortunado","duuk","marroc","melchezidek","ohtar","alessandra","mahkefel","torak","urien","atrus","zeratul","zalbar",}),]),})

@@ -1,0 +1,43 @@
+#/lib/special/vehicle.c
+Opacity 100
+DamagePoints 3120000
+MaxDamagePoints 3200000
+PreventGet ""
+DisableChance 50
+ProperNoun 1
+Short "the dreadnaught Abyss"
+CapName "Abyss"
+ExternalDesc "This is the dreadnaught Abyss."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","SensorSuite","DriveSystem","VehicleSize","Owner","Captain","BridgeDescription","WeaponSystem","DamagedSystems","CurrentLocation","VehicleName","ShipStyle","Crystals","ShieldSystem","VId","VLong","VShort","Crew",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Keys ({})
+CanClose 1
+Messages (["come":"$N enters.","telin":"$N comes out of nowhere.","leave":"$N leaves $D.","telout":"$N goes into nowhere.",])
+VehicleName "Abyss"
+CurrentLocation "/domains/peninsula/towns/sanctum/room/docks"
+BridgeDescription "The bridge of the ship is clean and sparkles with newness."
+Owner "akah"
+ShipStyle "human"
+SensorSuite 4
+DriveSystem 4
+VehicleSize 16.000000
+WeaponSystem 16
+Crystals 97289
+LastSave 1317772064
+DamagedSystems ({})
+VId ({"dreadnaught","Abyss","ship",})
+VLong "This is the dreadnaught Abyss."
+VShort "the dreadnaught Abyss"
+ShipEnemies ({})

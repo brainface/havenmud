@@ -1,0 +1,6 @@
+Reported by: Marroc (rharrison@student.bridgew.edu)
+Time       : Tue Oct 21 20:47:11 2014
+Type       : unexplained behaviour
+Location   : /lib/special/vehicle#184419 @ ^IN/~v/ocean/-47,110
+Status     : NEW
+Bug        : the spell clairvoyance is not working.  I can cast it but it just says "in your mind's eye you see:" and nothing

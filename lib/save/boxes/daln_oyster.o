@@ -1,0 +1,28 @@
+#/realms/torak/dalnairn/obj/oyster.c
+Opacity 100
+MaxDamagePoints 20000
+DisableChance 50
+Mass 5
+ShortSuffixes ([])
+Short "a dalnairi rock oyster"
+CapName "Shell"
+ExternalDesc "The rough shell of this rock osyter is hard and grey with an uneven surface."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","BoxInventory",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({"natural",})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Closed 1
+Keys ({})
+LockStrength 100
+BoxInventory ({"([\"Value\":300,\"Mass\":2,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/torak/dalnairn/obj/r_pearl\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])",})
+BoxID "daln_oyster"

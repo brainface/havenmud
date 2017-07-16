@@ -1,0 +1,142 @@
+#/secure/save/players/r/relmi.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Warrior of Haven Town (Haven human)"
+CapName "Relmi"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({79,33,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 42112
+WhereBlock 0
+Brief 0
+LoginTime 1356558502
+BirthTime 1356295493
+Password "nhgfodkl!dbfnmhka`eofnndndildmeelialmhhbo"
+Email "potato635@gmail.com"
+RealName "Unknown"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/church/entrance"
+HostSite "drmons0540w-142068079146.pppoe-dynamic.High-Speed.ns.bellaliant.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 7
+Experience 0
+Skills (["reinforced armour":(["class":2,"level":0,]),"multi-weapon":(["class":1,"level":8,]),"metal working":(["class":4,"level":2,]),"melee combat":(["class":4,"level":6,]),"accuracy":(["class":4,"level":8,]),"combat rage":(["class":1,"level":13,]),"slash combat":(["class":1,"level":14,]),"chain armour":(["class":2,"level":0,]),"disarm":(["class":4,"level":6,]),"knife combat":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":0,]),"disorient":(["class":4,"level":4,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":11,]),"pole combat":(["class":4,"level":0,]),"weapon smithing":(["class":4,"level":4,]),"skinning":(["class":4,"level":8,]),"plate armour":(["class":2,"level":0,]),"leather working":(["class":4,"level":0,]),"bargaining":(["class":4,"level":10,]),"blunt combat":(["class":4,"level":0,]),"dodge":(["class":4,"level":5,]),"parry":(["class":4,"level":4,]),"hack combat":(["class":1,"level":14,]),])
+Morality 1141
+CanMulti 1
+Class "fighter"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"agnostic","agnostic",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Haven":62,"Malveillant":-31,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 320
+MagicPoints 41
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 5917
+Drink 5832
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 370.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":140,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":280,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":70,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":140,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":280,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":70,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":140,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":70,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":70,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":140,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 16
+LightSensitivity ({25,75,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":31,]),"wisdom":(["class":3,"points":0,"level":29,]),"coordination":(["class":3,"points":0,"level":31,]),"strength":(["class":3,"points":0,"level":32,]),"intelligence":(["class":3,"points":0,"level":25,]),"luck":(["class":3,"points":0,"level":28,]),"durability":(["class":3,"points":0,"level":27,]),"charisma":(["class":3,"points":0,"level":29,]),])
+Languages (["eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1356565978,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"What error?%^RESET%^\"",}),})
+sphist ({})
+Town "Haven"
+Race "human"
+Gender "female"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1356565880
+Currency ([])
+Bank (["Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#1360286), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#1360286), OBJ(/verbs/common/ask), OBJ(relmi /secure/save/players/r/relmi) })","last time":1356310002,"imperials":5,"open":1356310002,"last trans":"opened account",]),"First Averath Bank":(["audit":"({ OBJ(orris /domains/averath/towns/averath/npc/teller#2196), OBJ(orris /domains/averath/towns/averath/npc/teller#2196), OBJ(/verbs/players/request), OBJ(relmi /secure/save/players/r/relmi) })","last time":1356474857,"open":1356474857,"ducats":5,"last trans":"opened account",]),])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Warrior of Haven Town","the Rodent Exterminator","the Bandit Slayer","of Haven","the Platypus Skinner","the Haven Town Runner","the Vacationer","the Equipped","the Explorer","the Haven Tourist",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName 0
+Quests ({(/1356295810,"Newbie Book",/),(/1356298035,"Haven Tour",/),(/1356301218,"Bandit Camp",/),(/1356301334,"Leather Emporium",/),(/1356301590,"Platypus Bay",/),(/1356302462,"Message Courier",/),(/1356303606,"Platypus Skinner",/),(/1356304554,"Bandit Slayer",/),(/1356474791,"Rodent Extermination",/),})
+Deaths ({(/1356304076,"bandit",/),(/1356476778,"bandit",/),(/1356477631,"bleeding",/),(/1356478288,"fisherman",/),(/1356483375,"yellowed skeleton",/),(/1356483444,"decayed skeleton",/),(/1356486546,"bandit",/),(/1356565732,"decayed skeleton",/),(/1356565804,"decayed skeleton",/),(/1356565880,"decayed skeleton",/),})
+DevelopmentPoints 9
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 1
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 12
+LastLevel 1356564960
+HighestLevel 7
+LongDaemonData ({"hazel","red","pale","fair",0,})
+PermanentProperties (["mission":"/std/missions/southern_coast/graveyard_1",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

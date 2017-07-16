@@ -1,0 +1,10 @@
+Reported by: Tanov (joshy1977@bigpond.com)
+Time       : Sat May 22 20:55:34 2010
+Type       : unexplained behaviour
+Location   : ^PN/~t/sanctum/room/tylus
+Status     : NEW
+Bug        : When using the repair command you are able to repair things without having the proper skills.
+Example: If you have a mithril staff that requires mithril working to repair and you do not have that skill
+typing 'repair staff' will say you need mithril working to repair this item
+however while wielding the staff and typing 'repair' it will repair the staff
+I think it works for armour aswell as long as your wearing it when typing 'repair'

@@ -1,0 +1,64 @@
+#/secure/save/immortals/i/illura.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N of the Atrament"
+CapName "Illura"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/metal/piece_repousse\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory "/realms/illura"
+Nicknames ([])
+Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","exa":"look at $*","sw":"go southwest","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","oe":"oocemote $*","p":"who","n":"go north",".":"status","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","ga":"get all $*","d":"go down","se":"go southeast","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["dc":1,"intergossip":1,"ds":1,"debug":1,"isport":1,"shipreports":1,"souls":0,"intercre":1,])
+Screen ({78,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 438745
+WhereBlock 0
+Brief 0
+LoginTime 1314583787
+BirthTime 1240965139
+Password "nleclo`a!nocoefomel`jdccdnjhgllbcfod`inee"
+Email "sgmorton@live.com"
+RealName "Shannon"
+Rank 0
+LoginSite "/realms/illura/workroom"
+HostSite "c-69-242-207-75.hsd1.sc.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.announcements":1,])
+NewServerLogin 1
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({({1313722256,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"You should code stuff, and things. That's the story, right?%^RESET%^\"",}),({1313722264,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Prolly.%^RESET%^\"",}),({1313722269,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"He's being distracted.%^RESET%^\"",}),({1313722292,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Lol.%^RESET%^\"",}),({1313865609,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"You better be working on my crafting stuffs.%^RESET%^\"",}),({1313865648,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"I'm not working on anything buy my sammich, babe.%^RESET%^\"",}),({1313865668,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"I just ate a sammich. You can do both, I promise.%^RESET%^\"",}),({1313865683,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"I'm also eating cheetos. And watching xmen.%^RESET%^\"",}),({1313865691,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Movie or cartoon?%^RESET%^\"",}),({1313865723,"%^BOLD%^RED%^You tell A presence,%^RESET%^ \"Cartoon.%^RESET%^\"",}),({1314491939,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Aww, you know you love when I top from the bottom :P.%^RESET%^\"",}),})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1240965179
+Position 2
+WhoInvis 0
+Angel 0
+Retired 0
+Sponsor "Duuk"
+Religion ({"None",})
+ReligionTitle 0
+Department 0
+Domain "None"
+DomainTitle 0
+Sponsorees ({"Lanikai","Vaashan",})
+Gender "female"
+Status 0

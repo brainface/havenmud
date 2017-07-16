@@ -1,0 +1,68 @@
+  Getting Started on Haven
+
+  Haven is a new and differant kind of MUD which operates under new
+  and differant rules than other muds.  To begin to understand how
+  things work and what things are expected, this document has been
+  created.  It is reccommended that you read this document fully 
+  before exploring the world, or even leaving the Heavens.
+
+  Upon first logging into Haven, you should notice that you were greeted
+  by several small news items.  These are general announcements made to
+  keep the players up to speed with new and exciting features as they
+  are created.  They are also a chief means used by the Admin to keep 
+  the player base informed. You should read these fully whenever you log
+  in.  If you wish to read the news and didn't catch it when you logged in,
+  simply type <news> and you will be given all of the current announcements.
+
+  Once you have paged through the current news, you will be in a room.
+  This room will look something like the following:
+    A wispy cloud [north, east]
+    Wispy clouds spread out in many directions.  There is a sign here.
+
+  This is your current environment, it describes all of what you can see
+  in your current location.  You may <look at> any object described, along
+  with being able to perform any normal commands you feel would be typical
+  for a person to do in that location, for example <read sign>.
+  Once you have examined the room and feel comfortable with your 
+  surroundings, it is then time to move on.  You can do this by making
+  use of the <go> and <enter> commands.  <go> takes you in the direction
+  that you specify, while <enter> allows you to go into buildings or other
+  areas that could be reasonably entered into.  Be aware that the directions
+  given in brackets ([north, south]) are OBVIOUS exits.  While they are not 
+  neccessarily the only exits from an area, they are the most practical ones.
+
+  Eventually, you will be done wandering around the Heavens and wish to
+  be born.  When you are ready, find the vortex that connects the Heavens
+  to Kailie (the world of Haven).
+
+  Surviving in a Pre-Modern World
+
+  Everyone needs a direction in life to make one successful (successful being
+  defined as 'alive').  The only way to become successful on Haven is to join
+  a class.  Classes are professions; they detail how you wish to live out
+  your life and what you wish to be able to do.  Do you want to be a warrior
+  or a mage, rogue, cleric, cavalier, merchant, ranger, druid, or any of the
+  other classes which Haven allows?  That is completely up to you, and no one
+  class is better than any other, only differant.
+
+  Joining a class requires interaction with other living creatures.
+  There are several interactive commands, but the most vital few are
+  <speak>, <say>, and <ask>.
+  <speak> allows you to talk in your normal language, which is the default
+  for your race.  <say> allows you to talk in a common tongue which can be
+  understood by all players.  
+  <ask> is a special verb.  It must be targeted, but allows you to talk to
+  the various NPCs (non-player-characters) in the game.  The first thing
+  you'll want to do is <ask> someone to become a <class>, where class is
+  the class of your choice.
+
+  Depending on your class, you may want to boost certain stats to give you
+  an extra edge in surviving in Kailie. Read 'help customize' to figure
+  out how to use your free customization points.
+
+  After that, it is a simple matter of exploring the world and staying alive.
+
+  Good Luck and Happy Adventuring!
+
+  PS --  Depending on which city you are born in, you'll want to explore 
+  for areas that have NPCs and treasure in them.

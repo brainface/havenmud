@@ -1,0 +1,142 @@
+#/secure/save/players/z/zargon.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N of Durgoroth (Durgoroth daemon)"
+CapName "Zargon"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames (["fo":"fortunado","abr":"abracadabris","mah":"Mahkefel",])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","se":"go southeast","ga":"get all $*","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({107,45,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 131820
+WhereBlock 0
+Brief 1
+LoginTime 1333528226
+BirthTime 1280563695
+Password "hdeb`jif!e`ofbkbcaiojjal`fnc`ndgeofkiobel"
+Email "joshy1977@bigpond.com"
+RealName "Josh"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/imperial_road/ir2"
+HostSite "123-243-192-37.static.tpgi.com.au"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 99
+Experience 17278
+Skills (["multi-weapon":(["class":2,"level":200,]),"cloth armour":(["class":1,"level":200,]),"melee combat":(["class":4,"level":200,]),"slash combat":(["class":1,"level":200,]),"combat rage":(["class":2,"level":200,]),"knife combat":(["class":1,"level":200,]),"conjuring":(["class":1,"level":200,]),"mithril working":(["class":4,"level":51,]),"natural armour":(["class":2,"level":200,]),"necromancy":(["class":1,"level":200,]),"mining":(["class":4,"level":10,]),"armour smithing":(["class":4,"level":101,]),"fishing":(["class":4,"level":10,]),"pole combat":(["class":2,"level":200,]),"skinning":(["class":2,"level":10,]),"bargaining":(["class":4,"level":10,]),"leather working":(["class":2,"level":101,]),"farming":(["class":4,"level":10,]),"textile working":(["class":4,"level":61,]),"natural working":(["class":2,"level":101,]),"dodge":(["class":4,"level":200,]),"brawling":(["class":2,"level":200,]),"poison magic":(["class":2,"level":200,]),"evokation":(["class":2,"level":200,]),])
+Morality -1864
+CanMulti 1
+Class "necromancer"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Saahagoth","Saahagoth",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations ([])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 978
+MagicPoints 710
+Bleeding 0
+Alcohol 100
+Caffeine 0
+Food 1175
+Drink 1145
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 900.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":970,]),"right leg":(["children":({"right hoof",}),"armours":525472,"parent":"torso","class":2,"health":490,]),"left arm":(["children":({"left hand",}),"armours":729096,"parent":"torso","class":3,"health":330,]),"right hoof":(["children":({}),"armours":192,"parent":"right leg","class":3,"health":330,]),"left leg":(["children":({"left hoof",}),"armours":525472,"parent":"torso","class":2,"health":490,]),"left hoof":(["children":({}),"armours":192,"parent":"left leg","class":3,"health":330,]),"torso":(["children":({"head","right leg","left leg","left arm","right arm","right wing","left wing",}),"armours":751616,"parent":0,"class":1,"health":970,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":3,"health":330,]),"right wing":(["children":({}),"armours":2097152,"parent":"torso","class":3,"health":330,]),"right arm":(["children":({"right hand",}),"armours":729096,"parent":"torso","class":3,"health":330,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":3,"health":330,]),"left wing":(["children":({}),"armours":2097152,"parent":"torso","class":3,"health":330,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 24
+LightSensitivity ({5,70,})
+Resistance (["low":0,"high":0,"immune":0,"medium":128,"none":65406,])
+Stats (["agility":(["class":3,"points":0,"level":73,]),"wisdom":(["class":4,"points":0,"level":43,]),"coordination":(["class":3,"points":0,"level":67,]),"intelligence":(["class":3,"points":0,"level":66,]),"strength":(["class":2,"points":0,"level":85,]),"luck":(["class":3,"points":0,"level":66,]),"durability":(["class":2,"points":0,"level":96,]),"charisma":(["class":4,"points":0,"level":38,]),])
+Languages (["imperial":(["native":0,"name":"Imperial","points":1000,"level":100,]),"gryshnak":(["native":1,"name":"Gryshnak","points":0,"level":100,]),"tai":(["native":0,"name":"Tai","points":1000,"level":100,]),"enlan":(["native":0,"name":"Enlan","points":1000,"level":100,]),"eltherian":(["native":0,"name":"Eltherian","points":1000,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Durgoroth"
+Race "daemon"
+Gender "male"
+Nationality "Durgoroth"
+Size 32
+CombatStyle 0
+CombatStyles ([])
+Wimpy 40
+WimpyCmd "go out"
+LastWimpy 1333528223
+Currency (["cuicui":12550,"crystals":4606,"orcteef":1359,"oros":274,"imperials":7091,])
+Bank (["Tai MoneyChanger":(["audit":"({ OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#239839), OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#239839), OBJ(/verbs/players/request), OBJ(zargon /secure/save/players/z/zargon) })","last time":1281423317,"open":1281423317,"last trans":"opened account","koken":10,]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#148586), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#148586), OBJ(/verbs/common/ask), OBJ(zargon /secure/save/players/z/zargon) })","last time":1281756128,"imperials":7650010,"open":1280817302,"last trans":"withdrawal",]),"Durgoroth Bank":(["audit":"({ OBJ(balishae /domains/frostmarches/towns/durgoroth/npc/banker#79708), OBJ(balishae /domains/frostmarches/towns/durgoroth/npc/banker#79708), OBJ(/verbs/common/ask), OBJ(zargon /secure/save/players/z/zargon) })","crystals":950005,"last time":1282639532,"open":1281425873,"last trans":"withdrawal",]),])
+CraftingRecipes ({})
+SpellBook (["buffer":50,"missile":7,"hunger":1,"animate dead":1,"wither":1,"skull of darkness":100,"disintegrate":1,"bone shell":1,"mesmer barrier":1,"spirit call":100,"acid blast":1,"poison sphere":1,"fireball":1,"create energy mine":4,"shroud":30,"avalanche":1,"sphere":1,"vampiric touch":100,"speak with dead":2,"venomous blood":1,"acid splash":51,"energy field":90,"disperse protections":76,"drain soul":1,"shock":1,"energy wall":4,"poison orbs":100,"curse":100,"chain lightning":1,"cloud kill":1,"capsule":1,"ice ball":1,"necromantic shield":66,"flamestrike":1,"poison explosion":5,"veil from beyond":100,"wound":2,"enhanced energy wall":100,"soultap":45,"acid rain":1,"lightning blast":1,"transmutation":100,"lava storm":1,"aura":5,"locate zombie":1,"bolt":1,"umbral shield":19,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"of Durgoroth","the Ransacker of the Mage Tower","the Defender of the Joyful","the Ronin Slayer","the Arboretum Visitor","the Island Explorer","the Runner","the Enlightened Climber","the Desert Caravaner","the Caravan Guard","the Guardian of the Old Cemetery","the Platypus Skinner","the Bandit Slayer","the Haven Town Runner","the Vacationer","the Equipped","the Explorer","the Necrophile",})
+Story "Zargon, a Daemon from the lower planes has spent most of his life seeking power by any means. Inflicting terror and mayhem, death, destruction and chaos all over the lower planes. His search for power ultimately led him to the finding of a portal out of the lower planes. A new world! New oportunities for increasing his power and satisfying his will to dominate all sentient beings. He welcomed it with a menically evil grin. He now resides in Durgoroth where he met Mekrzi the Lich, who taught him the ways of necromancy. Once he had full understanding of necromancy he brutally slayed Mekrzi, not wanting another to have such power. Here is an offering to you oh great Taigas, Lord of Chaos ..and many more await!"
+Surname 0
+ApprovedStory 1
+OOCName "Josh"
+Quests ({(/1280563755,"Newbie Book",/),(/1280564489,"Bandit Camp",/),(/1280564548,"Leather Emporium",/),(/1280564586,"Platypus Bay",/),(/1280564627,"Message Courier",/),(/1280820010,"Bandit Slayer",/),(/1280820235,"Explored Grove",/),(/1280820670,"Platypus Skinner",/),(/1280824187,"Graveyard Cleanup",/),(/1280830321,"Dwarf Merchant",/),(/1280835621,"Desert Merchant",/),(/1280836500,"Mount Shatadru",/),(/1280838649,"Barian Merchant",/),(/1281421338,"Ronin Camp",/),(/1281421370,"Cherry Blossom",/),(/1281421662,"Ronin Slayer",/),(/1282548699,"Haven Mage Tower",/),})
+Deaths ({(/1282943441,"fortunado",/),(/1283174237,"poison",/),})
+DevelopmentPoints 0
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 0
+SeveredHeads 445
+LastLevel 1281796956
+HighestLevel 99
+LongDaemonData ({"blood red",0,"dark red","rugged",0,})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({"wisdom",})
+PartyMembers ({})

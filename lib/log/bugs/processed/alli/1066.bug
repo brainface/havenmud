@@ -1,0 +1,7 @@
+Reported by: Alessandra (verymaudlin@gmail.com)
+Time       : Fri Dec  2 17:30:20 2011
+Type       : other
+Location   : ^VL/~a/shining/room/forest3N12
+Status     : NEW
+Bug        : Someone remind me to fix this... SetLong contains sign. look sign tells you to read... read sign tells you you cannot read the sign.
+/domains/valley/areas/shining/room/forest3N12

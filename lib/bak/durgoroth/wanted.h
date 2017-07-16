@@ -1,0 +1,6 @@
+
+string *Wanted = ({
+ });
+
+mapping Crimes = ([
+ ]);

@@ -1,0 +1,70 @@
+---
+**Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /realms/laoise/humancapn#211767 (/lib/livings/command.c) at line 137
+
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/npcs/npc.c) at line 311
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/npcs/basenpc.c) at line 96
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/livings/living.c) at line 217
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/livings/combat.c) at line 62
+'eventExecuteAttack' at /realms/laoise/humancapn#211767 (/lib/livings/combat/attack.c) at line 103
+'<function>' at /realms/laoise/humancapn#211767 (<function>) at /:0
+'eventStyle' at /realms/laoise/humancapn#211767 (/lib/livings/combat/style.c) at line 85
+'eventStyle' at /std/style/sling at line 34
+'eventForce' at /realms/laoise/humancapn#211767 (/lib/livings/command.c) at line 137
+---
+**Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /realms/laoise/humancapn#211767 (/lib/livings/command.c) at line 137
+
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/npcs/npc.c) at line 311
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/npcs/basenpc.c) at line 96
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/livings/living.c) at line 217
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/livings/combat.c) at line 62
+'eventExecuteAttack' at /realms/laoise/humancapn#211767 (/lib/livings/combat/attack.c) at line 103
+'<function>' at /realms/laoise/humancapn#211767 (<function>) at /:0
+'eventStyle' at /realms/laoise/humancapn#211767 (/lib/livings/combat/style.c) at line 85
+'eventStyle' at /std/style/sling at line 34
+'eventForce' at /realms/laoise/humancapn#211767 (/lib/livings/command.c) at line 137
+---
+**Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /realms/laoise/humancapn#211767 (/lib/livings/command.c) at line 137
+
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/npcs/npc.c) at line 311
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/npcs/basenpc.c) at line 96
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/livings/living.c) at line 217
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/livings/combat.c) at line 62
+'eventExecuteAttack' at /realms/laoise/humancapn#211767 (/lib/livings/combat/attack.c) at line 103
+'<function>' at /realms/laoise/humancapn#211767 (<function>) at /:0
+'eventStyle' at /realms/laoise/humancapn#211767 (/lib/livings/combat/style.c) at line 85
+'eventStyle' at /std/style/sling at line 34
+'eventForce' at /realms/laoise/humancapn#211767 (/lib/livings/command.c) at line 137
+---
+**Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /realms/laoise/humancapn#211767 (/lib/livings/command.c) at line 137
+
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/npcs/npc.c) at line 311
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/npcs/basenpc.c) at line 96
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/livings/living.c) at line 217
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/livings/combat.c) at line 62
+'eventExecuteAttack' at /realms/laoise/humancapn#211767 (/lib/livings/combat/attack.c) at line 103
+'<function>' at /realms/laoise/humancapn#211767 (<function>) at /:0
+'eventStyle' at /realms/laoise/humancapn#211767 (/lib/livings/combat/style.c) at line 85
+'eventStyle' at /std/style/sling at line 34
+'eventForce' at /realms/laoise/humancapn#211767 (/lib/livings/command.c) at line 137
+---
+**Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /realms/laoise/humancapn#211767 (/lib/livings/command.c) at line 137
+
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/npcs/npc.c) at line 311
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/npcs/basenpc.c) at line 96
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/livings/living.c) at line 217
+'heart_beat' at /realms/laoise/humancapn#211767 (/lib/livings/combat.c) at line 62
+'eventExecuteAttack' at /realms/laoise/humancapn#211767 (/lib/livings/combat/attack.c) at line 103
+'<function>' at /realms/laoise/humancapn#211767 (<function>) at /:0
+'eventStyle' at /realms/laoise/humancapn#211767 (/lib/livings/combat/style.c) at line 85
+'eventStyle' at /std/style/sling at line 34
+'eventForce' at /realms/laoise/humancapn#211767 (/lib/livings/command.c) at line 137

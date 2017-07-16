@@ -1,0 +1,62 @@
+#/secure/save/immortals/l/louise.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Wife of Duuk"
+CapName "Louise"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Broken\":0,\"Poison\":0,\"Mass\":0,\"Value\":0,\"Deterioration\":0,\"DamagePoints\":1000,])","([\"Worn\":0,\"#base_name#\":\"/std/clothing/shirt\",\"Broken\":0,\"Poison\":0,\"Mass\":0,\"Value\":0,\"Deterioration\":0,\"DamagePoints\":1000,])","([\"Worn\":0,\"#base_name#\":\"/std/clothing/pants\",\"Broken\":0,\"Poison\":0,\"Mass\":0,\"Value\":0,\"Deterioration\":0,\"DamagePoints\":1000,])","([\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/newbie_book\",\"Broken\":0,\"Mass\":100,\"Poison\":0,\"Value\":10,\"DamagePoints\":0,])",})
+Messages (["vis":"$N appears.","come":"$N enters.","telout":"$N teleports away.","dest":"$N dests $O.","invis":"$N disappears.","clone":"$N clones $O.","telin":"$N teleports in.","home":"$N goes home.","leave":"$N leaves $D.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["sw":"go southwest","p":"people $*","s":"go south","d":"go down",".":"status","la":"look at $*","..":"skills","nw":"go northwest","out":"go out","exa":"look at $*","oe":"oocemote $*","ne":"go northeast","u":"go up","n":"go north","se":"go southeast","i":"inventory","e":"go east","l":"look $*","w":"go west",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["time":1,"shipreports":1,])
+Screen ({79,25,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 33322
+WhereBlock 0
+Brief 0
+LoginTime 1150856868
+BirthTime 1089251399
+Password "UTcArP6Ovp9WE"
+Email "louise@duuk.com"
+RealName "louise"
+Rank "citizen"
+LoginSite "/realms/duuk/workroom"
+HostSite "adsl-70-226-46-178.dsl.sfldmi.ameritech.net"
+WebPage 0
+AdditionalId ({})
+Marriages ({})
+NewsgroupNotifySettings (["news.announcements":1,"news.imm":1,"ooc":1,])
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1089251461
+Position 2
+WhoInvis 0
+Angel 0
+Retired 0
+Sponsor "Duuk"
+Religion ({"None",})
+ReligionTitle 0
+Department 0
+Domain "None"
+DomainTitle 0
+Sponsorees ({})
+Gender "female"
+Status 0

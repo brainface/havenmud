@@ -1,0 +1,28 @@
+Reported by: Cerdic (bjorn.brown@yahoo.com)
+Time       : Tue Nov 24 01:24:45 2015
+Type       : idea
+Location   : ^TR/~a/copse/room/room3
+Status     : NEW
+Bug        : 
+make 'archery combat' a separate skill apart from 'projectile combat'
+
+projectile we'd keep for thrown weapons ie: shuriken and javelins
+
+this would allow us to make combat actions more accurately for each category
+
+and give us the ability to simulate arrows with actions like multi-shot,
+piercing aim, head-shot, etc
+
+being able to discuss arrows in the printout messages without worrying if its a shuriken or a bow.
+
+
+projectiles need their own combat actions but with everything grouped as is,
+it becomes impossible to make something that works with all possibly equipped
+weapons of the 'projectile' category.
+
+we already have a list of all weapons in game and can somewhat tediously find all bows
+and convert them to 'archery combat' association.
+
+thanks for your time,
+B
+mahk--what id' like to do is add something like SetAmmunitionString("a flaming arrow"/"A sharpened length of chain") to projectile weapons on a case by case?

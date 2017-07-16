@@ -1,0 +1,4 @@
+#/secure/daemon/letters.c
+NoClean 1
+__Letter "/doc/lpc/types/general   <-- takes about type casting using (string) etc"
+__Folders ([])

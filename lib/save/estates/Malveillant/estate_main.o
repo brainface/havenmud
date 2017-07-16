@@ -1,0 +1,15 @@
+#/domains/estates/virtual/main_estate.c
+AmbientLight 35
+Opacity 100
+ShortSuffixes ([])
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1498668207
+Town "Malveillant"
+Saved ({"EOut","ELong","EShort","Owner",})
+ELong "This is an empty, unfurnished keep. It is quite bare."
+EShort "inside an Estate"
+EOut "/domains/staff/room/setup"
+Owner "estate"

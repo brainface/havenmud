@@ -1,0 +1,42 @@
+#/lib/special/vehicle.c
+Opacity 100
+DamagePoints 3200000
+MaxDamagePoints 3200000
+PreventGet ""
+DisableChance 50
+ProperNoun 1
+Short "the dreadnaught Wavebreaker"
+CapName "Wavebreaker"
+ExternalDesc "This is the dreadnaught Wavebreaker."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Deterioration","Closed","Locked","Keys","LockStrength","CanClose","CanLock","SensorSuite","DriveSystem","VehicleSize","Owner","Captain","BridgeDescription","WeaponSystem","DamagedSystems","CurrentLocation","VehicleName","ShipStyle","Crystals","ShieldSystem","VId","VLong","VShort",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+Hands 1
+WeaponType "blunt"
+Keys ({})
+CanClose 1
+Messages (["leave":"$N leaves $D.","telout":"$N goes into nowhere.","telin":"$N comes out of nowhere.","come":"$N enters.",])
+VehicleName "Wavebreaker"
+CurrentLocation "/domains/crystal_reaches/towns/lloryk/room/wharf"
+BridgeDescription "The bridge of the ship is clean and sparkles with newness."
+Owner "vleemad"
+Captain "Vleemad"
+ShipStyle "human"
+SensorSuite 4
+DriveSystem 4
+VehicleSize 16
+WeaponSystem 16
+ShieldSystem 8
+Crystals 10403
+DamagedSystems ({})
+VId ({"Wavebreaker","dreadnaught","ship",})
+VLong "This is the dreadnaught Wavebreaker."
+VShort "the dreadnaught Wavebreaker"
+ShipEnemies ({})

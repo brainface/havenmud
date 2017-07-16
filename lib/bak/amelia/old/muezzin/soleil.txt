@@ -1,0 +1,6 @@
+
+Soleil is in the West Wood, and is the center of the Eclat religion.  
+All muezzins start out in Soleil.  Two classes are supported there:  
+fighters and clerics of the Eclat religion.  There is one inn which 
+also serves as the tavern, a bakery and a general store.  Oiseau is 
+taught there as well.  The cuicui is the currency of Soleil.

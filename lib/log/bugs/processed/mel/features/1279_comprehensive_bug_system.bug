@@ -1,0 +1,6 @@
+Reported by: Victis (typical.stoner@gmail.com)
+Time       : Fri Sep 20 13:24:18 2013
+Type       : idea
+Location   : ^EE/~v/main_estate/Haven/Victis
+Status     : NEW
+Bug        : A method for players to track the bug reports they have submitted. Not sure if this is possible to record using player names/email addresses, but it would allow them to know what issues are being tracked (perhaps a progress flag? Submitted, Viewed, Pending Approval, Open, Testing, Closed, etc). also can view comments on the particular bug report. I don't know the limitations of the bug system or even the code, so what I'm envisioning might not even be possible. More of a "you receive an email when you report a bug with the description and then receive an email when it's resolved/closed/whatever with comments from the imm". Additionally the ability to log into the bug system and view your open reports and the statuses on each. Yeah, I'm asking a lot :(

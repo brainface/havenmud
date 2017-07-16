@@ -1,0 +1,65 @@
+#/secure/save/immortals/a/atrus.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Keeper of Tomes"
+CapName "Atrus"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/obj/kittens\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/secure/obj/post\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":100000,\"Mass\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/obj/plushbjorn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N drifts $D effortlessly.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N drifts in effortlessly.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory "/realms/atrus"
+Nicknames ([])
+Aliases (["wfb":"ask waplar to sell bread $*","la":"look at $*","hp":"highscore players $*","as":"ask dolad to teach all spells $*","w":"go west","ar":"cd /realms/atrus/std/armour $*","v":"eat a bread $*","u":"go up","out":"go out","gmc":"get moneys from a corpse $*","s":"go south","q":"quote $*","soliel":"cd /domains/westwood/towns/soleil/ $*","oe":"oocemote $*","p":"people $*","n":"go north","pos":"cast poison sphere $*","l":"look $*","k":"kill $*","dw":"drink a water $*","j":"mine with a pickaxe $*","i":"inventory","h":"ask dolad to advance fishing $*","glimmerdin":"cd /domains/crystal_reaches/towns/glimmerdin $*","g":"ask opewat to buy gem $*","f":"drink from fountain $*","meh":"emote goes, 'Meh.' $*","e":"go east","d":"go down","con":"consider $*","sac":"skin a corpse $*","c":"fish with pole $*","b":"ask opewat to buy skin $*","cap":"cast capsule $*","amf":"cast anti magic field $*","conj":"ask dolad to advance conjuring $*","di":"cast dispel invisibility $*","nw":"go northwest","inv":"cast invisibility $*","tel":"cast telepathy on $*","ka":"kill all $*","exa":"look at $*","cad":"cast charm animal on a dog $*","..":"skills","amfr":"ask purlad to exchange all money for rupies $*","...":"spells","gm":"get moneys $*","ne":"go northeast","pole":"ask dolad to advance pole combat $*","kaca":"kill a caterpillar $*","wac":"ask purlad to withdraw all rupies $*","cw":"cast create water $*","ga":"get all $*","cs":"cast create shadows $*","facepalm":"emote facepalms hard. $*","tw":"tend wounds on me $*","cl":"cast create light $*","dar":"ask purlad to deposit all rupies $*","stryke":"cd /domains/havenwood/areas/stryke/npc $*","gac":"get all from $* corpse","ch":"chanhist imm $*","cf":"cast create food $*","barg":"ask dolad to advance bargaining $*","haven":"cd /domains/southern_coast/towns/haven/room $*","rev":"more /domains/havenwood/towns/havenwood/npc/reveller.c $*","ca":"cast charm animal on $*",".":"status","evok":"ask dolad to advance evokation $*","kat":"kill a traveller $*","rep":"reputation $*","pw":"cast planar wisdom $*","ench":"ask dolad to advance enchantment $*","std":"cd /std $*","ps":"cast planar strength $*","mb":"cast mage's bane $*","pp":"people $*","fb":"cast fireball $*","kac":"kill a citizen $*","sw":"go southwest","eas":"eat a steak $*","pd":"cast planar durability $*","ig":"intergossip $*","pc":"cast planar charisma $*","ie":"immemote $*","sp":"cast sphere $*","eal":"eat a loaf $*","sm":"ask dolad to advance shock magic $*","sk":"ask dolad to advance skinning $*","underland":"cd /realms/atrus/towns/underland $*","eaf":"eat a fish $*","lvl":"ask dolad to advance level $*","se":"go southeast","bhi":"cd /realms/atrus/areas/black_horse $*","dodge":"ask dolad to advance dodge $*","bal":"ask purlad for balance $*","gcc":"get coins from $* corpse","sa":"cast shield area $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["imm":0,"intergossip":1,"players":0,"time":0,"ds":1,"dc":1,"isport":1,"ooc":0,"fs":0,])
+Screen ({99,72,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 14069312
+WhereBlock 0
+Brief 0
+LoginTime 1491163658
+BirthTime 1345621127
+Password "ikngcnoj!inainamln`i`cblohefkmkaemefcdodg"
+Email "roy.pda@gmail.com"
+RealName "Roy"
+Rank 0
+LoginSite "/realms/atrus/workroom"
+HostSite "64-121-143-92.c3-0.eas-ubr1.atw-eas.pa.cable.rcn.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.announcements":1,])
+NewServerLogin 1
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({({1388089377,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"It means \"Wandering Whore\" to him.%^RESET%^\"",}),({1388089410,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Ahh. It's good to have a translator for this guy sometimes.%^RESET%^\"",}),({1388089421,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Just ask me, I know him irl.%^RESET%^\"",}),({1388089425,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Wink.%^RESET%^\"",}),({1388090186,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"I just want to say, \"Bjorn, what IS your skillset? Smoking Bud 400/400 and Ass Holing 400/400, do you have anything else to bring to the table?\".%^RESET%^\"",}),({1388090208,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"He can cook?%^RESET%^\"",}),({1388090228,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Yes.%^RESET%^\"",}),({1388090231,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Lol.%^RESET%^\"",}),({1388090236,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"I was just trying to keep the conversation going long enough that he ran out of your sister's blahblahblah.%^RESET%^\"",}),({1388090247,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"GOOD fucking luck.%^RESET%^\"",}),({1388090491,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Shh.%^RESET%^\"",}),({1388090500,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"I womanized him.%^RESET%^\"",}),({1388090518,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"He knows.%^RESET%^\"",}),({1388096368,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Can you look over my resume and give me some pointers?%^RESET%^\"",}),({1388096420,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Ejohnson867@gmail.com.%^RESET%^\"",}),({1388096576,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Sent, thanks for looking at it.%^RESET%^\"",}),({1389917084,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"You want a free month of wow?%^RESET%^\"",}),({1389917124,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Not really.%^RESET%^\"",}),({1389917136,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"They've got me on DDO.%^RESET%^\"",}),({1391121722,"%^BOLD%^RED%^You tell Alessandra,%^RESET%^ \"Here it is! I've been waiting for him to come out of the closet for YEARS!%^RESET%^\"",}),({1391348092,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"You have mail.%^RESET%^\"",}),({1391550778,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Emote 'mike' - \"$N nods archly pretending to be listening.\".%^RESET%^\"",}),({1391621485,"%^BOLD%^RED%^You tell Sorin@Libercia:%^RESET%^ \"hist ds\" will show you the history",}),({1391621532,"%^BOLD%^RED%^Sorin@Libercia tells you:%^RESET%^ thanks",}),({1391621597,"%^BOLD%^RED%^Sorin@Libercia tells you:%^RESET%^ still working my mind to create a simple verb though. Really, this is the hardest part",}),({1391621778,"%^BOLD%^RED%^You tell Sorin@Libercia:%^RESET%^ I would recommend looking over the other verbs that are stored in the library and see if there are bits of code that you could utilize to create the one you are working on. Learning the lib really is the hardest part of it all. Keep at it, you'll get it if you've had any kind of object oriented language experience that'll help.",}),({1391622135,"%^BOLD%^RED%^Sorin@Libercia tells you:%^RESET%^ php and bash, that doesn't really help",}),({1416452554,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"Ill add it to the file as soon as im back at my computer.%^RESET%^\"",}),({1416452768,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Thank you :-D.%^RESET%^\"",}),({1416455847,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"Done.%^RESET%^\"",}),({1416455900,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Thank you very much.%^RESET%^\"",}),({1416455918,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Uhmm.%^RESET%^\"",}),({1416455952,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"I don't want to tell you you did something wrong, but A_GLOVE is already defined on the hand above, and the ring should probably be up there too.%^RESET%^\"",}),({1416456166,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"A ring doesn't go on left hand left arm?%^RESET%^\"",}),({1416456175,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"But a long glove and a shield do.%^RESET%^\"",}),({1416456188,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Read any player class racial, they're all constructed the same way for some reason.%^RESET%^\"",}),({1416456203,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"But if the daemon updates it should work.%^RESET%^\"",}),({1416456229,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"Dumbest thing ever.. but I will switch it.%^RESET%^\"",}),({1416456270,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Continuity, etc. Would you like to update the daemon or shall I?%^RESET%^\"",}),({1416456373,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"Go for it.%^RESET%^\"",}),})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1352281407
+Position 2
+WhoInvis 0
+Angel 0
+Retired 0
+Sponsor "Torak"
+Religion ({"None",})
+ReligionTitle 0
+Department 0
+Domain "None"
+DomainTitle 0
+Sponsorees ({})
+Gender "male"
+Status 0

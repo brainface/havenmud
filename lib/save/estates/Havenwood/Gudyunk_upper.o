@@ -1,0 +1,16 @@
+#/domains/estates/virtual/upper_estate.c
+AmbientLight 35
+InternalDesc "Inside the cabin is a single, cozy room. The fireplace on the north wall is used to warm and also for cooking. A small stone mantel holds a few wooden plates and cups and underscores a set of finely made recurve bows, crossed above it. A small, sturdy bed sits against the south wall. A well made eating table sits in the middle of the room that looks as if it doubles as a butchering block and food preperation table too from all the gouges and deep knife marks on its surface. Two small openings, one on the east wall and one on the west, serve as windows, both having stout shutters on the outside and the inside. Two beautiful and sturdy wooden chairs sit in front of the fireplace, both looking quite comfortable and inviting."
+Opacity 100
+ProperNoun 1
+Short "Inside a cozy log cabin belonging to Gudyunk."
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1204144863
+Town "Havenwood"
+Saved ({"ELong","EShort","Owner",})
+ELong "Inside the cabin is a single, cozy room. The fireplace on the north wall is used to warm and also for cooking. A small stone mantel holds a few wooden plates and cups and underscores a set of finely made recurve bows, crossed above it. A small, sturdy bed sits against the south wall. A well made eating table sits in the middle of the room that looks as if it doubles as a butchering block and food preperation table too from all the gouges and deep knife marks on its surface. Two small openings, one on the east wall and one on the west, serve as windows, both having stout shutters on the outside and the inside. Two beautiful and sturdy wooden chairs sit in front of the fireplace, both looking quite comfortable and inviting."
+EShort "Inside a cozy log cabin belonging to Gudyunk."
+Owner "Gudyunk"

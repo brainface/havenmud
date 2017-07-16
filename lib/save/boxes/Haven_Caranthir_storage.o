@@ -1,0 +1,26 @@
+#/domains/estates/virtual/boxes/Haven/Caranthir.c
+Opacity 100
+MaxDamagePoints 20000
+PreventGet "The box is firmly nailed to the floor."
+DisableChance 50
+Short "a large wooden chest"
+CapName "Chest"
+ExternalDesc "This large wooden box looks like it could hold much loot. It looks durable."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","BoxInventory",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+Hands 1
+WeaponType "blunt"
+Keys ({"Haven_Caranthir_key",})
+LockStrength 500
+CanClose 1
+CanLock 1
+BoxInventory ({"([\"Broken\":0,\"#base_name#\":\"/domains/valley/areas/jidoor_forest/obj/rod\",\"Class\":9,\"Value\":600,\"Worn\":0,\"Poison\":0,\"Mass\":130,\"Bait\":0,\"CatchChance\":50,\"PoleStrength\":400,\"DamagePoints\":400,])","([\"Deterioration\":0,\"Broken\":0,\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/steelboots\",\"Value\":3000,\"Worn\":0,\"Poison\":0,\"Mass\":150,\"DamagePoints\":24922,])",})
+BoxID "Haven_Caranthir_storage"

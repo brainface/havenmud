@@ -1,0 +1,22 @@
+Reported by: Artanis (adamhaye@yahoo.com)
+Time       : Fri Feb 22 10:50:39 2013
+Type       : runtime
+Location   : ^CR/~t/glimmerdin/room/tunnel2
+*Printable strings limited to length of 8192.
+Object: /secure/save/players/a/artanis (/lib/users/interface.c) at line 157
+
+'<fake>' at /secure/save/players/a/artanis (/<driver>) at line 0
+'cmdAll' at /secure/save/players/a/artanis (/lib/users/player.c) at line 1016
+'cmdAll' at /secure/save/players/a/artanis (/lib/livings/command.c) at line 63
+'cmd' at /cmds/players/chanhist at line 38
+'eventPage' at /secure/save/players/a/artanis (/lib/users/pager.c) at line 93
+'Page' at /secure/save/players/a/artanis (/lib/users/pager.c) at line 105
+'eventPrint' at /secure/save/players/a/artanis (/lib/users/interface.c) at line 157
+
+
+Status     : NEW
+Bug        : Using chanhist feature "-sx" runtimes at -s94 or above where i used to be able to use much higher values previously.
+
+## this is due to the parameters used to compile the lib. I need to recompile it on a newer version 
+and we can go from there regarding this issue. Mah B.
+ - Mel 2014/2/23

@@ -1,0 +1,7 @@
+Reported by: Berrai (ravaught@gmail.com)
+Time       : Mon May 20 09:12:39 2013
+Type       : idea
+Location   : ^SC/~t/haven/room/church/entrance
+Status     : NEW
+Bug        : %<Enter%>
+Anywhere that the user should just press the enter key, use 'press %<Enter%>'.

@@ -1,0 +1,7 @@
+Reported by: Fortunado (brainface_mike@yahoo.com)
+Time       : Tue Mar 24 23:35:36 2009
+Type       : unexplained behavior
+Location   : /domains/crystal_reaches/virtual/glimmerdinroad/0,8
+Status     : NEW
+Bug        : go north
+I can't get "set language to Blah" to work--say and yell default to eltherian no matter what

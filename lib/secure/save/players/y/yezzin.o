@@ -1,0 +1,142 @@
+#/secure/save/players/y/yezzin.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Defender of the Joyful (Yozrath human)"
+CapName "Yezzin"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames (["fo":"fortunado","mah":"mahkefel",])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","p":"who","oe":"oocemote $*",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","se":"go southeast","ga":"get all $*","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["non":0,"reboot":0,"ooc":0,"hl":0,"time":0,"notify":0,])
+Screen ({107,45,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 131359
+WhereBlock 0
+Brief 1
+LoginTime 1333528203
+BirthTime 1271575099
+Password "`jh`nlei!difolbnamhknflehlcohanmijihecljk"
+Email "joshy1977@bigpond.com"
+RealName "Josh"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/church/kylin_hall"
+HostSite "123-243-192-37.static.tpgi.com.au"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 102
+Experience 55786
+Skills (["cloth armour":(["class":1,"level":204,]),"melee combat":(["class":4,"level":10,]),"fire magic":(["class":2,"level":10,]),"instrumental music":(["class":4,"level":10,]),"accuracy":(["class":2,"level":10,]),"vocal music":(["class":4,"level":10,]),"slash combat":(["class":1,"level":205,]),"faith":(["class":1,"level":204,]),"armour smithing":(["class":4,"level":53,]),"healing":(["class":1,"level":204,]),"bargaining":(["class":1,"level":192,]),"textile working":(["class":4,"level":10,]),"blunt combat":(["class":2,"level":10,]),"parry":(["class":4,"level":10,]),"enchantment":(["class":1,"level":204,]),"evokation":(["class":2,"level":10,]),])
+Morality 2470
+CanMulti 1
+Class "imam"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations ([])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 8
+Undead 0
+UndeadType 0
+HealthPoints 730
+MagicPoints 710
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 414
+Drink 405
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 710.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":690,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":180,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":350,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":180,]),"left arm":(["children":({"left hand",}),"armours":729096,"parent":"torso","class":2,"health":350,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":350,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":690,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":180,]),"right arm":(["children":({"right hand",}),"armours":729096,"parent":"torso","class":2,"health":350,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":180,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 23
+LightSensitivity ({25,75,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":65534,])
+Stats (["agility":(["class":3,"points":0,"level":64,]),"wisdom":(["class":3,"points":0,"level":64,]),"coordination":(["class":3,"points":0,"level":61,]),"intelligence":(["class":3,"points":0,"level":62,]),"strength":(["class":3,"points":0,"level":66,]),"luck":(["class":3,"points":0,"level":67,]),"durability":(["class":3,"points":0,"level":68,]),"charisma":(["class":3,"points":0,"level":68,]),])
+Languages (["imperial":(["native":0,"name":"Imperial","points":1000,"level":100,]),"padashi":(["native":1,"name":"Padashi","points":0,"level":100,]),"enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),"eltherian":(["native":0,"name":"Eltherian","points":1000,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Yozrath"
+Race "human"
+Gender "male"
+Nationality "Yozrath"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 50
+WimpyCmd "go out"
+LastWimpy 1333528198
+Currency (["dinar":4908659,"imperials":27160,])
+Bank (["Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#785028), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#785028), OBJ(/verbs/common/ask), OBJ(yezzin /secure/save/players/y/yezzin) })","last time":1279201355,"imperials":88790537,"open":1271577588,"last trans":"withdrawal",]),"Yozrath Trust":(["audit":"({ OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#458841), OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#458841), OBJ(/verbs/common/ask), OBJ(yezzin /secure/save/players/y/yezzin) })","dinar":2000005,"last time":1279891432,"imperials":9000000,"open":1271576643,"last trans":"withdrawal",]),])
+CraftingRecipes ({})
+SpellBook (["divine power":30,"halt bleeding":5,"flaming arrow":50,"desert divining":50,"sting":5,"discern killer":1,"remove paralysis":1,"bless":100,"touch":11,"empower":51,"cure blindness":1,"desert banishment":1,"create water":1,"divine religion":1,"summon lesser effigy":1,"summon relic":1,"banish lesser effigy":1,"create light":8,"superior wrath":1,"fortify":5,"holy shield":5,"disperse protections":45,"dispel poison":5,"create detox potion":5,"kylin touch":1,"create shadows":5,"fidei defensor":100,"wrath":100,"heal":1,"cure disease":22,"sanctify":1,"wall of force":100,"resurrect":1,"desert walk":20,"holy celerity":68,"rejuvenation":100,"detect magic":50,"protect":50,"divine whisper":8,"divine morality":1,"imbue weapon":1,"create food":1,"serenity":1,"turn undead":3,"smite":45,"detect magic fully":1,"regenerate limb":1,"revive":100,"mend":1,])
+SongBook (["quenching":2,"harmonic shield":50,"desert path":1,"song of sorrow":5,"shielding song":50,"tingling song":1,"protective note":5,"banshee scream":50,"harpy's shriek":5,"harmonic replenishment":5,"nourishment":3,"debutant aria":30,])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Defender of the Joyful","the Ransacker of the Mage Tower","the Saviour of the Sprites","the Adversary of Arachnids","the Chef's Aide","the Havenwood Grocer","the Roaster of Rabbits","the Gatherer of Coconuts","the Fruit Harvester","the Forager","the Blueberry Picker","the Desert Caravaner","the Guardian of the Old Cemetery","the Caravan Guard","the Runner","$N the Desert Acolyte of Kylin","the Bandit Slayer","the Platypus Skinner","the Haven Town Runner","the Vacationer","the Equipped","the Explorer","of Yozrath",})
+Story "Yezzin Wali, Citizen of Yozrath is the eldest son of Bektash Wali, Supreme Imam of Yozrath. Yezzin has lived in the desert all his life and has become a faithful phrophet and learnt the ways of the desert Kylin well. The prophecy his father has forseen entails the coming of a great wave of evil across the land of Kailie. Together Yezzin and his father prepare for this so that they will be ready to restore the balance when the time comes."
+Surname 0
+ApprovedStory 1
+OOCName "Josh"
+Quests ({(/1271576353,"Newbie Book",/),(/1271756306,"Bandit Camp",/),(/1271756386,"Leather Emporium",/),(/1271756451,"Platypus Bay",/),(/1271756539,"Message Courier",/),(/1271757003,"Platypus Skinner",/),(/1271757051,"Bandit Slayer",/),(/1272512882,"Explored Grove",/),(/1275384274,"Graveyard Cleanup",/),(/1276398332,"Barian Merchant",/),(/1276401329,"Dwarf Merchant",/),(/1276408610,"Desert Merchant",/),(/1276408804,"Rabbit Food",/),(/1276408943,"Blueberry Picker",/),(/1276408959,"Desert Fruit",/),(/1276409002,"Fruit Basket",/),(/1276409092,"Tropical Fruit",/),(/1276409157,"Roasted Rabbit",/),(/1276409222,"Shopping List",/),(/1276422653,"Tarantula Slayer",/),(/1276423462,"Monkey Meat",/),(/1279872967,"Haven Mage Tower",/),})
+Deaths 0
+DevelopmentPoints 123
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 0
+SeveredHeads 653
+LastLevel 1279891518
+HighestLevel 102
+LongDaemonData ({"green","light brown","brownish","tanned",0,})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

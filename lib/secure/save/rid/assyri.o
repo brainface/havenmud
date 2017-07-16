@@ -1,0 +1,143 @@
+#/secure/save/players/a/assyri.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Storyteller of Haven Town (Haven elf)"
+CapName "Assyri"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":3,\"Mass\":3,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/peninsula/areas/wood/obj/sqpelt\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":8,\"Mass\":6,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/peninsula/areas/wood/obj/rabpelt\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":6,\"Mass\":5,\"Worn\":({\"right hand\",}),\"Class\":8,\"#base_name#\":\"/domains/peninsula/areas/wood/obj/knife\",\"Broken\":0,\"DamagePoints\":1158,\"Poison\":0,])","([\"Value\":3,\"Mass\":3,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/peninsula/areas/wood/obj/sqpelt\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":3,\"Mass\":3,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/peninsula/areas/wood/obj/sqpelt\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":9,\"Mass\":9,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/peninsula/areas/wood/obj/foxpelt\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":50,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/collar\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":50,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/collar\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":0,\"Mass\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/mission_obj/gletter\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":10,\"Mass\":5,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/guppy_food\",\"MealType\":2,\"Broken\":0,\"Short\":\"a guppy\",\"Long\":\"This guppy is a small fish.  It is barely worth eating.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":10,\"Mass\":5,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/guppy_food\",\"MealType\":2,\"Broken\":0,\"Short\":\"a guppy\",\"Long\":\"This guppy is a small fish.  It is barely worth eating.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":10,\"Mass\":5,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/guppy_food\",\"MealType\":2,\"Broken\":0,\"Short\":\"a guppy\",\"Long\":\"This guppy is a small fish.  It is barely worth eating.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":10,\"Mass\":5,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/guppy_food\",\"MealType\":2,\"Broken\":0,\"Short\":\"a guppy\",\"Long\":\"This guppy is a small fish.  It is barely worth eating.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":10,\"Mass\":5,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/fish/guppy_food\",\"MealType\":2,\"Broken\":0,\"Short\":\"a guppy\",\"Long\":\"This guppy is a small fish.  It is barely worth eating.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":20,\"Class\":8,\"Worn\":0,\"CatchChance\":40,\"Broken\":1,\"Poison\":0,\"Bait\":0,\"Mass\":70,\"PoleStrength\":45,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/oldpole\",\"DamagePoints\":91,])","([\"Value\":50,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/collar\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":996,\"Poison\":0,])","([\"Value\":50,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/collar\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":996,\"Poison\":0,])","([\"Value\":50,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/collar\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":25,\"Mass\":15,\"Worn\":({\"left hand\",}),\"Class\":4,\"#base_name#\":\"/std/weapon/knife/small_knife\",\"Broken\":0,\"DamagePoints\":179,\"Poison\":0,])","([\"Value\":50,\"Mass\":15,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/std/weapon/knife/small_knife\",\"Broken\":0,\"DamagePoints\":192,\"Poison\":0,])","([\"Value\":1000,\"Mass\":200,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/instruments/lyre\",\"Broken\":0,\"DamagePoints\":300,\"Poison\":0,])","([\"Value\":0,\"Mass\":195,\"Worn\":0,\"Class\":12,\"#base_name#\":\"/std/weapon/pierce/epee\",\"Broken\":0,\"DamagePoints\":318,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":988,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":936,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":961,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["bs":"backstab $*","nw":"go northwest","la":"look at $*","sbs":"sing banshee scream $*","tt":"sing tingling song $*","ka":"kill all","w":"sneak west $*","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","da":"sing debutant aria $*","u":"go up","out":"go out","..":"skills","s":"sneak south $*","2":"ask athurin to teach all songs $*","ss":"sing shielding song $*","...":"songs $*","1":"ask athurin to advance $*","p":"who","oe":"oocemote $*","ls":"look $*","n":"sneak north $*",".":"status","bc":"burn $* corpse","rr":"sing harmonic replenishment $*","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","h":"sing harmonic shield $*","e":"sneak east $*","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({78,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 4195
+WhereBlock 0
+Brief 0
+LoginTime 1448067658
+BirthTime 1448067641
+Password "ahckbbog!kjnocmajcllfmckhliikeg``f`iekmcj"
+Email "ejohnson867@gmail.com"
+RealName "Unknown"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/misc_buildings/music_hall"
+HostSite "108.244.193.56"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 5
+Experience 1331
+Skills (["reinforced armour":(["class":2,"level":0,]),"multi-weapon":(["class":4,"level":6,]),"disorient":(["class":4,"level":0,]),"fishing":(["class":2,"level":0,]),"leather armour":(["class":2,"level":0,]),"stealth":(["class":2,"level":3,]),"fire magic":(["class":2,"level":0,]),"instrumental music":(["class":1,"level":12,]),"swimming":(["class":4,"level":0,]),"bargaining":(["class":1,"level":11,]),"vocal music":(["class":1,"level":12,]),"slash combat":(["class":2,"level":0,]),"knife combat":(["class":1,"level":12,]),"dodge":(["class":4,"level":0,]),"cooking":(["class":4,"level":0,]),"pierce combat":(["class":4,"level":2,]),])
+Morality 1321
+CanMulti 1
+Class "bard"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({,})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Haven":56,"Malveillant":-28,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 8
+Undead 0
+UndeadType 0
+HealthPoints 350
+MagicPoints 690
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1847
+Drink 1847
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 350.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":160,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":310,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":160,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":310,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":160,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":160,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({17,73,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":36,]),"wisdom":(["class":3,"points":0,"level":30,]),"coordination":(["class":3,"points":0,"level":31,]),"strength":(["class":4,"points":0,"level":30,]),"intelligence":(["class":1,"points":0,"level":36,]),"luck":(["class":4,"points":0,"level":28,]),"durability":(["class":3,"points":0,"level":30,]),"charisma":(["class":1,"points":0,"level":64,]),])
+Languages (["eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Haven"
+Race "elf"
+Gender "female"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "flee"
+LastWimpy 1448069104
+Currency (["imperials":4,])
+Bank ([])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook (["harmonic shield":35,"quenching":1,"song of sorrow":1,"desert path":1,"shielding song":45,"protective note":1,"tingling song":24,"banshee scream":6,"harpy's shriek":1,"harmonic replenishment":15,"nourishment":1,"debutant aria":23,])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Storyteller of Haven Town","the Soft Storyteller of Haven Town","the Vacationer","the Equipped","the Explorer","of Haven",})
+Story 0
+Surname "Sindara"
+ApprovedStory 0
+OOCName 0
+Quests ({(/1448067728,"Newbie Book",/),(/1448068222,"Bandit Camp",/),(/1448068450,"Leather Emporium",/),(/1448068662,"Platypus Bay",/),})
+Deaths 0
+DevelopmentPoints 8
+TitleLength 1
+TitleAnd 0
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 0
+LastLevel 1448071343
+HighestLevel 5
+LongDaemonData ({"pale green","light brown","pale green","fair","slightly pointed ears and almond shaped eyes.",})
+PermanentProperties (["mission":"/std/missions/southern_coast/visit_beornwulf_library","defaultlanguage":"eltherian","status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

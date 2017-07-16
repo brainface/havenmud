@@ -1,0 +1,143 @@
+#/secure/save/players/n/nyssari.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Guardian of the Old Cemetery (Havenwood wild-elf)"
+CapName "Nyssari"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":10,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/valley/areas/canyon/obj/wing_butterfly\",\"Broken\":0,\"DamagePoints\":5,\"Poison\":0,])","([\"Value\":10,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/valley/areas/canyon/obj/wing_butterfly\",\"Broken\":0,\"DamagePoints\":5,\"Poison\":0,])","([\"Value\":7,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/valley/areas/canyon/obj/feather_jay\",\"Broken\":0,\"DamagePoints\":77,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/canyon/obj/mane\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":75,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/canyon/obj/mane\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":75,\"Poison\":0,])","([\"Value\":0,\"Mass\":175,\"Worn\":({\"right hand\",\"left hand\",}),\"Class\":7,\"#base_name#\":\"/std/weapon/staff\",\"Broken\":0,\"DamagePoints\":294,\"Poison\":0,])","([\"Value\":0,\"Mass\":175,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/std/weapon/staff\",\"Broken\":0,\"DamagePoints\":475,\"Poison\":0,])","([\"Value\":0,\"Mass\":175,\"Worn\":({\"torso\",}),\"#base_name#\":\"/domains/havenwood/towns/havenwood/leatherstore/oldvest\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":789,\"Poison\":0,])","([\"Value\":0,\"Mass\":80,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/havenwood/towns/havenwood/leatherstore/oldboots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":790,\"Poison\":0,])","([\"Value\":0,\"Mass\":160,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/domains/havenwood/towns/havenwood/leatherstore/oldpants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":782,\"Poison\":0,])","([\"Value\":0,\"Mass\":95,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/havenwood/towns/havenwood/leatherstore/oldhelmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":782,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/havenwood/towns/havenwood/leatherstore/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/havenwood/towns/havenwood/leatherstore/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":45,\"Worn\":0,\"Class\":11,\"#base_name#\":\"/std/weapon/projectile/bow_long_newbie\",\"Broken\":0,\"DamagePoints\":1300,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/std/weapon/small_knife\",\"Broken\":0,\"DamagePoints\":650,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/coat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":989,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/havenwoodmap\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":188,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":7,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/valley/areas/canyon/obj/feather_jay\",\"Broken\":0,\"DamagePoints\":77,\"Poison\":0,])","([\"Value\":10,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/valley/areas/canyon/obj/wing_butterfly\",\"Broken\":0,\"DamagePoints\":5,\"Poison\":0,])","([\"Value\":7,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/valley/areas/canyon/obj/feather_jay\",\"Broken\":0,\"DamagePoints\":77,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/canyon/obj/mane\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":75,\"Poison\":0,])","([\"Value\":10,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/valley/areas/canyon/obj/wing_butterfly\",\"Broken\":0,\"DamagePoints\":5,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/valley/areas/canyon/obj/mane\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":75,\"Poison\":0,])","([\"Value\":7,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/valley/areas/canyon/obj/feather_jay\",\"Broken\":0,\"DamagePoints\":77,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","eb":"cast eclat bite $*","bark":"cast barkskin $*","w":"go west","gac":"get all from $* corpse","vh":"cast vermin horde $*","5":"spells -c $*","u":"go up","4":"skills $*","out":"go out","3":"score $*","s":"go south","orb":"cast create light $*","2":"status $*","1":"stats $*","p":"protections $*","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","k":"kill $*","i":"inventory","e":"go east","con":"consider $*","d":"go down","cho":"chanhist ooc $*","pp":"cast disperse protections $*","nw":"go northwest","bunnies":"cast bunnies $*","ka":"kill all","sw":"go southwest","exa":"look at $*","skin":"skin first corpse $*","..":"skills","loot":"get all from first corpse $*","...":"spells","ne":"go northeast","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({154,53,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 75522
+WhereBlock 0
+Brief 1
+LoginTime 1412104765
+BirthTime 1376964290
+Password "hlalmkdh!cdnfkhfgmliclnjnkhildcgcbfofanhm"
+Email "verymaudlin@gmail.com"
+RealName "Alli"
+Rank 0
+LoginSite "/domains/valley/areas/canyon/room/valley_1"
+HostSite "mail.tpcaz.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen","Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 9
+Experience 30261
+Skills (["cloth armour":(["class":4,"level":10,]),"stealth":(["class":4,"level":10,]),"shock magic":(["class":2,"level":18,]),"natural armour":(["class":4,"level":10,]),"projectile combat":(["class":4,"level":0,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":1,]),"healing":(["class":1,"level":20,]),"natural magic":(["class":1,"level":20,]),"fishing":(["class":2,"level":18,]),"leather armour":(["class":4,"level":10,]),"wood working":(["class":4,"level":4,]),"pole combat":(["class":2,"level":20,]),"weapon smithing":(["class":4,"level":3,]),"skinning":(["class":2,"level":18,]),"swimming":(["class":4,"level":0,]),"bargaining":(["class":4,"level":6,]),"leather working":(["class":4,"level":10,]),"natural working":(["class":4,"level":1,]),"farming":(["class":2,"level":0,]),"dodge":(["class":4,"level":10,]),"cooking":(["class":4,"level":10,]),"parry":(["class":4,"level":10,]),"enchantment":(["class":1,"level":20,]),"evokation":(["class":1,"level":20,]),])
+Morality 1948
+CanMulti 1
+Class "druid"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Eclat","Eclat",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Havenwood":66,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 370
+MagicPoints 390
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 174
+Drink 298
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 350.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right foot":(["armours":240,"children":({}),"health":90,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":170,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":330,"class":1,"parent":"torso",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":170,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":90,"class":4,"parent":"left leg",]),"left leg":(["armours":525472,"children":({"left foot",}),"health":170,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":330,"class":1,"parent":0,]),"right hand":(["armours":98318,"children":({}),"health":90,"class":4,"parent":"right arm",]),"left hand":(["armours":98318,"children":({}),"health":90,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":170,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 15
+LightSensitivity ({10,70,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":33,]),"wisdom":(["class":2,"points":0,"level":34,]),"coordination":(["class":3,"points":0,"level":36,]),"strength":(["class":3,"points":0,"level":30,]),"intelligence":(["class":3,"points":0,"level":38,]),"luck":(["class":3,"points":0,"level":32,]),"durability":(["class":3,"points":0,"level":32,]),"charisma":(["class":2,"points":0,"level":40,]),])
+Languages (["imperial":(["native":0,"name":"Imperial","points":1000,"level":0,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Havenwood"
+Race "wild-elf"
+Gender "female"
+Nationality "Havenwood"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1376964290
+Currency (["imperials":245,])
+Bank ([])
+CraftingRecipes ({})
+SpellBook (["disperse protections":4,"bunnies":25,"mend textile":1,"create flower":5,"thicken blood":1,"transmorph":1,"create shadows":1,"create rose":1,"tend wounds":1,"warp wood":1,"condense air":10,"unravel wards":1,"detect magic":1,"barkskin":100,"vermin horde":10,"eclat bite":22,"orc prick":1,"create light":3,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Guardian of the Old Cemetery","the Ferry Rider","the Crypt Keeper","the Envoy of Haven Town","the Haven Town Messenger","the Haven Town Courier","the Bandit Slayer","of Havenwood","the Feather Ruffler","the Platypus Skinner","the Haven Tourist","the Haven Town Runner","the Vacationer","the Equipped","the Trash Picker","the Blueberry Picker","the Explorer","the Caretaker of the Havenwood",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "Alli"
+Quests ({(/1376964302,"Newbie Book",/),(/1376964830,"Rabbit Food",/),(/1376964875,"Explored Grove",/),(/1376968670,"Blueberry Picker",/),(/1377006966,"Gurov Trash Search",/),(/1377007067,"Bandit Camp",/),(/1377007107,"Leather Emporium",/),(/1377007175,"Platypus Bay",/),(/1377007219,"Message Courier",/),(/1377008376,"Haven Tour",/),(/1377048593,"Platypus Skinner",/),(/1377049981,"Chicken Coop",/),(/1410045415,"Bandit Slayer",/),(/1410045523,"Message Courier pt 2",/),(/1410045611,"Message Courier pt 3",/),(/1410045715,"Message Courier pt 4",/),(/1410048411,"Graveyard Cleanup",/),(/1410107667,"Crypt Keeper",/),(/1410116884,"Averath Ferry",/),})
+Deaths 0
+DevelopmentPoints 24
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 0
+SeveredHeads 85
+LastLevel 1410048736
+HighestLevel 9
+LongDaemonData ({"pale green","pale blonde","pale green","fair","slightly pointed ears and almond shaped eyes.",})
+PermanentProperties (["mission":"/std/missions/southern_coast/graveyard_3","status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

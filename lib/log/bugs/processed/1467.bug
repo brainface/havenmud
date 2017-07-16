@@ -1,0 +1,24 @@
+Reported by: Darur (ratienz1@jhu.edu)
+Time       : Sun Jun  5 14:41:39 2016
+Type       : runtime
+Location   : ^SC/~v/havenroad/21,0
+*Bad argument 1 to sort_array()
+Expected: array Got: 0.
+Object: /secure/cmds/common/links at line 38
+
+'<fake>' at /secure/save/players/d/darur (/<driver>) at line 0
+'cmdAll' at /secure/save/players/d/darur (/lib/users/player.c) at line 1035
+'cmdAll' at /secure/save/players/d/darur (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/common/links at line 38
+
+
+COMMAND HISTORY
+=================
+00397 help bug
+00398 bug
+00399 lists
+00400 list
+00401 links
+
+Status     : NEW
+Bug        : Reproducible runtime error when using command "links" on character Darur. Last occurred 2:42PM EST 6/5/16.

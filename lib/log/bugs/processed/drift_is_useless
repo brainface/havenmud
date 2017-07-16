@@ -1,0 +1,6 @@
+Reported by: Gratian (cable2999@yahoo.com)
+Time       : Thu Jul 31 21:37:59 2014
+Type       : unexplained behavior
+Location   : ^WW/~a/hiker/room/shortcut
+Status     : NEW
+Bug        : Drift puts things to sleep, but also puts me in combat with them.  Halt doesn't seem to work to stop combat, making it mostly usless.

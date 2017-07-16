@@ -1,0 +1,11 @@
+Reported by: Sigmar (sansfortuna@live.com)
+Time       : Thu Feb 11 21:58:26 2010
+Type       : unexplained behaviour
+Location   : ^SC/~a/camp/room/cl2
+Status     : NEW
+Bug        : When trying to wear a "filthy discolored robe" it does not automatically assign to certain limbs. I have to specifically type "wear robe on left arm and right arm and torso and head" for it to cover all those limbs.
+l
+Mahkefel:
+ WHat's causing this is that some of the races have "head" listed for A_BODY_ARMOUR, giving them 4 limbs instead of three to wear the item on. Notably, human and elf can't wear robes on their head, gnoll, skaven, and many npc races can. It doesn't seem to apply in any coherent state, so I'm thinking this configuration is a bug?
+
+Duuk (imm) put that under "won't fix" due to it being a pain in the ass to fix

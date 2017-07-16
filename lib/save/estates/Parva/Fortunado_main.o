@@ -1,0 +1,19 @@
+#/domains/estates/virtual/main_estate/Parva/Fortunado.c
+AmbientLight 35
+NoClean 1
+InternalDesc "Bits of leftover food and winestains line the floor of this stone keep. Along the west wall hangs a map of Kailie. The interior of the continent is bare, but marks on the surrounding coastline and ocean seems to show the tracks of repeated voyages. Further maps and logbooks cover a table in the center of the room. A steel door to the north is barred with a sturdy looking lock."
+Opacity 100
+ProperNoun 1
+Short "Inside a small stone keep overlooking the docks"
+Items ([])
+Domain "Estates"
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1500123481
+Town "Parva"
+Saved ({"EOut","ELong","EShort","Owner",})
+ELong "Bits of leftover food and winestains line the floor of this stone keep. Along the west wall hangs a map of Kailie. The interior of the continent is bare, but marks on the surrounding coastline and ocean seems to show the tracks of repeated voyages. Further maps and logbooks cover a table in the center of the room. A steel door to the north is barred with a sturdy looking lock."
+EShort "Inside a small stone keep overlooking the docks"
+EOut "/domains/havenwood/towns/parva/room/docks1"
+Owner "Fortunado"

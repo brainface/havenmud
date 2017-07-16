@@ -1,0 +1,17 @@
+Reported by: Hithaeron (rharrison@student.bridgew.edu)
+Time       : Sat Sep 13 18:45:23 2014
+Type       : runtime
+Location   : ^PN/~t/sanctum/room/docks
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: <none> (/lib/special/vehicle.c) at line 320
+
+'<fake>' at /secure/save/players/h/hithaeron (/<driver>) at line 0
+'cmdAll' at /secure/save/players/h/hithaeron (/lib/users/player.c) at line 1016
+'cmdAll' at /secure/save/players/h/hithaeron (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 102
+'eventReceiveDamage' at <none> (/lib/special/vehicle.c) at line 320
+
+
+Status     : NEW
+Bug        : received runtime when ship was sunk by ship hitting large amount of debris.  swimming was set to off.

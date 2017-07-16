@@ -1,0 +1,82 @@
+DEBUG [2015-11-30 20:18:10,557] - Found 21 bug reports for processing in /home/haven/haven/lib/log/bugs.
+DEBUG [2015-11-30 20:18:10,558] - Parsing bug report: /home/haven/haven/lib/log/bugs/1396.bug
+DEBUG [2015-11-30 20:18:10,558] - Finished parsing 1396.bug: type [11] from [Gratian (cable2999@yahoo.com)]
+DEBUG [2015-11-30 20:18:10,558] - Parsing bug report: /home/haven/haven/lib/log/bugs/1445.bug
+DEBUG [2015-11-30 20:18:10,558] - Finished parsing 1445.bug: type [1] from [Otto (bjorn.brown@yahoo.com)]
+DEBUG [2015-11-30 20:18:10,558] - Parsing bug report: /home/haven/haven/lib/log/bugs/1415.bug
+DEBUG [2015-11-30 20:18:10,558] - Finished parsing 1415.bug: type [11] from [Victis (typical.stoner@gmail.com)]
+DEBUG [2015-11-30 20:18:10,558] - Parsing bug report: /home/haven/haven/lib/log/bugs/1398.bug
+DEBUG [2015-11-30 20:18:10,559] - Finished parsing 1398.bug: type [11] from [Marroc (rharrison@student.bridgew.edu)]
+DEBUG [2015-11-30 20:18:10,559] - Parsing bug report: /home/haven/haven/lib/log/bugs/1440.bug
+DEBUG [2015-11-30 20:18:10,559] - Finished parsing 1440.bug: type [1] from [Tazual (merman.frenzy@gmail.com)]
+DEBUG [2015-11-30 20:18:10,559] - Parsing bug report: /home/haven/haven/lib/log/bugs/1397.bug
+DEBUG [2015-11-30 20:18:10,559] - Finished parsing 1397.bug: type [1] from [Marroc (rharrison@student.bridgew.edu)]
+DEBUG [2015-11-30 20:18:10,559] - Parsing bug report: /home/haven/haven/lib/log/bugs/1448.bug
+DEBUG [2015-11-30 20:18:10,559] - Finished parsing 1448.bug: type [2] from [Ainent (jdmarshall1990@gmail.com)]
+DEBUG [2015-11-30 20:18:10,559] - Parsing bug report: /home/haven/haven/lib/log/bugs/1394.bug
+DEBUG [2015-11-30 20:18:10,559] - Finished parsing 1394.bug: type [1] from [Throlasyr (rharrison@student.bridgew.edu)]
+DEBUG [2015-11-30 20:18:10,559] - Parsing bug report: /home/haven/haven/lib/log/bugs/1404.bug
+DEBUG [2015-11-30 20:18:10,560] - Finished parsing 1404.bug: type [1] from [Marroc (rharrison@student.bridgew.edu)]
+DEBUG [2015-11-30 20:18:10,560] - Parsing bug report: /home/haven/haven/lib/log/bugs/1416.bug
+DEBUG [2015-11-30 20:18:10,560] - Finished parsing 1416.bug: type [1] from [Victis (typical.stoner@gmail.com)]
+DEBUG [2015-11-30 20:18:10,560] - Parsing bug report: /home/haven/haven/lib/log/bugs/1409.bug
+DEBUG [2015-11-30 20:18:10,560] - Finished parsing 1409.bug: type [1] from [Victis (typical.stoner@gmail.com)]
+DEBUG [2015-11-30 20:18:10,560] - Parsing bug report: /home/haven/haven/lib/log/bugs/1447.bug
+DEBUG [2015-11-30 20:18:10,560] - Finished parsing 1447.bug: type [2] from [Ainent (jdmarshall1990@gmail.com)]
+DEBUG [2015-11-30 20:18:10,561] - Parsing bug report: /home/haven/haven/lib/log/bugs/1392.bug
+DEBUG [2015-11-30 20:18:10,561] - Finished parsing 1392.bug: type [11] from [Mahkefel (brainfacemike@gmail.com)]
+DEBUG [2015-11-30 20:18:10,561] - Parsing bug report: /home/haven/haven/lib/log/bugs/navigation.bug
+ERROR [2015-11-30 20:18:10,561] - Failed to parse bug: /home/haven/haven/lib/log/bugs/navigation.bug
+DEBUG [2015-11-30 20:18:10,561] - Parsing bug report: /home/haven/haven/lib/log/bugs/1407.bug
+DEBUG [2015-11-30 20:18:10,561] - Finished parsing 1407.bug: type [1] from [Throlasyr (rharrison@student.bridgew.edu)]
+DEBUG [2015-11-30 20:18:10,561] - Parsing bug report: /home/haven/haven/lib/log/bugs/1413.bug
+DEBUG [2015-11-30 20:18:10,561] - Finished parsing 1413.bug: type [11] from [Marroc (rharrison@student.bridgew.edu)]
+DEBUG [2015-11-30 20:18:10,561] - Parsing bug report: /home/haven/haven/lib/log/bugs/1441.bug
+DEBUG [2015-11-30 20:18:10,561] - Finished parsing 1441.bug: type [1] from [Furthal (futvin@outlook.com)]
+DEBUG [2015-11-30 20:18:10,561] - Parsing bug report: /home/haven/haven/lib/log/bugs/1438.bug
+DEBUG [2015-11-30 20:18:10,562] - Finished parsing 1438.bug: type [13] from [Hithaeron (rharrison@student.bridgew.edu)]
+DEBUG [2015-11-30 20:18:10,562] - Parsing bug report: /home/haven/haven/lib/log/bugs/1450.bug
+DEBUG [2015-11-30 20:18:10,562] - Finished parsing 1450.bug: type [2] from [Ainent (jdmarshall1990@gmail.com)]
+DEBUG [2015-11-30 20:18:10,562] - Parsing bug report: /home/haven/haven/lib/log/bugs/1444.bug
+DEBUG [2015-11-30 20:18:10,562] - Finished parsing 1444.bug: type [1] from [Cerdic (bjorn.brown@yahoo.com)]
+DEBUG [2015-11-30 20:18:10,562] - Parsing bug report: /home/haven/haven/lib/log/bugs/1425.bug
+DEBUG [2015-11-30 20:18:10,562] - Finished parsing 1425.bug: type [12] from [Marroc (rharrison@student.bridgew.edu)]
+DEBUG [2015-11-30 20:26:15,836] - Found 1 bug reports for processing in /home/haven/haven/lib/log/bugs.
+DEBUG [2015-11-30 20:26:15,836] - Parsing bug report: /home/haven/haven/lib/log/bugs/1451.bug
+DEBUG [2015-11-30 20:26:15,836] - Finished parsing 1451.bug: type [13] from [Melchezidek (jdhunneman@yahoo.com)]
+INFO [2015-11-30 20:26:16,787] - Created osTicket [000281] for bug [1451]
+DEBUG [2015-11-30 20:26:16,789] - Moved /home/haven/haven/lib/log/bugs/1451.bug from [/home/haven/haven/lib/log/bugs] to [/home/haven/haven/lib/log/bugs/processed]
+DEBUG [2015-11-30 20:27:30,470] - Found 1 bug reports for processing in /home/haven/haven/lib/log/bugs.
+DEBUG [2015-11-30 20:27:30,470] - Parsing bug report: /home/haven/haven/lib/log/bugs/1451.bug
+DEBUG [2015-11-30 20:27:30,470] - Finished parsing 1451.bug: type [13] from [Melchezidek (jdhunneman@yahoo.com)]
+INFO [2015-11-30 20:27:30,831] - Created osTicket [000282] for bug [1451]
+DEBUG [2015-11-30 20:27:30,831] - Moved /home/haven/haven/lib/log/bugs/1451.bug from [/home/haven/haven/lib/log/bugs] to [/home/haven/haven/lib/log/bugs/processed]
+DEBUG [2015-11-30 20:33:17,196] - Found 2 bug reports for processing in /home/haven/haven/lib/log/bugs.
+DEBUG [2015-11-30 20:33:17,197] - Parsing bug report: /home/haven/haven/lib/log/bugs/1452.bug
+DEBUG [2015-11-30 20:33:17,197] - Finished parsing 1452.bug: type [12] from [Melchezidek (jdhunneman@yahoo.com)]
+INFO [2015-11-30 20:33:17,583] - Created osTicket [000287] for bug [1452]
+DEBUG [2015-11-30 20:33:17,583] - Moved 1452.bug from [/home/haven/haven/lib/log/bugs/1452.bug] to [/home/haven/haven/lib/log/bugs/processed/1452.bug]
+DEBUG [2015-11-30 20:33:17,585] - Parsing bug report: /home/haven/haven/lib/log/bugs/1451.bug
+DEBUG [2015-11-30 20:33:17,585] - Finished parsing 1451.bug: type [13] from [Melchezidek (jdhunneman@yahoo.com)]
+INFO [2015-11-30 20:33:17,959] - Created osTicket [000288] for bug [1451]
+DEBUG [2015-11-30 20:33:17,959] - Moved 1451.bug from [/home/haven/haven/lib/log/bugs/1451.bug] to [/home/haven/haven/lib/log/bugs/processed/1451.bug]
+DEBUG [2015-11-30 20:34:33,235] - Found 1 bug reports for processing in /home/haven/haven/lib/log/bugs.
+DEBUG [2015-11-30 20:34:33,235] - Parsing bug report: /home/haven/haven/lib/log/bugs/1452.bug
+DEBUG [2015-11-30 20:34:33,235] - Finished parsing 1452.bug: type [12] from [Melchezidek (jdhunneman@yahoo.com)]
+INFO [2015-11-30 20:34:33,591] - Created osTicket [000289] for bug [1452]
+DEBUG [2015-11-30 20:34:33,591] - Moved 1452.bug from [/home/haven/haven/lib/log/bugs/1452.bug] to [/home/haven/haven/lib/log/bugs/processed/1452.bug]
+ERROR [2016-01-09 12:46:18,571] - Could not submit ticket for 1460!
+ERROR [2016-01-09 12:46:18,672] - Could not submit ticket for 1462!
+ERROR [2016-01-09 12:46:18,737] - Could not submit ticket for 1461!
+ERROR [2016-01-09 12:49:12,011] - Failed to process file /home/haven/haven/lib/log/bugs/1460.bug: (global name 'e' is not defined)
+ERROR [2016-01-09 12:49:12,043] - Could not submit ticket for 1462! Exception: global name 'e' is not defined
+ERROR [2016-01-09 12:49:12,106] - Could not submit ticket for 1461! Exception: global name 'e' is not defined
+ERROR [2016-01-09 12:49:31,423] - Could not submit ticket for 1460! Exception: hostname 'osticket.creepyneighbor.net' doesn't match 'bugs.havenmud.com'
+ERROR [2016-01-09 12:49:31,456] - Could not submit ticket for 1462! Exception: hostname 'osticket.creepyneighbor.net' doesn't match 'bugs.havenmud.com'
+ERROR [2016-01-09 12:49:31,521] - Could not submit ticket for 1461! Exception: hostname 'osticket.creepyneighbor.net' doesn't match 'bugs.havenmud.com'
+INFO [2016-01-09 12:50:01,800] - Created osTicket [URL not supported] for bug [1460]
+INFO [2016-01-09 12:50:02,142] - Created osTicket [URL not supported] for bug [1462]
+INFO [2016-01-09 12:50:02,352] - Created osTicket [URL not supported] for bug [1461]
+INFO [2016-01-09 14:13:58,752] - Created osTicket [000297] for bug [1460]
+INFO [2016-01-09 14:13:59,366] - Created osTicket [000298] for bug [1462]
+INFO [2016-01-09 14:13:59,967] - Created osTicket [000299] for bug [1461]

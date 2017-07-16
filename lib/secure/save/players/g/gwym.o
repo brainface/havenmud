@@ -1,0 +1,143 @@
+#/secure/save/players/g/gwym.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Legendary Scourge of the Northern Sea (Keryth goden) (undead)"
+CapName "Gwym"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":2000,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/innersea/encounters/obj/eyepatch_silk\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":995,\"Poison\":0,])","([\"Value\":150,\"Mass\":230,\"Worn\":0,\"Class\":12,\"#base_name#\":\"/std/weapon/hack/hand-axe\",\"Broken\":0,\"DamagePoints\":544,\"Poison\":0,])","([\"Value\":0,\"Mass\":500,\"Worn\":0,\"#base_name#\":\"/domains/innersea/encounters/obj/parka\",\"Deterioration\":10,\"Broken\":0,\"DamagePoints\":7669,\"Poison\":0,])","([\"Value\":550,\"Mass\":150,\"Worn\":0,\"Class\":18,\"#base_name#\":\"/domains/tairi/areas/shrine/obj/necro_knife\",\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":60,\"Mass\":60,\"Worn\":0,\"#base_name#\":\"/domains/tairi/areas/shrine/obj/necro_hat\",\"Deterioration\":3,\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":108,\"Mass\":75,\"Worn\":0,\"#base_name#\":\"/domains/tairi/areas/shrine/obj/necro_robe\",\"Deterioration\":2,\"Broken\":0,\"DamagePoints\":494,\"Poison\":0,])","([\"Value\":1200,\"Mass\":180,\"Worn\":0,\"Class\":24,\"#base_name#\":\"/domains/tairi/towns/tairi/obj/katana\",\"Broken\":0,\"DamagePoints\":3965,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["sse":"sail east $*","la":"launch attack on $*","hu":"cast hunger $*","as":"cast acid splash $*","w":"go west","ar":"cast acid rain $*","u":"go up","lac":"launch attack on caravel $*","out":"go out","s":"go south","lab":"launch attack on boat $*","p":"who","oe":"oocemote $*","vb":"cast veil from beyond $*","n":"go north","l":"look $*","k":"kill $*","spells":"spells -c $*","ae":"ask elkanah to train $*","i":"inventory","ad":"cast animate dead on 1st corpse $*","ds":"cast drain soul $*","ab":"cast acid blast $*","e":"go east","dp":"cast disperse protections $*","d":"go down","nw":"go northwest","ns":"cast necromantic shield $*","sssw":"sail southwest $*","ka":"kill all","exa":"look at $*","..":"skills","...":"spells","ne":"go northeast","ssse":"sail southeast $*","cw":"cast wound $*","cv":"cast undying vitality $*","ga":"get all from 1st corpse $*","cs":"cast shroud $*","cm":"cast missile $*","ck":"cast cloud kill $*","gac":"get all from $* corpse","tr":"cast transmutation $*","cc":"cast curse $*","cb":"cast buffer $*",".":"status","ww":"cast will o' wisp $*","pp":"protections","ssnw":"sail northwest $*","bs":"cast bone shell $*","br":"cast blood rite $*","wi":"cast wither $*","we":"cast sense weakness $*","sw":"go southwest $*","lz":"cast locate zombie $*","sr":"shipreport $*","ssw":"sail west $*","ssne":"sail northeast $*","sss":"sail south $*","sk":"skin 1st corpse $*","ssn":"sail north $*","uns":"cast unshackle servant $*","se":"go southeast","sd":"cast skull of darkness $*","sc":"cast spirit call on 1st corpse $*","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({77,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 73342
+WhereBlock 0
+Brief 0
+LoginTime 1465829129
+BirthTime 1464717961
+Password "bnfkg`jc!lmglgggaenjc`ik``nj`led`nbbfjeak"
+Email "brknlf@gmail.com"
+RealName "Richie"
+Rank 0
+LoginSite "/domains/frostmarches/towns/keryth/room/cemetery"
+HostSite "wsip-174-78-68-177.om.om.cox.net"
+WebPage 0
+AdditionalId ({"zombie",})
+Ranks ({"citizen","Citizen","Captain",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 53
+Experience 0
+Skills (["multi-weapon":(["class":1,"level":108,]),"cloth armour":(["class":1,"level":107,]),"navigation":(["class":2,"level":54,]),"ice magic":(["class":2,"level":53,]),"combat rage":(["class":4,"level":27,]),"disarm":(["class":4,"level":0,]),"knife combat":(["class":2,"level":0,]),"mithril working":(["class":4,"level":0,]),"necromancy":(["class":1,"level":108,]),"swimming":(["class":2,"level":0,]),"bargaining":(["class":4,"level":9,]),"natural working":(["class":2,"level":0,]),"sailing":(["class":1,"level":107,]),"blunt combat":(["class":4,"level":0,]),"hack combat":(["class":1,"level":107,]),"evokation":(["class":2,"level":54,]),"reinforced armour":(["class":4,"level":0,]),"melee combat":(["class":2,"level":0,]),"stealth":(["class":1,"level":107,]),"slash combat":(["class":1,"level":108,]),"conjuring":(["class":1,"level":107,]),"natural armour":(["class":4,"level":0,]),"mining":(["class":4,"level":0,]),"disorient":(["class":4,"level":0,]),"fishing":(["class":2,"level":0,]),"leather armour":(["class":4,"level":0,]),"pole combat":(["class":2,"level":0,]),"skinning":(["class":2,"level":54,]),"leather working":(["class":2,"level":0,]),"farming":(["class":4,"level":2,]),"dodge":(["class":4,"level":27,]),"parry":(["class":4,"level":27,]),])
+Morality -1599
+CanMulti 1
+Class "reaver"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Soirin","Soirin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets ({0,0,})
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gwonish":8,"Gurov":-14,"Kresh":-4,"Malveillant":-122,"Lloryk":-16,"Tairi":-16,"Keryth":136,"Haven":68,"Soleil":-94,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 1
+UndeadType "zombie"
+HealthPoints 480
+MagicPoints 510
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1551
+Drink 1391
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 460.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":220,"class":2,"parent":"torso",]),"torso":(["armours":686080,"children":({"head","tail","left leg","right leg","right arm","left arm",}),"health":440,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":110,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":220,"class":2,"parent":"torso",]),"tail":(["armours":1048576,"children":({}),"health":150,"class":3,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":440,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":110,"class":4,"parent":"right arm",]),"left foot":(["armours":240,"children":({}),"health":110,"class":4,"parent":"left leg",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":220,"class":2,"parent":"torso",]),"left hand":(["armours":98318,"children":({}),"health":110,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":220,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({10,75,})
+Resistance (["low":64,"weakness":128,"immune":0,"none":65342,"high":0,"medium":0,])
+Stats (["agility":(["class":2,"points":0,"level":56,]),"wisdom":(["class":4,"points":0,"level":30,]),"coordination":(["class":1,"points":0,"level":65,]),"strength":(["class":3,"points":0,"level":41,]),"intelligence":(["class":4,"points":0,"level":46,]),"luck":(["class":3,"points":0,"level":37,]),"durability":(["class":3,"points":0,"level":41,]),"charisma":(["class":3,"points":0,"level":47,]),])
+Languages (["slith":(["native":0,"name":"Slith","points":215,"level":100,]),"imperial":(["native":0,"name":"Imperial","points":1000,"level":100,]),"enlan":(["native":0,"name":"Enlan","points":1000,"level":100,]),"uruk":(["native":0,"name":"Uruk","points":1000,"level":100,]),"avera":(["native":0,"name":"Avera","points":1000,"level":100,]),"gryshnak":(["native":0,"name":"Gryshnak","points":914,"level":100,]),"gurovian":(["native":0,"name":"Gurovian","points":1000,"level":100,]),"eetria":(["native":1,"name":"Eetria","points":760,"level":100,]),"tai":(["native":0,"name":"Tai","points":1000,"level":100,]),"runic":(["native":0,"name":"Runic","points":1000,"level":99,]),"eltherian":(["native":0,"name":"Eltherian","points":1000,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Keryth"
+Race "goden"
+Gender "male"
+Nationality "Keryth"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1465566307
+Currency (["senones":585194,"oros":1350,"imperials":6102,])
+Bank (["Sanctum Moneychanger":(["audit":"({ OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#201957), OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#201957), OBJ(/verbs/players/request), OBJ(gwym /secure/save/players/g/gwym) })","last time":1464798943,"open":1464798943,"imperials":5,"last trans":"opened account",]),"Tai MoneyChanger":(["audit":"({ OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#448500), OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#448500), OBJ(/verbs/players/request), OBJ(gwym /secure/save/players/g/gwym) })","last time":1465593877,"open":1465593877,"koken":10,"last trans":"opened account",]),"Keryth Bank":(["senones":7332382,"audit":"({ OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#434070), OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#434070), OBJ(/verbs/common/ask), OBJ(gwym /secure/save/players/g/gwym) })","last time":1465581064,"open":1464799026,"last trans":"deposit",]),"First Averath Bank":(["audit":"({ OBJ(orris /domains/averath/towns/averath/npc/teller#451548), OBJ(orris /domains/averath/towns/averath/npc/teller#451548), OBJ(/verbs/players/request), OBJ(gwym /secure/save/players/g/gwym) })","last time":1465596646,"open":1465596646,"ducats":5,"last trans":"opened account",]),])
+CraftingRecipes ({})
+SpellBook (["buffer":19,"missile":16,"hunger":100,"animate dead":49,"skull of darkness":8,"wither":45,"unshackle servant":14,"bone shell":100,"spirit call":100,"acid blast":100,"poison sphere":1,"will o' wisp":100,"fireball":1,"shroud":100,"sphere":1,"speak with dead":1,"acid splash":100,"drain soul":100,"disperse protections":35,"shock":1,"sense weakness":1,"curse":40,"cloud kill":100,"capsule":1,"necromantic shield":100,"ice ball":1,"wound":100,"veil from beyond":45,"undying vitality":93,"acid rain":100,"transmutation":100,"blood rite":45,"aura":1,"locate zombie":6,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Legendary Scourge of the Northern Sea","the Consecrated Defender of the Shrine","the Exorcist","the Eradicator of Outlaws","the Ronin Slayer","the Arboretum Visitor","the Island Explorer","the Old Sea Cat","the Northern Raider","the Viking Deckhand","the Reaving Wraith on the North Wind","the Silencer of Songs","the Superior Manipulator of Undeath","the Manipulator of Undeath","the Pirate Scourge","the Proficient Necromancer","the Student Necromancer of Keryth","of Keryth",})
+Story "Gwym was born to a sea faring captin, one of the Goden vikings that raided along the coast, all the way south to Baria and back.  His mother was a Soirin faithful and he followed in her foot steps.  Even as he practices his dark arts, the sea is calling his name, echoing his fathers footsteps in his heart as well."
+Surname 0
+ApprovedStory 1
+OOCName "Richie"
+Quests ({(/1464717981,"Newbie Book",/),(/1465402420,"Singers of Song",/),(/1465594019,"Ronin Camp",/),(/1465594052,"Cherry Blossom",/),(/1465594157,"Ronin Slayer",/),(/1465594226,"Ronin Leader",/),(/1465594364,"Purification Part 1",/),(/1465594700,"Purification Part 2",/),(/1465594874,"Purification Part 3",/),(/1465596821,"Care package Delivery",/),})
+Deaths ({(/1464883410,"bleeding",/),(/1465308556,"stag",/),(/1465311762,"shire guard",/),(/1465401449,"golem",/),(/1465417361,"air elemental",/),(/1465566307,"viking captain",/),(/1465566710,"drowning",/),(/1465596862,"aramis",/),(/1465831016,"drowning",/),})
+DevelopmentPoints 5
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 255
+LastLevel 1465588135
+HighestLevel 53
+LongDaemonData ({"brown","tabby","white","spotted",0,})
+PermanentProperties (["mission":"/std/missions/averath/averath_rodent_extermination","homedock":"averath",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

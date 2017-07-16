@@ -1,0 +1,20 @@
+Reported by: Alan (BrackDiesel@live.com)
+Time       : Thu Dec  9 21:59:01 2010
+Type       : runtime
+Location   : ^IS/~a/sheep/room/manor2
+*Bad argument 1 to living()
+Expected: object Got: 0.
+Object: /domains/islands/areas/sheep/room/manor2 at line 39
+
+'<function>' at /secure/save/players/a/alan (<function>) at /:0
+'cmdAll' at /secure/save/players/a/alan (/lib/users/player.c) at line 1005
+'cmdAll' at /secure/save/players/a/alan (/lib/livings/command.c) at line 44
+'do_search_obj' at /verbs/items/search at line 68
+'eventSearch' at /lib/common/dummy#390881 (/lib/verbs/search.c) at line 98
+'GetSearch' at /lib/common/dummy#390881 (/lib/verbs/search.c) at line 34
+'<function>' at /domains/islands/areas/sheep/room/manor2 (<function>) at /:0
+'SearchShelves' at /domains/islands/areas/sheep/room/manor2 at line 39
+
+
+Status     : NEW
+Bug        : In the manor on the island search books is bugging again.

@@ -1,0 +1,48 @@
+-------
+| D-? |
+-------
+
+LIB_DAEMON
+----------
+int eventDestruct()
+
+LIB_DETECT
+----------
+mixed eventDetect(object who, string str, int ability)
+
+LIB_DIGGING
+-----------
+mixed eventBury(object who, string what)
+varargs mixed eventDig(object who, string what)
+
+LIB_DIVE
+--------
+int SetDiveInto(int x)
+int GetDiveInto()
+mapping SetDive(mapping mp)
+mixed GetDive(string args)
+int eventDive(object who, string args)
+int eventExecuteDive(object who)
+
+LIB_DOOR
+--------
+mixed CanLock(object who, string id)
+mixed CanUnlock(object who, string id)
+varargs mixed eventClose(object who, string id)
+mixed eventLock(object who, string id, object key)
+varargs int eventOpen(object who, string id, object tool)
+int eventRegisterSide(string side)
+mixed eventUnlock(object who, string id, object key)
+void SetSide(string side, mapping mp)
+int SetLockable(string side, int x)
+int GetLockable(string side)
+varargs string *SetId(string side, mixed *args...)
+string *GetId(string side)
+mixed SetShort(string side, mixed short)
+varargs string GetShort(string side)
+mixed SetLong(string side, mixed long)
+string GetLong(string side)
+varargs string *SetKeys(string side, mixed *args...)
+string *GetKeys(string side)
+object *GetRooms(string side)
+

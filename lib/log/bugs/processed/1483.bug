@@ -1,0 +1,222 @@
+Reported by: Demandred (rln.taylor@gmail.com)
+Time       : Sat Jun  3 00:08:26 2017
+Type       : unexplained behaviour
+Location   : ^HW/~t/parva/room/docks1
+Status     : NEW
+Bug        : This is the platypus bay bug.  The following is a paste of my screen.
+--------------------------------------------------------------------------------------------------------------
+canoe              YT   96  XX  WD  XX  CO (At Sea)
+yacht              YT  100  XX  WD  XX  CO Haven
+> 
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+hp: 340/340   mp: 328/510   sp: 360/360 (blessed: 19)
+cast bless on Malitiae
+cast create food
+cast create food
+cast create food
+cast create food
+eat first bread
+eat first bread
+eat first bread
+eat first bread
+cast create water
+cast create water
+cast create water
+cast create water
+drink first water
+drink first water
+drink first water
+drink first water
+XP: 6538 Morality: -2500
+You cast again, hoping for better luck.
+You shout pleas in an ancient tongue to your god!
+hp: 340/340   mp: 296/510   sp: 360/360 (blessed: 18)
+cast create food
+cast create food
+cast create food
+cast create food
+eat first bread
+eat first bread
+eat first bread
+eat first bread
+cast create water
+cast create water
+cast create water
+cast create water
+drink first water
+drink first water
+drink first water
+drink first water
+XP: 6538 Morality: -2500
+You bless yourself.
+You have been blessed.
+> 
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You struggle with something on your sturdy pole.
+You receive 48 experience.
+You find a black seabass on a sturdy fishing pole!
+fish with pole
+You cast your sturdy pole and start fishing.
+> 
+You cast again, hoping for better luck.
+hp: 340/340   mp: 362/510   sp: 360/360 (blessed: 20)
+cast create food
+cast create food
+cast create food
+cast create food
+eat first bread
+eat first bread
+eat first bread
+eat first bread
+cast create water
+cast create water
+cast create water
+cast create water
+drink first water
+drink first water
+drink first water
+drink first water
+XP: 6586 Morality: -2500
+stop fishing
+You stop fishing.
+> save
+Your place in history has been recorded.
+> l
+Aboard a small wooden canoe [out]
+[south, north, east, southeast, west, southwest]
+The reddish waters of the Ruined Sea swirl around in chaotic fury, their motion that of waves on a mission.  The sea
+ends here along the southern shore of Kailie's northern continent.  Directly to the north is Platypus Bay.
+The air has a faint coppery smell.
+The air is quiet with few birds even chirping.
+It is warm with clear skies here.
+The bridge of the ship is clean and sparkles with newness. 
+There is a glowing crystal ball here.
+> sn
+Reality implosion!!!  Everyone duck!!!
+You are being forced to quit.
+Please come back another time!
+notify Malitiae logs out.
+You unwield a deadly-sharp knife.
+You remove a shadowy cloak.
+You remove a pair of old leather pants.
+You remove an old leather vest.
+You remove an old leather helmet.
+You remove an old leather glove.
+You remove an old leather glove.
+You remove a threadbare pair of shoes.
+You remove a threadbare pair of pants.
+--------------------------------------------------------------------------------------------------------------
+canoe              YT   96  XX  WD  XX  CO (At Sea)
+yacht              YT  100  XX  WD  XX  CO Haven
+> 
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+hp: 340/340   mp: 328/510   sp: 360/360 (blessed: 19)
+cast bless on Malitiae
+cast create food
+cast create food
+cast create food
+cast create food
+eat first bread
+eat first bread
+eat first bread
+eat first bread
+cast create water
+cast create water
+cast create water
+cast create water
+drink first water
+drink first water
+drink first water
+drink first water
+XP: 6538 Morality: -2500
+You cast again, hoping for better luck.
+You shout pleas in an ancient tongue to your god!
+hp: 340/340   mp: 296/510   sp: 360/360 (blessed: 18)
+cast create food
+cast create food
+cast create food
+cast create food
+eat first bread
+eat first bread
+eat first bread
+eat first bread
+cast create water
+cast create water
+cast create water
+cast create water
+drink first water
+drink first water
+drink first water
+drink first water
+XP: 6538 Morality: -2500
+You bless yourself.
+You have been blessed.
+> 
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You cast again, hoping for better luck.
+You struggle with something on your sturdy pole.
+You receive 48 experience.
+You find a black seabass on a sturdy fishing pole!
+fish with pole
+You cast your sturdy pole and start fishing.
+> 
+You cast again, hoping for better luck.
+hp: 340/340   mp: 362/510   sp: 360/360 (blessed: 20)
+cast create food
+cast create food
+cast create food
+cast create food
+eat first bread
+eat first bread
+eat first bread
+eat first bread
+cast create water
+cast create water
+cast create water
+cast create water
+drink first water
+drink first water
+drink first water
+drink first water
+XP: 6586 Morality: -2500
+stop fishing
+You stop fishing.
+> save
+Your place in history has been recorded.
+> l
+Aboard a small wooden canoe [out]
+[south, north, east, southeast, west, southwest]
+The reddish waters of the Ruined Sea swirl around in chaotic fury, their motion that of waves on a mission.  The sea
+ends here along the southern shore of Kailie's northern continent.  Directly to the north is Platypus Bay.
+The air has a faint coppery smell.
+The air is quiet with few birds even chirping.
+It is warm with clear skies here.
+The bridge of the ship is clean and sparkles with newness. 
+There is a glowing crystal ball here.
+> sn
+Reality implosion!!!  Everyone duck!!!
+You are being forced to quit.
+Please come back another time!
+notify Malitiae logs out.
+You unwield a deadly-sharp knife.
+You remove a shadowy cloak.
+You remove a pair of old leather pants.
+You remove an old leather vest.
+You remove an old leather helmet.
+You remove an old leather glove.
+You remove an old leather glove.
+You remove a threadbare pair of shoes.
+You remove a threadbare pair of pants.

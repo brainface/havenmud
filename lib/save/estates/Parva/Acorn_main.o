@@ -1,0 +1,19 @@
+#/domains/estates/virtual/main_estate.c
+AmbientLight 35
+NoClean 1
+InternalDesc "Some boots are in the corner and some jackets are hanging on the wall, other than that there is nothing in this room except a door to the north."
+Opacity 100
+ProperNoun 1
+Short "Acorns front porch"
+Items ([])
+Domain "Estates"
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1259182759
+Town "Parva"
+Saved ({"EOut","ELong","EShort","Owner",})
+ELong "Some boots are in the corner and some jackets are hanging on the wall, other than that there is nothing in this room except a door to the north."
+EShort "Acorns front porch"
+EOut "/domains/havenwood/towns/parva/room/path7"
+Owner "Acorn"

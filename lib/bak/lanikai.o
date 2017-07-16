@@ -1,0 +1,63 @@
+#/secure/save/immortals/l/lanikai.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Trickster"
+CapName "Lanikai"
+ExternalDesc "$N is nondescript."
+Invisible 3
+Items ([])
+Inventory ({"([\"Deterioration\":0,\"Mass\":0,\"DamagePoints\":1000,\"Poison\":0,\"Worn\":0,\"Value\":0,\"#base_name#\":\"/std/clothing/pants\",\"Broken\":0,])","([\"Deterioration\":0,\"Mass\":0,\"DamagePoints\":1000,\"Poison\":0,\"Worn\":0,\"Value\":0,\"#base_name#\":\"/std/clothing/shirt\",\"Broken\":0,])","([\"Deterioration\":0,\"Mass\":0,\"DamagePoints\":1000,\"Poison\":0,\"Worn\":0,\"Value\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Broken\":0,])",})
+Messages (["telout":"$N teleports away.","dest":"$N dests $O.","home":"$N goes home.","clone":"$N clones $O.","invis":"$N disappears.","telin":"$N teleports in.","vis":"$N appears.","come":"$N enters.","leave":"$N leaves $D.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory "/realms/lanikai"
+Nicknames ([])
+Aliases (["exa":"look at $*","u":"go up","i":"inventory","e":"go east","out":"go out",".":"status","n":"go north","p":"who","l":"look $*","nw":"go northwest","s":"go south","la":"look at $*","oe":"oocemote $*","k":"kill $*","...":"spells","d":"go down","sw":"go southwest","gac":"get all from $* corpse","se":"go southeast","pp":"protections","w":"go west","..":"skills","ne":"go northeast","ga":"get all $*","gcc":"get coins from $* corpse","ka":"kill all",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["isport":1,"intergossip":1,"ooc":0,"dc":1,"ds":1,])
+Screen ({78,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 636260
+WhereBlock 0
+Brief 0
+LoginTime 1252003620
+BirthTime 1245598896
+Password "ly3bdgKfnxdGU"
+Email "kairiikat@gmail.com"
+RealName "Lanikai"
+Rank 0
+LoginSite "/realms/lanikai/workroom"
+HostSite "c-76-23-97-197.hsd1.sc.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["news.announcements":1,"ooc":1,"news.imm":1,])
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({({1249617550,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Oh fine fine...hold on.%^RESET%^\"",}),({1249617561,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Just email me?%^RESET%^\"",}),({1249617568,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"I have gmail and all that, has chat.%^RESET%^\"",}),({1249617604,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Just forget it. Bottom line, you need to start thinking about towns for acrobats and titles. Multiple sets. For multiple towns.%^RESET%^\"",}),({1249617656,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Okies.%^RESET%^\"",}),({1249617755,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"*listens to mandalay again*.%^RESET%^\"",}),({1249617774,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Why does duuk have you trapped in his room?%^RESET%^\"",}),({1249617795,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"He lifted the shield.%^RESET%^\"",}),({1249617802,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"I think he was just being a brat.%^RESET%^\"",}),({1249618030,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Do you know how to make npc's yet?%^RESET%^\"",}),({1249618336,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"So where is that place?%^RESET%^\"",}),({1249618348,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Directory wise.%^RESET%^\"",}),({1249618525,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Valley? /domains/valley/areas/prasanna/ I believe.%^RESET%^\"",}),({1249863353,"%^BOLD%^RED%^You tell Melisande a Semjaza,%^RESET%^ \"What you up to?%^RESET%^\"",}),({1249863371,"%^BOLD%^RED%^Melisande tells you,%^RESET%^ \"Just minin', talkin to Conner and Robert on AIM, shit like that. You?%^RESET%^\"",}),({1250741880,"%^BOLD%^RED%^You tell Rein von Aachen,%^RESET%^ \"Kairii connection?%^RESET%^\"",}),({1250743947,"%^BOLD%^RED%^You tell Oortae Du'Tan,%^RESET%^ \"Checked chanhist and left...how social...%^RESET%^\"",}),({1250743994,"%^BOLD%^RED%^Oortae tells you,%^RESET%^ \"Well, she did say she was leaving a while ago.%^RESET%^\"",}),({1250744012,"%^BOLD%^RED%^You tell Oortae Du'Tan,%^RESET%^ \"*shrug*.%^RESET%^\"",}),({1250744050,"%^BOLD%^RED%^You tell Oortae Du'Tan,%^RESET%^ \"Whatevs.%^RESET%^\"",}),({1250744062,"%^BOLD%^RED%^Oortae tells you,%^RESET%^ \"Whatev, I do what I want. Pf-sha!%^RESET%^\"",}),({1250744084,"%^BOLD%^RED%^You tell Oortae Du'Tan,%^RESET%^ \"Yeah that too.%^RESET%^\"",}),({1251860148,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Sorry for kicking you out earlier.%^RESET%^\"",}),({1251875156,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Looks like it's working.%^RESET%^\"",}),({1251876291,"%^BOLD%^RED%^You tell Rein von Aachen,%^RESET%^ \"Stupid relationship related stuff. Not really ooc material.%^RESET%^\"",}),({1251876365,"%^BOLD%^RED%^Rein tells you,%^RESET%^ \"I can understand that.  Relationships are too much work for me.  Hope everything works out, at least in whatever way you would like.%^RESET%^\"",}),({1251876393,"%^BOLD%^RED%^You tell Rein von Aachen,%^RESET%^ \"It wont, thats already been made clear. Im just dealing with it now.%^RESET%^\"",}),({1251876449,"%^BOLD%^RED%^Rein tells you,%^RESET%^ \"We have all been there, so hang in, you will survive.%^RESET%^\"",}),({1251876487,"%^BOLD%^RED%^You tell Rein von Aachen,%^RESET%^ \"Yeah...just hate it.%^RESET%^\"",}),({1251876553,"%^BOLD%^RED%^Rein tells you,%^RESET%^ \"No one likes relationship issues, or breaking up, it is just one of those things about life I suppose.%^RESET%^\"",}),({1251876629,"%^BOLD%^RED%^You tell Rein von Aachen,%^RESET%^ \"Im just great at attracting bad situations I guess.%^RESET%^\"",}),({1251876693,"%^BOLD%^RED%^Rein tells you,%^RESET%^ \"Wish I had some more encouraging or helpful advice on that one, but I suck at relationships.%^RESET%^\"",}),({1251876701,"%^BOLD%^RED%^You tell Rein von Aachen,%^RESET%^ \"Its ok.%^RESET%^\"",}),({1251876761,"%^BOLD%^RED%^Rein tells you,%^RESET%^ \"At least you are dealing, a lot of people just live in denial.%^RESET%^\"",}),({1251876761,"%^BOLD%^RED%^Rein tells you,%^RESET%^ \"At least you are dealing, a lot of people just live in denial.%^RESET%^\"",}),({1251876845,"%^BOLD%^RED%^You tell Rein von Aachen,%^RESET%^ \"Im doing something, I guess dealing could describe it.%^RESET%^\"",}),({1251876919,"%^BOLD%^RED%^You tell Rein von Aachen,%^RESET%^ \"But for now, Im going to bed.%^RESET%^\"",}),({1251876921,"%^BOLD%^RED%^Rein tells you,%^RESET%^ \"Assuming the something you are doing is in some way productive to your emotional well being then yes, I describe it as dealing.%^RESET%^\"",}),({1251876949,"%^BOLD%^RED%^You tell Rein von Aachen,%^RESET%^ \"Bye Bye Reiny.%^RESET%^\"",}),({1251876959,"%^BOLD%^RED%^Rein tells you,%^RESET%^ \"Well, have a good night, and you will be alright.%^RESET%^\"",}),})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1245599415
+Position 2
+WhoInvis 0
+Angel 0
+Retired 0
+Sponsor "Illura"
+Religion ({"None",})
+ReligionTitle 0
+Department 0
+Domain "None"
+DomainTitle 0
+Sponsorees ({})
+Gender "female"
+Status 0

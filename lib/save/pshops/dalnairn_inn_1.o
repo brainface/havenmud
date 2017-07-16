@@ -1,0 +1,20 @@
+#/realms/torak/dalnairn/room/building/p_inn.c
+AmbientLight 40
+Opacity 100
+ShortSuffixes ([])
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1497323627
+Town "Dalnairn"
+Towns (["Grymxoria":"nosferatu","Wilderness":"elf","Heyam":"gnoll","Malveillant":"dark-elf","Argoth":"orc","Jidoor":"sprite","Haven":"elf","Baria":"human","the HavenWood":"gelfling","Ungkh":"ogre","Kresh":"goblin","Glimmerdin":"dwarf","Yozrath":"human","Lloryk":"halfling","Keryth":"human","Soleil":"muezzin",])
+Languages (["Grymxoria":"Blaodric","Wilderness":"Eltherian","Heyam":"Heyami","Malveillant":"Eltherian","Durgoroth":"Blaodric","Argoth":"Uruk","Jidoor":"Sprith","Haven":"Eltherian","Baria":"Barian","the HavenWood":"Eltherian","Ungkh":"Shangtai","Kresh":"Gobyshkin","Glimmerdin":"Runic","Yozrath":"Padashi","Lloryk":"Eltherian","Keryth":"Drakem","Soleil":"Oiseau",])
+Meat (["Strong":0,"Medium":0,"Weak":0,])
+MeatCost (["Strong":0,"Medium":0,"Weak":0,])
+SaleCost ([])
+ShopInfo (["CurrentBid":0,"CurrentBidder":"none","Name":"an unowned inn","Funds":0,"ShopId":"dalnairn_inn_1","Owner":"none","ShopLong":"This is a large, empty room that will someday make a fine shop of some kind. For now, it is undecorated.",])
+PayOut ([])
+Inv ([])
+SaleInv ([])
+Curr "shards"

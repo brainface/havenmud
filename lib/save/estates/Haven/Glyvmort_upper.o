@@ -1,0 +1,16 @@
+#/domains/estates/virtual/upper_estate.c
+AmbientLight 35
+InternalDesc "This room is obviously larger then the entire house seemed from the street. The only explanation is some sort of magical illusion or enchantment. The room is circular and all the walls are made of gray stone. The ceiling and floor are also of a dull gray. The only thing in this room, besides the bleak grayness, is an ominous large wooden chest set in the center."
+Opacity 100
+ProperNoun 1
+Short "A remarkably large room"
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1213151025
+Town "Haven"
+Saved ({"ELong","EShort","Owner",})
+ELong "This room is obviously larger then the entire house seemed from the street. The only explanation is some sort of magical illusion or enchantment. The room is circular and all the walls are made of gray stone. The ceiling and floor are also of a dull gray. The only thing in this room, besides the bleak grayness, is an ominous large wooden chest set in the center."
+EShort "A remarkably large room"
+Owner "Glyvmort"

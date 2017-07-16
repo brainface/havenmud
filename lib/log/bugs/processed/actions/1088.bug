@@ -1,0 +1,6 @@
+Reported by: Jack (bjorn.brown@yahoo.com)
+Time       : Thu Dec 22 21:42:52 2011
+Type       : unexplained behaviour
+Location   : ^GV/~v/gurovrd/5,0
+Status     : NEW
+Bug        : i can use a combat action on an NPC, leave the room and have the action resolve.

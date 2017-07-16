@@ -1,0 +1,31 @@
+Reported by: Fortunado (brainface_mike@yahoo.com)
+Time       : Fri Dec  3 15:11:01 2010
+Type       : sailly runtime
+Location   : /lib/special/vehicle#212891 @ ^IN/~v/ocean/-32,-451
+Status     : NEW
+Bug        : gogo
+gogo
+gogo
+another runtime at "sail north". Below is the tail /log/runtime. Apparently the merchant ship spawned and didn't like itself. Again, this doesn't happen every merchant ship spawn.
+Object: /domains/innersea/encounters/merchant/merchant#213403 (/lib/livings/command.c) at line 137
+
+'<function>' at /secure/save/players/f/fortunado (<function>) at /:0
+'cmdAll' at /secure/save/players/f/fortunado (/lib/users/player.c) at line 1005
+'cmdAll' at /secure/save/players/f/fortunado (/lib/livings/command.c) at line 44
+'can_sail_str' at /verbs/vehicles/sail at line 39
+'CanGo' at /domains/innersea/virtual/ocean/-32,-451 (/lib/rooms/exits.c) at line 31
+'compile_object' at /secure/daemon/master at line 311
+'compile_object' at /domains/innersea/virtual/server at line 16
+'create' at /domains/innersea/virtual/ocean at line 865
+'createShipEncounter' at /domains/innersea/virtual/ocean at line 902
+'eventGenerateEncounter' at /domains/innersea/virtual/ocean at line 881
+'eventMove' at /domains/innersea/encounters/merchant/merchant#213403 (/lib/npcs/basenpc.c) at line 322
+'eventCompleteMove' at /domains/innersea/encounters/merchant/merchant#213403 (/lib/npcs/basenpc.c) at line 252
+'eventForce' at /domains/innersea/encounters/merchant/merchant#213403 (/lib/livings/command.c) at line 137
+---
+*Array index out of bounds.
+Object: <none> (/lib/npcs/shipcaptain.c) at line 178
+
+'heart_beat' at <none> (/domains/innersea/encounters/merchant/merchant.c) at line 65
+'heart_beat' at <none> (/lib/npcs/shipcaptain.c) at line 350
+'eventDecidePath' at <none> (/lib/npcs/shipcaptain.c) at line 178

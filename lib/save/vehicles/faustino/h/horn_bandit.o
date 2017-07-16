@@ -1,0 +1,43 @@
+#/lib/special/vehicle.c
+Opacity 100
+DamagePoints 320000
+MaxDamagePoints 400000
+PreventGet ""
+DisableChance 50
+ProperNoun 1
+Short "the yacht Horn Bandit"
+CapName "Horn Bandit"
+ExternalDesc "This is the yacht Horn Bandit."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","SensorSuite","DriveSystem","VehicleSize","Owner","Captain","BridgeDescription","WeaponSystem","DamagedSystems","CurrentLocation","VehicleName","ShipStyle","Crystals","ShieldSystem","VId","VLong","VShort","Crew",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Keys ({})
+CanClose 1
+Messages (["come":"$N enters.","telin":"$N comes out of nowhere.","leave":"$N leaves $D.","telout":"$N goes into nowhere.",])
+VehicleName "Horn Bandit"
+CurrentLocation "/domains/innersea/virtual/ocean/23,14"
+BridgeDescription "The bridge of the ship is clean and sparkles with newness."
+Owner "faustino"
+ShipStyle "human"
+DriveSystem 2
+VehicleSize 2.000000
+Crystals 371
+hasAttacked ({})
+LastSave 1481304815
+DamagedSystems ({})
+VId ({"yacht","ship","ship6843","Horn Bandit",})
+VLong "This is the yacht Horn Bandit."
+VShort "the yacht Horn Bandit"
+ShipEnemies ({})
+UniqueVehicleId "ship7325"

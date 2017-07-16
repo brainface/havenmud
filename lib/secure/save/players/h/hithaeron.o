@@ -1,0 +1,143 @@
+#/secure/save/players/h/hithaeron.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Bringer of Tides (Parva half-elf)"
+CapName "Hithaeron"
+ExternalDesc "Hithaeron is a male half-elf standing almost six feet tall. He has green eyes and has black hair. His tanned body has an almond color. Hithaeron has slightly pointed ears with a tiny hint of almond shape to his eyes."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":2250,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":30,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2250,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":30,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2250,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":30,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":10000,\"Mass\":500,\"Worn\":({\"left arm\",\"left hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/lwallshield\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":2484,\"Poison\":0,])","([\"Value\":108,\"Mass\":100,\"Worn\":({\"torso\",\"right arm\",\"left arm\",\"right leg\",\"left leg\",}),\"#base_name#\":\"/domains/frostmarches/areas/ice/obj/icerobes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":390,\"Poison\":0,])","([\"Value\":135,\"Mass\":50,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/baria/areas/pyramid/obj/necklace\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":129,\"Poison\":0,])","([\"Value\":437,\"Mass\":100,\"Worn\":({\"left arm\",\"left hand\",}),\"#base_name#\":\"/domains/baria/areas/pyramid/obj/dragon_armlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":222,\"Poison\":0,])","([\"Value\":510,\"Mass\":100,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/baria/areas/pyramid/obj/dragon_sandals\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":22,\"Mass\":2,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/valley/areas/castle/obj/c_rg_og\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":117,\"Poison\":0,])","([\"Value\":25,\"Mass\":2,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/valley/areas/castle/obj/c_rg_og\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":117,\"Poison\":0,])","([\"Value\":28,\"Mass\":2,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/valley/areas/castle/obj/c_rg_og\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":124,\"Poison\":0,])","([\"Value\":10,\"Mass\":4,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/valley/areas/castle/obj/c_brclt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":77,\"Poison\":0,])","([\"Value\":28,\"Mass\":4,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/valley/areas/castle/obj/c_brclt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":6,\"Poison\":0,])","([\"Value\":0,\"Mass\":300,\"Worn\":({\"right hand\",}),\"Class\":25,\"#base_name#\":\"/domains/innersea/encounters/obj/belaying_pin\",\"Broken\":0,\"DamagePoints\":1571,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":175,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":792,\"Poison\":0,])","([\"Value\":45,\"Mass\":200,\"Worn\":0,\"Class\":6,\"#base_name#\":\"/domains/crystal_reaches/towns/glimmerdin/obj/shovel\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":1719,\"Mass\":300,\"Worn\":({\"torso\",}),\"#base_name#\":\"/domains/crystal_reaches/areas/rath_tower/obj/chain\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1079,\"Poison\":0,])","([\"Value\":8000,\"Mass\":400,\"Worn\":({\"right hand\",\"right arm\",}),\"#base_name#\":\"/domains/planes/obj/bracer\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":65,\"Poison\":0,])","([\"Value\":5000,\"Mass\":600,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/domains/planes/obj/breastplate\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":2604,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":122,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":670,\"Poison\":0,])","([\"Value\":0,\"Class\":10,\"Worn\":0,\"CatchChance\":99,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":10,\"PoleStrength\":4936,\"#base_name#\":\"/std/spells/obj/holy_pole\",\"DamagePoints\":817,])","([\"Value\":250,\"Mass\":100,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/domains/estergrym/areas/skaven/obj/leggreaves\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":114,\"Poison\":0,])","([\"Value\":150,\"Mass\":80,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/estergrym/areas/skaven/obj/helmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":537,\"Poison\":0,])","([\"Value\":2000,\"Mass\":20,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/innersea/encounters/obj/eyepatch_silk\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":674,\"Poison\":0,])","([\"Value\":100,\"Keys\":({}),\"CanLock\":0,\"Class\":1,\"Worn\":0,\"Broken\":0,\"LockStrength\":0,\"Poison\":0,\"Closed\":0,\"Mass\":1,\"Locked\":0,\"#base_name#\":\"/std/obj/storage/backpack\",\"CanClose\":1,\"DamagePoints\":700,])","([\"Value\":2250,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":30,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2250,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":30,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2250,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":30,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1875,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":25,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1875,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":25,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":500,\"Mass\":300,\"Worn\":0,\"Class\":20,\"#base_name#\":\"/domains/baria/areas/jungle/obj/ths\",\"Broken\":0,\"DamagePoints\":1925,\"Poison\":0,])","([\"Value\":400,\"Mass\":0,\"Worn\":0,\"Class\":16,\"#base_name#\":\"/domains/frostmarches/areas/lodge/obj/axe\",\"Broken\":0,\"DamagePoints\":742,\"Poison\":0,])","([\"Value\":1125,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"deer\",\"PeltLevel\":15,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1125,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"deer\",\"PeltLevel\":15,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1125,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"deer\",\"PeltLevel\":15,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1125,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"deer\",\"PeltLevel\":15,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1125,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"deer\",\"PeltLevel\":15,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1125,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"deer\",\"PeltLevel\":15,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2250,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":30,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2250,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":30,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":2250,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"cat\",\"PeltLevel\":30,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":500,\"Mass\":300,\"Worn\":0,\"Class\":20,\"#base_name#\":\"/domains/baria/areas/jungle/obj/ths\",\"Broken\":0,\"DamagePoints\":1887,\"Poison\":0,])","([\"Value\":700,\"Mass\":100,\"Worn\":0,\"#base_name#\":\"/domains/baria/areas/pyramid/obj/dragon_sandals\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":50,\"Mass\":25,\"Worn\":0,\"Class\":4,\"#base_name#\":\"/domains/baria/areas/pyramid/obj/mag_glass\",\"Broken\":0,\"DamagePoints\":75,\"Poison\":0,])","([\"Value\":100,\"Mass\":35,\"Worn\":0,\"#base_name#\":\"/domains/baria/areas/pyramid/obj/white_robe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":28,\"Poison\":0,])","([\"Value\":600,\"Mass\":100,\"Worn\":0,\"#base_name#\":\"/domains/baria/areas/pyramid/obj/dragon_armlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":230,\"Poison\":0,])","([\"Value\":200,\"Mass\":100,\"Worn\":0,\"#base_name#\":\"/domains/baria/areas/pyramid/obj/black_robe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":100,\"Mass\":150,\"Worn\":0,\"Class\":11,\"#base_name#\":\"/domains/baria/areas/pyramid/obj/mace\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":150,\"Mass\":50,\"Worn\":0,\"#base_name#\":\"/domains/baria/areas/pyramid/obj/necklace\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":200,\"Poison\":0,])","([\"Value\":0,\"Mass\":350,\"Worn\":0,\"Class\":16,\"#base_name#\":\"/domains/baria/areas/pyramid/obj/stone_sword\",\"Broken\":0,\"DamagePoints\":1106,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames (["sh":"sea hammer","ih":"Iron Hammer","im":"Iron Mace","mah":"Mahkefel",])
+Aliases (["sse":"sail southeast $*","ee":"sail east $*","la":"look at $*","hs":"cast heal ship on $*","mx":"ask magna to exchange $* to oros","nav":"navigate $*","gac":"get all from $* corpse","w":"go west","dmor":"cast divine morality on $*","u":"go up","out":"go out","tyb":"ask tylus to buy $*","s":"go south","oe":"oocemote $*","rv":"cast revive $*",".":"status","n":"go north","l":"look $*","hc":"cast holy celerity $*","spells":"spells -c -l $*","k":"kill $*","dmf":"cast detect magic fully on $*","cfor":"cast fortify on $*","ww":"sail west $*","i":"inventory","aa":"ask aeron to advance $*","e":"go east","rj":"cast rejuvenation $*","con":"consider $*","d":"go down","bw":"cast bless on $*","dm":"cast detect magic on $*","pp":"protections","uw":"cast unravel wards $*","wreg":"cast water of regeneration $*","nw":"go northwest","pm":"cast protective mists $*","llt":"launch attack on trireme $*","nnw":"sail northwest $*","lls":"launch attack on sloop $*","ka":"kill all","bm":"cast bless on me $*","exa":"look at $*","sw":"go southwest","nn":"sail north $*","..":"skills","ppack":"put $* in backpack","ss":"sail south $*","...":"spells","ssw":"sail southwest $*","ls":"cast lightning shield $*","cmb":"cast marine beacon $*","ne":"go northeast","llb":"launch attack on boat $*","nne":"sail northeast $*","ll":"launch attack on $*","sbb":"cast sea burial on ship $*","ga":"get all $*","se":"go southeast","sb":"cast sea burial on $* corpse","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({79,50,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 176144
+WhereBlock 0
+Brief 0
+LoginTime 1419270447
+BirthTime 1407584073
+Password "`ljlcjio!hafefiiaohdkgggncofnknchgbgbbdmg"
+Email "rharrison@student.bridgew.edu"
+RealName "Rich"
+Rank 0
+LoginSite "/domains/gurov/areas/taiga/room/15"
+HostSite "40.141.65.171"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen","Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 34
+Experience 112665
+Skills (["reinforced armour":(["class":2,"level":24,]),"metal working":(["class":4,"level":26,]),"cloth armour":(["class":2,"level":25,]),"navigation":(["class":2,"level":66,]),"chain armour":(["class":2,"level":25,]),"faith":(["class":1,"level":70,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":26,]),"fishing":(["class":4,"level":50,]),"healing":(["class":1,"level":62,]),"leather armour":(["class":2,"level":25,]),"wood working":(["class":4,"level":16,]),"skinning":(["class":4,"level":25,]),"weapon smithing":(["class":4,"level":26,]),"swimming":(["class":2,"level":66,]),"bargaining":(["class":2,"level":24,]),"leather working":(["class":4,"level":20,]),"natural working":(["class":4,"level":27,]),"textile working":(["class":4,"level":40,]),"farming":(["class":4,"level":0,]),"blunt combat":(["class":1,"level":70,]),"sailing":(["class":2,"level":70,]),"enchantment":(["class":1,"level":70,]),"poison magic":(["class":2,"level":0,]),])
+Morality -263
+CanMulti 1
+Class "cleric"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Damhair","Damhair",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Parva":116,"Haven":10,"Malveillant":-26,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 440
+MagicPoints 559
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 279
+Drink 318
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 1
+Cursed 0
+StaminaPoints 352.399933
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":100,]),"head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":400,]),"right leg":(["children":({}),"armours":525472,"parent":"torso","class":2,"health":200,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":100,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":200,]),"torso":(["children":({"head","right leg","left leg","left arm","right arm",}),"armours":751616,"parent":0,"class":1,"health":400,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":200,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":100,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":200,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":100,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({20,75,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":41,]),"wisdom":(["class":3,"points":0,"level":52,]),"coordination":(["class":3,"points":0,"level":39,]),"strength":(["class":3,"points":0,"level":46,]),"intelligence":(["class":2,"points":0,"level":47,]),"luck":(["class":4,"points":0,"level":28,]),"durability":(["class":3,"points":0,"level":39,]),"charisma":(["class":3,"points":0,"level":42,]),])
+Languages (["enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1411414685,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"That... sounds kind of like \"make sailing unneeded for damhair clerics\"...%^RESET%^\"",}),({1411414722,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Nope helps them get unstuck or when over their head in a sea battle.%^RESET%^\"",}),({1411414743,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Lots of MP and/or stamina.%^RESET%^\"",}),({1411414774,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Honestly... I'd rather make escape generically easier. ^_^.%^RESET%^\"",}),({1411414794,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"And I'm uncomfortable with \"spell that's like skill but better\", even if it has a high cost...%^RESET%^\"",}),({1411414816,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"What about summon wave to move enemy ship away.%^RESET%^\"",}),({1411414825,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"See, /that/ makes me giggle.%^RESET%^\"",}),({1411414847,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Similiar to fear but for ships.%^RESET%^\"",}),({1411414909,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"There's actually a courage (or agression) stat for ship captain ai, so it could literally be fear for ships, though that's not really a wave thing.%^RESET%^\"",}),({1411414958,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Then make it just to move the enemy ship away.%^RESET%^\"",}),({1411415038,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Yeah, maybe even \"damage enemy ship with chance to bump\".. though a reliable ship-bump might not necessarily be over the top anyways (as you're essentially losing xp).%^RESET%^\"",}),({1411415079,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Also i need to fix ship attack spells. >_<.%^RESET%^\"",}),({1411415099,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Sweet.%^RESET%^\"",}),({1417901242,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"What's up?%^RESET%^\"",}),({1417901277,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Since i have a little free time i was wondering if you need help as an imm.%^RESET%^\"",}),({1417901359,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"What duuk said :).%^RESET%^\"",}),})
+sphist ({})
+Town "Parva"
+Race "half-elf"
+Gender "male"
+Nationality "Parva"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1407584073
+Currency (["cuicui":39200,"crystals":1457,"oros":150800,"imperials":219521,])
+Bank (["Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#38030), OBJ(magna /domains/havenwood/towns/parva/npc/banker#38030), OBJ(/verbs/common/ask), OBJ(hithaeron /secure/save/players/h/hithaeron) })","oros":5,"last time":1410228740,"open":1410228635,"imperials":10000,"last trans":"deposit",]),])
+CraftingRecipes ({})
+SpellBook (["halt bleeding":5,"heal ship":100,"marine beacon":71,"discern killer":1,"remove paralysis":1,"bless":100,"touch":6,"protective mists":100,"cure blindness":1,"create water":96,"water of regeneration":11,"create light":100,"fortify":100,"create detox potion":1,"dispel poison":7,"sea burial":14,"lightning shield":100,"create shadows":1,"discern morality":6,"sanctify":1,"drain disease":11,"watery touch":100,"unravel wards":15,"blessing of damhair":7,"holy celerity":97,"rejuvenation":48,"detect magic":48,"divine whisper":1,"create food":67,"divine morality":6,"detect magic fully":60,"turn undead":3,"regenerate limb":1,"revive":100,"mend":18,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Bringer of Tides","the Organ Carrier","the Liberator of Sheep","the Rider of the Waves","the Initiate of Sabotage","the Bandit Slayer","the Platypus Skinner","the Haven Town Runner","the Vacationer","the Equipped","the Explorer","the Haven Tourist","the Newly Drowned","of Parva",})
+Story "I was born to Elaine of Parva. My mother never told me about my father. When I was five, my mother became very ill and died later that year. My mother's employer took me into his house and made me work for him to pay off my mother's debts. I hated working for Minkin because he treated me like shit. A few days after I turned fifteen, I could not stomach his verbal bashings so I confronted Minkin. He told me I was lucky to be alive because of him. He told that I owed him everything. He saved my mother after pirates raided Parva. Those pirates raped her and left her for dead. After hearing this, I ran out the inn and swore never to return. Weeks later, while I was returning from chopping wood for the Parva Hospital, pirates attacked Parva. Using one the pieces of wood as a weapon, I attacked one of the pirates. I did not stand a chance. The pirate stabbed me in the chest and left me for dead. I woke several months later in the Parva Hospital. The first thing I saw was this man whose eyes seem to hold all the secrets hidden beneath the ocean's waves. \"The Master of Storms does not want you to leave this place just yet.” A year later when I was fully healed, I went to seek the solemn priest who talked about the Master of Storms. A few days after my seventeenth year of life, Aeron, High Priest of Damhair, sent for me. He told me that I have a heavy burden weighing me down. He told me do not hold on to the hatred that made me, but use it to punish those that pervert the seas in the name of the Drowned God."
+Surname 0
+ApprovedStory 1
+OOCName "Rick"
+Quests ({(/1407584115,"Newbie Book",/),(/1407598941,"Haven Tour",/),(/1407598976,"Bandit Camp",/),(/1407599036,"Leather Emporium",/),(/1407599168,"Platypus Bay",/),(/1407604601,"Message Courier",/),(/1407619983,"Platypus Skinner",/),(/1407674278,"Bandit Slayer",/),(/1410135770,"Sabotage pt 1",/),(/1410563819,"Treasure Hunting pt 1",/),(/1410647342,"Explored Grove",/),(/1411868478,"Liberated Elban Isle",/),(/1414340921,"Organ Delivery",/),})
+Deaths ({(/1414242879,"drowning",/),})
+DevelopmentPoints 73
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 242
+LastLevel 1418867964
+HighestLevel 34
+LongDaemonData ({"green","black","almond","tanned","slightly pointed ears with a tiny hint of almond shape to $POS eyes.",})
+PermanentProperties (["homedock":"parva","status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

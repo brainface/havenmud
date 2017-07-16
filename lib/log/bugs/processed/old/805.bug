@@ -1,0 +1,19 @@
+Reported by: Borsch (bjorn.brown@yahoo.com)
+Time       : Wed Jul 20 20:36:42 2011
+Type       : idea
+Location   : ^EG/~a/fwoods/room/forest4
+Status     : NEW
+Bug        : spell
+ 
+religion aberach
+ 
+faith 300
+evokation 300
+necro 300
+ 
+Call Zombie
+ 
+cast call zombie on $*
+ 
+using the darkest recesses of power, this spell allows the aberach faithful
+to teleport target undead player to the priest's location

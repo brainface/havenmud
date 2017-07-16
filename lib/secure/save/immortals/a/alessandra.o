@@ -1,0 +1,65 @@
+#/secure/save/immortals/a/alessandra.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Princess of Darkness"
+CapName "Alessandra"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/obj/coffeebeans\",\"MealType\":10,\"Broken\":0,\"Short\":\"a handful of unground coffee beans\",\"Long\":\"A few dozen dark coffee beans, with a fragrant aroma.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1000,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/obj/deck\",\"Broken\":0,\"DamagePoints\":500,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":8,\"MealStrength\":15,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/obj/coffeebeans\",\"MealType\":10,\"Broken\":0,\"Short\":\"a handful of unground coffee beans\",\"Long\":\"A few dozen dark coffee beans, with a fragrant aroma.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1000,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/obj/deck\",\"Broken\":0,\"DamagePoints\":500,\"Poison\":0,])","([\"Value\":10,\"Class\":1,\"Worn\":0,\"Broken\":0,\"Poison\":0,\"suit\":\"scales\",\"Mass\":5,\"desc\":\"A set of scales with two pans.\",\"cardValue\":2,\"#base_name#\":\"/std/obj/card\",\"DamagePoints\":0,])","([\"Value\":10,\"Class\":1,\"Worn\":0,\"Broken\":0,\"Poison\":0,\"suit\":\"roses\",\"Mass\":5,\"desc\":\"Four pairs of black roses entwined.\",\"cardValue\":8,\"#base_name#\":\"/std/obj/card\",\"DamagePoints\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N hides.","home":"$N goes home.","dest":"$N twinkles her nose and $O disappears with a loud POP!","come":"$N enters.","clone":"$O appears from thin air as $N snaps her fingers.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory "/domains/estergrym/areas/vampire/npc"
+Nicknames (["mahk":"mahkefel","mel":"Melchezidek",])
+Aliases (["la":"look at $*","nw":"go northwest","chi":"chanhist imm $*","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","cha":"chanhist meta $*","out":"go out","..":"skills","s":"go south","...":"spells","oe":"oocemote $*","p":"who",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","cho":"chanhist ooc $*","gcc":"get coins from $* corpse","pp":"people $*","chm":"chanhist muse $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["error":0,"ibsg":1,"meta":0,"iurl":1,"debug":1,"dc":1,"isport":1,"souls":0,"fs":0,"intergossip":1,"imm":0,"time":0,"spam":1,"ds":1,"ooc":0,"shipreports":0,"intercre":1,])
+Screen ({167,49,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 48347864
+WhereBlock 0
+Brief 0
+LoginTime 1500063682
+BirthTime 1250210056
+Password "egonchbo!kiockmd`j`dogaajo`film`mbbbiiaio"
+Email "verymaudlin@gmail.com"
+RealName "Allison"
+Rank 0
+LoginSite "/domains/estergrym/areas/vampire/room/gypsycamp"
+HostSite "mail.tpcaz.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({(/1391974584,1391974975,"Torak","/realms/mahkefel/workroom",/),(/1382514651,1382571761,"Torak","/realms/alessandra/workroom",/),(/1382514457,0,"Torak","/realms/alessandra/workroom",/),})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.announcements":1,])
+NewServerLogin 1
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({({1497293603,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Let it go man.. It's old.. It's for some reason stressing you and there's no point.. because it's old. He's not coding here.. If he comes back to code he has to go through QC.. you don't know if it WAS him pretending to be you and even if he did.. it's not the first or last time someone is going to be shady on the internet.. It's OLD. No one is judging you on him.. NO ONE. I don't know why you would let him get to you.. A) after this length of time and B) ever? Let it go.. and maybe some stresshives will go with it.%^RESET%^\"",}),({1497293619,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"K.%^RESET%^\"",}),({1497294003,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"I'm serious.. rando internet dude not worth it.. and you going off because \"IDK\" \"he logged in again recently\" doesn't gain you favor? Doesn't make anyone stop and think long and hard about Urien and what he wanted to do here 4 years ago. I'm not trying to give you grief here.. honestly.. but like I already work ina  hostile environment.. and if I have to log into haven to see hatespeeches about OLDNEWS I'm probs just gonna have to stop loggin here.. I'm not saying your opinions and thoughts don't matter? I'm saying this SHOULD be a dead horse.. and I feel like letting it go would make you feel better? Spewing negativity perpetuates negativity.. that's all. <3.%^RESET%^\"",}),({1497294169,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"..%^RESET%^\"",}),({1497294195,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"So it is an issue.%^RESET%^\"",}),({1497294214,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"And thats why you and mike are hiding with imm and ooc off.%^RESET%^\"",}),({1497294217,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"B/c oif me.%^RESET%^\"",}),({1497372344,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"<3.%^RESET%^\"",}),({1497373581,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"*snuggle*.%^RESET%^\"",}),({1497674483,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"<3.%^RESET%^\"",}),({1497674489,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"<3.%^RESET%^\"",}),({1497675134,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"<3.%^RESET%^\"",}),({1497679006,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"<3.%^RESET%^\"",}),({1497679137,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \":*.%^RESET%^\"",}),({1497679628,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"<3<3<3.%^RESET%^\"",}),({1497679639,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Love you!%^RESET%^\"",}),({1497679648,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Sleep well <3 <3 <3.%^RESET%^\"",}),({1497679670,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Did I do it?%^RESET%^\"",}),({1497887598,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"<3.%^RESET%^\"",}),({1497888540,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Sorry.%^RESET%^\"",}),({1497889105,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \":*.%^RESET%^\"",}),({1497976751,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Verymaudlin.%^RESET%^\"",}),({1497976773,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Well that didn't work.%^RESET%^\"",}),({1497977257,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Verymaudlin@gmail.com / At0MicAD35*.%^RESET%^\"",}),({1497977387,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Not worried about it.  You do a great job :D.%^RESET%^\"",}),({1497977418,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Just if I.%^RESET%^\"",}),({1497977426,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Just if Im not around/not responding.. that way there are two capable people.%^RESET%^\"",}),({1498427657,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"Err in a minute.. I just came in to log out of bdo.. and a witch outfit is going on sale in like 4 minutes.. I need to stay and buy it :P.%^RESET%^\"",}),({1498427859,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"(i should probs go downstairs ^^).%^RESET%^\"",}),({1498427934,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Especially because hatebeast is getting hatier.%^RESET%^\"",}),({1498430759,"%^BOLD%^RED%^You tell Mahkefel,%^RESET%^ \"What you make.%^RESET%^\"",}),({1498430965,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Oh haaiiii.%^RESET%^\"",}),({1498430972,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"I made smoochie noises.%^RESET%^\"",}),({1498430975,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"At your faceeee.%^RESET%^\"",}),({1498842322,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Ark shit is saved.. SE server is cancelled as of the 5th.%^RESET%^\"",}),({1498843209,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Awesome.%^RESET%^\"",}),({1498843277,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Literally 19 hours until mine would have renewed.%^RESET%^\"",}),({1499460205,"%^BOLD%^RED%^You tell Eugenie,%^RESET%^ \"Sorry it's busy :/ and terrible like a monday.%^RESET%^\"",}),({1499460230,"%^BOLD%^RED%^Eugenie tells you,%^RESET%^ \"Thats a terrible friday babe :/.%^RESET%^\"",}),({1499460469,"%^BOLD%^RED%^Eugenie tells you,%^RESET%^ \"<3 <3 <3.%^RESET%^\"",}),})
+sphist ({({1382564819,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ no rush",}),({1382564822,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ nogs.",}),({1382564835,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ I have a million other things I'm ignoring that are higher up on the list",}),({1382564882,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ nods.",}),({1382564896,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ im making fishing poles.  so NOT high on the list :P",}),({1382564920,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ yeah but you actually have put in an area way more recently than I have.",}),({1382564950,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ In fact I have no areas I've made in :P just updates to towns/the world",}),({1382564973,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ ouch",}),({1382564986,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ I am a slacker :/",}),({1382564995,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ most of my areas died cause balishae",}),({1382565090,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ we won't talk about that outloud :P No one needs a reason to get promoted before me",}),({1382565098,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ right right",}),({1382565120,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ see, we needed to get hitched",}),({1382565123,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ snickers.",}),({1382565126,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ this line is great",}),({1382565134,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ except snoop",}),({1382565137,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ oh right",}),({1382565141,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ well",}),({1382565143,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ oh well",}),({1382565854,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ omfg im never typing that command again",}),({1382565862,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ ?",}),({1382565866,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ udspell",}),({1382565877,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ thought he was updating the spell daemon",}),({1382565885,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ no help for it.. what did it do?",}),({1382565890,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ sees lines and lines of destroying object and spell names",}),({1382565896,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ the spells are al still there tho",}),({1382565914,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ huh.. prolly was actually just updating",}),({1382565920,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ nod",}),({1382565925,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ yeah, still scary",}),({1382565947,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ Destroying object /std/spells/*/*.c basically",}),({1382565963,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ yeah that would freak me out",}),({1382566102,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ how does one update the spells daemon?  so spellhelp religion damhair shows the spell i just added?",}),({1382566132,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ is it so simple as to update /daemon/spells.c?",}),({1382566255,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ it was that easy",}),({1382566686,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ yeah that's the only way I've updated stuff in the daemon",}),({1382566704,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ swears there's a command",}),({1382571432,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ FIRST",}),({1382571452,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ :P",}),({1382571513,"Torak %^BOLD%^MAGENTA%^<spouse>%^RESET%^ btw, i quoted your funny statement about how it was hysterically creepy, propping up duuk and john, etc",}),({1382571525,"Alessandra %^BOLD%^MAGENTA%^<spouse>%^RESET%^ heh",}),})
+CreatorAge 0
+CreatorBirth 1250210074
+Position 2
+WhoInvis 0
+Angel 0
+Retired 0
+Sponsor "Duuk"
+Religion ({"Soirin",})
+ReligionTitle 0
+Department 0
+Domain "Havenwood"
+DomainTitle 0
+Sponsorees ({"Mahkefel",})
+Gender "female"
+Status 0

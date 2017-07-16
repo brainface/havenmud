@@ -1,0 +1,24 @@
+Reported by: Alan (BrackDiesel@live.com)
+Time       : Fri Dec  3 01:20:43 2010
+Type       : runtime
+Location   : /lib/special/vehicle#107227 @ ^IN/~v/ocean/66,-1
+**Illegal to call parse_sentence() recursively.
+Object: /domains/innersea/encounters/fisher/fisher#208101 (/lib/livings/command.c) at line 137
+
+'<function>' at /secure/save/players/a/alan (<function>) at /:0
+'cmdAll' at /secure/save/players/a/alan (/lib/users/player.c) at line 1005
+'cmdAll' at /secure/save/players/a/alan (/lib/livings/command.c) at line 44
+'can_sail_str' at /verbs/vehicles/sail at line 39
+'CanGo' at /domains/innersea/virtual/ocean/67,-1 (/lib/rooms/exits.c) at line 31
+'compile_object' at /secure/daemon/master at line 311
+'compile_object' at /domains/innersea/virtual/server at line 16
+'create' at /domains/innersea/virtual/ocean#208097 at line 865
+'createShipEncounter' at /domains/innersea/virtual/ocean#208097 at line 902
+'eventGenerateEncounter' at /domains/innersea/virtual/ocean#208097 at line 881
+'eventMove' at /domains/innersea/encounters/fisher/fisher#208101 (/lib/npcs/basenpc.c) at line 322
+'eventCompleteMove' at /domains/innersea/encounters/fisher/fisher#208101 (/lib/npcs/basenpc.c) at line 252
+'eventForce' at /domains/innersea/encounters/fisher/fisher#208101 (/lib/livings/command.c) at line 137
+
+
+Status     : NEW
+Bug        : sailing west near Haven, cannot give exact coordinates

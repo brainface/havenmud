@@ -1,0 +1,7 @@
+Reported by: Marroc (rharrison@student.bridgew.edu)
+Time       : Thu Oct  2 19:59:29 2014
+Type       : unexplained behaviour
+Location   : ^CR/~t/lloryk/room/mausoleum
+Status     : NEW
+Bug        : after dying, i thought all boosts that was casted on player would reset.  
+Clarification: Rick says planars persist. I'm just sticking this here so there can be discussion because I don't know if this is intentional or should be changed. - Aless

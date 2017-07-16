@@ -1,0 +1,28 @@
+#/domains/peninsula/rome/obj/tylus_storage.c
+Opacity 100
+MaxDamagePoints 20000
+PreventGet "Tylus' box is nailed firmed to the floor."
+DisableChance 50
+Short "a large storage box"
+CapName "Box"
+ExternalDesc "This is a large, durable storage box. It is owned by Tylus."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Deterioration","Closed","Locked","Keys","LockStrength","CanClose","CanLock","BoxInventory",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+Hands 1
+WeaponType "blunt"
+Closed 1
+Keys ({})
+Locked 1
+LockStrength 500
+CanClose 1
+CanLock 1
+BoxInventory ({})
+BoxID "tylus_storage"

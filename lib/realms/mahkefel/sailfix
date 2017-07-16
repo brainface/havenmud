@@ -1,0 +1,142 @@
+// args d and l not used  -- From /lib/items/deterioration.c
+
+/// OKay: i am fuckign this right up
+// Two goals: prevent fishing boats from giving notable xp (because there's no risk)
+// enable conjuring ship attack spells to function unbuggily
+
+// ePilot is going to be: a ship captain shooting me, or a conjurer spelling me
+
+// changing skill rewards from shooter sailing skill to target sailing skill--
+//   this prevents getting large amoutns of riskless xp and also works with 
+//   conjurer attack spells
+
+varargs int eventReceiveDamage(object agent, int type, int amt, int d, mixed array l) {
+    object *crew = all_inventory();
+    int critical = random(1000000 + 25000);
+    int reward = 5;
+    object ePilot, myPilot, *eCrew;
+    
+    if (agent) {
+      if (agent->GetPilot()){
+        ePilot = agent->GetPilot();
+      } else if (agent->GetRace()) {
+          ePilot = agent;
+      }
+    }
+
+    crew = filter(crew, (: living :) );
+    //      if (ePilot) debug("Pilot: " + ePilot->GetShort());
+    //      if (ePilot && ePilot->GetTestChar()) debug("amt: " + amt + " crit: " + critical + " diff: " + (amt-critical));
+    if (agent && sizeof(crew)) {
+      crew->eventPrint("%^YELLOW%^The ship is under attack!%^RESET%^");
+      foreach(object person in crew) {
+        if (person->GetSleeping()) {
+          person->SetSleeping(0);
+          person->eventPrint("You wake up!");
+        }
+      }
+    }
+    if (GetShieldSystem() && !GetDamagedSystem("shield")) {
+        crew->eventPrint("The shields deflect some damage.");
+      amt -= (GetShieldSystem() * 7500);
+      if (!random(20)) {
+        crew->eventPrint("%^BOLD%^RED%^The shields collapse!%^RESET%^");
+        AddDamagedSystem("shield");
+        if (agent) {
+          agent->eventPrint("%^RED%^BOLD%^*You have damaged the shields on your target!*%^RESET%^");
+          ePilot->AddExperience(ePilot->GetSkillLevel("sailing") * 1000);
+          }
+        }
+      }
+    if (amt <= 0) return 1;
+    AddDamagePoints(-amt);
+    crew->eventPrint("%^YELLOW%^The ship has suffered damage!%^RESET%^");
+    if (critical < (amt)) {
+        switch(random(4)) {
+                case 0:
+                  if (!DriveSystem || GetDamagedSystem("sails")) break;
+                  crew->eventPrint("The sails have been damaged!");
+                  AddDamagedSystem("sails");
+                  if (agent) {
+                        agent->eventPrint("%^RED%^BOLD%^*You have damaged the sails on your target!*%^RESET%^");
+                        if(GetPilot()) ePilot->AddExperience(GetPilot()->GetSkillLevel("sailing") * 1000);
+                        }
+                  break;
+                case 1:
+                  if (!SensorSuite || GetDamagedSystem("navigation")) break;
+                  crew->eventPrint("The navigation has been damaged!");
+                  AddDamagedSystem("navigation");
+                  if (agent) {
+                        agent->eventPrint("%^RED%^BOLD%^*You have damaged the navigation equipment on your target!*%^RESET%^");
+                        if(GetPilot()) ePilot->AddExperience(GetPilot->GetSkillLevel("sailing") * 1000);
+                        }
+                  break;
+                case 2:
+                  if (!WeaponSystem || GetDamagedSystem("weapon")) break;
+                  crew->eventPrint("The weapons have been damaged!");
+                  AddDamagedSystem("weapon");
+                  if (agent) {
+                        agent->eventPrint("%^RED%^BOLD%^*You have damaged the weapons on your target!*%^RESET%^");
+                        if(GetPilot()) ePilot->AddExperience(GetPilot->GetSkillLevel("sailing") * 1000);
+                        }
+                  break;
+                case 3:
+                  if (!ShieldSystem  || GetDamagedSystem("shield")) break;
+                  crew->eventPrint("The shield generator is damaged!");
+                  AddDamagedSystem("shield");
+                  if (agent) {
+                        if(GetPilot()) ePilot->AddExperience(GetPilot->GetSkillLevel("sailing") * 1000);
+                        agent->eventPrint("%^RED%^BOLD%^*You have damaged the shields on your target!*%^RESET%^");
+                        }
+                  break;
+                }
+        }
+    if( GetDamagePoints() < 1 ) {
+      crew->eventPrint("%^BOLD%^RED%^The ship has been DESTROYED!%^RESET%^");
+      ShipEnemies->eventEnemyDied(this_object());
+      CHAT_D->eventSendChannel("Ship Died", "shipreports", capitalize(GetName()) + " has been destroyed.");
+      if (agent) {
+        foreach(object sunk in crew) {
+          ePilot->AddReputation(sunk->GetTown(), -2);
+          if(GetPilot()) ePilot->AddExperience(GetPilot->GetSkillLevel("sailing") * 1000);
+        }
+      }
+      if (environment()) {
+       crew->eventMove(environment());
+       crew->AddParalyzed(3);
+       crew->eventPrint("You are stunned as the ship sinks below the waves!");
+      } else {
+        crew->eventDie(agent);
+      }
+      set_heart_beat(0);
+
+      environment()->eventPrint(capitalize(GetShort()) + " sinks beneath the waves.");
+    //  if (agent)
+      if (userp(ePilot = agent->GetPilot())) {
+        //reward = GetVehicleSize() + GetPrizeBonus();
+        eCrew  = agent->GetCrewMembers();
+        eCrew->eventPrint("Sacking " + GetShort() + " yields " + 
+          (reward = random((GetVehicleSize() + GetPrizeBonus()) * 1000) * 2) + 
+          " imperials worth of loot!");
+        eCrew->eventPrint("Your share is divided by a total of " + sizeof(eCrew) + " crew members.");
+        foreach(object c in eCrew) {
+         c->AddCurrency("imperials", reward/sizeof(eCrew));
+        }
+        if (random(1000) < (GetVehicleSize() + GetPrizeBonus())) {
+                eCrew = distinct_array(eCrew);
+                eCrew->eventPrint("You have been rewarded with 1 development point!");
+                eCrew->AddDevelopmentPoints(1);
+                foreach(object woot in eCrew) {
+                  CHAT_D->eventSendChannel("Reward", "ooc", capitalize(woot->GetKeyName()) + " got 1 dp for sinking " + GetShort());
+          }
+        }
+      }
+      DeleteVehicle();
+      eventDestruct();
+      return 1;
+    }
+    SaveVehicle();
+    return GetDamagePoints();
+}
+
+

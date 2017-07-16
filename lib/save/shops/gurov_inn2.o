@@ -1,0 +1,73 @@
+#/domains/gurov/towns/gurov/npc/lucinda.c
+ProperNoun 1
+Short "Lucinda, the Server at the Nubile Noble"
+CapName "Lucinda"
+ExternalDesc "Lucinda is a woman of some means. She tends the Nubile Noble and keeps tabs on the locals who lounge here. Her friendly demeanor makes her a pleasant woman and one willing to sell a way to relax."
+Items ([])
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+Nicknames ([])
+Aliases (["nw":"go northwest","la":"look at $*","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","out":"go out","..":"skills","s":"go south","oe":"oocemote $*",".":"status","n":"go north","l":"look $*","ne":"go northeast","i":"inventory","e":"go east","se":"go southeast","d":"go down",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({78,24,})
+Level 15
+Skills (["reinforced armour":(["class":4,"level":34,]),"melee defense":(["class":1,"level":34,]),"multi-weapon":(["class":4,"level":34,]),"cloth armour":(["class":4,"level":34,]),"melee combat":(["class":4,"level":34,]),"stealth":(["class":1,"level":34,]),"melee attack":(["class":1,"level":34,]),"accuracy":(["class":4,"level":34,]),"lockpicking":(["class":2,"level":34,]),"slash combat":(["class":4,"level":34,]),"disarm":(["class":4,"level":34,]),"knife combat":(["class":1,"level":34,]),"pierce combat":(["class":2,"level":34,]),"projectile combat":(["class":2,"level":34,]),"stealing":(["class":1,"level":34,]),"disorient":(["class":4,"level":34,]),"fishing":(["class":4,"level":34,]),"leather armour":(["class":4,"level":34,]),"swimming":(["class":4,"level":34,]),"bargaining":(["class":2,"level":34,]),"leather working":(["class":4,"level":34,]),"dodge":(["class":1,"level":34,]),])
+Morality 100
+CanMulti 1
+Class "rogue"
+SkillModifiers ([])
+Religion ({"agnostic","agnostic",})
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets ({})
+Position 2
+HealthPoints 450
+MagicPoints 50
+Food 2432
+Drink 2432
+StaminaPoints 450.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":210,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":410,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":110,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":210,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":410,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":110,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":210,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":110,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":110,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":210,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+CustomStats 15
+LightSensitivity ({25,75,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":32766,])
+Stats (["agility":(["class":3,"points":0,"level":40,]),"wisdom":(["class":3,"points":0,"level":40,]),"coordination":(["class":3,"points":0,"level":40,]),"luck":(["class":3,"points":0,"level":40,]),"strength":(["class":3,"points":0,"level":40,]),"intelligence":(["class":3,"points":0,"level":40,]),"durability":(["class":3,"points":0,"level":40,]),"charisma":(["class":3,"points":0,"level":40,]),])
+Languages (["gurovian":(["native":1,"name":"Gurovian","points":0,"level":100,]),"enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),])
+SaveRecurse 1
+Saved ({"CarriedMass","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","tellhist","sphist",})
+tellhist ({})
+sphist ({})
+Town "Averath"
+Race "human"
+Gender "female"
+Size 16
+CombatStyles ([])
+Wimpy 0.000000
+WimpyCmd "go out"
+Cooldowns ([])
+Currency ([])
+Bank ([])
+SpellBook ([])
+SongBook ([])
+isPK 1
+EnemyNames ({})
+Owner ""
+FirstCommands ({})
+CommandResponses ([])
+EmoteResponses ([])
+RequestResponses ([])
+TalkResponses ([])
+WanderPath ({})
+ShopFunds 302704
+LocalCurrency "rubles"
+ShopID "gurov_inn2"
+Beverages ({"/domains/gurov/towns/gurov/obj/inn2/cigar.c",})
+BeverageDir "/domains/gurov/towns/gurov/obj/inn2/"
+Prices ([])

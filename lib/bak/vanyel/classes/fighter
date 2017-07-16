@@ -1,0 +1,18 @@
+fighter
+barbarian:gladiator
+rogue:assassin
+merchant:caravaner
+cleric:monk
+enchanter:sorcerer
+slash attack:0:1
+hack attack:0:1
+multi-weapon:0:1
+slash defense:0:1
+melee attack:0:2
+melee defense:0:2
+blunt attack:0:3
+hack defense:0:3
+fishing:0:4
+multi-hand:0:4
+knife defense:0:4
+blunt defense:0:4

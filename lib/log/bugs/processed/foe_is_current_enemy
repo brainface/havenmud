@@ -1,0 +1,18 @@
+Reported by: Futvin (merman.frenzy@gmail.com)
+Time       : Mon Aug 11 19:38:17 2014
+Type       : idea
+Location   : ^CR/~t/glimmerdin/room/gh_central
+Status     : NEW
+Bug        : First the Problem:  My problem is that I often play haven on a phone, or tablet.  This makes typing rather difficult.  Infact, playing magic users is right out.  Also, I have kids and sometimes have to chase them for a few minutes, and really need a character that can take care of him/her self.
+I would prefer a way to do some very light in game scriping.  Magic is fantastical, but the UI is extremely difficult from the phone.
+However(!?), I could manage, if you could make this one change:
+Could you make so 'a foe' is replaced with a random person that you currently in combat with?  E.g.
+
+You are currently in combat with two,three,ten different and various things.  Perhaps started with a `ka`.
+I know the spells missle and curse, and can use reave. (dont ask)
+
+With 'a foe' I could `cast missle at a foe`, `cast curse at a foe` and `reave a fow`.  Depending on how you code it, you could also `l at a foe` and `kick a foe`.
+
+The reason this would be helpful is because I could make do `alias cmi cast missle at a foe` and from my phone, in one try, I could type cmi!!.
+
+Please consider, and DRINK! DRINK! DRINK! to be in the same state while reading!

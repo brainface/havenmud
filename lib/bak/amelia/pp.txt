@@ -1,0 +1,13 @@
+  array NoOkay = ({ "ed","home","move","goto","trans","clone","duc","dest",
+"update","call","eval","force","assume","cd","rm",
+"cp","mkdir" });
+  foreach(string str in NoOkay) {
+add_action(str, (: Blocked :) );
+  }
+
+
+int Blocked() {
+  if(securep(this_player())) return 0;
+  if(this_player()->GetKeyName()=="Laoise") return 0;
+  return 1;
+}

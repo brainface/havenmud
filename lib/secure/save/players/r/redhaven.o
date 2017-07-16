@@ -1,0 +1,142 @@
+#/secure/save/players/r/redhaven.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Creature of Nightmares (Durgoroth daemon)"
+CapName "Redhaven"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["cbj":"cast create blood jar $*","sse":"sail southeast $*","lb":"cast lunar blast $*","la":"look at $*","ed":"command effigy to disorient $*","sle":"cast summon lesser effigy $*","ung":"cast unholy guardian $*","out":"go out","hell":"cast hellfire $*","rs":"repair ship $*","dw":"drink a water $*","dr":"cast dark reaping on a corpse $*","con":"consider $*","dp":"cast disperse protections $*","sailing":"ask ahzrikh to advance sailing $*","cvd":"cast create voodoo doll $*","ra":"repair amulet $*","kc":"ask ahzrikh to advance knife combat $*","pro":"protections $*","ka":"kill all","dc":"drink from channel $*","exa":"look at $*","db":"cast dark burial on a corpse $*","..":"skills","cha":"cast corrupt weapon on hand-axe $*","cac":"cast corrupt weapon on a claws $*","...":"spells","amfr":"ask purlad to exchange all money for rupies $*","rfq":"ask rumpel for quest $*","bliz":"cast blizzard $*","rfj":"ask runner for job $*","amfi":"ask ilian to exchange all money for imperials $*","wac":"ask balishae to withdraw all crystals $*","cus":"climb up stairwell $*","cw":"cast corrupt weapon $*","asm":"ask ahzrikh to advance armour smithing $*","tod":"cast touch of death $*","amfc":"ask balishae to exchange all money for crystals $*","cs":"cast corrupt weapon on blue sword $*","cr":"ask ahzrikh to advance combat rage $*","nav":"ask ahzrikh to advance navigation $*","ch":"chanhist ooc $*","nat":"ask ahzrikh to advance natural magic $*","tnw":"travel northwest $*","cb":"cast cause bleeding $*","ca":"ask ahzrikh to advance cloth armour $*","bless":"cast bless on $*","evok":"ask ahzrikh to advance evokation $*","rep":"reputation $*","pw":"peer west $*","pu":"cast purify $*","ctt":"cast corrupt weapon on third talon $*","rsa":"repair sails $*","bw":"cast corrpt weapon on a blue sword $*","pp":"protections","po":"cast pious obstructions $*","tne":"travel northeast $*","pn":"peer north $*","swarm":"cast swarm $*","kaf":"kill a fighter $*","cft":"cast corrupt weapon on 1st talon $*","bs":"cast corrupt weapon on a blue sword $*","pm":"ask ahzrikh to advance poison magic $*","br":"cast blood rite $*","kac":"kill a citizen $*","flutter":"emote flutters his wings noisily. $*","bl":"cast bless $*","pe":"peer east $*","bf":"cast banefire $*","bc":"ask ahzrikh to advance blunt combat $*","bb":"ask borxtl to buy $*","skinning":"ask ahzrikh to advance skinning $*","eaf":"eat a fish $*","lea":"ask ahzrikh to advance leather working $*","eac":"eat a corpse $*","bal":"ask balishae for balance $*","cst":"cast corrupt weapon on 2nd talon $*","ht":"highscore towns $*","hs":"cast holy shield $*","z":"command zombie to $*","y":"ask ahzrikh to advance fishing $*","x":"ask xructl to sell daemon torsos $*","as":"ask ahzrikh to teach all spells $*","hp":"highscore players $*","w":"go west","saw":"sail west $*","vh":"cast vermin horde $*","v":"ask borxtl to buy $*","hm":"cast corrupt weapon on a hammer $*","u":"go up","poz":"cast pious obstructions on zombie $*","t":"tend wounds on me $*","s":"go south","egr":"command effigy to guard redhaven $*","pow":"cast pious obstructions on a wolf $*","wlw":"wear a tabard on left wing $*","r":"repair $*","q":"quote $*","faith":"ask ahzrikh to advance faith $*","p":"drink from pool $*","oe":"oocemote $*","pot":"extinguish torch $*","hf":"cast holy fury $*","egn":"command effigy to go north $*","n":"go north","por":"cast pious obstructions on runner $*","m":"ask ahzrikh to advance multi-weapon $*","csc":"cast corrupt weapon on 2nd claws $*","sof":"cast shield of faith $*","l":"look $*","k":"kill $*","af":"cast aegis of the faithful $*","hc":"highscore classes $*","hb":"cast harm body $*","j":"go east $*","tsw":"travel southwest $*","i":"inventory","ad":"cast animate dead $*","h":"go west $*","g":"ask acoma to buy skin $*","egg":"command effigy to guard runner $*","f":"drink from fountain $*","e":"go east","sae":"sail east $*","tex":"ask ahzrikh to advance textile working $*","d":"go down","wlh":"wear a horseshoe on left hoof $*","c":"fish with pole $*","sac":"skin a corpse $*","b":"ask borxtl to buy skin $*","poe":"cast pious obstructions on effigy $*","uv":"cast undying vitality $*","hehr":"emote chuckles out, \"%^RED%^Heh Heh Heh%^RESET%^\". $*","stretch":"emote spreads his wings and stretches. $*","nw":"go northwest","poa":"cast pious obstructions on alan $*","nv":"cast natural veil $*","crt":"cast corrupt weapon on fourth talon $*","up":"cast unholy power $*","tse":"travel southeast $*","melee":"ask ahzrikh to advance melee combat $*","snw":"sail northwest $*","multi":"ask ahzrikh to advance multi-weapon $*","gr":"get all from a redhaven $*","cds":"climb down stairwell $*","gm":"get moneys $*","ug":"cast unholy growth $*","wrw":"wear a tabard on right wing $*","efr":"command effigy to follow redhaven $*","ne":"go northeast","pur":"cast purify $*","nc":"cast natural charge $*","gc":"get corpses $*","sne":"sail northeast $*","ga":"get all $*","wrh":"wear a horseshoe on right hoof $*","eff":"command effigy to $*","tw":"travel west $*","tt":"ask ahzrikh to advance textile working $*","mw":"ask ahzrikh to advance mithril working $*","gac":"get all from $* corpse","mv":"cast maddening visions $*","ts":"travel south $*","fw":"cast fire whirl $*","barg":"ask ahzrikh to advance bargaining $*","cloth":"ask ahzrikh to advance cloth armour $*","tn":"travel north $*","tm":"cast transmutation $*",".":"status","dac":"ask balishae to deposit all crystals $*","te":"travel east $*","ta":"cast tangle $*","esg":"command effigy to stop guarding $*","uoe":"cast unholy power on effigy $*","uah":"use a horn to heal redhaven $*","sw":"go southwest","ble":"cast banish lesser effigy on a effigy $*","st":"cast soul taint $*","necro":"ask ahzrikh to advance necromancy $*","ss":"sail south $*","ssw":"sail southwest $*","crack":"emote stretches his back which results in a resounding %^YELLOW%^crack%^RESET%^. $*","lt":"light a torch $*","ls":"cast lightning storm $*","lr":"lead effigy $*","et":"eat a torso $*","sn":"sail north $*","lvl":"ask ahzrikh to advance level $*","cwh":"cast corrupt weapon on hammer $*","se":"go southeast","dodge":"ask ahzrikh to advance dodge $*","sc":"cast spirit call on a corpse $*","sa":"cast summon animal $*","":"go southeast $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ooc":0,"notify":0,])
+Screen ({121,12,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 1588263
+WhereBlock 0
+Brief 1
+LoginTime 1369164657
+BirthTime 1317962283
+Password "ibngakoh!`iehoneoillf`hcgbkhnm`e``lijekaj"
+Email "roy.pda@gmail.com"
+RealName "Roy"
+Rank 0
+LoginSite "/domains/frostmarches/towns/durgoroth/room/start"
+HostSite "70.44.92.241.res-cmts.sm.ptd.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 132
+Experience 4920
+Skills (["multi-weapon":(["class":1,"level":262,]),"cloth armour":(["class":2,"level":77,]),"melee combat":(["class":1,"level":262,]),"navigation":(["class":4,"level":47,]),"combat rage":(["class":3,"level":100,]),"knife combat":(["class":4,"level":48,]),"mithril working":(["class":4,"level":39,]),"faith":(["class":1,"level":266,]),"necromancy":(["class":1,"level":263,]),"armour smithing":(["class":4,"level":42,]),"natural magic":(["class":1,"level":261,]),"fishing":(["class":4,"level":83,]),"skinning":(["class":1,"level":250,]),"weapon smithing":(["class":4,"level":31,]),"leather working":(["class":2,"level":49,]),"textile working":(["class":2,"level":50,]),"dodge":(["class":3,"level":100,]),"blunt combat":(["class":3,"level":37,]),"sailing":(["class":4,"level":91,]),"poison magic":(["class":2,"level":76,]),"evokation":(["class":1,"level":265,]),])
+Morality -1575
+CanMulti 1
+Class "shaman"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Saahagoth","Saahagoth",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gwonish":57,"Parva":-6,"Gurov":-2,"Malveillant":1000,"Durgoroth":314,"Havenwood":-2,"Haven":-1000,"Sanctum":-8,"Baria":-42,"Dalnairn":-6,"Karak":-32,"Kresh":-4,"Lisht":-2,"Glimmerdin":5,"Lloryk":-78,"Keryth":-6,"Arcanith":-2,"Soleil":-1000,])
+OpposingFactions (["Gwonish":"Lloryk","Lloryk":"Gwonish","Karak":"Glimmerdin","Haven":"Malveillant","Malveillant":"Haven","Glimmerdin":"Karak",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 1420
+MagicPoints 730
+Bleeding 0
+Alcohol 0
+Caffeine 21383
+Food 1424
+Drink 1076
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 1380.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right leg":(["children":({"right hoof",}),"armours":525472,"parent":"torso","class":2,"health":690,]),"head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":1380,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":3,"health":460,]),"right hoof":(["children":({}),"armours":192,"parent":"right leg","class":3,"health":460,]),"torso":(["children":({"head","right leg","left leg","left arm","right arm","right wing","left wing",}),"armours":751616,"parent":0,"class":1,"health":1380,]),"left leg":(["children":({"left hoof",}),"armours":525472,"parent":"torso","class":2,"health":690,]),"left hoof":(["children":({}),"armours":192,"parent":"left leg","class":3,"health":460,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":3,"health":460,]),"right wing":(["children":({}),"armours":2097152,"parent":"torso","class":3,"health":460,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":3,"health":460,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":3,"health":460,]),"left wing":(["children":({}),"armours":2097152,"parent":"torso","class":3,"health":460,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({5,70,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65406,"high":0,"medium":128,])
+Stats (["wisdom":(["class":5,"points":0,"level":68,]),"agility":(["class":3,"points":0,"level":63,]),"coordination":(["class":3,"points":0,"level":69,]),"luck":(["class":3,"points":0,"level":74,]),"intelligence":(["class":3,"points":0,"level":71,]),"strength":(["class":2,"points":0,"level":92,]),"durability":(["class":2,"points":0,"level":96,]),"charisma":(["class":4,"points":0,"level":47,]),])
+Languages (["draconian":(["native":0,"name":"Draconian","points":1000,"level":6,]),"barian":(["native":0,"name":"Barian","points":1000,"level":100,]),"uruk":(["native":0,"name":"Uruk","points":1000,"level":100,]),"sprith":(["native":0,"name":"Sprith","points":1000,"level":100,]),"rehshai":(["native":0,"name":"Rehshai","points":1000,"level":8,]),"eltherian":(["native":0,"name":"Eltherian","points":1000,"level":100,]),"naklu":(["native":0,"name":"Naklu","points":1000,"level":52,]),"imperial":(["native":0,"name":"Imperial","points":1000,"level":100,]),"enlan":(["native":0,"name":"Enlan","points":1000,"level":100,]),"skavish":(["native":0,"name":"Skavish","points":1000,"level":100,]),"archaic":(["native":0,"name":"Archaic","points":1000,"level":100,]),"gryshnak":(["native":1,"name":"Gryshnak","points":0,"level":100,]),"gurovian":(["native":0,"name":"Gurovian","points":1000,"level":100,]),"tai":(["native":0,"name":"Tai","points":1000,"level":100,]),"runic":(["native":0,"name":"Runic","points":1000,"level":3,]),"blaodric":(["native":0,"name":"Blaodric","points":1000,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1352175481,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Yeah.%^RESET%^\"",}),({1352175481,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"That'll fuck up the parser a bit yeah.%^RESET%^\"",}),({1352175495,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Okay, lets do it this way.%^RESET%^\"",}),({1352175496,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"I got the name, 'me' banned.%^RESET%^\"",}),({1352175514,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Try to make a character named Tassadar.%^RESET%^\"",}),({1352175539,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Cant.%^RESET%^\"",}),({1352175547,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"I forget who got it banned?%^RESET%^\"",}),({1352175575,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"But like, yeah.  im seeing in this balance issue some areas no longer being newbie areas.%^RESET%^\"",}),({1352175576,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Wait one.%^RESET%^\"",}),({1352176558,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Sorry guy I was afk.%^RESET%^\"",}),({1352176567,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Tassadar was mine.%^RESET%^\"",}),({1352176586,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"That issue with the \"newbie areas no longer being newbie areas\" is a GOOD thing.%^RESET%^\"",}),({1352176591,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"We need mortal areas.%^RESET%^\"",}),({1352176607,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Newbie is EASY as fuck to get through, so they really only need 1-2 areas to level with.%^RESET%^\"",}),({1352176615,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Per town.%^RESET%^\"",}),({1352176616,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"And each town has their signature newbie areas.%^RESET%^\"",}),({1352176620,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Right.%^RESET%^\"",}),({1352176626,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Any more is useless.%^RESET%^\"",}),({1352176630,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"So I don't think that'll really make a problem.%^RESET%^\"",}),({1352176639,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Cause we NEEDED them back in 1999.%^RESET%^\"",}),({1352176644,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Right.%^RESET%^\"",}),({1352176648,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Now its like, lol, 5 minutes, level 10.%^RESET%^\"",}),({1352176653,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"New mechanic, == new game.%^RESET%^\"",}),({1352176661,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"For US, remember that.%^RESET%^\"",}),({1352176669,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"'newbie' == real newbie.%^RESET%^\"",}),({1352176669,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"But ima bout to go afk.%^RESET%^\"",}),({1352176686,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Email me thoughts, ideas, etc.%^RESET%^\"",}),({1352176696,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Going to bed?%^RESET%^\"",}),({1352176697,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"I do want to go through all areas.%^RESET%^\"",}),({1352176698,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"No.%^RESET%^\"",}),({1352176715,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"<arnold voice> i will be back.%^RESET%^\"",}),({1352176726,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Well. I think we need to start by comparing areas with their set levels and set classes.%^RESET%^\"",}),({1352178283,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"I'm back.%^RESET%^\"",}),({1352269754,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Spelhelp dark reaping.%^RESET%^\"",}),({1352269978,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"That spell is hot.%^RESET%^\"",}),({1352269982,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Yeah.%^RESET%^\"",}),({1352269993,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"So shamans can corpse heal sp, mp AND hp.%^RESET%^\"",}),({1352269998,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Tada.%^RESET%^\"",}),({1352269998,"%^BOLD%^RED%^You tell Torak,%^RESET%^ \"Yup.%^RESET%^\"",}),({1352776167,"%^BOLD%^RED%^Torak tells you,%^RESET%^ \"Come up to heaven and meat my zombie penguin.%^RESET%^\"",}),})
+sphist ({})
+Town "Durgoroth"
+Race "daemon"
+Gender "male"
+Nationality "Durgoroth"
+Size 32
+CombatStyle 0
+CombatStyles ([])
+Wimpy 10
+WimpyCmd "go east"
+LastWimpy 1353418377
+Currency (["rounds":179,"crystals":125,"imperials":247,])
+Bank (["The Bank of Malveillant":(["audit":"({ OBJ(karin /domains/havenwood/towns/malveillant/npc/karin#490660), OBJ(karin /domains/havenwood/towns/malveillant/npc/karin#490660), OBJ(/verbs/common/ask), OBJ(redhaven /secure/save/players/r/redhaven) })","last time":1336527782,"open":1336527782,"last trans":"opened account","roni":5,]),"Tai MoneyChanger":(["audit":"({ OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#348863), OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#348863), OBJ(/verbs/common/ask), OBJ(redhaven /secure/save/players/r/redhaven) })","last time":1324243974,"open":1324243974,"last trans":"opened account","koken":10,]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#316497), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#316497), OBJ(/verbs/common/ask), OBJ(redhaven /secure/save/players/r/redhaven) })","crystals":2,"last time":1322905733,"open":1319901352,"imperials":2,"last trans":"withdrawal",]),"the Barian Jungle Bank":(["audit":"({ OBJ(pakal /domains/baria/towns/baria/npc/pakal#57633), OBJ(pakal /domains/baria/towns/baria/npc/pakal#57633), OBJ(/verbs/common/ask), OBJ(redhaven /secure/save/players/r/redhaven) })","chits":5,"last time":1326182622,"open":1326182622,"last trans":"opened account",]),"Yozrath Trust":(["audit":"({ OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#168559), OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#168559), OBJ(/verbs/common/ask), OBJ(redhaven /secure/save/players/r/redhaven) })","dinar":5,"last time":1335327606,"open":1335327606,"last trans":"opened account",]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#491134), OBJ(magna /domains/havenwood/towns/parva/npc/banker#491134), OBJ(/verbs/common/ask), OBJ(redhaven /secure/save/players/r/redhaven) })","last time":1336528406,"oros":5,"open":1336528406,"last trans":"opened account",]),"Karak Bank":(["audit":"({ OBJ(ouphe /domains/crystal_reaches/towns/karak/npc/teller#40368), OBJ(ouphe /domains/crystal_reaches/towns/karak/npc/teller#40368), OBJ(/verbs/common/ask), OBJ(redhaven /secure/save/players/r/redhaven) })","orcteef":5,"last time":1351229353,"open":1351229353,"last trans":"opened account",]),"Bank of Lisht":(["audit":"({ OBJ(sahure /domains/xandria/towns/lisht/npc/sahure#385522), OBJ(sahure /domains/xandria/towns/lisht/npc/sahure#385522), OBJ(/verbs/common/ask), OBJ(redhaven /secure/save/players/r/redhaven) })","deben":5,"last time":1335666985,"open":1335666985,"last trans":"opened account",]),"Jidoor Bank":(["audit":"({ OBJ(purlad /domains/valley/towns/jidoor/npc/purlad#631254), OBJ(purlad /domains/valley/towns/jidoor/npc/purlad#631254), OBJ(/verbs/common/ask), OBJ(redhaven /secure/save/players/r/redhaven) })","rupies":5,"last time":1318715639,"open":1318715639,"last trans":"opened account",]),"Durgoroth Bank":(["audit":"({ OBJ(balishae /domains/frostmarches/towns/durgoroth/npc/banker#38282), OBJ(balishae /domains/frostmarches/towns/durgoroth/npc/banker#38282), OBJ(/verbs/common/ask), OBJ(redhaven /secure/save/players/r/redhaven) })","crystals":0,"last time":1335748053,"open":1318019859,"last trans":"withdrawal",]),])
+CraftingRecipes ({})
+SpellBook (["mend bones":1,"plume":1,"create blood jar":100,"flaming arrow":1,"animate dead":27,"asphyxiation":1,"purify":100,"soul taint":100,"dark burial":100,"skull of darkness":1,"stitch flesh":1,"natural veil":5,"maddening visions":100,"blizzard":100,"choking shadows":1,"summon lesser effigy":100,"terra":1,"divine retribution":100,"heat":1,"holy shield":23,"lunar blast":100,"curse":1,"ennervate":20,"thicken skin":1,"holy fury":100,"undying vitality":59,"unholy guardian":80,"barkskin":1,"protect":35,"create voodoo doll":2,"cause bleeding":100,"touch of death":100,"harm body":100,"turn undead":1,"preserve":1,"unholy power":100,"water wall":1,"wall of souls":19,"aegis of the faithful":100,"sting":1,"fire whirl":100,"snakebite":1,"pain touch":1,"chill touch":1,"bless":100,"natural charge":100,"summon animal":100,"banefire":75,"dark reaping":19,"spirit call":100,"vermin horde":100,"jolt":100,"shield of faith":50,"lightning storm":100,"corrupt weapon":100,"ice storm":4,"unholy growth":40,"speak with dead":1,"banish lesser effigy":35,"burning hand":1,"swarm":100,"disperse protections":98,"tangle":86,"sense weakness":15,"wind wall":9,"leeches":1,"barrier of faith":100,"condense air":1,"pious obstructions":100,"vine wall":1,"hellfire":100,"reveal soul":42,"transmutation":100,"blood rite":100,"freeze":1,"shockwave":1,"wall of wood":100,"locate zombie":5,"spook":4,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Creature of Nightmares","the Vacationer","the Explorer","the Long-Lived Disciple of Chaos","the Glimmerdin Tourist","the Havenroad Bandit","the Mage Slayer","the Silencer of Songs","the Butcher of Kailie","the Distant Traveller","the Reposessor","the Guardian of the Old Cemetery","the Forager","the Blueberry Picker","the Runner","the Consecrated Defender of the Shrine","the Ransacker of the Mage Tower","the Caravan Guard","the Enlightened Climber","the Rodent Exterminator","the Entropic Abomination","the Hand of Taigis","the Destroyer of Hope","the Raider of the Keep","the Centaur Hunter","the Organ Carrier","of Durgoroth","the Tomb Raider","the Ferry Rider","the Crypt Keeper","the Crystal Courier","the Exorcist","the Eradicator of Outlaws","the Ronin Slayer","the Arboretum Visitor","the Island Explorer","the Bandit Slayer","the Envoy of Haven Town","the Haven Town Messenger","the Haven Town Courier","the Haven Town Runner","the Tower Toppler","the Vampire Hunter","the Zombie Slayer","the Thief of Wings","the Bird Watcher","the Pathetic",})
+Story "While not very wise, Redhaven has brought forth upon this world a terror beyond measure. He has limited intelligence but is a very quick study, he surprised his elders when they learned that he had the gift of magic, though not much else. He treads the world leaving death and decay in his wake, a scourge upon the world with no ties execpt those of blood to his brethren. No life is precious, no one is loved, only feared or eate."
+Surname "Deathstrider"
+ApprovedStory 1
+OOCName "Roy"
+Quests ({(/1317962304,"Newbie Book",/),(/1318026768,"Explored Grove",/),(/1318547524,"Bird Watcher",/),(/1318548094,"Bird Thief",/),(/1318548169,"Tower Assault 1",/),(/1318548325,"Tower Assault 2",/),(/1318548526,"Tower Assault 3",/),(/1318549687,"Bandit Camp",/),(/1318549720,"Platypus Bay",/),(/1318549771,"Message Courier",/),(/1318549825,"Message Courier pt 2",/),(/1318549930,"Message Courier pt 3",/),(/1318550563,"Message Courier pt 4",/),(/1318550692,"Bandit Slayer",/),(/1318550935,"Bandit Leader",/),(/1318780813,"Ronin Camp",/),(/1318780834,"Cherry Blossom",/),(/1318780993,"Ronin Slayer",/),(/1318781116,"Ronin Leader",/),(/1318781272,"Purification Part 1",/),(/1318782898,"Purification Part 2",/),(/1318791907,"Purification Part 3",/),(/1319398517,"Reposession",/),(/1319398767,"Crystal Ball Delivery",/),(/1319398855,"Graveyard Cleanup",/),(/1319398923,"Crypt Keeper",/),(/1319403110,"Averath Ferry",/),(/1319403238,"Tomb Raider",/),(/1319405348,"Organ Delivery",/),(/1319406234,"Centaur Hunting",/),(/1319406322,"Raider of the Keep pt 1",/),(/1319406390,"Raider of the Keep pt 2",/),(/1319437300,"Care package Delivery",/),(/1319437372,"Rodent Extermination",/),(/1322258866,"Mount Shatadru",/),(/1322889837,"Dwarf Merchant",/),(/1322900618,"Haven Mage Tower",/),(/1323497293,"Barian Merchant",/),(/1326853648,"Treasure Hunting pt 1",/),(/1326854622,"Rabbit Food",/),(/1326855026,"Blueberry Picker",/),(/1326855290,"Desert Fruit",/),(/1335665188,"Xandrian Journey",/),(/1336526370,"Singers of Song",/),(/1336526738,"Silence the Mage",/),(/1336526998,"Havenroad Bandit",/),(/1347969332,"Glimmerdin Tour",/),})
+Deaths ({(/1318578295,"musician",/),(/1318783240,"taketori",/),(/1318784878,"taketori",/),(/1318895887,"entrance guard",/),(/1319069622,"mistress",/),(/1319071600,"mistress",/),(/1319087877,"usyg",/),(/1320005399,"golem",/),(/1320006463,"mistress",/),(/1320007962,"elf mage",/),(/1320608651,"mistress",/),(/1320616207,"sand worm",/),(/1321208377,"maralith",/),(/1321208401,"maralith",/),(/1321208437,"maralith",/),(/1321208483,"maralith",/),(/1321212552,"protector",/),(/1321811603,"elf mage",/),(/1322406088,"maralith",/),(/1322416207,"golem",/),(/1322464948,"acclima",/),(/1322637636,"golem",/),(/1322717018,"moonweaver",/),(/1322717138,"moonweaver",/),(/1322720060,"kysanth",/),(/1322874690,"vanguard",/),(/1322900002,"elf mage",/),(/1322900246,"elf mage",/),(/1322903351,"imp",/),(/1322903375,"imp",/),(/1322903735,"imp",/),(/1322905561,"imp",/),(/1323382906,"vanguard",/),(/1323384258,"chilotl",/),(/1323415750,"red ogre",/),(/1323421028,"green ogre",/),(/1323469479,"green ogre",/),(/1323493495,"brown ogre",/),(/1323494241,"green ogre",/),(/1323508127,"seraph",/),(/1323512902,"maralith",/),(/1324172195,"elf mage",/),(/1324172435,"elf mage",/),(/1324389894,"survivor",/),(/1324527937,"poison",/),(/1324591891,"hunger",/),(/1324609003,"acolyte",/),(/1324846662,"borsch",/),(/1325657210,"arcturus",/),(/1335328486,"kysanth",/),(/1335424421,"acolyte",/),(/1335659406,"drowning",/),(/1335669144,"drowning",/),(/1335934466,"greater water elemental",/),(/1336525375,"greater water elemental",/),(/1336525531,"greater water elemental",/),(/1345527243,"acolyte",/),(/1345607818,"arcturus",/),(/1346079728,"arcturus",/),(/1348811468,"greater water elemental",/),(/1348902456,"acolyte",/),(/1350993096,"greater water elemental",/),(/1351142176,"greater water elemental",/),(/1351226179,"greater water elemental",/),(/1351229556,"greater water elemental",/),(/1351306038,"acolyte",/),(/1351505879,"greater water elemental",/),(/1351542185,"tulu cultist fighter",/),(/1352271133,"tulu cultist fighter",/),(/1352438984,"borsch",/),(/1352439459,"borsch",/),(/1353382583,"lesser water elemental",/),(/1353418379,"tulu cultist fighter",/),})
+DevelopmentPoints 2
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 1548
+LastLevel 1352886259
+HighestLevel 132
+LongDaemonData ({"blood red",0,"dark red","thick","large horns curving upwards from $POS head.",})
+PermanentProperties (["animate_zombie":"/std/spells/obj/animate_zombie#105731","homedock":"sanctum","defaultlanguage":"gryshnak","status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

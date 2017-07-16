@@ -1,0 +1,142 @@
+#/secure/save/players/a/aelaeoc
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Crystal Courier (Haven human)"
+CapName "Aelaeoc"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":18,\"Mass\":20,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/domains/crystal_reaches/areas/camp/obj/pants2\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":30,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":961,\"Poison\":0,])","([\"Value\":400,\"Mass\":190,\"Worn\":0,\"Class\":13,\"#base_name#\":\"/domains/southern_coast/areas/camp/obj/longsword\",\"Broken\":0,\"DamagePoints\":1160,\"Poison\":0,])","([\"Value\":200,\"Mass\":120,\"Worn\":({\"right hand\",\"left hand\",}),\"Class\":15,\"#base_name#\":\"/std/mine/pickaxe\",\"Broken\":0,\"DamagePoints\":60,\"Poison\":0,])","([\"Value\":50,\"Mass\":100,\"Worn\":({\"left leg\",\"torso\",\"right leg\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/domains/averath/areas/sewers/obj/rogue_robe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":516,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":764,\"Poison\":0,])","([\"Value\":0,\"Mass\":80,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/oldboots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":728,\"Poison\":0,])","([\"Value\":0,\"Mass\":175,\"Worn\":({\"torso\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/oldvest\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":732,\"Poison\":0,])","([\"Value\":0,\"Mass\":95,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/southern_coast/areas/leatherstore/oldhelmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":790,\"Poison\":0,])","([\"Value\":50,\"Mass\":87,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/std/obj/digging/shovel\",\"Broken\":0,\"DamagePoints\":100,\"Poison\":0,])","([\"Value\":2,\"Mass\":20,\"Worn\":0,\"Class\":15,\"#base_name#\":\"/std/spells/obj/wizard_staff\",\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":100,\"Mass\":25,\"Worn\":0,\"Class\":5,\"#base_name#\":\"/std/weapon/melee/brass_knuckles\",\"Broken\":0,\"DamagePoints\":850,\"Poison\":0,])","([\"Value\":30,\"Mass\":30,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/domains/crystal_reaches/areas/camp/obj/shirt3\",\"Deterioration\":3,\"Broken\":0,\"DamagePoints\":30,\"Poison\":0,])","([\"Value\":400,\"Mass\":400,\"Worn\":0,\"Class\":16,\"#base_name#\":\"/domains/southern_coast/areas/acove/obj/dlongsword\",\"Broken\":0,\"DamagePoints\":2000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","twom":"tend wounds on me $*","w":"go west","u":"go up","out":"go out","s":"go south","p":"who","oe":"oocemote $*","n":"go north","m":"money $*","rr":"ask rupert to sell stew $*","l":"look $*","k":"kill $*","dw":"drink water $*","tsw":"travel sw $*","i":"inventory","e":"go east","d":"go down","poi":"cast poison sphere on $*","dm":"cast discern morality on first $*","nw":"go northwest","kfl":"kill first lemming $*","df":"drink from fountain $*","tse":"travel se $*","ka":"kill all","exa":"look at $*","..":"skills","...":"spells","ne":"go northeast","cw":"cast create water $*","ga":"get all $*","lang":"languages $*","cl":"cast create light $*","cnj":"ask tazza to advance conjuring $*","tw":"travel w $*","gac":"get all from corpse $*","ts":"travel s $*","cf":"cast create food $*","tn":"travel north $*","cloth":"ask tazza to advance cloth armour $*","ccw":"cast create water $*","tnw":"travel nw $*","ica":"inventory carried $*",".":"status","mm":"mine with pickaxe $*","ccs":"cast create staff $*","fl":"cast fireball on pirate $*","te":"travel east $*","mg":"ask tazza to advance mining $*","ccl":"cast create light $*","ench":"ask tazza to advance enchantment $*","iw":"inventory worn $*","ff":"ask tazza to advance fire magic $*","sfk":"skin first corpse $*","ps":"protections $*","iwo":"inventory worn $*","pp":"cast paralysis on bandit $*","ccf":"cast create food $*","tne":"travel ne $*","dde":"ask tazza to advance dodge $*","iwi":"inventory wielded $*","swl":"oocemote positively screams with laughter. $*","bn":"ask bruce to buy nugget 1 $*","bl":"cast blindness on platypus $*","evk":"ask tazza to advance evokation $*","sw":"go southwest","pd":"cast planar durability $*","sph":"cast sphere $*","pc":"ask tazza to advance pole combat $*","chan":"cast channeling $*","ss":"status $*","ic":"inventory carried $*","ib":"cast ice ball on $*","bb":"ask bruce to buy gem 1 $*","sk":"cast shock on pirate $*","bar":"ask tazza to advance bargaining $*","ll":"oocemote laughs. $*","lvl":"ask tazza to advance level $*","el":"eat loaf $*","se":"go southeast","lg":"oocemote grins. $*","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ooc":0,])
+Screen ({78,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 49896
+WhereBlock 0
+Brief 1
+LoginTime 1360714416
+BirthTime 1357465140
+Password "kongblab!gg`fkdgkhedhojlhhbndflcceall`cab"
+Email "lukaeon@gmail.com"
+RealName "Lukaeon"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/imperial_road/ir8"
+HostSite "c-98-203-228-69.hsd1.wa.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 32
+Experience 37830
+Skills (["cloth armour":(["class":4,"level":55,]),"navigation":(["class":4,"level":0,]),"fire magic":(["class":2,"level":36,]),"conjuring":(["class":1,"level":62,]),"mining":(["class":2,"level":58,]),"fishing":(["class":4,"level":0,]),"pole combat":(["class":2,"level":62,]),"skinning":(["class":4,"level":0,]),"swimming":(["class":4,"level":0,]),"bargaining":(["class":1,"level":64,]),"textile working":(["class":4,"level":0,]),"farming":(["class":2,"level":0,]),"dodge":(["class":1,"level":62,]),"sailing":(["class":4,"level":0,]),"enchantment":(["class":1,"level":62,]),"evokation":(["class":2,"level":62,]),])
+Morality 1064
+CanMulti 1
+Class "enchanter"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"agnostic","agnostic",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Haven":112,"Malveillant":-56,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 430
+MagicPoints 570
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 512
+Drink 477
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 459.599976
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":390,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":200,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":100,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":100,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":200,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":390,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":200,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":100,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":200,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":100,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({25,75,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":42,]),"wisdom":(["class":3,"points":0,"level":36,]),"coordination":(["class":3,"points":0,"level":38,]),"strength":(["class":3,"points":0,"level":41,]),"intelligence":(["class":3,"points":0,"level":52,]),"luck":(["class":3,"points":0,"level":35,]),"durability":(["class":3,"points":0,"level":38,]),"charisma":(["class":3,"points":0,"level":38,]),])
+Languages (["gurovian":(["native":0,"name":"Gurovian","points":1000,"level":100,]),"enlan":(["native":0,"name":"Enlan","points":1000,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Haven"
+Race "human"
+Gender "male"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1358049342
+Currency (["rupies":44,"imperials":256040,"rubles":1000,])
+Bank (["Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#66957), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#66957), OBJ(/verbs/common/ask), OBJ(aelaeoc /secure/save/players/a/aelaeoc) })","last time":1358080933,"imperials":199099,"open":1357533553,"last trans":"withdrawal",]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#310840), OBJ(magna /domains/havenwood/towns/parva/npc/banker#310840), OBJ(/verbs/players/request), OBJ(aelaeoc /secure/save/players/a/aelaeoc) })","last time":1357819051,"oros":5,"open":1357819051,"last trans":"opened account",]),"Bank of Glimmerdin":(["audit":"({ OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#109641), OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#109641), OBJ(/verbs/common/ask), OBJ(aelaeoc /secure/save/players/a/aelaeoc) })","nuggets":3300,"last time":1360724738,"imperials":26127,"open":1357602803,"last trans":"withdrawal",]),])
+CraftingRecipes ({})
+SpellBook (["invisibility":1,"missile":1,"buffer":1,"charm animal":1,"dispel invisibility":1,"detect morality":1,"planar wisdom":1,"discern killer":1,"planar strength":1,"anti magic field":1,"telepathy":1,"earth touch":1,"poison sphere":1,"fireball":4,"create water":38,"ethereal touch":1,"sphere":41,"create light":63,"planar charisma":1,"blindness":5,"mage's bane":1,"disperse protections":1,"shock":99,"create shadows":1,"discern morality":8,"capsule":11,"ice ball":2,"unravel wards":1,"detect invisibility":1,"paralysis":6,"planar durability":6,"detect magic":1,"lava storm":1,"haste":1,"create food":16,"create staff":14,"channeling":3,"detect magic fully":1,"shield area":1,"aura":1,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Crystal Courier","the Reposessor","the Blueberry Picker","the Ferry Rider","the Crypt Keeper","the Guardian of the Old Cemetery","the Envoy of Haven Town","the Haven Town Messenger","the Haven Town Courier","the Equipped","the Haven Town Runner","of Haven","the Bandit Slayer","the Platypus Skinner","the Vacationer","the Aspiring Enchanter","the Explorer",})
+Story "Aelaeoc is a bit of a prodigy. When he was three, he could cause plums and apples to tell him whether or not they were ripe, and how good they might be in his mother's pies. When he was six he learned, absent any instruction, how to make fruits and vegetables dance for him while he played the flute. By the time he was twelve he had outgrown magical produce and was making plans to visit the mystical city of jidoor and learn magic from the lamrani, those wise and peculiar folk. Any place, he supposed, must be better than Haven with its endless parades and slogans shouted by the fanatical paladins and the ferocias Templars. Only his parents --his father, an accomplished poet and his mother a fine flautist-- gave him any solce. So his heart broke in two on the day he told them that he must leave Haven if he was ever to pursue his fortune as a great enchanter. \"But study at the Great Library here first!\" they cried in alarm. \"Tazza is a great enchanter there, and she will teach you what you must know as a beginner!\" Aelaeoc was skeptical at first, but decided that he couldn't leave his fine folks alone to fend off the tyrannical edicts of the Kylin hordes alone. But one day he will visit Jidoor, and then he will come riding through the Haven gates on a silver charger, wielding his magics like a sword against the black niceties of religious fanatics. And then he must learn what no library could teach him, whether in Haven or Jidoor: how to remain free wherever you are, and whehter or not an oppressive State can stand against the magical might of the unchained mind."
+Surname 0
+ApprovedStory 1
+OOCName "Lukaeon"
+Quests ({(/1357465655,"Newbie Book",/),(/1357465781,"Bandit Camp",/),(/1357466029,"Leather Emporium",/),(/1357466185,"Platypus Bay",/),(/1357466429,"Message Courier",/),(/1357467113,"Platypus Skinner",/),(/1357467457,"Bandit Slayer",/),(/1357789367,"Message Courier pt 2",/),(/1357789667,"Message Courier pt 3",/),(/1357790095,"Message Courier pt 4",/),(/1357817279,"Bandit Leader",/),(/1357817467,"Crystal Ball Delivery",/),(/1357818415,"Graveyard Cleanup",/),(/1357818587,"Crypt Keeper",/),(/1357903512,"Averath Ferry",/),(/1357904392,"Rabbit Food",/),(/1357904872,"Blueberry Picker",/),(/1358051518,"Reposession",/),})
+Deaths ({(/1358049414,"bleeding",/),})
+DevelopmentPoints 62
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 69
+LastLevel 1360725277
+HighestLevel 32
+LongDaemonData ({"hazel","black","pale","fair",0,})
+PermanentProperties (["mission":"/std/missions/southern_coast/swashbuckler","no_autosave_spam":1,])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

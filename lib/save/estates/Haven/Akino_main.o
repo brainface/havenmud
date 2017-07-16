@@ -1,0 +1,18 @@
+#/domains/estates/virtual/main_estate/Haven/Akino.c
+AmbientLight 35
+NoClean 1
+InternalDesc "This is a drab, rarely lived in looking room. A large wooden chair sits next to an empty fireplace, with a rug covering a sqaure portioning the middle of the room. A fine sheet of dust covers everything. A door leading to Akino's bedroom faces opposite the front door."
+Opacity 100
+ProperNoun 1
+Short "Akino's Private Estate"
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1193946725
+Town "Haven"
+Saved ({"EOut","ELong","EShort","Owner",})
+ELong "This is a drab, rarely lived in looking room. A large wooden chair sits next to an empty fireplace, with a rug covering a sqaure portioning the middle of the room. A fine sheet of dust covers everything. A door leading to Akino's bedroom faces opposite the front door."
+EShort "Akino's Private Estate"
+EOut "/domains/southern_coast/towns/haven/room/imperial_road/ir3"
+Owner "Akino"

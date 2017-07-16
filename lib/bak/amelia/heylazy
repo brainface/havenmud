@@ -1,0 +1,36 @@
+Hey lazy-ass.  Here's a short list for you.
+All files are in /std/songs/test_songs/
+
+
+Previously in-game songs:
+
+	cleanse.c
+	fury.c
+	hlight.c
+	joy_cac.c
+	merry_euph.c
+	sear.c
+	tintin.c
+
+
+Straight-up spells that just need a quick look to make sure I
+didn't totally fuck up balance:
+
+	ariaofair.c
+	ariaoffire.c
+	ariaofice.c
+	ariaofstone.c
+
+Marginally more complicated:
+
+	starsong.c (like c_lit)
+	fourseasons.c (combination of all ballad of seasons songs)
+	decapo.c (bard rez song)
+	reveillez.c (area haste)
+	songofthedance.c (drains sp from targ)
+
+
+Also needing approval:
+
+all spells listed in /realms/duuk/amelia
+Though I'd just go ahead and use the /std/spells/test_spells versions.

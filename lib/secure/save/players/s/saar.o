@@ -1,0 +1,142 @@
+#/secure/save/players/s/saar.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Bilge Rat (Karak orc)"
+CapName "Saar"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/lg_shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/lg_shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/lg_pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","oe":"oocemote $*","p":"who",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","ga":"get all $*","se":"go southeast","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({79,22,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 1907
+WhereBlock 0
+Brief 0
+LoginTime 1386355579
+BirthTime 1386032291
+Password "hkdljdda!dfikcheno`gbinmohg`njehfohjabc`i"
+Email "jleftone@aol.com"
+RealName "Josh"
+Rank 0
+LoginSite "/domains/crystal_reaches/towns/karak/room/rd5"
+HostSite "97-88-166-131.dhcp.stls.mo.charter.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 1
+Experience 0
+Skills (["reinforced armour":(["class":4,"level":0,]),"multi-weapon":(["class":1,"level":0,]),"cloth armour":(["class":4,"level":0,]),"melee combat":(["class":2,"level":0,]),"navigation":(["class":2,"level":0,]),"slash combat":(["class":1,"level":0,]),"combat rage":(["class":4,"level":0,]),"disarm":(["class":4,"level":0,]),"disorient":(["class":4,"level":0,]),"fishing":(["class":2,"level":0,]),"leather armour":(["class":4,"level":0,]),"swimming":(["class":2,"level":0,]),"farming":(["class":4,"level":0,]),"sailing":(["class":1,"level":0,]),"dodge":(["class":4,"level":0,]),"blunt combat":(["class":4,"level":0,]),"parry":(["class":4,"level":0,]),"hack combat":(["class":1,"level":0,]),])
+Morality -1500
+CanMulti 1
+Class "viking"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Saahagoth","Saahagoth",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Karak":50,"Glimmerdin":-25,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 430
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 2616
+Drink 2616
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 350.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":200,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","left arm","right arm",}),"health":390,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":100,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":200,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":390,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":100,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":200,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":100,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":100,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":200,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({10,70,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["wisdom":(["class":3,"points":0,"level":20,]),"agility":(["class":3,"points":0,"level":27,]),"coordination":(["class":3,"points":0,"level":26,]),"luck":(["class":2,"points":0,"level":33,]),"intelligence":(["class":4,"points":0,"level":20,]),"strength":(["class":3,"points":0,"level":30,]),"durability":(["class":2,"points":0,"level":38,]),"charisma":(["class":5,"points":0,"level":20,]),])
+Languages (["uruk":(["native":1,"name":"Uruk","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Karak"
+Race "orc"
+Gender "male"
+Nationality "Karak"
+Size 32
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1386032954
+Currency ([])
+Bank ([])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Bilge Rat","of Karak",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "Josh"
+Quests ({(/1386032385,"Newbie Book",/),})
+Deaths ({(/1386032989,"little goblin",/),})
+DevelopmentPoints 0
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 1
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 0
+LastLevel 1386032291
+HighestLevel 0
+LongDaemonData ({0,0,0,0,0,})
+PermanentProperties (["mission":"/std/missions/crystal_reaches/karak_keep_1",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

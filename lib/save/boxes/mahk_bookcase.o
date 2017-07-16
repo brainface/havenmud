@@ -1,0 +1,28 @@
+#/realms/mahkefel/obj/bookcase.c
+MaxDamagePoints 20000
+PreventGet "The bookcase seems to be affixed to the ground."
+DisableChance 50
+Mass 5000
+Short "a tall bookcase"
+CapName "Bookcase"
+ExternalDesc "Reaching nearly to the ceiling, this heavy oaken bookcase has been provided by the library for the public to donate books. There doesn't seem to be any security to prevent bibliophile thieves from stealing everything, however. "
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","BoxInventory",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({"wood",})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Keys ({})
+Locked 1
+LockStrength 100
+CanLock 1
+BoxInventory ({})
+BoxID "mahk_bookcase"

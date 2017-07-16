@@ -1,0 +1,45 @@
+#!/usr/bin/perl
+
+use File::Copy;
+
+my $dir = "/home/duuk/haven";
+
+my $bindir = "$dir/bin";
+my $libdir = "$dir/lib";
+my $bakdir = "$dir/bak";
+
+while (1)
+{	
+	print "STARTING HAVEN-2\n";
+	my $result = system("$bindir/driver","haven");
+	if ($result != 2816 && $result != 3072) 
+	{
+		my $mon = (localtime)[4]+1;
+		my $day = (localtime)[3];
+		my $year = (localtime)[5]+1900;
+
+		my $bakfile = sprintf("%s/Haven2-%04d%02d%02d.tgz", $bakdir, $year, $mon, $day);
+
+		print "CREATING BACKUP\n";
+		unlink("$bakfile");
+		system("tar", "czvf", "$bakfile", "$bindir", "$libdir");
+		print "BACKUP COMPLETE!";
+	}
+	else
+	{
+		print "BACKUP SKIPPED!";
+	}
+	unlink("$libdir/log/runtime.last");
+	copy("$libdir/log/runtime", "$libdir/log/runtime.last");
+
+	if ($result == 2560 || $result == 2816)
+	{
+		print " SHUTTING DOWN...\n";
+		last;
+	}
+	else
+	{
+		print " SLEEPING FOR 10 SECONDS...\n";
+		sleep 10;
+	}
+}

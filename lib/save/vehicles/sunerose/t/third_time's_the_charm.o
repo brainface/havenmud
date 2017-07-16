@@ -1,0 +1,47 @@
+#/lib/special/vehicle.c
+Opacity 100
+DamagePoints 737040
+MaxDamagePoints 800000
+PreventGet ""
+DisableChance 50
+ShortSuffixes ([])
+ProperNoun 1
+Short "the galley Third Time's the Charm"
+CapName "Third Time's the Charm"
+ExternalDesc "This is the galley Third Time's the Charm."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","SensorSuite","DriveSystem","VehicleSize","Owner","Captain","BridgeDescription","WeaponSystem","DamagedSystems","CurrentLocation","VehicleName","ShipStyle","Crystals","ShieldSystem","VId","VLong","VShort","Crew",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Keys ({})
+CanClose 1
+Messages (["telin":"$N comes out of nowhere.","come":"$N enters.","telout":"$N goes into nowhere.","leave":"$N leaves $D.",])
+VehicleName "Third Time's the Charm"
+CurrentLocation "/domains/innersea/virtual/ocean/26,-122"
+BridgeDescription "The bridge of the ship is clean and sparkles with newness."
+Owner "sunerose"
+Captain "sunerose"
+ShipStyle "human"
+SensorSuite 4
+DriveSystem 4
+VehicleSize 4.000000
+WeaponSystem 4
+Crystals 4759
+hasAttacked ({})
+LastSave 1497629406
+DamagedSystems ({})
+VId ({"galley","ship","Third Time's the Charm","ship8480",})
+VLong "This is the galley Third Time's the Charm."
+VShort "the galley Third Time's the Charm"
+ShipEnemies ({0,0,})
+UniqueVehicleId "ship1627"

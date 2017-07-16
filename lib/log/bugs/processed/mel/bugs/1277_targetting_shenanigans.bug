@@ -1,0 +1,16 @@
+Reported by: Juilet (verymaudlin@gmail.com)
+Time       : Fri Sep 20 12:37:27 2013
+Type       : unexplained behaviour
+Location   : ^HW/~a/wood/rooms/river
+Status     : NEW
+Bug        : Really?
+
+I have a piece of rabbit meat in my inventory.
+There is a live rabbit in the room.
+
+And my cast acid splash can't tell what the hell I want to do?
+The LIVE rabbit. The live one! I don't want to acid splash the non-living hunk of meat. 
+I want to acid splash the LIVE one!
+
+
+## this might be the casting system -- for liv filters it might not be doing a living filter but just an inventory filter of the area.. but I might be wrong, will investigate as the spell itself doesn't handle targetting  -- mel

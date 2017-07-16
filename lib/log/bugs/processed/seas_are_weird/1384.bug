@@ -1,0 +1,21 @@
+Reported by: Marroc (rharrison@student.bridgew.edu)
+Time       : Fri Sep 12 22:53:42 2014
+Type       : runtime
+Location   : /lib/special/vehicle#83048 @ ^IN/~v/ocean/-124,0
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: <none> (/lib/special/vehicle.c) at line 279
+
+'<fake>' at /secure/save/players/m/marroc (/<driver>) at line 0
+'cmdAll' at /secure/save/players/m/marroc (/lib/users/player.c) at line 1016
+'cmdAll' at /secure/save/players/m/marroc (/lib/livings/command.c) at line 44
+'do_cast_str' at /verbs/players/cast at line 66
+'eventPrepareCast' at /secure/save/players/m/marroc (/lib/livings/magic.c) at line 208
+'eventCast' at /secure/save/players/m/marroc (/lib/livings/magic.c) at line 221
+'eventCast' at /std/spells/conjuring_evokation/ice_floe at line 120
+'eventSpellAttackShip' at /std/spells/conjuring_evokation/ice_floe at line 149
+'eventReceiveDamage' at <none> (/lib/special/vehicle.c) at line 279
+
+
+Status     : NEW
+Bug        : i tried to cast ice floe for a second and third time and received a runtime error.

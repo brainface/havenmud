@@ -1,0 +1,27 @@
+Reported by: Alonso (bjorn.brown@yahoo.com)
+Time       : Fri Oct 25 02:49:29 2013
+Type       : other
+Location   : ^staff/room/start
+Status     : NEW
+Bug        : Skaven players description options are very lacking.
+
+is it just me or do they all just look the same?
+
+
+Options for "eyes" are: skavens : black
+
+Options for "hair" are: skavens : black
+
+Options for "skintone" are: skavens : grey
+
+Options for "skintype" are: skavens : furry or thinly furred
+
+The extra data for skavens is thin fur and an elongated, rat-like snout.
+Aless Notes: Please can we all just gang up on Duuk and have descriptions changed back.. or added to.. or something? 
+I'm ok with these descriptors.. in general.. (and adding more options to them) but could we not also have back
+custom descriptions? We're not all young and stupid anymore.. Mostly. Sort of. /sigh
+
+# We can do this, make sure it's reasonable. Get me a list and I'll add it to
+ /include/description.h
+-Mel
+

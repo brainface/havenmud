@@ -1,0 +1,6 @@
+Reported by: Redhaven (roy.pda@gmail.com)
+Time       : Sun Nov 20 13:22:55 2011
+Type       : unexplained behaviour
+Location   : ^EG/~a/fwoods/room/forest7
+Status     : NEW
+Bug        : Cause bleeding certainly works, it will kill the enemy, however you get no XP for doing so because bleeding is the cause of death. Is there anyway we can have the spell cause damage credited to the player?

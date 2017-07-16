@@ -1,0 +1,18 @@
+#/domains/estates/virtual/main_estate.c
+AmbientLight 35
+NoClean 1
+InternalDesc "a large ornate room with a large chandelier with many candles burning down.  stacks of books and tomes of magic are scattered throughout the room.  several knives hang next to the door.  a large bear trap hangs from the ceiling.  there is a light buzzing coming from the next room."
+Opacity 100
+ProperNoun 1
+Short "home sweet home"
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1217388558
+Town "Malveillant"
+Saved ({"EOut","ELong","EShort","Owner",})
+ELong "a large ornate room with a large chandelier with many candles burning down.  stacks of books and tomes of magic are scattered throughout the room.  several knives hang next to the door.  a large bear trap hangs from the ceiling.  there is a light buzzing coming from the next room."
+EShort "home sweet home"
+EOut "/domains/havenwood/towns/malveillant/rooms/path1"
+Owner "Skulley"

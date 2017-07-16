@@ -1,0 +1,11 @@
+#/secure/lib/newsgroup.c
+__GroupId "religion.saahagoth"
+__RaceRestriction ""
+__TownRestriction ""
+__GuildRestriction ""
+__ClassRestriction ""
+__ReligionRestriction "saahagoth"
+__FriendlyName "Saahagoth Discussion"
+__ReadRankRestriction 1
+__PostRankRestriction 1
+__Posts ({})

@@ -1,0 +1,142 @@
+#/secure/save/players/k/konstantin.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Ajemi of the Desert (Yozrath human)"
+CapName "Konstantin"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":200,\"Mass\":45,\"Worn\":({\"left hand\",}),\"Class\":10,\"#base_name#\":\"/domains/estergrym/areas/skaven/obj/stars\",\"Broken\":0,\"DamagePoints\":500,\"Poison\":15,])","([\"Value\":360,\"Mass\":175,\"Worn\":({\"right hand\",}),\"Class\":14,\"#base_name#\":\"/std/weapon/slash/longsword\",\"Broken\":0,\"DamagePoints\":1800,\"Poison\":0,])","([\"Value\":400,\"Mass\":100,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/domains/crystal_reaches/areas/gwonish/obj/robe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":300,\"Poison\":0,])","([\"Value\":15,\"Mass\":30,\"Worn\":0,\"Class\":3,\"#base_name#\":\"/domains/westwood/areas/enchanted/obj/brancha\",\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":15,\"Mass\":30,\"Worn\":0,\"Class\":3,\"#base_name#\":\"/domains/westwood/areas/enchanted/obj/brancha\",\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":-1,\"Mass\":0,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/date\",\"MealType\":2,\"Broken\":0,\"Short\":\"a palm date\",\"Long\":\"This small fruit is a date.  It appears to have fallen off a palm tree.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":0,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/date\",\"MealType\":2,\"Broken\":0,\"Short\":\"a palm date\",\"Long\":\"This small fruit is a date.  It appears to have fallen off a palm tree.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":175,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/newbie_kopesh\",\"Broken\":0,\"DamagePoints\":1700,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":60,\"Worn\":({\"right leg\",\"left arm\",\"left leg\",\"torso\",\"right arm\",}),\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/thobe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":0,\"Mass\":60,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/turban\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":80,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldboots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":95,\"Worn\":({\"head\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldhelmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":160,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldpants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":175,\"Worn\":({\"torso\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldvest\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":-1,\"Mass\":0,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/date\",\"MealType\":2,\"Broken\":0,\"Short\":\"a palm date\",\"Long\":\"This small fruit is a date.  It appears to have fallen off a palm tree.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":0,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/date\",\"MealType\":2,\"Broken\":0,\"Short\":\"a palm date\",\"Long\":\"This small fruit is a date.  It appears to have fallen off a palm tree.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":0,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/date\",\"MealType\":2,\"Broken\":0,\"Short\":\"a palm date\",\"Long\":\"This small fruit is a date.  It appears to have fallen off a palm tree.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":0,\"Portions\":1,\"MealStrength\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/towns/yozrath/obj/date\",\"MealType\":2,\"Broken\":0,\"Short\":\"a palm date\",\"Long\":\"This small fruit is a date.  It appears to have fallen off a palm tree.\",\"DamagePoints\":0,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","oe":"oocemote $*","p":"who",".":"status","n":"go north","m":"money $*","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","ga":"get all $*","se":"go southeast","d":"go down","adv":"ask abdullah to advance $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({99,31,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 783
+WhereBlock 0
+Brief 1
+LoginTime 1351730181
+BirthTime 1351495531
+Password "kjdglemo!ehediejhgnho``o`a`bd`bhajgfmcf``"
+Email "bjorn.brown@yahoo.com"
+RealName "Bjorn"
+Rank 0
+LoginSite "/domains/southern_coast/virtual/havenroad/0,0"
+HostSite "99-9-209-111.lightspeed.sntcca.sbcglobal.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 1
+Experience 2744
+Skills (["multi-weapon":(["class":1,"level":3,]),"cloth armour":(["class":2,"level":0,]),"metal working":(["class":4,"level":0,]),"melee combat":(["class":4,"level":0,]),"accuracy":(["class":1,"level":4,]),"slash combat":(["class":1,"level":4,]),"knife combat":(["class":4,"level":0,]),"pierce combat":(["class":4,"level":0,]),"projectile combat":(["class":1,"level":2,]),"leather armour":(["class":2,"level":0,]),"pole combat":(["class":4,"level":0,]),"weapon smithing":(["class":4,"level":0,]),"bargaining":(["class":4,"level":0,]),"blunt combat":(["class":2,"level":0,]),"hack combat":(["class":2,"level":0,]),])
+Morality 1600
+CanMulti 1
+Class "janissary"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Yozrath":52,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 310
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1819
+Drink 611
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 340.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":270,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":140,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":70,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":70,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":140,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":270,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":140,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":70,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":140,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":70,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 15
+LightSensitivity ({25,75,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["wisdom":(["class":3,"points":0,"level":26,]),"agility":(["class":3,"points":0,"level":27,]),"coordination":(["class":3,"points":0,"level":29,]),"luck":(["class":3,"points":0,"level":30,]),"intelligence":(["class":3,"points":0,"level":31,]),"strength":(["class":3,"points":0,"level":29,]),"durability":(["class":3,"points":0,"level":26,]),"charisma":(["class":3,"points":0,"level":25,]),])
+Languages (["padashi":(["native":1,"name":"Padashi","points":0,"level":100,]),"enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Yozrath"
+Race "human"
+Gender "male"
+Nationality "Yozrath"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1351495531
+Currency (["bloodgems":100000,])
+Bank ([])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"$N the Ajemi of the Desert","the Arboretum Visitor","the Island Explorer","the Equipped","the Explorer","of Yozrath",})
+Story 0
+Surname "Mihailovic"
+ApprovedStory 0
+OOCName "Bjorn"
+Quests ({(/1351495542,"Newbie Book",/),(/1351670729,"Bandit Camp",/),(/1351670745,"Leather Emporium",/),(/1351718772,"Ronin Camp",/),(/1351718780,"Cherry Blossom",/),})
+Deaths 0
+DevelopmentPoints 2
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 0
+LastLevel 1351719051
+HighestLevel 1
+LongDaemonData ({"hazel","black","pale","tanned",0,})
+PermanentProperties (["status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

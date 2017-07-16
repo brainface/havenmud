@@ -1,0 +1,7 @@
+/realms/alessandra/sapling.c line 5: Cannot #include ../wood.h
+/realms/alessandra/sapling.c line 51: Undefined variable 'HWD_OBJ'
+/realms/alessandra/sapling.c line 51: syntax error
+/realms/alessandra/sapling.c line 5: Cannot #include ../wood.h
+/realms/alessandra/sapling.c line 5: Cannot #include ../wood.h
+/realms/alessandra/sapling.c line 51: Undefined variable 'HWD_OBJ'
+/realms/alessandra/sapling.c line 51: syntax error

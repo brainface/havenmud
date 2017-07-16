@@ -1,0 +1,17 @@
+#/domains/estates/virtual/upper_estate.c
+AmbientLight 35
+NoClean 1
+InternalDesc "This is a cozy little room.  The only things in this room are a fire place on one side of the room and a small cot on the other, there is also a large wooden chest in the centre of the room."
+Opacity 100
+ProperNoun 1
+Short "Acorns living room"
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1247928153
+Town "Parva"
+Saved ({"ELong","EShort","Owner",})
+ELong "This is a cozy little room.  The only things in this room are a fire place on one side of the room and a small cot on the other, there is also a large wooden chest in the centre of the room."
+EShort "Acorns living room"
+Owner "Acorn"

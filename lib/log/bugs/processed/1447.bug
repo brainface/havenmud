@@ -1,0 +1,15 @@
+Reported by: Ainent (jdmarshall1990@gmail.com)
+Time       : Thu Nov 26 22:58:41 2015
+Type       : typo
+Location   : ^SC/~t/haven/room/misc_buildings/bank
+Status     : NEW
+Bug        : The <help roleplay> file has a typo. Here is what it says:
+
+One must take a careful study of surroundings on Haven.  The town of
+ Haven itself is a basically safe place, with strict laws and orderly
+ citizens.  The reason this is so is NOT because that is how life should
+ be, it is because the diety of Haven Town's citizens in the Lord of
+ Order.  A town which worships a demon prince might have less sympathy
+ for weak citizens.
+Notice the penultimate sentence: " ... it is because the diety of Haven Town's citizens in the Lord of Order".
+This really confused me until I read it a few times and realized that that "in" in "in the Lord of Order" should be an "is".

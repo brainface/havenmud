@@ -1,0 +1,14 @@
+Natural magic (for general use):
+/realms/amelia/callfirefly.c (npc is at /realms/amelia/firefly.c)
+/realms/amelia/tame.c (goes with call firefly)
+     (Eventually plan for call/tame:  Have other animals that you could 'call' that have
+      different abilities--Example:  a bear that tries to rescue you from combat, or a
+      unicorn with some healing abilities.  Would need to set a limit on the number of 
+      animals you can call and/or tame.  My personal thought would be to start you out with
+      one or two, and increase the number as you move up--maybe around level 50 get one more, etc.)
+
+Eclat only spells:
+/realms/amelia/spells/eclat_bite.c
+/realms/amelia/spells/prickorc.c
+/realms/amelia/spells/roastrab.c (item at /realms/amelia/spells/roastedrabbit.c)
+/realms/amelia/spells/revealrb.c (item at /realms/amelia/spells/rainbow.c)

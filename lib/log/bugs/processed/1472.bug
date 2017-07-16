@@ -1,0 +1,6 @@
+Reported by: Verlischk (fuzzydemon84@hotmail.com)
+Time       : Sun Oct 16 11:15:43 2016
+Type       : unexplained behaviour
+Location   : ^FM/~a/caves/room/roomo1
+Status     : NEW
+Bug        : this room and area might be 'too' dark -- can't see anything as a daemon with no light modifications.

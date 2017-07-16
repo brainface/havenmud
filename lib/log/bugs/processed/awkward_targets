@@ -1,0 +1,6 @@
+Reported by: Felyncice (Taleladar@yahoo.com)
+Time       : Wed Jul  9 22:45:38 2014
+Type       : idea
+Location   : ^VL/~a/canyon/room/cliff_bottom
+Status     : NEW
+Bug        : Whenever a command is specified targetting some creature or object and there is more than one, it would be nice that INSTEAD of it asking which one, just default to the first. Considering this may cause problems, maybe only do this if all potential targets are identical.

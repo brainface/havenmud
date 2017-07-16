@@ -1,0 +1,15 @@
+/realms/duuk/classes.c line 12: Cannot #include include/classes.h
+/realms/duuk/classes.c line 27: Undefined function GetClasses
+/realms/duuk/classes.c line 28: Undefined class 'Class'
+/realms/duuk/classes.c line 29: Undefined class 'Class'
+/realms/duuk/classes.c line 31: No class in scope has no member 'Skills'
+/realms/duuk/classes.c line 45: Undefined class 'Class'
+/realms/duuk/workroom.c line 93: syntax error
+/realms/duuk/workroom.c line 96: Reserved type name unexpected.
+/realms/duuk/workroom.c line 96: syntax error
+/realms/duuk/races.c line 14: Cannot #include include/races.h
+/realms/duuk/races.c line 78: Undefined class 'Race'
+/realms/duuk/races.c line 99: Undefined class 'Race'
+/realms/duuk/races.c line 100: No class in scope has no member 'Sensitivity'
+/realms/duuk/races.c line 100: Illegal lvalue
+/realms/duuk/races.c line 101: No class in scope has no member 'Language'

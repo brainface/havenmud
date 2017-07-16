@@ -1,0 +1,18 @@
+rogue
+necromancer:graverobber
+fighter:assassin
+viking:pirate
+evoker:shadow mage
+chaos-mage:outlander
+stealth:1:1
+stealing:1:1
+knife defense:0:1
+knife attack:0:1
+projectile attack:0:2
+bargaining:1:2
+pierce attack:0:2
+lockpicking:0:2
+multi-weapon:0:3
+fishing:0:3
+slash attack:0:4
+slash defense:0:4

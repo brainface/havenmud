@@ -1,0 +1,145 @@
+#/secure/save/players/f/furthal.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Heinous Despoiler of Life's Essence (Karak orc)"
+CapName "Furthal"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":525,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"sheep\",\"PeltLevel\":7,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":525,\"PeltClass\":25,\"Class\":1,\"Worn\":0,\"PeltSource\":\"sheep\",\"PeltLevel\":7,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":-1,\"Mass\":5,\"Portions\":1,\"MealStrength\":20,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/farm/temperate/carrot\",\"MealType\":2,\"Broken\":0,\"Short\":\"a carrot\",\"Long\":\"It is a long orange carrot.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/lg_coat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Class\":8,\"Worn\":0,\"CatchChance\":40,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":125,\"PoleStrength\":300,\"#base_name#\":\"/std/obj/fishing/pole\",\"DamagePoints\":400,])","([\"Value\":0,\"Class\":8,\"Worn\":0,\"CatchChance\":40,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":125,\"PoleStrength\":300,\"#base_name#\":\"/std/obj/fishing/pole\",\"DamagePoints\":400,])","([\"Value\":0,\"Mass\":100,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/frostmarches/towns/arcanith/obj/pickaxe\",\"Broken\":0,\"DamagePoints\":300,\"Poison\":0,])","([\"Value\":0,\"Mass\":100,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/frostmarches/towns/arcanith/obj/pickaxe\",\"Broken\":0,\"DamagePoints\":300,\"Poison\":0,])","([\"Value\":0,\"Mass\":100,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/frostmarches/towns/arcanith/obj/pickaxe\",\"Broken\":0,\"DamagePoints\":300,\"Poison\":0,])","([\"Value\":0,\"Mass\":100,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/crystal_reaches/towns/lloryk/obj/hoe\",\"Broken\":0,\"DamagePoints\":1100,\"Poison\":0,])","([\"Value\":0,\"Mass\":100,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/crystal_reaches/towns/lloryk/obj/hoe\",\"Broken\":0,\"DamagePoints\":1100,\"Poison\":0,])","([\"Value\":50,\"Class\":8,\"Worn\":0,\"CatchChance\":40,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":125,\"PoleStrength\":300,\"#base_name#\":\"/std/fish/pole\",\"DamagePoints\":400,])","([\"Value\":50,\"Class\":8,\"Worn\":0,\"CatchChance\":40,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":125,\"PoleStrength\":300,\"#base_name#\":\"/std/fish/pole\",\"DamagePoints\":400,])","([\"Value\":50,\"Mass\":30,\"Worn\":0,\"Class\":13,\"#base_name#\":\"/domains/southern_coast/towns/kresh/obj/knifer\",\"Broken\":0,\"DamagePoints\":760,\"Poison\":0,])","([\"Value\":50,\"Mass\":30,\"Worn\":({\"right hand\",}),\"Class\":13,\"#base_name#\":\"/domains/southern_coast/towns/kresh/obj/knifer\",\"Broken\":0,\"DamagePoints\":190,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/std/clothing/lg_pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/std/clothing/lg_shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":981,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":10,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":60,\"Portions\":6,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/yozrath/virtual/obj/waterskin\",\"MealType\":4,\"Broken\":0,\"Short\":\"a skin of water\",\"Long\":\"This leather skin is used to hold water. It sloshes as it moves.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":15,\"Portions\":1,\"MealStrength\":30,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/farm/temperate/potato\",\"MealType\":2,\"Broken\":0,\"Short\":\"a potato\",\"Long\":\"This is a home grown potato.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":15,\"Portions\":1,\"MealStrength\":40,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/farm/temperate/onion\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large onion\",\"Long\":\"This is a rather large onion.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":15,\"Portions\":1,\"MealStrength\":40,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/farm/temperate/onion\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large onion\",\"Long\":\"This is a rather large onion.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":15,\"Portions\":1,\"MealStrength\":30,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/farm/temperate/potato\",\"MealType\":2,\"Broken\":0,\"Short\":\"a potato\",\"Long\":\"This is a home grown potato.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":1,\"Portions\":1,\"MealStrength\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/farm/temperate/grain\",\"MealType\":2,\"Broken\":0,\"Short\":\"a handful of grain\",\"Long\":\"This is a handful of grain.\",\"DamagePoints\":0,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","wil":"cast will o' wisp $*","und":"cast undying vitality $*","w":"go west","clo":"cast cloud kill $*","u":"go up","out":"go out","clof":"cast cloud kill on first $*","s":"go south","oh":"chanhist ooc $*","sho":"cast shock $*","q":"status $*","aci":"cast acid blast $*","oe":"oocemote $*","p":"who","n":"go north","l":"look $*","sell":"ask tylus to buy $*","k":"kill $*","af":"cast animate dead on first $* corpse","i":"inventory","e":"go east","disp":"cast disperse protections $*","d":"go down","shrz":"cast shroud on zombie $*","snnw":"sneak northwest $*","cap":"cast capsule $*","wou":"cast wound $*","nw":"go northwest","kf":"kill first $*","skf":"skin first $* corpse","ka":"kill all","snw":"sneak west $*","exa":"look at $*","..":"skills","sns":"sneak south $*","...":"spells","snne":"sneak northeast $*","snn":"sneak north $*","ne":"go northeast","spif":"cast spirit call on first $* corpse","qq":"skills -l -c $*","cur":"cast curse on $*","sne":"sneak east $*","ga":"get all $*","rain":"cast acid rain $*","cm":"command zombie to $*","acif":"cast acid blast on first $*","tran":"cast transmutation $*","gac":"get all from $* corpse","tr":"ask zarzul to train $*","cf":"consider first $*","senf":"cast sense weakness on first $*",".":"status","te":"ask zarzul to teach all spells $*","pp":"protections","bs":"backstab $*","snsw":"sneak southwest $*","bsf":"backstab first $*","lz":"cast locate zombie $*","sw":"go southwest","aur":"cast aura $*","spi":"cast spirit call on $* corpse","sph":"cast sphere $*","ppp":"spells -c -l $*","qqq":"spells -c -l $*","sp":"ask tylus to buy pelt $*","sn":"sneak $*","bon":"cast bone shell $*","sk":"skin $*","snse":"sneak southeast $*","uns":"cast unshackle servant $*","se":"go southeast","sen":"cast sense weakness on first $*","lf":"look first $*","gcc":"get coins from $* corpse","min":"mine with first pickaxe $*","":"corpse $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "xterm"
+Blocked (["ooc":0,])
+Screen ({122,38,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 65330
+WhereBlock 0
+Brief 1
+LoginTime 1498768262
+BirthTime 1495933635
+Password "hecdo`hl!ejkeafafafh`ecejbbejiifeekghnakf"
+Email "futvin@outlook.com"
+RealName "Aaron"
+Rank 0
+LoginSite "/domains/valley/areas/mntside/room/mpath3"
+HostSite "50-1-94-193.dsl.dynamic.fusionbroadband.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen","Ork","Ork","Ork",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 28
+Experience 297398
+Skills (["stealth":(["class":1,"level":53,]),"fire magic":(["class":2,"level":20,]),"combat rage":(["class":4,"level":40,]),"conjuring":(["class":1,"level":58,]),"knife combat":(["class":2,"level":50,]),"mithril working":(["class":4,"level":0,]),"natural armour":(["class":4,"level":10,]),"necromancy":(["class":1,"level":58,]),"mining":(["class":4,"level":27,]),"fishing":(["class":4,"level":5,]),"pole combat":(["class":2,"level":0,]),"skinning":(["class":2,"level":50,]),"bargaining":(["class":4,"level":30,]),"leather working":(["class":2,"level":0,]),"farming":(["class":4,"level":30,]),"natural working":(["class":2,"level":0,]),"dodge":(["class":4,"level":40,]),"evokation":(["class":2,"level":56,]),])
+Morality -2500
+CanMulti 1
+Class "necromancer"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Saahagoth","Saahagoth",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Conditions ([])
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gurov":-2,"Karak":105,"Glimmerdin":-54,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 8
+Undead 0
+UndeadType 0
+HealthPoints 550
+MagicPoints 390
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 429
+Drink 391
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 470.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right foot":(["armours":240,"children":({}),"health":130,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":260,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":510,"class":1,"parent":"torso",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":260,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":130,"class":4,"parent":"left leg",]),"left leg":(["armours":525472,"children":({"left foot",}),"health":260,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","left arm","right arm",}),"health":510,"class":1,"parent":0,]),"right hand":(["armours":98318,"children":({}),"health":130,"class":4,"parent":"right arm",]),"left hand":(["armours":98318,"children":({}),"health":130,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":260,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 4
+LightSensitivity ({10,70,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":31,]),"wisdom":(["class":3,"points":0,"level":38,]),"coordination":(["class":3,"points":0,"level":37,]),"strength":(["class":3,"points":0,"level":42,]),"intelligence":(["class":4,"points":0,"level":43,]),"luck":(["class":2,"points":0,"level":42,]),"durability":(["class":2,"points":0,"level":50,]),"charisma":(["class":5,"points":0,"level":18,]),])
+Languages (["uruk":(["native":1,"name":"Uruk","points":0,"level":100,]),"eltherian":(["native":0,"name":"Eltherian","points":1000,"level":90,]),"blaodric":(["native":0,"name":"Blaodric","points":1000,"level":34,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Karak"
+Race "orc"
+Gender "male"
+Nationality "Karak"
+Size 32
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1498630924
+Cooldowns ([])
+Currency (["nuggets":175,"orcteef":5091,"rupies":215,"imperials":6556,])
+Bank (["Karak Bank":(["rounds":163,"nuggets":10,"rupies":1310,"imperials":370749,"open":1495984322,"last trans":"withdrawal","audit":"({ OBJ(ouphe /domains/crystal_reaches/towns/karak/npc/teller#73397), OBJ(ouphe /domains/crystal_reaches/towns/karak/npc/teller#73397), OBJ(/verbs/common/ask), OBJ(furthal /secure/save/players/f/furthal) })","orcteef":5,"last time":1498450748,"bloodgems":135,]),])
+CraftingRecipes ({})
+SpellBook (["missile":100,"buffer":100,"disperse protections":19,"shock":34,"sense weakness":25,"curse":100,"animate dead":20,"cloud kill":91,"capsule":100,"ice ball":100,"skull of darkness":1,"wound":100,"unshackle servant":1,"undying vitality":11,"bone shell":100,"poison sphere":1,"spirit call":100,"acid blast":100,"acid rain":45,"fireball":1,"transmutation":100,"will o' wisp":100,"shroud":100,"aura":100,"sphere":25,"locate zombie":5,"speak with dead":7,"acid splash":100,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Heinous Despoiler of Life's Essence","the Mage Slayer","the Silencer of Songs","the Depraved Manipulator of Darkness","the Horde Raider","the Envoy of the Horde","the Errand Dog","the Organ Carrier","the Runner","the Vampire Hunter","the Zombie Slayer","the Apprentice of Darkness","the Bird Watcher","the Horde Spoliator","the Explorer","the Feather Ruffler","of Karak",})
+Story "When Furthal was young, he would see the older orcs go on raiding trips, and bring home riches and stories of other places. The reavers were the most deadly group of raiders in town and often raided further out that the others. Full of wanderlust, and a desire to also raid against the elves, he took up the trials for being a reaver. He is always listening for new places to raid, and new treasures to bring home."
+Surname 0
+ApprovedStory 1
+OOCName "Aaron"
+Quests ({(/1495933655,"Newbie Book",/),(/1495981935,"Chicken Coop",/),(/1495983056,"Explored Grove",/),(/1496102885,"Keep Infiltration",/),(/1496104513,"Bird Watcher",/),(/1496280042,"Tower Assault 1",/),(/1497320539,"Tower Assault 2",/),(/1497320859,"Message to Kresh",/),(/1497321187,"Organ Delivery",/),(/1497411460,"Message to Gwonish",/),(/1497411676,"Message to Sklaag",/),(/1497412560,"Storm the Keep",/),(/1497558883,"Singers of Song",/),(/1497586443,"Silence the Mage",/),})
+Deaths ({(/1496550731,"neffelin",/),(/1497408362,"desert nomad",/),})
+DevelopmentPoints 74
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 83
+LastLevel 1497763956
+HighestLevel 28
+LongDaemonData ({"light red","brown","light green","spongy","thick matted hair that lies in patches on $POS body.",})
+PermanentProperties (["animate_zombie":"/std/spells/obj/animate_zombie#4111",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

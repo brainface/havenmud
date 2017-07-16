@@ -1,0 +1,48 @@
+#/lib/special/vehicle.c
+Opacity 100
+DamagePoints 2719950
+MaxDamagePoints 3200000
+PreventGet ""
+DisableChance 50
+ProperNoun 1
+Short "the dreadnaught Three Sheets to the Wind"
+CapName "Three Sheets to the Wind"
+ExternalDesc "This is the dreadnaught Three Sheets to the Wind."
+Items (["glowing line":"Glowing a pale flickering blue, the lines mark an area of some great magic.","lines":"Glowing a pale flickering blue, the lines mark an area of some great magic.","line":"Glowing a pale flickering blue, the lines mark an area of some great magic.",])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","SensorSuite","DriveSystem","VehicleSize","Owner","Captain","BridgeDescription","WeaponSystem","DamagedSystems","CurrentLocation","VehicleName","ShipStyle","Crystals","ShieldSystem","VId","VLong","VShort","Crew",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Keys ({})
+CanClose 1
+Messages (["come":"$N enters.","telin":"$N comes out of nowhere.","leave":"$N leaves $D.","telout":"$N goes into nowhere.",])
+VehicleName "Three Sheets to the Wind"
+CurrentLocation "/domains/southern_coast/towns/haven/room/wharf"
+BridgeDescription "The bridge of the ship is clean and sparkles with newness."
+Owner "alessia"
+Captain "fortunado"
+ShipStyle "human"
+SensorSuite 4
+DriveSystem 4
+VehicleSize 16.000000
+WeaponSystem 16
+ShieldSystem 8
+Crystals 6402
+hasAttacked ({})
+LastSave 1497670465
+DamagedSystems ({"shield",})
+VId ({"dreadnaught","ship","Three Sheets to the Wind","ship5947",})
+VLong "This is the dreadnaught Three Sheets to the Wind."
+VShort "the dreadnaught Three Sheets to the Wind"
+ShipEnemies ({})
+Crew ({"marroc",})
+UniqueVehicleId "ship8232"

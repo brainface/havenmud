@@ -1,0 +1,6 @@
+Reported by: Verlischk (fuzzydemon84@hotmail.com)
+Time       : Sun Oct 16 11:09:53 2016
+Type       : unexplained behaviour
+Location   : ^CR/~t/karak/room/cemetery
+Status     : NEW
+Bug        : zarzul here doesn't successfully cast his starting spells, might be due to metal in his armour, or something else. should check it out

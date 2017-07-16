@@ -1,0 +1,4 @@
+To Test:
+
+npc/
+barkeep.c:  function Blah upon SetEncounter()

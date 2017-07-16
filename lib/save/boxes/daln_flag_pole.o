@@ -1,0 +1,31 @@
+#/realms/torak/dalnairn/obj/flag_pole.c
+MaxDamagePoints 20000
+PreventGet "The flagpole refuses to budge."
+DisableChance 50
+Mass 5000
+ShortSuffixes ([])
+Short "a tall mithril flagpole"
+CapName "Pole"
+ExternalDesc "This is a tall flagpole made of mithril."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","BoxInventory",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({"mithril",})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Closed 1
+Keys ({})
+Locked 1
+LockStrength 25
+CanClose 1
+CanLock 1
+BoxInventory ({"([\"Value\":0,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/torak/dalnairn/obj/jolly_rose\",\"Broken\":0,\"DamagePoints\":100,\"Poison\":0,])",})
+BoxID "daln_flag_pole"

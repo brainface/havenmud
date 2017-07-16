@@ -1,0 +1,16 @@
+#/domains/estates/virtual/upper_estate.c
+AmbientLight 35
+InternalDesc "This is the Inside of a dressing chamber. A white bed with golden bed posts is made neatly. A manequin of human shape is empty standing in the northeastern corner. Along the west side wall is a great window revealing the street. Undeneathe the window is a stand with red ribbons and books in order and neatness. The floor is covered in a plush white carpet. There is a holy feeling inside this room as if blessed by a priest."
+Opacity 100
+ProperNoun 1
+Short "Inside a Small Keep"
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1213757648
+Town "Haven"
+Saved ({"ELong","EShort","Owner",})
+ELong "This is the Inside of a dressing chamber. A white bed with golden bed posts is made neatly. A manequin of human shape is empty standing in the northeastern corner. Along the west side wall is a great window revealing the street. Undeneathe the window is a stand with red ribbons and books in order and neatness. The floor is covered in a plush white carpet. There is a holy feeling inside this room as if blessed by a priest."
+EShort "Inside a Small Keep"
+Owner "Houron"

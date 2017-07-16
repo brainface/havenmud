@@ -1,0 +1,145 @@
+#/secure/save/players/d/dzames.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N of Lisht (Lisht gnoll)"
+CapName "Dzames"
+ExternalDesc 0
+Invisible 0
+Items ([])
+Inventory ({"([\"Size\":16,\"ExternalDesc\":\"A thick coating of frost and ice. It seems unnaturally flexible for the material involved, yet it gathers and hardens when struck.\",\"Value\":0,\"ArmourType\":131072,\"Worn\":({\"torso\",}),\"Broken\":0,\"Deterioration\":0,\"Poison\":0,\"ArmourClass\":4,\"Mass\":500,\"#base_name#\":\"/std/spells/obj/fa_armour\",\"Id\":({\"frost armour\",\"frost_armour\",\"cuirass\",}),\"Short\":\"a thin frosty cuirass\",\"DamagePoints\":0,])","([\"Size\":16,\"ExternalDesc\":\"A thick coating of frost and ice. It seems unnaturally flexible for the material involved, yet it gathers and hardens when struck.\",\"Value\":0,\"ArmourType\":16,\"Worn\":({\"left foot\",}),\"Broken\":0,\"Deterioration\":0,\"Poison\":0,\"ArmourClass\":4,\"Mass\":500,\"#base_name#\":\"/std/spells/obj/fa_armour\",\"Id\":({\"frost armour\",\"frost_armour\",\"boot\",}),\"Short\":\"a thin frosty boot\",\"DamagePoints\":0,])","([\"Size\":16,\"ExternalDesc\":\"A thick coating of frost and ice. It seems unnaturally flexible for the material involved, yet it gathers and hardens when struck.\",\"Value\":0,\"ArmourType\":131072,\"Worn\":({\"left arm\",}),\"Broken\":0,\"Deterioration\":0,\"Poison\":0,\"ArmourClass\":4,\"Mass\":500,\"#base_name#\":\"/std/spells/obj/fa_armour\",\"Id\":({\"frost armour\",\"frost_armour\",\"cuirass\",}),\"Short\":\"a thin frosty cuirass\",\"DamagePoints\":0,])","([\"Size\":16,\"ExternalDesc\":\"A thick coating of frost and ice. It seems unnaturally flexible for the material involved, yet it gathers and hardens when struck.\",\"Value\":0,\"ArmourType\":16,\"Worn\":({\"right foot\",}),\"Broken\":0,\"Deterioration\":0,\"Poison\":0,\"ArmourClass\":4,\"Mass\":500,\"#base_name#\":\"/std/spells/obj/fa_armour\",\"Id\":({\"frost armour\",\"frost_armour\",\"boot\",}),\"Short\":\"a thin frosty boot\",\"DamagePoints\":0,])","([\"Size\":16,\"ExternalDesc\":\"A thick coating of frost and ice. It seems unnaturally flexible for the material involved, yet it gathers and hardens when struck.\",\"Value\":0,\"ArmourType\":1024,\"Worn\":({\"right leg\",}),\"Broken\":0,\"Deterioration\":0,\"Poison\":0,\"ArmourClass\":4,\"Mass\":500,\"#base_name#\":\"/std/spells/obj/fa_armour\",\"Id\":({\"frost armour\",\"frost_armour\",\"greave\",}),\"Short\":\"a thin frosty greave\",\"DamagePoints\":0,])","([\"Size\":16,\"ExternalDesc\":\"A thick coating of frost and ice. It seems unnaturally flexible for the material involved, yet it gathers and hardens when struck.\",\"Value\":0,\"ArmourType\":256,\"Worn\":({\"head\",}),\"Broken\":0,\"Deterioration\":0,\"Poison\":0,\"ArmourClass\":4,\"Mass\":500,\"#base_name#\":\"/std/spells/obj/fa_armour\",\"Id\":({\"helm\",\"frost armour\",\"frost_armour\",}),\"Short\":\"a thin frosty helm\",\"DamagePoints\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({"non",})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","oe":"oocemote $*","p":"who",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","ga":"get all $*","se":"go southeast","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({163,50,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 242677
+WhereBlock 0
+Brief 0
+LoginTime 1498100263
+BirthTime 1316617088
+Password "daemgihb!fholgijem`ehhjenkbnbamnchnmimhkc"
+Email "brainface_mike@yahoo.com"
+RealName "Dzames"
+Rank 0
+LoginSite "/realms/mahkefel/room/offroom"
+HostSite "cpe-172-73-117-211.carolina.res.rr.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 100
+Experience 15150
+Skills (["multi-weapon":(["class":1,"level":402,]),"cloth armour":(["class":1,"level":200,]),"swashbuckling":(["class":1,"level":64,]),"dirty tricks":(["class":1,"level":100,]),"navigation":(["class":2,"level":604,]),"ice magic":(["class":1,"level":30,]),"vocal music":(["class":1,"level":100,]),"combat rage":(["class":4,"level":64,]),"disarm":(["class":4,"level":604,]),"knife combat":(["class":2,"level":100,]),"pierce combat":(["class":1,"level":64,]),"mithril working":(["class":4,"level":100,]),"faith":(["class":1,"level":200,]),"necromancy":(["class":1,"level":30,]),"plate armour":(["class":1,"level":200,]),"swimming":(["class":2,"level":604,]),"bargaining":(["class":4,"level":604,]),"sword slinging":(["class":1,"level":300,]),"natural working":(["class":2,"level":100,]),"illusion":(["class":1,"level":200,]),"sailing":(["class":1,"level":402,]),"blunt combat":(["class":4,"level":604,]),"enchantment":(["class":1,"level":200,]),"hack combat":(["class":4,"level":70,]),"poison magic":(["class":1,"level":70,]),"evokation":(["class":2,"level":850,]),"reinforced armour":(["class":4,"level":604,]),"metal working":(["class":1,"level":200,]),"melee combat":(["class":2,"level":0,]),"stealth":(["class":1,"level":100,]),"instrumental music":(["class":1,"level":100,]),"accuracy":(["class":1,"level":100,]),"slash combat":(["class":1,"level":800,]),"conjuring":(["class":1,"level":30,]),"natural armour":(["class":4,"level":604,]),"stealing":(["class":1,"level":100,]),"mining":(["class":4,"level":50,]),"armour smithing":(["class":1,"level":50,]),"disorient":(["class":4,"level":604,]),"healing":(["class":1,"level":400,]),"berserking":(["class":1,"level":100,]),"natural magic":(["class":1,"level":200,]),"fishing":(["class":4,"level":604,]),"leather armour":(["class":4,"level":604,]),"wood working":(["class":1,"level":100,]),"pole combat":(["class":2,"level":604,]),"skinning":(["class":2,"level":604,]),"practical magic":(["class":1,"level":300,]),"leather working":(["class":2,"level":604,]),"textile working":(["class":1,"level":50,]),"farming":(["class":4,"level":50,]),"dodge":(["class":4,"level":800,]),"parry":(["class":4,"level":800,]),])
+Morality 1305
+CanMulti 1
+Class "reaver"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Anteky","Anteky",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Conditions 0
+Enemies ({})
+SpecialTargets ({0,})
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Parva":-48,"Gurov":-2,"Malveillant":-1,"Lisht":50,"Tairi":-2,"Haven":-2,])
+OpposingFactions (["Gwonish":"Lloryk","Lloryk":"Gwonish","Haven":"Malveillant","Karak":"Glimmerdin","Malveillant":"Haven","Glimmerdin":"Karak",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 450
+MagicPoints 300
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 55973
+Drink 6713
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 350.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right foot":(["armours":240,"children":({}),"health":110,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":210,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":410,"class":1,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":110,"class":4,"parent":"left leg",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":210,"class":2,"parent":"torso",]),"left leg":(["armours":525472,"children":({"left foot",}),"health":210,"class":2,"parent":"torso",]),"torso":(["armours":686080,"children":({"head","left leg","left arm","right arm","right leg",}),"health":410,"class":1,"parent":0,]),"right hand":(["armours":98318,"children":({}),"health":110,"class":4,"parent":"right arm",]),"left hand":(["armours":98318,"children":({}),"health":110,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":210,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 32
+LightSensitivity ({10,70,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65406,"high":0,"medium":128,])
+Stats (["agility":(["class":3,"points":0,"level":29,]),"wisdom":(["class":3,"points":0,"level":27,]),"coordination":(["class":4,"points":0,"level":21,]),"strength":(["class":3,"points":0,"level":30,]),"intelligence":(["class":3,"points":0,"level":25,]),"luck":(["class":3,"points":0,"level":25,]),"durability":(["class":2,"points":0,"level":40,]),"charisma":(["class":5,"points":0,"level":21,]),])
+Languages (["heyami":(["native":1,"name":"Heyami","points":0,"level":100,]),"common":(["native":0,"name":"common","points":0,"level":100,]),"gryshnak":(["native":1,"name":"Gryshnak","points":0,"level":100,]),"rehshai":(["native":1,"name":"Rehshai","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Parva"
+Race "gnoll"
+Gender "male"
+Nationality "Lisht"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1495827469
+Cooldowns ([])
+Currency ([])
+Bank ([])
+CraftingRecipes ({"white linen headband","silver ruby necklace","bamboo spike","iron ingot","bronze ingot","gold ingot","silver ingot","gilded birdcage","ouroboros ring","mithril ingot",})
+SpellBook (["mend bones":100,"missile":1,"fireburst":2,"mind over matter":1,"dispel invisibility":1,"animate dead":100,"detect morality":1,"planar wisdom":1,"exodus":100,"discern killer":1,"cave in":100,"planar strength":1,"anti magic field":1,"mesmer barrier":1,"telepathy":1,"fireball":1,"create energy mine":1,"sphere":1,"avalanche":1,"summon lesser effigy":100,"carrier of the blessed plague":100,"venomous blood":1,"fimbulwinter":100,"thunderstrike":100,"energy field":1,"mage's bane":1,"blindness":1,"heat":100,"shock":1,"whirlwind":100,"energy wall":100,"chain lightning":1,"heal":100,"capsule":1,"primordial leak":100,"create magic reserve":1,"paralysis":1,"detect invisibility":1,"undying vitality":17,"planar durability":1,"detect magic":1,"create voodoo doll":100,"haste":1,"create food":1,"steam flash":100,"create staff":51,"channeling":1,"temporal barrier":100,"aura":1,"advanced chain lightning":1,"seal flesh":100,"temperature shield":1,"ice floe":100,"bolt":1,"invisibility":2,"burnt offering":100,"frostbite":1,"buffer":1,"charm animal":1,"soul gaze":100,"create frost armour":100,"clairvoyance":1,"disintegrate":1,"unshackle servant":100,"rain of fire":100,"divine elemental resistance":1,"alarm":1,"bless":100,"banefire":100,"earth touch":1,"poison sphere":100,"create water":2,"ethereal touch":1,"divine cataclysm":20,"crown of flames":1,"charm sentient":1,"create light":100,"fortify":100,"planar charisma":1,"disperse protections":6,"sense weakness":100,"poison orbs":1,"create shadows":1,"ice lance":1,"discern morality":1,"leeches":100,"ice ball":100,"veil":100,"flamestrike":1,"unravel wards":7,"planar intelligence":1,"fortress of solitude":100,"unkind gossip":27,"lightning blast":100,"reveal soul":100,"lava storm":100,"shield area":1,"detect magic fully":1,"imperious command":100,])
+SongBook (["reveillez":100,"song of sorrow":100,])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"of Lisht",})
+Story "This is the song that never ends. it just goes on and on my friend.123456789012This is the song that never ends. it just goes on and on my friend.123456789012This is the song that never ends. it just goes on and on my friend.123456789012This is the song that never ends. it just goes on and on my friend.123456789012This is the song that never ends. it just goes on and on my friend.123456789012"
+Surname 0
+ApprovedStory 1
+OOCName 0
+Quests ({(/1316617113,"Newbie Book",/),})
+Deaths ({(/1316620094,"elemental",/),(/1316727479,"squid",/),(/1316888555,"alessandra",/),(/1317335806,"extreme temperature",/),(/1317410901,"scalawag",/),(/1317411026,"donnie",/),(/1317411199,"donnie",/),(/1317411480,"donnie",/),(/1317412264,"donnie",/),(/1317412557,"donnie",/),(/1317413630,"bleeding",/),(/1317442604,"extreme temperature",/),(/1317445543,"penguin",/),(/1317691498,"donnie",/),(/1317767862,"scion",/),(/1318966833,"witch",/),(/1318981000,"duuk",/),(/1319350774,"penguin",/),(/1319350913,"penguin",/),(/1319350971,"penguin",/),(/1319351148,"penguin",/),(/1321983414,"witch",/),(/1321985368,"witch",/),(/1321985456,"witch",/),(/1323142851,"witch",/),(/1323302587,"shalnarleth",/),(/1323540867,"penguin",/),(/1323540939,"penguin",/),(/1323541019,"penguin",/),(/1337380376,"shuggoth",/),(/1352324145,"snarf",/),(/1352326054,"dzames",/),(/1352327468,"dzames",/),(/1356965907,"atrus",/),(/1386105270,"cow",/),(/1386113843,"tulu cultist priest",/),(/1386114053,"tulu cultist priest",/),(/1393879304,"duuk",/),(/1398889073,"dzames",/),(/1416777238,"duuk",/),(/1417737210,"marroc",/),(/1417737334,"marroc",/),(/1449196815,"duuk",/),(/1495827469,"rodrigo de vivar",/),(/1495827589,"rodrigo de vivar",/),(/1495828189,"rodrigo de vivar",/),(/1495828231,"rodrigo de vivar",/),(/1496421963,"duuk",/),(/1496524228,"torak",/),(/1496713900,"duuk",/),(/1496719056,"dzames",/),})
+DevelopmentPoints 460
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 1
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 76
+LastLevel 1316617227
+HighestLevel 155
+LongDaemonData ({0,0,0,0,0,})
+PermanentProperties (["defaultlanguage":"common","status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

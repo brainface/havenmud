@@ -1,0 +1,19 @@
+#/domains/estates/virtual/main_estate.c
+AmbientLight 35
+NoClean 1
+InternalDesc "This small, rickety wooden shack has been painted in pastel colors by some optimist. Rusty surgical tools hang from pegs above bloodstained tables and poorly drawn charts of human and elven anatomy line the walls. In one corner, a mangy stuffed bear with one eye sits on a small cot, apparently the children's wing."
+Opacity 100
+ProperNoun 1
+Short "A small shack proudly displaying the sign \"Amadeo Discount Hospital\""
+Items ([])
+Domain "Estates"
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1311315673
+Town "Parva"
+Saved ({"EOut","ELong","EShort","Owner",})
+ELong "This small, rickety wooden shack has been painted in pastel colors by some optimist. Rusty surgical tools hang from pegs above bloodstained tables and poorly drawn charts of human and elven anatomy line the walls. In one corner, a mangy stuffed bear with one eye sits on a small cot, apparently the children's wing."
+EShort "A small shack proudly displaying the sign \"Amadeo Discount Hospital\""
+EOut "/domains/havenwood/towns/parva/room/path6"
+Owner "Casmin"

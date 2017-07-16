@@ -1,0 +1,143 @@
+#/secure/save/players/d/devlin.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Lord Merchant (Haven elf) (undead)"
+CapName "Devlin"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","gac":"get all from $* corpse","w":"go west","u":"go up","out":"go out","s":"go south","cc":"cook corpse $*","r":"read sign $*","hh":"farm with a hoe $*","oe":"oocemote $*","p":"who","mm":"mine with a pick $*",".":"status","n":"go north","l":"look $*","k":"kill $*","i":"inventory","g":"get all $*","rk":"repair dagger $*","e":"go east","ff":"fish with a pole $*","d":"go down","pp":"protections","nw":"go northwest","ka":"kill all","exa":"look at $*","sw":"go southwest","..":"skills","ss":"skin corpse $*","...":"spells","ne":"go northeast","ga":"get all $*","se":"go southeast","gcc":"get coins from $* corpse",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "xterm"
+Blocked ([])
+Screen ({42,31,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 266883
+WhereBlock 0
+Brief 0
+LoginTime 1468990835
+BirthTime 1467009861
+Password "bndogcam!ghl`n`olfonjfmebjlaajkoka`ddjl`i"
+Email "druwidaalimii@gmail.com "
+RealName "Devlin"
+Rank 0
+LoginSite "/domains/southern_coast/towns/haven/room/cemetery"
+HostSite "99-92-228-245.lightspeed.cicril.sbcglobal.net"
+WebPage 0
+AdditionalId ({"zombie",})
+Ranks ({"citizen","Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 26
+Experience 0
+Skills (["metal working":(["class":2,"level":25,]),"cloth armour":(["class":4,"level":25,]),"navigation":(["class":4,"level":15,]),"slash combat":(["class":2,"level":0,]),"knife combat":(["class":2,"level":40,]),"mining":(["class":1,"level":51,]),"armour smithing":(["class":2,"level":25,]),"healing":(["class":3,"level":18,]),"fishing":(["class":1,"level":54,]),"wood working":(["class":2,"level":30,]),"skinning":(["class":2,"level":52,]),"weapon smithing":(["class":2,"level":25,]),"swimming":(["class":3,"level":25,]),"leather working":(["class":2,"level":25,]),"bargaining":(["class":1,"level":54,]),"textile working":(["class":2,"level":25,]),"natural working":(["class":2,"level":25,]),"farming":(["class":1,"level":51,]),"dodge":(["class":4,"level":25,]),"sailing":(["class":4,"level":15,]),"cooking":(["class":2,"level":52,]),])
+Morality 2500
+CanMulti 1
+Class "merchant"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gwonish":-4,"Lloryk":2,"Haven":100,"Malveillant":-50,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 8
+Undead 1
+UndeadType "zombie"
+HealthPoints 390
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 459
+Drink 460
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 460.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":350,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":180,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":90,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":90,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":180,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":350,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":180,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":90,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":180,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":90,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({17,73,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":42,]),"wisdom":(["class":3,"points":0,"level":40,]),"coordination":(["class":3,"points":0,"level":38,]),"strength":(["class":4,"points":0,"level":41,]),"intelligence":(["class":1,"points":0,"level":48,]),"luck":(["class":4,"points":0,"level":33,]),"durability":(["class":3,"points":0,"level":34,]),"charisma":(["class":1,"points":0,"level":55,]),])
+Languages (["draconian":(["native":0,"name":"Draconian","points":1000,"level":80,]),"barian":(["native":0,"name":"Barian","points":1000,"level":100,]),"trog":(["native":0,"name":"Trog","points":1000,"level":100,]),"uruk":(["native":0,"name":"Uruk","points":1000,"level":100,]),"sprith":(["native":0,"name":"Sprith","points":1000,"level":100,]),"heyami":(["native":0,"name":"Heyami","points":1000,"level":75,]),"koblich":(["native":0,"name":"Koblich","points":1000,"level":100,]),"padashi":(["native":0,"name":"Padashi","points":1000,"level":100,]),"oiseau":(["native":0,"name":"Oiseau","points":1000,"level":100,]),"eetria":(["native":0,"name":"Eetria","points":211,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),"shangtai":(["native":0,"name":"Shangtai","points":1000,"level":75,]),"slith":(["native":0,"name":"Slith","points":476,"level":100,]),"imperial":(["native":0,"name":"Imperial","points":1000,"level":100,]),"enlan":(["native":0,"name":"Enlan","points":1000,"level":100,]),"skavish":(["native":0,"name":"Skavish","points":1000,"level":100,]),"archaic":(["native":0,"name":"Archaic","points":1000,"level":20,]),"dragonish":(["native":0,"name":"Dragonish","points":1000,"level":80,]),"gryshnak":(["native":0,"name":"Gryshnak","points":350,"level":100,]),"gurovian":(["native":0,"name":"Gurovian","points":1000,"level":100,]),"tai":(["native":0,"name":"Tai","points":1000,"level":100,]),"gobyshkin":(["native":0,"name":"Gobyshkin","points":1000,"level":100,]),"dasinri":(["native":0,"name":"Dasinri","points":1000,"level":75,]),"runic":(["native":0,"name":"Runic","points":1000,"level":100,]),"blaodric":(["native":0,"name":"Blaodric","points":1000,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Haven"
+Race "elf"
+Gender "male"
+Nationality "Haven"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1468707782
+Currency ([])
+Bank (["The Bank of Malveillant":(["audit":"({ OBJ(karin /domains/havenwood/towns/malveillant/npc/karin#152806), OBJ(karin /domains/havenwood/towns/malveillant/npc/karin#152806), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","last time":1467573496,"open":1467573496,"last trans":"opened account","roni":5,]),"Sanctum Moneychanger":(["audit":"({ OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#112208), OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#112208), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","last time":1467419997,"open":1467419997,"imperials":5,"last trans":"opened account",]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#106943), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#106943), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","last time":1467365805,"imperials":5,"open":1467365805,"last trans":"opened account",]),"Sulumus Bank":(["audit":"({ OBJ(bujak /domains/peninsula/areas/sulumus/npc/teller#148958), OBJ(bujak /domains/peninsula/areas/sulumus/npc/teller#148958), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","last time":1467544580,"open":1467544580,"imperials":5,"last trans":"opened account",]),"Tugrik's Pouch":(["rounds":2,"audit":"({ OBJ(tugrik /domains/southern_coast/towns/kresh/npc/bank#103139), OBJ(tugrik /domains/southern_coast/towns/kresh/npc/bank#103139), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","last time":1467349846,"open":1467349814,"last trans":"withdrawal",]),"Grymxoria Bank":(["audit":"({ OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#385047), OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#385047), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","last time":1468412003,"open":1468412003,"last trans":"opened account","bloodgems":5,]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#154393), OBJ(magna /domains/havenwood/towns/parva/npc/banker#154393), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","oros":5,"last time":1467579066,"open":1467579066,"last trans":"opened account",]),"Bank of Glimmerdin":(["audit":"({ OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#126233), OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#126233), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","nuggets":5,"last time":1467465936,"open":1467465936,"last trans":"opened account",]),"Karak Bank":(["audit":"({ OBJ(ouphe /domains/crystal_reaches/towns/karak/npc/teller#144504), OBJ(ouphe /domains/crystal_reaches/towns/karak/npc/teller#144504), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","orcteef":5,"last time":1467535974,"open":1467535974,"last trans":"opened account",]),"Havenwood Bank":(["audit":"({ OBJ(naili /domains/havenwood/towns/havenwood/npc/teller#151817), OBJ(naili /domains/havenwood/towns/havenwood/npc/teller#151817), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","last time":1467572044,"imperials":5,"open":1467572044,"last trans":"opened account",]),"Jidoor Bank":(["audit":"({ OBJ(purlad /domains/valley/towns/jidoor/npc/purlad#127697), OBJ(purlad /domains/valley/towns/jidoor/npc/purlad#127697), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","rupies":5,"last time":1467468409,"open":1467468409,"last trans":"opened account",]),"Shire Trade Commissariat":(["rounds":5,"audit":"({ OBJ(keller /domains/crystal_reaches/towns/lloryk/npc/keller#128932), OBJ(keller /domains/crystal_reaches/towns/lloryk/npc/keller#128932), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","last time":1467470873,"open":1467470873,"last trans":"opened account",]),"Gurov Treasury":(["audit":"({ OBJ(grimble /domains/gurov/towns/gurov/npc/treasurer#113655), OBJ(grimble /domains/gurov/towns/gurov/npc/treasurer#113655), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","last time":1467421762,"open":1467421762,"rubles":5,"last trans":"opened account",]),"the Barian Jungle Bank":(["audit":"({ OBJ(pakal /domains/baria/towns/baria/npc/pakal#182041), OBJ(pakal /domains/baria/towns/baria/npc/pakal#182041), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","chits":5,"last time":1467697435,"open":1467697435,"last trans":"opened account",]),"Yozrath Trust":(["audit":"({ OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#567064), OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#567064), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","dinar":1000000,"last time":1468866060,"open":1468537816,"last trans":"deposit",]),"Keryth Bank":(["senones":5,"audit":"({ OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#183579), OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#183579), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","last time":1467698585,"open":1467698585,"last trans":"opened account",]),"Arcanith":(["audit":"({ OBJ(lotai /domains/frostmarches/towns/arcanith/npc/banker#188347), OBJ(lotai /domains/frostmarches/towns/arcanith/npc/banker#188347), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","senones":5,"last time":1467709264,"open":1467709264,"last trans":"opened account",]),"First Bank of Soleil":(["audit":"({ OBJ(aegri portare /domains/westwood/towns/soleil/npc/banker_aegri#106269), OBJ(aegri portare /domains/westwood/towns/soleil/npc/banker_aegri#106269), OBJ(/verbs/common/ask), OBJ(devlin /secure/save/players/d/devlin) })","cuicui":5,"last time":1467365355,"open":1467365355,"last trans":"opened account",]),])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Lord Merchant","the Forager","the Merchant","the fortune seeker","the Blueberry Picker","the Organ Carrier","the Bird Watcher","of Haven","the Envoy of Haven Town","the Haven Town Courier","the Haven Town Messenger","the Haven Town Runner","the Bandit Slayer","the Haven Tourist","the Platypus Skinner","the Vacationer","the Equipped","the Explorer",})
+Story "Devlin of Haven grew up an orphan, housed as a child by the charity of town residents. As xe grew xe began running odd jobs for a variety of local businesses, trading hir youthful strength and energy for spare coin and occasional lessons. Sharp eyes and ears made hir a natural at both fixing up old and broken down items as well as picking up snippets of new languages. As a young adult, xe put these talents to good use by training as a traveling merchant, and is setting out to travel the long roads driven by a curiosity about the world and a desire to see and taste all it has to offer."
+Surname 0
+ApprovedStory 1
+OOCName 0
+Quests ({(/1467009964,"Newbie Book",/),(/1467012431,"Bandit Camp",/),(/1467013443,"Leather Emporium",/),(/1467013675,"Platypus Bay",/),(/1467014335,"Message Courier",/),(/1467016415,"Platypus Skinner",/),(/1467018044,"Haven Tour",/),(/1467018879,"Bandit Slayer",/),(/1467176467,"Message Courier pt 2",/),(/1467237848,"Message Courier pt 3",/),(/1467291947,"Message Courier pt 4",/),(/1467520860,"Bird Watcher",/),(/1467571795,"Organ Delivery",/),(/1467572435,"Rabbit Food",/),(/1467724029,"Blueberry Picker",/),(/1468567253,"Desert Fruit",/),})
+Deaths ({(/1467711788,"ravening oilhorse",/),(/1468966380,"hunger",/),})
+DevelopmentPoints 2
+TitleLength 1
+TitleAnd 0
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 206
+LastLevel 1468578940
+HighestLevel 26
+LongDaemonData ({"hazel","light brown","almond","fair",0,})
+PermanentProperties (["defaultlanguage":"sprith",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

@@ -1,0 +1,13 @@
+#/domains/estates/virtual/upper_estate.c
+AmbientLight 35
+Opacity 100
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1326602026
+Town "Gwonish"
+Saved ({"ELong","EShort","Owner",})
+ELong "This is an empty, unfurnished keep. It is quite bare."
+EShort "inside an Estate"
+Owner "Sarlacc"

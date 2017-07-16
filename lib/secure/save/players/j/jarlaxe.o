@@ -1,0 +1,143 @@
+#/secure/save/players/j/jarlaxe.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Forager (Malveillant dark-elf)"
+CapName "Jarlaxe"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":-1,\"Mass\":20,\"Portions\":4,\"MealStrength\":100,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/food/steak\",\"MealType\":2,\"Broken\":0,\"Short\":\"a large, juicy steak\",\"Long\":\"This is a large, juicy steak.  It is well done.\",\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":850,\"Mass\":80,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/robe\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":850,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":550,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":700,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":550,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":700,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":550,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":700,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":550,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":700,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":550,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":700,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":550,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":700,\"Poison\":0,])","([\"Value\":550,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":700,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":550,\"Mass\":40,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":700,\"Poison\":0,])","([\"Value\":400,\"Mass\":30,\"Worn\":0,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/misc/rose\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/misc/rose\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/misc/rose\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/misc/rose\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":300,\"Mass\":140,\"Worn\":({\"right arm\",\"left arm\",\"torso\",}),\"#base_name#\":\"/domains/southern_coast/areas/beornwulf_keep/obj/banded\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":900,\"Poison\":0,])","([\"Value\":35,\"Mass\":5,\"Worn\":({\"head\",}),\"#base_name#\":\"/std/invasions/haven_pirate/obj/hat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":40,\"Poison\":0,])","([\"Value\":75,\"Mass\":25,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/invasions/haven_pirate/obj/boots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":56,\"Poison\":0,])","([\"Value\":4,\"Mass\":2,\"Worn\":({\"torso\",}),\"#base_name#\":\"/std/invasions/haven_pirate/obj/belt\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":27,\"Poison\":0,])","([\"Value\":55,\"Mass\":15,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/std/invasions/haven_pirate/obj/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":150,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":984,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":925,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/misc/dayofroses\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":20,\"Worn\":({\"right hand\",}),\"Class\":7,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/weapons/cleric_knife\",\"Broken\":0,\"DamagePoints\":216,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/std/clothing/coat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":987,\"Poison\":0,])","([\"Value\":10,\"Mass\":215,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/peninsula/virtual/obj/staff\",\"Broken\":0,\"DamagePoints\":980,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","oe":"oocemote $*","p":"who",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","ga":"get all $*","se":"go southeast","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({99,66,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 36453
+WhereBlock 0
+Brief 0
+LoginTime 1488638826
+BirthTime 1487315646
+Password "omefhafi!m`ogkjfidkjnjggael``adineagbhaad"
+Email "opi_wan_kenopi84@yahoo.com"
+RealName "Jake"
+Rank 0
+LoginSite "/domains/havenwood/towns/malveillant/rooms/center1"
+HostSite "cpe-24-166-252-100.cinci.res.rr.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 21
+Experience 11859
+Skills (["reinforced armour":(["class":2,"level":1,]),"cloth armour":(["class":2,"level":7,]),"metal working":(["class":4,"level":0,]),"stealth":(["class":2,"level":1,]),"chain armour":(["class":2,"level":3,]),"knife combat":(["class":1,"level":34,]),"faith":(["class":1,"level":43,]),"necromancy":(["class":1,"level":42,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":0,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":2,]),"skinning":(["class":4,"level":3,]),"weapon smithing":(["class":4,"level":0,]),"bargaining":(["class":2,"level":7,]),"leather working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"poison magic":(["class":2,"level":28,]),"evokation":(["class":1,"level":42,]),])
+Morality -2500
+CanMulti 1
+Class "priest"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Soirin","Soirin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Parva":-2,"Haven":-45,"Malveillant":90,"Soleil":-52,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 400
+MagicPoints 500
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 642
+Drink 417
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 410.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":90,]),"head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":360,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":180,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":90,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":180,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":360,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":180,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":90,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":180,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":90,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({-25,60,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":39,]),"wisdom":(["class":4,"points":0,"level":45,]),"coordination":(["class":3,"points":0,"level":38,]),"strength":(["class":3,"points":0,"level":36,]),"intelligence":(["class":2,"points":0,"level":39,]),"luck":(["class":3,"points":0,"level":34,]),"durability":(["class":3,"points":0,"level":35,]),"charisma":(["class":1,"points":0,"level":52,]),])
+Languages (["eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Malveillant"
+Race "dark-elf"
+Gender "male"
+Nationality "Malveillant"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 0
+WimpyCmd "go out"
+LastWimpy 1487360727
+Currency (["rounds":741,"cuicui":2674,"rupies":3190,"imperials":9394,"roni":12131,])
+Bank (["The Bank of Malveillant":(["audit":"({ OBJ(karin /domains/havenwood/towns/malveillant/npc/karin#30306), OBJ(karin /domains/havenwood/towns/malveillant/npc/karin#30306), OBJ(/verbs/common/ask), OBJ(jarlaxe /secure/save/players/j/jarlaxe) })","last time":1487365114,"open":1487365114,"last trans":"opened account","roni":5,]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#30924), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#30924), OBJ(/verbs/common/ask), OBJ(jarlaxe /secure/save/players/j/jarlaxe) })","last time":1487365013,"imperials":5,"open":1487365013,"last trans":"opened account",]),])
+CraftingRecipes ({})
+SpellBook (["mend bones":1,"dim":1,"disperse protections":6,"holy shield":60,"curse":1,"asphyxiation":100,"flaming arrow":100,"animate dead":1,"dark burial":42,"sting":1,"skull of darkness":1,"chill touch":2,"bless":1,"protect":15,"spirit call":53,"will o' wisp":1,"transmutation":100,"poison arrow":96,"turn undead":1,"choking shadows":1,"preserve":1,"shockwave":10,"speak with dead":1,"cloak of darkness":100,"locate zombie":1,"burning hand":1,"spook":1,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Forager","the Havenroad Bandit","the Blueberry Picker","the Bandit Slayer","the Platypus Skinner","the Haven Town Runner","the Vacationer","the Equipped","the Explorer","the Tempted","of Malveillant",})
+Story "Jarlaxe Da'Gannouth was orphaned in a raid between noble houses at a young age. The winning house pushed him into training to become a Soirin priest immediately. Jarlaxe soon learned to be a ruthless killer and to take advantage of any opportunity to advance his station. His lust and avarice are sensational and he will stop at nothing to become the best of Allessandra's servants."
+Surname 0
+ApprovedStory 1
+OOCName "Jake"
+Quests ({(/1487315700,"Newbie Book",/),(/1487316037,"Bandit Camp",/),(/1487316069,"Leather Emporium",/),(/1487316097,"Platypus Bay",/),(/1487316133,"Message Courier",/),(/1487317481,"Platypus Skinner",/),(/1487318645,"Bandit Slayer",/),(/1487319317,"Rabbit Food",/),(/1487319561,"Blueberry Picker",/),(/1487528837,"Initiation",/),(/1487528849,"Havenroad Bandit",/),(/1487532713,"A Subtle Message",/),(/1488391834,"Vermin Disposal",/),(/1488493096,"Desert Fruit",/),})
+Deaths 0
+DevelopmentPoints 40
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 54
+LastLevel 1487534327
+HighestLevel 21
+LongDaemonData ({"deep blue","black","white","exotic",0,})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

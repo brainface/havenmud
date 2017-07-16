@@ -1,0 +1,17 @@
+#/domains/estates/virtual/upper_estate/Parva/Fortunado.c
+AmbientLight 35
+NoClean 1
+InternalDesc "This is an empty, unfurnished keep. It is quite bare."
+Opacity 100
+ProperNoun 1
+Short "Within a large steel vault"
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1238547555
+Town "Parva"
+Saved ({"ELong","EShort","Owner",})
+ELong "Boxes, crates, and barrels marked with the mitchmatched insignia of various shipping companies and governments are stacked from floor to ceiling. The steel walls seem impregnable, though a dent on the western side suggests someone attempted to disprove this. A king-sized canopy bed sits in the middle of the vault. It looks stolen."
+EShort "Within a large steel vault"
+Owner "Fortunado"

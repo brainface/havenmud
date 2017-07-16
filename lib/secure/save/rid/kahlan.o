@@ -1,0 +1,63 @@
+#/secure/save/immortals/k/kahlan.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Angel"
+CapName "Kahlan"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"#base_name#\":\"/std/clothing/pants\",\"Worn\":0,\"Poison\":0,\"DamagePoints\":1000,\"Deterioration\":0,\"Value\":0,\"Mass\":0,\"Broken\":0,])","([\"#base_name#\":\"/std/clothing/shirt\",\"Worn\":0,\"Poison\":0,\"DamagePoints\":1000,\"Deterioration\":0,\"Value\":0,\"Mass\":0,\"Broken\":0,])","([\"#base_name#\":\"/std/clothing/shoes\",\"Worn\":0,\"Poison\":0,\"DamagePoints\":1000,\"Deterioration\":0,\"Value\":0,\"Mass\":0,\"Broken\":0,])",})
+Messages (["come":"$N enters.","telout":"$N teleports away.","invis":"$N disappears.","dest":"$N dests $O.","telin":"$N teleports in.","leave":"$N leaves $D.","clone":"$N clones $O.","vis":"$N appears.","home":"$N goes home.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["w":"go west","se":"go southeast","gac":"get all from $* corpse","nw":"go northwest","p":"who","gcc":"get coins from $* corpse","ne":"go northeast","sw":"go southwest","l":"look $*","ka":"kill all","exa":"look at $*","..":"skills","ga":"get all $*","oe":"oocemote $*","...":"spells","u":"go up","i":"inventory",".":"status","n":"go north","e":"go east","pp":"protections","la":"look at $*","k":"kill $*","s":"go south","out":"go out","d":"go down",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({78,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 9024
+WhereBlock 0
+Brief 0
+LoginTime 1289019221
+BirthTime 1289010029
+Password "oQXVf/4NZRgwU"
+Email "kylaslack@hotmail.com"
+RealName "Kyla"
+Rank 0
+LoginSite "/domains/staff/staffroom"
+HostSite "c-98-243-20-85.hsd1.mi.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.announcements":1,])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1289019221
+Position 2
+WhoInvis 0
+Angel 1
+Retired 0
+Sponsor "None"
+Religion ({"None",})
+ReligionTitle 0
+Department 0
+Domain "None"
+DomainTitle 0
+Sponsorees ({})
+Gender "female"
+Status 0

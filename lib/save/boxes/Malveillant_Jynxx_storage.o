@@ -1,0 +1,30 @@
+#/domains/estates/virtual/boxes/Malveillant/Jynxx.c
+Opacity 100
+MaxDamagePoints 20000
+PreventGet "The box is firmly nailed to the floor."
+DisableChance 50
+Short "a large wooden chest"
+CapName "Chest"
+ExternalDesc "This large wooden box looks like it could hold much loot. It looks durable."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","BoxInventory",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Closed 1
+Keys ({"Malveillant_Jynxx_key",})
+Locked 1
+LockStrength 1250
+CanClose 1
+CanLock 1
+BoxInventory ({"([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/frostmarches/areas/wood/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":3000,\"Mass\":80,\"Worn\":0,\"#base_name#\":\"/domains/frostmarches/areas/wood/obj/armlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":200,\"Poison\":0,])","([\"Value\":3000,\"Mass\":80,\"Worn\":0,\"#base_name#\":\"/domains/frostmarches/areas/wood/obj/armlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":200,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/frostmarches/areas/wood/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/westwood/areas/monastery/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/southern_coast/areas/meadow/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1200,\"Mass\":30,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/frostmarches/areas/wood/obj/horn\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":20,\"Mass\":200,\"Worn\":0,\"Class\":9,\"#base_name#\":\"/domains/tairi/areas/hermitage/obj/knife\",\"Broken\":0,\"DamagePoints\":73,\"Poison\":0,])","([\"Value\":160,\"Mass\":200,\"Worn\":0,\"Class\":12,\"#base_name#\":\"/domains/tairi/areas/hermitage/obj/knife\",\"Broken\":0,\"DamagePoints\":487,\"Poison\":31,])",})
+BoxID "Malveillant_Jynxx_storage"

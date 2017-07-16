@@ -1,0 +1,48 @@
+#/lib/special/vehicle.c
+Opacity 100
+DamagePoints 180205
+MaxDamagePoints 1600000
+PreventGet ""
+DisableChance 50
+ShortSuffixes ([])
+ProperNoun 1
+Short "the cruiser the Broken Bottle"
+CapName "The Broken Bottle"
+ExternalDesc "This is the cruiser the Broken Bottle."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","SensorSuite","DriveSystem","VehicleSize","Owner","Captain","BridgeDescription","WeaponSystem","DamagedSystems","CurrentLocation","VehicleName","ShipStyle","Crystals","ShieldSystem","VId","VLong","VShort","Crew",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Keys ({})
+CanClose 1
+Messages (["telin":"$N comes out of nowhere.","come":"$N enters.","telout":"$N goes into nowhere.","leave":"$N leaves $D.",])
+VehicleName "the Broken Bottle"
+CurrentLocation "/domains/innersea/virtual/ocean/308,-199"
+BridgeDescription "The bridge of the ship is clean and sparkles with newness."
+Owner "fortunado"
+ShipStyle "human"
+SensorSuite 4
+DriveSystem 4
+VehicleSize 8.000000
+WeaponSystem 8
+ShieldSystem 8
+Crystals 210403
+hasAttacked ({})
+LastSave 1499645744
+DamagedSystems ({"shield",})
+VId ({"cruiser","ship","ship1911","the Broken Bottle",})
+VLong "This is the cruiser the Broken Bottle."
+VShort "the cruiser the Broken Bottle"
+ShipEnemies ({})
+Crew ({"alessia",})
+UniqueVehicleId "ship3631"

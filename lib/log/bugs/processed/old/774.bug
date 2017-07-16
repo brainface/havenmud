@@ -1,0 +1,8 @@
+Reported by: Alan (BrackDiesel@live.com)
+Time       : Thu Dec  9 20:56:20 2010
+Type       : runtime error
+Location   : /lib/special/vehicle#266150 @ ^HW/~t/parva/room/docks1
+Status     : NEW
+Bug        : Hopped in a boat and tried to sail east in Parva docks
+
+runtime happened..

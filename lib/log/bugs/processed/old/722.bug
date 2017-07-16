@@ -1,0 +1,9 @@
+Reported by: Voltic (typical.stoner@gmail.com)
+Time       : Wed Apr  7 00:40:32 2010
+Type       : idea
+Location   : ^SC/~v/havenroad/-36,0
+Status     : NEW
+Bug        : On alignment and faith spells: (2) possibilities.
+1) A "remorseless" spell where your actions do not impact your alignment for a set amount of time.
+2) Instead of not firing at all if one's alignment is not consistent with their faith's requirements, the spell will be negatively impacted by a certain percent based on how far away the character is from their stipulated alignment.
+This might help address issues where players cannot use spells mid-combat due to a same-combat death negatively impacting their alignment (based on their religion), as well as make more sense from a faith standpoint.

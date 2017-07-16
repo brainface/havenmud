@@ -1,0 +1,26 @@
+Reported by: Fortunado (brainface_mike@yahoo.com)
+Time       : Wed Aug 31 19:15:47 2011
+Type       : runtime
+Location   : ^X/~a/lake/room/3f
+*environment() of destructed object.
+Object: <none> (/lib/special/vehicle.c) at line 405
+
+'<fake>' at /secure/save/players/f/fortunado (/<driver>) at line 0
+'cmdAll' at /secure/save/players/f/fortunado (/lib/users/player.c) at line 1009
+'cmdAll' at /secure/save/players/f/fortunado (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 111
+'eventGo' at /domains/xandria/areas/lake/room/3g (/lib/rooms/exits.c) at line 78
+'eventMoveLiving' at <none> (/lib/special/vehicle.c) at line 405
+
+
+Status     : NEW
+Bug        : crazy sail west runtime I do not know what it means. logging. nothing exploded though!
+
+
+--
+Can this be reproduced by trying to sail to /domains/xandria/areas/lake/room/3g?
+It looks like there was an error with that room? or was there were you were? Something didn't exist,
+and sailing tried to get the environment of the ship, I believe, but the environment didn't exist so
+you didn't move?
+
+-Melchezidek

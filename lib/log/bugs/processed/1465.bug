@@ -1,0 +1,24 @@
+Reported by: Ilkrii (futvin@outlook.com)
+Time       : Thu Apr  7 18:27:51 2016
+Type       : runtime
+Location   : ^FM/~v/frostmarchrd/0,-3
+*call_other() couldn't find object
+Object: /domains/frostmarches/virtual/frostmarchrd/0,-3 (/lib/rooms/exits.c) at line 57
+
+'<fake>' at /secure/save/players/i/ilkrii (/<driver>) at line 0
+'cmdAll' at /secure/save/players/i/ilkrii (/lib/users/player.c) at line 1035
+'cmdAll' at /secure/save/players/i/ilkrii (/lib/livings/command.c) at line 44
+'do_go_str' at /verbs/rooms/go at line 48
+'eventGo' at /domains/frostmarches/virtual/frostmarchrd/0,-3 (/lib/rooms/exits.c) at line 57
+
+
+COMMAND HISTORY
+=================
+00706 w
+00707 e
+00708 n
+00709 s
+00710 w
+
+Status     : NEW
+Bug        : I killed a kobold just north of the jungle.  Then I tried going west.  Going west gives me a runtime error.

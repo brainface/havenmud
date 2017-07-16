@@ -1,0 +1,47 @@
+#/lib/special/vehicle.c
+Opacity 100
+DamagePoints 3200000
+MaxDamagePoints 3200000
+PreventGet ""
+DisableChance 50
+ShortSuffixes ([])
+ProperNoun 1
+Short "the dreadnaught Whorenado"
+CapName "Whorenado"
+ExternalDesc "This is the dreadnaught Whorenado."
+Items ([])
+Saved ({"Class","Worn","Poison","Value","Mass","Broken","DamagePoints","Closed","Locked","Keys","LockStrength","CanClose","CanLock","SensorSuite","DriveSystem","VehicleSize","Owner","Captain","BridgeDescription","WeaponSystem","DamagedSystems","CurrentLocation","VehicleName","ShipStyle","Crystals","ShieldSystem","VId","VLong","VShort","Crew",})
+PreventPut "You can't put this in there."
+VendorType 2
+RepairSkills ([])
+Materials ({})
+LootType 2
+Class 1
+DamageType 2
+MaxClass 1
+ArmourType 32768
+RequiredSkills ([])
+Hands 1
+WeaponType "blunt"
+Keys ({})
+CanClose 1
+Messages (["telin":"$N comes out of nowhere.","come":"$N enters.","telout":"$N goes into nowhere.","leave":"$N leaves $D.",])
+VehicleName "Whorenado"
+CurrentLocation "/domains/crystal_reaches/towns/lloryk/room/wharf"
+BridgeDescription "The bridge of the ship is clean and sparkles with newness."
+Owner "gratian"
+Captain "no-one"
+ShipStyle "human"
+SensorSuite 4
+DriveSystem 4
+VehicleSize 16.000000
+WeaponSystem 16
+Crystals 10000
+LastSave 1413404582
+DamagedSystems ({})
+VId ({"Whorenado","dreadnaught","ship6852","ship",})
+VLong "This is the dreadnaught Whorenado."
+VShort "the dreadnaught Whorenado"
+ShipEnemies ({})
+Crew ({"zombie",})
+UniqueVehicleId "ship619"

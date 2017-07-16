@@ -1,0 +1,2 @@
+#/daemon/alchemy.c
+CanCombines (["grain":(["sugar":"/std/alchemy/beer",]),"sugar":(["grain":"/std/alchemy/beer",]),])

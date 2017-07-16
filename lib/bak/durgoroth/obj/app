@@ -1,0 +1,29 @@
+arena_board.c:  SetLong(), grammer-stuff.  "and or" isn't good grammer,
+        just say "and".
+arena_board.c:  SetLong(), grammer.  shld be "include, but not limited to, "
+        (adds some commas)
+axe.c:  SetLong, grammer.  It's not a sentance!
+blood_lance.c:  SetLong, grammer.  It isn't a sentance!
+blood_sword.c:  SetLong, grammer.  first sentance not a proper sentance.
+                better:  "The broad sword has a blade of reddish metal "
+                         "that looks wickedly sharp."
+blood_sword.c:  setlong, sentance 2:  shldn't say that it looks sharp
+                anyway ... maybe something how in perfect condition it
+                is very sharp ...
+brass_knuckles.c:  SetLong, grammer:  neither sentance is grammatical.
+chainmail.c:  SetLong, grammer. sentance fragment, first sentence.
+fountain.c:  missing Id of "fountain"
+fur_cloak.c:  why would it protect against shock?
+     *** because fur and leather are insulators
+     *** that means?
+fur_cloak.c:  SetLong, grammer.  fragment first sentance.
+fur_cloak.c:  add in VT_FUR? ... why not?
+katana.c:  "graceful", not "gracefull" (in adj, short...)
+katana.c:  grammer, SetLong.  fragment first sent.
+longbow.c:  SetLong, grammer.  fragment sentence.
+nosf_armour.c:  you're missing the id "armour" ... and "suit"
+        they're still used as id's.  you shld have 'em.
+nosf_armour.c:  SetLong, grammer. fragment first sentence.  also a run-on.
+nosf_staff.c:  missing "staff" in Id
+nosf_staff.c:  SetLong, grammer.  fragment sentence.
+wall_shield.c:  SetLong, grammer.  first sentence is a fragment.

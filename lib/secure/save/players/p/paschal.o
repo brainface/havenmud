@@ -1,0 +1,145 @@
+#/secure/save/players/p/paschal.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Supplicant of Rath Khan (Jidoor lamrani)"
+CapName "Paschal"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":150,\"Mass\":230,\"Worn\":({\"right hand\",}),\"Class\":12,\"#base_name#\":\"/std/weapon/blunt/war-hammer\",\"Broken\":0,\"DamagePoints\":1168,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N drifts $D effortlessly.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N drifts in effortlessly.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({141,58,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 1526
+WhereBlock 0
+Brief 0
+LoginTime 1497678611
+BirthTime 1497678595
+Password "nomlhmgm!ghfdbaenadaeohoidnhbokejlendench"
+Email "fuzzydemon84@hotmail.com"
+RealName "John"
+Rank 0
+LoginSite "/domains/crystal_reaches/areas/gwonish/room/path10"
+HostSite "cpe-67-11-216-136.satx.res.rr.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 1
+Experience 1563
+Skills (["reinforced armour":(["class":2,"level":0,]),"cloth armour":(["class":1,"level":1,]),"melee combat":(["class":4,"level":0,]),"shock magic":(["class":2,"level":0,]),"chain armour":(["class":2,"level":1,]),"conjuring":(["class":4,"level":1,]),"mithril working":(["class":4,"level":1,]),"faith":(["class":1,"level":1,]),"necromancy":(["class":1,"level":1,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":0,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":0,]),"pole combat":(["class":1,"level":1,]),"wood working":(["class":4,"level":1,]),"weapon smithing":(["class":4,"level":0,]),"skinning":(["class":4,"level":0,]),"bargaining":(["class":2,"level":1,]),"textile working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"cooking":(["class":4,"level":0,]),"evokation":(["class":2,"level":1,]),])
+Morality -1961
+CanMulti 1
+Class "priest"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Rath Cult","Rath Cult",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Conditions ([])
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Jidoor":50,"Ungkh":-25,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 200
+MagicPoints 298
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1945
+Drink 1945
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 185.799988
+Torso "torso"
+Fingers (["right hand":6,"left hand":6,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":80,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":160,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":40,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":80,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":160,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":40,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":80,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":40,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":40,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":80,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 15
+LightSensitivity ({20,65,})
+Resistance (["low":0,"weakness":0,"immune":9216,"none":121854,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":23,]),"wisdom":(["class":1,"points":0,"level":45,]),"coordination":(["class":3,"points":0,"level":25,]),"strength":(["class":5,"points":0,"level":15,]),"intelligence":(["class":1,"points":0,"level":42,]),"luck":(["class":3,"points":0,"level":25,]),"durability":(["class":5,"points":0,"level":15,]),"charisma":(["class":5,"points":0,"level":10,]),])
+Languages (["archaic":(["native":0,"name":"Archaic","points":0,"level":100,]),"sprith":(["native":1,"name":"Sprith","points":0,"level":100,]),"dasinri":(["native":1,"name":"Dasinri","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Jidoor"
+Race "lamrani"
+Gender "male"
+Nationality "Jidoor"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1497678595
+Cooldowns ([])
+Currency ([])
+Bank ([])
+CraftingRecipes ({})
+SpellBook (["chill touch":5,"missile":1,"buffer":1,"protect":2,"disperse protections":1,"bless":2,"curse":5,"flaming arrow":1,"animate dead":1,"turn undead":1,"preserve":1,"skull of darkness":1,"locate zombie":1,"acid splash":2,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Supplicant of Rath Khan","of Jidoor",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "John"
+Quests ({(/1497678616,"Newbie Book",/),})
+Deaths 0
+DevelopmentPoints 0
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 0
+LastLevel 1497678595
+HighestLevel 0
+LongDaemonData ({0,0,0,0,0,})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

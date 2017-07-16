@@ -1,0 +1,29 @@
+Reported by: Alessia (verymaudlin@gmail.com)
+Time       : Mon Sep 23 15:36:56 2013
+Type       : other
+Location   : ^EE/~v/upper_estate/Malveillant/Alessia
+Status     : NEW
+Bug        : Two softly flowing silk robeses
+
+besides the obvious robeses weirdness... 
+
+> l first robe
+These are long and flowing silk robes.
+It seems to be medium size.
+If worn, this appears to offer as much protection as clothing.
+It is slightly damaged and offers slightly less protection than normal.
+Repairing this item requires textile working.
+
+That's an amazing non-description description. Fix me please! I have no idea where it comes from
+Will keep it in Alessia's inv and fix it myself later... I am sure.
+
+
+Here ya go:
+
+[haven@haven domains]$ grep -ir 'These are long and flowing silk robes' *
+crystal_reaches/areas/rath_tower/obj/dip_robe.c:  SetLong("These are long and flowing silk robes.");
+
+
+So rath tower, diplomate robes.
+
+ -Mel

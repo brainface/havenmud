@@ -1,0 +1,143 @@
+#/secure/save/players/c/cain.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "Citizen $N the Runner of Malveillant (Malveillant dark-elf)"
+CapName "Cain"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({"non",})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["sle":"cast summon lesser effigy $*","hs":"highscore players $*","op":"open my backpack $*","w":"go west $*","invis":"cast dim $*","u":"go up","holy":"cast holy fury on $*","out":"go out","efollow":"command effigy to follow cain $*","s":"go south $*","dark":"cast skull of darkness $*","zfollow":"command zombie to follow cain $*","oe":"oocemote $*","p":"who","hf":"cast hellfire $*","n":"go north $*","m":"money $*","l":"look $*","k":"kill $*","ad":"cast animate dead on first corpse $*","i":"inventory","kill":"kill first $*","e":"go east $*","d":"go down","dp":"cast divine power on $*","dis":"disorient $*","limb":"cast unholy growth on $*","nw":"go northwest","curse":"cast curse on $*","suck1":"get money from first corpse $*","elead":"lead effigy $*","gt":"cast gilded touch on first $*","exa":"look at $*","db":"cast dark burial on first corpse $*","..":"skills","...":"spells -c $*","ne":"go northeast","wield":"wield first $*","dispel":"cast disperse protections $*","horn":"use first horn to heal cain $*","ga":"get all $*","all":"attack all $*","cp":"close my backpack $*","take":"get first $* from my backpack","gac":"get all from $* corpse","dag":"cast daggers of betrayal on $*","trans":"cast transmutation $*","suck":"get all from first corpse $*",".":"status","fury":"cast holy fury on $*","bless":"cast bless on $*",",":"stats $*","td":"cast touch of death on $*","mg":"cast miasmic guardian $*","pw":"cast poison weapon on $*","pack":"look in my backpack $*","pr":"protections $*","pp":"protections","zlead":"lead zombie $*","in":"put first $* in my backpack","eguard":"command effigy to guard cain $*","sw":"go southwest","lz":"cast locate zombie $*","skin":"skin first corpse $*","ble":"cast banish lesser effigy on effigy $*","ohs":"oldhighscore players $*","zguard":"command zombie to guard cain $*","bf":"cast barrier of faith on me $*","se":"go southeast","sc":"cast spirit call on first corpse $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["ooc":0,"hl":1,"notify":0,])
+Screen ({120,68,})
+Wrapping 1
+SocialRank 3
+ConfirmedEmail 1
+Age 282682
+WhereBlock 0
+Brief 0
+LoginTime 1450220128
+BirthTime 1218550763
+Password "kgacbcih!aiffiinfagdoacnmnccibnlfmbfeg`mm"
+Email "elite.jynxx@gmail.com"
+RealName "Reno"
+Rank 0
+LoginSite "/domains/havenwood/areas/wood/rooms/trail6"
+HostSite "184-100-74-160.mpls.qwest.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen","citizen","Baron","Count",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 107
+Experience 0
+Skills (["multi-weapon":(["class":1,"level":215,]),"cloth armour":(["class":2,"level":31,]),"navigation":(["class":2,"level":50,]),"chain armour":(["class":2,"level":23,]),"combat rage":(["class":1,"level":215,]),"disarm":(["class":4,"level":75,]),"mithril working":(["class":2,"level":112,]),"faith":(["class":1,"level":215,]),"necromancy":(["class":1,"level":216,]),"weapon smithing":(["class":2,"level":111,]),"plate armour":(["class":2,"level":99,]),"sword slinging":(["class":4,"level":0,]),"bargaining":(["class":2,"level":71,]),"sailing":(["class":2,"level":55,]),"poison magic":(["class":2,"level":48,]),"evokation":(["class":1,"level":216,]),"reinforced armour":(["class":2,"level":6,]),"metal working":(["class":4,"level":4,]),"melee combat":(["class":4,"level":19,]),"stealth":(["class":2,"level":37,]),"accuracy":(["class":4,"level":61,]),"lockpicking":(["class":4,"level":51,]),"slash combat":(["class":1,"level":215,]),"stealing":(["class":2,"level":100,]),"mining":(["class":4,"level":11,]),"disorient":(["class":4,"level":58,]),"armour smithing":(["class":2,"level":58,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":0,]),"pole combat":(["class":1,"level":209,]),"skinning":(["class":4,"level":30,]),"leather working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"dodge":(["class":2,"level":99,]),"parry":(["class":4,"level":46,]),])
+Morality -1866
+CanMulti 1
+Class "fanatic"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Soirin","Soirin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Tairi":-4,])
+OpposingFactions (["Gwonish":"Lloryk","Lloryk":"Gwonish","Haven":"Malveillant","Karak":"Glimmerdin","Malveillant":"Haven","Glimmerdin":"Karak",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 810
+MagicPoints 261
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 759
+Drink 911
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 830.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":770,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":390,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":200,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":200,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":390,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":770,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":390,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":200,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":390,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":200,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({-5,60,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":65534,])
+Stats (["wisdom":(["class":4,"points":0,"level":73,]),"agility":(["class":3,"points":0,"level":78,]),"coordination":(["class":3,"points":0,"level":72,]),"luck":(["class":3,"points":0,"level":65,]),"intelligence":(["class":2,"points":0,"level":94,]),"strength":(["class":3,"points":0,"level":78,]),"durability":(["class":3,"points":0,"level":76,]),"charisma":(["class":1,"points":0,"level":124,]),])
+Languages (["gurovian":(["native":0,"name":"Gurovian","points":400,"level":100,]),"imperial":(["native":0,"name":"Imperial","points":68,"level":100,]),"tai":(["native":0,"name":"Tai","points":400,"level":100,]),"eetria":(["native":0,"name":"Eetria","points":284,"level":89,]),"enlan":(["native":0,"name":"Enlan","points":68,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({({1245373364,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Yeah i gotta use gmud secondary then. Oh well. If you get a chance the spells in ohtars thing are all updated the way that mel said to do them so feel free to check 'em all out now. Hope your license shows up so you quit getting fucked over bro.%^RESET%^\"",}),({1245373385,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Gimme a bit and i'll check 'em.  When I get pissy I like to bury myself in code anyway.%^RESET%^\"",}),({1245373401,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"No rush i'll be on and invis with mr ohtar soon.%^RESET%^\"",}),({1245373416,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"I've fallen for Cain for some reason lol.%^RESET%^\"",}),({1245554251,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Mel should be home from work any moment, and he'll be doing spell stuff when he gets here.%^RESET%^\"",}),({1245554267,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Only here for about 5 minutes... girl on the way! :).%^RESET%^\"",}),({1245554293,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Have him set jynxx as my test char will ya?%^RESET%^\"",}),({1245554311,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"And leave me notes on how to set him up and give spells in my dir? I'll be on tomorrow about 7am at work til 3 like usual.%^RESET%^\"",}),({1245554313,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Can't unless you're logged in.%^RESET%^\"",}),({1245554319,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"I'll leave him logged.%^RESET%^\"",}),({1245554325,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Kick him after he's done?%^RESET%^\"",}),({1245554331,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"I'll log him in now.%^RESET%^\"",}),({1246459673,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Why were you attacking alan?%^RESET%^\"",}),({1246459685,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Him and fortunado jumped me a few days back.%^RESET%^\"",}),({1246459701,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"...was there a reason for that?%^RESET%^\"",}),({1246459707,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Yeah a long rp that played out into a fight.%^RESET%^\"",}),({1246459739,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Ah.%^RESET%^\"",}),({1246459765,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Then i went hunting for him and he locked me in his house and i died :).%^RESET%^\"",}),({1246459847,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"He also locked me in his house and let me die lol.%^RESET%^\"",}),({1246459861,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Disregard last one.%^RESET%^\"",}),({1247272215,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Sup?%^RESET%^\"",}),({1247272237,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"How does disarm work... meaning is it disarm vs there combat or what?%^RESET%^\"",}),({1247272245,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Lemme check.%^RESET%^\"",}),({1247272275,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"I failed disarming a wandering traveller lol so i'm curious.%^RESET%^\"",}),({1247272286,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Although mine is only 73 currently.%^RESET%^\"",}),({1247272287,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Skill level vs defense, it appears.%^RESET%^\"",}),({1247272305,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"So a wandering traveller has higher then a 73 attack? Just making sure i understand :).%^RESET%^\"",}),({1247272313,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"Did I say attack?%^RESET%^\"",}),({1247272321,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Thought so i'll check!%^RESET%^\"",}),({1247272331,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Defense?%^RESET%^\"",}),({1247272341,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Is that parry/dodge/armours?%^RESET%^\"",}),({1247272349,"%^BOLD%^RED%^Duuk tells you,%^RESET%^ \"You don't need to know.%^RESET%^\"",}),({1247272359,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Um.. ok then thanks so much.%^RESET%^\"",}),({1356825421,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"'ask dude to teach' says exactly what they train.%^RESET%^\"",}),({1356825436,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Not when i dont speak their language! lmao.%^RESET%^\"",}),({1356825445,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"I'm lazy as hell!%^RESET%^\"",}),({1356825448,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Philistine.%^RESET%^\"",}),({1356825455,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"I'll walk my ass and learn the language!%^RESET%^\"",}),({1356827356,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Thanks.%^RESET%^\"",}),({1356827361,"%^BOLD%^RED%^Mahkefel tells you,%^RESET%^ \"Np.%^RESET%^\"",}),})
+sphist ({})
+Town "Malveillant"
+Race "dark-elf"
+Gender "male"
+Nationality "Malveillant"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 50
+WimpyCmd "go south"
+LastWimpy 1322782533
+Currency ([])
+Bank (["The Bank of Malveillant":(["audit":"({ OBJ(karin /domains/havenwood/towns/malveillant/npc/karin#10642), OBJ(karin /domains/havenwood/towns/malveillant/npc/karin#10642), OBJ(/verbs/common/ask), OBJ(cain /secure/save/players/c/cain) })","last time":1387677496,"open":1219447340,"imperials":20000,"roni":948862,"last trans":"withdrawal",]),"Sanctum Moneychanger":(["audit":"({ OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#132900), OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#132900), OBJ(/verbs/players/request), OBJ(cain /secure/save/players/c/cain) })","last time":1270741901,"open":1270741901,"imperials":5,"last trans":"opened account",]),"Tai MoneyChanger":(["audit":"({ OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#105600), OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#105600), OBJ(/verbs/players/request), OBJ(cain /secure/save/players/c/cain) })","last time":1356825527,"open":1356825527,"last trans":"opened account","koken":10,]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#1344173), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#1344173), OBJ(/verbs/players/request), OBJ(cain /secure/save/players/c/cain) })","last time":1219461737,"open":1219461737,"imperials":5,"last trans":"opened account",]),"Yozrath Trust":(["audit":"({ OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#169963), OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#169963), OBJ(/verbs/players/request), OBJ(cain /secure/save/players/c/cain) })","dinar":5,"last time":1245435373,"open":1245435373,"last trans":"opened account",]),"Keryth Bank":(["audit":"({ OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#121245), OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#121245), OBJ(/verbs/players/request), OBJ(cain /secure/save/players/c/cain) })","senones":5,"last time":1245416089,"open":1245416089,"last trans":"opened account",]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#2784), OBJ(magna /domains/havenwood/towns/parva/npc/banker#2784), OBJ(/verbs/players/request), OBJ(cain /secure/save/players/c/cain) })","last time":1246889123,"open":1246889123,"shrydes":5,"last trans":"opened account",]),"First Bank of Soleil":(["audit":"({ OBJ(aegri portare /domains/westwood/towns/soleil/npc/banker_aegri#53517), OBJ(aegri portare /domains/westwood/towns/soleil/npc/banker_aegri#53517), OBJ(/verbs/players/request), OBJ(cain /secure/save/players/c/cain) })","cuicui":5,"last time":1246553214,"open":1246553214,"last trans":"opened account",]),])
+CraftingRecipes ({})
+SpellBook (["animate dead":95,"flaming arrow":1,"asphyxiation":1,"wall of souls":21,"purify":4,"aegis of the faithful":100,"sting":1,"dark burial":100,"skull of darkness":100,"pain touch":1,"chill touch":1,"bless":100,"spirit call":100,"jolt":2,"shield of faith":100,"choking shadows":1,"summon lesser effigy":100,"speak with dead":1,"unholy growth":1,"banish lesser effigy":100,"burning hand":1,"dim":100,"divine retribution":100,"disperse protections":18,"holy shield":2,"gilded touch":100,"curse":100,"barrier of faith":100,"holy fury":84,"stab in the dark":100,"pious obstructions":100,"protect":1,"hellfire":100,"touch of death":100,"transmutation":100,"poison arrow":1,"turn undead":1,"daggers of betrayal":100,"harm body":1,"poison weapon":100,"shockwave":1,"locate zombie":11,"cloak of darkness":12,"miasmic guardian":85,"spook":1,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Runner","of Malveillant","the Hero of the Shire","the Havenroad Bandit","the Butcher of Kailie","the Supreme Protector of Malveillant","the Ravenous Hierophant","the Trash Picker","the Ransacker of the Mage Tower","the Eternally Devoted Blade of Alessandra","the High Protector of Malveillant","the Protector of Malveillant","the Guard of Malveillant","the Zealous Preacher of Lust","the Divine Theorist of Avarice","the Explorer","the Wielder of the Black Rose","the Tempted","the Initiate Guard of Malveillant",})
+Story "Born into a lowly family within the walls of Malveillant, Cain was forced to grow quickly. Day after day he had to search and fight just to eat. As he fought daily for food he quickly realized that more then the joy of eating the food once the fight ended he was simply enjoying the fight itself, win or lose. One day he insisted that his father come see him in combat for the first time just so deminstrate his talent to him. After the fight his father was so impressed he talked his son into entering his name into a tournament held by Xavien, the best fighter in all of Malveillant. During this tournament he impressed everyone that attended. They were amazed that at such a young age someone could be so fast and strongcombined. Although he lost in the final round his family was proud of him. Cain did so well  that Xavien offered to take him in and teach him everything he did wrong so that next time he will not lose. From that day forward Cain join the power of Malveillant, the fighters!"
+Surname 0
+ApprovedStory 1
+OOCName "Reno"
+Quests ({(/1218550783,"Newbie Book",/),(/1219105959,"Explored Grove",/),(/1223216416,"Havenroad Bandit",/),(/1245074158,"Haven Mage Tower",/),(/1245594740,"Barian Merchant",/),(/1245612203,"Gurov Trash Search",/),(/1246536043,"A Subtle Message",/),(/1246537723,"Initiation",/),(/1246537831,"Vermin Disposal",/),(/1246537968,"Hunting Grounds",/),(/1246539516,"A Blood-red Garnet",/),})
+Deaths ({(/1223214881,"elf mage",/),(/1226504976,"elf mage",/),(/1245069844,"acclima",/),(/1245070013,"knight",/),(/1245800556,"poison",/),(/1371082910,"elf mage",/),})
+DevelopmentPoints 1
+TitleLength 2
+TitleAnd 0
+NoRank 0
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 1860
+LastLevel 1248739747
+HighestLevel 107
+LongDaemonData ({"black",0,"white","exotic",0,})
+PermanentProperties (["animate_zombie":"/std/spells/obj/animate_zombie#131168","status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

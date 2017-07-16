@@ -1,0 +1,855 @@
+---
+*Error in loading object '/std/obj/thread'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/obj/thread'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*No variable named 'CraftMaterial'!
+Object: /std/obj/thread#36326 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#36321 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#36321 at line 170
+'eventEnterGame' at /secure/lib/connect#36321 at line 228
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/creator.c) at line 229
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/immortals/m/mahkefel (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /std/obj/thread#36326 (/lib/common/persist.c) at line 58
+'CATCH' at /std/obj/thread#36326 (/lib/common/persist.c) at line 58
+---
+*No variable named 'CraftMaterial'!
+Object: /std/obj/thread#36327 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#36321 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#36321 at line 170
+'eventEnterGame' at /secure/lib/connect#36321 at line 228
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/creator.c) at line 229
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/immortals/m/mahkefel (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /std/obj/thread#36327 (/lib/common/persist.c) at line 58
+'CATCH' at /std/obj/thread#36327 (/lib/common/persist.c) at line 58
+---
+*No variable named 'CraftMaterial'!
+Object: /std/obj/thread#36334 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#36321 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#36321 at line 170
+'eventEnterGame' at /secure/lib/connect#36321 at line 228
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/creator.c) at line 229
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/immortals/m/mahkefel (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /std/obj/thread#36334 (/lib/common/persist.c) at line 58
+'CATCH' at /std/obj/thread#36334 (/lib/common/persist.c) at line 58
+---
+*Error in loading object '/std/crafting/clothing/thread'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/clothing/thread'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/clothing/thread'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/clothing/yarn'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/clothing/yarn'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Bad Material: 0 in /std/crafting/clothing/fabric
+Object: /std/crafting/clothing/fabric#39382 (/lib/items/value.c) at line 107
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 44
+'CATCH' at /secure/cmds/creators/call at line 44
+'<fake>' at /secure/cmds/creators/call (/<driver>) at line 0
+'GetMaterials' at /std/crafting/clothing/fabric#39382 (/lib/items/value.c) at line 107
+---
+*Bad Material: 0 in /std/crafting/clothing/fabric
+Object: /std/crafting/clothing/fabric#39382 (/lib/items/value.c) at line 107
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 44
+'CATCH' at /secure/cmds/creators/call at line 44
+'<fake>' at /secure/cmds/creators/call (/<driver>) at line 0
+'GetMaterials' at /std/crafting/clothing/fabric#39382 (/lib/items/value.c) at line 107
+---
+*Bad Material: 0 in /std/crafting/clothing/sock
+Object: /std/crafting/clothing/sock#39761 (/lib/items/value.c) at line 107
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 44
+'CATCH' at /secure/cmds/creators/call at line 44
+'<fake>' at /secure/cmds/creators/call (/<driver>) at line 0
+'GetMaterials' at /std/crafting/clothing/sock#39761 (/lib/items/value.c) at line 107
+---
+*Bad Material: 0 in /std/crafting/clothing/sock
+Object: /std/crafting/clothing/sock#39949 (/lib/items/value.c) at line 107
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 44
+'CATCH' at /secure/cmds/creators/call at line 44
+'<fake>' at /secure/cmds/creators/call (/<driver>) at line 0
+'GetMaterials' at /std/crafting/clothing/sock#39949 (/lib/items/value.c) at line 107
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#53302 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#53302 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#53302 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/undead/undeadship#53606 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 107
+'eventReceiveDamage' at /domains/innersea/encounters/undead/undeadship#53606 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#53389 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53391 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53391 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53391 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#53391 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#53391 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#53391 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53391 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53391 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#53389 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/undead/undeadship#53606 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/undead/undeadcaptain#53608 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/undead/undeadship#53606 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#53302 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#53302 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/undead/undeadship#54208 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/undead/undeadcaptain#54210 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/undead/undeadcaptain#54210 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/undead/undeadcaptain#54210 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/undead/undeadcaptain#54210 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/undead/undeadcaptain#54210 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/undead/undeadcaptain#54210 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/undead/undeadcaptain#54210 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/undead/undeadship#54208 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#54167 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#54167 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#54167 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#53302 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#54167 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/merchant/ship#54487 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/merchant/merchant#54489 at line 70
+'heart_beat' at /domains/innersea/encounters/merchant/merchant#54489 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/merchant/merchant#54489 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/merchant/merchant#54489 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/merchant/merchant#54489 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/merchant/merchant#54489 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/merchant/merchant#54489 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/merchant/ship#54487 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#53302 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#53302 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 107
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#53300 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#54167 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 107
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 at line 55
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/pirate.c) at line 362
+'heart_beat' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/shipcaptain.c) at line 369
+'eventForce' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'CATCH' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 135
+'<fake>' at /domains/innersea/encounters/elemental_water/nereid#54167 (/<driver>) at line 0
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/npcs/basenpc.c) at line 217
+'cmdAll' at /domains/innersea/encounters/elemental_water/nereid#54167 (/lib/livings/command.c) at line 44
+'do_sail_str' at /verbs/vehicles/sail at line 98
+'eventReceiveDamage' at /domains/innersea/encounters/elemental_water/galleon#54165 (/lib/special/vehicle.c) at line 271
+---
+*Error in loading object '/realms/mahkefel/verbs/scrap'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/realms/mahkefel/verbs/scrap'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/recipes/torch'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/daemon/recipes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/daemon/recipes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/daemon/recipes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/recipes/shim'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:12
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 37
+'to_object' at /secure/sefun/sefun at /secure/sefun/to_object.c:114
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:12
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:12
+---
+*Error in loading object '/lib/special/recipe'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/clothing/include/clothing'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/clothing/include/craftable'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/clothing/include/craftable'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/clothing/include/craftable'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Inherited file '/craftable' does not exist!
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/clothing/include/clothing'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/clothing/sock'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/scrolls/torch'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/crafting/scrolls/torch'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/verbs/players/cast'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/verbs/players/cast'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/verbs/players/cast'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/verbs/players/cast'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/realms/mahkefel/command'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/realms/mahkefel/command'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/realms/mahkefel/startle'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/spells/religion_aetarin/divine_guidance'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/std/spells/religion_aetarin/divine_guidance'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/realms/mahkefel/silence'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /realms/mahkefel/workroom (/lib/common/inventory.c) at line 61
+
+'<fake>' at /secure/lib/connect#120387 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#120387 at line 170
+'eventEnterGame' at /secure/lib/connect#120387 at line 228
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/creator.c) at line 229
+'Setup' at /secure/save/immortals/m/mahkefel (/lib/users/interactive.c) at line 122
+'CATCH' at /secure/save/immortals/m/mahkefel (/lib/users/interactive.c) at line 122
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:12
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:12
+'create' at /realms/mahkefel/workroom at line 44
+'SetInventory' at /realms/mahkefel/workroom (/lib/common/inventory.c) at line 28
+'eventLoadInventory' at /realms/mahkefel/workroom (/lib/common/inventory.c) at line 36
+'eventLoadItem' at /realms/mahkefel/workroom (/lib/common/inventory.c) at line 61
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/npcs/basenpc'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Bad argument 1 to explode()
+Expected: string Got: 0.
+Object: /realms/mahkefel/npc/vampony#120496 (/lib/npcs/basenpc.c) at line 806
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 58
+'CATCH' at /secure/cmds/creators/call at line 58
+'eventCommand' at /realms/mahkefel/npc/vampony#120496 (/lib/npcs/basenpc.c) at line 806
+---
+*Bad argument 1 to explode()
+Expected: string Got: 0.
+Object: /realms/mahkefel/npc/vampony#120496 (/lib/npcs/basenpc.c) at line 806
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 58
+'CATCH' at /secure/cmds/creators/call at line 58
+'eventCommand' at /realms/mahkefel/npc/vampony#120496 (/lib/npcs/basenpc.c) at line 806
+---
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:12
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 37
+'to_object' at /secure/sefun/sefun at /secure/sefun/to_object.c:114
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:12
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:12
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /realms/mahkefel/npc/vampony#120496 (/lib/npcs/basenpc.c) at line 811
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 58
+'CATCH' at /secure/cmds/creators/call at line 58
+'eventCommand' at /realms/mahkefel/npc/vampony#120496 (/lib/npcs/basenpc.c) at line 811
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /realms/mahkefel/npc/vampony#120496 (/lib/npcs/basenpc.c) at line 811
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 58
+'CATCH' at /secure/cmds/creators/call at line 58
+'eventCommand' at /realms/mahkefel/npc/vampony#120496 (/lib/npcs/basenpc.c) at line 811
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /realms/mahkefel/npc/vampony#120496 (/lib/npcs/basenpc.c) at line 811
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 58
+'CATCH' at /secure/cmds/creators/call at line 58
+'eventCommand' at /realms/mahkefel/npc/vampony#120496 (/lib/npcs/basenpc.c) at line 811
+---
+*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /realms/mahkefel/npc/vampony#120515 (/lib/npcs/basenpc.c) at line 811
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 58
+'CATCH' at /secure/cmds/creators/call at line 58
+'eventCommand' at /realms/mahkefel/npc/vampony#120515 (/lib/npcs/basenpc.c) at line 811
+---
+*Error in loading object '/verbs/players/command'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/verbs/players/command'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118

@@ -1,0 +1,8 @@
+int CheckEncounter() {
+	if( (creatorp(this_player())) ||
+	    (!livingp(this_player())) ) {
+		return 0;
+	} else {
+		return 1;
+	}
+}

@@ -1,0 +1,64 @@
+#/secure/save/immortals/t/thoin.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "Putrid $N Harbinger of Pestilence and Decay"
+CapName "Thoin"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory "/realms/thoin"
+Nicknames (["lao":"laoise",])
+Aliases (["nw":"go northwest","la":"look at $*","[":"status $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","st":"status $*","s":"go south","...":"spells","oe":"oocemote $*",".":"status","n":"go north","l":"look $*","ne":"go northeast","thing":"clone /realms/duuk/stuff/thing.c $*","i":"inventory","e":"go east","d":"go down","ga":"get all $*","se":"go southeast",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["intergossip":0,"ooc":0,])
+Screen ({146,56,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 995290
+WhereBlock 0
+Brief 0
+LoginTime 1178669945
+BirthTime 1174787470
+Password "hae`dfmb!cbfmo```nnjc`ccboboimcjfb`mgdbjo"
+Email "thoin@duuk.com"
+RealName "Thoin"
+Rank 0
+LoginSite "/realms/thoin/workroom"
+HostSite "c-24-218-80-176.hsd1.ma.comcast.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.announcements":1,])
+NewServerLogin 0
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1174799705
+Position 2
+WhoInvis 1
+Angel 0
+Retired 1
+Sponsor "Duuk"
+Religion ({"None",})
+ReligionTitle 0
+Department 0
+Domain "None"
+DomainTitle 0
+Sponsorees ({})
+Gender "male"
+Status 0

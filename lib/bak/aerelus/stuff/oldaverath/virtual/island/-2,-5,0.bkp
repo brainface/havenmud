@@ -1,0 +1,13 @@
+#include <lib.h>
+#include <domains.h>
+inherit LIB_ISLAND;
+
+static void create(int x, int y, int z) {
+	::create(-2, -5, 0);
+	SetListen( ([
+	  "default" : "It is ominously quiet here.",
+	  ]) );
+	AddLong("There is a deep chasm here leading into the ground.");
+	AddItem("chasm", "The chasm seems to be a rift in the ground leading down.");
+	AddExit("down", AVERATH_ISLAND "-2,-5,-1");
+}

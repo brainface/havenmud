@@ -1,0 +1,32 @@
+#include <lib.h>
+#include <magic.h>
+#include <std.h>
+#include <damage_types.h>
+
+inherit LIB_SPELL;
+
+static void create() {
+    spell::create();
+    SetSpell("create leather fist");
+    SetRules("");
+    SetSpellType(SPELL_OTHER);
+    SetRequiredMagic(70);
+  SetSkills( ([
+    "natural magic" : 2,
+    "enchantment" : 2,
+    ]) );
+    SetMagicCost(50, 20);
+    SetDifficulty(15);
+    SetMorality(0);
+  SetConjure(STD_SPELLS "obj/eclat_leatherfist.c");
+  SetMessages( ({ 
+       ({ "create", "$agent_name $agent_verb a leather fist." }),
+         }) );
+   SetHelp(
+          "Highly skilled in melee attack, Eclat druids often "
+	"find it useful to provide basic hand protection and "
+	"attack strengthening with a strong leather glove.  "
+	"This spells calls upon the powers of the Goddess Amelia "
+	"to create a temporary item that functions as "
+	"both a weapon and an armour for the hand.");
+}

@@ -1,0 +1,142 @@
+#/secure/save/players/s/saddam.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N of Parva (Parva human)"
+CapName "Saddam"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":15,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/havenwood/areas/wood/obj/shell\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":150,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":20,\"Worn\":0,\"Class\":10,\"#base_name#\":\"/domains/havenwood/towns/parva/obj/ranger_slash\",\"Broken\":0,\"DamagePoints\":471,\"Poison\":0,])","([\"Value\":15,\"Mass\":5,\"Worn\":0,\"#base_name#\":\"/domains/havenwood/areas/wood/obj/shell\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":150,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","oe":"oocemote $*","p":"who",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","ga":"get all $*","se":"go southeast","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({162,43,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 4272
+WhereBlock 0
+Brief 0
+LoginTime 1341793672
+BirthTime 1341788161
+Password "lncoej`g!hl`cibg`lmcbmogkomjidlemgigoejha"
+Email "sbart383@gmail.com"
+RealName "Shawn"
+Rank 0
+LoginSite "/domains/southern_coast/virtual/havenroad/-2,0"
+HostSite "99-67-146-22.lightspeed.sndgca.sbcglobal.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 3
+Experience 946
+Skills (["reinforced armour":(["class":2,"level":0,]),"multi-weapon":(["class":4,"level":0,]),"melee combat":(["class":2,"level":1,]),"stealth":(["class":1,"level":6,]),"slash combat":(["class":2,"level":0,]),"knife combat":(["class":4,"level":0,]),"natural armour":(["class":2,"level":0,]),"projectile combat":(["class":1,"level":4,]),"fishing":(["class":4,"level":0,]),"healing":(["class":2,"level":1,]),"natural magic":(["class":1,"level":3,]),"leather armour":(["class":2,"level":0,]),"skinning":(["class":2,"level":0,]),"swimming":(["class":4,"level":0,]),"leather working":(["class":4,"level":0,]),"natural working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"textile working":(["class":4,"level":0,]),"cooking":(["class":4,"level":1,]),"enchantment":(["class":3,"level":1,]),"poison magic":(["class":2,"level":0,]),"evokation":(["class":1,"level":3,]),])
+Morality 0
+CanMulti 1
+Class "ranger"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"agnostic","agnostic",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Parva":56,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 350
+MagicPoints 330
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1813
+Drink 1813
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 260.397278
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":310,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":160,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":80,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":80,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":160,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":310,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":160,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":80,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":160,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":80,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({25,75,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":65534,"high":0,"medium":0,])
+Stats (["wisdom":(["class":3,"points":0,"level":28,]),"agility":(["class":3,"points":0,"level":27,]),"coordination":(["class":3,"points":0,"level":31,]),"luck":(["class":3,"points":0,"level":31,]),"intelligence":(["class":3,"points":0,"level":29,]),"strength":(["class":3,"points":0,"level":42,]),"durability":(["class":3,"points":0,"level":30,]),"charisma":(["class":3,"points":0,"level":30,]),])
+Languages (["enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Parva"
+Race "human"
+Gender "male"
+Nationality "Parva"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1341788161
+Currency ([])
+Bank ([])
+CraftingRecipes ({})
+SpellBook (["barkskin":10,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"of Parva","the Scout of the Forest",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "Shawn"
+Quests ({(/1341788371,"Newbie Book",/),})
+Deaths 0
+DevelopmentPoints 6
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 1
+LastLevel 1341795375
+HighestLevel 3
+LongDaemonData ({0,0,0,0,0,})
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

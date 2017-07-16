@@ -1,0 +1,142 @@
+#/secure/save/players/c/cratylus.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N of Jidoor (Jidoor sprite)"
+CapName "Cratylus"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/std/clothing/vs_shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/vs_shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/std/clothing/vs_pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","oe":"oocemote $*","p":"who",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","ga":"get all $*","se":"go southeast","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({99,44,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 0
+WhereBlock 0
+Brief 0
+LoginTime 1395280405
+BirthTime 1395264319
+Password "bgmahhnj!fkeog`d``ncidefanio`boelcebcnfhl"
+Email "bjorn.brown@yahoo.com"
+RealName "Bjorn"
+Rank 0
+LoginSite "/domains/staff/room/start"
+HostSite "cpe-142-129-129-65.socal.res.rr.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 1
+Experience 0
+Skills ([])
+Morality 0
+CanMulti 1
+Class 0
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Magildan","Magildan",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Enemies ({})
+SpecialTargets ({})
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Jidoor":50,"Ungkh":-25,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 250
+MagicPoints 50
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1998
+Drink 1998
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 200.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":60,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":110,]),"head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":210,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":3,"health":70,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":60,]),"torso":(["children":({"head","right leg","left leg","left arm","right arm","right wing","left wing",}),"armours":751616,"parent":0,"class":1,"health":210,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":110,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":60,]),"right wing":(["children":({}),"armours":2097152,"parent":"torso","class":3,"health":70,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":3,"health":70,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":60,]),"left wing":(["children":({}),"armours":2097152,"parent":"torso","class":3,"health":70,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 15
+LightSensitivity ({10,75,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":64510,"high":1024,"medium":0,])
+Stats (["agility":(["class":2,"points":0,"level":36,]),"wisdom":(["class":3,"points":0,"level":25,]),"coordination":(["class":2,"points":0,"level":30,]),"strength":(["class":4,"points":0,"level":15,]),"intelligence":(["class":2,"points":0,"level":40,]),"luck":(["class":3,"points":0,"level":36,]),"durability":(["class":4,"points":0,"level":20,]),"charisma":(["class":2,"points":0,"level":37,]),])
+Languages (["sprith":(["native":1,"name":"Sprith","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Jidoor"
+Race "sprite"
+Gender "female"
+Nationality "Jidoor"
+Size 4
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1395264319
+Currency ([])
+Bank ([])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"of Jidoor",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "Bjorn"
+Quests ({(/1395264335,"Newbie Book",/),})
+Deaths 0
+DevelopmentPoints 160
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 0
+LastLevel 1395264319
+HighestLevel 0
+LongDaemonData 0
+PermanentProperties ([])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

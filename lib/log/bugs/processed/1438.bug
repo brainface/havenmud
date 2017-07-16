@@ -1,0 +1,6 @@
+Reported by: Hithaeron (rharrison@student.bridgew.edu)
+Time       : Sat Dec  6 11:56:09 2014
+Type       : other
+Location   : ^FM/~a/lodge/room/guardroom
+Status     : NEW
+Bug        : the help file for half-elf says they are stronger and luckier than elves but the luck stat is in the stat class as an elf.

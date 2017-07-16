@@ -1,0 +1,6 @@
+#/daemon/services.c
+NoClean 1
+BadWords ({"shit","fuck","pussy","cock","dick","bitch","cunt","asshole","nigger","fag",})
+Censored ({"ooc","dc","ds","time",})
+IgnoredMuds ({"boarder",})
+IgnoredPeople ({})

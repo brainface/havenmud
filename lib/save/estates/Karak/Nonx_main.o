@@ -1,0 +1,19 @@
+#/domains/estates/virtual/main_estate.c
+AmbientLight 35
+NoClean 1
+InternalDesc "This small mud room is quite bare. There is dirt all over the floor besides the fox skin door mat. There is a large dark oak door that leads to the north deeper in to Nonx's home."
+Opacity 100
+ProperNoun 1
+Short "Inside Nonx's Estate"
+Items ([])
+Domain "Estates"
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1253134890
+Town "Karak"
+Saved ({"EOut","ELong","EShort","Owner",})
+ELong "This small mud room is quite bare. There is dirt all over the floor besides the fox skin door mat. There is a large dark oak door that leads to the north deeper in to Nonx's home."
+EShort "Inside Nonx's Estate"
+EOut "/domains/crystal_reaches/towns/karak/room/rd2"
+Owner "Nonx"

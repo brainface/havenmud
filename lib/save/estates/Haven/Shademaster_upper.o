@@ -1,0 +1,17 @@
+#/domains/estates/virtual/upper_estate.c
+AmbientLight 35
+NoClean 1
+InternalDesc "This is an empty, unfurnished keep. It is quite bare."
+Opacity 100
+ProperNoun 1
+Short "Shademaster's Humble Office"
+Items ([])
+Climate "indoors"
+DummyItems ({})
+Gravity 1.000000
+LastReset 1244141695
+Town "Haven"
+Saved ({"ELong","EShort","Owner",})
+ELong "This is an empty, unfurnished keep. It is quite bare."
+EShort "Shademaster's Humble Office"
+Owner "Shademaster"

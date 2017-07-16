@@ -1,0 +1,65 @@
+#/secure/save/immortals/m/mahkefel.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Terble"
+CapName "Mahkefel"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":10,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/coat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/survival/scrap_leather\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/survival/scrap_wood\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":5,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/survival/scrap_metal\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":7500,\"Mass\":20,\"Worn\":0,\"#base_name#\":\"/domains/southern_coast/areas/mage_tower/obj/amulet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":2500,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/mahkefel/vpmahkcard\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":0,\"#base_name#\":\"/std/armour/free_armour/medium/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":50,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/farm/arctic/hemp\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"CraftMaterials\":({\"textile\",\"textile\",}),\"Value\":0,\"CraftPattern\":\"chevron\",\"Worn\":0,\"Class\":1,\"Broken\":0,\"Deterioration\":0,\"CraftDamagePoints\":100,\"Poison\":0,\"CraftSize\":16,\"CraftSources\":({\"hemp\",\"hemp\",\"hemp\",}),\"Mass\":0,\"#base_name#\":\"/std/crafting/clothing/sock\",\"CraftLevel\":1000,\"DamagePoints\":0,])",})
+Messages (["svis":"%^BOLD%^BLACK%^From every crack in the earth and beneath every floorboard, spiders begin to roil, skitter and scurry outward.%^RESET%^","telin":"$N spiderchutes in, getting all tangled in your hair!","say":"quickly text","leave":"$N strolls out.","telout":"$N spiderchutes away!","vis":"$N steps out from in behind a tree.","home":"$N spiderchutes away!","invis":"$N steps behind a convenient tree.","dest":"$N shoots a load of buckshot at $O","come":"A gang of kobolds march in carrying $N on a litter.","ask":"stage whisper","clone":"A gang of kobolds rush in, carrying $O, which they promptly drop to the floor in a heap in front of $N",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt ">"
+CurrentWorkingDirectory "/std/spells/faith_enchantment"
+Nicknames (["testspells":"/std/spells/test_spells/","sawsh":"/realms/alessandra/misc/lazy","swash":"/realms/alessandra/misc/lazy","~":"/realms/mahkefel",])
+Aliases (["la":"look at $*","aw":"call witch->eventForce(\"cast acid rain\") $*","grr":"call rage->eventRage(dzames) $*","acid":"call shield->eventDeteriorate(512) $*","allitime":"goto /domains/estergrym/areas/vampire/room/gypsycamp $*","w":"go west","ch":"chanhist $*","gac":"get all from $* corpse","priv":"goto /realms/mahkefel/room/outhouse $*","u":"go up","out":"go out","t":"travel $*","s":"go south","train":"grep -n LIB_TRAINER * $*","cdar":"cd /domains/frostmarches/towns/arcanith $*","p":"clone /realms/mahkefel/npc/penguin $*","tanov":"call spells->cmd(\"tanov\") $*","oe":"oocemote $*",".":"status","n":"go north","he":"force dzames to cast heat on izzik $*","l":"look $*","less":"more $*","k":"kill $*","BOOM":"lsed ~/cemetery.lsed cemetery.c $*","fence":"more /domains/frostmarches/areas/academy/npc/fencemaster.c $*","i":"inventory","e":"go east","d":"go down","pp":"protections","nw":"go northwest","chi":"chanhist imm $*","golem":"more /domains/frostmarches/areas/catacombs/npc/golem.c $*","tem":"call here->SetClimate(\"temperate\") $*","fencemaster":"less /domains/frostmarches/areas/academy/npc/fencemaster.c $*","ka":"kill all","cdx":"cd /domains/xandria/virtual/desert $*","cdw":"cd /realms/mahkefel/witch_quest $*","sw":"go southwest","knife":"more /domains/planes/firecastle/obj/elem_knife2.c $*","..":"skills","wa":"where all $*","chap":"grep 'chaplain' * $*","cdt":"cd /std/spells/test_spells $*","st":"grep 'StatBonus' * $*","check":"call here->GetProperty(\"no attack\") $*","...":"spells","cdp":"cd /realms/mahkefel/plateau $*","cdm":"cd /realms/mahkefel/seastuff/merchant $*","cdl":"cd /realms/mahkefel/seastuff/lisht $*","ne":"go northeast","thing":"call $*","blast":"call witch->eventForce(\"cast acid rain\") $*","billy":"dest $*","races":"ls /secure/cfg/races $*","cdg":"cd /domains/innersea/encounters/gnoll_slaver $*","cdf":"cd /realms/mahkefel/ideas_area/foxfire $*","ga":"get all $*","se":"go southeast","bal":"help immortal documents balance $*","gcc":"get coins from $* corpse","cda":"cd /domains/frostmarches/towns/arcanith $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["reboot":0,"ibsg":1,"iurl":1,"debug":0,"dc":1,"isport":1,"quest":0,"souls":0,"fs":1,"intergossip":1,"imm":0,"time":0,"muse":0,"spam":0,"reports":0,"ds":1,"ooc":0,"shipreports":0,"notify":0,"intercre":1,])
+Screen ({79,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 32686913
+WhereBlock 0
+Brief 1
+LoginTime 1500057279
+BirthTime 1265239229
+Password "ieclkamh!lncndnmg`gecnnfnbebidohoilgojdfk"
+Email "brainfacemike@gmail.com"
+RealName "Mike"
+Rank 0
+LoginSite "/domains/estergrym/areas/vampire/room/gypsycamp"
+HostSite "cpe-172-73-117-211.carolina.res.rr.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.immortal":3,"news.announcements":1,])
+NewServerLogin 1
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({({1498108871,"%^BOLD%^RED%^You tell Shigi Qutuqu,%^RESET%^ \"Yeaaaahhh.%^RESET%^\"",}),({1498108886,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"Ive seen yall give players actual non approved things.%^RESET%^\"",}),({1498108901,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"And inappropes heaven time.%^RESET%^\"",}),({1498108910,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"Like slush and private chat room time.%^RESET%^\"",}),({1498108917,"%^BOLD%^RED%^You tell Shigi Qutuqu,%^RESET%^ \"Yeah like... the rules don't matter until duuk decides they do.%^RESET%^\"",}),({1498108923,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"Yeah.%^RESET%^\"",}),({1498108933,"%^BOLD%^RED%^You tell Shigi Qutuqu,%^RESET%^ \"Also i'm vandalizing your bamboo and you cain't stop me.%^RESET%^\"",}),({1498108958,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"You can i  cant stop you. my motto is, 'steal from the best'.%^RESET%^\"",}),({1498108963,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"So thanks for the compliment.%^RESET%^\"",}),({1498108973,"%^BOLD%^RED%^You tell Shigi Qutuqu,%^RESET%^ \"*grin*.%^RESET%^\"",}),({1498108996,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"Im planning on stealing mage necro ice armour and reduxing 'bone armour' and 'unholy bone armour' spells for aberach btw.%^RESET%^\"",}),({1498109008,"%^BOLD%^RED%^You tell Shigi Qutuqu,%^RESET%^ \"Ah, don't do it yet, shit broke.%^RESET%^\"",}),({1498109017,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"Oh i aint doin it till yer done.%^RESET%^\"",}),({1498109021,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"I want it perfect.%^RESET%^\"",}),({1498109035,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"And then i can design bone armour pieces.%^RESET%^\"",}),({1498109040,"%^BOLD%^RED%^You tell Shigi Qutuqu,%^RESET%^ \"Yesss.%^RESET%^\"",}),({1498109065,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"I recall.%^RESET%^\"",}),({1498109074,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"Whats her face, arika? aberach lady.%^RESET%^\"",}),({1498109083,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"Saying right when i mewt her/she stopped playing.%^RESET%^\"",}),({1498109090,"%^BOLD%^RED%^Shigi tells you,%^RESET%^ \"'never a better unholy bone armour spell'.%^RESET%^\"",}),({1498151092,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Yeah!%^RESET%^\"",}),({1498151096,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Er, ignroe.%^RESET%^\"",}),({1498154012,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"So like... are we slow because you?%^RESET%^\"",}),({1498154020,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"I need to know it's not because me.%^RESET%^\"",}),({1498154757,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"It's because we have like 500mb of swap space used -- we need to reboot --- baaaaaaadly.%^RESET%^\"",}),({1498154898,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Ahhhh.%^RESET%^\"",}),({1498248210,"%^BOLD%^RED%^Melchezidek tells you,%^RESET%^ \"Re: our conversation the other day about what classes to get yadda yadda -- https://xkcd.com/353/.%^RESET%^\"",}),({1498249228,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"YES.%^RESET%^\"",}),({1498250084,"%^BOLD%^RED%^You tell Vievienne,%^RESET%^ \"We need moar illusions.%^RESET%^\"",}),({1498252028,"%^BOLD%^RED%^You tell Vievienne,%^RESET%^ \"<3 <3 <3.%^RESET%^\"",}),({1498252043,"%^BOLD%^RED%^You tell Vievienne,%^RESET%^ \"It's gohomesdudebrahdrivesoclock.%^RESET%^\"",}),({1498427657,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"Err in a minute.. I just came in to log out of bdo.. and a witch outfit is going on sale in like 4 minutes.. I need to stay and buy it :P.%^RESET%^\"",}),({1498427859,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"(i should probs go downstairs ^^).%^RESET%^\"",}),({1498427934,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Especially because hatebeast is getting hatier.%^RESET%^\"",}),({1498430759,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"What you make.%^RESET%^\"",}),({1498430965,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"Oh haaiiii.%^RESET%^\"",}),({1498430972,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"I made smoochie noises.%^RESET%^\"",}),({1498430975,"%^BOLD%^RED%^You tell An invisible immortal,%^RESET%^ \"At your faceeee.%^RESET%^\"",}),({1498434846,"%^BOLD%^RED%^You tell Duuk,%^RESET%^ \"Https://discord.gg/vYxBSa.%^RESET%^\"",}),({1499292995,"%^BOLD%^RED%^You tell Melchezidek,%^RESET%^ \"Cmere.%^RESET%^\"",}),})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1265239261
+Position 2
+WhoInvis 0
+Angel 0
+Retired 0
+Sponsor "Alessandra"
+Religion ({"Anteky",})
+ReligionTitle 0
+Department 0
+Domain "Oceans"
+DomainTitle 0
+Sponsorees ({"Torak","Torako",})
+Gender "male"
+Status 0

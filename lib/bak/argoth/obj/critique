@@ -1,0 +1,22 @@
+Morning Arathorn!  I had some time at work so I'm reviewing your area.  Here are my comments about your #obj directory:
+
+cleaver.c Repair skills and repair difficulty are much too high, a cleaver should be a fairly easy item to create.
+
+r_knife.c Class is too high here.  Its only one point less than your two handed battle cleaver.  Also, there are no repair functions in the item.
+
+Stay tuned for more critiques in other directories!
+
+Balishae
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+New Stuff
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+smallshield.c claims to be very heavy, the mass needs to be bumped up quite a bit.
+
+slickblade.c - Your set history needs to be more specific.  And make it 
+one of Kailie's greatest weaponsmiths or Kailies greatest living 
+weaponsmith. or something like that.
+

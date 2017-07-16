@@ -1,0 +1,64 @@
+#/secure/save/immortals/o/ohtar.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ProperNoun 1
+Short "$N the Procrastinator"
+CapName "Ohtar"
+ExternalDesc "$N is nondescript."
+Invisible 1
+Items ([])
+Inventory ({"([\"Value\":400,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/urien/ruins/obj/scroll\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory "/realms/ohtar/projects/battlegrounds/npc"
+Nicknames ([])
+Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","bg":"cd /realms/ohtar/projects/battlegrounds $*","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked (["intergossip":1,"dc":1,"ds":1,"error":0,"isport":1,"ooc":0,])
+Screen ({112,67,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 155704
+WhereBlock 0
+Brief 0
+LoginTime 1388011276
+BirthTime 1357521492
+Password "`lojfnif!mgeaifgak`cjmeolohminao`hdngfok`"
+Email "elite.jynxx@gmail.com"
+RealName "Reno"
+Rank 0
+LoginSite "/realms/ohtar/workroom"
+HostSite "184-97-242-117.mpls.qwest.net"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["news.imm":1,"ooc":1,"news.announcements":1,])
+NewServerLogin 1
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+SaveRecurse 0
+Saved ({"tellhist","sphist","Angel","Sponsor","Sponsorees","Retired",})
+Viking 0
+tellhist ({({1357522804,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"North road.%^RESET%^\"",}),({1357522823,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"Estergrym.%^RESET%^\"",}),({1357522873,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Copy.%^RESET%^\"",}),({1357525494,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"How do i add a directory again? like /npc etc.%^RESET%^\"",}),({1357525563,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Disregard.%^RESET%^\"",}),({1357525566,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"Mkdir.%^RESET%^\"",}),({1357526320,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"Doc looks good.%^RESET%^\"",}),({1357526870,"%^BOLD%^RED%^You tell Urien,%^RESET%^ \"Thanks sir.%^RESET%^\"",}),({1357526881,"%^BOLD%^RED%^Urien tells you,%^RESET%^ \"No prob brohan.%^RESET%^\"",}),({1378265577,"%^BOLD%^RED%^Alessandra tells you,%^RESET%^ \"I'm vis now.%^RESET%^\"",}),})
+sphist ({})
+CreatorAge 0
+CreatorBirth 1357521515
+Position 2
+WhoInvis 0
+Angel 0
+Retired 0
+Sponsor "Urien"
+Religion ({"None",})
+ReligionTitle 0
+Department 0
+Domain "None"
+DomainTitle 0
+Sponsorees ({})
+Gender "male"
+Status 0

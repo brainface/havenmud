@@ -1,0 +1,145 @@
+#/secure/save/players/f/futvin.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Deeply Moving Performer of Glimmerdin (Glimmerdin dwarf)"
+CapName "Futvin"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":450,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":10,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":450,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":10,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":450,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":10,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Value\":100,\"Mass\":5,\"Worn\":0,\"Class\":15,\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/ninjastore/hirashuriken\",\"Broken\":0,\"DamagePoints\":355,\"Poison\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":450,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":10,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":450,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":10,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":450,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":10,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":0,\"Mass\":10,\"Worn\":0,\"Class\":2,\"#base_name#\":\"/std/instruments/fife\",\"Broken\":0,\"DamagePoints\":50,\"Poison\":0,])","([\"Value\":0,\"Class\":8,\"Worn\":0,\"CatchChance\":40,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":125,\"PoleStrength\":300,\"#base_name#\":\"/std/obj/fishing/pole\",\"DamagePoints\":400,])","([\"Value\":0,\"Class\":8,\"Worn\":0,\"CatchChance\":40,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":125,\"PoleStrength\":300,\"#base_name#\":\"/std/obj/fishing/pole\",\"DamagePoints\":400,])","([\"Value\":0,\"Class\":8,\"Worn\":0,\"CatchChance\":40,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":125,\"PoleStrength\":300,\"#base_name#\":\"/std/obj/fishing/pole\",\"DamagePoints\":400,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/std/clothing/small_pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/std/clothing/small_shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/small_shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":993,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/small_coat\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":95,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/southern_coast/towns/kresh/leatherstore/oldhelmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":799,\"Poison\":0,])","([\"Value\":0,\"Mass\":175,\"Worn\":({\"torso\",}),\"#base_name#\":\"/domains/southern_coast/towns/kresh/leatherstore/oldvest\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":775,\"Poison\":0,])","([\"Value\":700,\"Mass\":5,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/instruments/drum\",\"Broken\":0,\"DamagePoints\":500,\"Poison\":0,])","([\"Value\":60,\"Mass\":65,\"Worn\":({\"right hand\",}),\"Class\":17,\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/kusarigama\",\"Broken\":0,\"DamagePoints\":706,\"Poison\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":270,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":6,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of amphibian meat\",\"MeatAdjective\":\"burned\",\"Value\":225,\"MeatSource\":\"amphibian\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":5,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to an amphibian.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":450,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":10,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":450,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":10,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])","([\"Portions\":1,\"Worn\":0,\"Class\":1,\"MeatClass\":15,\"MealStrength\":15,\"#base_name#\":\"/std/obj/meat\",\"Short\":\"a burned slab of rodent meat\",\"MeatAdjective\":\"burned\",\"Value\":450,\"MeatSource\":\"rodent\",\"Broken\":0,\"Poison\":0,\"Mass\":20,\"MeatLevel\":10,\"MealType\":2,\"Long\":\"This burned meat formerly belonged to a rodent.\",\"DamagePoints\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt ">"
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","sor":"sing song of sorrow $*","gac":"get all from $* corpse","w":"go west","tr":"ask karl to train $*","u":"go up","cf":"consider first $*","out":"go out","s":"go south","oh":"chanhist ooc $*","expul":"sing expulsion $*","q":"status $*","oe":"oocemote $*","p":"who","tin":"sing tingling song $*",".":"status","n":"go north","sell":"ask tylus to buy $*","l":"look $*","thir":"sing thirst $*","af":"attack first $*","rep":"sing harmonic replenishment $*","k":"kill $*","ha":"sing harpy's shriek $*","te":"ask karl to teach all songs $*","i":"inventory","nour":"sing nourishment $*","e":"go east","d":"go down","repl":"sing harmonic replenishment $*","lunar":"sing lunar ballad $*","a":"attack $*","saa":"throw 2nd shuriken $*","ccf":"cook first $* corpse","pp":"protections","nw":"go northwest","kf":"kill first $*","pro":"sing protective note $*","solar":"sing solar ballad $*","ka":"kill all $*","exa":"look at $*","sw":"go southwest","gs":"get shurikens $*","..":"skills","...":"songs $*","qqq":"songs -l -c $*","tav":"sing tavernsong $*","expu":"sing expulsion $*","sm":"ask tylus to buy meat $*","ne":"go northeast","qq":"skills $*","ang":"sing angel whisper $*","ban":"sing banshee scream $*","thi":"sing thirst $*","ga":"get all $*","se":"go southeast","lf":"look first $*","quen":"sing quenching $*","gcc":"get coins from $* corpse","sa":"throw 1st shuriken $*",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "xterm"
+Blocked ([])
+Screen ({79,21,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 26622
+WhereBlock 0
+Brief 1
+LoginTime 1500075830
+BirthTime 1497930802
+Password "dk`ooink!jogcolfiednecohn`ch`dcoggggn`elb"
+Email "futvin@outlook.com"
+RealName "Aaron"
+Rank 0
+LoginSite "/domains/gurov/areas/taiga/room/10"
+HostSite "172.58.91.148"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 15
+Experience 78945
+Skills (["reinforced armour":(["class":2,"level":4,]),"multi-weapon":(["class":4,"level":0,]),"stealth":(["class":2,"level":0,]),"instrumental music":(["class":1,"level":32,]),"fire magic":(["class":2,"level":0,]),"vocal music":(["class":1,"level":32,]),"slash combat":(["class":2,"level":0,]),"pierce combat":(["class":4,"level":0,]),"projectile combat":(["class":1,"level":32,]),"disorient":(["class":4,"level":10,]),"fishing":(["class":2,"level":0,]),"leather armour":(["class":2,"level":11,]),"swimming":(["class":4,"level":0,]),"bargaining":(["class":4,"level":10,]),"dodge":(["class":4,"level":24,]),"cooking":(["class":4,"level":20,]),])
+Morality 1478
+CanMulti 1
+Class "bard"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kylin","Kylin",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Conditions 0
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Karak":-39,"Glimmerdin":78,])
+OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
+Position 8
+Undead 0
+UndeadType 0
+HealthPoints 490
+MagicPoints 134
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 642
+Drink 507
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 329.899994
+Torso "torso"
+Fingers (["right hand":4,"left hand":4,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":450,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":230,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":120,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":120,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":230,]),"torso":(["children":({"head","right leg","left leg","left arm","right arm",}),"armours":751616,"parent":0,"class":1,"health":450,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":230,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":120,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":230,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":120,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 0
+LightSensitivity ({0,60,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":131070,"high":0,"medium":0,])
+Stats (["wisdom":(["class":2,"points":0,"level":29,]),"agility":(["class":4,"points":0,"level":28,]),"coordination":(["class":3,"points":0,"level":38,]),"luck":(["class":3,"points":0,"level":38,]),"intelligence":(["class":3,"points":0,"level":29,]),"strength":(["class":3,"points":0,"level":31,]),"durability":(["class":2,"points":0,"level":44,]),"charisma":(["class":3,"points":0,"level":44,]),])
+Languages (["runic":(["native":1,"name":"Runic","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Glimmerdin"
+Race "dwarf"
+Gender "male"
+Nationality "Glimmerdin"
+Size 8
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1497930802
+Cooldowns ([])
+Currency (["nuggets":250,"imperials":10712,"koken":7237,])
+Bank (["Bank of Glimmerdin":(["audit":"({ OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#146718), OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#146718), OBJ(/verbs/common/ask), OBJ(futvin /secure/save/players/f/futvin) })","nuggets":534,"last time":1499828478,"imperials":24241,"open":1498060301,"last trans":"withdrawal",]),])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook (["quenching":4,"pianissimo":1,"tingling song":84,"staccato":1,"banshee scream":12,"famine":1,"harpy's shriek":100,"harmonic replenishment":3,"expulsion":11,"solar ballad":18,"glory of the mage":1,"harmonic shield":100,"angel whisper":18,"song of sorrow":22,"desert path":1,"shielding song":100,"protective note":71,"thirst":31,"lunar ballad":3,"tavernsong":10,"drift":1,"nourishment":2,"debutant aria":100,])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Deeply Moving Performer of Glimmerdin","the Rumbling Basso of Glimmerdin","the Platypus Skinner","the Haven Town Runner","the Vacationer","the Equipped","the Haven Tourist","the Explorer","the Feather Ruffler","of Glimmerdin",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "Futvin"
+Quests ({(/1497930840,"Newbie Book",/),(/1498010138,"Chicken Coop",/),(/1498010385,"Explored Grove",/),(/1498011546,"Haven Tour",/),(/1498051579,"Bandit Camp",/),(/1498051614,"Leather Emporium",/),(/1498051669,"Platypus Bay",/),(/1498051784,"Message Courier",/),(/1498054794,"Platypus Skinner",/),})
+Deaths 0
+DevelopmentPoints 15
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 8
+LastLevel 1499828483
+HighestLevel 15
+LongDaemonData ({"black","dark brown","brown","rugged","a stocky build and hair on $POS face.",})
+PermanentProperties (["status":"normal",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})
