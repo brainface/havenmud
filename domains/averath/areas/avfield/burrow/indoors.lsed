@@ -1,1 +1,0 @@
-1,$s/SetDomain\(\"Averath\"\)\;/SetDomain\(\"Averath\"\)\;SetClimate\(\"indoors\"\)\;/g

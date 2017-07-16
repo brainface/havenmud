@@ -1,11 +1,0 @@
-#/secure/lib/newsgroup.c
-__GroupId "coolstoriesbro"
-__RaceRestriction ""
-__TownRestriction ""
-__GuildRestriction ""
-__ClassRestriction ""
-__ReligionRestriction ""
-__FriendlyName "unbuggy news"
-__ReadRankRestriction 2
-__PostRankRestriction 2
-__Posts ({(["author":"mahkefel","time":1401582410,"post":"testing","subject":"test","read":({"mahkefel","urien","duuk","alessandra","melchezidek","torak","zalbar","atrus",}),]),})

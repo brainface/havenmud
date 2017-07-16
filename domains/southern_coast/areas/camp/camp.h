@@ -1,5 +1,0 @@
-#define DUUK_AREA  "/domains/southern_coast/areas/camp"
-#define CAMP_ROOM  DUUK_AREA + "/room"
-#define CAMP_TENT  DUUK_AREA + "/tent"
-#define CAMP_NPC  DUUK_AREA + "/npc"
-#define CAMP_OBJ  DUUK_AREA + "/obj"

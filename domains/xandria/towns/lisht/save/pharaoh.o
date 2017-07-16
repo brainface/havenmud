@@ -1,6 +1,0 @@
-#/domains/xandria/towns/lisht/obj/pharaoh_d.c
-MaleNames ({"rameses","seti","menemhet","amasis","thutmose","akhenaten","piankhi","tutankhamen",})
-FemaleNames ({"hatshepsut","isis","cleopatra","astarte","chione","nefertiti",})
-CurrentPharaoh "isis"
-PharaohGender "female"
-NameCount (["menemhet":10,"hatshepsut":4,"piankhi":6,"tutankhamen":8,"nefertiti":3,"seti":7,"chione":4,"thutmose":6,"rameses":10,"amasis":10,"akhenaten":11,"cleopatra":2,"isis":5,])

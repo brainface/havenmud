@@ -1,11 +1,0 @@
-#/secure/lib/newsgroup.c
-__GroupId "religion.kuthar"
-__RaceRestriction ""
-__TownRestriction ""
-__GuildRestriction ""
-__ClassRestriction ""
-__ReligionRestriction "Kuthar"
-__FriendlyName "Kuthar Discussion"
-__ReadRankRestriction 1
-__PostRankRestriction 1
-__Posts ({(["time":1316940423,"author":"tek","post":"today begins my travels beyound our sacred jungle17 springs i have seen but this spring is best!food will be bountiful when tek returns!","read":({"tek","mahkefel","duuk","alessandra","torak","urien","atrus","melchezidek","leonaveri","zeratul","zalbar",}),"subject":"travel",]),})

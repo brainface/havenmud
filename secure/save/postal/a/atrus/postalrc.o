@@ -1,4 +1,0 @@
-#/secure/daemon/options.c
-NoClean 1
-__MyGroups ([])
-__Options (["content":1,"metoo":1,"notify":1,])

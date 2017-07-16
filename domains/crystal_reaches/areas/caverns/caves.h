@@ -1,5 +1,0 @@
-#define TELPATH   "/domains/crystal_reaches/areas/caverns"
-#define NPCS      TELPATH "/npcs"
-#define OBJS      TELPATH "/objects"
-#define ROOMLV1   TELPATH "/level_1"
-#define ROOMLV2   TELPATH "/level_2"
