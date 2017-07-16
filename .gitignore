@@ -1,6 +1,9 @@
 *.bak
 *.x
 *.new
+/bin/addr_server
+/bin/driver
+/bin/portbind
 /haven/bak
 /haven/Fluff_HAVEN
 /haven/ftp
