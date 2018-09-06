@@ -1,6 +1,7 @@
 #include <lib.h>
 #include <domains.h>
 #include <std.h>
+#include "../../averath.h"
 inherit LIB_ROOM;
 
 static void create() {
@@ -17,5 +18,6 @@ static void create() {
     STD_INSTRUMENTS "fife" : 1,
     STD_POLE "staff" : 1,
     STD_LOCKPICKS "picks" : 1,
+      AVERATH_OBJ "clothing/l_boots" : 2,
   ]) );
 }

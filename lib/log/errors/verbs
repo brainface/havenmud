@@ -1,7 +1,4 @@
-/verbs/players/cast.c line 54: syntax error
-/verbs/players/cast.c line 53: syntax error
-/verbs/players/cast.c line 53: syntax error
-/verbs/players/cast.c line 53: syntax error
-/verbs/players/command.c line 15: syntax error
-/verbs/players/command.c line 29: End of file in string
-/verbs/players/command.c line 26: Undefined variable 'who'
+/verbs/actions/sweep.c line 81: Undefined variable 'weapon'
+/verbs/actions/sweep.c line 85: Illegal to redeclare local name 'weapon'
+/verbs/actions/sweep.c line 31: Undefined variable 'ARMOUR_REINFORCED'
+/verbs/actions/polevault.c line 27: Undefined variable 'ARMOUR_REINFORCED'

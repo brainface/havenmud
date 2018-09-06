@@ -24,7 +24,7 @@ Hands 1
 WeaponType "blunt"
 Keys ({})
 CanClose 1
-Messages (["telin":"$N comes out of nowhere.","come":"$N enters.","telout":"$N goes into nowhere.","leave":"$N leaves $D.",])
+Messages (["come":"$N enters.","telin":"$N comes out of nowhere.","leave":"$N leaves $D.","telout":"$N goes into nowhere.",])
 VehicleName "Gallactica"
 CurrentLocation "/domains/innersea/virtual/ocean/0,0"
 BridgeDescription "The bridge of the ship is clean and sparkles with newness."
@@ -38,10 +38,10 @@ WeaponSystem 16
 ShieldSystem 8
 Crystals 109999
 hasAttacked ({})
-LastSave 1491163834
+LastSave 1536119601
 DamagedSystems ({"shield","sails",})
 VId ({"dreadnaught","ship","ship500","Gallactica",})
 VLong "This is the dreadnaught Gallactica."
 VShort "the dreadnaught Gallactica"
 ShipEnemies ({})
-UniqueVehicleId "ship5616"
+UniqueVehicleId "ship9754"

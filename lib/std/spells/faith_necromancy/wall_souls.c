@@ -1,3 +1,6 @@
+/* MADE by iunno
+ * Mahkefel 2017--changed to damage shield, making faith necro damage shields only
+ */
 #include <lib.h>
 #include <damage_types.h>
 #include <magic.h>
@@ -8,7 +11,7 @@ static void create() {
   SetSpell("wall of souls");
   SetRules("", "LIV");
   SetSpellType(SPELL_DEFENSE);
-  SetShieldType(SHIELD_TIMED);
+  SetShieldType(SHIELD_DAMAGE);
   SetSkills( ([
     "faith"      : 100,
     "necromancy" : 100,
@@ -23,7 +26,8 @@ static void create() {
   SetHelp(
     "Using his evil power over the dead the priest "
     "manages to call fourth souls to form a wall around "
-    "the target to protect them from magical and physical "
-    "damage for the duration of the spell."
-    );    
+    "the target to protect them from a certain amount of "
+    "magical and physical damage."
+    );
 }
+

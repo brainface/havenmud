@@ -17,10 +17,10 @@ static void create() {
         item::create();
         SetKeyName("black circle");
         SetId( ({"circle",}) );
-        SetAdjectives( ({"large", "black", "chalk"}) );
-        SetShort("a large chalk circle");
-        SetLong("This large circle glows with unholy power. It is drawn to so "
-        "that it surrounds the room. It is made with black chalk dust, though "
+        SetAdjectives( ({"large", "black", "charcoal"}) );
+        SetShort("a large charcoal circle");
+        SetLong("This large circle glows with unholy power. It is drawn so "
+        "that it surrounds the room. It is made with charcoal, though "
         "it looks like it could be easily destroyed or removed, it remains perfectly "
         "untouched.");
         SetMass(1);
@@ -33,15 +33,14 @@ static void create() {
 
 void init() {
   object who;
-  if(this_player()->GetKeyName() != Master && !(immortalp(this_player())) && (!newbiep(this_player())))  {           
+  if(this_player()->GetKeyName() != Master && !(immortalp(this_player())) && (!newbiep(this_player())))  {
     if(this_player()->GetMorality() > 200 ) {
-      send_messages( "",
-           "%^BOLD%^%^BLACK%^The chalk circle glows flares as $agent_name steps into the room.%^RESET%^",
-           this_player(), 0, environment());        
-      Damage = Damage/5;        
+      send_messages( "step",
+           "%^BOLD%^%^BLACK%^The charcoal circle flares %^RED%^red%^BOLD%^BLACK%^ as $agent_name $agent_verb into it.%^RESET%^",
+           this_player(), 0, environment());
       this_player()->eventReceiveDamage(this_object(), HEAT, Damage, 0);
       if(userp(this_player())) this_player()->eventWimpy();
-    }        
+    }
   }
 }
 
@@ -49,18 +48,18 @@ void heart_beat() {
 
     object room;
     object who;
-    
+
     room = environment(this_object());
 
     if (!room) {
      eventDestruct();
      return;
-    }  
+    }
     if(!who = find_player(Master)){
    room->RemoveProperty("great_circle");
      eventDestruct();
      return;
-    }    
+    }
         countDown--;
         if(!countDown) { DoFade(); }
         else {
@@ -98,7 +97,7 @@ void DoFade()
         message("ward message",
         "%^BOLD%^%^BLUE%^Your Black Circle fades out "
         "of existence at " + room3->GetShort() + ".%^RESET%^",who);
-        
+
         room3->RemoveProperty("great_circle");
         eventDestruct();
 }
@@ -108,12 +107,12 @@ void DoPurge(){
   object *critters;
   object who;
   who = find_player(Master);
-  
+
   critters = filter(all_inventory(environment(this_object())), (: living($1) && !newbiep($1) :));
   critters = filter(critters, (: noncreatorp :) );
   critters -= who->GetFollowers() + ({ who });
       message("ward message",
-              "%^BOLD%^%^RED%^The chalk circle glows red briefly.%^RESET%^", environment());
-        critters->eventReceiveDamage(this_object(), HEAT|MAGIC|SHOCK, Damage/5, 0); 
+              "%^BOLD%^%^RED%^The charcoal circle glows red briefly.%^RESET%^", environment());
+        critters->eventReceiveDamage(this_object(), HEAT|MAGIC|SHOCK, Damage/5, 0);
 }
 

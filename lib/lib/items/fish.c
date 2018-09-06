@@ -10,7 +10,7 @@
 
 inherit LIB_OBJECT;
 
-static private int Mass, Fight;
+static private int Mass, Fight, Level;
 static private string Food;
 
 static void create() {
@@ -18,12 +18,17 @@ static void create() {
     Mass = 0;
     Food = 0;
     Fight = 0;
+    Level = 0;
 }
 
 int eventCatch(object who) { return 1; }
 
-int SetFight(int x) { return (Fight = x); }
+// mahk: for xp/gather chance reasons
+int SetLevel(int x) { return (Level = x); }
+int GetLevel() { return Level;}
 
+// mahk: fight is never used as far as i can tell >>
+int SetFight(int x) { return (Fight = x); }
 int GetFight() { return Fight; }
 
 string SetFood(string str) { return (Food = str); }
@@ -33,3 +38,4 @@ string GetFood() { return Food; }
 int SetMass(int x) { return (Mass = x); }
 
 int GetMass() { return Mass; }
+

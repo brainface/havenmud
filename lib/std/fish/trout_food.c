@@ -8,7 +8,7 @@ static void create() {
   SetShort("a heavy trout");
   SetId( ({ "trout", "fish" }) );
   SetAdjectives( ({ "heavy" }) );
-  SetStrength(30);
+  SetStrength(50);
   SetMass(10);
   SetPortions(3);
   SetLong("This trout is large and would make a decent meal for "

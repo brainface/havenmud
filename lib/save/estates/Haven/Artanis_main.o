@@ -1,4 +1,4 @@
-#/domains/estates/virtual/main_estate.c
+#/domains/estates/virtual/main_estate/Haven/Artanis.c
 AmbientLight 35
 NoClean 1
 InternalDesc "This is an empty, unfurnished keep. It is quite bare."
@@ -9,10 +9,10 @@ Items ([])
 Climate "indoors"
 DummyItems ({})
 Gravity 1.000000
-LastReset 1216690204
+LastReset 1534967461
 Town "Haven"
 Saved ({"EOut","ELong","EShort","Owner",})
 ELong "This is an empty, unfurnished keep. It is quite bare."
 EShort "inside an Estate"
-EOut "/domains/southern_coast/towns/haven/room/imperial_road/ir8"
+EOut "/domains/southern_coast/towns/haven/room/imperial_road/ir2"
 Owner "Artanis"

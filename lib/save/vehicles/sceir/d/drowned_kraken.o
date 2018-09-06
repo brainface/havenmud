@@ -38,10 +38,10 @@ WeaponSystem 16
 ShieldSystem 8
 Crystals 6801
 hasAttacked ({})
-LastSave 1498178923
+LastSave 1514107110
 DamagedSystems ({})
 VId ({"Drowned Kraken","dreadnaught","ship","ship569",})
 VLong "This is the dreadnaught Drowned Kraken."
 VShort "the dreadnaught Drowned Kraken"
 ShipEnemies ({})
-UniqueVehicleId "ship8540"
+UniqueVehicleId "ship3281"

@@ -4,6 +4,7 @@
 //    changed size to medium
 //    (to make loot useful to
 //     medium people)        
+// 2018: angel race
 #include <lib.h>             
 #include "../planes.h"       
 #include <damage_types.h>    
@@ -23,11 +24,9 @@ static void create() {
     "back."
   );                                         
   SetGender("female");                       
-  SetRace("devil", "angel");                 
+  SetRace("angel");                 
   AddLimb("upper left wing", "torso", 2, ({A_WING}));
   AddLimb("upper right wing", "torso", 2, ({A_WING}));
-  AddLimb("left wing", "torso", 2, ({A_WING}));       
-  AddLimb("right wing", "torso", 2, ({A_WING}));      
   AddLimb("lower left wing", "torso", 2, ({A_WING})); 
   AddLimb("lower right wing", "torso", 2, ({A_WING}));
   SetClass("bard");                                     
@@ -37,7 +36,8 @@ static void create() {
     "!emote leaps into the air and does a mid-air cartwheel.",
     "!emote slowly folds and unfolds her wings one by one.",    
     "!emote sounds a few radiant notes.",    
-    "!emote sounds a hesitant note, then slightly adjusts a slide on her trumpet.",    
+    "!emote sounds a hesitant note, then slightly adjusts a slide on her trumpet.",
+    "!say shhh I'm about to sing about The Lord.",
   }) );                                       
   SetCombatAction( 40, ({
     "!say Go away! You don't belong here!",                             

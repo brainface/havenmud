@@ -44,7 +44,7 @@ mixed can_cast_str(string spell) {
   if(this_player()->GetConditionFlag(CONDITION_PREVENT_TALK)) {
     return "Something prevents you from speaking."; 
   }
-  if (tmp && tmp->GetSpellType() && tmp->GetSpellType() == SPELL_HEALING) {               
+  if (tmp && tmp->GetSkills() && member_array("healing",tmp->GetSkills()) != -1 ) {               
     if(this_player()->GetConditionFlag(CONDITION_PREVENT_MAGIC_HEALING)) { 
       return "Your can't concentrate on healing magic.";
     }

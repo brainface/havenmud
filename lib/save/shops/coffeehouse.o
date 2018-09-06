@@ -27,8 +27,8 @@ SpecialTargets ({})
 Position 2
 HealthPoints 450
 MagicPoints 50
-Food 53377
-Drink 53377
+Food 53393
+Drink 53393
 StaminaPoints 450.000000
 Torso "torso"
 Fingers (["right hand":5,"left hand":5,])
@@ -63,7 +63,7 @@ EmoteResponses ([])
 RequestResponses ([])
 TalkResponses ([])
 WanderPath ({})
-ShopFunds 38934
+ShopFunds 39495
 ShopOwner "alyana"
 LocalCurrency "imperials"
 ShopID "coffeehouse"

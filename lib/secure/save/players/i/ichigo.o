@@ -10,24 +10,24 @@ ExternalDesc "$N is nondescript."
 Invisible 0
 Items ([])
 Inventory ({})
-Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
 RestrictedChannels ({})
 HistorySize 10
 Prompt "> "
 CurrentWorkingDirectory 0
 Nicknames ([])
-Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","oe":"oocemote $*","p":"who",".":"status","n":"go north","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","ga":"get all $*","se":"go southeast","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
 Xverbs (["'":"speak $*",":":"emote $*",])
 Terminal "ansi"
 Blocked ([])
-Screen ({130,59,})
+Screen ({130,11,})
 Wrapping 1
 SocialRank 1
 ConfirmedEmail 1
-Age 111369
+Age 113406
 WhereBlock 0
 Brief 1
-LoginTime 1497036905
+LoginTime 1535569942
 BirthTime 1244608054
 Password "kldh`jm`!kfhn`ci`m`eejmdoedlfln`jlmcffeeh"
 Email "fuzzydemon84@hotmail.com"
@@ -43,7 +43,7 @@ NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
 NewServerLogin 1
 Level 93
 Experience 0
-Skills (["melee combat":(["class":1,"level":604,]),"accuracy":(["class":4,"level":604,]),"knife combat":(["class":2,"level":604,]),"conjuring":(["class":1,"level":604,]),"mithril working":(["class":4,"level":604,]),"faith":(["class":1,"level":604,]),"stealing":(["class":4,"level":1,]),"necromancy":(["class":1,"level":604,]),"natural magic":(["class":1,"level":604,]),"fishing":(["class":4,"level":1,]),"pole combat":(["class":1,"level":604,]),"wood working":(["class":1,"level":1,]),"bargaining":(["class":4,"level":604,]),"textile working":(["class":2,"level":604,]),"dodge":(["class":1,"level":604,]),"parry":(["class":1,"level":604,]),"brawling":(["class":1,"level":604,]),"enchantment":(["class":2,"level":604,]),"evokation":(["class":1,"level":604,]),])
+Skills (["melee combat":(["class":1,"level":604,]),"accuracy":(["class":4,"level":604,]),"conjuring":(["class":1,"level":604,]),"knife combat":(["class":2,"level":604,]),"mithril working":(["class":4,"level":604,]),"faith":(["class":1,"level":604,]),"necromancy":(["class":1,"level":604,]),"stealing":(["class":4,"level":1,]),"fishing":(["class":4,"level":1,]),"natural magic":(["class":1,"level":604,]),"wood working":(["class":1,"level":1,]),"pole combat":(["class":1,"level":604,]),"bargaining":(["class":4,"level":604,]),"textile working":(["class":2,"level":604,]),"dodge":(["class":1,"level":604,]),"brawling":(["class":1,"level":604,]),"parry":(["class":1,"level":604,]),"enchantment":(["class":2,"level":604,]),"evokation":(["class":1,"level":604,]),])
 Morality -2103
 CanMulti 1
 Class "evoker"
@@ -55,6 +55,7 @@ NextRoundFunction 0
 NextRound 0
 MeleeDamageType 2
 MeleeAttackString "attack"
+Conditions ([])
 Enemies ({})
 SpecialTargets 0
 CurrentEnemy 0
@@ -62,9 +63,8 @@ Guard 0
 MagicBonus 0
 endParalysis 0
 Paralyzed 0
-Reputations (["Haven":-2,"Arcanith":-6,"Malveillant":1,"Glimmerdin":-2,"Soleil":-4,])
-OpposingFactions (["Gwonish":"Lloryk","Lloryk":"Gwonish","Haven":"Malveillant","Karak":"Glimmerdin","Malveillant":"Haven","Glimmerdin":"Karak",])
-Position 2
+Reputations (["Arcanith":-6,"Haven":-2,"Malveillant":1,"Soleil":-4,"Glimmerdin":-2,])
+Position 8
 Undead 0
 UndeadType 0
 HealthPoints 10050
@@ -72,8 +72,8 @@ MagicPoints 363
 Bleeding 0
 Alcohol 0
 Caffeine 0
-Food 14571
-Drink 14571
+Food 15386
+Drink 15386
 Poison 0
 Sleeping 0
 Hiding 0
@@ -90,8 +90,8 @@ Blind 0
 CustomStats 32
 LightSensitivity ({0,40,})
 Resistance (["low":0,"high":0,"immune":0,"medium":128,"none":65406,])
-Stats (["agility":(["class":4,"points":0,"level":23,]),"wisdom":(["class":2,"points":0,"level":33,]),"coordination":(["class":3,"points":0,"level":28,]),"strength":(["class":3,"points":0,"level":29,]),"intelligence":(["class":4,"points":0,"level":28,]),"luck":(["class":3,"points":0,"level":27,]),"durability":(["class":1,"points":0,"level":1000,]),"charisma":(["class":4,"points":0,"level":20,]),])
-Languages (["heyami":(["native":1,"name":"Heyami","points":0,"level":100,]),"gryshnak":(["native":1,"name":"Gryshnak","points":0,"level":100,]),"enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),"blaodric":(["native":1,"name":"Blaodric","points":0,"level":100,]),])
+Stats (["wisdom":(["class":2,"points":0,"level":33,]),"agility":(["class":4,"points":0,"level":23,]),"coordination":(["class":3,"points":0,"level":28,]),"luck":(["class":3,"points":0,"level":27,]),"intelligence":(["class":4,"points":0,"level":28,]),"strength":(["class":3,"points":0,"level":29,]),"durability":(["class":1,"points":0,"level":1000,]),"charisma":(["class":4,"points":0,"level":20,]),])
+Languages (["heyami":(["native":1,"name":"Heyami","points":0,"level":100,]),"gryshnak":(["native":1,"name":"Gryshnak","points":0,"level":100,]),"enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),"blaodric":(["native":1,"name":"Blaodric","points":0,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
 SaveRecurse 0
 Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
 Viking 0
@@ -107,10 +107,11 @@ CombatStyles ([])
 Wimpy 30
 WimpyCmd "go out"
 LastWimpy 1496600677
+Cooldowns ([])
 Currency ([])
-Bank (["Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#516650), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#516650), OBJ(/verbs/players/request), OBJ(ichigo /secure/save/players/i/ichigo) })","last time":1453062220,"open":1453062220,"imperials":5,"last trans":"opened account",]),])
+Bank (["Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#516650), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#516650), OBJ(/verbs/players/request), OBJ(ichigo /secure/save/players/i/ichigo) })","last time":1453062220,"imperials":5,"open":1453062220,"last trans":"opened account",]),])
 CraftingRecipes ({"white linen headband","white linen headband","white linen headband","white linen headband","white linen headband","white linen headband","white linen headband","bamboo spike",})
-SpellBook (["missile":1,"buffer":1,"frostbite":1,"fireburst":1,"hunger":1,"animate dead":1,"incite violence":2,"wither":1,"disintegrate":1,"skull of darkness":2,"planar strength":100,"mesmer barrier":1,"bone shell":1,"grave walk":1,"poison sphere":8,"vermin horde":11,"spirit call":1,"acid blast":1,"fireball":1,"create energy mine":1,"shroud":1,"divine cataclysm":100,"avalanche":1,"sphere":1,"speak with dead":1,"vampiric touch":1,"acid splash":1,"venomous blood":11,"swarm":76,"energy field":1,"disperse protections":1,"drain soul":1,"shock":1,"energy wall":1,"poison orbs":3,"curse":1,"ice lance":80,"cloud kill":1,"chain lightning":1,"capsule":1,"holy word":15,"necromantic shield":1,"ice ball":1,"flamestrike":1,"wound":1,"veil from beyond":1,"poison explosion":1,"soultap":1,"acid rain":1,"lightning blast":100,"transmutation":1,"lava storm":1,"temporal barrier":5,"aura":1,"temperature shield":1,"locate zombie":1,"bolt":1,"umbral shield":1,])
+SpellBook (["fireburst":1,"frostbite":1,"buffer":1,"missile":1,"hunger":1,"animate dead":1,"incite violence":2,"skull of darkness":2,"disintegrate":1,"wither":1,"planar strength":100,"grave walk":1,"bone shell":1,"mesmer barrier":1,"acid blast":1,"spirit call":1,"vermin horde":11,"poison sphere":8,"fireball":1,"create energy mine":1,"shroud":1,"divine cataclysm":100,"avalanche":1,"vampiric touch":1,"speak with dead":1,"venomous blood":11,"acid splash":1,"energy field":1,"swarm":76,"drain soul":1,"shock":1,"curse":1,"poison orbs":3,"energy wall":1,"ice lance":80,"chain lightning":1,"cloud kill":1,"capsule":1,"ice ball":1,"necromantic shield":1,"holy word":15,"flamestrike":1,"poison explosion":1,"veil from beyond":1,"wound":1,"soultap":1,"acid rain":1,"lightning blast":100,"lava storm":1,"transmutation":1,"temporal barrier":5,"temperature shield":1,"locate zombie":1,"bolt":1,"umbral shield":1,])
 SongBook ([])
 RecoveryTime 0
 NoSing 0
@@ -121,7 +122,7 @@ Surname 0
 ApprovedStory 1
 OOCName 0
 Quests ({(/1244608070,"Newbie Book",/),})
-Deaths ({(/1244608118,"duuk",/),(/1245564203,"duuk",/),(/1251192582,"xurlchi",/),(/1268851145,"alessandra",/),(/1269064161,"mahkefel",/),(/1313447669,"manticore",/),(/1313944762,"yadda",/),(/1317570748,"starfire",/),(/1317571225,"starfire",/),(/1449025171,"ichigo",/),(/1496357410,"starfire",/),(/1496599222,"starfire",/),(/1496600140,"starfire",/),(/1496606660,"starfire",/),(/1496606680,"starfire",/),(/1496616053,"starfire",/),})
+Deaths ({(/1244608118,"duuk",/),(/1245564203,"duuk",/),(/1251192582,"xurlchi",/),(/1268851145,"alessandra",/),(/1269064161,"mahkefel",/),(/1313447669,"manticore",/),(/1313944762,"yadda",/),(/1317570748,"starfire",/),(/1317571225,"starfire",/),(/1449025171,"ichigo",/),(/1496357410,"starfire",/),(/1496599222,"starfire",/),(/1496600140,"starfire",/),(/1496606660,"starfire",/),(/1496606680,"starfire",/),(/1496616053,"starfire",/),(/1535569964,"melchezidek",/),})
 DevelopmentPoints 383
 TitleLength 1
 TitleAnd 1

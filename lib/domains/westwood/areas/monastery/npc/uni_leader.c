@@ -1,16 +1,15 @@
 // Changed to a universal eclat cleric trainer Feb. 19th 2014 Torak
+// made it remove projectile combat from updated eclat priests 2017 mahk
 
 #include <lib.h>
 #include <daemons.h>
 #include <dirs.h>
 inherit LIB_LEADER;
-// inherit LIB_NPC;
 #include "../monastery.h"
 
 static void create() {
    leader::create();
-//   npc::create();
-   SetTown("all");
+   SetTown("all");     
 //   SetTown("Soleil");
    SetProperty("monasterynoleave",1);
    SetKeyName("young unicorn");
@@ -23,26 +22,26 @@ static void create() {
            "still young and limber.");
    SetRace("unicorn");
    SetGender("male");
-//   SetClass("animal");
    SetClass("priest");
    SetReligion("Eclat");
    SetGlobalLeader(1);
    SetUniqueSkills( ([
      "melee combat" : 1,
-     "blunt combat" : 0,
+     "projectile combat" : 0,
    ]) );
    SetPlayerTitles( ([
-     "newbie" : "the Helpful",
-     "mortal" : "the Kind",
-     "hm" : "the Joyful",
-     "legend" : "the Blessed",
-     "avatar" : "Pious $N the Innocent",
-     "fighter" : "Oathbound $N the Guardian of the Weak",
-     "bard" : "Chorist $N the Trumpet of the Heart",
-     "cavalier" : "Holy $N the Defender of the Meek",
+     "newbie"    : "the Helpful",
+     "mortal"    : "the Kind",
+     "hm"        : "the Joyful",
+     "legend"    : "the Blessed",
+     "avatar"    : "Pious $N the Innocent",
+     "fighter"   : "Oathbound $N the Guardian of the Weak",
+     "bard"      : "Chorist $N the Trumpet of the Heart",
+     "cavalier"  : "Holy $N the Defender of the Meek",
+     "charlatan" : "$N the Thief of the Mighty",
    ]) );
    SetLevel(50);
-   SetMorality(1000);
+   SetMorality(1500);
 }
 
 void eventDie(object killer) {
@@ -54,6 +53,6 @@ void eventDie(object killer) {
   }
    horn = new(M_OBJ + "horn");
    horn->eventMove(this_object());
-//   npc::eventDie(killer);
    ::eventDie(killer);
 }
+

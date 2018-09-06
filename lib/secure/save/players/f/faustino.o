@@ -4,12 +4,12 @@ Opacity 0
 NoClean 0
 ShortSuffixes ([])
 ProperNoun 1
-Short "Grand Storm $N the Thundercloud of Damhair (Parva human) (undead)"
+Short "Grand Storm $N the Thundercloud of Damhair (Parva human)"
 CapName "Faustino"
 ExternalDesc "$N is nondescript."
 Invisible 0
 Items ([])
-Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":797,\"Poison\":0,])",})
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":3,\"#base_name#\":\"/std/spells/obj/create_light_ob\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":1500,\"Mass\":750,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/hsteelgauntlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":25000,\"Poison\":0,])","([\"Value\":1500,\"Mass\":750,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/hsteelgauntlet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":25000,\"Poison\":0,])","([\"Value\":3000,\"Mass\":200,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/hsteelboots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":25000,\"Poison\":0,])","([\"Value\":4000,\"Mass\":300,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/hsteelcuisse\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":4000,\"Poison\":0,])","([\"Value\":2000,\"Mass\":100,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/hsteelhelm\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":25000,\"Poison\":0,])","([\"Value\":4000,\"Mass\":500,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/domains/southern_coast/areas/platemailstore/hsteelbreastplate\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":4000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":797,\"Poison\":0,])",})
 Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
 RestrictedChannels ({})
 HistorySize 10
@@ -24,19 +24,19 @@ Screen ({77,24,})
 Wrapping 1
 SocialRank 4
 ConfirmedEmail 1
-Age 612240
+Age 613651
 WhereBlock 0
 Brief 0
-LoginTime 1481304814
+LoginTime 1516736649
 BirthTime 1363728782
 Password "`fdhjckf!hmhcchdbjankaogekll`oikeaih``b`f"
 Email "brknlf@gmail.com"
 RealName "Richie"
 Rank 0
-LoginSite "/domains/havenwood/towns/parva/room/cemetery"
+LoginSite "/domains/havenwood/towns/parva/room/healer"
 HostSite "wsip-192-234-160-243.om.om.cox.net"
 WebPage 0
-AdditionalId ({"zombie",})
+AdditionalId ({})
 Ranks ({"Grand Storm","Senor","Vizconde","Conde","Citizen",})
 Marriages ({})
 NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
@@ -44,7 +44,7 @@ NewServerLogin 1
 Level 127
 Experience 0
 Skills (["reinforced armour":(["class":2,"level":9,]),"metal working":(["class":4,"level":29,]),"cloth armour":(["class":2,"level":127,]),"melee combat":(["class":4,"level":30,]),"navigation":(["class":2,"level":18,]),"accuracy":(["class":2,"level":128,]),"combat rage":(["class":1,"level":256,]),"chain armour":(["class":2,"level":38,]),"disarm":(["class":4,"level":29,]),"faith":(["class":1,"level":255,]),"disorient":(["class":4,"level":62,]),"armour smithing":(["class":4,"level":29,]),"healing":(["class":1,"level":254,]),"leather armour":(["class":2,"level":9,]),"wood working":(["class":4,"level":29,]),"skinning":(["class":4,"level":8,]),"weapon smithing":(["class":4,"level":29,]),"plate armour":(["class":2,"level":128,]),"swimming":(["class":2,"level":126,]),"bargaining":(["class":2,"level":9,]),"leather working":(["class":4,"level":30,]),"textile working":(["class":4,"level":28,]),"natural working":(["class":4,"level":29,]),"dodge":(["class":2,"level":126,]),"blunt combat":(["class":1,"level":256,]),"sailing":(["class":1,"level":255,]),"parry":(["class":2,"level":128,]),"enchantment":(["class":1,"level":255,]),"poison magic":(["class":2,"level":0,]),])
-Morality 190
+Morality 0
 CanMulti 1
 Class "monk"
 Guild 0
@@ -55,6 +55,7 @@ NextRoundFunction 0
 NextRound 0
 MeleeDamageType 2
 MeleeAttackString "attack"
+Conditions 0
 Enemies ({})
 SpecialTargets 0
 CurrentEnemy 0
@@ -63,28 +64,27 @@ MagicBonus 0
 endParalysis 0
 Paralyzed 0
 Reputations (["Gwonish":-103,"Parva":264,"Grymxoria":-4,"Averath":-84,"Gurov":-86,"Malveillant":-727,"Durgoroth":-1,"Tairi":-26,"Havenwood":-20,"Jidoor":-38,"Haven":236,"Baria":-2,"Sanctum":-12,"Karak":-50,"Kresh":-40,"Ungkh":19,"Glimmerdin":16,"Lisht":-210,"Yozrath":-2,"Lloryk":54,"Keryth":-604,"Arcanith":-6,"Soleil":-384,])
-OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
-Position 8
-Undead 1
-UndeadType "zombie"
+Position 2
+Undead 0
+UndeadType 0
 HealthPoints 590
 MagicPoints 810
-Bleeding 1
+Bleeding 0
 Alcohol 0
-Caffeine 464
-Food 1653
-Drink 1634
+Caffeine 387
+Food 1576
+Drink 1557
 Poison 0
 Sleeping 0
 Hiding 0
 Smoke 0
-Blessed 8
+Blessed 0
 Cursed 0
 StaminaPoints 670.000000
 Torso "torso"
 Fingers (["right hand":5,"left hand":5,])
-Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":550,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":280,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":140,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":280,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":550,]),"left leg":(["children":({}),"armours":525472,"parent":"torso","class":2,"health":280,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":140,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":280,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":140,]),])
-MissingLimbs (["left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":0,]),])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":550,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":280,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":140,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":140,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":280,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":550,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":280,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":140,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":280,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":140,]),])
+MissingLimbs ([])
 NoCorpse 0
 Blind 0
 CustomStats 0
@@ -107,10 +107,11 @@ CombatStyles ([])
 Wimpy 23
 WimpyCmd "go out"
 LastWimpy 1464367064
-Currency ([])
-Bank (["Sanctum Moneychanger":(["audit":"({ OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#124726), OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#124726), OBJ(/verbs/common/ask), OBJ(faustino /secure/save/players/f/faustino) })","last time":1386860952,"imperials":127017,"open":1363900762,"last trans":"deposit",]),"Gurov Treasury":(["audit":"({ OBJ(grimble /domains/gurov/towns/gurov/npc/treasurer#8256), OBJ(grimble /domains/gurov/towns/gurov/npc/treasurer#8256), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","last time":1365603010,"open":1365603010,"rubles":5,"last trans":"opened account",]),"Tai MoneyChanger":(["audit":"({ OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#245643), OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#245643), OBJ(/verbs/common/ask), OBJ(faustino /secure/save/players/f/faustino) })","last time":1363878220,"open":1363878210,"last trans":"withdrawal","koken":0,]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#401099), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#401099), OBJ(/verbs/common/ask), OBJ(faustino /secure/save/players/f/faustino) })","senones":64,"oros":212267,"last time":1387561302,"open":1363731597,"imperials":1454071,"last trans":"deposit",]),"Tugrik's Pouch":(["audit":"({ OBJ(tugrik /domains/southern_coast/towns/kresh/npc/bank#122298), OBJ(tugrik /domains/southern_coast/towns/kresh/npc/bank#122298), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","rounds":5,"last time":1366721388,"open":1366721388,"last trans":"opened account",]),"Yozrath Trust":(["audit":"({ OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#11815), OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#11815), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","dinar":5,"last time":1365604333,"open":1365604333,"last trans":"opened account",]),"the Barian Jungle Bank":(["audit":"({ OBJ(pakal /domains/baria/towns/baria/npc/pakal#7106), OBJ(pakal /domains/baria/towns/baria/npc/pakal#7106), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","last time":1365602575,"chits":5,"open":1365602575,"last trans":"opened account",]),"First Averath Bank":(["audit":"({ OBJ(orris /domains/averath/towns/averath/npc/teller#153681), OBJ(orris /domains/averath/towns/averath/npc/teller#153681), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","last time":1366033760,"open":1366033760,"ducats":5,"last trans":"opened account",]),"Grymxoria Bank":(["audit":"({ OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#10533), OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#10533), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","last time":1365603897,"open":1365603897,"last trans":"opened account","bloodgems":5,]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#171073), OBJ(magna /domains/havenwood/towns/parva/npc/banker#171073), OBJ(/verbs/common/ask), OBJ(faustino /secure/save/players/f/faustino) })","last time":1464703829,"oros":993396,"imperials":6154901,"open":1363787968,"last trans":"withdrawal",]),"Bank of Glimmerdin":(["audit":"({ OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#6147), OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#6147), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","nuggets":5,"last time":1365601015,"open":1365601015,"last trans":"opened account",]),"Bank of Lisht":(["audit":"({ OBJ(sahure /domains/xandria/towns/lisht/npc/sahure#118930), OBJ(sahure /domains/xandria/towns/lisht/npc/sahure#118930), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","deben":5,"last time":1365783751,"open":1365783751,"last trans":"opened account",]),"Keryth Bank":(["audit":"({ OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#8480), OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#8480), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","senones":5,"last time":1365603222,"open":1365603222,"last trans":"opened account",]),"Durgoroth Bank":(["audit":"({ OBJ(balishae /domains/frostmarches/towns/durgoroth/npc/banker#8541), OBJ(balishae /domains/frostmarches/towns/durgoroth/npc/banker#8541), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","crystals":5,"last time":1365603448,"open":1365603448,"last trans":"opened account",]),])
+Cooldowns ([])
+Currency (["oros":99599,"imperials":451980,])
+Bank (["Sanctum Moneychanger":(["audit":"({ OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#124726), OBJ(althus /domains/peninsula/towns/sanctum/npc/banker#124726), OBJ(/verbs/common/ask), OBJ(faustino /secure/save/players/f/faustino) })","last time":1386860952,"imperials":127017,"open":1363900762,"last trans":"deposit",]),"Gurov Treasury":(["audit":"({ OBJ(grimble /domains/gurov/towns/gurov/npc/treasurer#8256), OBJ(grimble /domains/gurov/towns/gurov/npc/treasurer#8256), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","last time":1365603010,"open":1365603010,"rubles":5,"last trans":"opened account",]),"Tai MoneyChanger":(["audit":"({ OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#245643), OBJ(hailyn /domains/tairi/towns/tairi/npc/banker#245643), OBJ(/verbs/common/ask), OBJ(faustino /secure/save/players/f/faustino) })","last time":1363878220,"open":1363878210,"last trans":"withdrawal","koken":0,]),"Haven Bank":(["audit":"({ OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#401099), OBJ(ilian /domains/southern_coast/towns/haven/npc/ilian#401099), OBJ(/verbs/common/ask), OBJ(faustino /secure/save/players/f/faustino) })","senones":64,"oros":212267,"last time":1387561302,"open":1363731597,"imperials":1454071,"last trans":"deposit",]),"Tugrik's Pouch":(["audit":"({ OBJ(tugrik /domains/southern_coast/towns/kresh/npc/bank#122298), OBJ(tugrik /domains/southern_coast/towns/kresh/npc/bank#122298), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","rounds":5,"last time":1366721388,"open":1366721388,"last trans":"opened account",]),"Yozrath Trust":(["audit":"({ OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#11815), OBJ(azim /domains/yozrath/towns/yozrath/npc/teller#11815), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","dinar":5,"last time":1365604333,"open":1365604333,"last trans":"opened account",]),"the Barian Jungle Bank":(["audit":"({ OBJ(pakal /domains/baria/towns/baria/npc/pakal#7106), OBJ(pakal /domains/baria/towns/baria/npc/pakal#7106), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","last time":1365602575,"chits":5,"open":1365602575,"last trans":"opened account",]),"First Averath Bank":(["audit":"({ OBJ(orris /domains/averath/towns/averath/npc/teller#153681), OBJ(orris /domains/averath/towns/averath/npc/teller#153681), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","last time":1366033760,"open":1366033760,"ducats":5,"last trans":"opened account",]),"Grymxoria Bank":(["audit":"({ OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#10533), OBJ(rakkar /domains/estergrym/towns/grymxoria/npc/rakkar#10533), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","last time":1365603897,"open":1365603897,"last trans":"opened account","bloodgems":5,]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#87025), OBJ(magna /domains/havenwood/towns/parva/npc/banker#87025), OBJ(/verbs/common/ask), OBJ(faustino /secure/save/players/f/faustino) })","last time":1516737645,"oros":893416,"imperials":5654921,"open":1363787968,"last trans":"withdrawal",]),"Bank of Glimmerdin":(["audit":"({ OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#6147), OBJ(duncan tunnelbreaker /domains/crystal_reaches/towns/glimmerdin/npc/banker#6147), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","nuggets":5,"last time":1365601015,"open":1365601015,"last trans":"opened account",]),"Bank of Lisht":(["audit":"({ OBJ(sahure /domains/xandria/towns/lisht/npc/sahure#118930), OBJ(sahure /domains/xandria/towns/lisht/npc/sahure#118930), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","deben":5,"last time":1365783751,"open":1365783751,"last trans":"opened account",]),"Keryth Bank":(["audit":"({ OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#8480), OBJ(rods /domains/frostmarches/towns/keryth/npc/banker#8480), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","senones":5,"last time":1365603222,"open":1365603222,"last trans":"opened account",]),"Durgoroth Bank":(["audit":"({ OBJ(balishae /domains/frostmarches/towns/durgoroth/npc/banker#8541), OBJ(balishae /domains/frostmarches/towns/durgoroth/npc/banker#8541), OBJ(/verbs/players/request), OBJ(faustino /secure/save/players/f/faustino) })","crystals":5,"last time":1365603448,"open":1365603448,"last trans":"opened account",]),])
 CraftingRecipes ({"bamboo spike",})
-SpellBook (["superior lightning shield":100,"divine power":100,"halt bleeding":56,"heal ship":100,"marine beacon":100,"discern killer":1,"invisibility purge":86,"remove paralysis":100,"divine elemental resistance":1,"bless":100,"touch":100,"protective mists":100,"cure blindness":23,"create water":100,"divine religion":3,"water of regeneration":100,"summon lesser effigy":100,"summon relic":100,"banish lesser effigy":87,"create light":100,"fortify":100,"create detox potion":20,"dispel poison":73,"sea burial":100,"protective storm":100,"create shadows":100,"lightning shield":100,"heal":100,"cure disease":11,"sanctify":60,"discern morality":23,"drain disease":100,"watery touch":100,"resurrect":100,"blessing of damhair":4,"unravel wards":100,"holy celerity":100,"rejuvenation":100,"detect magic":71,"gate":1,"reveal soul":8,"reinforce shields":82,"divine whisper":1,"clarity of thought":80,"divine morality":9,"create food":100,"serenity":100,"turn undead":85,"detect magic fully":83,"regenerate limb":25,"immersion":100,"revive":100,"mend":100,"rebirth":1,])
+SpellBook (["superior lightning shield":100,"divine power":100,"halt bleeding":56,"heal ship":100,"marine beacon":100,"discern killer":1,"invisibility purge":86,"remove paralysis":100,"divine elemental resistance":1,"bless":100,"touch":100,"protective mists":100,"cure blindness":23,"create water":100,"divine religion":3,"water of regeneration":100,"summon lesser effigy":100,"summon relic":100,"banish lesser effigy":87,"create light":100,"fortify":100,"create detox potion":20,"dispel poison":73,"sea burial":100,"protective storm":100,"create shadows":100,"lightning shield":100,"heal":100,"cure disease":11,"sanctify":60,"discern morality":23,"drain disease":100,"watery touch":100,"resurrect":100,"blessing of damhair":4,"unravel wards":100,"holy celerity":100,"command":1,"rejuvenation":100,"detect magic":71,"gate":1,"reveal soul":8,"reinforce shields":82,"divine whisper":1,"clarity of thought":80,"divine morality":9,"create food":100,"serenity":100,"turn undead":85,"detect magic fully":83,"regenerate limb":25,"immersion":100,"revive":100,"mend":100,"rebirth":1,])
 SongBook ([])
 RecoveryTime 0
 NoSing 0
@@ -122,7 +123,7 @@ ApprovedStory 1
 OOCName "Richie"
 Quests ({(/1363728809,"Newbie Book",/),(/1363728950,"Bandit Camp",/),(/1363728998,"Leather Emporium",/),(/1363729714,"Platypus Bay",/),(/1363729762,"Message Courier",/),(/1363730646,"Platypus Skinner",/),(/1363730683,"Explored Grove",/),(/1363745839,"Bandit Slayer",/),(/1363788639,"Rabbit Food",/),(/1363788839,"Blueberry Picker",/),(/1363791111,"Tarantula Slayer",/),(/1363791143,"Monkey Meat",/),(/1363792075,"Message Courier pt 2",/),(/1363792191,"Message Courier pt 3",/),(/1363792338,"Gurov Trash Search",/),(/1363792387,"Message Courier pt 4",/),(/1363832607,"Graveyard Cleanup",/),(/1363870732,"Crypt Keeper",/),(/1363870964,"Bird Watcher",/),(/1363871300,"Tower Assault 1",/),(/1363878472,"Ronin Camp",/),(/1363878500,"Cherry Blossom",/),(/1363891548,"Ronin Slayer",/),(/1363963793,"Liberated Elban Isle",/),(/1363976612,"Ronin Leader",/),(/1363976948,"Purification Part 1",/),(/1364133672,"Chicken Coop",/),(/1364402261,"Purification Part 2",/),(/1364402681,"Purification Part 3",/),(/1364488215,"Bandit Leader",/),(/1364488385,"Reposession",/),(/1364488437,"Crystal Ball Delivery",/),(/1364493002,"Swashbuckling",/),(/1364493376,"Defender of the Keep pt 1",/),(/1364493848,"Defender of the Keep pt 2",/),(/1364823433,"Bird Thief",/),(/1364823531,"Tower Assault 2",/),(/1364823613,"Tower Assault 3",/),(/1365601330,"Desert Fruit",/),(/1365601666,"Spike Crafter",/),(/1365708515,"Organ Delivery",/),(/1366033594,"Care package Delivery",/),(/1366033940,"Rodent Extermination",/),(/1366665935,"Treasure Hunting pt 1",/),(/1366666267,"Lich Killer",/),(/1366731500,"Averath Ferry",/),(/1366732128,"Haven Ferry",/),(/1366732339,"Tomb Raider",/),(/1366736768,"Xandrian Journey",/),(/1367688396,"Mount Shatadru",/),})
 Deaths ({(/1363877740,"drowning",/),(/1363975700,"drowning",/),(/1364401285,"drowning",/),(/1364409363,"drowning",/),(/1364412647,"drowning",/),(/1365194063,"guardian",/),(/1365798412,"wasting sickness",/),(/1366734394,"drowning",/),(/1366747722,"bleeding",/),(/1367007558,"drowning",/),(/1367268980,"drowning",/),(/1368023046,"drowning",/),(/1386697711,"greater water elemental",/),(/1386705981,"drowning",/),(/1386789093,"elemental",/),(/1387304157,"drowning",/),(/1387559593,"drowning",/),(/1464364176,"drowning",/),(/1464367079,"elf marine",/),(/1464704287,"elf marine",/),})
-DevelopmentPoints 29
+DevelopmentPoints 27
 TitleLength 1
 TitleAnd 1
 NoRank 0

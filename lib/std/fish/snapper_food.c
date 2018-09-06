@@ -15,6 +15,7 @@ static void create() {
     SetMass(50);
     SetMealType(MEAL_FOOD);
     SetStrength(20);
-  SetValue(100);
+    SetPortions(3);
+    SetValue(100);
     SetMealMessages("It tastes excellent.", "$N eats a yellowtail snapper.");
 }

@@ -56,6 +56,9 @@ int eventTestFailure(object who, int level, mixed limb, object array targets);
 string GetSpell();
 int GetSpellLevel();
 
+// mahkefel 2017--prototype for spells to override, applies affects on "hit"
+int eventAfterEffect(object who, int level, string limb, object target) { return 0;}
+
 /* ********************* spell.c attributes ************************ */
 
 int SetAreaSpell(int x) { return AreaSpell = x; }
@@ -359,27 +362,51 @@ varargs object *GetTargets(object who, mixed args...) {
       def = who;
      }
 
-/* Set up target for SetRules("") responses. */
+  /* Set up target for SetRules("") responses. */
 
   if (!count) {                     /*  There are no arguments passed. */
      if (member_array("", Rules) == -1) {
           return 0;
-        }     /*  Returns no target if no argument is not a valid rule. */
-   if (AreaSpell == 1) {
-      targets = filter(all_inventory(env), (: $1 :) );
-      targets = filter(targets, (: living :));
-      targets = filter(targets, (: noncreatorp :) );
-      return (targets - ({ who }));
-      }   /* Return all living targets for an area spell. */
-    else {
-            if ( (def) && (!AreaSpell) ) {
-              return ({ def });
-             }
-        else {
-       return 0;
+     }     /*  Returns no target if no argument is not a valid rule. */
+     if (AreaSpell == 1) {
+       targets = filter(all_inventory(env), (: $1 :) );
+       targets = filter(targets, (: living :));
+       targets = filter(targets, (: noncreatorp :) );
+       
+       // mahkefel 2017: make offensive area effects not target allies
+       if (GetSpellType()==SPELL_COMBAT) {
+         // remove self
+         targets -= ({ who });
+         foreach(object target in targets) {
+            // exclude pets
+         	  if(target->GetOwner() == who->GetKeyName()) {
+         	  	  targets -= ({target});
+         	  }
+            // exclude guarded drugrunners
+            if(target->GetGuard() == who) {
+            	targets -= ({target});
+            }
+            // exclude friends (so npcs won't attack each other)
+            if(member_array(target, who->CheckFriends()) != -1 ) {
+            	  debug(who->CheckFriends());
+            	  targets -= ({target});
+            }
+            // exclude party members
+            if(member_array(target->GetKeyName(), who->GetPartyMembers()) != -1) {
+            	targets -= ({target});
+            }
+         }
+       }
+       return targets;
+    /* Return all living targets for an area spell. */
+    } else {
+      if ( (def) && (!AreaSpell) ) {
+        return ({ def });
+      } else {
+         return 0;
       }
-   }
-    }  /*  End of No Arg */
+    }
+  }  /*  End of No Arg */
 
 /*  Number of Args == 1
  *  Test for objectp() livingp()
@@ -772,22 +799,7 @@ varargs int eventCast(object who, int level, mixed limb, object array targets) {
 	    who->AddExperience(healing);
 	    tmp = GetMessage(healing, 1);
 	    send_messages(tmp[0], tmp[1], who, target, environment(who));
-	    /* if( !messages[tmp[1]] ) {
-		messages[tmp[1]] = ([ tmp[0] : ({ target }) ]);
-	    } else {
-		if( !messages[tmp[1]][tmp[0]] ) {
-		    messages[tmp[1]][tmp[0]] = ({ target });
-		}	else {
-		    messages[tmp[1]][tmp[0]] += ({ target });
-		  }
-	  } */
 	}
-/*	foreach(string message, mapping tmp in messages) {
-	    foreach(string verb, object array obs in tmp) {
-		send_messages(verb, message, who, obs,
-			      environment(who), ([ "$limb" : limb ]));
-	    }
-	} */
 	if( sizeof(targets) ) {
 	    return total_healing/sizeof(targets);
 	}
@@ -799,7 +811,7 @@ varargs int eventCast(object who, int level, mixed limb, object array targets) {
 	mapping messages = ([]);
 	int total_damage = 0;
   
- if( CanAttack(who, targets, GetSpellLevel() + level/5) == - 1 ) {
+    if( CanAttack(who, targets, GetSpellLevel() + level/5) == - 1 ) {
 	    who->eventPrint("Your powers fail you.");
 	    return 0;
 	    }
@@ -819,30 +831,22 @@ varargs int eventCast(object who, int level, mixed limb, object array targets) {
 	      damage += damage * damageboost;
 	    }
 	    if (target->GetTestChar()) debug("base damage = " + GetDamage(level) + " level = " + level + " SpellLevel = " + GetSpellLevel() +  " damage = " + damage);
+	    
+	    // mahk 2018: fun fact, lib was getting damage to Random Limb, then 
+	    // applying damage to RandomLimb usuuuaallly not the same limb
+	    // so daemons, skaven with unarmored tails could die to spell headshots
+	    if (!limb) limb = target->GetRandomLimb("torso");
+	    
 	    damage = target->GetDamageInflicted(who, GetDamageType(), damage,	AutoDamage, limb);
+	    
 	    tmp = GetMessage(damage);
 	    send_messages(tmp[0], tmp[1], who, target, environment(who));
 	    
 	    damage = target->eventInflictDamage(who, GetDamageType(), damage,	AutoDamage, limb);
 	    
 	    total_damage += damage;
-	    
-	    /* if( !messages[tmp[1]] ) {
-		messages[tmp[1]] = ([ tmp[0] : ({ target }) ]);
-	    } else {
-		if( !messages[tmp[1]][tmp[0]] ) {
-		    messages[tmp[1]][tmp[0]] = ({ target });
-		}	else {
-		    messages[tmp[1]][tmp[0]] += ({ target });
-		  }
-	  } */
+	    eventAfterEffect(who, level, limb, target);
 	}
-/*	foreach(string message, mapping tmp in messages) {
-	    foreach(string verb, object array obs in tmp) {
-		send_messages(verb, message, who, obs,
-			      environment(who), ([ "$limb" : limb ]));
-	    }
-	} */
 	if( sizeof(targets) ) {
 	    return total_damage/sizeof(targets);
 	}

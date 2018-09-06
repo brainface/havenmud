@@ -4,7 +4,7 @@
  */                           
 #include <lib.h>              
 #include <armour_class.h>     
-inherit LIB_STORAGE;     
+inherit LIB_WORN_STORAGE;
 #include <armour_types.h>     
 #include <size.h>             
 #include <vendor_types.h>     
@@ -30,7 +30,8 @@ static void create()
   SetProperty("magic",                                              
     "This haversack has been enchanted to provide greater volume."  
   );                                                                
-  SetRepairSkills( ([ "textile" : 1,]) );                           
+  SetRepairSkills( ([ "textile" : 1,]) );
+  SetArmourType(A_VEST);
   SetRepairDifficulty(80);
   SetValue(1500);
   SetVendorType(VT_CLOTHING);

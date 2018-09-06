@@ -1,4 +1,5 @@
 #include <lib.h>
+#include <daemons.h>
 mixed *AddSave(mixed *x);
 
 mapping Reputations = ([]);
@@ -8,26 +9,12 @@ string GetStringReputation(string faction);
 mapping GetAllReputations();
 void DisplayReputations();
 
-mapping OpposingFactions = ([
-  "Haven"        :    "Malveillant",
-  "Karak"        :    "Glimmerdin",
-  "Glimmerdin"   :    "Karak",
-  "Malveillant"  :    "Haven",
-  "Gwonish"      :    "Lloryk",
-  "Lloryk"       :    "Gwonish",
-  "Durgoroth"    :    "Grymxoria",
-  "Grymxoria"    :    "Durgoroth",
-  "Ungkh"        :    "Jidoor",
-  "Jidoor"       :    "Ungkh",
-  ]);
-
 static void create() {
   AddSave( ({ "Reputations" }) );
 }
 
 mixed GetOpposingFaction(string faction) {
-  if (OpposingFactions[faction]) return OpposingFactions[faction];
-  return 0;
+  return REPUTATION_D->GetOpposingFaction(faction);
 }
 
 int GetReputation(string faction) {
@@ -49,8 +36,8 @@ int AddReputation(string faction, int value) {
   if (Reputations[faction] < -1000) Reputations[faction] = -1000;
   if (Reputations[faction] > 1000) Reputations[faction] = 1000;
   this_object()->eventPrint("You are now " + GetStringReputation(faction) + " with " + faction + ". (" + Reputations[faction] + ")");
-  if (GetOpposingFaction(faction)) {
-    faction = GetOpposingFaction(faction);
+  if (REPUTATION_D->GetOpposingFaction(faction)) {
+    faction = REPUTATION_D->GetOpposingFaction(faction);
     value = (value * -1)/2;
     if (!Reputations[faction]) {
       Reputations[faction] = value;
@@ -106,7 +93,7 @@ string GetStringReputation(string faction) {
       return "Strangely Unknown";
       break;
   }
-} 
+}
 
 void DisplayReputations(object viewer) {
   string *reps = keys(Reputations);
@@ -121,13 +108,5 @@ void DisplayReputations(object viewer) {
 
 mixed *AddSave(mixed *x) { }
 
-// mahkefel debug
-string GetFactionList() {
-  string shebang="";
 
-  foreach (string faction in keys(OpposingFactions)) {
-    shebang += faction+": "+OpposingFactions[faction];
-  }
-  return shebang;
-}
 

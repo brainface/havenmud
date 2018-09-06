@@ -6,9 +6,9 @@
 #include <armour_class.h>
 #include <armour_types.h>
 
-inherit LIB_STORAGE;
+inherit LIB_WORN_STORAGE;
 
-static void create() 
+static void create()
 {
   ::create();
   SetKeyName("pouch");
@@ -23,4 +23,6 @@ static void create()
   SetCanClose(1);
   SetClosed(1);
   SetMaxCarry(200);
+  SetArmourType(A_BELT);    
 }
+

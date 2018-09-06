@@ -1,0 +1,11 @@
+/domains/averath/areas/avfield/npc/crow.c line 6: syntax error
+/domains/averath/areas/avfield/npc/crow.c line 12: No such inherited function sentient::create
+/domains/averath/areas/avfield/npc/crow.c line 36: No such inherited function sentient::eventDie
+/domains/averath/oldareas/forest/rooms/dryadtree.c line 41: Undefined variable 'AVERATH_ISLAND'
+/domains/averath/oldareas/forest/rooms/dryadtree.c line 44: Undefined variable 'FOREST_NPC'
+/domains/averath/virtual/npc/traveller_witch.c line 40: syntax error
+/domains/averath/virtual/averathroad.c line 66: syntax error
+/domains/averath/virtual/averathroad.c line 68: syntax error
+/domains/averath/virtual/averathroad.c line 70: syntax error
+/domains/averath/towns/averath/room/storage/store_store.c line 20: Undefined variable 'AVERATH_OBJ'
+/domains/averath/towns/averath/room/storage/store_store.c line 20: syntax error

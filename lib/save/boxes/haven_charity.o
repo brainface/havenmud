@@ -24,7 +24,7 @@ WeaponType "blunt"
 Keys ({})
 LockStrength 100
 CanLock 1
-BoxInventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":195,\"Worn\":0,\"Class\":12,\"#base_name#\":\"/std/weapon/pierce/epee\",\"Broken\":0,\"DamagePoints\":500,\"Poison\":0,])",})
+BoxInventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
 BoxID "haven_charity"
 MaxLevel 10
 MaxValue 800

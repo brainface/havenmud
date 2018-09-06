@@ -43,6 +43,7 @@ static void create() {
   SetPreventDrop("");
   SetRetainOnDeath(1);
   SetMaterials( ({ "natural" }) ); //???
+  AddSave( ({"Severity"}) );
   set_heart_beat(20); //???
 }
 

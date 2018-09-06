@@ -15,6 +15,7 @@ static void create() {
      STD_FISHING + "pole" : 3,
      STD_OBJ + "parchment" : 3,
      STD_INSTRUMENTS + "lyre" : 1,
+    MAL_OBJ + "/zills.c" : 1,
      STD_INSTRUMENTS + "mandolin" : 1,
      STD_POLE + "staff" : 3,
      STD_SLASH + "sword" : 3,

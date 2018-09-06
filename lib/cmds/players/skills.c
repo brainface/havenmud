@@ -21,7 +21,7 @@ string GetLine(string skill, object who)
   max = (int)who->GetLevel() + 1;
   max *= 2;
   if (max < mp["level"]) max = mp["level"];
-  return sprintf("%:-20s: %:-7s ", skill, (mp["level"] + "/" + max));
+  return sprintf("%:-20s: %:-9s", skill, (mp["level"] + "/" + max));
 }
 
 int FigureMyScore(object who) {

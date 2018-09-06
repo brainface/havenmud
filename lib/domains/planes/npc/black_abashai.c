@@ -14,7 +14,6 @@ static void create() {
   SetId( ({ "abashai", "devil" }) );
   SetAdjectives( ({ "black" }) );
   SetRace("devil");
-  AddLimb("tail", "torso", 4);
   AddLimb("left wing", "torso", 4);
   AddLimb("right wing", "torso", 4);
   SetClass("fighter");

@@ -27,7 +27,6 @@ static void create() {
   SetCombatAction(10, ({
     "The rabbit HOPS foward at you.",
     "The rabbit attempts to nibble on you!",
-    "!ram", // mahk 2013
     }) );
   SetCorpseItems( ([VAAS_OBJ + "tail" : 1]) );
 }

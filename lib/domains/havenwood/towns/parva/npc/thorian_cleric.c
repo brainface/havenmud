@@ -9,7 +9,7 @@ static void create() {
   SetId( ({ "savlyc" }) );
   SetKeyName("savlyc");
   SetShort("Savlyc the Decayed");
-  
+
   SetRace("human");
   SetGender("male");
   SetReligion("Thorian");
@@ -23,7 +23,7 @@ static void create() {
           "by the locals, he is revered by other Thorians. His cold eyes stare "
           "blankly into space as disease has taken his sight as well as left him "
           "disfigured.");
-  SetLimit(1);  
+  SetLimit(1);
   SetUniqueSkills( ([
     "blunt combat" : 0,
     "knife combat" : 1,
@@ -35,25 +35,28 @@ static void create() {
     "clerical enchantment",
     "clerical necromancy",
     }) );
-   SetPlayerTitles( ([  
+   SetPlayerTitles( ([
      "newbie"   : "the Infected Friar",
      "mortal"   : "the Diseased Cleric",
-     "hm" 		  : "the Tainted Bishop",
+     "hm"       : "the Tainted Bishop",
      "legend"   : "the Plague-Wrought Cardinal",
      "avatar"   : "Pocked $N the Decayed Bringer of Oblivion",
      "fighter"  : "the Plague Ridden Monk of Epidemics",
-     "chaplain" : "the Plague Bearer of the Seas",
+     //"chaplain" : "the Plague Bearer of the Seas",
+     "rogue"    : "the Thief of Life and Death",
+     "acrobat"  : "the Blighted Beggar",
+     
     ]) );
   SetFreeEquip( ([
     STD_WEAPON "knife/freeknife" : 1,
     ]) );
   SetInventory ( ([
     STD_WEAPON "knife/freeknife" : "wield knife",
-  	]) ); 
+        ]) );
   SetSpellBook( ([
     "wall of souls" : 100,
     "venomous wind" : 100,
-    "gangrene" 			: 100,
+    "gangrene"                  : 100,
     ]) );
   SetAction(5, ({
     "!speak Embrace death and as you do understand His will.",
@@ -63,10 +66,10 @@ static void create() {
     "!cast venomous wind",
     "!cast gangrene",
     }) );
-  SetFirstCommands( ({ 
-    "cast wall of souls", 
-		"cast wall of souls",
-		"cast wall of souls",
+  SetFirstCommands( ({
+    "cast wall of souls",
+    "cast wall of souls",
+    "cast wall of souls",
     "cast wall of souls",
     "cast wall of souls",
   }) );

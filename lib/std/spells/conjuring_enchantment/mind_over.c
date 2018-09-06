@@ -18,6 +18,7 @@ static void create() {
      "enchantment" : 100,
     ]) );
   SetDifficulty(25);
+  SetStaminaCost(20,10);
   SetHelp(
     "The conjurer, in a time of great need, can focus all of "
     "her body's energy into magical power. Those unskilled in "

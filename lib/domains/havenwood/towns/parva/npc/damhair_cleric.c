@@ -23,25 +23,28 @@ static void create() {
   SetReligion("Damhair");
   SetClass("priest");
   SetLevel(70);
-  SetLimit(1);  
+  SetLimit(1);
   SetUniqueSkills( ([
     "navigation" : 2,
     "swimming"   : 2,
     "sailing"    : 2,
     ]) );
-   SetPlayerTitles( ([  
+   SetPlayerTitles( ([
     "newbie"  : "the Newly Drowned",
     "mortal"  : "the Bringer of Tides",
     "hm"      : "the Rider of the Waves",
     "legend"  : "the Storm of the Seas",
-    "avatar"  : "Grand Storm $N the Thundercloud of Damhair",    
+    "avatar"  : "Grand Storm $N the Thundercloud of Damhair",
+    "fighter" : "the Breaker of Hulls",
+    "rogue"   : "the Stalker of Shores",
+    "acrobat" : "the Wave-Borne Waif",
     ]) );
   SetFreeEquip( ([
     STD_WEAPON "blunt/war-hammer" : 1,
     ]) );
   SetInventory ( ([
     STD_WEAPON "blunt/war-hammer" : "wield hammer",
-    ]) ); 
+    ]) );
   SetSpellBook( ([
     "protective storm" : 100,
     ]) );
@@ -51,7 +54,7 @@ static void create() {
     }) );
   SetCombatAction(20, ({
     }) );
-  SetFirstCommands( ({ 
+  SetFirstCommands( ({
     "cast protective storm",
     "cast protective storm",
     "cast protective storm",

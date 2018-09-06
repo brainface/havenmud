@@ -4,6 +4,7 @@
 //    changed size to medium
 //    (to make loot useful to
 //     medium people)
+// mahk 2018: added angel race, speech
 #include <lib.h>
 #include "../planes.h"
 #include <damage_types.h>
@@ -22,9 +23,7 @@ static void create() {
     "Planes for eternity."
   );
   SetGender("male");
-  SetRace("devil", "angel");
-  AddLimb("left wing", "torso", 2);
-  AddLimb("right wing", "torso", 2);
+  SetRace("angel");
   SetClass("priest");
   SetLevel(100);
   SetCombatAction( 40, ({
@@ -35,6 +34,10 @@ static void create() {
     "cast wall of force",
     "cast wall of force",
   }) );
+  SetAction(5, ([ 
+  	  "!emote hovers gracefully in the air, white wings barely flapping.",
+      "!say Dost thou come in peace and walk in the law?"
+  	  ]) );
   SetInventory( ([
      PLANE_OBJ + "halo" : "wear halo",
      PLANE_OBJ + "sapphire" : random(5),

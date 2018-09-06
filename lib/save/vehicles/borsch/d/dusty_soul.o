@@ -37,10 +37,10 @@ WeaponSystem 16
 ShieldSystem 8
 Crystals 13517
 hasAttacked ({})
-LastSave 1498178549
+LastSave 1533822396
 DamagedSystems ({})
 VId ({"dreadnaught","ship","Dusty Soul",})
 VLong "This is the dreadnaught Dusty Soul."
 VShort "the dreadnaught Dusty Soul"
 ShipEnemies ({})
-UniqueVehicleId "ship5059"
+UniqueVehicleId "ship8206"

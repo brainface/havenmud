@@ -1,4 +1,5 @@
 /*  A barbed devil */
+// mahk 2018: added tail to devil race, made wield 3 things because haha
 #include <lib.h>
 #include <damage_types.h>
 #include "../planes.h"
@@ -9,12 +10,12 @@ int eventTail();
 static void create() {
   npc::create();
   SetKeyName("barbed devil");
-  SetMorality(-200);
+  SetMorality(-500);
   SetShort("a barbed devil");
   SetId( ({ "devil" }) );
   SetAdjectives( ({ "barbed" }) );
   SetRace("devil");
-  SetClass("rogue");
+  SetClass("fighter");
   SetLevel(120);
   SetCurrency("imperials", random(800)+1);
   SetFearType("devil fear");
@@ -23,10 +24,9 @@ static void create() {
   SetGender("male");
   SetLong("This is a barbed devil, a fiery evil looking creature with "
           "wicked spiked hands and a long, evil looking tail.");
-  AddLimb("tail", "torso", 2);
   SetCombatAction(5, (: eventTail :) );
   SetInventory( ([
-    PLANE_OBJ + "spike_barbed" : 2,
+    PLANE_OBJ + "spike_barbed" : 3,
     PLANE_OBJ + "hide_leggings" : "wear leggings on right leg and left leg",
     PLANE_OBJ + "hide_armour" : "wear armour on torso and right arm and left arm",
   ]) );

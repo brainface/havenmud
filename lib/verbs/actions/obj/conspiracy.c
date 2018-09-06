@@ -48,6 +48,7 @@ static void create() {
   SetRetainOnDeath(1);
   SetMaterials( ({ "natural" }) ); //???
   set_heart_beat(20); //???
+  AddSave( ({"Severity"}) );
 }
 
 string GetCombatActionDescription() {

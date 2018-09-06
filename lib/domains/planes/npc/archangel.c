@@ -1,4 +1,6 @@
 /*  A pit fiend */
+// this is the worst pit fiend duuk
+// Added angel race so we can have zombie angels --Mahk 2018
 #include <lib.h>
 #include <size.h>
 #include "../planes.h"
@@ -20,14 +22,11 @@ static void create() {
     "is perfectly structured to strike terror into the hearts of evil around "
     "the universe."
     );
-  SetRace("devil", "angel");
-  AddLimb("left wing", "torso", 2);
-  AddLimb("right wing", "torso", 2);
+  SetRace("angel");
   SetMorality(3000);
   SetClass("cavalier");
   SetClass("priest");
   SetReligion("Kylin");
-  SetSkill("multi-weapon", 1, 1);
   SetLevel(200);
   SetFearType("Divine Terror");
   SetResistLevel(50);
@@ -35,6 +34,8 @@ static void create() {
   SetCombatAction(3, (: eventSpecial :) );
   SetAction(5, ({
       "!emote looks around for something to destroy in Holy Judgement.",
+      "!say Ware ye ye wicked ones.",
+      "!say Thou stand in Duuk's holy realm and gaze upon its splendor",
        }) );
   SetInventory( ([
     PLANE_OBJ "holy_avenger" : "wield avenger",
@@ -43,7 +44,7 @@ static void create() {
   SetSpellBook( ([
     "superior wall of force" : 100,
     "hand of judgement"      : 100,
-    "desert banishment"      : 100,
+    "desert banishment"      : 100, // rude
     ]) );
   SetFirstCommands( ({
     "cast superior wall of force",

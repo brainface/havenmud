@@ -21,6 +21,7 @@ static void create() {
     "dirty tricks" : 100,
     "stealth" : 100,
   ]) );
+  SetCooldown(5);
 }
 
 // overriding this to not require a weapon.
@@ -118,7 +119,6 @@ int eventAttack(object who, object* targets) {
     }
   }
   who->SetHiding(1); //actually go invisible.
-  who->AddParalyzed(1); // prevent xp spam thing
   return 1;
 }
 

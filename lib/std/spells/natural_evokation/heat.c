@@ -51,39 +51,31 @@ int CanCast(object who, int level, mixed limb, object *targets) {
 }
 
 // broadcast a message to the room
-int eventCast(object who, int level, string limb, object array targets) {
-  int result;
+int eventAfterEffect(object who, int level, string limb, object array target) {
+  object *weapons;
+  object weapon;
 
-  result = spell::eventCast(who,level,limb,targets);
+  int pro, con;
 
-  if(result) {
-    object *weapons;
-    object weapon;
-    object target = targets[0];
+  //200 vs... ehhh 530
+  pro = random( who->GetStatLevel("wisdom") + who->GetSkillLevel("fire magic") );
+  con = random( target->GetStatLevel("coordination") + target->GetStatLevel("luck") + 300 );
+  //debug( "heat disarm--pro: " + pro + " con: " + con);
 
-    int pro, con;
-
-    //200 vs... ehhh 530
-    pro = random( who->GetStatLevel("wisdom") + who->GetSkillLevel("fire magic") );
-    con = random( target->GetStatLevel("coordination") + target->GetStatLevel("luck") + 300 );
-    //debug( "heat disarm--pro: " + pro + " con: " + con);
-
-    if ( pro > con ) {
-      //debug("heat is disarming");
-      weapons = target->GetWielded();
-      if(sizeof(weapons)) {
-        weapon = weapons[random(sizeof(weapons))];
-        if (weapon->CanDisarm(who,target)) {
-          send_messages( ({"scream", "throw"}),
-            "$target_name%^YELLOW%^BOLD%^ $target_verb%^RESET%^ in pain and "
-            "$target_verb $target_possessive " + weapon->GetKeyName() + " "
-            "to the ground!", who, target, environment(who) );
-          weapon->eventUnequip(target);
-          weapon->eventDrop(target);
-        } 
+  if ( pro > con ) {
+    //debug("heat is disarming");
+    weapons = target->GetWielded();
+    if(sizeof(weapons)) {
+      weapon = weapons[random(sizeof(weapons))];
+      if (weapon->CanDisarm(who,target)) {
+        send_messages( ({"scream", "throw"}),
+          "$target_name%^YELLOW%^BOLD%^ $target_verb%^RESET%^ in pain and "
+          "$target_verb $target_possessive " + weapon->GetKeyName() + " "
+          "to the ground!", who, target, environment(who) );
+        weapon->eventUnequip(target);
+        weapon->eventDrop(target);
       }
     }
   }
-  return result;
 }
 

@@ -12,7 +12,7 @@ static void create() {
    SetId( ({ "soleil citizen","citizen","muezzin","male" }) );
    SetLong("Small eyes peer out of the fur of this citizen of soleil, "
            "filled with mirth.  The male seems to be very sturdy and "
-           "has probably gone through the military training that is " 
+           "has probably gone through the military training that is "
            "required of all muezzins.");
    SetRace("muezzin");
    SetClass("fighter");
@@ -21,6 +21,7 @@ static void create() {
    SetGender("male");
    SetCurrency("cuicui", random(150)+5);
    SetInventory( ([
+     S_OBJ + "/cloth_pants" : "wear kilt",
                ]) );
    SetWander(41);
    SetMorality(120);
@@ -29,3 +30,4 @@ static void create() {
                   "Soleil citizen","Oppugno","shaggy dog","Sorgan",
                   "entrance guard","Iuvo","Fossis","Kiee","Miserum" }) );
 }
+

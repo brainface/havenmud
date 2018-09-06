@@ -27,7 +27,6 @@ static void create() {
   SetCombatAction(10, ({
     "The bear swipes at you.",
     "The bear attempts to take a big bite out of you!",
-    "!gnaw", //mahkefel
     }) );
   SetCorpseItems( ([VAAS_OBJ + "claws" : 1]) );
 }

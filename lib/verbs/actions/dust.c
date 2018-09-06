@@ -26,6 +26,7 @@ static void create() {
   SetRequiredSkills( ([
     "dirty tricks" : 50,
   ]) );
+    SetCooldown(5);
 }
 
 // overriding this to not require a weapon.
@@ -131,7 +132,6 @@ int eventAttack(object who, object* targets) {
         "from the cloud of dust.");
     }
   }
-  who->AddParalyzed(1); // prevent xp spam thing
   return 1;
 }
 

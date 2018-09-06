@@ -38,10 +38,10 @@ WeaponSystem 8
 ShieldSystem 8
 Crystals 950
 hasAttacked ({})
-LastSave 1498178923
+LastSave 1514107110
 DamagedSystems ({})
 VId ({"the cruiser","ship7527","cruiser","ship",})
 VLong "This is the cruiser the cruiser."
 VShort "the cruiser the cruiser"
 ShipEnemies ({})
-UniqueVehicleId "ship2556"
+UniqueVehicleId "ship6238"

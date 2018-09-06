@@ -2,25 +2,25 @@
 
 // bloodlust object
 //   basically, a warrior 'rage bar' buff.
-//   increases strength and agility       
+//   increases strength and agility
 // Varios sword slinging attacks will add this buff to the user,
 //   but generally only on a successful kill. It adds up in larger increments
-//   than berserking, but should happen less often.                          
-// The value requires and relies upon sword slinging skill,                  
-//   and is capped at the same level as planar strength.                     
+//   than berserking, but should happen less often.
+// The value requires and relies upon sword slinging skill,
+//   and is capped at the same level as planar strength.
 
 // Oh yeah, this really shouldn't stack with planar like spells.
 
 #include <lib.h>
 #include <daemons.h>
-inherit LIB_ITEM;   
+inherit LIB_ITEM;
 
 // severity is the value of the buff and a factor of the
-//   enforced disorient drawback.                       
-int Severity;                                           
+//   enforced disorient drawback.
+int Severity;
 
 int SetSeverity(int x) { return Severity = x; }
-int GetSeverity() { 
+int GetSeverity() {
   if (Severity > 0) return Severity;
   return 0;
 }
@@ -31,125 +31,127 @@ int RemoveRage();
 int eventRage(object who, int severity, int lifespan);
 
 int startingSeverity = 5;
-int dazeMultiplier = 10; 
+int dazeMultiplier = 10;
 
 static void create() {
-  ::create();         
+  ::create();
   SetKeyName("bloodlust");
   SetId( ({ "bloodlust" }) );
   SetShort("a murderous bloodlust");
-  SetInvis(2); // i think?          
-  SetPreventGet("");                
-  SetPreventDrop("");               
-  SetRetainOnDeath(1);              
+  SetInvis(2); // i think?
+  SetPreventGet("");
+  SetPreventDrop("");
+  SetRetainOnDeath(1);
   SetMaterials( ({ "natural" }) ); //???
   set_heart_beat(20); // value probably in flux.
-}                                               
+    AddSave( ({"Severity"}) );
+}
 
 string GetCombatActionDescription() {
   return " %^BOLD%^YELLOW%^(bloodlust: " + GetSeverity() + ")%^RESET%^";
-}                                                                       
+}
 
 void heart_beat() {
   object env = environment();
-  Severity--;                
+  Severity--;
 
   // do stuff if no one is holding me.
-  if (!env) {                         
-    eventDestruct();                  
-    return;                           
-  }                                   
-  if (!living(env)) {                 
-    eventDestruct();                  
-    return;                           
-  }                                   
-  if (!GetSeverity()) {                          
-    RemoveRage();                           
-    return;                                 
-  }                                         
+  if (!env) {
+    eventDestruct();
+    return;
+  }
+  if (!living(env)) {
+    eventDestruct();
+    return;
+  }
+  if (!GetSeverity()) {
+    RemoveRage();
+    return;
+  }
 
   ApplyRage();
-}             
+}
 
 int ApplyRage() {
   object env = environment();
-  if (!env) {                
-    eventDestruct();         
-    return;                  
-  }                          
-  if (!living(env)) {        
-    eventDestruct();         
-    return;                  
-  }                          
+  if (!env) {
+    eventDestruct();
+    return;
+  }
+  if (!living(env)) {
+    eventDestruct();
+    return;
+  }
 
   // I'm not sure if the "duration" here does anything.
-  env->AddStatBonus("strength", GetSeverity(), Severity*5); 
-  env->AddStatBonus("agility", GetSeverity(), Severity*5);  
+  env->AddStatBonus("strength", GetSeverity(), Severity*5);
+  env->AddStatBonus("agility", GetSeverity(), Severity*5);
 
   // raging enforces a minimum amount of daze, of 10x its bonus
   //   i.e. if someone has +10 str/dur here, this will make sure
-  //   they have 100 daze. If they have, say, 10000 daze,       
-  //   nothing happens.                                         
-  if (env->GetRecoveryTime() < dazeMultiplier * Severity) {     
-    env->SetRecoveryTime(dazeMultiplier*Severity);              
-  }                                                             
+  //   they have 100 daze. If they have, say, 10000 daze,
+  //   nothing happens.
+  if (env->GetRecoveryTime() < dazeMultiplier * Severity) {
+    env->SetRecoveryTime(dazeMultiplier*Severity);
+  }
   // every few ticks, froth at the mouth, to make raging visible
-  //   and obvious.                                             
-  if (Severity % 6 == 0) {                                      
-    send_messages("glare",                                      
+  //   and obvious.
+  if (Severity % 6 == 0) {
+    send_messages("glare",
       "$agent_name%^BOLD%^RED%^ $agent_verb%^RESET%^ around with bloodshot eyes.",
-      env, 0, environment(env) );                                                 
-  }                                                                               
+      env, 0, environment(env) );
+  }
 
   return 1;
-}          
+}
 
 int RemoveRage() {
   object env = environment();
-  if (!env) {                
-    eventDestruct();         
-    return;                  
-  }                          
-  if (!living(env)) {        
-    eventDestruct();         
-    return;                  
-  }                          
+  if (!env) {
+    eventDestruct();
+    return;
+  }
+  if (!living(env)) {
+    eventDestruct();
+    return;
+  }
 
   // send some fancy messages and end the stat bonus. (it should already be 0)
-  env->eventPrint("You suddenly wonder what you were so upset about.");       
-  env->RemoveStatBonus("strength");                                           
-  env->RemoveStatBonus("agility");                                            
-  env->RemoveProperty("planar_strength");                                     
-  env->RemoveProperty("planar_agility");                                      
-  send_messages("sigh", "$agent_name%^YELLOW%^ $agent_verb%^RESET%^ "         
-    "in frustration.", env, 0, environment(env));                             
-  if(env->GetTestChar()) debug (env->GetKeyName()+"'s bloodlust ended.");     
-  eventDestruct();                                                                                         
-  return 1;                                                                   
-}                                                                             
+  env->eventPrint("You suddenly wonder what you were so upset about.");
+  env->RemoveStatBonus("strength");
+  env->RemoveStatBonus("agility");
+  env->RemoveProperty("planar_strength");
+  env->RemoveProperty("planar_agility");
+  send_messages("sigh", "$agent_name%^YELLOW%^ $agent_verb%^RESET%^ "
+    "in frustration.", env, 0, environment(env));
+  if(env->GetTestChar()) debug (env->GetKeyName()+"'s bloodlust ended.");
+  eventDestruct();
+  return 1;
+}
 
 int eventRage(object who ) {
-  object rage;              
+  object rage;
   int maxSeverity, newSeverity;
   object *junk = all_inventory(who);
 
   // You're not a berserker!
   if( !who->GetSkillLevel("sword slinging") ) {
     who->eventPrint("You feel scorn and hateful fill your mind for a moment, "
-      "but the feeling leaves your mind instantly.");                         
-    debug("Silly non-berserker tried to bloodlust.");                                                                          
-    return 0;                                                                 
-  }                                                                           
+      "but the feeling leaves your mind instantly.");
+    debug("Silly non-berserker tried to bloodlust.");
+
+    return 0;
+  }
 
   // if dude is already raging, make their rage object
   // increase in severity, otherwise, give them a rage
-  // object                                           
-  newSeverity = startingSeverity;                     
-  foreach( object crap in junk) {                     
-    if ( crap->GetKeyName() == "bloodlust" ) {        
-      rage = crap;                                    
-    }                                                 
-  }                                                   
+  // object
+  newSeverity = startingSeverity;
+  foreach( object crap in junk) {
+    if ( crap->GetKeyName() == "bloodlust" ) {
+      rage = crap;
+    }
+  }
 
   // I am already raging
   if (rage) {
@@ -185,3 +187,4 @@ int eventRage(object who ) {
 void eventDeteriorate(int damage) {
   return 0;
 }
+

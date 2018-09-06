@@ -1,7 +1,7 @@
 #include <lib.h>
 #include <domains.h>
 #include "../sheep.h"
-inherit LIB_ROOM;
+inherit LIB_FISHING;
 
 static void create() {
   ::create();
@@ -22,4 +22,12 @@ static void create() {
   SetInventory( ([
     SHEEP_OBJ "fishingboat" : 1,
     ]) );
+  //mahk: mucking around
+   SetChance(25);
+   SetFish( ([
+      DIR_STD "fish/guppy" : 100,
+      DIR_STD "fish/trout" : 10,
+      DIR_STD "fish/elban/wooly_whiting" : 5,
+   ]) );
 }
+

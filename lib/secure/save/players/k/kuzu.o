@@ -1,0 +1,144 @@
+#/secure/save/players/k/kuzu.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Arboretum Visitor (Tairi human)"
+CapName "Kuzu"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":500,\"Mass\":120,\"Worn\":0,\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/shozoku\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":2500,\"Poison\":0,])","([\"Value\":200,\"Mass\":85,\"Worn\":0,\"Class\":8,\"#base_name#\":\"/domains/tairi/areas/ninja_tower/obj/newbie_ninjato\",\"Broken\":0,\"DamagePoints\":700,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({124,66,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 0
+WhereBlock 0
+Brief 0
+LoginTime 1529599146
+BirthTime 1529599134
+Password "lfafgfmk!jihmffib`lkbcohfamjkhjocebg`bcfo"
+Email "brainface_mike@yahoo.com"
+RealName "Mike"
+Rank 0
+LoginSite "/domains/tairi/areas/copse/room/room1"
+HostSite "cpe-69-132-238-49.carolina.res.rr.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 1
+Experience 2413
+Skills (["multi-weapon":(["class":1,"level":0,]),"cloth armour":(["class":2,"level":0,]),"melee combat":(["class":1,"level":4,]),"stealth":(["class":1,"level":3,]),"accuracy":(["class":4,"level":0,]),"lockpicking":(["class":4,"level":0,]),"shock magic":(["class":2,"level":0,]),"combat rage":(["class":1,"level":1,]),"slash combat":(["class":4,"level":0,]),"disarm":(["class":4,"level":0,]),"knife combat":(["class":1,"level":0,]),"projectile combat":(["class":4,"level":0,]),"stealing":(["class":2,"level":0,]),"disorient":(["class":4,"level":0,]),"natural magic":(["class":4,"level":1,]),"healing":(["class":4,"level":0,]),"leather armour":(["class":4,"level":0,]),"swimming":(["class":4,"level":0,]),"leather working":(["class":4,"level":0,]),"textile working":(["class":2,"level":0,]),"dodge":(["class":2,"level":0,]),"parry":(["class":4,"level":0,]),])
+Morality 0
+CanMulti 1
+Class "ninja"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"agnostic","agnostic",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Conditions 0
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Tairi":50,])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 340
+MagicPoints 320
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1988
+Drink 1988
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 250.699799
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":150,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":300,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":150,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":300,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":150,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":150,"class":2,"parent":"torso",]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 15
+LightSensitivity ({25,75,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":131070,"high":0,"medium":0,])
+Stats (["agility":(["class":3,"points":0,"level":27,]),"wisdom":(["class":3,"points":0,"level":27,]),"coordination":(["class":3,"points":0,"level":26,]),"intelligence":(["class":3,"points":0,"level":26,]),"luck":(["class":3,"points":0,"level":27,]),"strength":(["class":3,"points":0,"level":26,]),"durability":(["class":3,"points":0,"level":29,]),"charisma":(["class":3,"points":0,"level":28,]),])
+Languages (["tai":(["native":1,"name":"Tai","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Tairi"
+Race "human"
+Gender "male"
+Nationality "Tairi"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1529599134
+Cooldowns ([])
+Currency ([])
+Bank ([])
+CraftingRecipes ({})
+SpellBook ([])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Arboretum Visitor","the Island Explorer","the Initiate of Shadows","of Tairi",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "Mike"
+Quests ({(/1529599149,"Newbie Book",/),(/1529599246,"Ronin Camp",/),(/1529599266,"Cherry Blossom",/),})
+Deaths 0
+DevelopmentPoints 0
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 2
+LastLevel 1529599134
+HighestLevel 0
+LongDaemonData ({0,0,0,0,0,})
+PermanentProperties (["mission":"/std/missions/tairi/tai_ronin_slayer",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

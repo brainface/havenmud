@@ -38,10 +38,10 @@ WeaponSystem 8
 ShieldSystem 8
 Crystals 728
 hasAttacked ({})
-LastSave 1498178923
+LastSave 1514107110
 DamagedSystems ({})
 VId ({"ship4917","a One Anna Tuna","cruiser","ship",})
 VLong "This is the cruiser a One Anna Tuna."
 VShort "the cruiser a One Anna Tuna"
 ShipEnemies ({})
-UniqueVehicleId "ship7030"
+UniqueVehicleId "ship2335"

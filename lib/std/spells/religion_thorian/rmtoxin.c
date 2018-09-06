@@ -13,7 +13,7 @@ static void create() {
    SetSpell("remove toxin");
    SetSpellType(SPELL_OTHER);
    SetSkills( ([
-      "healing" : 15,
+      "necromancy" : 15,
       "faith" : 15,
    ]) );
    SetRules("", "LIV");

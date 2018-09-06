@@ -1,1 +1,12 @@
-/cmds/admins/furry.c line 33: Undefined variable 'oWho'
+/cmds/players/score.c line 123: Undefined variable 'dam'
+/cmds/players/score.c line 123: syntax error
+/cmds/players/score.c line 126: Illegal LHS
+/cmds/players/score.c line 126: syntax error
+/cmds/players/score.c line 128: Illegal LHS
+/cmds/players/score.c line 128: syntax error
+/cmds/players/score.c line 123: syntax error
+/cmds/players/score.c line 126: Illegal LHS
+/cmds/players/score.c line 126: syntax error
+/cmds/players/score.c line 128: Illegal LHS
+/cmds/players/score.c line 128: syntax error
+/cmds/players/score.c line 135: Illegal LHS

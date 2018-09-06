@@ -41,8 +41,30 @@ mapping SetRequiredSkills(mapping m) { return RequiredSkills = m; }
 mapping GetRequiredSkills() { return RequiredSkills; }
 string SetHelp(string h) { return Help = h; }
 // Use "any" for things like backstab or disarm, other use "pierce", etc.
+// none also works
 string SetRequiredWeapon(string x) { return RequiredWeapon = x; }
 string GetRequiredWeapon() { return RequiredWeapon; }
+
+// Set the rage object filepath
+private string Rage;
+string SetRage(string rage) {return Rage = rage;}
+string GetRage() {return Rage;}
+
+// handle hand restrictions (requiring 2-handers)
+private int Hands = 0;
+int SetHands(int hands) {return Hands = hands;}
+int GetHands() {return Hands;}
+
+// handle single/dual wielding
+// 1 = only one weapon, 2 = dual wielding, 0 = i don't care.
+private int MultipleWeapons = 0;
+int SetMultipleWeapons(int x) {return MultipleWeapons = x;}
+int GetMultipleWeapons() { return MultipleWeapons;}
+
+// handle requiring light armour and so forth.
+int MaxArmourClass = 0;
+int SetMaxArmourClass(int AC) {return MaxArmourClass = AC;}
+int GetMaxArmourClass() {return MaxArmourClass;}
 
 string GetHelp(string u) {
   string h = Help;
@@ -51,8 +73,15 @@ string GetHelp(string u) {
     sk += ({ s + ": " + RequiredSkills[s] });
   }
   h += "\n\nRequired Skills: " + implode(sk, ", ");
-  h += "\nWeapon Requirements: " + RequiredWeapon;
+  
+  h += "\nWeapon Requirements: "; 
+  if (GetHands()==1) h+= "one-handed ";
+  if (GetHands()==2) h+= "two-handed ";
+  if (GetMultipleWeapons()) h+= GetMultipleWeapons() + " ";
+  h+= RequiredWeapon;
+  if (GetMultipleWeapons() > 1) h+= "s";
   h += "\nStamina Cost: " + StaminaCost;
+  if (GetCooldown()) h+= "\nCooldown: " + GetCooldown() + " seconds.";
   return h;
 }
 
@@ -80,6 +109,23 @@ mixed CanAction(object who) {
 
   // if the verb requires weapon type "Any", then GetAnyWeapon will return a weapon.
 
+  // failed at two-hands
+  if (!GetAnyWeapon(who) && GetHands() == 2) {
+    return "You must be wielding a two-handed " + RequiredWeapon + " weapon to use " + GetVerb() + ".";  
+  }
+  // failed at one-hands
+  if (!GetAnyWeapon(who) && GetHands() == 1) {
+    return "You must be wielding a one-handed " + RequiredWeapon + " weapon to use " + GetVerb() + ".";  
+  }
+  
+  // dual wielding /single weapon restrictions
+  if (GetMultipleWeapons() == 1 &&  sizeof(GetWeapons(who)) != 1) {
+    return "You must be wielding a single " + RequiredWeapon + " weapon to use " + GetVerb() + "."; 
+  }
+  if (GetMultipleWeapons() == 2 && sizeof(GetWeapons(who)) != 2) {
+    return "You must be wielding two " + RequiredWeapon + " weapons to use " + GetVerb() + "."; 
+  }
+  
   // not weilding any correct weapon, and this isn't a brawly type attack
   if (!GetAnyWeapon(who) && RequiredWeapon != "melee" ) {
     return "You must be wielding a " + RequiredWeapon + " weapon to use " + GetVerb() + ".";
@@ -88,6 +134,15 @@ mixed CanAction(object who) {
     foreach(object weapon in who->GetWielded()) {
       if (weapon->GetWeaponType() != RequiredWeapon) return "You must be unarmed "
        "or wielding a melee weapon to use " + GetVerb() + ".";
+    }
+  }
+  
+  // handle armour restrictions
+  if (GetMaxArmourClass()) {
+    foreach(object w in who->GetUniqueWorn()) {
+      if (w->GetArmourClass() > GetMaxArmourClass()) {
+      	return "Your " + w->GetKeyName() + " weighs you down!";
+      }
     }
   }
 
@@ -206,7 +261,8 @@ int GetHighDamage(object wielder, object weapon) {
 // -1 = complete whiff
 int GetHit(object who, object target) {
   int pro, con;
-
+  // update: i mucked with base offense/defense, they should roughly equal
+  // assuming equal training in key skills.
   // Offense is soooo much lower than Defense. This might
   //   give about 66% chance to hit. Just comparing Offense vs. Defense
   //   means critical misses happen 4x more than fucking hits.
@@ -215,9 +271,8 @@ int GetHit(object who, object target) {
   //   has a tolerable chance to hit fighters will maul clerics, priests, & rangers
   //   (evokers/enchanters/necromancers/druids have one of dodge/parry)
   pro = 2 * who->GetOffense( keys(GetRequiredSkills()) );
-
+  pro += who->GetLuck();
   con = target->GetDefense();
-  con += target->GetStatLevel("agility")/10;
   con += target->GetLuck();
   // more cons is unneccessary, defense is like 3x offense already
   if(who->GetProperty("action_debug")) debug("Combat action: pro: " + pro +" con: " + con);
@@ -273,8 +328,13 @@ object* GetWeapons(object wielder) {
 
   // about everything else
   foreach(object contender in wielder->GetWielded()) {
-    if (contender->GetWeaponType() == RequiredWeapon)
-      weapons += ({contender});
+    if (contender->GetWeaponType() == RequiredWeapon) {
+      if(GetHands()) {
+      	if (GetHands() == contender->GetHands()) weapons += ({contender});  
+      } else {
+        weapons += ({contender});
+      }
+    }
   }
   return weapons;
 }

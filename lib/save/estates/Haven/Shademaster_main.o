@@ -1,4 +1,4 @@
-#/domains/estates/virtual/main_estate.c
+#/domains/estates/virtual/main_estate/Haven/Shademaster.c
 AmbientLight 35
 NoClean 1
 InternalDesc "This is an empty, unfurnished keep. It is quite bare."
@@ -10,7 +10,7 @@ Domain "Estates"
 Climate "indoors"
 DummyItems ({})
 Gravity 1.000000
-LastReset 1311523607
+LastReset 1536026161
 Town "Haven"
 Saved ({"EOut","ELong","EShort","Owner",})
 ELong "This is an empty, unfurnished keep. It is quite bare."

@@ -2,6 +2,8 @@
  * handles all armed combat for the WHOLE WORLD
  * Duuktsaryth 5 February 1999
  */
+// mahk 2018:
+// moved some numbers around to make offense and defense scale about the same
 #include <function.h>
 #include <damage_types.h>
 #include <vision.h>
@@ -34,9 +36,9 @@ int eventWeaponRound(mixed target, mixed args) {
   object *weapons = 0;
   function attack = 0;
   int attacks = 0;
-  
+
   if (arrayp(args)) weapons = args;
-  if (functionp(args) && !(functionp(args) & FP_OWNER_DESTED)) 
+  if (functionp(args) && !(functionp(args) & FP_OWNER_DESTED))
     attack = args;
   if (!sizeof(weapons) && !functionp(attack)) return 0;
   if (attack) evaluate(attack, target);
@@ -64,10 +66,11 @@ void eventWeaponAttack(object target, object weapon, int attacks) {
   weapon_type = weapon->GetWeaponType();
   num_hands   = weapon->GetHands();
   if (target->GetDying()) return;
-  pro = GetWeaponChance(target, weapon_type, num_hands, attacks);
-  con = target->GetStatLevel("agility")/10;
-  con += target->GetLuck();
-  con += target->GetDefense();
+  pro = GetWeaponChance(target, weapon_type, num_hands, attacks)+GetLuck();
+  // mahk 2018: let's do all this nonsense in one place
+  // con = target->GetStatLevel("agility")/10;
+  // con += target->GetLuck();
+  con = target->GetDefense()+target->GetLuck();
 
 
   pro = random(pro);
@@ -83,11 +86,11 @@ void eventWeaponAttack(object target, object weapon, int attacks) {
     return;
     }
   /* I hit you, but how hard? */
-  power = (weapon->eventStrike(target));
+  power = (weapon->eventStrike(target)); // event strike is just weapon class
   if (weapon->GetProperty("blessed")) power += weapon->GetProperty("blessed");
-  power = GetDamage(power *8, weapon_type + " combat", target->GetDefense());
+  power = GetDamage(power, weapon_type + " combat", target->GetDefense());
   power = target->GetDamageInflicted(this_object(), weapon->GetDamageType(), power, 0, limb);
-  
+
   SendCombatMessages(target, power, weapon, limb);
   target->eventInflictDamage(this_object(), weapon->GetDamageType(), power, 0, limb);
   weapon->eventReceiveDamage(this_object(), BLUNT, power/20, 0, limb);
@@ -103,17 +106,26 @@ int GetWeaponChance(object target, string type, int hands, int num) {
   int pro = GetSkillLevel(type + " combat");
   int con = 1;
 
-  pro += GetStatLevel("agility")/10;
+  // mahk 2018: agility on defense coord on offense
+  // pro += GetStatLevel("agility")/10;
   pro += GetStatLevel("coordination")/10;
-  if (GetSkillLevel("accuracy"))
-     pro += (GetSkillLevel("accuracy")/20 || 1);
+  //if (GetSkillLevel("accuracy"))
+  //   pro += (GetSkillLevel("accuracy")/20 || 1);
+  // mahk 2018: adding full accuracy, to scale w/ defense.
+  pro += GetSkillLevel("accuracy");
+  // taking luck out of here, making wc static
   if (num > 1) {
     pro += GetSkillLevel("multi-weapon");
     pro = pro * 0.4; /* pro + multi-weapon skill 80% effectiveness */
-    }
-  pro += GetLuck();
-  if (GetBlind()) { pro = pro/10; }
-  if (userp()) if (GetEffectiveVision() != VISION_CLEAR) { pro = pro/10; }
+  }
+
+  // player offense affected by all poor light levels, npcs affected
+  // only by the full blind condition
+  if (userp()) if (GetEffectiveVision() != VISION_CLEAR) {
+    pro = pro/4;
+  } else if (GetBlind()) {
+    pro = pro/4;
+  }
   return (pro);
 }
 

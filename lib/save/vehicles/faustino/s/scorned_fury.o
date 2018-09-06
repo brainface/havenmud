@@ -36,10 +36,10 @@ VehicleSize 2.000000
 WeaponSystem 2
 Crystals 2279
 hasAttacked ({})
-LastSave 1481988316
+LastSave 1520524959
 DamagedSystems ({})
 VId ({"yacht","ship","Scorned Fury","ship2078",})
 VLong "This is the yacht Scorned Fury."
 VShort "the yacht Scorned Fury"
 ShipEnemies ({})
-UniqueVehicleId "ship2544"
+UniqueVehicleId "ship7682"

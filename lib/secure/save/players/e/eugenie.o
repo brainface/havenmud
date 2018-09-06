@@ -4,47 +4,47 @@ Opacity 0
 NoClean 0
 ShortSuffixes ([])
 ProperNoun 1
-Short "$N the Rodent Exterminator (Averath human)"
+Short "$N the Priest of Aetarin (Averath human)"
 CapName "Eugenie"
 ExternalDesc "$N is nondescript."
 Invisible 0
 Items ([])
-Inventory ({"([\"Value\":45,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":45,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":45,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":45,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":45,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":45,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":30,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":30,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"fox\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":45,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":45,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":0,\"Mass\":175,\"Worn\":({\"torso\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldvest\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":729,\"Poison\":0,])","([\"Value\":0,\"Mass\":160,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldpants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":732,\"Poison\":0,])","([\"Value\":0,\"Mass\":95,\"Worn\":({\"head\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldhelmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":760,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":757,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":791,\"Poison\":0,])","([\"Value\":10,\"Lit\":0,\"Mass\":10,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/obj/light/torch\",\"Broken\":0,\"Fuel\":-1,\"DamagePoints\":400,\"Poison\":0,])","([\"Value\":150,\"Mass\":190,\"Worn\":({\"torso\",\"right arm\",\"left arm\",}),\"#base_name#\":\"/std/armour/shirt/studded_leather\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":593,\"Poison\":0,])","([\"Value\":10,\"Mass\":200,\"Worn\":({\"right hand\",\"left hand\",}),\"Class\":9,\"#base_name#\":\"/std/weapon/pole/staff\",\"Broken\":0,\"DamagePoints\":126,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":843,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":931,\"Poison\":0,])","([\"Value\":45,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":30,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"fox\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":30,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":2,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":75,\"PeltClass\":5,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":0,\"Mass\":80,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldboots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":673,\"Poison\":0,])","([\"Value\":36,\"Mass\":30,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/boot/laced_shoes\",\"Deterioration\":2,\"Broken\":0,\"DamagePoints\":14,\"Poison\":0,])",})
+Inventory ({"([\"Value\":36,\"Mass\":100,\"Worn\":({\"right leg\",\"left arm\",\"torso\",\"left leg\",\"right arm\",}),\"#base_name#\":\"/domains/averath/areas/sewers/obj/rogue_robe\",\"Deterioration\":2,\"Broken\":0,\"DamagePoints\":586,\"Poison\":0,])","([\"Value\":1500,\"Mass\":125,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/domains/averath/towns/averath/obj/clothing/l_boots\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":14836,\"Poison\":0,])","([\"Value\":6,\"Class\":7,\"Worn\":({\"right hand\",}),\"CatchChance\":40,\"Broken\":0,\"Poison\":0,\"Bait\":0,\"Mass\":125,\"PoleStrength\":300,\"#base_name#\":\"/std/obj/fishing/pole\",\"DamagePoints\":257,])","([\"Value\":0,\"Mass\":175,\"Worn\":({\"torso\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldvest\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":424,\"Poison\":0,])","([\"Value\":0,\"Mass\":160,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldpants\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":773,\"Poison\":0,])","([\"Value\":0,\"Mass\":95,\"Worn\":({\"head\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldhelmet\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":373,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"left hand\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":424,\"Poison\":0,])","([\"Value\":0,\"Mass\":15,\"Worn\":({\"right hand\",}),\"#base_name#\":\"/std/armour/free_armour/medium/oldglove\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":452,\"Poison\":0,])","([\"Value\":108,\"Mass\":190,\"Worn\":({\"torso\",\"right arm\",\"left arm\",}),\"#base_name#\":\"/std/armour/shirt/studded_leather\",\"Deterioration\":2,\"Broken\":0,\"DamagePoints\":423,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":1,\"Broken\":0,\"DamagePoints\":147,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":163,\"Poison\":0,])","([\"Value\":90,\"Worn\":({\"torso\",}),\"Broken\":0,\"Deterioration\":1,\"Poison\":0,\"Persist\":1,\"Mass\":1,\"#base_name#\":\"/std/obj/storage/backpack\",\"#inventory#\":({\"([\\\"Value\\\":50,\\\"Mass\\\":45,\\\"Worn\\\":0,\\\"Class\\\":18,\\\"#base_name#\\\":\\\"/domains/averath/areas/sewers/obj/jorin_knife\\\",\\\"Broken\\\":0,\\\"DamagePoints\\\":1358,\\\"Poison\\\":0,])\",}),\"DamagePoints\":405,])","([\"Value\":200,\"Mass\":40,\"Worn\":({\"head\",}),\"#base_name#\":\"/domains/averath/towns/averath/obj/hats/beret\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":58,\"Poison\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1575,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"crow\",\"PeltLevel\":35,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1575,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"crow\",\"PeltLevel\":35,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":1575,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"crow\",\"PeltLevel\":35,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":225,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":225,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":225,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":225,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":225,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"dog\",\"PeltLevel\":5,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":135,\"PeltClass\":15,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":3,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])",})
 Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
 RestrictedChannels ({})
 HistorySize 10
 Prompt "> "
 CurrentWorkingDirectory 0
 Nicknames ([])
-Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","tr":"travel $*","sw":"go southwest","exa":"look at $*","u":"go up","t":"ask florian to train $*","out":"go out","..":"skills","s":"go south","...":"spells","cc":"cast command $*","p":"protections $*","oe":"oocemote $*","n":"go north",".":"status","m":"money $*","l":"look $*","ne":"go northeast","k":"kill $*","sk":"skin first corpse $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Aliases (["la":"look at $*","w":"go west","gac":"get all from $* corpse","ch":"chanhist $*","tr":"travel $*","u":"go up","t":"ask florian to train $*","out":"go out","s":"go south","cc":"cast command $*","p":"protections $*","oe":"oocemote $*","n":"go north",".":"status","m":"money $*","l":"look $*","k":"kill $*","i":"inventory","e":"go east","d":"go down","pp":"protections","nw":"go northwest","ka":"kill all","sw":"go southwest","exa":"look at $*","..":"skills","...":"spells","ne":"go northeast","sk":"skin first corpse $*","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse",])
 Xverbs (["'":"speak $*",":":"emote $*",])
 Terminal "ansi"
 Blocked ([])
-Screen ({79,24,})
+Screen ({167,49,})
 Wrapping 1
 SocialRank 1
 ConfirmedEmail 1
-Age 29801
+Age 79901
 WhereBlock 0
 Brief 1
-LoginTime 1500063505
+LoginTime 1535764367
 BirthTime 1499298265
 Password "`figlknf!knfd`a`cifhbiebnda`io`fm`edjff`h"
 Email "brainface_mike@yahoo.com"
 RealName "Mike"
 Rank 0
-LoginSite "/domains/averath/areas/sewers/room/sewer3"
-HostSite "cpe-172-73-117-211.carolina.res.rr.com"
+LoginSite "/domains/averath/towns/averath/room/cemetery"
+HostSite "071-071-188-013.res.spectrum.com"
 WebPage 0
 AdditionalId ({})
 Ranks ({"Citizen",})
 Marriages ({})
 NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
 NewServerLogin 1
-Level 10
-Experience 11671
-Skills (["reinforced armour":(["class":2,"level":0,]),"cloth armour":(["class":1,"level":18,]),"melee combat":(["class":4,"level":0,]),"shock magic":(["class":2,"level":14,]),"faith":(["class":1,"level":18,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":0,]),"healing":(["class":2,"level":16,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":0,]),"pole combat":(["class":1,"level":18,]),"wood working":(["class":4,"level":5,]),"weapon smithing":(["class":4,"level":5,]),"skinning":(["class":4,"level":4,]),"swimming":(["class":4,"level":1,]),"bargaining":(["class":2,"level":1,]),"textile working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"illusion":(["class":2,"level":13,]),"dodge":(["class":4,"level":1,]),"parry":(["class":2,"level":1,]),"cooking":(["class":4,"level":0,]),"enchantment":(["class":1,"level":18,]),])
-Morality -4
+Level 19
+Experience 19797
+Skills (["reinforced armour":(["class":2,"level":0,]),"cloth armour":(["class":1,"level":38,]),"melee combat":(["class":4,"level":0,]),"shock magic":(["class":2,"level":6,]),"faith":(["class":1,"level":38,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":0,]),"healing":(["class":2,"level":37,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":0,]),"pole combat":(["class":1,"level":38,]),"wood working":(["class":4,"level":14,]),"weapon smithing":(["class":4,"level":15,]),"skinning":(["class":4,"level":19,]),"swimming":(["class":4,"level":1,]),"bargaining":(["class":2,"level":22,]),"textile working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"illusion":(["class":2,"level":28,]),"dodge":(["class":4,"level":1,]),"parry":(["class":2,"level":10,]),"cooking":(["class":4,"level":0,]),"enchantment":(["class":1,"level":38,]),])
+Morality -22
 CanMulti 1
 Class "priest"
 Guild 0
@@ -58,40 +58,39 @@ MeleeAttackString "attack"
 Conditions 0
 Enemies ({})
 SpecialTargets 0
-CurrentEnemy 
+CurrentEnemy 0
 Guard 0
 MagicBonus 0
-endParalysis 
+endParalysis 0
 Paralyzed 0
-Reputations (["Averath":68,])
-OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
-Position 2
+Reputations (["Dalnairn":-9,"Averath":86,])
+Position 8
 Undead 0
 UndeadType 0
-HealthPoints 350
-MagicPoints 520
+HealthPoints 380
+MagicPoints 570
 Bleeding 0
 Alcohol 0
 Caffeine 0
-Food 1186
-Drink 1186
+Food 60
+Drink 398
 Poison 0
 Sleeping 0
 Hiding 0
 Smoke 0
 Blessed 0
 Cursed 0
-StaminaPoints 320.000000
+StaminaPoints 340.000000
 Torso "torso"
 Fingers (["right hand":5,"left hand":5,])
-Limbs (["right leg":(["armours":525472,"children":({"right foot",}),"health":160,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":310,"class":1,"parent":"torso",]),"right foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"right leg",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":160,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"left leg",]),"left leg":(["armours":525472,"children":({"left foot",}),"health":160,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":310,"class":1,"parent":0,]),"right hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"right arm",]),"left hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":160,"class":2,"parent":"torso",]),])
+Limbs (["right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":90,]),"head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":340,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":170,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":90,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":170,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":340,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":170,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":90,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":170,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":90,]),])
 MissingLimbs ([])
 NoCorpse 0
 Blind 0
 CustomStats 1
 LightSensitivity ({25,75,})
 Resistance (["low":0,"weakness":0,"immune":0,"none":131070,"high":0,"medium":0,])
-Stats (["agility":(["class":3,"points":0,"level":33,]),"wisdom":(["class":3,"points":0,"level":47,]),"coordination":(["class":3,"points":0,"level":33,]),"intelligence":(["class":3,"points":0,"level":34,]),"luck":(["class":3,"points":0,"level":30,]),"strength":(["class":3,"points":0,"level":27,]),"durability":(["class":3,"points":0,"level":30,]),"charisma":(["class":3,"points":0,"level":28,]),])
+Stats (["agility":(["class":3,"points":0,"level":35,]),"wisdom":(["class":3,"points":0,"level":52,]),"coordination":(["class":3,"points":0,"level":35,]),"intelligence":(["class":3,"points":0,"level":35,]),"luck":(["class":3,"points":0,"level":30,]),"strength":(["class":3,"points":0,"level":29,]),"durability":(["class":3,"points":0,"level":33,]),"charisma":(["class":3,"points":0,"level":32,]),])
 Languages (["avera":(["native":1,"name":"Avera","points":0,"level":100,]),"enlan":(["native":1,"name":"Enlan","points":0,"level":100,]),])
 SaveRecurse 0
 Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
@@ -107,24 +106,24 @@ CombatStyle 0
 CombatStyles ([])
 Wimpy 30
 WimpyCmd "go out"
-LastWimpy 1499298265
+LastWimpy 1529531679
 Cooldowns ([])
-Currency (["oros":1508,"ducats":111,])
-Bank (["Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#97414), OBJ(magna /domains/havenwood/towns/parva/npc/banker#97414), OBJ(/verbs/players/request), OBJ(eugenie /secure/save/players/e/eugenie) })","oros":5,"last time":1499313264,"open":1499313264,"last trans":"opened account",]),])
+Currency (["oros":1508,"ducats":1569,])
+Bank (["First Averath Bank":(["audit":"({ OBJ(orris /domains/averath/towns/averath/npc/teller#104667), OBJ(orris /domains/averath/towns/averath/npc/teller#104667), OBJ(/verbs/common/ask), OBJ(eugenie /secure/save/players/e/eugenie) })","last time":1526690958,"open":1526690958,"ducats":5,"last trans":"opened account",]),"Parva Bank":(["audit":"({ OBJ(magna /domains/havenwood/towns/parva/npc/banker#97414), OBJ(magna /domains/havenwood/towns/parva/npc/banker#97414), OBJ(/verbs/players/request), OBJ(eugenie /secure/save/players/e/eugenie) })","oros":5,"last time":1499313264,"open":1499313264,"last trans":"opened account",]),])
 CraftingRecipes ({})
-SpellBook (["startle":20,"fortify":20,"create detox potion":1,"halt bleeding":4,"blinding color":13,"create shadows":1,"shimmer":39,"unravel wards":1,"command":83,"detect magic":1,"bless":37,"detect witchery":25,"touch":2,"divine whisper":1,"turn undead":1,"revive":12,"create light":15,])
+SpellBook (["startle":34,"fortify":70,"create detox potion":1,"halt bleeding":11,"divine guidance":5,"figment":30,"blinding color":100,"create shadows":1,"mind stab":45,"discern morality":1,"shimmer":29,"sanctify":1,"veil":2,"discern killer":1,"unravel wards":1,"remove paralysis":1,"command":100,"detect magic":1,"rejuvenation":7,"bless":92,"detect witchery":93,"touch":25,"divine whisper":1,"divine morality":5,"create water":1,"turn undead":1,"revive":100,"create light":46,"mend":42,])
 SongBook ([])
 RecoveryTime 0
 NoSing 0
 isPK 0
-Titles ({"the Rodent Exterminator","the Explorer","the Feather Ruffler","the Trash Picker","the Averan Ferry Rider","the Aetarin Initiate","of Averath",})
+Titles ({"the Priest of Aetarin","the Rodent Exterminator","the Explorer","the Feather Ruffler","the Trash Picker","the Averan Ferry Rider","the Aetarin Initiate","of Averath",})
 Story 0
 Surname 0
 ApprovedStory 0
 OOCName "Mike"
 Quests ({(/1499298278,"Newbie Book",/),(/1499298843,"Rodent Extermination",/),(/1499304907,"Care package Delivery",/),(/1499312503,"Haven Ferry",/),(/1499312814,"Gurov Trash Search",/),(/1499312866,"Chicken Coop",/),(/1499312900,"Explored Grove",/),})
 Deaths 0
-DevelopmentPoints 40
+DevelopmentPoints 58
 TitleLength 1
 TitleAnd 1
 NoRank 1
@@ -135,9 +134,9 @@ RPC 0
 CanCast 0
 IsBlind 0
 CanLocate 1
-SeveredHeads 1
-LastLevel 1499459853
-HighestLevel 10
+SeveredHeads 6
+LastLevel 1528760030
+HighestLevel 19
 LongDaemonData ({"green","dark brown","tanned","tanned",0,})
 PermanentProperties (["status":"full",])
 ExploredWorlds ({})

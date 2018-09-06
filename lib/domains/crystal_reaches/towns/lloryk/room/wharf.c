@@ -28,10 +28,11 @@ static void create() {
   SetProperty("coastal", 1);
   SetSpeed(5);
   SetFish( ([
-      DIR_STD "fish/guppy" : 100,
-      DIR_STD "fish/trout" : 10,
       DIR_STD "fish/boot" : 1,
+      DIR_STD "fish/trout" : 10,
+      DIR_STD "fish/guppy" : 100,      
     ]) );
   SetChance(25);
   SetMaxFishing(12);
 }
+

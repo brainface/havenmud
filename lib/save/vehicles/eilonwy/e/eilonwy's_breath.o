@@ -38,11 +38,11 @@ WeaponSystem 8
 ShieldSystem 8
 Crystals 108071
 hasAttacked ({})
-LastSave 1492350406
+LastSave 1536199682
 DamagedSystems ({})
 VId ({"Eilonwy's Breath","cruiser","ship","ship5853",})
 VLong "This is the cruiser Eilonwy's Breath."
 VShort "the cruiser Eilonwy's Breath"
 ShipEnemies ({})
 Crew ({"shademaster",})
-UniqueVehicleId "ship3200"
+UniqueVehicleId "ship9091"

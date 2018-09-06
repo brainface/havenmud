@@ -78,9 +78,11 @@ static void create() {
    ]) );
    SetSpeed(5);
    SetFish( ([
-      DIR_STD "fish/guppy" : 100,
-      DIR_STD "fish/trout" : 10,
-      DIR_STD "fish/boot" : 1,
+      STD_FISH "guppy" : 100,
+      STD_FISH "trout" : 10,
+      STD_FISH "boot" : 1,
+      STD_FISH "fire/flamefin_1" : 5,
+      STD_FISH "fire/flamefin_2" : 1,
    ]) );
    SetChance(25);
    SetMaxFishing(12);
@@ -91,7 +93,7 @@ static void create() {
     STD_OBJ "dock_sign" : 1,
     H_NPC "t_fisher" : 1,
     ]) );
-    
+
     call_out( (: MakeCaptain :), 0);
 }
 

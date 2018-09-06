@@ -9,12 +9,12 @@ CapName "Urien"
 ExternalDesc "$N is nondescript."
 Invisible 2
 Items ([])
-Inventory ({"([\"Value\":4,\"Mass\":1,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/crafting/natural/glass_red\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/realms/urien/attic/examples/redruby\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])",})
+Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/secure/obj/post\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])",})
 Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
 RestrictedChannels ({})
 HistorySize 10
 Prompt "> "
-CurrentWorkingDirectory "/realms/urien/attic/spells"
+CurrentWorkingDirectory "/realms/urien/ruins"
 Nicknames ([])
 Aliases (["la":"look at $*","hq":"goto /realms/urien/invasions/room/headquarters $*","w":"go west","gac":"get all from $* corpse","u":"go up","out":"go out","s":"go south","p":"who","oe":"oocemote $*","n":"go north",".":"status","ruins":"goto ~urien/ruins/room/throne $*","l":"look $*","k":"kill $*","memory":"more ~urien/attic/memory $*","i":"inventory","e":"go east","d":"go down","pp":"protections","nw":"go northwest","ka":"kill all","sw":"go southwest","exa":"look at $*","..":"skills","...":"spells","renew":"duc $*","ne":"go northeast","kresh":"goto /realms/urien/kresh/room/m_1 $*","se":"go southeast","ga":"get all $*","dupdate":"update * $*","gcc":"get coins from $* corpse",])
 Xverbs (["'":"speak $*",":":"emote $*",])
@@ -24,17 +24,17 @@ Screen ({119,35,})
 Wrapping 1
 SocialRank 1
 ConfirmedEmail 1
-Age 701749
+Age 702656
 WhereBlock 0
 Brief 0
-LoginTime 1495640985
+LoginTime 1526721965
 BirthTime 1382483137
 Password "hmlefifi!ohabhimbjajldkchbjkco`glalibbijb"
 Email "BrackDiesel@live.com"
 RealName "Urien"
 Rank 0
-LoginSite "/realms/urien/workroom"
-HostSite "cpe-72-225-37-187.rochester.res.rr.com"
+LoginSite "/realms/urien/ruins/room/outside2"
+HostSite "cpe-72-225-43-53.rochester.res.rr.com"
 WebPage 0
 AdditionalId ({})
 Ranks ({"Citizen",})

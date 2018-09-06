@@ -1,4 +1,4 @@
-#/domains/estates/virtual/main_estate.c
+#/domains/estates/virtual/main_estate/Haven/Luciole.c
 AmbientLight 35
 NoClean 1
 InternalDesc "An expansive room with vaulted ceilings painted artfully, with murals depicting scenes of the Kailie countryside under clear blue skies. Resting on the floor of cool, swept tile are sumptuous azure velvet couches draped with cloth of gold, just begging to be sunk into. Low tables nearby are bedecked with potted exotic plants and neatly stacked volumes written in a multitude of languages. In the center of the chamber is a pool deep enough to sit in, nearly overflowing with lilies and more of them painted along its rim."
@@ -10,7 +10,7 @@ Domain "Estates"
 Climate "indoors"
 DummyItems ({})
 Gravity 1.000000
-LastReset 1311297603
+LastReset 1534942561
 Town "Haven"
 Saved ({"EOut","ELong","EShort","Owner",})
 ELong "An expansive room with vaulted ceilings painted artfully, with murals depicting scenes of the Kailie countryside under clear blue skies. Resting on the floor of cool, swept tile are sumptuous azure velvet couches draped with cloth of gold, just begging to be sunk into. Low tables nearby are bedecked with potted exotic plants and neatly stacked volumes written in a multitude of languages. In the center of the chamber is a pool deep enough to sit in, nearly overflowing with lilies and more of them painted along its rim."

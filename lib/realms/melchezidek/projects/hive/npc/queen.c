@@ -31,9 +31,9 @@ int HelpMe() {
   int guard_num;
   
   debug("Working HelpMe, Stage 1: " + who->GetKeyName());
-  guards = filter(all_inventory(environment(who)), (: living($1) && $1->GetKeyName() == "queen's guard" :));
+  guards = filter(all_inventory(environment(who)), (: living($1) && $1->GetKeyName() == "queens guard" :));
   guard_num = sizeof(guards);
-  debug("guard_num: " + guard_num + "guards: " + sizeof(guards));
+  debug("guard_num: " + guard_num + " guards: " + sizeof(guards));
   if (sizeof(guards) > 4) return 0;
   switch(random(2)) {
   	case 0:

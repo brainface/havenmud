@@ -1,5 +1,6 @@
-#/domains/estates/virtual/main_estate.c
+#/domains/estates/virtual/main_estate/Haven/Adelmere.c
 AmbientLight 35
+NoClean 1
 InternalDesc "This is an empty, unfurnished keep. It is quite bare."
 Opacity 100
 ProperNoun 1
@@ -8,10 +9,10 @@ Items ([])
 Climate "indoors"
 DummyItems ({})
 Gravity 1.000000
-LastReset 1361933357
+LastReset 1534536961
 Town "Haven"
 Saved ({"EOut","ELong","EShort","Owner",})
 ELong "This is an empty, unfurnished keep. It is quite bare."
 EShort "inside an Estate"
-EOut "/domains/staff/room/setup"
+EOut "/domains/southern_coast/towns/haven/room/wharf"
 Owner "Adelmere"

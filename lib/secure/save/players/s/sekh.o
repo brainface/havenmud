@@ -20,14 +20,14 @@ Aliases (["la":"look at $*","cl":"cast chain lightning on $*","w":"go west","gac
 Xverbs (["'":"speak $*",":":"emote $*",])
 Terminal "ansi"
 Blocked ([])
-Screen ({127,24,})
+Screen ({127,23,})
 Wrapping 1
 SocialRank 4
 ConfirmedEmail 1
 Age 200011
 WhereBlock 0
 Brief 1
-LoginTime 1496869074
+LoginTime 1534799474
 BirthTime 1211401900
 Password "j`beccc`!`oidccifbgeomeminjaegfd`ahflcllg"
 Email "fuzzydemon84@hotmail.com"
@@ -55,6 +55,7 @@ NextRoundFunction 0
 NextRound 0
 MeleeDamageType 2
 MeleeAttackString "attack"
+Conditions 0
 Enemies ({})
 SpecialTargets 0
 CurrentEnemy 0
@@ -63,7 +64,6 @@ MagicBonus 0
 endParalysis 0
 Paralyzed 0
 Reputations ([])
-OpposingFactions (["Gwonish":"Lloryk","Lloryk":"Gwonish","Karak":"Glimmerdin","Haven":"Malveillant","Malveillant":"Haven","Glimmerdin":"Karak",])
 Position 2
 Undead 0
 UndeadType 0
@@ -72,8 +72,8 @@ MagicPoints 1000
 Bleeding 0
 Alcohol 0
 Caffeine 0
-Food 91
-Drink 392
+Food 90
+Drink 391
 Poison 0
 Sleeping 0
 Hiding 0
@@ -107,6 +107,7 @@ CombatStyles ([])
 Wimpy 50
 WimpyCmd "go east"
 LastWimpy 1318991996
+Cooldowns ([])
 Currency (["oros":30,"imperials":5070,"roni":818797,])
 Bank (["The Bank of Malveillant":(["audit":"({ OBJ(karin /domains/havenwood/towns/malveillant/npc/karin#76516), OBJ(karin /domains/havenwood/towns/malveillant/npc/karin#76516), OBJ(/verbs/common/ask), OBJ(sekh /secure/save/players/s/sekh) })","last time":1315965706,"shrydes":159886,"open":1211421999,"last trans":"deposit","roni":3057739,]),])
 CraftingRecipes ({})

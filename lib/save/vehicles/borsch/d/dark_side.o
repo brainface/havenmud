@@ -37,10 +37,10 @@ WeaponSystem 4
 ShieldSystem 4
 Crystals 9950
 hasAttacked ({})
-LastSave 1498178549
+LastSave 1533822396
 DamagedSystems ({})
 VId ({"ship5081","galley","ship","Dark Side",})
 VLong "This is the galley Dark Side."
 VShort "the galley Dark Side"
 ShipEnemies ({})
-UniqueVehicleId "ship8"
+UniqueVehicleId "ship5847"

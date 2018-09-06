@@ -1,0 +1,144 @@
+#/secure/save/players/s/sszissle.c
+InternalDesc 0
+Opacity 0
+NoClean 0
+ShortSuffixes ([])
+ProperNoun 1
+Short "$N the Gwonish Acolyte (Gwonish lizardman)"
+CapName "Sszissle"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Inventory ({"([\"Value\":0,\"PeltClass\":0,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":0,\"PeltClass\":0,\"Class\":1,\"Worn\":0,\"PeltSource\":\"rodent\",\"PeltLevel\":1,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/std/obj/skin\",\"DamagePoints\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":10,\"Mass\":80,\"Worn\":({\"right hand\",}),\"Class\":10,\"#base_name#\":\"/domains/crystal_reaches/towns/gwonish/obj/newbie_club\",\"Broken\":0,\"DamagePoints\":1974,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+HistorySize 10
+Prompt "> "
+CurrentWorkingDirectory 0
+Nicknames ([])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","oe":"oocemote $*","p":"protections $*",".":"status","n":"go north","l":"look $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","ga":"get all $*","se":"go southeast","d":"go down","gcc":"get coins from $* corpse","pp":"protections",])
+Xverbs (["'":"speak $*",":":"emote $*",])
+Terminal "ansi"
+Blocked ([])
+Screen ({79,24,})
+Wrapping 1
+SocialRank 1
+ConfirmedEmail 1
+Age 0
+WhereBlock 0
+Brief 1
+LoginTime 1535755769
+BirthTime 1535664377
+Password "joongcgj!hmajcbamjednoiangcidkeagiiccoaih"
+Email "brainface_mike@yahoo.com"
+RealName "Mike"
+Rank 0
+LoginSite "/domains/peninsula/areas/wood/room/vale2"
+HostSite "071-071-188-013.res.spectrum.com"
+WebPage 0
+AdditionalId ({})
+Ranks ({"Citizen",})
+Marriages ({})
+NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
+NewServerLogin 1
+Level 1
+Experience 1510
+Skills (["cloth armour":(["class":2,"level":0,]),"melee combat":(["class":4,"level":0,]),"stealth":(["class":4,"level":0,]),"knife combat":(["class":4,"level":0,]),"faith":(["class":1,"level":2,]),"necromancy":(["class":2,"level":1,]),"fishing":(["class":4,"level":0,]),"natural magic":(["class":1,"level":1,]),"leather armour":(["class":2,"level":0,]),"skinning":(["class":2,"level":0,]),"leather working":(["class":2,"level":0,]),"textile working":(["class":2,"level":0,]),"blunt combat":(["class":1,"level":2,]),"parry":(["class":4,"level":0,]),"poison magic":(["class":2,"level":0,]),"evokation":(["class":1,"level":1,]),])
+Morality -6
+CanMulti 1
+Class "shaman"
+Guild 0
+Clan 0
+SkillModifiers ([])
+Religion ({"Kuthar","Kuthar",})
+NextRoundFunction 0
+NextRound 0
+MeleeDamageType 2
+MeleeAttackString "attack"
+Conditions 0
+Enemies ({})
+SpecialTargets 0
+CurrentEnemy 0
+Guard 0
+MagicBonus 0
+endParalysis 0
+Paralyzed 0
+Reputations (["Gwonish":50,"Lloryk":-25,])
+Position 2
+Undead 0
+UndeadType 0
+HealthPoints 400
+MagicPoints 250
+Bleeding 0
+Alcohol 0
+Caffeine 0
+Food 1837
+Drink 1837
+Poison 0
+Sleeping 0
+Hiding 0
+Smoke 0
+Blessed 0
+Cursed 0
+StaminaPoints 310.000000
+Torso "torso"
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":360,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":180,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":90,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":90,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":180,]),"torso":(["children":({"head","tail","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":360,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":180,]),"tail":(["children":({}),"armours":1048576,"parent":"torso","class":2,"health":180,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":90,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":180,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":90,]),])
+MissingLimbs ([])
+NoCorpse 0
+Blind 0
+CustomStats 15
+LightSensitivity ({-10,40,})
+Resistance (["low":0,"weakness":0,"immune":0,"none":131070,"high":0,"medium":0,])
+Stats (["wisdom":(["class":3,"points":0,"level":20,]),"agility":(["class":3,"points":0,"level":27,]),"coordination":(["class":3,"points":0,"level":29,]),"luck":(["class":3,"points":0,"level":27,]),"intelligence":(["class":4,"points":0,"level":25,]),"strength":(["class":3,"points":0,"level":26,]),"durability":(["class":2,"points":0,"level":35,]),"charisma":(["class":4,"points":0,"level":23,]),])
+Languages (["slith":(["native":1,"name":"Slith","points":0,"level":100,]),])
+SaveRecurse 0
+Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
+Viking 0
+tellhist ({})
+sphist ({})
+Town "Gwonish"
+Race "lizardman"
+Gender "male"
+Nationality "Gwonish"
+Size 16
+CombatStyle 0
+CombatStyles ([])
+Wimpy 30
+WimpyCmd "go out"
+LastWimpy 1535664377
+Cooldowns ([])
+Currency ([])
+Bank ([])
+CraftingRecipes ({})
+SpellBook (["chill touch":5,"bless":10,"disperse protections":1,"protect":1,"create voodoo doll":1,"barkskin":5,"curse":1,"animate dead":1,"flaming arrow":5,"turn undead":1,"preserve":1,"skull of darkness":1,"locate zombie":1,])
+SongBook ([])
+RecoveryTime 0
+NoSing 0
+isPK 0
+Titles ({"the Gwonish Acolyte","of Gwonish",})
+Story 0
+Surname 0
+ApprovedStory 0
+OOCName "Mike"
+Quests ({(/1535664393,"Newbie Book",/),})
+Deaths 0
+DevelopmentPoints 0
+TitleLength 1
+TitleAnd 1
+NoRank 1
+TellRestricted 0
+Retired 0
+TestChar 0
+RPC 0
+CanCast 0
+IsBlind 0
+CanLocate 1
+SeveredHeads 0
+LastLevel 1535664377
+HighestLevel 0
+LongDaemonData ({"black",0,"brown","scaled","a lipless mouth with a thin tongue that occassionally flicks out.",})
+PermanentProperties (["status":"full",])
+ExploredWorlds ({})
+ImprovedStats ({})
+PartyMembers ({})

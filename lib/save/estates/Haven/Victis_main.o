@@ -1,5 +1,6 @@
-#/domains/estates/virtual/main_estate.c
+#/domains/estates/virtual/main_estate/Haven/Victis.c
 AmbientLight 35
+NoClean 1
 InternalDesc "This is an empty, unfurnished keep. It is quite bare."
 Opacity 100
 ProperNoun 1
@@ -8,7 +9,7 @@ Items ([])
 Climate "indoors"
 DummyItems ({})
 Gravity 1.000000
-LastReset 1376184220
+LastReset 1535057761
 Town "Haven"
 Saved ({"EOut","ELong","EShort","Owner",})
 ELong "This is an empty, unfurnished keep. It is quite bare."

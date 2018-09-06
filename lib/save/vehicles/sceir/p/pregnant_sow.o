@@ -33,10 +33,10 @@ Owner "sceir"
 ShipStyle "human"
 VehicleSize 8.000000
 hasAttacked ({})
-LastSave 1498178923
+LastSave 1514107110
 DamagedSystems ({})
 VId ({"ship9296","cruiser","ship","Pregnant Sow",})
 VLong "This is the cruiser Pregnant Sow."
 VShort "the cruiser Pregnant Sow"
 ShipEnemies ({})
-UniqueVehicleId "ship8508"
+UniqueVehicleId "ship4980"

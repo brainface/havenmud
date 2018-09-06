@@ -1,20 +1,11 @@
 devil
-20:80
-Baatezu
+0:80
+Ancient
 SIZE_LARGE
-BLUNT:low
-SLASH:med
-PIERCE:med
-WATER:low
-SHOCK:high
-COLD:high
-HEAT:high
-GAS:immune
-ACID:low
-MAGIC:high
-HUNGER:weakness
-DISEASE:immune
-POISON:high
+BLUNT:medium
+SLASH:medium
+PIERCE:medium
+MAGIC:low
 charisma:31:2
 durability:31:2
 intelligence:31:2
@@ -34,3 +25,4 @@ right foot:right leg:4:A_SOCK,A_LONG_SOCK,A_BOOT,A_LONG_BOOT
 right hand:right arm:4:A_GLOVE,A_LONG_GLOVE,A_WEAPON,A_SHIELD
 left foot:left leg:4:A_SOCK,A_LONG_SOCK,A_BOOT,A_LONG_BOOT
 left hand:left arm:4:A_GLOVE,A_LONG_GLOVE,A_WEAPON,A_SHIELD
+tail:torso:4:A_TAIL,A_WEAPON

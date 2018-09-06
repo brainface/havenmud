@@ -4,12 +4,12 @@ Opacity 0
 NoClean 0
 ShortSuffixes ([])
 ProperNoun 1
-Short "$N the Tempted (Malveillant dark-elf)"
+Short "$N the Tempted (Malveillant half-elf)"
 CapName "Parceny"
 ExternalDesc "$N is nondescript."
 Invisible 0
 Items ([])
-Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/misc/dayofroses\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":30,\"Mass\":20,\"Worn\":0,\"Class\":7,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/weapons/cleric_knife\",\"Broken\":0,\"DamagePoints\":500,\"Poison\":0,])",})
+Inventory ({"([\"Value\":30,\"Mass\":20,\"Worn\":({\"right hand\",}),\"Class\":7,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/weapons/cleric_knife\",\"Broken\":0,\"DamagePoints\":500,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/domains/havenwood/towns/malveillant/obj/misc/dayofroses\",\"Broken\":0,\"DamagePoints\":0,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right leg\",\"left leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left arm\",\"torso\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
 Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
 RestrictedChannels ({})
 HistorySize 10
@@ -20,20 +20,20 @@ Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all f
 Xverbs (["'":"speak $*",":":"emote $*",])
 Terminal "ansi"
 Blocked ([])
-Screen ({79,24,})
+Screen ({124,66,})
 Wrapping 1
 SocialRank 1
 ConfirmedEmail 1
-Age 2375
+Age 511
 WhereBlock 0
 Brief 0
-LoginTime 1497983034
-BirthTime 1497671622
-Password "flgcddbl!c``cilbic`kjndji`cmfhhdindblfljj"
-Email "brainface_mike@yahoo.com"
+LoginTime 1529003430
+BirthTime 1528926464
+Password "ojahhecj!endidanmjfddnmikognhmileikfnaogj"
+Email "brainfacemike@gmail.com"
 RealName "Mike"
 Rank 0
-LoginSite "/domains/havenwood/towns/malveillant/rooms/path11"
+LoginSite "/domains/havenwood/areas/wood/rooms/wood4"
 HostSite "cpe-172-73-117-211.carolina.res.rr.com"
 WebPage 0
 AdditionalId ({})
@@ -43,8 +43,8 @@ NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
 NewServerLogin 1
 Level 1
 Experience 0
-Skills (["reinforced armour":(["class":2,"level":0,]),"cloth armour":(["class":1,"level":1,]),"melee combat":(["class":4,"level":0,]),"stealth":(["class":2,"level":1,]),"knife combat":(["class":1,"level":1,]),"faith":(["class":1,"level":1,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":0,]),"fishing":(["class":4,"level":0,]),"healing":(["class":2,"level":1,]),"leather armour":(["class":2,"level":0,]),"weapon smithing":(["class":4,"level":0,]),"skinning":(["class":4,"level":0,]),"bargaining":(["class":2,"level":1,]),"textile working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"illusion":(["class":4,"level":1,]),"dodge":(["class":2,"level":1,]),"cooking":(["class":4,"level":0,]),"poison magic":(["class":2,"level":0,]),"evokation":(["class":1,"level":1,]),])
-Morality -2500
+Skills (["reinforced armour":(["class":2,"level":0,]),"cloth armour":(["class":1,"level":1,]),"melee combat":(["class":4,"level":0,]),"stealth":(["class":2,"level":1,]),"knife combat":(["class":1,"level":1,]),"faith":(["class":1,"level":1,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":0,]),"healing":(["class":2,"level":1,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":0,]),"weapon smithing":(["class":4,"level":0,]),"skinning":(["class":4,"level":0,]),"bargaining":(["class":2,"level":1,]),"textile working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"dodge":(["class":2,"level":1,]),"illusion":(["class":4,"level":1,]),"cooking":(["class":4,"level":0,]),"poison magic":(["class":2,"level":0,]),"evokation":(["class":1,"level":1,]),])
+Morality -2000
 CanMulti 1
 Class "priest"
 Guild 0
@@ -64,34 +64,33 @@ MagicBonus 0
 endParalysis 0
 Paralyzed 0
 Reputations (["Haven":-25,"Malveillant":50,])
-OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Malveillant":"Haven","Ungkh":"Jidoor","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
 Position 2
 Undead 0
 UndeadType 0
-HealthPoints 350
-MagicPoints 300
+HealthPoints 300
+MagicPoints 102
 Bleeding 0
 Alcohol 0
 Caffeine 0
-Food 1940
-Drink 1940
+Food 1969
+Drink 1969
 Poison 0
 Sleeping 0
 Hiding 0
 Smoke 0
 Blessed 0
 Cursed 0
-StaminaPoints 320.000000
+StaminaPoints 330.000000
 Torso "torso"
 Fingers (["right hand":5,"left hand":5,])
-Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":310,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":160,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":80,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":80,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":160,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":310,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":160,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":80,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":160,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":80,]),])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":260,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":130,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":70,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":70,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":130,]),"torso":(["children":({"head","right leg","left leg","left arm","right arm",}),"armours":751616,"parent":0,"class":1,"health":260,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":130,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":70,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":130,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":70,]),])
 MissingLimbs ([])
 NoCorpse 0
 Blind 0
 CustomStats 15
-LightSensitivity ({-25,60,})
+LightSensitivity ({20,75,})
 Resistance (["low":0,"weakness":0,"immune":0,"none":131070,"high":0,"medium":0,])
-Stats (["wisdom":(["class":4,"points":0,"level":25,]),"agility":(["class":3,"points":0,"level":30,]),"coordination":(["class":3,"points":0,"level":31,]),"luck":(["class":3,"points":0,"level":29,]),"intelligence":(["class":2,"points":0,"level":27,]),"strength":(["class":3,"points":0,"level":27,]),"durability":(["class":3,"points":0,"level":30,]),"charisma":(["class":1,"points":0,"level":41,]),])
+Stats (["wisdom":(["class":3,"points":0,"level":28,]),"agility":(["class":3,"points":0,"level":30,]),"coordination":(["class":3,"points":0,"level":26,]),"luck":(["class":4,"points":0,"level":32,]),"intelligence":(["class":2,"points":0,"level":26,]),"strength":(["class":3,"points":0,"level":28,]),"durability":(["class":3,"points":0,"level":25,]),"charisma":(["class":3,"points":0,"level":37,]),])
 Languages (["eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
 SaveRecurse 0
 Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
@@ -99,7 +98,7 @@ Viking 0
 tellhist ({})
 sphist ({})
 Town "Malveillant"
-Race "dark-elf"
+Race "half-elf"
 Gender "female"
 Nationality "Malveillant"
 Size 16
@@ -107,12 +106,12 @@ CombatStyle 0
 CombatStyles ([])
 Wimpy 30
 WimpyCmd "go out"
-LastWimpy 1497671622
+LastWimpy 1528926464
 Cooldowns ([])
 Currency ([])
 Bank ([])
 CraftingRecipes ({})
-SpellBook (["turn undead":1,"disperse protections":1,"bless":1,"protect":1,"touch":1,"blinding color":1,"flaming arrow":1,])
+SpellBook ([])
 SongBook ([])
 RecoveryTime 0
 NoSing 0
@@ -122,7 +121,7 @@ Story 0
 Surname 0
 ApprovedStory 0
 OOCName "Mike"
-Quests ({(/1497671639,"Newbie Book",/),})
+Quests ({(/1529003436,"Newbie Book",/),})
 Deaths 0
 DevelopmentPoints 0
 TitleLength 1
@@ -136,7 +135,7 @@ CanCast 0
 IsBlind 0
 CanLocate 1
 SeveredHeads 0
-LastLevel 1497671622
+LastLevel 1528926464
 HighestLevel 0
 LongDaemonData ({0,0,0,0,0,})
 PermanentProperties ([])

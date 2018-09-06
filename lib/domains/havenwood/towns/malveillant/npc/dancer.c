@@ -31,10 +31,10 @@ static void create() {
     "!sing ballad of summer",
   }) );
   SetInventory( ([
-    MAL_OBJ "zills"  : "wield zills",
+    MAL_OBJ "/zills" : "wield zills",
     ]) );
   SetFreeEquipment( ([
-    MAL_OBJ "zills"    : 1,
+    MAL_OBJ "/zills" : 1,
     STD_OBJ     "stiletto" : 1,
     ]) );
   SetPlayerTitles( ([

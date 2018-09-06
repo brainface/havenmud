@@ -14,7 +14,8 @@ static void create() {
             "It looks like it would make a decent meal.");
     SetMass(150);
     SetMealType(MEAL_FOOD);
-    SetStrength(40);
-  SetValue(300);
+    SetStrength(100);
+    SetPortions(5);
+    SetValue(300);
     SetMealMessages("It tastes excellent.", "$N eats a bonnethead shark.");
 }

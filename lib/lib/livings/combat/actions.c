@@ -111,5 +111,11 @@ int direct_shiv_liv() {
 int direct_conspire_with_liv() {
   return 1;
 }
+int direct_jab_liv() {
+  return 1;	
+}
+int direct_polevault_liv() {
+  return 1;
+} 
 
 

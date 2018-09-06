@@ -1,0 +1,19 @@
+/domains/westwood/towns/soleil/npc/priest_dedan.c line 51: Undefined variable 'STD_WEAPON'
+/domains/westwood/towns/soleil/npc/priest_dedan.c line 51: syntax error
+/domains/westwood/towns/soleil/npc/priest_kiee.c line 41: Undefined variable 'STD_WEAPON'
+/domains/westwood/towns/soleil/npc/priest_kiee.c line 41: syntax error
+/domains/westwood/towns/thra/npc/fighter.c line 3: Cannot #include ../goblins.h
+/domains/westwood/towns/thra/npc/fighter.c line 28: Undefined variable 'GOBLIN_OBJ'
+/domains/westwood/towns/thra/npc/fighter.c line 28: syntax error
+/domains/westwood/towns/thra/npc/ranger.c line 3: Cannot #include ../goblins.h
+/domains/westwood/towns/thra/npc/ranger.c line 26: Undefined variable 'GOBLIN_OBJ'
+/domains/westwood/towns/thra/npc/shopkeep.c line 4: Cannot #include ../goblins.h
+/domains/westwood/towns/thra/npc/shopkeep.c line 19: Undefined variable 'GOBLIN_TENT'
+/domains/westwood/towns/thra/npc/fighter.c line 3: Cannot #include ../goblins.h
+/domains/westwood/towns/thra/npc/fighter.c line 28: Undefined variable 'GOBLIN_OBJ'
+/domains/westwood/towns/thra/npc/fighter.c line 28: syntax error
+/domains/westwood/towns/thra/npc/ranger.c line 3: Cannot #include ../goblins.h
+/domains/westwood/towns/thra/npc/ranger.c line 26: Undefined variable 'GOBLIN_OBJ'
+/domains/westwood/towns/thra/npc/shopkeep.c line 4: Cannot #include ../goblins.h
+/domains/westwood/towns/thra/npc/shopkeep.c line 19: Undefined variable 'GOBLIN_TENT'
+/domains/westwood/towns/soleil/npc/acrobat_rene.c line 3: syntax error

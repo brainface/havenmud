@@ -15,6 +15,7 @@ static void create() {
     SetMass(250);
     SetMealType(MEAL_FOOD);
     SetStrength(50);
-  SetValue(500);
+    SetPortions(2);
+    SetValue(500);
     SetMealMessages("It tastes excellent.", "$N eats a blackfin tuna.");
 }

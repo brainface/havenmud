@@ -7,7 +7,7 @@ static void create() {
         SetKeyName("guide");
         SetAdjectives( ({ "guide","on"}) );
         SetShort("a guide on darkfire");
-        SetRecipe("torch");
+        SetRecipe("darkfire torch");
         SetLong("A simple pamphlet explaining how to make darkfire torches "
           "and not blind yourself.");
         SetValue(100);

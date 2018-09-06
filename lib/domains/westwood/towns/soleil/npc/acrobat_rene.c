@@ -18,21 +18,22 @@ static void create() {
    SetLevel(40);
    SetGender("female");
    SetPlayerTitles( ([
-                       "newbie"       : "the Handstand Apprentice",
-                       "mortal"       : "the Acrobatic Initiate of Soleil",
-                       "high mortal"  : "the Gymnast of Soleil",
-                       "legend"       : "the Legendary Acrobat of Soleil",
-                       "avatar"       : "the Parkour Artist",
-                       "demi-god"     : "the Parkour Master of Soleil",
-                       "epic paragon" : "the Grand Master of Acrobatics",
-                       "ranger"       : "the Freerunner of the Forest",
-                       "enchanter"    : "the Cirque du Soleil Artist",
-                       "bard"         : "the Master of Capoeira",
-                  ]) );
+     "newbie"       : "the Handstand Apprentice",
+     "mortal"       : "the Acrobatic Initiate of Soleil",
+     "high mortal"  : "the Gymnast of Soleil",
+     "legend"       : "the Legendary Acrobat of Soleil",
+     "avatar"       : "the Parkour Artist",
+     "demi-god"     : "the Parkour Master of Soleil",
+     "epic paragon" : "the Grand Master of Acrobatics",
+     "ranger"       : "the Freerunner of the Forest",
+     "enchanter"    : "the Cirque du Soleil Artist",
+     "bard"         : "the Master of Capoeira",
+     "cleric"       : "the Ecstatic Aerialist",
+   ]) );
    SetFreeEquip( ([
-                    "/std/weapon/pole/staff" : 1,
-                    "/std/armour/free_armour/small/oldvest" : 1,                    
-               ]) );
+     "/std/weapon/pole/staff" : 1,
+     "/std/armour/free_armour/small/oldvest" : 1,
+   ]) );
    SetMorality(195);
    SetReligion("Eclat","Eclat");
    SetFriends( ({ "Dulcae","Tia","Aegri Portare","Alamus","cemetary worker",
@@ -40,9 +41,9 @@ static void create() {
                   "Dedan", "Sauras", "Harmony", "Melody", "Foret",
                   "entrance guard","Iuvo","Fossis","Kiee","Miserum" }) );
    SetInventory( ([
-                    "/std/weapon/pole/staff.c" : "wield staff",
-                    "/std/armour/free_armour/small/oldvest.c" : "wear vest",
-               ]) );
+     "/std/weapon/pole/staff.c" : "wield staff",
+     "/std/armour/free_armour/small/oldvest.c" : "wear vest",
+   ]) );
    SetAction(5, ({
      "!emote does an amazing pole stand atop her staff.",
      "!emote jumps high into the air.",
@@ -50,12 +51,10 @@ static void create() {
      "!speak I would love to teach you!",
    }) );
    SetCombatAction(20, ({
-                  "!disorient",
-   		}) );
+     "!disorient",
+   }) );
    SetWander(15);
    SetLimit(1);
-   
+
 }
 
-/** Approved by Melchezidek at Wed Jul 20 17:43:06 2016. **/
-/** Approved by Melchezidek at Wed Jul 20 17:43:35 2016. **/

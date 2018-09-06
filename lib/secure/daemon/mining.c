@@ -67,7 +67,6 @@ string *GetOres() {
 object GetRandomOre(int skill) {
   object* oresICanFind = ({});
   eventReloadOres();
-  debug(sizeof(Ores));
   skill = 100 + skill * 15; //(50 = 1100, 200 = 4100)
   if (skill < 100) skill = 100;
   foreach (string ore in GetOres()){

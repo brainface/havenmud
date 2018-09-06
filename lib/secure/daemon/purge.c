@@ -68,7 +68,8 @@ int eventClean() {
       if (TestChar) continue;
 */
       if (!intp(Level)) Level = 1;
-      if (Level > 25) continue;
+      //if (Level > 25) continue;
+      if (Level >= 5) continue;
       if (Retired) continue;
       p_time = PURGE_TIME * Level;
       

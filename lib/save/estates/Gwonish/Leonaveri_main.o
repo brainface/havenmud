@@ -1,5 +1,6 @@
-#/domains/estates/virtual/main_estate.c
+#/domains/estates/virtual/main_estate/Gwonish/Leonaveri.c
 AmbientLight 35
+NoClean 1
 InternalDesc "This is an empty, unfurnished keep. It is quite bare."
 Opacity 100
 ProperNoun 1
@@ -8,10 +9,10 @@ Items ([])
 Climate "indoors"
 DummyItems ({})
 Gravity 1.000000
-LastReset 1362598526
+LastReset 1535662561
 Town "Gwonish"
 Saved ({"EOut","ELong","EShort","Owner",})
 ELong "This is an empty, unfurnished keep. It is quite bare."
 EShort "inside an Estate"
-EOut "/domains/staff/room/setup"
+EOut "/domains/crystal_reaches/towns/gwonish/room/gw08"
 Owner "Leonaveri"

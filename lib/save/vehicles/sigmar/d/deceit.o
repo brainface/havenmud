@@ -37,10 +37,10 @@ WeaponSystem 4
 ShieldSystem 4
 Crystals 7917
 hasAttacked ({})
-LastSave 1492350425
+LastSave 1528636672
 DamagedSystems ({})
 VId ({"Deceit","ship","galley",})
 VLong "This is the galley Deceit."
 VShort "the galley Deceit"
 ShipEnemies ({})
-UniqueVehicleId "ship2712"
+UniqueVehicleId "ship78"

@@ -28,7 +28,6 @@ SetMeleeAttackString("teeth");
   SetCombatAction(10, ({
     "The wolf LUNGES foward at you.",
     "The wolf attempts to tear into you!",
-    "!gnaw", // mahkefel
     }) );
   SetCorpseItems( ([VAAS_OBJ + "teeth" : 1]) );
 }

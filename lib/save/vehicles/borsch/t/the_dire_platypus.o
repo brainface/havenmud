@@ -37,10 +37,10 @@ WeaponSystem 16
 ShieldSystem 8
 Crystals 9735
 hasAttacked ({})
-LastSave 1498178549
+LastSave 1533822396
 DamagedSystems ({})
 VId ({"dreadnaught","ship","The Dire Platypus",})
 VLong "This is the dreadnaught The Dire Platypus."
 VShort "the dreadnaught The Dire Platypus"
 ShipEnemies ({})
-UniqueVehicleId "ship1277"
+UniqueVehicleId "ship2923"

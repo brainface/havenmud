@@ -12,6 +12,6 @@ static void create() {
     ROME_OBJ "epicks" : 1,
     ROME_OBJ "gpicks" : 1,
     ROME_OBJ "spicks" : 1,
-//    STD_STORAGE "backpack" : 2,
+     STD_STORAGE "backpack" : 2,
     ]) );
 }

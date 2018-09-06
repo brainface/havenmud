@@ -1,4 +1,4 @@
-#/domains/estates/virtual/main_estate.c
+#/domains/estates/virtual/main_estate/Malveillant/Yorin.c
 AmbientLight 35
 NoClean 1
 InternalDesc "This sprawling manor is constructed in a neo-gothic style, complete with statuesque towers adorned with flying buttresses, from which vermilion flags fly.  Extravagant gardens with fountains containing figures cavorting obscenely surround the estate, while a series of clustered columns lead up to the huge doors."
@@ -10,7 +10,7 @@ Domain "Estates"
 Climate "indoors"
 DummyItems ({})
 Gravity 1.000000
-LastReset 1311201340
+LastReset 1535663161
 Town "Malveillant"
 Saved ({"EOut","ELong","EShort","Owner",})
 ELong "This sprawling manor is constructed in a neo-gothic style, complete with statuesque towers adorned with flying buttresses, from which vermilion flags fly.  Extravagant gardens with fountains containing figures cavorting obscenely surround the estate, while a series of clustered columns lead up to the huge doors."

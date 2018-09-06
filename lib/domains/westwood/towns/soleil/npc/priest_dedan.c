@@ -1,5 +1,6 @@
 // A priest to help kiee
 #include <lib.h>
+#include <std.h>
 inherit LIB_LEADER;
 #include "../soleil.h"
 
@@ -47,4 +48,7 @@ static void create() {
    		"!shout Help!  Help!",
    		"!shout The joyful priest are being attacked!",
       }) );
+   SetFreeEquip( ([
+     STD_WEAPON "/projectile/flatbow" : 1,
+   ]) );
 }

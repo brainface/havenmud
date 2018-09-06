@@ -6,7 +6,8 @@ static void create() {
   ::create();
   SetKeyName("shark");
   SetShort("a blue shark");
-  SetStrength(50);
+  SetStrength(100);
+  SetPortions(3);
   SetMass(100);
   SetId( ({ "shark", "fish" }) );
   SetAdjectives( ({}) );

@@ -36,7 +36,7 @@ static void create() {
     "cavalier" : "the Exporter of Freedom"
     ]) );
   SetFreeEquip( ([
-    STD_WEAPON "blunt/iron_mace" : 1,
+      STD_WEAPON "projectile/flatbow" : 1,
     ]) );
   SetAction(10, ({
      "!speak The Masses yearn for freedom!",

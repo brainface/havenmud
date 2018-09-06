@@ -1,4 +1,4 @@
 #/secure/daemon/options.c
 NoClean 1
 __MyGroups ([])
-__Options ([])
+__Options (["read":1,])

@@ -20,21 +20,21 @@ Aliases (["la":"look at $*","op":"open backpack $*","w":"go west","u":"go up","o
 Xverbs (["'":"speak $*",":":"emote $*",])
 Terminal "ansi"
 Blocked (["intergossip":1,"dc":1,"isport":1,"ooc":0,"quests":0,"quest":0,"fs":0,])
-Screen ({99,39,})
+Screen ({99,48,})
 Wrapping 1
 SocialRank 6
 ConfirmedEmail 1
 Age 1776899
 WhereBlock 0
 Brief 1
-LoginTime 1497949397
+LoginTime 1529705501
 BirthTime 1310583535
 Password "njgkbfjj!hgfdfdainllcfckfnjiehnfbmnejclci"
 Email "bjorn.brown@yahoo.com"
 RealName "Borsch"
 Rank 0
 LoginSite "/domains/estates/virtual/main_estate/Grymxoria/Borsch"
-HostSite "cpe-107-185-216-1.socal.res.rr.com"
+HostSite "cpe-23-240-190-238.socal.res.rr.com"
 WebPage 0
 AdditionalId ({})
 Ranks ({"Footsoldier","Duke","Count","Baron","Sir","Captain","Warlord","Marquis","Archduke","citizen","Citizen","Commander","Lord",})
@@ -64,7 +64,6 @@ MagicBonus 0
 endParalysis 0
 Paralyzed 0
 Reputations (["Gwonish":-116,"Parva":-114,"Grymxoria":160,"Wilderness":0,"Averath":-118,"Gurov":-24,"Malveillant":1000,"Durgoroth":-50,"Tairi":-34,"Jidoor":-16,"Havenwood":-116,"Haven":-1000,"Sanctum":-26,"Baria":-102,"TreasureHunter":-14,"Dalnairn":-8,"Karak":-25,"Kresh":-10,"Glimmerdin":10,"Lisht":-30,"Lloryk":120,"Yozrath":-24,"Keryth":-836,"First Lower Plane":-2,"all":0,"Soleil":-436,])
-OpposingFactions (["Gwonish":"Lloryk","Lloryk":"Gwonish","Haven":"Malveillant","Karak":"Glimmerdin","Malveillant":"Haven","Glimmerdin":"Karak",])
 Position 2
 Undead 0
 UndeadType 0
@@ -73,8 +72,8 @@ MagicPoints 1090
 Bleeding 0
 Alcohol 0
 Caffeine 0
-Food 255
-Drink 261
+Food 250
+Drink 256
 Poison 0
 Sleeping 0
 Hiding 0

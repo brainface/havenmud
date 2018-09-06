@@ -1,11 +1,16 @@
+// Originally by Ohtar, I think
+//
+// Mahk 2018--changed race to bird instead of custom
+// changed base lib to npc
+// fixed some exp bug.
 #include <lib.h>
 #include "../avb.h"
 
-inherit LIB_SENTIENT;
+inherit LIB_NPC;
 
 
 static void create() {
-   sentient::create();
+   npc::create();
    SetProperty("averath cave",1);
    SetKeyName("crow");
    SetShort("a black crow");
@@ -18,29 +23,17 @@ static void create() {
            "It has two small holes on each side for breathing. The "
            "crow has four large sharpened nails on each of its two "
            "talons. It is rather large and could be very deadly. ");
-   SetRace("crow",1);
+   SetRace("bird","crow");
    SetGender("female");
    SetClass("animal");
-   SetLevel(35);
    SetStat("durability",40,3);
-   SetStat("charisma",10,1);
-   SetStat("intelligence",2,3);
-   SetStat("luck",70,1);
-   SetStat("agility",70,1);
-   SetStat("wisdom",1,5);
-   SetStat("strength",25,3);
-   SetStat("coordination",70,2);
-   AddLimb("torso",0,1,({ }) );
-   AddLimb("head","torso",1,({ }) );
-   AddLimb("first left wing","torso",3,({ }) );
-   AddLimb("first right wing","torso",3,({ }) );
-   AddLimb("left talon","torso",3,({ }) );
-   AddLimb("right talon","torso",3,({ }) );
+   SetLevel(35);
 }
 
 void eventDie(object killer) {
    object item;
    item = new(AVB_OBJ + "/feather");
    item->eventMove(this_object());
-   sentient::eventDie();
+   npc::eventDie(killer);
 }
+

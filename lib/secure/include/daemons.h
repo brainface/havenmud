@@ -56,6 +56,7 @@
 #define REBOOT_D             DIR_SECURE_DAEMONS "/reboot"
 #define REMOTE_D             DIR_SECURE_DAEMONS "/remote"
 #define REMOTEPOST_D         DIR_SECURE_DAEMONS "/remotepost"
+#define REPUTATION_D         DIR_DAEMONS "/reputation"
 #define SAILING_D            DIR_DAEMONS "/sailing"
 #define SEASONS_D            DIR_DAEMONS "/seasons"
 #define SERVICES_D           DIR_DAEMONS "/services"

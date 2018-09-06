@@ -38,10 +38,10 @@ WeaponSystem 8
 ShieldSystem 8
 Crystals 2000
 hasAttacked ({})
-LastSave 1498178923
+LastSave 1514107110
 DamagedSystems ({})
 VId ({"Happy Hooker","ship5323","cruiser","ship",})
 VLong "This is the cruiser Happy Hooker."
 VShort "the cruiser Happy Hooker"
 ShipEnemies ({})
-UniqueVehicleId "ship2911"
+UniqueVehicleId "ship2979"

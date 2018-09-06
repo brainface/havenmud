@@ -29,6 +29,12 @@ static void create() {
      "hm"     : "the Shadow",
      "legend" : "the Knife",
      "avatar" : "the Darkness",
+     "priest"    : "the Sinner",
+     "merchant"  : "the Fence",
+     "enchanter" : "the Curse",
+     "fighter"   : "the Killer",
+     "evoker"    : "the Torch",
+     "sailor"    : "the Storm",
      ]) );
   SetLong(
     "Targeryan the Shadow spends most of his time hiding from the Templars in "
@@ -42,3 +48,4 @@ static void create() {
     "!speak Only the brave... or stupid... join rogues.",
     }) );
 }
+

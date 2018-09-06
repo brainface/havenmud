@@ -46,56 +46,31 @@ static void create() {
 
 // overide the whole eventCast function I guess.
 int eventCast(object who, int level, string limb, object array targets) {
-  int damage = GetDamage(level);
-  int total_damage = 0;
-  int num = who->GetSkillLevel("evokation")/10;
-  int willShock = 0;
- 
-  if( CanAttack(who, targets, GetSpellLevel() + level/5) == - 1 ) {
-    who->eventPrint("Your powers fail you.");
-    return 0;
-  }
-  send_messages( ({"take","belch"}),
-    "$agent_name%^BOLD%^WHITE%^$agent_verb%^RESET%^ a big gulp of air, then violently $agent_verb an uncontrolled %^BOLD%^YELLOW%^bolt of lightning!%^RESET%^",
-    who, who, environment(who));
+  int result;
 
-  foreach(object target in targets) {
-    string array tmp;
-    
-    if( !target ) {
-            continue;
-    }
-    
-    damage = (GetDamage(level));
-    foreach(string enhance in GetEnhanceSkills()) {
-      int damageboost = who->GetSkillLevel(enhance) / (GetSpellLevel() * 2);
-      if (damageboost > 3) damageboost = 3;
-      damage += damage * damageboost;
-    }
-    if (target->GetTestChar()) debug("base damage = " + GetDamage(level) + " level = " + level + " SpellLevel = " + GetSpellLevel() +  " damage = " + damage);
-    damage = target->GetDamageInflicted(who, GetDamageType(), damage,   GetAutoDamage(), limb);
-    tmp = GetMessage(damage);
-    send_messages(tmp[0], tmp[1], who, target, environment(who));
-
-    // mahkefel
-    // if it uses the best damage message, shock them
-    if (damage > GetSpellLevel()*15) willShock = 1;    
-    damage = target->eventInflictDamage(who, GetDamageType(), damage, GetAutoDamage(), limb);
-
-    // apply electrocution!
-    if (willShock) {
-      target->eventKnockDown();
-      target->AddCondition("Lightning Struck!", CONDITION_PREVENT_HEAR|CONDITION_PREVENT_COMBAT,random(10+who->GetSkillLevel("shock magic")/50)+1);
-    }
-    
-    total_damage += damage;
+  result = ::eventCast(who, level, limb, targets);
+  
+  if (result) {
+    send_messages( ({"take","belch"}),
+      "$agent_name%^BOLD%^WHITE%^$agent_verb%^RESET%^ a big gulp of air, then "
+      "violently $agent_verb an uncontrolled %^BOLD%^YELLOW%^bolt of "
+      "lightning!%^RESET%^",
+      who, who, environment(who));
+    who->AddCondition("Sorely Shocked Throat", CONDITION_PREVENT_TALK,10);
   }
-  if( sizeof(targets) ) {    
-      return total_damage/sizeof(targets);
-  }
-  who->AddCondition("Sorely Shocked Throat", CONDITION_PREVENT_TALK,10);
-  return 0;
+  return result;
 }
 
+int eventAfterEffect(object who, int level, string limb, object target) {
+  // test for you got shocked brah
+  if (who->eventCheckSkill("evokation", target->GetStatLevel("durability"), 0, 0)) {
+    // apply electrocution!
+    target->eventKnockDown();
+    target->AddCondition("Lightning Struck!", 
+    CONDITION_PREVENT_HEAR|CONDITION_PREVENT_COMBAT,
+    random(10+who->GetSkillLevel("shock magic")/50)+1);
+  }
 
+  return 1;
+}
 

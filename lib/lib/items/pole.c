@@ -10,7 +10,7 @@
 inherit LIB_BAIT;
 inherit LIB_ITEM;
 
-static private int PoleStrength, CatchChance;
+static private int PoleStrength, CatchChance, Level;
  
 static void create() {
     item::create();
@@ -76,21 +76,25 @@ mixed eventCatch(object who, string fish) {
 }
  
 int eventFish(object who) {
-    if( (int)who->GetSkillLevel("fishing") >= random(5) )
+    if( (int)who->GetSkillLevel("fishing") )
       return GetChance() + GetBait();
     else return 0;
 }
-
  
 int SetChance(int x) { return (CatchChance =x); }
  
 mixed GetProperty(string foo);
 
-int GetChance() { return CatchChance + GetProperty("blessed"); }
+int GetChance() { return Level + CatchChance + GetProperty("blessed"); }
  
 int SetStrength(int x) { return (PoleStrength = x);  }
  
 int GetStrength() { return PoleStrength; }
+
+// mahk dec 2017: adding simple "level" stat
+int GetLevel() {return Level + CatchChance;}
+
+int SetLevel(int x) {return (Level = x); }
  
 /* virtual functions */
  

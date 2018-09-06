@@ -1,6 +1,7 @@
 /*  A Bane Devil */
 // mahkefel 2010 mar 18 
 // added armour & weapons
+// mahk 2018: added tails to all devils, changed resistances
 #include <lib.h>
 #include "../planes.h"
 #include <damage_types.h>
@@ -20,7 +21,6 @@ static void create() {
           "looks sharp and viscious.");
   SetGender("male");
   SetRace("devil");
-  AddLimb("tail", "torso", 2);
   SetClass("rogue");
   SetLevel(100);
   SetFearType("devil fear");
@@ -34,14 +34,16 @@ static void create() {
     ]) );
   SetCombatAction(6, (: eventThing :) );
   SetEncounter(101);
-  SetMorality(-200);
+  SetMorality(-1000);
+  SetResistance(POISON,"immune");
+  SetResistance(GAS,"immune");
    }
 
 int eventThing() {
   if (GetCurrentEnemy()) {
-     send_messages("attack", "$agent_name $agent_verb%^RED%^BOLD%^ $target_name "  "%^RESET%^with " "$agent_possessive tail!",
+     send_messages("sting", "$agent_name $agent_verb%^RED%^BOLD%^ $target_name "  "%^RESET%^with " "$agent_possessive tail!",
        this_object(),  GetCurrentEnemy(), environment() );
-     GetCurrentEnemy()->eventReceiveDamage(this_object(), COLD, (random(50) + 50)); 
+     GetCurrentEnemy()->eventReceiveDamage(this_object(), POISON, GetHealthPoints() ); 
      return 1;
   }
   return 0;

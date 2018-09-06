@@ -17,6 +17,11 @@ int GetChance();
 mapping SetFish(mapping mp);
 mapping RemoveFish(string fish);
 mapping GetFish();
+mapping SetRareFish(mapping mp);
+mapping GetRareFish();
+string GetRandomFish();
+string GetRandomRareFish();
+
 mapping SetFishing(object who, object pole);
 mapping RemoveFishing(object who);
 int SetMaxFishing(int x);

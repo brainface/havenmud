@@ -10,7 +10,9 @@ static void create() {
   SetShort("the Twitchy Nymph");
   SetInventory( ([
     SOUTHERN_COAST_AREAS "coffeehouse/npc/pjack" : 1,
-    SOUTHERN_COAST_AREAS "coffeehouse/npc/wtpatron" : random(3)+1 ]) );
+    SOUTHERN_COAST_AREAS "coffeehouse/npc/wtpatron" : random(3)+1,
+    SOUTHERN_COAST_AREAS "coffeehouse/npc/acro_trainer" : 1,
+  ]) );
   SetSmell( ([
     "default" : "The coffeehouse smells of roasting beans and baking pastries.",
     ]) );

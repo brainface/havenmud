@@ -14,7 +14,7 @@ static void create() {
             "make a decent meal.");
     SetMass(36);
     SetMealType(MEAL_FOOD);
-    SetStrength(40);
-  SetValue(72);
+    SetStrength(50);
+    SetValue(72);
     SetMealMessages("It tastes excellent.", "$N eats a cero mackerel.");
 }

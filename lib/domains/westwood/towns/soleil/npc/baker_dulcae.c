@@ -17,7 +17,6 @@ static void create() {
            "days' sales.");
    SetGender("female");
    SetRace("muezzin");
-
    SetClass("fighter");
    SetSkill("melee combat",1,2);
    SetSkill("bargaining",1,1);
@@ -57,4 +56,8 @@ static void create() {
    SetFriends( ({ "Tia","Aegri Portare","Alamus","cemetary worker",
                   "Soleil citizen","Oppugno","shaggy dog","Sorgan",
                   "entrance guard","Iuvo","Fossis","Kiee","Miserum" }) );
+   SetInventory( ([ 
+     S_OBJ + "/cloth_dress" : "wear dress",
+   ]) );
 }
+

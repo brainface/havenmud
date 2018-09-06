@@ -19,6 +19,7 @@ static void create() {
   SetRequiredSkills( ([
     "swashbuckling" : 25,
   ]) );
+  SetCooldown(5);
 }
 
 // overriding this to not require a weapon.
@@ -134,8 +135,6 @@ int eventAttack(object who, object* targets) {
       }
     }
   }
-  who->AddParalyzed(2); // prevent spamming, in certain cases it could lead to weird large
-                        // xp gains due to skill check. (certain cases = Bjorn)
   return 1;
 }
 

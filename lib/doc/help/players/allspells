@@ -28,9 +28,11 @@ conjuring enchantment
    soul gaze: conjuring : 150, enchantment : 150
    lock area: conjuring : 190, enchantment : 190
    teleport: conjuring : 190, enchantment : 190
+   word of darkness: conjuring : 200, enchantment : 200
    lock person: conjuring : 215, enchantment : 215
    dimensional rift: conjuring : 250, enchantment : 250
    transport: conjuring : 300, enchantment : 300
+   word of binding: conjuring : 300, enchantment : 300
    enchant armour: conjuring : 400, enchantment : 400
    instantaneous movement: conjuring : 400, enchantment : 400
 conjuring evokation
@@ -160,24 +162,31 @@ faith healing
 faith necromancy
    chill touch: faith : 1, necromancy : 1
    preserve: faith : 1, necromancy : 1
+   cloak of flies: faith : 5, necromancy : 5
    spook: faith : 5, necromancy : 5
    choking shadows: faith : 10, necromancy : 10
    asphyxiation: faith : 20, necromancy : 20
    mend bones: faith : 20, necromancy : 20
+   carrion cowl: faith : 25, necromancy : 25
    dark burial: faith : 25, necromancy : 25
    hellfire: faith : 50, necromancy : 50
+   sextant's shield: faith : 50, necromancy : 50
    unholy growth: faith : 70, necromancy : 70
    pain touch: faith : 75, necromancy : 75
    stitch flesh: faith : 75, necromancy : 75
    wall of souls: faith : 100, necromancy : 100
    touch of death: faith : 150, necromancy : 150
+   wraith ward: faith : 200, necromancy : 200
    banefire: faith : 250, necromancy : 250
    black circle: faith : 350, necromancy : 350
    erase black circle: faith : 350, necromancy : 350
+   guardian geist: faith : 500, necromancy : 500
 illusion
    blinding color: illusion : 1
+   figment: illusion : 1
    shimmer: illusion : 4
    startle: illusion : 10
+   mind stab: illusion : 20
    veil: illusion : 25
    confusion: illusion : 52
    wall of glare: illusion : 100
@@ -282,6 +291,7 @@ religion aberach
    battle touch: faith : 80, necromancy : 80
    unholy bone armour: faith : 150, necromancy : 150
 religion aetarin
+   detect witchery: enchantment : 1, faith : 1
    divine guidance: enchantment : 30, faith : 30
    silence: enchantment : 50, faith : 50
 religion anteky
@@ -377,17 +387,17 @@ religion soirin
    miasmic guardian: evokation : 200, faith : 200
    corruption: evokation : 250, faith : 250
 religion thorian
-   remove minor infection: faith : 10, healing : 10
+   remove minor infection: faith : 10, necromancy : 10
    taint weapon: faith : 10, necromancy : 10
-   remove toxin: faith : 15, healing : 15
+   remove toxin: faith : 15, necromancy : 15
    minor venomous touch: faith : 25, necromancy : 25
    create poisoned food: faith : 35, necromancy : 35
    gangrene: faith : 40, necromancy : 40
    minor infection: faith : 50, necromancy : 50
-   remove infection: faith : 50, healing : 50
+   remove infection: faith : 50, necromancy : 50
    create diseased food: faith : 85, necromancy : 85
    infection: faith : 100, necromancy : 100
-   remove major infection: faith : 100, healing : 100
+   remove major infection: faith : 100, necromancy : 100
    venomous wind: faith : 130, necromancy : 130
    major infection: faith : 150, necromancy : 150
    persistent bane: faith : 175, necromancy : 175

@@ -14,7 +14,7 @@ static void create() {
   SetInventory( ([
     STD_LIGHT "torch" : 6,
     STD_PROJECTILE "hand_crossbow" : 2,
-//    STD_STORAGE "backpack" : 2,
+    STD_STORAGE "backpack" : 2,
     STD_OBJ "fishing/pole" : 4,
     ]) );
   

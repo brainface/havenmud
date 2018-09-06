@@ -1,3 +1,5 @@
+// omergawd duuk update your comments
+// made by duuk at some point it is not a wandering rogue it is a tulu priest
 /*  A wandering rogueish type with pole defense */
 #include <lib.h>
 #include "../tulu.h"
@@ -19,7 +21,7 @@ static void create() {
     "This black-robed cultist has a maddened look in his eyes as if he cannot be bothered. "
     "Those interfering with his work may find themselves unhappy with the result."
     );
-  SetCurrency("bloodgems", 5000);
+
   SetInventory( ([
       TULU_OBJ + "cultist_staff" : "wield staff",
       TULU_OBJ + "cultist_robe"  : "wear robe",
@@ -32,12 +34,13 @@ static void create() {
     }) );
   SetReligion("Tulu Cult");
   SetLevel(230);
+  SetCurrency("bloodgems", 5000);
   SetSpellBook( ([
     "protection of tulu" : 100,
     "holy fury"          : 100,
     "divine wrath"       : 100,
     ]) );
-  SetFirstCommands( ({ 
+  SetFirstCommands( ({
     "cast protection of tulu",
     "cast protection of tulu",
     "cast protection of tulu",
@@ -50,3 +53,4 @@ static void create() {
     "!cast protection of tulu",
   }) );
 }
+

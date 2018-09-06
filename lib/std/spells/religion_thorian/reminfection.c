@@ -15,7 +15,7 @@ static void create() {
   SetMagicCost(60, 60);
   SetStaminaCost(20, 20);
   SetSkills( ([
-       "healing" : 50,
+         "necromancy" : 50,
        "faith" : 50,
     ]) );
   SetDifficulty(40);

@@ -28,5 +28,5 @@ static void create() {
           " and heavily armoured. His main objective in life is the"
           " preservation and safety of his mother, the Queen Matron.");
   SetId( ({ "guard", "queen_guard", "queen's guard"  }) );
-  SetKeyName("guard");
+  SetKeyName("queens guard");
 }

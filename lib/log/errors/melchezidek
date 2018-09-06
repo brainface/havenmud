@@ -144,3 +144,7 @@
 /realms/melchezidek/CMD_EVAL_TMP_FILE.c line 12: syntax error
 /realms/melchezidek/CMD_EVAL_TMP_FILE.c line 11: syntax error
 /realms/melchezidek/CMD_EVAL_TMP_FILE.c line 12: syntax error
+/realms/melchezidek/CMD_EVAL_TMP_FILE.c line 11: Undefined function mud_version
+/realms/melchezidek/CMD_EVAL_TMP_FILE.c line 11: Undefined function mud_version
+/realms/melchezidek/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'mud_version'
+/realms/melchezidek/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'MUD_VERSION'

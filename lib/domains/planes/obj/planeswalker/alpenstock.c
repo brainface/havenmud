@@ -28,7 +28,7 @@ static void create() {
   SetClass(20);
   SetDamagePoints(3000);
   SetDamageType(PIERCE);
-  SetHands(1);
+  SetHands(2);
   SetMass(50);
   SetMaterial( ({"mithril","wood" }));
   SetProperty("history",

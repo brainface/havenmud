@@ -1,10 +1,4 @@
-/std/crafting/clothing/sock.c line 15: Undefined function springf
-/std/crafting/clothing/sock.c line 31: Undefined variable 'A_SOCK'
-/std/crafting/clothing/sock.c line 32: Undefined variable 'ARMOUR_CLOTH'
-/std/crafting/clothing/sock.c line 33: Undefined variable 'VT_CLOTHING'
-/std/crafting/scrolls/torch.c line 8: syntax error
-/std/crafting/scrolls/torch.c line 8: syntax error
-/std/crafting/scrolls/torch.c line 16: End of file in string
-/std/spells/religion_aetarin/divine_guidance.c line 59: Undefined function send_message
-/std/spells/religion_aetarin/divine_guidance.c line 65: syntax error
-/std/spells/religion_aetarin/divine_guidance.c line 65: syntax error
+/std/spells/illusion/figment.c line 39: syntax error
+/std/spells/illusion/figment.c line 47: Illegal LHS
+/std/spells/illusion/figment.c line 47: syntax error
+/std/spells/illusion/figment.c line 69: Type of returned value doesn't match function return type ( object vs object array )

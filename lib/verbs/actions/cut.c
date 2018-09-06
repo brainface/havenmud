@@ -12,6 +12,7 @@ static void create() {
     "trying to cut them to the ground."
   );
   SetStaminaCost(300);
+  SetCooldown(10);
   SetRequiredWeapon("slash");
   SetRequiredSkills( ([
     "slash combat" : 100,
@@ -74,6 +75,8 @@ int eventAttack(object who, object target) {
 
   if (who->GetTestChar()) debug("cut should be a success!");
 
+  
+  
   send_messages( ({"slice","collapse"}),
     "$agent_name%^BOLD%^YELLOW%^ $agent_verb%^RESET%^ deeply into "
     "$target_possessive_noun " + limb + ", and $target_nominative%^BOLD%^YELLOW%^ "
@@ -87,9 +90,9 @@ int eventAttack(object who, object target) {
   if (who->GetTestChar()) debug("cut damage after GetDamageInflicted: " + damage);
   target->eventInflictDamage(who, weapon->GetDamageType(), damage, 0, limb);
 
-  if(!random(3)) {
-    target->eventCollapse();
-  }
+  //if(!random(3)) {
+  target->eventCollapse();
+  //}
 
   if(target->GetDying()) {
     "/verbs/actions/obj/bloodlust"->eventRage(who);

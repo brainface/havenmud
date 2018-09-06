@@ -36,10 +36,10 @@ VehicleSize 4.000000
 WeaponSystem 4
 Crystals 1235
 hasAttacked ({})
-LastSave 1498668063
+LastSave 1530637211
 DamagedSystems ({})
 VId ({"galley","ship","the Fiddlesticks",})
 VLong "This is the galley the Fiddlesticks."
 VShort "the galley the Fiddlesticks"
 ShipEnemies ({})
-UniqueVehicleId "ship7449"
+UniqueVehicleId "ship8787"

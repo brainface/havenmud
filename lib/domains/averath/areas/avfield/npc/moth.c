@@ -43,5 +43,6 @@ void eventDie(object killer) {
    object item;
    item = new(AVB_OBJ + "/wing");
    item->eventMove(this_object());
-   sentient::eventDie();
+   sentient::eventDie(killer);
 }
+

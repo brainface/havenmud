@@ -463,7 +463,8 @@ string SetClass(string cls) {
         int y;
 
         y = (GetSkillClass(skills[i]) || 5);
-        SetSkill(skills[i], (2*x) + 4, y);
+        // that +4 is not working for newbs --mahk
+        SetSkill(skills[i], (2*x) /*+ 4*/, y); 
     }
     eventCompleteHeal(GetMaxMagicPoints());
     return cls;
@@ -481,7 +482,8 @@ int SetLevel(int x) {
         int y;
 
         y = (GetSkillClass(tmp[i]) || 5);
-        SetSkill(tmp[i], (2 * x) + 4, y);
+        // that +4 is not working for newbs --mahk
+        SetSkill(tmp[i], (2 * x) /*+ 4*/, y);
     }
     i = sizeof(tmp = GetStats());
     while(i--) {

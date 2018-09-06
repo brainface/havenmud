@@ -1,4 +1,5 @@
 #include <lib.h>
+#include <std.h>
 inherit LIB_LEADER;
 #include "../soleil.h"
 
@@ -38,6 +39,7 @@ static void create() {
                        "crusader"    : "the Mighty Proselytizer",
                   ]) );
    SetFreeEquip( ([
+       STD_WEAPON "/projectile/flatbow" : 1,
                ]) );
    SetMorality(1400);
    SetFriends( ({ "Dulcae","Tia","Aegri Portare","Alamus","cemetary worker",

@@ -47,27 +47,19 @@ static void create() {
 
 // broadcast a message to the room
 int eventCast(object who, int level, string limb, object array targets) {
-   int damage = GetDamage(level);
-   int num = who->GetSkillLevel("necromancy")/10;
-    if( CanAttack(who, targets, GetSpellLevel() + level/5) == - 1 ) {
-            who->eventPrint("Your powers fail you.");
-            return 0;
-          }
    send_messages( "",
      "%^BOLD%^RED%^Suddenly, a roiling cyclone of flame descends from the heavens.%^RESET%^",
      who, who, environment(who));
    return spell::eventCast(who, level, limb, targets);
+}
 
-   foreach(object target in targets) {
-     if (!target) continue;
-     if (who->GetFriends() == target->GetKeyName()) return 0;
-     target->eventReceiveDamage(who, GetDamageType(), damage, 0, target->GetRandomLimb(target->GetTorso()) );
-     if (random(target->GetStatLevel("coordination")+target->GetStatLevel("luck")+500) <
-       random(who->GetSkillLevel("evokation")+who->GetSkillLevel("fire magic"))) {
-       target->eventCollapse();
-     }
-   }
-   return 1;
+int eventAfterEffect(object who, int level, string limb, object target) {
+  if (!target) return 0;
+  if (who->GetFriends() == target->GetKeyName()) return 0;
+  if (random(target->GetStatLevel("coordination")+target->GetStatLevel("luck")) <
+    random(who->GetSkillLevel("evokation")/2+who->GetSkillLevel("fire magic")/2)) {
+    target->eventCollapse();
+  } 
 }
 
 // prevent casting indoors without a natural charge
@@ -86,10 +78,6 @@ int CanCast(object who, int level, mixed limb, object *targets) {
 varargs object *GetTargets(object who, mixed args...) {
   object array targets = ({ });
 
-  foreach(mixed arg in args) {
-    debug(arg);
-  }
-
   // damned spell shouldn't have args anyway
   targets = spell::GetTargets(who);
   if (!sizeof(targets)) return targets;
@@ -103,4 +91,5 @@ varargs object *GetTargets(object who, mixed args...) {
   }
   return targets;
 }
+
 

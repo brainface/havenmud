@@ -256,6 +256,14 @@ varargs mixed eventPrepareCast(string verb, mixed array args...) {
         "%^CYAN%^words of power%^RESET%^ while frantically waving "
         "$agent_possessive hands.",
         this_object(), send_to, environment());
+
+    // more like present proofing (turns out illusion is a major sphere? ish?
+    } else if( member_array("illusion", spell->GetSkills()) != -1) {
+      send_messages(({ "weave"}),
+        cast_pretext + "$agent_verb a %^BOLD%^MAGENTA%^hypnotic pattern%^RESET%^ "
+        "through the air!", 
+        this_object(), send_to, environment());
+      
     } else {
       // "Dzames closes his eyes and begins uttering an incantation.
       send_messages(({ "close","begin"}),

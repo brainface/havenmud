@@ -134,6 +134,7 @@ void heart_beat(int reset) {
   players = filter( players, (: playerp :) );
   foreach(object p in players) {
     if (p->GetReligion() == rel) {
+        if (!random(10)) p->eventPrint("You feel your faith in " + rel + " grow.");
       if (directional == 1) {
         p->eventMoralAct(100);
         }

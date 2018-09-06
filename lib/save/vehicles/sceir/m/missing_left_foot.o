@@ -37,10 +37,10 @@ WeaponSystem 16
 ShieldSystem 8
 Crystals 4849
 hasAttacked ({})
-LastSave 1498178923
+LastSave 1514107110
 DamagedSystems ({})
 VId ({"dreadnaught","Missing Left Foot","ship","ship3664",})
 VLong "This is the dreadnaught Missing Left Foot."
 VShort "the dreadnaught Missing Left Foot"
 ShipEnemies ({})
-UniqueVehicleId "ship9508"
+UniqueVehicleId "ship4019"
