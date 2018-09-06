@@ -2517,3 +2517,111 @@ Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c)
 'SetCraftResult' at /std/crafting/clothing/sock at line 12
 'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
 'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/craftable at line 50
+
+'<fake>' at /std/crafting/clothing/include/craftable (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/craftable at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/include/clothing (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/clothing at line 27
+'SetCraftResult' at /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/include/clothing (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/clothing at line 27
+'SetCraftResult' at /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/sock (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/sock at line 12
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/sock (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/sock at line 12
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/craftable at line 50
+
+'<fake>' at /std/crafting/clothing/include/craftable (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/craftable at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/include/clothing (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/clothing at line 27
+'SetCraftResult' at /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/include/clothing (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/clothing at line 27
+'SetCraftResult' at /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/sock (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/sock at line 12
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/sock (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/sock at line 12
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/craftable at line 50
+
+'<fake>' at /std/crafting/clothing/include/craftable (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/craftable at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/include/clothing (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/clothing at line 27
+'SetCraftResult' at /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/include/clothing (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/clothing at line 27
+'SetCraftResult' at /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/sock (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/sock at line 12
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/sock (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/sock at line 12
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50

@@ -103,7 +103,7 @@ void eventExhale() {
   send_messages("exhale",
     "$agent_name%^BLACK%^BOLD%^ $agent_verb%^RESET%^ a noxious "
     "cloud at $target_name.", who, target, environment() );
-  target->eventReceiveDamage(who, GAS, random(750), 0,
+  target->eventReceiveDamage(who, ACID, random(750), 0,
     target->GetRandomLimb("head") );
   return;
 }
