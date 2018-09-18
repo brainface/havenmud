@@ -20,11 +20,11 @@ Aliases (["la":"look at $*","qg":"clone /realms/melchezidek/projects/hive/npc/qu
 Xverbs (["'":"speak $*",":":"emote $*",])
 Terminal "ansi"
 Blocked (["ibsg":1,"players":0,"prayer":0,"fluffos":0,"iurl":1,"debug":0,"dc":1,"isport":1,"hl":0,"souls":1,"fs":1,"intergossip":1,"imm":0,"time":0,"allnotify":0,"smut":0,"reports":0,"ds":1,"ooc":0,"nws":1,"shipreports":1,"notify":0,"intercre":1,])
-Screen ({127,46,})
+Screen ({130,54,})
 Wrapping 1
 SocialRank 1
 ConfirmedEmail 1
-Age 215682523
+Age 217400696
 WhereBlock 0
 Brief 0
 LoginTime 1534773107

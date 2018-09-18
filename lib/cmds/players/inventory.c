@@ -25,14 +25,17 @@ mixed cmd(string args) {
 		 eventInventory();
 	} else {
 	switch(args) {
-		case "worn":    eventInventoryWorn();
-				break;
-		case "carried": eventInventoryCarried();
-				break;
-		case "wielded": eventInventoryWielded();
-				break;
-		default:        eventInventory();
-				break;
+		case "worn":     eventInventoryWorn();
+				 break;
+		case "carried":  eventInventoryCarried();
+				 break;
+		case "wielded":  eventInventoryWielded();
+				 break;
+                case "equipped": eventInventoryWielded();
+                                 eventInventoryWorn();
+                                 break;
+		default:         eventInventory();
+				 break;
 	}
 	}
   return 1;
@@ -152,9 +155,10 @@ void help() {
 	    "Syntax: <inventory>\n"
 	    "        <inventory worn>\n"
             "        <inventory wielded>\n"
-	    "        <inventory carried>\n\n"	
+	    "        <inventory carried>\n"
+            "        <inventory equipped>\n\n"	
 	    "By default inventory ists all items you are carrying currently.  This command "
 	    "will take up one round of combat if you happen to be in "
 	    "combat. However, you can specify to view only what is being "
-            "worn, wielded, or carried.", this_player());
+            "worn, wielded, carried, or equipped.", this_player());
 }

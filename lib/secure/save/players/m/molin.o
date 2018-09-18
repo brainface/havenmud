@@ -1,11 +1,11 @@
-#/secure/save/players/a/anatharic
+#/secure/save/players/m/molin.c
 InternalDesc 0
 Opacity 0
 NoClean 0
 ShortSuffixes ([])
 ProperNoun 1
-Short "$N the Haven Tourist (Haven elf)"
-CapName "Anatharic"
+Short "$N of Haven (Haven human)"
+CapName "Molin"
 ExternalDesc "$N is nondescript."
 Invisible 0
 Items ([])
@@ -24,17 +24,17 @@ Screen ({78,24,})
 Wrapping 1
 SocialRank 1
 ConfirmedEmail 1
-Age 2441
+Age 0
 WhereBlock 0
 Brief 0
-LoginTime 1498318878
-BirthTime 1498318845
-Password "cjcfcdln!oejeah`ejd`fhhl``l`ifiaiafaanknj"
-Email "jenniferwlodarski@rocketmail.com"
-RealName "Jenn"
+LoginTime 1537230612
+BirthTime 1537230561
+Password "nfdjkbke!njhmcobifflgnbnfmbdk`afafkojdgcc"
+Email "rharrison@student.bridgew.edu"
+RealName "Rick"
 Rank 0
-LoginSite "/domains/southern_coast/towns/haven/room/misc_buildings/charity"
-HostSite "mudconnector.com"
+LoginSite "/domains/southern_coast/virtual/havenroad/-1,0"
+HostSite "c-66-30-185-74.hsd1.ma.comcast.net"
 WebPage 0
 AdditionalId ({})
 Ranks ({"Citizen",})
@@ -44,13 +44,13 @@ NewServerLogin 1
 Level 1
 Experience 0
 Skills ([])
-Morality 1550
+Morality 0
 CanMulti 1
 Class 0
 Guild 0
 Clan 0
 SkillModifiers ([])
-Religion ({"Kylin","Kylin",})
+Religion ({"agnostic","agnostic",})
 NextRoundFunction 0
 NextRound 0
 MeleeDamageType 2
@@ -64,17 +64,16 @@ MagicBonus 0
 endParalysis 0
 Paralyzed 0
 Reputations (["Haven":50,"Malveillant":-25,])
-OpposingFactions (["Gwonish":"Lloryk","Grymxoria":"Durgoroth","Karak":"Glimmerdin","Ungkh":"Jidoor","Malveillant":"Haven","Glimmerdin":"Karak","Durgoroth":"Grymxoria","Lloryk":"Gwonish","Jidoor":"Ungkh","Haven":"Malveillant",])
 Position 2
 Undead 0
 UndeadType 0
-HealthPoints 340
+HealthPoints 330
 MagicPoints 50
 Bleeding 0
 Alcohol 0
 Caffeine 0
-Food 1939
-Drink 1939
+Food 1989
+Drink 1989
 Poison 0
 Sleeping 0
 Hiding 0
@@ -84,14 +83,14 @@ Cursed 0
 StaminaPoints 330.000000
 Torso "torso"
 Fingers (["right hand":5,"left hand":5,])
-Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":150,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":300,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":150,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":300,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":150,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":150,"class":2,"parent":"torso",]),])
+Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":150,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":290,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":150,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":290,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":150,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":150,"class":2,"parent":"torso",]),])
 MissingLimbs ([])
 NoCorpse 0
 Blind 0
 CustomStats 15
-LightSensitivity ({17,73,})
+LightSensitivity ({25,75,})
 Resistance (["low":0,"weakness":0,"immune":0,"none":131070,"high":0,"medium":0,])
-Stats (["agility":(["class":3,"points":0,"level":34,]),"wisdom":(["class":3,"points":0,"level":25,]),"coordination":(["class":3,"points":0,"level":31,]),"strength":(["class":4,"points":0,"level":28,]),"intelligence":(["class":1,"points":0,"level":33,]),"luck":(["class":4,"points":0,"level":29,]),"durability":(["class":3,"points":0,"level":29,]),"charisma":(["class":1,"points":0,"level":43,]),])
+Stats (["agility":(["class":3,"points":0,"level":30,]),"wisdom":(["class":3,"points":0,"level":25,]),"coordination":(["class":3,"points":0,"level":26,]),"intelligence":(["class":3,"points":0,"level":27,]),"luck":(["class":3,"points":0,"level":26,]),"strength":(["class":3,"points":0,"level":28,]),"durability":(["class":3,"points":0,"level":28,]),"charisma":(["class":3,"points":0,"level":25,]),])
 Languages (["eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
 SaveRecurse 0
 Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
@@ -99,7 +98,7 @@ Viking 0
 tellhist ({})
 sphist ({})
 Town "Haven"
-Race "elf"
+Race "human"
 Gender "male"
 Nationality "Haven"
 Size 16
@@ -107,7 +106,7 @@ CombatStyle 0
 CombatStyles ([])
 Wimpy 30
 WimpyCmd "go out"
-LastWimpy 1498318845
+LastWimpy 1537230561
 Cooldowns ([])
 Currency ([])
 Bank ([])
@@ -117,14 +116,14 @@ SongBook ([])
 RecoveryTime 0
 NoSing 0
 isPK 0
-Titles ({"the Haven Tourist","of Haven",})
+Titles ({"of Haven",})
 Story 0
 Surname 0
 ApprovedStory 0
-OOCName "Jenn"
-Quests ({(/1498319454,"Newbie Book",/),(/1498320856,"Haven Tour",/),})
+OOCName "Rick"
+Quests ({(/1537230619,"Newbie Book",/),})
 Deaths 0
-DevelopmentPoints 162
+DevelopmentPoints 160
 TitleLength 1
 TitleAnd 1
 NoRank 1
@@ -136,9 +135,9 @@ CanCast 0
 IsBlind 0
 CanLocate 1
 SeveredHeads 0
-LastLevel 1498318845
+LastLevel 1537230561
 HighestLevel 0
-LongDaemonData ({0,0,0,0,0,})
+LongDaemonData ({"hazel","brown","tanned","tanned",0,})
 PermanentProperties ([])
 ExploredWorlds ({})
 ImprovedStats ({})

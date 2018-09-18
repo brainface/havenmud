@@ -1,15 +1,15 @@
-#/secure/save/players/a/avar.c
+#/secure/save/players/a/avran.c
 InternalDesc 0
 Opacity 0
 NoClean 0
 ShortSuffixes ([])
 ProperNoun 1
-Short "$N of Haven (Haven elf)"
-CapName "Avar"
+Short "$N of Glimmerdin (Glimmerdin dwarf)"
+CapName "Avran"
 ExternalDesc "$N is nondescript."
 Invisible 0
 Items ([])
-Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Inventory ({"([\"Value\":-1,\"Mass\":15,\"Portions\":1,\"MealStrength\":50,\"Worn\":0,\"Class\":1,\"#base_name#\":\"/std/meal/alcohol/scotch\",\"MealType\":20,\"Broken\":0,\"Short\":\"a short glass of scotch\",\"Long\":\"This small glass is filled with scotch.\",\"DamagePoints\":0,\"Poison\":0,])",})
 Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
 RestrictedChannels ({})
 HistorySize 10
@@ -24,16 +24,16 @@ Screen ({78,24,})
 Wrapping 1
 SocialRank 1
 ConfirmedEmail 1
-Age 0
+Age 1032
 WhereBlock 0
 Brief 0
-LoginTime 1537104716
-BirthTime 1530111940
-Password "ilnnkadf!gadc`ejlgcadinkidkhbggeoffcabgk`"
-Email "avar@gmail.com"
+LoginTime 1537104725
+BirthTime 1537065521
+Password "bf`ojijo!cdfdeomkinb`baofelnlhmmmaabbjenn"
+Email "avran@gmail.com"
 RealName "Unknown"
 Rank 0
-LoginSite "/domains/southern_coast/towns/haven/room/merchants_way/mw4"
+LoginSite "/domains/crystal_reaches/towns/glimmerdin/room/inn"
 HostSite "c-73-187-180-36.hsd1.pa.comcast.net"
 WebPage 0
 AdditionalId ({})
@@ -63,52 +63,52 @@ Guard 0
 MagicBonus 0
 endParalysis 0
 Paralyzed 0
-Reputations (["Haven":50,"Malveillant":-25,])
+Reputations (["Karak":-25,"Glimmerdin":50,])
 Position 2
 Undead 0
 UndeadType 0
-HealthPoints 340
+HealthPoints 420
 MagicPoints 50
 Bleeding 0
 Alcohol 0
 Caffeine 0
-Food 1998
-Drink 1998
+Food 1975
+Drink 1975
 Poison 0
 Sleeping 0
 Hiding 0
 Smoke 0
 Blessed 0
 Cursed 0
-StaminaPoints 339.199951
+StaminaPoints 360.000000
 Torso "torso"
-Fingers (["right hand":5,"left hand":5,])
-Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":300,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":150,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":80,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":80,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":150,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":300,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":150,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":80,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":150,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":80,]),])
+Fingers (["right hand":4,"left hand":4,])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":380,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":190,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":100,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":100,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":190,]),"torso":(["children":({"head","right leg","left leg","left arm","right arm",}),"armours":751616,"parent":0,"class":1,"health":380,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":190,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":100,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":190,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":100,]),])
 MissingLimbs ([])
 NoCorpse 0
 Blind 0
 CustomStats 15
-LightSensitivity ({17,73,})
+LightSensitivity ({0,60,})
 Resistance (["low":0,"weakness":0,"immune":0,"none":131070,"high":0,"medium":0,])
-Stats (["wisdom":(["class":3,"points":0,"level":25,]),"agility":(["class":3,"points":0,"level":35,]),"coordination":(["class":3,"points":0,"level":34,]),"luck":(["class":4,"points":0,"level":26,]),"intelligence":(["class":1,"points":0,"level":34,]),"strength":(["class":4,"points":0,"level":29,]),"durability":(["class":3,"points":0,"level":29,]),"charisma":(["class":1,"points":0,"level":44,]),])
-Languages (["eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+Stats (["wisdom":(["class":2,"points":0,"level":28,]),"agility":(["class":4,"points":0,"level":24,]),"coordination":(["class":3,"points":0,"level":26,]),"luck":(["class":3,"points":0,"level":30,]),"intelligence":(["class":3,"points":0,"level":26,]),"strength":(["class":3,"points":0,"level":31,]),"durability":(["class":2,"points":0,"level":37,]),"charisma":(["class":3,"points":0,"level":29,]),])
+Languages (["runic":(["native":1,"name":"Runic","points":0,"level":100,]),])
 SaveRecurse 0
 Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
 Viking 0
 tellhist ({})
 sphist ({})
-Town "Haven"
-Race "elf"
+Town "Glimmerdin"
+Race "dwarf"
 Gender "male"
-Nationality "Haven"
-Size 16
+Nationality "Glimmerdin"
+Size 8
 CombatStyle 0
 CombatStyles ([])
 Wimpy 30
 WimpyCmd "go out"
-LastWimpy 1530111940
+LastWimpy 1537065521
 Cooldowns ([])
-Currency ([])
+Currency (["nuggets":2,])
 Bank ([])
 CraftingRecipes ({})
 SpellBook ([])
@@ -116,12 +116,12 @@ SongBook ([])
 RecoveryTime 0
 NoSing 0
 isPK 0
-Titles ({"of Haven",})
+Titles ({"of Glimmerdin",})
 Story 0
 Surname 0
 ApprovedStory 0
 OOCName 0
-Quests ({(/1530112019,"Newbie Book",/),})
+Quests ({(/1537065564,"Newbie Book",/),})
 Deaths 0
 DevelopmentPoints 160
 TitleLength 1
@@ -135,7 +135,7 @@ CanCast 0
 IsBlind 0
 CanLocate 1
 SeveredHeads 0
-LastLevel 1530111940
+LastLevel 1537065521
 HighestLevel 0
 LongDaemonData ({0,0,0,0,0,})
 PermanentProperties ([])

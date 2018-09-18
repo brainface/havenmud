@@ -38,7 +38,7 @@ WeaponSystem 16
 ShieldSystem 8
 Crystals 109999
 hasAttacked ({})
-LastSave 1536119601
+LastSave 1536797050
 DamagedSystems ({"shield","sails",})
 VId ({"dreadnaught","ship","ship500","Gallactica",})
 VLong "This is the dreadnaught Gallactica."
