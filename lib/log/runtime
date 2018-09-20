@@ -9,9 +9,7 @@ Initializations complete.
 
 Accepting connections on port 5000.
 Accepting connections on port 4000.
----
-*Bad type argument to +. Had int and array
-Object: /std/crafting/clothing/include/craftable at line 50
+/log/login/log/login/log/login/log/login/log/login/log/logincrafting/clothing/include/craftable at line 50
 
 '<fake>' at /std/crafting/clothing/include/craftable (/<driver>) at line 0
 'SetCraftResult' at /std/crafting/clothing/include/craftable at line 50
@@ -3036,6 +3034,123 @@ Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c)
 'SetCraftResult' at /std/crafting/clothing/sock at line 12
 'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
 'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/craftable at line 50
+
+'<fake>' at /std/crafting/clothing/include/craftable (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/craftable at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/include/clothing (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/clothing at line 27
+'SetCraftResult' at /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/include/clothing (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/clothing at line 27
+'SetCraftResult' at /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/sock (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/sock at line 12
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/sock (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/sock at line 12
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/craftable at line 50
+
+'<fake>' at /std/crafting/clothing/include/craftable (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/craftable at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/include/clothing (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/clothing at line 27
+'SetCraftResult' at /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/include/clothing (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/include/clothing at line 27
+'SetCraftResult' at /std/crafting/clothing/include/clothing (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/sock (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/sock at line 12
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Bad type argument to +. Had int and array
+Object: /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+
+'<fake>' at /std/crafting/clothing/sock (/<driver>) at line 0
+'SetCraftResult' at /std/crafting/clothing/sock at line 12
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/clothing.c) at line 27
+'SetCraftResult' at /std/crafting/clothing/sock (/std/crafting/clothing/include/craftable.c) at line 50
+---
+*Printable strings limited to length of 8192.
+Object: /secure/save/immortals/m/mahkefel (/lib/users/interface.c) at line 157
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/more at line 15
+'eventPage' at /secure/save/immortals/m/mahkefel (/lib/users/pager.c) at line 94
+'Page' at /secure/save/immortals/m/mahkefel (/lib/users/pager.c) at line 110
+'eventPrint' at /secure/save/immortals/m/mahkefel (/lib/users/interface.c) at line 157
+---
+*Error in loading object '/realms/melchezidek/CMD_EVAL_TMP_FILE'
+Object: /secure/cmds/creators/eval at line 60
+
+'<fake>' at /secure/save/immortals/m/melchezidek (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/melchezidek (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/eval at line 60
+---
+*Error in loading object '/realms/melchezidek/CMD_EVAL_TMP_FILE'
+Object: /secure/cmds/creators/eval at line 60
+
+'<fake>' at /secure/save/immortals/m/melchezidek (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/melchezidek (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/eval at line 60
+---
+*Error in loading object '/realms/melchezidek/CMD_EVAL_TMP_FILE'
+Object: /secure/cmds/creators/eval at line 60
+
+'<fake>' at /secure/save/immortals/m/melchezidek (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/melchezidek (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/eval at line 60
+---
+*Error in loading object '/realms/melchezidek/CMD_EVAL_TMP_FILE'
+Object: /secure/cmds/creators/eval at line 60
+
+'<fake>' at /secure/save/immortals/m/melchezidek (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/melchezidek (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/eval at line 60
+---
+*Error in loading object '/realms/melchezidek/CMD_EVAL_TMP_FILE'
+Object: /secure/cmds/creators/eval at line 60
+
+'<fake>' at /secure/save/immortals/m/melchezidek (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/melchezidek (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/eval at line 60
 ---
 *Bad type argument to +. Had int and array
 Object: /std/crafting/clothing/include/craftable at line 50

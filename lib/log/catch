@@ -4966,3 +4966,81 @@ Object: /secure/cmds/creators/update at line 118
 'cmd' at /secure/cmds/creators/update at line 82
 'eventUpdate' at /secure/cmds/creators/update at line 118
 'CATCH' at /secure/cmds/creators/update at line 118
+---
+*No variable named 'Keys'!
+Object: /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#679813 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#679813 at line 170
+'eventEnterGame' at /secure/lib/connect#679813 at line 228
+'Setup' at /secure/save/players/m/marroc (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/m/marroc (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+'CATCH' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+---
+*No variable named 'CanLock'!
+Object: /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#679813 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#679813 at line 170
+'eventEnterGame' at /secure/lib/connect#679813 at line 228
+'Setup' at /secure/save/players/m/marroc (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/m/marroc (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+'CATCH' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+---
+*No variable named 'LockStrength'!
+Object: /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#679813 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#679813 at line 170
+'eventEnterGame' at /secure/lib/connect#679813 at line 228
+'Setup' at /secure/save/players/m/marroc (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/m/marroc (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+'CATCH' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+---
+*No variable named 'Closed'!
+Object: /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#679813 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#679813 at line 170
+'eventEnterGame' at /secure/lib/connect#679813 at line 228
+'Setup' at /secure/save/players/m/marroc (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/m/marroc (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+'CATCH' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+---
+*No variable named 'Locked'!
+Object: /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#679813 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#679813 at line 170
+'eventEnterGame' at /secure/lib/connect#679813 at line 228
+'Setup' at /secure/save/players/m/marroc (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/m/marroc (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+'CATCH' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+---
+*No variable named 'CanClose'!
+Object: /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#679813 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#679813 at line 170
+'eventEnterGame' at /secure/lib/connect#679813 at line 228
+'Setup' at /secure/save/players/m/marroc (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/m/marroc (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+'CATCH' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58

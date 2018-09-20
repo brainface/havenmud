@@ -38,10 +38,10 @@ WeaponSystem 8
 ShieldSystem 8
 Crystals 49439
 hasAttacked ({})
-LastSave 1422473635
+LastSave 1537459734
 DamagedSystems ({})
 VId ({"cruiser","ship","ship853","Archmage",})
 VLong "This is the cruiser Archmage."
 VShort "the cruiser Archmage"
 ShipEnemies ({})
-UniqueVehicleId "ship5756"
+UniqueVehicleId "ship500"

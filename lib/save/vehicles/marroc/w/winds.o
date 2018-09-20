@@ -38,10 +38,10 @@ WeaponSystem 16
 ShieldSystem 8
 Crystals 26329
 hasAttacked ({})
-LastSave 1422473635
+LastSave 1537459734
 DamagedSystems ({})
 VId ({"dreadnaught","ship","ship7555","Winds",})
 VLong "This is the dreadnaught Winds."
 VShort "the dreadnaught Winds"
 ShipEnemies ({})
-UniqueVehicleId "ship5961"
+UniqueVehicleId "ship2352"

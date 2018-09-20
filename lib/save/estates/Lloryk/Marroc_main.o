@@ -10,7 +10,7 @@ Domain "Estates"
 Climate "indoors"
 DummyItems ({})
 Gravity 1.000000
-LastReset 1535662561
+LastReset 1537401361
 Town "Lloryk"
 Saved ({"EOut","ELong","EShort","Owner",})
 ELong "This is an empty, unfurnished keep. It is quite bare."
