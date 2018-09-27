@@ -1,6 +1,0 @@
-#define GORGE_DIR "/realms/lanikai/gorge/"
-#define GORGE_NPC        GORGE_DIR "npc/"
-#define GORGE_OBJ        GORGE_DIR "obj/"
-#define GORGE_ROOM       GORGE_DIR "room/"
-
-#define ROAD "/realms/lanikai/workroom"

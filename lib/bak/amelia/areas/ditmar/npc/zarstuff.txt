@@ -1,6 +1,0 @@
-Rogue:Dagger of the Night
-Ranger:Forest Pupil,Master Scout
-Rogue:Escape artist
-New class idea. Necromancer/rogue:Soul stealer
-Ranger:Shadow of the Forests, Dark Ranger of the Black
-                        forest

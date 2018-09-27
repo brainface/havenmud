@@ -1,9 +1,0 @@
-varargs int eventCast(object who, int level, mixed limb, object array targets)
-{
-  object ob
-  
-  ob = new("/realms/amelia/obj/iceball");
-  ob->eventMove(environment(this_player()));
-  
-  return ::eventCast(who,level,limb,targets);
-}

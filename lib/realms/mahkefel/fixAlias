@@ -1,2 +1,0 @@
-/daemon/verbs->GetVerbs /daemon/command->GetCommands
-Make alias disallow thse for aliases

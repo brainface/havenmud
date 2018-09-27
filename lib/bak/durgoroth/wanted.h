@@ -1,6 +1,0 @@
-
-string *Wanted = ({
- });
-
-mapping Crimes = ([
- ]);

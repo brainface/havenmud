@@ -1,3 +1,0 @@
-report - Shield - NoShieldType
-Set: SHIELD_TIMED, SHIELD_DAMAGE
-remove: SetProtectionTime and/or SetProtectionAmount

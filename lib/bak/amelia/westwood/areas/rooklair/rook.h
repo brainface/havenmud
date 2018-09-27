@@ -1,5 +1,0 @@
-#define ROOK_DIR        "/domains/westwood/areas/rooklair"
-#define R_OBJ           ROOK_DIR "/obj/"
-#define R_NPC           ROOK_DIR "/npc/"
-#define R_ROOM          ROOK_DIR "/room/"
-#define R_INV           "/domains/westwood/invasions/"
