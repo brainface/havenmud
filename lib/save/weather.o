@@ -1,5 +1,0 @@
-#/daemon/weather.c
-NoClean 1
-Domains ({"Averath","Baria","Crystal Reaches","Estergrym","Frostmarches","Gurov","Havenwood","Innersea","Islands","Peninsula","Planes","Southern Coast","Tairi","Valley","Westwood","Xandria","Yozrath","Estates","Mamut","Test","Namatar","Skicily",})
-Temperature (["Xandria":90,"Westwood":54,"Mamut":94,"Averath":65,"Gurov":12,"Frostmarches":14,"Valley":66,"Namatar":65,"Skicily":86,"Tairi":43,"Test":98,"Havenwood":77,"Crystal Reaches":36,"Baria":46,"Islands":65,"Estates":31,"Innersea":86,"Peninsula":41,"Southern Coast":17,"Yozrath":100,"Planes":99,"Estergrym":23,])
-Raining (["Xandria":3,"Westwood":5,"Mamut":2,"Averath":7,"Gurov":2,"Frostmarches":9,"Valley":8,"Namatar":6,"Skicily":7,"Tairi":0,"Test":8,"Havenwood":4,"Crystal Reaches":3,"Baria":1,"Islands":5,"Estates":7,"Innersea":1,"Peninsula":2,"Southern Coast":10,"Yozrath":9,"Planes":6,"Estergrym":6,])

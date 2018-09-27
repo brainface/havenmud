@@ -36,7 +36,7 @@ WeaponSystem 16
 ShieldSystem 8
 Crystals 146016
 hasAttacked ({})
-LastSave 1538016398
+LastSave 1538016999
 DamagedSystems ({})
 VId ({"Navigator","dreadnaught","ship",})
 VLong "This is the dreadnaught Navigator."
