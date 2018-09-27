@@ -10,7 +10,7 @@ Domain "Estates"
 Climate "indoors"
 DummyItems ({})
 Gravity 1.000000
-LastReset 1536797461
+LastReset 1537567261
 Town "Soleil"
 Saved ({"EOut","ELong","EShort","Owner",})
 ELong "This is an empty, unfurnished keep. It is quite bare."

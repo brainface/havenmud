@@ -46,7 +46,7 @@ Experience 5944
 Skills (["cloth armour":(["class":2,"level":100,]),"swashbuckling":(["class":1,"level":228,]),"navigation":(["class":2,"level":41,]),"combat rage":(["class":1,"level":226,]),"chain armour":(["class":2,"level":79,]),"disarm":(["class":4,"level":34,]),"knife combat":(["class":4,"level":18,]),"pierce combat":(["class":1,"level":230,]),"faith":(["class":1,"level":226,]),"weapon smithing":(["class":4,"level":30,]),"plate armour":(["class":2,"level":97,]),"swimming":(["class":2,"level":87,]),"bargaining":(["class":2,"level":50,]),"natural working":(["class":4,"level":20,]),"sailing":(["class":1,"level":230,]),"blunt combat":(["class":4,"level":8,]),"enchantment":(["class":1,"level":226,]),"poison magic":(["class":2,"level":55,]),"evokation":(["class":4,"level":91,]),"reinforced armour":(["class":2,"level":23,]),"metal working":(["class":4,"level":20,]),"melee combat":(["class":4,"level":28,]),"accuracy":(["class":4,"level":83,]),"mining":(["class":4,"level":139,]),"disorient":(["class":4,"level":19,]),"armour smithing":(["class":4,"level":29,]),"healing":(["class":1,"level":226,]),"fishing":(["class":4,"level":79,]),"leather armour":(["class":2,"level":35,]),"pole combat":(["class":4,"level":19,]),"wood working":(["class":4,"level":19,]),"skinning":(["class":4,"level":70,]),"leather working":(["class":4,"level":20,]),"textile working":(["class":4,"level":26,]),"farming":(["class":4,"level":33,]),"dodge":(["class":4,"level":79,]),"parry":(["class":4,"level":70,]),])
 Morality 0
 CanMulti 1
-Class "monk"
+Class "fanatic"
 Guild 0
 Clan 0
 SkillModifiers ([])

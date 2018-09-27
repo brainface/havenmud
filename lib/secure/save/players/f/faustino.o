@@ -46,7 +46,7 @@ Experience 0
 Skills (["reinforced armour":(["class":2,"level":9,]),"metal working":(["class":4,"level":29,]),"cloth armour":(["class":2,"level":127,]),"melee combat":(["class":4,"level":30,]),"navigation":(["class":2,"level":18,]),"accuracy":(["class":2,"level":128,]),"combat rage":(["class":1,"level":256,]),"chain armour":(["class":2,"level":38,]),"disarm":(["class":4,"level":29,]),"faith":(["class":1,"level":255,]),"disorient":(["class":4,"level":62,]),"armour smithing":(["class":4,"level":29,]),"healing":(["class":1,"level":254,]),"leather armour":(["class":2,"level":9,]),"wood working":(["class":4,"level":29,]),"skinning":(["class":4,"level":8,]),"weapon smithing":(["class":4,"level":29,]),"plate armour":(["class":2,"level":128,]),"swimming":(["class":2,"level":126,]),"bargaining":(["class":2,"level":9,]),"leather working":(["class":4,"level":30,]),"textile working":(["class":4,"level":28,]),"natural working":(["class":4,"level":29,]),"dodge":(["class":2,"level":126,]),"blunt combat":(["class":1,"level":256,]),"sailing":(["class":1,"level":255,]),"parry":(["class":2,"level":128,]),"enchantment":(["class":1,"level":255,]),"poison magic":(["class":2,"level":0,]),])
 Morality 0
 CanMulti 1
-Class "monk"
+Class "fanatic"
 Guild 0
 Clan 0
 SkillModifiers ([])

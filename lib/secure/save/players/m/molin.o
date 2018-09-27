@@ -9,31 +9,31 @@ CapName "Molin"
 ExternalDesc "$N is nondescript."
 Invisible 0
 Items ([])
-Inventory ({"([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
-Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+Inventory ({"([\"Value\":80,\"Mass\":200,\"Worn\":({\"right hand\",\"left hand\",}),\"Class\":12,\"#base_name#\":\"/std/weapon/pole/staff\",\"Broken\":0,\"DamagePoints\":800,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"left leg\",\"right leg\",}),\"#base_name#\":\"/std/clothing/pants\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"torso\",\"left arm\",\"right arm\",}),\"#base_name#\":\"/std/clothing/shirt\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])","([\"Value\":0,\"Mass\":0,\"Worn\":({\"right foot\",\"left foot\",}),\"#base_name#\":\"/std/clothing/shoes\",\"Deterioration\":0,\"Broken\":0,\"DamagePoints\":1000,\"Poison\":0,])",})
+Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N teleports away.","vis":"$N appears.","home":"$N goes home.","invis":"$N disappears.","come":"$N enters.","dest":"$N dests $O.","clone":"$N clones $O.",])
 RestrictedChannels ({})
 HistorySize 10
 Prompt "> "
 CurrentWorkingDirectory 0
 Nicknames ([])
-Aliases (["nw":"go northwest","la":"look at $*","ka":"kill all","w":"go west","gac":"get all from $* corpse","sw":"go southwest","exa":"look at $*","u":"go up","out":"go out","..":"skills","s":"go south","...":"spells","p":"who","oe":"oocemote $*","n":"go north",".":"status","l":"look $*","ne":"go northeast","k":"kill $*","i":"inventory","e":"go east","d":"go down","se":"go southeast","ga":"get all $*","gcc":"get coins from $* corpse","pp":"protections",])
+Aliases (["la":"look at $*","nw":"go northwest","ka":"kill all","gac":"get all from $* corpse","w":"go west","exa":"look at $*","sw":"go southwest","u":"go up","..":"skills","out":"go out","s":"go south","...":"spells","oe":"oocemote $*","p":"who",".":"status","n":"go north","l":"look $*","spells":"spells -c -l $*","k":"kill $*","ne":"go northeast","i":"inventory","e":"go east","con":"consider $*","ga":"get all $*","se":"go southeast","d":"go down","gcc":"get coins from $* corpse","pp":"protections $*",])
 Xverbs (["'":"speak $*",":":"emote $*",])
 Terminal "ansi"
 Blocked ([])
-Screen ({78,24,})
+Screen ({114,43,})
 Wrapping 1
 SocialRank 1
 ConfirmedEmail 1
 Age 0
 WhereBlock 0
 Brief 0
-LoginTime 1537230612
+LoginTime 1537623752
 BirthTime 1537230561
 Password "nfdjkbke!njhmcobifflgnbnfmbdk`afafkojdgcc"
 Email "rharrison@student.bridgew.edu"
 RealName "Rick"
 Rank 0
-LoginSite "/domains/southern_coast/virtual/havenroad/-1,0"
+LoginSite "/domains/crystal_reaches/areas/gwonish/room/path1"
 HostSite "c-66-30-185-74.hsd1.ma.comcast.net"
 WebPage 0
 AdditionalId ({})
@@ -42,20 +42,20 @@ Marriages ({})
 NewsgroupNotifySettings (["ooc":1,"news.announcements":1,])
 NewServerLogin 1
 Level 1
-Experience 0
-Skills ([])
-Morality 0
+Experience 100
+Skills (["reinforced armour":(["class":2,"level":0,]),"cloth armour":(["class":1,"level":1,]),"melee combat":(["class":4,"level":0,]),"fire magic":(["class":2,"level":0,]),"chain armour":(["class":2,"level":1,]),"conjuring":(["class":4,"level":1,]),"mithril working":(["class":4,"level":1,]),"faith":(["class":1,"level":1,]),"necromancy":(["class":1,"level":1,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":0,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":0,]),"pole combat":(["class":1,"level":1,]),"wood working":(["class":4,"level":1,]),"weapon smithing":(["class":4,"level":0,]),"skinning":(["class":4,"level":0,]),"bargaining":(["class":2,"level":1,]),"textile working":(["class":4,"level":0,]),"farming":(["class":4,"level":0,]),"cooking":(["class":4,"level":0,]),"evokation":(["class":2,"level":1,]),])
+Morality -1800
 CanMulti 1
-Class 0
+Class "priest"
 Guild 0
 Clan 0
 SkillModifiers ([])
-Religion ({"agnostic","agnostic",})
+Religion ({"Rath Cult","Rath Cult",})
 NextRoundFunction 0
 NextRound 0
 MeleeDamageType 2
 MeleeAttackString "attack"
-Conditions 0
+Conditions ([])
 Enemies ({})
 SpecialTargets ({})
 CurrentEnemy 0
@@ -64,16 +64,16 @@ MagicBonus 0
 endParalysis 0
 Paralyzed 0
 Reputations (["Haven":50,"Malveillant":-25,])
-Position 2
+Position 4
 Undead 0
 UndeadType 0
 HealthPoints 330
-MagicPoints 50
+MagicPoints 55
 Bleeding 0
 Alcohol 0
 Caffeine 0
-Food 1989
-Drink 1989
+Food 1975
+Drink 1975
 Poison 0
 Sleeping 0
 Hiding 0
@@ -83,15 +83,15 @@ Cursed 0
 StaminaPoints 330.000000
 Torso "torso"
 Fingers (["right hand":5,"left hand":5,])
-Limbs (["left leg":(["armours":525472,"children":({"left foot",}),"health":150,"class":2,"parent":"torso",]),"torso":(["armours":751616,"children":({"head","right leg","left leg","right arm","left arm",}),"health":290,"class":1,"parent":0,]),"right foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"right leg",]),"right leg":(["armours":525472,"children":({"right foot",}),"health":150,"class":2,"parent":"torso",]),"head":(["armours":262912,"children":({}),"health":290,"class":1,"parent":"torso",]),"right hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"right arm",]),"left arm":(["armours":733192,"children":({"left hand",}),"health":150,"class":2,"parent":"torso",]),"left foot":(["armours":240,"children":({}),"health":80,"class":4,"parent":"left leg",]),"left hand":(["armours":98318,"children":({}),"health":80,"class":4,"parent":"left arm",]),"right arm":(["armours":733192,"children":({"right hand",}),"health":150,"class":2,"parent":"torso",]),])
+Limbs (["head":(["children":({}),"armours":262912,"parent":"torso","class":1,"health":290,]),"right leg":(["children":({"right foot",}),"armours":525472,"parent":"torso","class":2,"health":150,]),"right foot":(["children":({}),"armours":240,"parent":"right leg","class":4,"health":80,]),"left foot":(["children":({}),"armours":240,"parent":"left leg","class":4,"health":80,]),"left arm":(["children":({"left hand",}),"armours":733192,"parent":"torso","class":2,"health":150,]),"torso":(["children":({"head","right leg","left leg","right arm","left arm",}),"armours":751616,"parent":0,"class":1,"health":290,]),"left leg":(["children":({"left foot",}),"armours":525472,"parent":"torso","class":2,"health":150,]),"right hand":(["children":({}),"armours":98318,"parent":"right arm","class":4,"health":80,]),"right arm":(["children":({"right hand",}),"armours":733192,"parent":"torso","class":2,"health":150,]),"left hand":(["children":({}),"armours":98318,"parent":"left arm","class":4,"health":80,]),])
 MissingLimbs ([])
 NoCorpse 0
 Blind 0
 CustomStats 15
 LightSensitivity ({25,75,})
 Resistance (["low":0,"weakness":0,"immune":0,"none":131070,"high":0,"medium":0,])
-Stats (["agility":(["class":3,"points":0,"level":30,]),"wisdom":(["class":3,"points":0,"level":25,]),"coordination":(["class":3,"points":0,"level":26,]),"intelligence":(["class":3,"points":0,"level":27,]),"luck":(["class":3,"points":0,"level":26,]),"strength":(["class":3,"points":0,"level":28,]),"durability":(["class":3,"points":0,"level":28,]),"charisma":(["class":3,"points":0,"level":25,]),])
-Languages (["eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
+Stats (["wisdom":(["class":3,"points":0,"level":25,]),"agility":(["class":3,"points":0,"level":30,]),"coordination":(["class":3,"points":0,"level":26,]),"strength":(["class":3,"points":0,"level":28,]),"luck":(["class":3,"points":0,"level":26,]),"intelligence":(["class":3,"points":0,"level":27,]),"durability":(["class":3,"points":0,"level":28,]),"charisma":(["class":3,"points":0,"level":25,]),])
+Languages (["archaic":(["native":0,"name":"Archaic","points":0,"level":100,]),"eltherian":(["native":1,"name":"Eltherian","points":0,"level":100,]),])
 SaveRecurse 0
 Saved ({"CarriedMass","TestChar","RPC","PermanentProperties","StatsBonus","LastLevel","HighestLevel","CanLocate","ImprovedStats","Surname","SeveredHeads","MagicBonus","HealthPoints","MagicPoints","StaminaPoints","Undead","Limbs","MissingLimbs","WornItems","Sleeping","Bleeding","Smoke","Blessed","Cursed","tellhist","sphist",})
 Viking 0
@@ -111,19 +111,19 @@ Cooldowns ([])
 Currency ([])
 Bank ([])
 CraftingRecipes ({})
-SpellBook ([])
+SpellBook (["chill touch":1,"missile":1,"buffer":5,"protect":2,"disperse protections":1,"bless":1,"curse":1,"flaming arrow":1,"animate dead":1,"turn undead":1,"preserve":1,"skull of darkness":1,"locate zombie":1,"acid splash":1,])
 SongBook ([])
 RecoveryTime 0
 NoSing 0
 isPK 0
-Titles ({"of Haven",})
+Titles ({"of Haven","the Supplicant of Rath Khan",})
 Story 0
 Surname 0
 ApprovedStory 0
 OOCName "Rick"
 Quests ({(/1537230619,"Newbie Book",/),})
 Deaths 0
-DevelopmentPoints 160
+DevelopmentPoints 0
 TitleLength 1
 TitleAnd 1
 NoRank 1

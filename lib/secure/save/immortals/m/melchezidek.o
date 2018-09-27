@@ -14,17 +14,17 @@ Messages (["telin":"$N teleports in.","leave":"$N leaves $D.","telout":"$N telep
 RestrictedChannels ({})
 HistorySize 30
 Prompt "> %^RESET%^"
-CurrentWorkingDirectory "/realms/melchezidek"
+CurrentWorkingDirectory "/realms/melchezidek/tutorials"
 Nicknames ([])
 Aliases (["la":"look at $*","qg":"clone /realms/melchezidek/projects/hive/npc/queen_guard.c $*","hive":"cd /realms/melchezidek/projects/hive $*","system":"broadcast $*","lordb":"cd /domains/southern_coast/areas/beornwulf_keep $*","w":"go west","gac":"get all from $* corpse","ice":"cd /realms/melchezidek/projects/elements/ice $*","u":"go up","out":"go out","homedir":"cd /realms/melchezidek $*","s":"go south","p":"who","oe":"oocemote $*",".":"status","n":"go north","fire":"cd /realms/melchezidek/projects/elements/fire $*","l":"look $*","k":"kill $*","i":"inventory","master":"cd /realms/melchezidek/projects/elements/master $*","e":"go east","malv":"cd /domains/havenwood/towns/malveillant $*","d":"go down","durg":"cd /domains/frostmarches/towns/durgoroth $*","pp":"protections","lightning":"cd /realms/melchezidek/projects/elements/lightning $*","nw":"go northwest","ka":"kill all","haj":"clone /realms/melchezidek/npc/hajji.c $*","sw":"go southwest","exa":"look at $*","tairi":"cd /domains/tairi/towns/tairi $*","cata":"cd /realms/melchezidek/projects/catacombs $*","..":"skills","ig":"intergossip $*","...":"spells","ie":"immemote $*","spellroom":"call melchezidek->eventMove(\"/realms/duuk/stuff/offroom\") $*","ic":"intercre $*","teng":"cd /realms/melchezidek/projects/tengu_forest/ $*","townhelp":"cd /doc/help/towns $*","sew":"cd /domains/averath/areas/sewers $*","ne":"go northeast","underland":"call melchezidek->eventMove(\"/domains/valley/towns/underland/room/rogue.c\") $*","ige":"intergossipemote $*","poison":"cd /realms/melchezidek/projects/elements/poison $*","ga":"get all $*","dummy":"clone /realms/melchezidek/npc/dummy.c $*","se":"go southeast","gcc":"get coins from $* corpse",])
 Xverbs (["'":"speak $*",":":"emote $*",])
 Terminal "ansi"
 Blocked (["ibsg":1,"players":0,"prayer":0,"fluffos":0,"iurl":1,"debug":0,"dc":1,"isport":1,"hl":0,"souls":1,"fs":1,"intergossip":1,"imm":0,"time":0,"allnotify":0,"smut":0,"reports":0,"ds":1,"ooc":0,"nws":1,"shipreports":1,"notify":0,"intercre":1,])
-Screen ({127,54,})
+Screen ({130,61,})
 Wrapping 1
 SocialRank 1
 ConfirmedEmail 1
-Age 217476012
+Age 218085886
 WhereBlock 0
 Brief 0
 LoginTime 1534773107

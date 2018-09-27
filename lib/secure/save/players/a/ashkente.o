@@ -45,7 +45,7 @@ Experience 1395436
 Skills (["reinforced armour":(["class":2,"level":1,]),"multi-weapon":(["class":4,"level":0,]),"metal working":(["class":4,"level":60,]),"cloth armour":(["class":2,"level":40,]),"melee combat":(["class":4,"level":0,]),"accuracy":(["class":2,"level":0,]),"ice magic":(["class":2,"level":40,]),"combat rage":(["class":4,"level":0,]),"heavy plate armour":(["class":4,"level":0,]),"slash combat":(["class":1,"level":120,]),"chain armour":(["class":2,"level":40,]),"disarm":(["class":3,"level":0,]),"faith":(["class":1,"level":120,]),"projectile combat":(["class":4,"level":0,]),"necromancy":(["class":1,"level":120,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":40,]),"fishing":(["class":4,"level":0,]),"leather armour":(["class":2,"level":40,]),"skinning":(["class":4,"level":50,]),"weapon smithing":(["class":4,"level":60,]),"plate armour":(["class":1,"level":120,]),"leather working":(["class":4,"level":40,]),"bargaining":(["class":2,"level":40,]),"farming":(["class":4,"level":0,]),"blunt combat":(["class":2,"level":0,]),"parry":(["class":1,"level":118,]),"hack combat":(["class":1,"level":110,]),"evokation":(["class":1,"level":120,]),])
 Morality -2500
 CanMulti 1
-Class "antipaladin"
+Class "paladin"
 Guild 0
 Clan 0
 SkillModifiers ([])

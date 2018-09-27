@@ -37,11 +37,12 @@ VehicleSize 8
 WeaponSystem 8
 ShieldSystem 8
 Crystals 10590
-LastSave 1418486743
+hasAttacked ({})
+LastSave 1538016348
 DamagedSystems ({})
 VId ({"ship","Sceptre","cruiser",})
 VLong "This is the cruiser Sceptre."
 VShort "the cruiser Sceptre"
 ShipEnemies ({})
 Crew ({"noone",})
-UniqueVehicleId "ship5847"
+UniqueVehicleId "ship7959"

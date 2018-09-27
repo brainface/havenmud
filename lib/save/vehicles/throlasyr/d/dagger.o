@@ -37,10 +37,11 @@ VehicleSize 4.000000
 WeaponSystem 4
 ShieldSystem 4
 Crystals 4293
-LastSave 1418486743
+hasAttacked ({})
+LastSave 1538016348
 DamagedSystems ({})
 VId ({"galley","ship5341","ship","Dagger",})
 VLong "This is the galley Dagger."
 VShort "the galley Dagger"
 ShipEnemies ({0,})
-UniqueVehicleId "ship9826"
+UniqueVehicleId "ship5211"

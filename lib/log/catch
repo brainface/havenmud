@@ -5044,3 +5044,181 @@ Object: /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist
 'restore_inventory' at /secure/save/players/m/marroc (/lib/users/autosave.c) at line 49
 'eventLoadObject' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
 'CATCH' at /domains/planes/obj/planeswalker/haversack16#679845 (/lib/common/persist.c) at line 58
+---
+*No variable named 'Keys'!
+Object: /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#712647 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#712647 at line 170
+'eventEnterGame' at /secure/lib/connect#712647 at line 228
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+'CATCH' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+---
+*No variable named 'CanLock'!
+Object: /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#712647 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#712647 at line 170
+'eventEnterGame' at /secure/lib/connect#712647 at line 228
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+'CATCH' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+---
+*No variable named 'LockStrength'!
+Object: /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#712647 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#712647 at line 170
+'eventEnterGame' at /secure/lib/connect#712647 at line 228
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+'CATCH' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+---
+*No variable named 'Closed'!
+Object: /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#712647 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#712647 at line 170
+'eventEnterGame' at /secure/lib/connect#712647 at line 228
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+'CATCH' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+---
+*No variable named 'Locked'!
+Object: /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#712647 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#712647 at line 170
+'eventEnterGame' at /secure/lib/connect#712647 at line 228
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+'CATCH' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+---
+*No variable named 'CanClose'!
+Object: /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+
+'<fake>' at /secure/lib/connect#712647 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#712647 at line 170
+'eventEnterGame' at /secure/lib/connect#712647 at line 228
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/player.c) at line 528
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/interactive.c) at line 118
+'Setup' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 31
+'restore_inventory' at /secure/save/players/h/hithaeron (/lib/users/autosave.c) at line 49
+'eventLoadObject' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+'CATCH' at /std/obj/storage/backpack#712701 (/lib/common/persist.c) at line 58
+---
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:12
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/call at line 37
+'to_object' at /secure/sefun/sefun at /secure/sefun/to_object.c:114
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:12
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:12
+---
+*Error in loading object '/lib/livings/classes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/livings/classes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/livings/classes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/livings/classes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/livings/classes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/livings/classes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/livings/classes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/livings/classes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/livings/classes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118
+---
+*Error in loading object '/lib/livings/classes'
+Object: /secure/cmds/creators/update at line 118
+
+'<fake>' at /secure/save/immortals/m/mahkefel (/<driver>) at line 0
+'cmdAll' at /secure/save/immortals/m/mahkefel (/lib/livings/command.c) at line 63
+'cmd' at /secure/cmds/creators/update at line 82
+'eventUpdate' at /secure/cmds/creators/update at line 118
+'CATCH' at /secure/cmds/creators/update at line 118

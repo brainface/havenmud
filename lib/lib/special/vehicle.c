@@ -477,7 +477,7 @@ varargs int eventMoveLiving(mixed dest, string outmessage, string inmessage) {
   if (sizeof(ar = SAILING_D->GetCoordinates(base_name(environment()))) == 2) {
     x = ar[0]; y = ar[1];
 
-    if (!random(25)) {
+    if (!random(10)) {
       //mahkefel: only spawn an encounter if a player is on the ship.
       foreach (object thingamajig in all_inventory()) {
         if (playerp(thingamajig)) playersOnBoard = 1;

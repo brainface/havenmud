@@ -38,10 +38,10 @@ WeaponSystem 4
 ShieldSystem 4
 Crystals 5368
 hasAttacked ({})
-LastSave 1419442763
+LastSave 1538016390
 DamagedSystems ({})
 VId ({"Iron Mace","galley","ship","ship3221",})
 VLong "This is the galley Iron Mace."
 VShort "the galley Iron Mace"
 ShipEnemies ({})
-UniqueVehicleId "ship7799"
+UniqueVehicleId "ship4247"

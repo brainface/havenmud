@@ -1,10 +1,1 @@
-/lib/livings/combat/physical.c line 206: syntax error
-/lib/livings/combat/physical.c line 52: Undefined variable 'weapon'
-/lib/livings/magic.c line 79: syntax error
-/lib/livings/magic.c line 80: Illegal LHS
-/lib/livings/magic.c line 84: syntax error
-/lib/livings/magic.c line 91: Type of returned value doesn't match function return type ( string vs int )
-/lib/livings/magic.c line 94: Type of returned value doesn't match function return type ( string vs int )
-/lib/livings/magic.c line 97: Type of returned value doesn't match function return type ( string vs int )
-/lib/livings/magic.c line 101: Type of returned value doesn't match function return type ( string vs int )
-/lib/livings/magic.c line 108: Type of returned value doesn't match function return type ( string vs int )
+/lib/livings/classes.c line 221: Undefined variable 'new_lcass'

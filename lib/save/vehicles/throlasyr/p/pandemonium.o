@@ -34,10 +34,11 @@ VehicleSize 16
 WeaponSystem 16
 ShieldSystem 8
 Crystals 23252
-LastSave 1418486743
+hasAttacked ({})
+LastSave 1538016348
 DamagedSystems ({})
 VId ({"ship","dreadnaught","Pandemonium",})
 VLong "This is the dreadnaught Pandemonium."
 VShort "the dreadnaught Pandemonium"
 ShipEnemies ({0,})
-UniqueVehicleId "ship6449"
+UniqueVehicleId "ship1637"

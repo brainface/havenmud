@@ -46,7 +46,7 @@ Experience 16774
 Skills (["reinforced armour":(["class":2,"level":0,]),"metal working":(["class":4,"level":20,]),"cloth armour":(["class":2,"level":56,]),"fire magic":(["class":2,"level":29,]),"chain armour":(["class":2,"level":5,]),"faith":(["class":1,"level":70,]),"mining":(["class":4,"level":0,]),"armour smithing":(["class":4,"level":31,]),"fishing":(["class":4,"level":9,]),"healing":(["class":1,"level":64,]),"leather armour":(["class":2,"level":29,]),"pole combat":(["class":1,"level":68,]),"skinning":(["class":4,"level":20,]),"weapon smithing":(["class":4,"level":11,]),"bargaining":(["class":2,"level":16,]),"leather working":(["class":4,"level":20,]),"textile working":(["class":4,"level":1,]),"farming":(["class":4,"level":0,]),"enchantment":(["class":1,"level":70,]),])
 Morality 1534
 CanMulti 1
-Class "cleric"
+Class "priest"
 Guild 0
 Clan 0
 SkillModifiers ([])

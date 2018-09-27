@@ -1,5 +1,5 @@
 #/daemon/weather.c
 NoClean 1
 Domains ({"Averath","Baria","Crystal Reaches","Estergrym","Frostmarches","Gurov","Havenwood","Innersea","Islands","Peninsula","Planes","Southern Coast","Tairi","Valley","Westwood","Xandria","Yozrath","Estates","Mamut","Test","Namatar","Skicily",})
-Temperature (["Xandria":85,"Westwood":47,"Mamut":99,"Averath":68,"Gurov":27,"Frostmarches":39,"Valley":57,"Namatar":86,"Skicily":75,"Tairi":26,"Test":79,"Havenwood":84,"Crystal Reaches":17,"Baria":47,"Islands":70,"Estates":6,"Innersea":96,"Peninsula":48,"Southern Coast":3,"Yozrath":93,"Planes":79,"Estergrym":56,])
-Raining (["Xandria":8,"Westwood":9,"Mamut":10,"Averath":4,"Gurov":6,"Frostmarches":6,"Valley":9,"Namatar":9,"Skicily":5,"Tairi":3,"Test":3,"Havenwood":0,"Crystal Reaches":8,"Baria":10,"Islands":5,"Estates":8,"Innersea":4,"Peninsula":6,"Southern Coast":7,"Yozrath":6,"Planes":3,"Estergrym":3,])
+Temperature (["Xandria":90,"Westwood":54,"Mamut":94,"Averath":65,"Gurov":12,"Frostmarches":14,"Valley":66,"Namatar":65,"Skicily":86,"Tairi":43,"Test":98,"Havenwood":77,"Crystal Reaches":36,"Baria":46,"Islands":65,"Estates":31,"Innersea":86,"Peninsula":41,"Southern Coast":17,"Yozrath":100,"Planes":99,"Estergrym":23,])
+Raining (["Xandria":3,"Westwood":5,"Mamut":2,"Averath":7,"Gurov":2,"Frostmarches":9,"Valley":8,"Namatar":6,"Skicily":7,"Tairi":0,"Test":8,"Havenwood":4,"Crystal Reaches":3,"Baria":1,"Islands":5,"Estates":7,"Innersea":1,"Peninsula":2,"Southern Coast":10,"Yozrath":9,"Planes":6,"Estergrym":6,])

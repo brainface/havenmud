@@ -37,10 +37,11 @@ VehicleSize 16.000000
 WeaponSystem 16
 ShieldSystem 8
 Crystals 99988
-LastSave 1418486743
+hasAttacked ({})
+LastSave 1538016348
 DamagedSystems ({})
 VId ({"Rapier","dreadnaught","ship8850","ship",})
 VLong "This is the dreadnaught Rapier."
 VShort "the dreadnaught Rapier"
 ShipEnemies ({})
-UniqueVehicleId "ship1785"
+UniqueVehicleId "ship2718"

@@ -14,20 +14,20 @@ Messages (["svis":"%^BOLD%^BLACK%^From every crack in the earth and beneath ever
 RestrictedChannels ({})
 HistorySize 10
 Prompt ">"
-CurrentWorkingDirectory "/realms/mahkefel/npc"
+CurrentWorkingDirectory "/std/spells/conjuring_necromancy"
 Nicknames (["testspells":"/std/spells/test_spells/","sawsh":"/realms/alessandra/misc/lazy","swash":"/realms/alessandra/misc/lazy","~":"/realms/mahkefel",])
 Aliases (["la":"look at $*","aw":"call witch->eventForce(\"cast acid rain\") $*","grr":"call rage->eventRage(dzames) $*","acid":"call shield->eventDeteriorate(512) $*","allitime":"goto /domains/estergrym/areas/vampire/room/gypsycamp $*","w":"go west","ch":"chanhist $*","gac":"get all from $* corpse","priv":"goto /realms/mahkefel/room/outhouse $*","u":"go up","out":"go out","t":"travel $*","s":"go south","train":"grep -n LIB_TRAINER * $*","cdar":"cd /domains/frostmarches/towns/arcanith $*","p":"clone /realms/mahkefel/npc/penguin $*","tanov":"call spells->cmd(\"tanov\") $*","oe":"oocemote $*",".":"status","n":"go north","he":"force dzames to cast heat on izzik $*","l":"look $*","less":"more $*","k":"kill $*","BOOM":"lsed ~/cemetery.lsed cemetery.c $*","fence":"more /domains/frostmarches/areas/academy/npc/fencemaster.c $*","i":"inventory","e":"go east","d":"go down","pp":"protections","nw":"go northwest","chi":"chanhist imm $*","golem":"more /domains/frostmarches/areas/catacombs/npc/golem.c $*","tem":"call here->SetClimate(\"temperate\") $*","fencemaster":"less /domains/frostmarches/areas/academy/npc/fencemaster.c $*","ka":"kill all","cdx":"cd /domains/xandria/virtual/desert $*","cdw":"cd /realms/mahkefel/witch_quest $*","sw":"go southwest","knife":"more /domains/planes/firecastle/obj/elem_knife2.c $*","..":"skills","wa":"where all $*","chap":"grep 'chaplain' * $*","cdt":"cd /std/spells/test_spells $*","st":"grep 'StatBonus' * $*","check":"call here->GetProperty(\"no attack\") $*","...":"spells","cdp":"cd /realms/mahkefel/plateau $*","cdm":"cd /realms/mahkefel/seastuff/merchant $*","cdl":"cd /realms/mahkefel/seastuff/lisht $*","ne":"go northeast","thing":"call $*","blast":"call witch->eventForce(\"cast acid rain\") $*","billy":"dest $*","races":"ls /secure/cfg/races $*","cdg":"cd /domains/innersea/encounters/gnoll_slaver $*","cdf":"cd /realms/mahkefel/ideas_area/foxfire $*","ga":"get all $*","se":"go southeast","bal":"help immortal documents balance $*","gcc":"get coins from $* corpse","cda":"cd /domains/frostmarches/towns/arcanith $*",])
 Xverbs (["'":"speak $*",":":"emote $*",])
 Terminal "ansi"
 Blocked (["reboot":0,"ibsg":1,"iurl":1,"debug":1,"dc":1,"isport":1,"quest":0,"souls":0,"fs":1,"intergossip":1,"imm":0,"time":0,"muse":0,"spam":0,"reports":0,"ds":1,"ooc":0,"shipreports":0,"notify":0,"intercre":1,])
-Screen ({79,24,})
+Screen ({167,49,})
 Wrapping 1
 SocialRank 1
 ConfirmedEmail 1
-Age 36160923
+Age 36303339
 WhereBlock 0
 Brief 1
-LoginTime 1537459066
+LoginTime 1538002028
 BirthTime 1265239229
 Password "ieclkamh!lncndnmg`gecnnfnbebidohoilgojdfk"
 Email "brainfacemike@gmail.com"
