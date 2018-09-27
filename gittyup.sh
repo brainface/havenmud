@@ -9,7 +9,7 @@
 cd /home/haven/haven
 
 # make a variable for current date (human readable)
-sDATE=date
+sDATE=`date`
 
 # add eerthing
 git add .
