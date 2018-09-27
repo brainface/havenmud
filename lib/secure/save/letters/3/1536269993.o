@@ -1,5 +1,0 @@
-#/secure/daemon/letters.c
-NoClean 1
-__Letter "One of shuggoth's special attacks may have occasionally been ignoring all shields/armor. I've altered the damage type to ensure it will indeed be mitigated by appropriate defenses."
-__Folders (["eilonwy":({"new",}),])
-__Undeleted ({})

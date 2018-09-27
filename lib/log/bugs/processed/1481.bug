@@ -1,6 +1,0 @@
-Reported by: Demandred (rln.taylor@gmail.com)
-Time       : Thu Jun  1 09:54:23 2017
-Type       : unexplained behaviour
-Location   : ^SC/~t/haven/obj/yacht#454 @ /domains/IN/~v/ocean/0,0
-Status     : NEW
-Bug        : When pirates attacked haven and there were multiple corpses, it wouldn't let me get money from more than the first corpse.  I would type get money from first corpse, and that would get me the money; however, if I typed get money from second corpse...it would reply there are only two of them and not give me any money.  Same was true if I typed get money from third corpse .... and so on. It kept saying there were only two when in some cases there were 8 different corpses.

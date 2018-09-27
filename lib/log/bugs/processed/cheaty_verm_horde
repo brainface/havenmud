@@ -1,7 +1,0 @@
-Reported by: Rylie (Taleladar@yahoo.com)
-Time       : Fri Jul 11 06:55:15 2014
-Type       : unexplained behaviour
-Location   : ^VL/~a/canyon/room/cliff_edge
-Status     : NEW
-Bug        : I cast vermin horde on an animal but it died shortly after. But then the two rats that appeared did not go away. I tried attacking one of the rats, then it started attacking ITSELF. Sometimes it did attack me too though. Or perhaps it was the other rat hitting it, but the message came out wrong. Once the rat died, I got a message that both rats disappeared, but then there was a corpse left, which I skinned.
-Anyway, all that other behaviour is just bizarre, but the main issue is that the rats didn't disappear in the first place.

@@ -1,6 +1,0 @@
-Reported by: Gratian (cable2999@yahoo.com)
-Time       : Mon Sep 29 16:59:03 2014
-Type       : unexplained behavior
-Location   : ^SC/~a/meadow/rooms/meadow11
-Status     : NEW
-Bug        : Star fall ends when something in the room dies, meaning it will only hit the first thing if that thing dies.

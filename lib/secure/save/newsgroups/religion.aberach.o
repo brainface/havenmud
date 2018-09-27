@@ -1,11 +1,0 @@
-#/secure/lib/newsgroup.c
-__GroupId "religion.aberach"
-__RaceRestriction ""
-__TownRestriction ""
-__GuildRestriction ""
-__ClassRestriction ""
-__ReligionRestriction "Aberach"
-__FriendlyName "Aberach Faith"
-__ReadRankRestriction 1
-__PostRankRestriction 1
-__Posts ({(["author":"borsch","time":1314221307,"post":"As the biggest and best nosferatu faithful to Aberach, I claim the role of Leader.Any who challenge this rule, feel free to find me","subject":"command","read":({"borsch","melchezidek","duuk","alessandra","mahkefel","reythirren","torak","urien","atrus","vau","zeratul","zalbar",}),]),})

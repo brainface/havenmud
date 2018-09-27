@@ -1,6 +1,0 @@
-Reported by: Malitiae (rln.taylor@gmail.com)
-Time       : Fri Jun  9 11:21:40 2017
-Type       : unexplained behaviour
-Location   : ^SC/~t/haven/obj/yacht#78601 @ /domains/IN/~v/ocean/0,0
-Status     : NEW
-Bug        : I can't put paragraphs and line breaks in my story.  I have tried using \n and \n\n and \n \n.

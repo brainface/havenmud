@@ -1,6 +1,0 @@
-/secure/daemon/options.c line 30: syntax error
-/secure/daemon/options.c line 41: Undefined variable 'who'
-/secure/daemon/options.c line 41: Illegal LHS
-/secure/daemon/options.c line 42: Undefined variable 'file'
-/secure/daemon/options.c line 53: syntax error
-/secure/daemon/options.c line 61: Undefined variable 'who'

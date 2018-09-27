@@ -4,12 +4,12 @@
 /bin/addr_server
 /bin/driver
 /bin/portbind
-/lib/bak/*
+/lib/bak
 /lib/Fluff_LIB
-/lib/ftp/*
-/lib/log/*
-/lib/news/*
-/lib/realms/*
+/lib/ftp
+/lib/log
+/lib/news
+/lib/realms
 /lib/save/boxes
 /lib/save/estates
 /lib/save/kills

@@ -1,6 +1,0 @@
-Reported by: Adelmere (richiej@candrmurcek.com)
-Time       : Thu Feb 21 10:30:56 2013
-Type       : unexplained behaviour
-Location   : ^EG/~t/grymxoria/room/p_inn
-Status     : NEW
-Bug        : At The Arsenal in Grymxoria, vendor doesn't show items.  When asking to be shown something, the vendor shows the browse list again.

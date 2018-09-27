@@ -1,11 +1,0 @@
-#/secure/lib/newsgroup.c
-__GroupId "town.grymxoria"
-__RaceRestriction ""
-__TownRestriction "Grymxoria"
-__GuildRestriction ""
-__ClassRestriction ""
-__ReligionRestriction ""
-__FriendlyName "Grymxoria News"
-__ReadRankRestriction 1
-__PostRankRestriction 1
-__Posts ({(["time":1313400650,"author":"borsch","post":"This is Borsch Gorval I stand as High Lord of the Council of Grymxoria If any wish to test my worth come and pay tribute for I shall drink of your blood.","read":({"borsch","mahkefel","duuk","melchezidek","alessandra","kairii","reythirren","torak","urien","atrus","zeratul","zalbar",}),"subject":"attention",]),(["time":1316879206,"author":"borsch","post":"I am in discussions with faithful advocates of kylin. As it stands, both our faiths wish the same thing. return of The Law to the land. the death of the unlawful races. the toppling of the unlawful faiths. to this end, I am proposing a truce between the Aberach and Kylin faiths. more than a truce.  A union. The Union of the Law.","read":({"borsch","mahkefel","duuk","alessandra","reythirren","torak","urien","atrus","melchezidek","zeratul","zalbar",}),"subject":"kylin",]),})

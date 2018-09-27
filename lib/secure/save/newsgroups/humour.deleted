@@ -1,11 +1,0 @@
-#/secure/lib/newsgroup.c
-__GroupId "news.imm"
-__RaceRestriction ""
-__TownRestriction ""
-__GuildRestriction ""
-__ClassRestriction ""
-__ReligionRestriction ""
-__FriendlyName "Immortal News"
-__ReadRankRestriction 2
-__PostRankRestriction 2
-__Posts ({(["time":1241739790,"read":({"urien","ohtar","duuk","melchezidek","alessandra",}),"subject":"hear ye, hear ye!","author":"urien","post":"Good Evening,I have completed the following areas and awaiting for review:Averath Smoke Emporium:One ROOM, one NPC, nine OBJ's~urien/ashopLloryk Tobacco Shop:Two rooms, two NPC's, and nine OBJ's~urien/shop/Baria Smoke Hut:One room, one npc, and seven OBJ's~urien/bshop/Once those are done reviewing, send me a mail or a tell and i will fix them ASAP. We can even do a real-time QC if you prefer. These are tiny areas and shouldn't take more than five minutes to slice and dice.The Necromancer tower has been reviewed and all discrepancies have been changed. Awaiting implementation:~urien/tower/See you all for further updates!-Reverand Urien, Keeper of sorrows",]),(["read":({"duuk","melchezidek","alessandra",}),"time":1250465237,"subject":"hey imms","author":"duuk","post":"  Hey Immortals:  We need a solid area between level 40-80.  It needs  to be a good size so people can stay there a while.  A variation in moralities would not suck.",]),})

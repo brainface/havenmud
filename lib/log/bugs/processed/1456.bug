@@ -1,6 +1,0 @@
-Reported by: Melchezidek (jdhunneman@yahoo.com)
-Time       : Fri Dec  4 11:00:09 2015
-Type       : unexplained behaviour
-Location   : ~melchezidek/workroom
-Status     : NEW
-Bug        : RestoreLimb does not restore the limb to the appropriate parent limb if it exists. from /lib/livings/body.c line 952

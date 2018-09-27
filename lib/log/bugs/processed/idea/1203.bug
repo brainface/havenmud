@@ -1,6 +1,0 @@
-Reported by: Alkacius (fuzzydemon84@hotmail.com)
-Time       : Thu Mar 28 19:03:18 2013
-Type       : idea
-Location   : ^staff/room/start
-Status     : NEW
-Bug        : Let's remove the 'who' restriction for people who have AdvancedStartOptions or whatever enabled.

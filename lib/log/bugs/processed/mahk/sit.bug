@@ -1,8 +1,0 @@
-Reported by: Torak (bjorn.brown@yahoo.com)
-Time       : Fri Oct 26 18:21:47 2012
-Type       : unexplained behaviour
-Location   : ^CR/~t/gwonish/room/enclosement
-Status     : NEW
-Bug        : when i sit upon a sit capable object, the im not sending the message
-that i sat upon it just that i sit down
-and it appears that i am not sitting on it at all.

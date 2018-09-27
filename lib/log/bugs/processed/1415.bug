@@ -1,8 +1,0 @@
-Reported by: Victis (typical.stoner@gmail.com)
-Time       : Fri Oct 24 00:13:40 2014
-Type       : unexplained behaviour
-Location   : ^SC/~t/haven/room/imperial_road/ir2
-Status     : NEW
-Bug        : Mining appears to be broken.
-
-Not sure why I added extra spaces here, but whatever. So I can mine any room (in Glim for example) and I never receive any gems, nor a message about the room being "mined out". I just "continue to mine the ground" until I run out of stamina. FWIW, my mining is in the 150s at the time of this report.

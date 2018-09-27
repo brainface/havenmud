@@ -1,8 +1,0 @@
-Reported by: Teril (brainface_mike@yahoo.com)
-Time       : Tue Aug 10 23:49:40 2010
-Type       : unexplained behavior
-Location   : ^FM/~t/keryth/room/warehouse
-Status     : NEW
-Bug        : Josh and I did some awesome testing of horrible ideas last night. THe "classless" system described in the newbie handbook not only is a bad idea, it also is completely impossible. You can't buy skills with development points at level 0, and you can't advance to level 1 without skills. Therefore, you can't advance at all without a class, and trying to make a useless lamrani cook just flat out doesn't work.
-
-I'd think this should either be fixed or the reference to the classless system in the newbie doc should just be removed?

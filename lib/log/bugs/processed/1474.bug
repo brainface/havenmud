@@ -1,6 +1,0 @@
-Reported by: Verlischk (fuzzydemon84@hotmail.com)
-Time       : Sun Oct 16 12:53:29 2016
-Type       : unexplained behavior
-Location   : ^BR/~v/jungle/-3,3
-Status     : NEW
-Bug        : spell poison orbs has an extra space after the limb and before the period 'Your orb splatters onto Monkey's left arm .'

@@ -1,7 +1,0 @@
-Reported by: Melchezidek (jdhunneman@yahoo.com)
-Time       : Tue Oct 25 14:27:05 2016
-Type       : idea
-Location   : ~melchezidek/workroom
-Status     : NEW
-Bug        : Add handling for property 'NoBleed' so things like skeletons don't bleed. Because that's silly. Also, NoPoison, NoDisease, etc.
-Should be handled via various actions, eventBleed, eventPoison(this doesn't exist, should have a better name too), eventSuffer (also doesn't exist, but sounds exciting)

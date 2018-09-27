@@ -1,6 +1,0 @@
-Reported by: Melchezidek (jdhunneman@yahoo.com)
-Time       : Tue Jun 13 16:55:06 2017
-Type       : unexplained behaviour
-Location   : ~melchezidek/workroom
-Status     : NEW
-Bug        : So, Unique spells are kinda broken. If you ask a spell teacher to teach a unique spell, they teach it because someone updated all npcs to know all spells so we didn't have to SetSpellBook. This is obviously and issue and needs to be addressed. Note: asking to teach all spells does not teach unique spells, but direct asks to teach the specific spell does

@@ -1,9 +1,0 @@
-Reported by: Tanov (joshy1977@bigpond.com)
-Time       : Fri Jun 11 19:09:30 2010
-Type       : idea
-Location   : ^AV/~t/averath/room/church4
-Status     : NEW
-Bug        : The 'gate' spell currently requires a room to be loaded for it to work. It would be nice if casting
-gate on an NPC forces a room to load. This would give alot more places to gate to as at the moment
-with so few players you can only gate to where you have been. Not sure if 'teleport' or other similiar
-spells are the same but if they are they would also be better with this change.

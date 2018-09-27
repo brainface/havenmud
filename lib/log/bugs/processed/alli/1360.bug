@@ -1,7 +1,0 @@
-Reported by: Torak (bjorn.brown@yahoo.com)
-Time       : Tue Aug 12 17:11:41 2014
-Type       : typo
-Location   : ^SC/~a/mage_tower/grove/entrance
-Status     : NEW
-Bug        : the first noun in the set long here is grove.
-grove is not defined.

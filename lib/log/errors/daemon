@@ -1,8 +1,0 @@
-/daemon/morality.c line 122: syntax error
-/daemon/morality.c line 122: syntax error
-/daemon/recipes.c line 22: Undefined function LoadRecipes
-/daemon/recipes.c line 45: Type of returned value doesn't match function return type ( array vs mapping )
-/daemon/recipes.c line 65: Redeclaration of function create.
-/daemon/recipes.c line 47: Type of returned value doesn't match function return type ( array vs mapping )
-/daemon/recipes.c line 67: Redeclaration of function create.
-/daemon/recipes.c line 67: Redeclaration of function create.

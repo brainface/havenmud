@@ -1,4 +1,0 @@
-#/secure/daemon/letters.c
-NoClean 1
-__Letter "use AddUniqueSkills( ([ \"dodge\" :1, \"parry\" : 2, \"skilltoremove\" : 0 ]) )(I THINK that last one works to remove skills)Other skills are 4, not 3.(SetUniqueSkills was disabled so we wouldn't have to rewrite every cleric/priest trainer."
-__Folders (["torak":({"new",}),])

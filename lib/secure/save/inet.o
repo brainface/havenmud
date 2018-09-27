@@ -1,3 +1,0 @@
-#/secure/daemon/inet.c
-NoClean 1
-Services (["ftp":(/-1,"/secure/lib/net/ftp",1,/),])

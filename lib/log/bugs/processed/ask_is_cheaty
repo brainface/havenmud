@@ -1,7 +1,0 @@
-Reported by: Rylie (Taleladar@yahoo.com)
-Time       : Tue Jul 15 02:37:30 2014
-Type       : unexplained behaviour
-Location   : ^VL/~t/jidoor/room/misc_buildings/merchant_tower1
-Status     : NEW
-Bug        : using the ASK command to type a question completely bypasses any use of languages.
-So it is possible for two characters who do not share any common languages to get around that barrier by simply using ASK. It's just like using emote to cheat through it.

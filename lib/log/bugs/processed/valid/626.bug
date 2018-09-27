@@ -1,6 +1,0 @@
-Reported by: Fortunado (brainface_mike@yahoo.com)
-Time       : Sat Jul 18 08:13:02 2009
-Type       : unexplained behavior
-Location   : /lib/special/vehicle#79735 @ ^TR/~t/tairi/room/path11
-Status     : NEW
-Bug        : it can be hard to target ships with 's in their name (ie "the navigator's gambit"). shipwrights and boarding don't seem to work right, launch attack may not either

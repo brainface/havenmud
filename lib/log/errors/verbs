@@ -1,4 +1,0 @@
-/verbs/actions/sweep.c line 81: Undefined variable 'weapon'
-/verbs/actions/sweep.c line 85: Illegal to redeclare local name 'weapon'
-/verbs/actions/sweep.c line 31: Undefined variable 'ARMOUR_REINFORCED'
-/verbs/actions/polevault.c line 27: Undefined variable 'ARMOUR_REINFORCED'
