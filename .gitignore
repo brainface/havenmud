@@ -9,7 +9,8 @@
 /lib/ftp
 /lib/log
 /lib/news
-/lib/realms
+# adding /lib/realms back into git
+# /lib/realms
 /lib/save/boxes
 /lib/save/estates
 /lib/save/kills
