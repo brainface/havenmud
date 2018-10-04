@@ -23,7 +23,7 @@ static void create() {
 
   SetId( ({ "frost_armour" }) );
 
-  SetMass(500);
+  SetMass(10);
   SetMaterial( ({ "natural" }) );
   SetProperty("history",
     "This smells like necromancy, and recent at that. While moderately "
