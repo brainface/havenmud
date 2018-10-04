@@ -18,14 +18,15 @@
 #include <armour_class.h>
 #include <armour_types.h>
 #include <std.h>
-
+#include <conditions.h>
 inherit LIB_SPELL;
 
 // makes the armour object and forces target to wear it
-int CreateFrostArmour(object who, object target, int AC, int armour_type, string quality, string thickness, string id, int durability,
-string limb );
+int CreateFrostArmour(object who, object target, int AC, int armour_type, string quality, string thickness, string id, int durability, string limb );
 // returns true if they have available slots to wear armour on said limb
 int CanWearArmour(object target, string limb, int armour_type);
+// stop the channeling cleanly
+int EndChannel(object who);
 
 static void create() {
 spell::create();
@@ -65,7 +66,7 @@ varargs int eventCast(object who, int level, mixed n, object *t) {
   int chilliness = who->GetSkillLevel("necromancy") + who->GetSkillLevel("ice magic") * GetSpellLevel() / 100;
   int AC = ARMOUR_LEATHER;
   object armour = 0;
-  int exhaust = 0;
+  int channeling = 0;
   int weMadeAnyArmour = 0;
 
   // roughly equal level of mage
@@ -108,7 +109,7 @@ varargs int eventCast(object who, int level, mixed n, object *t) {
   if (durability < 500) {
     thickness = "thin";
   } else if (durability < 1000) {
-    thickness = "moderate";
+    thickness = "moderately";
   } else if (durability < 2500) {
     thickness = "thick";
   } else if (durability < 5000) {
@@ -119,46 +120,42 @@ varargs int eventCast(object who, int level, mixed n, object *t) {
 
   send_messages(GetMessage()[0],GetMessage()[1],who,target,environment(who));
 
+  channeling = 0;
+  who->AddCondition("Channeling Create Frost Armour", CONDITION_PREVENT_MOVE|CONDITION_PREVENT_MAGIC|CONDITION_PREVENT_COMBAT, 3);
   foreach (string limb in target->GetLimbs()) {
-    exhaust = 0;
-    if (CanWearArmour(target, limb, A_HELMET)) {
-      exhaust++;
-      CreateFrostArmour(who, target, AC, A_HELMET, quality, thickness, "helm", durability, limb );
+    if (CanWearArmour(target, limb, A_HELMET)) {    
+      channeling+=2;
+      call_out( (: CreateFrostArmour, who, target, AC, A_HELMET, quality, thickness, "helm", durability, limb :), channeling );
     } else if (CanWearArmour(target, limb, A_ARMOUR)) {
-      exhaust++;
-      CreateFrostArmour(who, target, AC, A_ARMOUR, quality, thickness, "cuirass", durability, limb );
+      channeling+=2;
+      call_out( (: CreateFrostArmour, who, target, AC, A_ARMOUR, quality, thickness, "cuirass", durability, limb :), channeling );
     } else if (CanWearArmour(target, limb, A_GLOVE)) {
-      exhaust++;
-      CreateFrostArmour(who, target, AC, A_GLOVE, quality, thickness, "gauntlet", durability, limb );
+      channeling+=2;
+      call_out( (: CreateFrostArmour, who, target, AC, A_GLOVE, quality, thickness, "gauntlet", durability, limb :), channeling );
     } else if (CanWearArmour(target, limb, A_PANTS)) {
-      exhaust++;
-      CreateFrostArmour(who, target, AC, A_PANTS, quality, thickness, "greave", durability, limb );
+      channeling+=2;
+      call_out( (: CreateFrostArmour, who, target, AC, A_PANTS, quality, thickness, "greave", durability, limb :), channeling);
     } else if (CanWearArmour(target, limb, A_BOOT)) {
-      exhaust++;
-      CreateFrostArmour(who, target, AC, A_BOOT, quality, thickness, "boot", durability, limb );
+      channeling+=2;
+      call_out( (: CreateFrostArmour, who, target, AC, A_BOOT, quality, thickness, "boot", durability, limb :), channeling);
     } else if (CanWearArmour(target, limb, A_WING)) {
-      exhaust++;
-      CreateFrostArmour(who, target, AC, A_WING, quality, thickness, "wing guard", durability, limb );
+      channeling+=2;
+      call_out( (: CreateFrostArmour, who, target, AC, A_WING, quality, thickness, "wing guard", durability, limb :), channeling );
     } else if (CanWearArmour(target, limb, A_TAIL)) {
-      exhaust++;
-      CreateFrostArmour(who, target, AC, A_TAIL, quality, thickness, "tail", durability, limb );
+      channeling+=2;
+      call_out( (: CreateFrostArmour, who, target, AC, A_TAIL, quality, thickness, "tail", durability, limb :), channeling );
     }
-
-    if (exhaust) {
-      // drain some stamina
-      who->AddStaminaPoints(-10);
-      if (who->GetStaminaPoints() < 50) {
-        who->eventPrint("You are too exhausted to continue channeling!");
-      break;
-      } else {
-        who->eventPrint("The conjuring drains you!");
-      }
-      weMadeAnyArmour += exhaust;
+    
+    if (channeling) {
+      weMadeAnyArmour += channeling;
     }
-  }
+  }  
 
   if (weMadeAnyArmour) {
-    // pass
+    // hypothetically we should be able to time this right, in practice conditions
+    // and callouts don't seem to be on the same timer, so i'm making the condition
+    // longer than it should be and then making a call out end it.
+    call_out( (: EndChannel, who :), channeling+1);
   } else {
     send_messages("wring","$agent_name $agent_verb $agent_possessive hands at "
       "$target_name and mutters things, but nothing much happens.",
@@ -171,11 +168,11 @@ int CanWearArmour(object target, string limb, int armour_type) {
   int canWear = 0;
   if (target->GetLimb(limb) && target->GetLimb(limb)["armours"]&armour_type) {
     canWear = 1;
-      foreach (object wornArmour in target->GetWorn(limb)) {
-        if (wornArmour->GetArmourType() == armour_type && wornArmour->GetArmourClass() > ARMOUR_CLOTH) {
-          canWear = 0;
-        }
+    foreach (object wornArmour in target->GetWorn(limb)) {
+      if (wornArmour->GetArmourType() == armour_type && wornArmour->GetArmourClass() > ARMOUR_CLOTH) {
+        canWear = 0;
       }
+    }
   }
   return canWear;
 }
@@ -187,10 +184,15 @@ int CanWearArmour(object target, string limb, int armour_type) {
  * iirc also there is a setnosave function--currently this shit saves perfectly and that took forever
  * to make happen, but it's not really in theme with snowflake armour
  */
-int CreateFrostArmour(object who, object target, int AC, int armour_type, string quality, string thickness, string id, int durability,
-string limb ) {
-  object armour;
-  debug ("creating: " + limb);
+int CreateFrostArmour(object who, object target, int AC, int armour_type, string quality, string thickness, string id, int durability, string limb ) {
+  object armour;                                                      
+                                                        
+  // whyyyy doesn't this work??
+  if (!who->GetCondition("Channeling Create Frost Armour")) {
+    return 0; 
+  }
+  
+  //debug ("creating: " + limb);
   armour = new(STD_SPELLS "obj/fa_armour");
   armour->SetArmourClass(AC);
   armour->SetArmourType(armour_type);
@@ -200,21 +202,37 @@ string limb ) {
   armour->SetMaxDamagePoints(durability);
   armour->SetSize(target->GetSize());
 
-  debug("checking armour:");
-  debug(armour->GetId()[0]);
-
-  debug(identify(armour));
+  // handle failed moves
   if (armour->eventMove(target)) {
+    debug("wear first "+id+" on "+limb);
+    debug(target->GetName());
     target->eventForce("wear first "+id+" on "+limb);
   } else {
-    // if it doesn't move, assume weight is the reason. There could be other reasons, 
+    // if it doesn't move, assume weight is the reason. There could be other reasons,
     // so this may really need a better test/conditionals.
     send_messages("be", "$agent_possessive_noun burden is too great!", target, 0, who);
     armour->eventDestruct();
+    EndChannel(who);
+    return 0;
   }
+  
+  // handle exhaustion
+  who->AddStaminaPoints(-10);
+  if (who->GetStaminaPoints() < 50) {
+    who->eventPrint("You are too exhausted to continue channeling!");
+    EndChannel(who);
+    return 0;
+  } else {
+    who->eventPrint("The conjuring drains you!");
+  }
+  who->AddCondition("Channeling Create Frost Armour", CONDITION_PREVENT_MOVE|CONDITION_PREVENT_MAGIC|CONDITION_PREVENT_COMBAT, 2);
+  
   return 1;
 }
 
+int EndChannel(object who) {
+  who->RemoveCondition("Channeling Create Frost Armour");
+}
 
 // this is the code duuk said to use, which isn't working in a different way but may
 // but the preferred way it should actually be handled.
@@ -249,3 +267,4 @@ string limb ) {
   return 1;
 }
 */
+
