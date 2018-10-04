@@ -20,7 +20,7 @@ static void create() {
 }
 
 mapping GetCondition(string m) {
-	if (!sizeof(keys(Conditions))) return ([]);
+  if (!sizeof(keys(Conditions))) return 0;
   if (Conditions[m]) return Conditions[m];
   else return ([ ]);
 }
