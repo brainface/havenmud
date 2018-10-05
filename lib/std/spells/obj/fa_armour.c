@@ -39,7 +39,13 @@ static void create() {
   SetValue(0);
   //call_out( (: SetupFrostArmour :), 0 );
   // MaxDamagePoints, DamagePoints?
-  AddSave( ({"Size", "ArmourClass", "ArmourType", "ExternalDesc", "Short", "Id" }) );  
+  AddSave( ({"Size", "ArmourClass", "ArmourType", "ExternalDesc", "Short", "Id" }) );
+  set_heart_beat(120);
+}
+
+// every two minutes, deteriorate
+void heart_beat() {
+  eventDeteriorate(MAGIC); // can't be HEAT or it'll dest entirely
 }
 
 // resist frost deterioriation
@@ -56,10 +62,19 @@ void eventDeteriorate(int DamageType) {
   room = environment(env);
 
   // TODO: something bad with fire.
+  // fuckit let's melt
+  if (DamageType & HEAT) {
+    call_out( (: eventMelt :) , 0);
+  }
 
-  //deteroirate normally and ignore my bullcrap.
+  // deteriorate normally if not cold damage
   if(!(DamageType & COLD)) {
+
     armour::eventDeteriorate(DamageType);
+    // dests the item if it's too worn out.
+    if (this_object()->GetDeterioration() >= 10) {
+      call_out( (: eventMelt :) , 0);      
+    }
     return;
   }
 
@@ -94,7 +109,7 @@ int eventMelt() {
       env = environment(wearer);
     }
     send_messages("", "$agent_possessive_noun " + GetKeyName() +
-    " melts away!", wearer, this_object(), env);    
+    " melts away!", wearer, this_object(), env);
   }
   eventDestruct();
 }
