@@ -14,3 +14,20 @@ If the identity used for this commit is wrong, you can fix it with:
  2 files changed, 252 insertions(+), 1 deletions(-)
  create mode 100644 git.log
  create mode 100644 lib/std/spells/conjuring_necromancy/frostarmour.c
+[master 3481ab4] Fri Oct  5 09:00:01 EDT 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 6 files changed, 384 insertions(+), 19 deletions(-)
+ create mode 100644 lib/realms/mahkefel/CMD_EVAL_TMP_FILE.c
+ create mode 100644 lib/realms/mahkefel/spells/frostarmour.c
+ create mode 100644 lib/realms/melchezidek/CMD_EVAL_TMP_FILE.c

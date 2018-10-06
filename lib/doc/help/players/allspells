@@ -74,6 +74,7 @@ conjuring necromancy
    wound: conjuring : 10, necromancy : 10
    acid blast: conjuring : 20, necromancy : 20
    bone shell: conjuring : 25, necromancy : 25
+   create frost armour: conjuring : 25, necromancy : 25
    cloud kill: conjuring : 30, necromancy : 30
    acid rain: conjuring : 50, necromancy : 50
    drain soul: conjuring : 60, necromancy : 60
