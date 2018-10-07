@@ -31,3 +31,17 @@ If the identity used for this commit is wrong, you can fix it with:
  create mode 100644 lib/realms/mahkefel/CMD_EVAL_TMP_FILE.c
  create mode 100644 lib/realms/mahkefel/spells/frostarmour.c
  create mode 100644 lib/realms/melchezidek/CMD_EVAL_TMP_FILE.c
+[master f7c39c1] Sat Oct  6 09:00:01 EDT 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 2 files changed, 18 insertions(+), 0 deletions(-)
