@@ -9,8 +9,9 @@ static void create() {
     "You are assigned a simple quest of exploration. One to "
     "to get you more familiar with the Southern Coast and to get you "
     "armour to help protect you outside Haven Town.  You must visit "
-    "Torny's Leather Emporium. Once there speak with Odele, she will be "
-    "of great assistance to you.\n"
+    "Torny's Leather Emporium, on the road west out of town beyond that "
+    "awful bandit camp. You'll notice it by the unfortunate smell. Once "
+    "there speak with Odele, she will be of great assistance to you.\n"
     "This quest is completed once you set foot inside the Leather Emporium."
     );
   SetTitle("the Equipped");
@@ -20,8 +21,8 @@ static void create() {
 }
 
 int CheckCompletedMission(object who) {
-  if (strsrch(base_name(environment(who)), 
-  	  "/domains/southern_coast/areas/leatherstore/leatherstore") != -1) {
+  if (strsrch(base_name(environment(who)),
+          "/domains/southern_coast/areas/leatherstore/leatherstore") != -1) {
      who->eventPrint("You have found the Odele the Generous. Congratulations!");
 
      who->AddExperience(500);

@@ -17,7 +17,7 @@ static void create() {
   SetMorality(100);
   SetRace("elf");
   SetClass("merchant");
-  SetLevel(50);
+  SetLevel(5);
   SetGender("male");
   SetVendorType(VT_ALL);
   SetLocalCurrency("imperials");
@@ -46,3 +46,4 @@ void makeChest() {
     }
   }
 }
+

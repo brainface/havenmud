@@ -8,7 +8,8 @@ static void create() {
   SetMissionDescription(
     "You are assigned a simple quest of exploration. One to "
     "expand your personal horizons and get you more familiar with "
-    "the Southern Coast. You must visit Platypus Bay.\n"
+    "the Southern Coast. You must visit Platypus Bay. It is further west, "
+    "right before you reach the crossroads to Sanctum.\n"
     "This quest is completed once you set foot along its beautiful shores."
     );
   SetTitle("the Vacationer");
@@ -26,8 +27,8 @@ int CheckCompletedMission(object who) {
   return 0;
 }
 
-/* This mission is the 2nd in a series of "visit" missions. 
- * This one requires you visit an area without benefit of directions. 
+/* This mission is the 2nd in a series of "visit" missions.
+ * This one requires you visit an area without benefit of directions.
  * It is required to have completed the 1st mission in the series first.
  */
 
@@ -35,3 +36,4 @@ int CanGetMission(object who) {
   if(who->GetQuestCompleted("Bandit Camp")) return 1;
   return 0;
 }
+
