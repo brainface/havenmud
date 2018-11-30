@@ -791,3 +791,23 @@ If the identity used for this commit is wrong, you can fix it with:
     git commit --amend --author='Your Name <you@example.com>'
 
  1 files changed, 14 insertions(+), 0 deletions(-)
+[master ba48538] Thu Nov 29 09:00:01 EST 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 8 files changed, 75 insertions(+), 11 deletions(-)
+ mode change 100755 => 100644 lib/domains/southern_coast/towns/haven/npc/taylor.c
+ create mode 100644 lib/domains/southern_coast/virtual/sign/havenroad180.c
+ create mode 100644 lib/domains/southern_coast/virtual/sign/havenroadn140.c
+ rewrite lib/save/skills.o (68%)
+ mode change 100755 => 100644 lib/std/missions/southern_coast/visit_leather_equipper.c
+ mode change 100755 => 100644 lib/std/missions/southern_coast/visit_plat_bay.c
