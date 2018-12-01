@@ -142,7 +142,7 @@ static void SetupRoom(int x, int y) {
   if (x == -32 && y == 0) inv += ([ SOUTHERN_COAST_VIRTUAL "sign/havenroadn320" : 1]);
   if (x == -36 && y == 0) inv += ([ SOUTHERN_COAST_VIRTUAL "sign/havenroadn360" : 1]);
   if (x == 18 && y == 0) inv += ([ SOUTHERN_COAST_VIRTUAL "sign/havenroad180" : 1]);
-if (x == -14 && y == 0) inv += ([ SOUTHERN_COAST_VIRTUAL "sign/havenroadn140" : 1]);
+  if (x == -14 && y == 0) inv += ([ SOUTHERN_COAST_VIRTUAL "sign/havenroadn140" : 1]);
 
     SetLong(long);
     SetItems(items);

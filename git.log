@@ -811,3 +811,23 @@ If the identity used for this commit is wrong, you can fix it with:
  rewrite lib/save/skills.o (68%)
  mode change 100755 => 100644 lib/std/missions/southern_coast/visit_leather_equipper.c
  mode change 100755 => 100644 lib/std/missions/southern_coast/visit_plat_bay.c
+[master 114e36a] Fri Nov 30 09:00:01 EST 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 7 files changed, 142 insertions(+), 7 deletions(-)
+ create mode 100644 lib/doc/help/players/blind
+ create mode 100644 lib/doc/help/players/multiplay
+ create mode 100644 lib/doc/help/players/regions
+ mode change 100755 => 100644 lib/domains/southern_coast/towns/haven/room/storage_rooms/str_sh.c
+ rewrite lib/save/skills.o (68%)
+ create mode 100644 lib/std/obj/digging/hoe.c
