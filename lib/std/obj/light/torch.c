@@ -12,7 +12,7 @@ static void create() {
   SetAdjectives( ({ "wooden" }) );
   SetFlickerString("flickers slightly");
   SetMaxFuel(200);
-  SetValue(10);
+  SetValue(0);
   SetMaterials( ({ "wood" }) );
   SetRadiantLight(30);
   SetHeat(20);
@@ -22,3 +22,4 @@ static void create() {
   SetDamageType(BLUNT);
   SetWeaponType("blunt");
 }
+
