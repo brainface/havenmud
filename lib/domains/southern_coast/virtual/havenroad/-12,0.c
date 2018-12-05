@@ -1,4 +1,5 @@
 /*  The attachment room for Arathorn's area */
+// mahk 2018: added items, changed short
 #include <lib.h>
 #include <domains.h>
 #define ARATHORN 1
@@ -8,7 +9,7 @@ int PreExit(string);
 
 static void create() {
   room::create();
-  SetShort("along the Haven Road");
+  SetShort("along Havenroad far north of a keep");
   SetExits( ([
      "west" : SOUTHERN_COAST_VIRTUAL + "havenroad/-13,0",
      "east" : SOUTHERN_COAST_VIRTUAL + "havenroad/-11,0",
@@ -24,6 +25,18 @@ static void create() {
   SetSmell( ([
      "default" : "The smell of burnt carnage carries on the air.",
     ]) );
+  SetItems( ([
+    ({"keep"}) : "Almost lost in the smoke and mist, the massive stone keep "
+      "looms over the lands to the south.",
+    ({"lands", "land" }) : "Fields and farms cover the plains under the "
+      "watchful keep. Ominous plumes of smoke rise here and there amidst the "
+      "fields.",
+    ({"field","field","farm","farms", "smoke", "plume","plumes"}): 
+      "It's hard to tell from here if the smoke rises from distant campfires "
+      "or burning farms.",
+  ]) );
+  
+  
  }
 
 int PreExit(string south) {
