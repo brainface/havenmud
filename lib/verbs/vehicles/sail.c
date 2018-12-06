@@ -73,12 +73,12 @@ mixed do_sail_str(string str) {
     ship->GetVehicleSize() + ", Rain: " +
     (WEATHER_D->GetRaining(environment(ship)->GetDomain()) == 10 ? "Yes" : "No") );
 
-  foreach(object ep in eP) {                        
-    enemies += ep->GetSkillLevel("sailing");              
+  foreach(object ep in eP) {
+    enemies += ep->GetSkillLevel("sailing");
     // navigation now sees a path through the ships because phhhbbt.
-    enemies -= random(who->GetSkillLevel("navigation"));  
-  }     
-  if (enemies < 0) enemies = 0; 
+    enemies -= random(who->GetSkillLevel("navigation"));
+  }
+  if (enemies < 0) enemies = 0;
   success = who->eventCheckSkill("sailing", enemies + con, 0,  enemies);
   if (who->GetTestChar()) if (enemies)
     debug("success: " + success + "eP->sailing: " + enemies);
@@ -91,7 +91,14 @@ mixed do_sail_str(string str) {
   send_messages("sail",
     "$agent_name $agent_verb the ship " + str + ".",
     this_player(), 0, ship);
-  if (success < 0) {
+  
+  // mahk 2018: make npcs no longer fail sailing checks when not in combat
+  // too many lost ferries, too much hassle
+  if (!playerp(who) && !enemies ) {
+    success = 1;
+  }
+  
+  if (success <= 0) {
     switch(random(100)) {
       case 0..50:
         ship->eventPrint(who->GetCapName() + " hits some floating debris.");
@@ -112,8 +119,6 @@ mixed do_sail_str(string str) {
         ship->AddDamagedSystem("sails");
         break;
     }
-  }
-  if (success <= 0) {
     if (!enemies) who->eventPrint("The ship doesn't move.");
     if (enemies) who->eventPrint("You fail to evade the ship's enemies.");
     return 1;
