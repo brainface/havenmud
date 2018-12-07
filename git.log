@@ -911,3 +911,15 @@ If the identity used for this commit is wrong, you can fix it with:
  mode change 100755 => 100644 lib/domains/southern_coast/virtual/havenroad/-12,0.c
  create mode 100644 lib/realms/melchezidek/status.c
  rewrite lib/save/skills.o (68%)
+# On branch master
+# Changed but not updated:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    gittyup.sh~
+#	deleted:    lib/realms/mahkefel/CMD_EVAL_TMP_FILE.c
+#	deleted:    lib/realms/mahkefel/frostarmour.c
+#	deleted:    lib/realms/melchezidek/CMD_EVAL_TMP_FILE.c
+#	deleted:    lib/std/spells/test_spells/frostarmour.c
+#
+no changes added to commit (use "git add" and/or "git commit -a")

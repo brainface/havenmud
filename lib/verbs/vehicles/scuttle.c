@@ -16,7 +16,11 @@ static void create() {
 
 mixed can_scuttle() {
   object env = environment(this_player());
+  object who = this_player();
   if (!vehiclep(env)) return "You can only scuttle ships.";
+  if (who->GetSleeping()) return "You are asleep!";
+  if (who->GetParalyzed()) return "You are paralyzed!";
+  if (who->GetStaminaPoints() < 25) return "You are too tired.";  
   return env->CanScuttle(this_player());
 }
 
