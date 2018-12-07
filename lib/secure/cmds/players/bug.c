@@ -34,11 +34,6 @@ static void EndReport(string type, string data, string file) {
     int x;
 
     if( !type ) {
-        message("system", "%^BOLD%^YELLOW%^Estates and worn storage (backpacks) are currently not "
-                "quite working as intended. Please do not submit bugs on them. As "
-                "well, charter captains runtime when a ticket is given to them. "
-                "All are tenacious known issues and will be fixed as time allows.%^RESET%^",
-                this_player());
 	message("system", "Choose a bug type from among the following:\n",
 		this_player());
 	message("system", "\tidea (some nifty idea to add to the game)",

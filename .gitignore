@@ -1,9 +1,10 @@
 *.bak
 *.x
 *.new
-/bin/addr_server
-/bin/driver
-/bin/portbind
+# We want these for easy testmud provisioning. Because compiling sucks.
+#/bin/addr_server
+#/bin/driver
+#/bin/portbind
 /lib/bak
 /lib/Fluff_LIB
 /lib/ftp

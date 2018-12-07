@@ -923,3 +923,24 @@ If the identity used for this commit is wrong, you can fix it with:
 #	deleted:    lib/std/spells/test_spells/frostarmour.c
 #
 no changes added to commit (use "git add" and/or "git commit -a")
+[master 39f271a] Fri Dec  7 09:00:01 EST 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 8 files changed, 137 insertions(+), 28 deletions(-)
+ mode change 100755 => 100644 lib/domains/havenwood/towns/parva/room/str_shop.c
+ rewrite lib/domains/southern_coast/areas/leatherstore/store.c (68%)
+ mode change 100755 => 100644
+ mode change 100755 => 100644 lib/domains/southern_coast/towns/haven/room/storage_rooms/str_sm.c
+ rewrite lib/save/skills.o (68%)
+ create mode 100644 lib/std/missions/southern_coast/visit_natural_store.c
+ create mode 100644 lib/std/obj/storage/scabbard.c
