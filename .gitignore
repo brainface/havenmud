@@ -8,7 +8,7 @@
 /lib/bak
 /lib/Fluff_LIB
 /lib/ftp
-/lib/log
+/lib/log/*
 /lib/news
 # adding /lib/realms back into git
 # /lib/realms
