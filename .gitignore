@@ -24,7 +24,9 @@
 /lib/save/banish.o
 /lib/save/bugs.o
 /lib/save/clans.o
-/lib/save/economy.o
+# economy can go into the .git i think
+# currency differences
+# /lib/save/economy.o
 /lib/save/events.o
 /lib/save/guild.o
 /lib/save/intermud.o
