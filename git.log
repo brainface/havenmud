@@ -959,3 +959,17 @@ If the identity used for this commit is wrong, you can fix it with:
 
  2 files changed, 6 insertions(+), 1 deletions(-)
  create mode 100755 lib/save/economy.o
+[master 7a7dd1a] Sun Dec  9 09:00:01 EST 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 1 files changed, 15 insertions(+), 0 deletions(-)
