@@ -12,7 +12,7 @@ inherit LIB_HELP;
 
 static void create() {
    help::create();
-   SetHelp("Syntax: fix <see below>\n" 
+   SetHelp("Syntax: fix <see below>\n"
            "This command is useful for fixing many problems. \n\n"
            "<ring> Restore lost wedding rings. Note you must have a "
              "spouse for this to work. \n\n"
@@ -41,8 +41,8 @@ mixed cmd(string args) {
    string str = 0;
    string *spell_list = ({});
    int ti;
-   
-   switch(args) { 
+
+   switch(args) {
      case "oocname":
        if (who->GetEmail() == "fuzzydemon84@hotmail.com")
          who->SetOOCName("john");
@@ -98,7 +98,7 @@ mixed cmd(string args) {
       who->eventMove(str);
       return "Exits repaired.";
       break;
-    case "spells": 
+    case "spells":
        spell_list = SPELLS_D->GetSpells();
        foreach(string spell in keys(who->GetSpellBook())) {
                if (member_array(spell, spell_list) == -1) {
@@ -107,7 +107,7 @@ mixed cmd(string args) {
          }
        return "Your spells have been fixed.";
        break;
-    case "songs": 
+    case "songs":
        spell_list = SONGS_D->GetSongs();
        foreach(string spell in keys(who->GetSongBook())) {
                if (member_array(spell, spell_list) == -1) {
@@ -146,7 +146,7 @@ mixed cmd(string args) {
         }
       if (!who->GetGuild())  return "You are not in a guild!";
       if (!tmp = new(STD_GUILD + who->GetGuild())) return "Could not load guild object.";
-      tmp->eventMove(who);  
+      tmp->eventMove(who);
       tmp->eventPrint("Fixed.");
       return 1;
       break;
@@ -160,3 +160,4 @@ mixed cmd(string args) {
     }
   return "Wtf?";
 }
+

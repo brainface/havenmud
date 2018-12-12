@@ -15,6 +15,7 @@ static void create() {
       "faith"      : 35,
       "evokation" : 35,
      ]) );
+     SetCooldown(6);
      SetDamageType(MAGIC);
      SetAutoDamage(0);
      SetMorality(0);
@@ -22,7 +23,9 @@ static void create() {
           "This clerical evokation spell allows the "
           "caster to create a shockwave to blast "
           "where the target is standing stunning them and knocking them to the "
-          "ground.");
+          "ground.\n"
+          "This spell scales with level."
+          );
 }
 
 int CanCast(object who, int level, string limb, object array targets) {
@@ -41,31 +44,21 @@ int eventCast(object who, int level, mixed limb, object array targets) {
      int chance;
      chance = level + random((int)who->GetSkillLevel("faith"));
     chance -= targets[0]->GetLevel() * 5;
-
+    
     if(!present(targets[0]->GetKeyName(),environment(who))) return 0;
-    	
-    if( CanAttack(who, targets, GetSpellLevel() + level/5) == - 1 ) {
-            who->eventPrint("Your powers fail you.");
-            return 0;
-        } 
 
-        if (chance < 0) {
-          send_messages( ({ "look","shake" }), "$target_name "
-                                   "$target_verb somewhat "
-                                   "stunned, but "
-                                   "$target_nominative "
-                                   "$target_verb it off "
-                                   "immediately.",who,
-                                   targets,
-                                   environment(who));
-          return 1;
-     } else {
-          send_messages("shake", "$agent_name $agent_verb "
+    // scale with level
+    if( CanAttack(who, targets, who->GetSkillLevel("evokation")/2 + level/5) == -1 ) {
+      who->eventPrint("Your powers fail you.");
+      return 0;
+    }
+    who->AddCooldown(GetSpell(), GetCooldown());
+
+    send_messages("shake", "$agent_name $agent_verb "
                      "$target_name with a %^RED%^shockwave%^RESET%^."
                      ,who,targets,
                      environment(who));
-          targets->SetParalyzed(chance);
-         targets->eventCollapse();
-          return 1;
-     }
+    targets->eventCollapse();
+    return 1;
 }
+
