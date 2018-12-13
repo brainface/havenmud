@@ -1003,3 +1003,20 @@ If the identity used for this commit is wrong, you can fix it with:
 
  2 files changed, 18 insertions(+), 3 deletions(-)
  rewrite lib/save/skills.o (68%)
+[master 0457494] Wed Dec 12 09:00:01 EST 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 4 files changed, 63 insertions(+), 50 deletions(-)
+ mode change 100755 => 100644 lib/cmds/common/quests.c
+ mode change 100755 => 100644 lib/cmds/players/fix.c
+ mode change 100755 => 100644 lib/std/spells/faith_evokation/shockwave.c
