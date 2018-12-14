@@ -1020,3 +1020,19 @@ If the identity used for this commit is wrong, you can fix it with:
  mode change 100755 => 100644 lib/cmds/common/quests.c
  mode change 100755 => 100644 lib/cmds/players/fix.c
  mode change 100755 => 100644 lib/std/spells/faith_evokation/shockwave.c
+[master fd19872] Thu Dec 13 09:00:01 EST 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 3 files changed, 299 insertions(+), 3 deletions(-)
+ create mode 100755 lib/doc/old_general_faq
+ rewrite lib/save/skills.o (68%)

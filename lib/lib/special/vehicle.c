@@ -551,7 +551,7 @@ varargs int eventLaunchWeapons(object who, object target, string weapon) {
     }
   hasAttacked += ({who}); 
   if (userp(who))
-  AddCrystals(-50);
+  AddCrystals(-5);
 }
 
 int eventHyperjump(object who, string sx, string sy, string sz) {
