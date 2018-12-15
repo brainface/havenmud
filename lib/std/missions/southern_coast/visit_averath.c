@@ -18,20 +18,27 @@ static void create() {
 }
 
 int CheckCompletedMission(object who) {
+  object room;
+  
+  if (!environment(who)) return 0;
+  room = environment(who);
+  
+  if (vehiclep(room)) return 0;
+  
   if (strsrch(base_name(environment(who)), "/domains/averath") != -1) {
-     who->eventPrint("You have found Averath. Congratulations!");
-
-     who->AddExperience(2500);
-     return 1;
-    }
+      who->eventPrint("You have found Averath. Congratulations!");
+      who->AddExperience(2500);
+      return 1;
+  }
   return 0;
 }
 
-/* This mission is the 2nd in a series of "visit" missions. 
- * This one requires you visit an area without benefit of directions. 
+/* This mission is the 2nd in a series of "visit" missions.
+ * This one requires you visit an area without benefit of directions.
  * It is required to have completed the 1st mission in the series first.
  */
 
 int CanGetMission(object who) {
   return 1;
 }
+

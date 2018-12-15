@@ -31,7 +31,7 @@ static void create() {
   AddCurrency("imperials", random(100)+1);
   SetStorageRoom(STORE_DIR + "store");
   SetProperty("no bump", 1);
-  SetVendorType(VT_ARMOUR);
+  SetVendorType(VT_ARMOUR|VT_CLOTHING);
 
   call_out( (: makeChest :), 0);
 }
