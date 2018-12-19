@@ -4,12 +4,12 @@ Koblich
 SIZE_SMALL
 strength:20:4
 charisma:20:5
-agility:25:3
-coordination:25:3
+agility:25:2
+coordination:25:2
 durability:20:4
 wisdom:20:3
 intelligence:15:4
-luck:25:3
+luck:25:1
 torso:0:1:A_ARMOUR,A_BODY_ARMOUR,A_CLOAK,A_VEST,A_SHIRT,A_BELT
 head:torso:1:A_VISOR,A_HELMET,A_AMULET
 left leg:torso:2:A_LONG_BOOT,A_BODY_ARMOUR,A_PANTS,A_LONG_SOCK
