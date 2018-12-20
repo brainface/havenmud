@@ -6,10 +6,12 @@
 # line 1: race name
 # line 2: min sight value:max sight value
 # line 3: language (case sensitive)
-# line 4..n: damage type:resistance level
+# line 4: size
+# line 5..n: damage type:resistance level
 # line n+1..o: stat:average value:stat class
 # line o+1..p: limb:parent limb:limb class:comma separated armour types
 # line p+1..q: hand:number of fingers
+# size comes from /include/size.h
 # damage types come from /include/damage_types.h
 # armour types come from /include/armour_types.h
 # Note that you may in fact have no resistances, thus line 4 would be

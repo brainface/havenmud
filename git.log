@@ -1113,3 +1113,18 @@ If the identity used for this commit is wrong, you can fix it with:
     git commit --amend --author='Your Name <you@example.com>'
 
  1 files changed, 16 insertions(+), 0 deletions(-)
+[master a64caca] Wed Dec 19 09:00:01 EST 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 5 files changed, 60 insertions(+), 32 deletions(-)
+ mode change 100755 => 100644 lib/domains/southern_coast/towns/haven/npc/healer.c

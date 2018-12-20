@@ -10,6 +10,7 @@ static void create() {
   SetAmbientLight(40);
   SetObviousExits("west, or \"enter <desintation>\"");
   SetItems( ([
+     "arcanith"   : "/domains/frostmarches/towns/arcanith/room/ruins1",
      "baria"      : "/domains/baria/towns/baria/room/path9",
      "durgoroth"  : "/domains/frostmarches/towns/durgoroth/room/road01",
      "glimmerdin" : "/domains/crystal_reaches/towns/glimmerdin/room/gh_central",
@@ -45,6 +46,7 @@ static void create() {
   ]) );
 
   SetEnters( ([
+     "arcanith"   : "/domains/frostmarches/towns/arcanith/room/ruins1",
      "baria"      : "/domains/baria/towns/baria/room/path9",
      "durgoroth"  : "/domains/frostmarches/towns/durgoroth/room/road07",
      "glimmerdin" : "/domains/crystal_reaches/towns/glimmerdin/room/gh_central",
