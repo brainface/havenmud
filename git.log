@@ -1128,3 +1128,25 @@ If the identity used for this commit is wrong, you can fix it with:
 
  5 files changed, 60 insertions(+), 32 deletions(-)
  mode change 100755 => 100644 lib/domains/southern_coast/towns/haven/npc/healer.c
+[master 015df2b] Thu Dec 20 09:00:01 EST 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 15 files changed, 81 insertions(+), 67 deletions(-)
+ rewrite lib/doc/help/races/orc (100%)
+ mode change 100755 => 100644
+ mode change 100755 => 100644 lib/realms/mahkefel/ideas_area/library/npc/wind_mephit.c
+ rewrite lib/save/races.o (79%)
+ mode change 100755 => 100644 lib/secure/cfg/player_races/dark-dwarf
+ mode change 100755 => 100644 lib/secure/cfg/player_races/gnoll
+ mode change 100755 => 100644 lib/secure/cfg/player_races/kobold
+ mode change 100755 => 100644 lib/secure/cfg/player_races/lizardman
