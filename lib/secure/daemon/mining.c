@@ -164,7 +164,7 @@ void eventMine(object who, object where) {
   if (!where->GetProperty("MinedOut")) {
     where->SetProperty("MinedOut",0);
   } else {
-    if ( where->GetProperty("MinedOut") > (skill / 10 - 5)) {
+    if ( where->GetProperty("MinedOut") > (skill / 10 - 15)) {
       who->eventPrint("You've stripped " + strip_colours(where->GetShort()) + " bare!");
       map_delete(Miners, who);
       return;

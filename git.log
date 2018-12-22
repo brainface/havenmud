@@ -1150,3 +1150,21 @@ If the identity used for this commit is wrong, you can fix it with:
  mode change 100755 => 100644 lib/secure/cfg/player_races/gnoll
  mode change 100755 => 100644 lib/secure/cfg/player_races/kobold
  mode change 100755 => 100644 lib/secure/cfg/player_races/lizardman
+[master cdc12f5] Fri Dec 21 09:00:01 EST 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 6 files changed, 39 insertions(+), 16 deletions(-)
+ mode change 100755 => 100644 lib/doc/help/stats/agility
+ mode change 100755 => 100644 lib/doc/help/stats/coordination
+ rewrite lib/save/skills.o (68%)
+ mode change 100755 => 100644 lib/secure/cfg/player_races/muezzin
