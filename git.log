@@ -1197,3 +1197,18 @@ If the identity used for this commit is wrong, you can fix it with:
     git commit --amend --author='Your Name <you@example.com>'
 
  1 files changed, 15 insertions(+), 0 deletions(-)
+[master cb30544] Mon Dec 24 09:00:01 EST 2018 snapshot
+ Committer: haven <haven@haven.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 3 files changed, 18 insertions(+), 4 deletions(-)
+ rewrite lib/save/skills.o (68%)
