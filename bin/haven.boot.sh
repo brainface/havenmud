@@ -7,7 +7,8 @@
 # 		in easy /etc/init.d/haven [start|stop|restart|status] capacity
 #
 export  MUDDIR=/home/haven/haven
-LOG="/var/log/mud/start.log"
+#LOG="/var/log/mud/start.log"
+LOG="/home/haven/start.log"
 
 umask 0010
 start() {
@@ -23,11 +24,13 @@ start() {
 				sleep 1
 				echo -e "[`date`] Starting Address Server with PID $(/sbin/pidof addr_server)." >>$LOG
 			fi
+            touch $MUDDIR/lib/log/runtime
 			$MUDDIR/bin/driver $MUDDIR/bin/haven&
 			sleep 1
 			echo -e "[`date`] HavenMud started with PID $(/sbin/pidof driver).">>$LOG
 			# check if backups need to be run
-			sh /home/haven/backup.sh&
+            # comment out for testmud
+			#sh /home/haven/backup.sh&
 		
 	fi
 	}

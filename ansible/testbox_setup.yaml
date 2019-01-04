@@ -1,0 +1,49 @@
+---
+
+- name: Setup Haven Test Machine
+  hosts: all
+  become: yes
+  tasks:
+    - name: Create haven user
+      become: yes
+      user:
+        name: haven
+        comment: "HavenMud"
+        shell: /bin/bash
+
+    - name: Get some packages
+      become: yes
+      package:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - vim
+        - glibc.i686
+
+    - name: Move Startup Script
+      file:
+        src: "/home/haven/haven/bin/haven.boot.sh"
+        dest: "/home/haven/haven.boot.sh"
+        state: link
+        force: yes
+
+    - name: Set Start at Boot
+      cron:
+        name: Start Mud at Startup
+        special_time: reboot
+        job: "/home/haven/haven.boot.sh start&"
+        user: haven
+
+    - name: Ensure Mud Stays Up
+      cron:
+        name: Re-Run Mud if it goes down
+        job: "/home/haven/haven.boot.sh start >>/home/haven/start.log"
+        user: haven
+
+    - name: Create Mud Log dir
+      cron:
+        name: Create Mud Log Dir
+        job: "mkdir /home/haven/haven/lib/log"
+        special_time: reboot
+        user: haven
+
