@@ -15,7 +15,7 @@ static void create() {
    SetRules("LIV");
    SetSpellType(SPELL_OTHER);
    SetSkills( ([ 
-      "heailng" : 100,
+      "healing" : 100,
       "faith"   : 100,
    ]) );
   SetMagicCost(250,51);
