@@ -1367,3 +1367,7 @@ If the identity used for this commit is wrong, you can fix it with:
     git commit --amend --author='Your Name <you@example.com>'
 
  1 files changed, 14 insertions(+), 0 deletions(-)
+[master df984cc] Sat Jan  5 09:00:01 EST 2019 snapshot
+ 2 files changed, 15 insertions(+), 3 deletions(-)
+ create mode 100644 lib/realms/torak/poisoncraft/plan
+ rewrite lib/save/skills.o (68%)
