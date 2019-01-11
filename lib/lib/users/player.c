@@ -281,8 +281,9 @@ int eventDie(object agent) {
     class death this_death;
         
     CHAT_D->eventSendChannel("Death", "players",
-     capitalize(GetKeyName()) + " was killed by " +
-     capitalize((agent->GetKeyName() || agent->GetShort())) + ".");
+     capitalize(GetKeyName()) + " (" + GetLevel() + ") was killed by " +
+             (agent ? capitalize(agent->GetKeyName()) : "an unknown source") +
+             (agent ? " (" + agent->GetLevel() + "). " : " (N)."));
     if(!GetTestChar())
       log_file("players/deaths", GetCapName() + " (" + GetLevel() +
              ") was killed by " +
