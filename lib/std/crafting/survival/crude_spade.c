@@ -2,12 +2,12 @@
  * crude crafted shovel
  */
 #include <lib.h>
-inherit LIB_LOCKPICK;
+inherit LIB_ITEM;
+inherit LIB_DIGGING;
 
 static void create() {
   ::create();
   SetShort("a crude spade");
-  SetPickBonus(5);
   SetId( ({ "shade" }) );
   SetAdjectives( ({ "crude" }) );
   SetKeyName("spade");
