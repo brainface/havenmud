@@ -198,7 +198,7 @@ void eventMine(object who, object where) {
     //if(skillxp < 1) skillxp = 1;
     food->eventMove(who);
     who->AddExperience(food->GetValue() * 5 + random(skill*2));
-    where->SetProperty("MinedOut",where->GetProperty("MinedOut")+random(3));
+  where->SetProperty("MinedOut",where->GetProperty("MinedOut")+random(2));
     RemoveMiner(who);
     return;
   }
