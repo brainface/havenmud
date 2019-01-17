@@ -6,7 +6,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a small rise");
   SetLong( "The small rise is capped by a wide, shallow hole.  A trail leads "
            "southeast through the trees that surround the area.");

@@ -10,7 +10,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("the base of a small hill");
   SetLong( "The road ends here at the base of a small hill and continues "
            "on to the east.  A tower of some sort rests at the summit of "

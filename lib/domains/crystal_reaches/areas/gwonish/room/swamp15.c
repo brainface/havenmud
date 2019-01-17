@@ -6,7 +6,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("nesting area");
   SetLong( "Shallow holes are dug out all about the area.  Many are filled "
            "with layers of grass or leaves.  The perimeter is defined by "

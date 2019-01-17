@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a fork in the road");
   SetLong( "The road splits here with a well traveled path leading north "
            "to a small cabin and the main road continuing to the southwest, "

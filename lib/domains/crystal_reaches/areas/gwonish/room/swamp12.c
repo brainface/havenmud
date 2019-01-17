@@ -6,7 +6,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("well trampled area");
   SetLong( "The ground here is almost barren of vegetation, due to the "
            "amount of footprints tracked through the mud.  Many trees have "

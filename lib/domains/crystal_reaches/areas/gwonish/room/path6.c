@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("at the top of a cliff");
   SetLong( "The road here takes advantage of the sloping terrain to start a "
            "series of switchbacks leading down the cliff.  The trees here "

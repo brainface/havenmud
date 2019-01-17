@@ -6,7 +6,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a filthy pool");
   SetLong( "The water here deepens into a deep pool filled with the remains "
            "of bloated carcasses trapped by a beaver's dam in the "

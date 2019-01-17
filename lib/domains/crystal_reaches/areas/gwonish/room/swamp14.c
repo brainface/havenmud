@@ -6,7 +6,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("outside");
+  SetClimate("tropical");
   SetShort("detention area");
   SetLong( "Blood cakes much of the ground here, pooling near the base of "
            "each of the three large trees here.  Connected to each of those "

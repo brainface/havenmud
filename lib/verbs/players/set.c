@@ -3,7 +3,7 @@
 #include <daemons.h>
 inherit LIB_VERB;
 
-string *Options = ({ "owner", "captain", "swimming", "marriage", "crew", "surname", "language", "status", "prompt", "autosave",});
+string *Options = ({ "owner", "captain", "swimming", "marriage", "crew", "surname", "language", "status", "prompt", "autosave", "accessibility"});
 
 static void create() {
   ::create();
@@ -21,6 +21,7 @@ static void create() {
           "           'set status to full/normal/off\n"
           "           'set prompt to on/off\n"
           "           'set autosave to quiet'\n"
+          "           'set accessibility to on/off'\n"
           "\nAllows the player to 'set' something.");
   }
 
@@ -160,7 +161,31 @@ mixed do_set_str_to_str(string verb, string style) {
   		this_player()->eventPrint("Autosave will do its job quietly now.");
   	}
   	return 1;
-  }  	
+  }
+  if (verb == "accessibility") {
+      switch(style) {
+        case "on":
+            if (creatorp(this_player())) {
+                this_player()->SetProperty("accessibility_mode", 1);
+            } else {
+                this_player()->SetPermanentProperty("accessibility_mode", 1);
+            }
+            this_player()->eventPrint("Accessibility mode enabled.");
+            break;
+        case "off":
+            if (creatorp(this_player())) {
+                this_player()->RemoveProperty("accessibility_mode");
+            } else {
+                this_player()->RemovePermanentProperty("accessibility_mode");
+            }
+            this_player()->eventPrint("Accessibility mode disabled.");
+            break;
+        default:
+            this_player()->eventPrint("You can set accessibility to on or off");
+            break;
+      }
+      return 1;
+  }	
   return -1;
 }
 

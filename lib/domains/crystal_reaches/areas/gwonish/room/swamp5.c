@@ -9,7 +9,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a soggy swamp");
   SetLong( "The water here swirls around a bit but has a generally "
            "western flow as it weaves around the trees and mudbars of the "

@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("amidst tidal pools");
   SetLong( "Water flows from pool to pool amidst pockets of trees and "
            "vegetation.  A Short distance across some especially soggy "

@@ -7,7 +7,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("atop a small hill");
   SetLong( "The grass atop this small hill is very well manicured.  "
            "Especially along the gravel path leading into the collumned "

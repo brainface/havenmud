@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("at the base of some rocks");
   SetLong( "The ground here is gradually becoming more solid, at points "
            "even rocky.  A trail has been chiseled up the side of the largest "

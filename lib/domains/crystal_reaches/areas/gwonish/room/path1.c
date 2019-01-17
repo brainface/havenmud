@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("outside west gate");
   SetLong( "An imposing gate stands open to the east granting access to "
            "the village within the stockade.  To the west a well paved "

@@ -7,7 +7,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a small channel");
   SetLong( "The mud here is much drier with only a small trickle of water "
            "flowing through a very small channel from the northeast." );

@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("at the top of a cliff");
   SetLong( "Trees block nearly every direction except the road leading "
            "the forest.  It extends to both south and northwest, curving "

@@ -6,7 +6,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("small clearing");
   SetLong( "The trees are thick enough surrounding this clearing that "
            "there are only two passages in or out.  The trail through the "

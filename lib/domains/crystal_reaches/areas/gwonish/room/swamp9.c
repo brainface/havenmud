@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("edge of a mudflat");
   SetLong( "The water barely trickles through here as it makes it's way "
            "to a channel in the west.  Many trees have taken root in the "
