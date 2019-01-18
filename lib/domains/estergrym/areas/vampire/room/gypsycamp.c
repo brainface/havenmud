@@ -8,7 +8,7 @@ inherit LIB_ROOM;
 static void create() {
   room::create();
 
-  SetClimate("outdoors");
+  SetClimate("temperate");
   SetShort("a gypsy camp");
   SetLong(
      "A small clearing opens up here, the only path leading back out to "   

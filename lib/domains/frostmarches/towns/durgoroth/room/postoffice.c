@@ -5,7 +5,7 @@ inherit LIB_POST_OFFICE;
 
 static void create() {
    post_office::create();
-   SetClimate("sub_arctic");
+   SetClimate("sub-arctic");
    SetTown("Durgoroth");
    SetShort("wreckage of a post office");
    SetLong("Theroof of this building seems destroyed in the "

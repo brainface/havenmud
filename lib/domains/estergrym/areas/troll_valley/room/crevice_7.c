@@ -12,7 +12,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("mountains");
+  SetClimate("temperate");
   SetShort("a filthy den");
   SetLong("Offal, bones and other disgusting things litter the ground "
           "here and hang from just about every crag in sight.  The canyon "

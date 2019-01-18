@@ -12,7 +12,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("mountains");
+  SetClimate("temperate");
   SetShort("a broad curve in the canyon");
   SetLong("The canyon here makes a broad curve from the northwest to the "
           "south.  It has also widened to a point where the sky once again "

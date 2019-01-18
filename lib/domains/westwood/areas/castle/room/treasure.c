@@ -20,6 +20,6 @@ SetLong("In this room, there are shelves lining the walls.  The "
 SetExits( ([
         "north" : C_ROOM + "throne",
         ]) );
-SetClimate("indoor");
+SetClimate("indoors");
 SetAmbientLight(60);
 }

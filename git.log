@@ -1399,3 +1399,6 @@ If the identity used for this commit is wrong, you can fix it with:
  rewrite lib/save/skills.o (68%)
 [master 444f4a6] Wed Jan 16 09:00:01 EST 2019 snapshot
  1 files changed, 3 insertions(+), 0 deletions(-)
+[master f3fbc28] Thu Jan 17 09:00:01 EST 2019 snapshot
+ 44 files changed, 887 insertions(+), 46 deletions(-)
+ create mode 100644 lib/lib/users/interactive.c.pre_accessibility

@@ -103,6 +103,7 @@ mixed eventAsk(object who, string args) {
                 default:
                   eventForce("speak I am not sure what you need. Do you need to be "
                              "resurrected, healed, or have a limb restored?");
+                      eventForce("tend wounds on " + who->GetName()); //mahk: make them help confused people.
                   break;
                 }
                 return 1;

@@ -9,7 +9,7 @@ inherit LIB_ROOM;
 static void create() {
   room::create();
 
-  SetClimate("outdoors");
+  SetClimate("temperate");
   SetDayLight(-60);
   SetShort("a sinister forest path");
   SetLong(

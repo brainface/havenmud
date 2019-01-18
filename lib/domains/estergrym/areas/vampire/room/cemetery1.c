@@ -5,7 +5,7 @@
 inherit LIB_ROOM;
 static void create() {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("temperate");
   SetShort("a gothic cemetery");
   SetLong(
      "There are graves here. I should add zombies because why the fuck not. "

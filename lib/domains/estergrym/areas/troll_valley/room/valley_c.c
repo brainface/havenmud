@@ -12,7 +12,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("mountains");
+  SetClimate("temperate");
   SetShort("a beautiful valley");
   SetLong("In the distance to the west a cottage rests, completing the "
           "image of perfection here in the valley.  In between here and "
