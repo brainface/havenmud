@@ -14,7 +14,7 @@ inherit LIB_ROOM;
 
 static void create() {
   room::create();
-  SetClimate("arctic");
+  SetClimate("sub-arctic");
   SetDomain("Frostmarches");
   SetNightLight(15); // torches
   SetShort("a practice field on the side of the mountain");

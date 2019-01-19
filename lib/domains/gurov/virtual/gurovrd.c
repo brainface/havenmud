@@ -8,6 +8,7 @@ int PreLagoon();
 
 static void create(int x, int y) {
   ::create();
+  SetClimate("sub-arctic");
   SetLong(
     "The Gurov Road passes from the far east near Estergrym to the far west "
     "near Keryth. All the lands of this valley are claimed by the Prince "

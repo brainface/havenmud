@@ -8,6 +8,7 @@ int BeenSearched;
 static void create() {
   ::create();
   BeenSearched = 0;
+  SetClimate("sub-arctic");
   SetExits( ([
     "east" : GUROV_ROOM "cr6",
     ]) );

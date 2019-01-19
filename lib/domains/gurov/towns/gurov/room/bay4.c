@@ -6,6 +6,7 @@ inherit LIB_FISHING;
 
 static void create() {
   ::create();
+  SetClimate("sub-arctic");
   SetProperty("coastal", 1);
   SetShort("the wharf in the Gurov Bay");
   SetLong(
