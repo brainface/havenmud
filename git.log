@@ -1407,3 +1407,6 @@ If the identity used for this commit is wrong, you can fix it with:
  create mode 100644 lib/realms/melchezidek/hiding_considerations
 [master 8b58dda] Sat Jan 19 09:00:01 EST 2019 snapshot
  38 files changed, 41 insertions(+), 2 deletions(-)
+[master dbcd9af] Sun Jan 20 09:00:01 EST 2019 snapshot
+ 2 files changed, 50 insertions(+), 0 deletions(-)
+ create mode 100644 lib/cmds/common/soulhelp.c
