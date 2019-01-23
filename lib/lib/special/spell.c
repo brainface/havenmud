@@ -1016,6 +1016,8 @@ void endCallback(object who) {
 }
 
 string GetHelp(string str) {
+         object who = this_player();
+//         debug("Who?: " + who->GetName());
 	 string tmp = "Syntax:   ";
 	 foreach(string rule in Rules) {
 	 	  tmp += "cast " + GetSpell();
@@ -1059,6 +1061,13 @@ string GetHelp(string str) {
 	if (sizeof(GetReligions())) 
 		tmp += "Religion: " + conjunction(GetReligions(), "or") + "\n";
 	if (UniqueSpell) tmp += "This spell is UNIQUE and must be taught by specific individuals.\n";
+        
+	/* If we know this spell, display what % we know it at - mel 1/22/2019 */
+        if (playerp(who)) {
+            if (member_array(str, keys(who->GetSpellBook())) != -1) {
+                 tmp += "\nYour Mastery: " + who->GetSpellLevel(str) + "%\n";
+            }
+        }
 	tmp += "\n" + ::GetHelp("bleh") + "\n";
 	return tmp;
 }
