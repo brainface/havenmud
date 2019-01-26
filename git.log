@@ -1420,3 +1420,7 @@ If the identity used for this commit is wrong, you can fix it with:
  rewrite lib/save/skills.o (68%)
 [master 2b8a801] Thu Jan 24 09:00:01 EST 2019 snapshot
  3 files changed, 10 insertions(+), 6 deletions(-)
+[master 8bba5cc] Fri Jan 25 09:00:01 EST 2019 snapshot
+ 3 files changed, 266 insertions(+), 0 deletions(-)
+ create mode 100644 lib/realms/mahkefel/CMD_EVAL_TMP_FILE.c
+ create mode 100644 lib/realms/mahkefel/goddammitmel

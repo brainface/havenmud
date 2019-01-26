@@ -235,7 +235,7 @@ string GetHelp() {
             " -c display color highlights on spells.\n\n"
             " -l sort spells by spell level.\n\n"
             " --sphere [sphere] show only spells of a certain sphere.\n\n"
-         " --type [healing, combat, defense, other]\n"
+            " --type [healing, combat, timed shield, damage shield, other]\n"
             "   show only spells of a certain type.\n\n"
             " --minlevel [#} do not show spells below given level.\n\n"
             " --maxlevel [#} do not show spells above given level.\n\n"
