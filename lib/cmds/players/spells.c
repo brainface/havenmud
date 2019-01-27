@@ -30,7 +30,8 @@ mixed cmd(string args) {
   mapping colors = ([ ]);
   string tmp, spell_list;
   int len, bSort, bColor, bAccessible = 0;
-  int minLevel, maxLevel = 0;
+  int minLevel, maxLevel;
+  int onlyMastered = 0; // -1 nonmastered only, 0 normal, 1 mastered only
   string onlySphere = "";
   string type = "";
   int nType = 0;
@@ -58,8 +59,10 @@ mixed cmd(string args) {
     // handle simple flags
     if (strsrch(args,"-c",) != -1) bColor = 1;
     if (strsrch(args,"-l",) != -1) bSort = 1;
+    if (strsrch(args,"-m",) != -1) onlyMastered = 1;
+    if (strsrch(args,"-n",) != -1) onlyMastered = -1;
     if (strsrch(args,"-v",) != -1) bAccessible = 0;
-    if (strsrch(args,"-a",) != -1) bAccessible = 1;
+    if (strsrch(args,"-a",) != -1) bAccessible = 1;    
     //args = replace_string(args," ","");
     // handle complex arguments
     foreach(string argument in explode(args, "--")) {
@@ -127,6 +130,13 @@ mixed cmd(string args) {
     // handle maxlevel argument
     if (maxLevel) {
       if(obj->GetSpellLevel() > maxLevel) continue;  
+    }
+    
+    // handle onlyMastered flag
+    if (onlyMastered == 1 && who->GetSpellLevel(spell) < 100) {
+      continue;
+    } else if (onlyMastered == -1 && who->GetSpellLevel(spell) >= 100) {
+      continue; 
     }
     
     // if we're doing colors, replace "spell name" with "[pell nam]".
@@ -234,13 +244,15 @@ string GetHelp() {
             "proficiency in each spell. These arguments are available:\n\n"
             " -c display color highlights on spells.\n\n"
             " -l sort spells by spell level.\n\n"
-            " --sphere [sphere] show only spells of a certain sphere.\n\n"
-         " --type [healing, combat, defense, other]\n"
-            "   show only spells of a certain type.\n\n"
-            " --minlevel [#} do not show spells below given level.\n\n"
-            " --maxlevel [#} do not show spells above given level.\n\n"
+            " -m show only mastered spells (100% trained.)\n\n"
+            " -n show only unmastered spells (less than 100% trained.)\n\n"
             " -a force accessible output.\n\n"
             " -v force nonaccessible output.\n\n"
+            " --sphere [sphere] show only spells of a certain sphere.\n\n"
+            " --type [healing, combat, defense, other]\n"
+            "   show only spells of a certain type.\n\n"
+            " --minlevel [#} do not show spells below given level.\n\n"
+            " --maxlevel [#} do not show spells above given level.\n\n"            
             "See also: skills, stats, status");
 }
 

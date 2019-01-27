@@ -1424,3 +1424,8 @@ If the identity used for this commit is wrong, you can fix it with:
  3 files changed, 266 insertions(+), 0 deletions(-)
  create mode 100644 lib/realms/mahkefel/CMD_EVAL_TMP_FILE.c
  create mode 100644 lib/realms/mahkefel/goddammitmel
+[master dd332b0] Sat Jan 26 09:00:01 EST 2019 snapshot
+ 4 files changed, 439 insertions(+), 37 deletions(-)
+ mode change 100755 => 100644 lib/cmds/players/spells.c
+ create mode 100644 lib/realms/mahkefel/spells/newcmd.c
+ rewrite lib/save/skills.o (68%)
