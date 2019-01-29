@@ -57,12 +57,12 @@ mixed cmd(string args) {
   // handle arguments    
   if (args) {
     // handle simple flags
-    if (strsrch(args,"-c",) != -1) bColor = 1;
-    if (strsrch(args,"-l",) != -1) bSort = 1;
-    if (strsrch(args,"-m",) != -1) onlyMastered = 1;
-    if (strsrch(args,"-n",) != -1) onlyMastered = -1;
-    if (strsrch(args,"-v",) != -1) bAccessible = 0;
-    if (strsrch(args,"-a",) != -1) bAccessible = 1;    
+      if (strsrch(args," -c",) != -1) bColor = 1;
+      if (strsrch(args," -l",) != -1) bSort = 1;
+      if (strsrch(args," -m",) != -1) onlyMastered = 1;
+      if (strsrch(args," -n",) != -1) onlyMastered = -1;
+      if (strsrch(args," -v",) != -1) bAccessible = 0;
+      if (strsrch(args," -a",) != -1) bAccessible = 1; 
     //args = replace_string(args," ","");
     // handle complex arguments
     foreach(string argument in explode(args, "--")) {
