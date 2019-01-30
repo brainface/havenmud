@@ -14,14 +14,14 @@ mixed CanPutInto(object who, object item);
 static void create() {
   ::create();
   SetKeyName("pole");
-  SetId( ({"pole"}) );
+  SetId( ({"pole", "flagpole"}) );
   SetAdjectives( ({"flag", "tall", "mithril"}) );
-  SetShort("a tall mithril flagpole");
+  SetShort("a tall mithril flag pole");
   SetLong(
-    "This is a tall flagpole made of mithril."
+    "This is a tall flag pole made of mithril."
   );
   SetBoxID("daln_flag_pole");
-  SetPreventGet("The flagpole refuses to budge.");
+  SetPreventGet("The flag pole refuses to budge.");
   SetMass(5000);
   SetMaterial("mithril");
   SetValue(0);
@@ -38,7 +38,7 @@ static void create() {
 }
 
 string GetExternalDesc() {
-  string desc;
+  string desc; 
   desc = ::GetExternalDesc();
   desc += ::GetInternalDesc();
   return desc;

@@ -74,6 +74,7 @@ static void create() {
     "pier" : ({ "wooden" }),
   ]) );  
   SetInventory( ([
+    DAL_NPC "necromancer" : 1,
     DAL_OBJ "grave1" : 1,
     DAL_OBJ "grave2" : 1,
   ]) );

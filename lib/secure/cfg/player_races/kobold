@@ -21,5 +21,6 @@ left hand:left arm:4:A_GLOVE,A_LONG_GLOVE,A_WEAPON,A_SHIELD,A_RING
 right hand:right arm:4:A_GLOVE,A_LONG_GLOVE,A_WEAPON,A_SHIELD,A_RING
 left hoof:left leg:4:A_BOOT,A_LONG_BOOT,A_SOCK,A_LONG_SOCK
 right hoof:right leg:4:A_BOOT,A_LONG_BOOT,A_SOCK,A_LONG_SOCK
+tail:torso:3:A_TAIL,A_WEAPON
 right hand:5
 left hand:5

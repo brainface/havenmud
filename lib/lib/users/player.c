@@ -847,11 +847,15 @@ int ResetLevel() {
       LastLevel = time();
       if (y > HighestLevel) {
         AddDevelopmentPoints((y-x) * 2);
-        if (random(100) < 6) {
-          eventPrint("%^YELLOW%^BOLD%^You gain a stat customization point.%^RESET%^");
-          AddCustomStats(1);
-          stats += ({ "%^YELLOW%^custom%^RESET%^" });
-        }
+        if (y < 51) {
+            AddCustomStats(1);
+        } else {
+            if (random(100) < 6) {
+              eventPrint("%^YELLOW%^BOLD%^You gain a stat customization point.%^RESET%^");
+              AddCustomStats(1);
+              stats += ({ "%^YELLOW%^custom%^RESET%^" });
+            }
+	}
         foreach(string stat in GetStats()) {
           if (GetBaseStatLevel(stat) < 125) {
             int chance = 0;
