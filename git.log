@@ -1437,3 +1437,22 @@ If the identity used for this commit is wrong, you can fix it with:
 [master 07a070b] Tue Jan 29 09:00:01 EST 2019 snapshot
  4 files changed, 13 insertions(+), 11 deletions(-)
  rewrite lib/save/unique.o (68%)
+[master 894cba3] Wed Jan 30 09:00:01 EST 2019 snapshot
+ 25 files changed, 601 insertions(+), 28 deletions(-)
+ mode change 100755 => 100644 lib/doc/help/races/lizardman
+ mode change 100755 => 100644 lib/doc/help/towns/gwonish
+ create mode 100644 lib/realms/mahkefel/gwonish/todo
+ create mode 100644 lib/realms/torak/dalnairn/npc/fighter.c
+ create mode 100644 lib/realms/torak/dalnairn/npc/necromancer.c
+ create mode 100644 lib/realms/torak/dalnairn/npc/rogue.c
+ create mode 100644 lib/realms/torak/dalnairn/obj/boots.c
+ create mode 100644 lib/realms/torak/dalnairn/obj/guardarmour.c
+ create mode 100644 lib/realms/torak/dalnairn/obj/knife.c
+ create mode 100644 lib/realms/torak/dalnairn/obj/pants.c
+ create mode 100644 lib/realms/torak/dalnairn/obj/shirt.c
+ create mode 100644 lib/realms/torak/dalnairn/obj/shoes.c
+ create mode 100644 lib/realms/torak/dalnairn/obj/sword.c
+ create mode 100644 lib/realms/torak/kyokushin/plan
+ rewrite lib/save/races.o (77%)
+ rewrite lib/save/unique.o (96%)
+ create mode 100644 lib/verbs/players/regenerate.c
