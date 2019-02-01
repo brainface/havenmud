@@ -13,21 +13,22 @@ static void create() {
   
   SetNightLight(15);
   SetExits( ([
-    "north"    : ROOM "/ruins6",
+    "north" : ROOM "/ruins6",
     "south" : ROOM "/ruins2",
   ]) );
 
   SetDayLong("The road continues to lead into the ruins.  Two buildings line "
-             "road.  The first has crumbled and has little substance.  The "
+             "the road.  The first has crumbled and has little substance.  The "
              "second building is taller and is still in decent condition.  "
-             "A set of stairs leads up to the next tier of the city. There "
-             "is a pale blue glow to the north.");
+             "A set of stairs leads up to the next tier of the city to the "
+             "north. There is a pale blue glow to the north.");
   SetNightLong("The road continues into the ruins.  Two shadowed buildings "
                "lie on either side of the road.  The first has "
                "decayed into little more than a pile of rubble.  The second "
                "on the other hand, looks to be in relatively good shape.  "
                "A set of stairs leads from this tier of the city to the "
-               "next.  A pale blue light illuminates the area to the north.");
+               "next to the north.  A pale blue light illuminates the area "
+               "to the north.");
 
   SetItems( ([
     ({ "single story building", "ruined building", "store", "building" })  :
@@ -58,7 +59,7 @@ static void create() {
   ]) );
 
   SetEnters( ([
-    "inn"   : ROOM "/inn",
+    "inn" : ROOM "/inn",
   ]) );
 
   SetSmell( ([
@@ -73,7 +74,7 @@ static void create() {
   SetInventory( ([
      NPC "/koboldm" : 1,
      NPC "/trader"  : 1,
-     NPC "/mule" : 1,
+     NPC "/mule"    : 1,
      NPC "/banker"  : 1,
   ]) );
 }

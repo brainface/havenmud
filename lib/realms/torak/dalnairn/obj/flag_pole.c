@@ -27,9 +27,6 @@ static void create() {
   SetValue(0);
   SetCanClose(1);
   SetClosed(1);
-  SetCanLock(1);
-  SetLocked(1);
-  SetLockStrength(25);
   SetMaxCarry(1);
   SetOpacity(0);
   SetInventory( ([
