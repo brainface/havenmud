@@ -30,7 +30,7 @@ static void create() {
     "uncomfortable it's probably not harmful, nor worth anything.");
   SetProperty("magic",
     "Magically forged by a necromancer directly upon the skin of the wearer, "
-    "this conjured armour will face once removed. It will resist frost and "
+    "this conjured armour will fade once removed. It will resist frost and "
     "fear fire."
   );
   SetProtectionBonus(COLD,5);
@@ -45,7 +45,9 @@ static void create() {
 
 // every two minutes, deteriorate
 void heart_beat() {
-  eventDeteriorate(MAGIC); // can't be HEAT or it'll dest entirely
+  if ( environment() && playerp(environment()) ) {
+    eventDeteriorate(MAGIC); // can't be HEAT or it'll dest entirely
+  }
 }
 
 // resist frost deterioriation
@@ -73,7 +75,7 @@ void eventDeteriorate(int DamageType) {
     armour::eventDeteriorate(DamageType);
     // dests the item if it's too worn out.
     if (this_object()->GetDeterioration() >= 10) {
-      call_out( (: eventMelt :) , 0);      
+      call_out( (: eventMelt :) , 0);
     }
     return;
   }

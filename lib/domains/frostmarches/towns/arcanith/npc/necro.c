@@ -7,6 +7,7 @@
 #include <std.h>
 #include "../ruins.h"
 inherit LIB_LEADER;
+//void DoStuff();
 
 static void create() {
   ::create();
@@ -28,13 +29,14 @@ static void create() {
   SetGender("male");
   SetMorality(0);
 
-  SetAction(5,
-     ({ "!emote straightens his robes.",
+  /* SetAction(10, (: DoStuff :)); */
+  SetAction(10,  ({ 
+        "!emote straightens his robes.",
         "!emote inspects his hands inquisitively.",
         "!say Life... death... all but abstract states of being.",
         "!say Were the time right, we could bring new life to old bones.",
         "!say Should one raise a pet from a sentient being? Hmmm, tis'"
-        "  an interesting question",
+        " an interesting question",
         "!emote inspects some vials.",
         "!cast umbral shield",
          }) );
@@ -45,7 +47,9 @@ static void create() {
     "cast cremate",
     "cast umbral shield",
     }) );
-  SetInventory( ([ OBJ  "/necro_staff" : "wield staff in left hand and right hand" ]) );
+  SetInventory( ([ 
+    OBJ  "/necro_staff" : "wield staff in left hand and right hand",
+    OBJ  "/necro_robe" : "wear robe" ]) );
   SetLimit(1);
   SetPlayerTitles( ([
     "newbie" : "the Dirty Hand",
@@ -53,6 +57,7 @@ static void create() {
     "hm"     : "the Mortician",
     "legend" : "the Gardener of Bones",
     "avatar" : "the Osteologist",
+    "fighter": "the Bone Warden",
     ]) );
   SetFreeEquipment( ([
     STD_POLE "staff" : 1,
@@ -70,4 +75,34 @@ static void create() {
     "cast create frost armour",
   }) );
   SetSkill("ice magic",250,1);
+  SetSkill("armour smithing", 200, 2);
+  SetSkill("natural working", 200, 2);
 }
+
+/* mahk said he'd fix it so frost armour doesn't deteriorate for
+ * non-players, so commenting out - mel 
+ */
+/*
+void DoStuff() {
+ array generic_options = ({
+        "emote straightens his robes.",
+        "emote inspects his hands inquisitively.",
+        "say Life... death... all but abstract states of being.",
+        "say Were the time right, we could bring new life to old bones.",
+        "say Should one raise a pet from a sentient being? Hmmm, tis'"
+        " an interesting question",
+        "emote inspects some vials.",
+        "cast umbral shield",
+  });
+ if (random(2)) {
+   foreach(object ob in GetWorn()[1]) {
+     if (ob->GetDeterioration()) {
+      eventForce("repair " + ob->GetKeyName());
+     }
+   }
+ } else {
+  string result =  generic_options[random(sizeof(generic_options))];
+  eventForce(result);
+ }
+}
+*/

@@ -1459,3 +1459,22 @@ If the identity used for this commit is wrong, you can fix it with:
 [master 7f38d14] Thu Jan 31 09:00:01 EST 2019 snapshot
  2 files changed, 1132 insertions(+), 0 deletions(-)
  create mode 100644 lib/realms/melchezidek/player_titles
+[master f7eea4f] Fri Feb  1 09:00:01 EST 2019 snapshot
+ 22 files changed, 946 insertions(+), 16 deletions(-)
+ create mode 100755 lib/domains/frostmarches/towns/arcanith/npc/necro.c
+ create mode 100755 lib/domains/frostmarches/towns/arcanith/npc/skeleton.c
+ create mode 100755 lib/domains/frostmarches/towns/arcanith/obj/necro_staff.c
+ create mode 100755 lib/domains/frostmarches/towns/arcanith/room/mausoleum.c
+ create mode 100644 lib/realms/melchezidek/arcanith_notes
+ create mode 100644 lib/realms/melchezidek/necro.c
+ create mode 100644 lib/realms/melchezidek/necro_staff.c
+ create mode 100644 lib/realms/melchezidek/skeleton.c
+ create mode 100644 lib/realms/torak/dalnairn/npc/merchant.c
+ create mode 100644 lib/realms/torak/dalnairn/npc/priest_damhair.c
+ create mode 100644 lib/realms/torak/dalnairn/npc/sailor.c
+ create mode 100644 lib/realms/torak/dalnairn/npc/shipseller.c
+ create mode 100644 lib/realms/torak/dalnairn/npc/shiptrainer.c
+ create mode 100644 lib/realms/torak/dalnairn/npc/viking.c
+ create mode 100644 lib/realms/torak/melchezidek
+ rewrite lib/save/skills.o (68%)
+ rewrite lib/save/unique.o (88%)

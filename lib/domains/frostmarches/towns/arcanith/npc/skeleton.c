@@ -1,5 +1,7 @@
 #include <lib.h>
 #include <damage_types.h>
+#include <armour_types.h>
+#include <std.h>
 inherit LIB_NPC;
 
 static void create() {
@@ -24,15 +26,15 @@ static void create() {
    SetStat("strength",100,1);
    SetStat("agility",19,4);
    AddLimb("spine vertebrae",0,1,({ }) );
-   AddLimb("skull","spine vertebrae",1,({ }) );
+   AddLimb("skull","spine vertebrae",1,({ A_HELMET }) );
    AddLimb("rib cage","spine vertebrae",1,({ }) );
    AddLimb("scapula","spine vertebrae",2,({ }) );
    AddLimb("left humerus","scapula",4,({ }) );
    AddLimb("right humerus","scapula",4,({ }) );
    AddLimb("left radius and ulna","left humerus",4,({ }) );
    AddLimb("right radius and ulna","right humerus",4,({ }) );
-   AddLimb("left carpals","left radius and ulna",5,({ }) );
-   AddLimb("right carpals","right radius and ulna",5,({ }) );
+   AddLimb("left carpals","left radius and ulna",5,({ A_WEAPON, A_SHIELD }) );
+   AddLimb("right carpals","right radius and ulna",5,({ A_WEAPON, A_SHIELD }) );
    AddLimb("hip","spine vertebrae",2,({ }) );
    AddLimb("left femur","hip",3,({ }) );
    AddLimb("right femur","hip",3,({ }) );
@@ -42,14 +44,14 @@ static void create() {
    AddLimb("right tibia and fibula","right patella",4,({ }) );
    AddLimb("left tarsals","left tibia and fibula",5,({ }) );
    AddLimb("right tarsals","right tibia and fibula",5,({ }) );
-   SetClass("horror");
+   SetClass("fighter");
    SetLevel(75);
    SetMorality(0);
    SetUndead(1);
    SetMeleeDamageType(BLUNT);
    SetMeleeAttackString("bones");
    SetFirstCommands( ({
-   "guard rocklock",
+     "guard rocklock",
    }) );
    SetCombatAction(50, ({
      "disorient",
@@ -57,4 +59,8 @@ static void create() {
      "emote rattles uneasily as he attacks.",
      "emote stumbles briefly.",
    }) );
+   SetInventory( ([
+     STD_SLASH "longsword" : "wield longsword in right carpals",
+     STD_ARMOUR "shield/wall_shield" : "wear shield on left carpals",
+   ]) );
 }

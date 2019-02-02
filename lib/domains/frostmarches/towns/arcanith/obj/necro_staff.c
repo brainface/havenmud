@@ -47,7 +47,6 @@ static void create() {
   SetWeaponType("pole");
   SetDamageType(BLUNT||SHOCK);
   SetClass(13);
-  SetMaterial( ({ "wood" }) );
   SetWield((: WieldMe :));
   SetHands(2);
   SetMaterials( ({ "natural" }) );
@@ -110,7 +109,7 @@ int WieldMe() {
   SetClass(my_class);
   message("system", msg, who);
   send_messages("wield", "The ancient bone staff shimmers " + color +
-                " " + intensity + " when $agent_name $agent_verb it.",
+                " " + intensity + " as $agent_name $agent_verb it.",
                 who, 0, environment(who));
   return 1;
  
