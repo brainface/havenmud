@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 # i've not run this yet! somebody is actually trying to PLAY THE GAME
 
