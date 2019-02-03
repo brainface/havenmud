@@ -11,6 +11,9 @@ cd /home/haven/haven
 # make a variable for current date (human readable)
 sDATE=`date`
 
+# grab dumb chat daemon, weather daemon stuff etc
+./tarball_ignores.py
+
 # add eerthing
 git add .
 
