@@ -27,7 +27,11 @@ ignored_saves = tarfile.open("ignored_saves.tgz", "w:gz")
 # file or directory
 for line in gitignore.readlines():
     if line.startswith("/"):
-        ignored_saves.add(line)
+        # directory may not exist, it crashes if it does not
+        try:
+            ignored_saves.add("."+line.rstrip("\n"))
+        except:
+            pass
 
 # close the file
 ignored_saves.close()
