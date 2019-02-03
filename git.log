@@ -1478,3 +1478,21 @@ If the identity used for this commit is wrong, you can fix it with:
  create mode 100644 lib/realms/torak/melchezidek
  rewrite lib/save/skills.o (68%)
  rewrite lib/save/unique.o (88%)
+[master 0027c27] Sat Feb  2 09:00:01 EST 2019 snapshot
+ 26 files changed, 1453 insertions(+), 28 deletions(-)
+ create mode 100755 lib/domains/frostmarches/towns/arcanith/obj/necro_robe.c
+ create mode 100644 lib/realms/mahkefel/verbs/resize.c
+ create mode 100644 lib/realms/melchezidek/CMD_EVAL_TMP_FILE.c
+ create mode 100644 lib/realms/melchezidek/player_backups/alessia.o
+ create mode 100755 lib/realms/melchezidek/player_backups/char_files/maartael.o
+ create mode 100755 lib/realms/melchezidek/player_backups/char_files/ruakh.o
+ create mode 100755 lib/realms/melchezidek/player_backups/char_files/sekh.o
+ create mode 100755 lib/realms/melchezidek/player_backups/char_files/serack.o
+ create mode 100755 lib/realms/melchezidek/player_backups/faustino.or
+ create mode 100755 lib/realms/melchezidek/player_backups/fortunado.o
+ create mode 100755 lib/realms/melchezidek/player_backups/yorin.o
+ create mode 100644 lib/realms/melchezidek/tutorials/cat_file_to_user
+ create mode 100644 lib/realms/melchezidek/tutorials/nuke_domain
+ create mode 100644 lib/realms/melchezidek/tutorials/nuke_domain_wip
+ rewrite lib/save/classes.o (86%)
+ rewrite lib/save/unique.o (69%)
