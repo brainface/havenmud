@@ -31,6 +31,7 @@ for line in gitignore.readlines():
         try:
             ignored_saves.add("."+line.rstrip("\n"))
         except:
+            print "yo skipped " + line
             pass
 
 # close the file
