@@ -6,7 +6,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a bone pile");
   SetLong( "Bones are tossed all around the area, scattered along the "
            "mudbanks that run beside the stream.  A foul smelling pool lays "

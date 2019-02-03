@@ -13,6 +13,7 @@ varargs static void create(int x, int y) {
   string lng;
   room::create();
 
+  SetClimate("sub-arctic");
   SetShort("Grymxoria Road");
   lng = "This small cobblestone road heads east and west through the "
         "Estergrym Mountains. The mountains rise up on both sides of "

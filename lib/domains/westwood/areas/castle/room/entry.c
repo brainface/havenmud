@@ -24,6 +24,6 @@ SetExits( ([
   "west" : C_ROOM + "drawbridge",
   "east" : C_ROOM + "center",
 ]) );
-SetClimate("indoor");
+SetClimate("indoors");
 SetAmbientLight(60);
 }

@@ -21,6 +21,6 @@ SetLong("Upon entering this room, a person is surrounded with "
 SetExits( ([
         "south" : C_ROOM + "throne",
         ]) );
-SetClimate("indoor");
+SetClimate("indoors");
 SetAmbientLight(60);
 }

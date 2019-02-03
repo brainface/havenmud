@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("edge of a swamp");
   SetLong( "Mud sucks at your feet here where the land slopes down into a "
            "damp, stinking mess.  Heat almost seems to radiate from the "

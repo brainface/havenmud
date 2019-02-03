@@ -9,7 +9,7 @@ void DoSurface(object the_player);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("deep pool");
   SetLong("The water is deep and very cold.  There is no telling what is "
           "hidden below its surface, as light does not seem to penetrate "

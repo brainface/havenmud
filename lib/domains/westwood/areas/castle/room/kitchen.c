@@ -22,6 +22,6 @@ SetLong("This kitchen is very quaint and well equipped for this "
 SetExits( ([
         "east" : C_ROOM + "dining",
         ]) );
-SetClimate("indoor");
+SetClimate("indoors");
 SetAmbientLight(60);
 }

@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("base of a cliff");
   SetLong( "A thin trickle of water flows out of the base of a tall cliff "
            "to the east.  The mud of the swamp starts a few feet from the "

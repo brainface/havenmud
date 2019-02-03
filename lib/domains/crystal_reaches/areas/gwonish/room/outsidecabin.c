@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("outside of a cabin");
   SetLong( "Smoke spirals up from the old cabin's chimney that rests at the "
            "north end of the path.  A short distance to the south a well "

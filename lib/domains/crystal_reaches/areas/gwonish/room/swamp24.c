@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("on top of a rock pile");
   SetLong( "Several large boulders, projecting from the earth form the "
            "equivalent of a large hill.  From the top a large swamp can be "

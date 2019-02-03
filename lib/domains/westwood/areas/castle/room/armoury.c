@@ -16,6 +16,6 @@ SetLong("What it says, the castle armoury.");
 SetExits( ([
         "east" : C_ROOM + "guard",
         ]) );
-SetClimate("indoor");
+SetClimate("indoors");
 SetAmbientLight(60);
 }

@@ -6,7 +6,7 @@ inherit LIB_STOREROOM;
 
 static void create() {
   ::create();
-  SetClimate("indoor");
+  SetClimate("indoors");
   SetInventory( ([
     STD_FISH "oceanpole" : 2,
     ROME_OBJ "epicks" : 1,

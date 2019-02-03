@@ -6,7 +6,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("edge of a camp");
   SetLong( "Trees cover much of this large mudflat with well traveled "
            "trails leading between them into a more populated area of the "

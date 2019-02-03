@@ -247,6 +247,7 @@ static void eventDestroyUndead(object agent) {
 
 int eventDie(object agent) {
     int x;
+    int xploss = GetExperience() * 0.5; // death is painful enough, cap xploss at 50% -mel
 /*  if (userp(agent)) {
     environment()->eventPrint("%^RED%^" + GetCapName() + " dies.%^RESET%^", this_object());
     eventPrint("%^RED%^You die.%^RESET%^");
@@ -258,9 +259,9 @@ int eventDie(object agent) {
     return 1;
   } */
   if (!agent) (agent = this_object());
-  CHAT_D->eventSendChannel("XP Loss", "reports", capitalize(GetKeyName()) + " lost " + GetExperience() + " XP");
-    if (GetExperience() / 1000000) CHAT_D->eventSendChannel("A cold wind", "ooc", capitalize(GetKeyName()) + " lost more than " + (GetExperience() / 1000000) + " million experience!");
-  AddExperience(-GetExperience());
+  CHAT_D->eventSendChannel("XP Loss", "reports", capitalize(GetKeyName()) + " lost " + xploss + " XP");
+    //if (GetExperience() / 1000000) CHAT_D->eventSendChannel("A cold wind", "ooc", capitalize(GetKeyName()) + " lost more than " + (GetExperience() / 1000000) + " million experience!"); // this doesn't need to be broadcast to OOC
+  AddExperience(-xploss);
   SetAttack(0);
   if (userp(agent) && agent != this_object() && GetUndead()) {
     eventPrint("Your soul refuses to be purged from the universe. "
@@ -272,17 +273,18 @@ int eventDie(object agent) {
     CHAT_D->eventSendChannel("A cold wind", "ooc", "%^RED%^Death (from " +
      capitalize((agent->GetKeyName() || agent->GetShort()))
      + ") has claimed " + capitalize(GetKeyName()) + ".%^RESET%^");
-    CHAT_D->eventSendChannel("A cold wind", "fs", "%^RED%^Death (from " +
+ /* CHAT_D->eventSendChannel("A cold wind", "fs", "%^RED%^Death (from " +
      capitalize((agent->GetKeyName() || agent->GetShort()))
-     + ") has claimed " + capitalize(GetKeyName()) + ".%^RESET%^");
+     + ") has claimed " + capitalize(GetKeyName()) + ".%^RESET%^"); */
   if( !GetUndead() ) {
        eventDestroyUndead(agent);
        } else {
     class death this_death;
         
     CHAT_D->eventSendChannel("Death", "players",
-     capitalize(GetKeyName()) + " was killed by " +
-     capitalize((agent->GetKeyName() || agent->GetShort())) + ".");
+     capitalize(GetKeyName()) + " (" + GetLevel() + ") was killed by " +
+             (agent ? capitalize(agent->GetKeyName()) : "an unknown source") +
+             (agent ? " (" + agent->GetLevel() + "). " : " (N)."));
     if(!GetTestChar())
       log_file("players/deaths", GetCapName() + " (" + GetLevel() +
              ") was killed by " +
@@ -845,11 +847,15 @@ int ResetLevel() {
       LastLevel = time();
       if (y > HighestLevel) {
         AddDevelopmentPoints((y-x) * 2);
-        if (random(100) < 6) {
-          eventPrint("%^YELLOW%^BOLD%^You gain a stat customization point.%^RESET%^");
-          AddCustomStats(1);
-          stats += ({ "%^YELLOW%^custom%^RESET%^" });
-        }
+        if (y < 51) {
+            AddCustomStats(1);
+        } else {
+            if (random(100) < 6) {
+              eventPrint("%^YELLOW%^BOLD%^You gain a stat customization point.%^RESET%^");
+              AddCustomStats(1);
+              stats += ({ "%^YELLOW%^custom%^RESET%^" });
+            }
+	}
         foreach(string stat in GetStats()) {
           if (GetBaseStatLevel(stat) < 125) {
             int chance = 0;

@@ -6,7 +6,7 @@ inherit LIB_STOREROOM;
 
 static void create() {
   ::create();
-  SetClimate("indoor");
+  SetClimate("indoors");
   SetInventory( ([
     ROME_OBJ "bpoison" : 5,
     ROME_OBJ "ypoison" : 10,

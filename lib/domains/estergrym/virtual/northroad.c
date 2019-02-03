@@ -9,6 +9,8 @@ static void create(int x, int y) {
   string n, s, e, w, ne, sw, nw, se;
   string lng, shrt;
   ::create();
+
+  SetClimate("sub-arctic");
   n = s = e = w = ne = se = nw = sw = 0;
   /* Basic Setup Stuff */
   lng = "The North Road continues, passing alongside the "

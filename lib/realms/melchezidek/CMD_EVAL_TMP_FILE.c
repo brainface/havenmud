@@ -8,4 +8,4 @@
 #include <size.h>
 #include <std.h>
 inherit LIB_ITEM;
-mixed eval() { {mel = this_object(); return environment(mel)}; }
+mixed eval() { array s = ({ "one", "two" }); return join(s); }

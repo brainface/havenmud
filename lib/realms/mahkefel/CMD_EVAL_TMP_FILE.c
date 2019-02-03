@@ -8,4 +8,4 @@
 #include <size.h>
 #include <std.h>
 inherit LIB_ITEM;
-mixed eval() { environment(aleph); }
+mixed eval() { sscanf("-c -l --minlevel 20","--minlevel%s%d",0); }

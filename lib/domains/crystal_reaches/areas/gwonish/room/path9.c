@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("near the swamp");
   SetLong( "Scrub brush is the dominant foliage here with it slowing "
            "transitioning to tall evergreens in the north near the base "

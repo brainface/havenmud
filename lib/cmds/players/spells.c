@@ -14,6 +14,7 @@
 inherit LIB_DAEMON;
 int GetMaxSpellLevel(object, object);
 int SortByLevel(string, string);
+int ResolveType(string);
 // bold here actually adds a lot to the command's output length, and
 // that is bad. (command can runtime.)
 string chealing = "%^GREEN%^";
@@ -28,39 +29,69 @@ mixed cmd(string args) {
   mapping sorted = ([ ]);
   mapping colors = ([ ]);
   string tmp, spell_list;
-  int len, bSort, bColor = 0;
+  int len, bSort, bColor, bAccessible = 0;
+  int minLevel, maxLevel;
+  int onlyMastered = 0; // -1 nonmastered only, 0 normal, 1 mastered only
+  string onlySphere = "";
+  string type = "";
+  int nType = 0;
+
 
   if (angelp(this_player())) return "You don't have any spells, weirdo.";
 
-  if (args) {
-  // handle flags
-  if (member_array("-c",explode(args," ")) != -1) {
-    bColor = 1;
-    args = replace_string(args,"-c","");
-  }
-  if (member_array("-l",explode(args," ")) != -1) {
-    bSort = 1;
-    args = replace_string(args,"-l","");
-  }
-  args = replace_string(args," ","");
-  }
-
   if( creatorp(this_player()) ) {
     if (!args) return "Show spell book of whom?";
-    who = find_living(args);
+    who = find_living(explode(args," ")[0]);
     if (!who || who->GetInvis() > rank(this_player()))
       return "Cannot find that person or bad argument.";
   }
   if(creatorp(who)) return "That person can't spell.";
   if(!creatorp(this_player())) who = this_player();
-  
-  if (bColor) { 
+
+  // assume accessibility mode if command's USER, not TARGET,
+  // is in accessibility mode.
+  if(this_player()->GetProperty("accessibility_mode")) {
+    bAccessible = 1;
+  }
+
+  // handle arguments    
+  if (args) {
+    // handle simple flags
+      if (strsrch(args," -c",) != -1) bColor = 1;
+      if (strsrch(args," -l",) != -1) bSort = 1;
+      if (strsrch(args," -m",) != -1) onlyMastered = 1;
+      if (strsrch(args," -n",) != -1) onlyMastered = -1;
+      if (strsrch(args," -v",) != -1) bAccessible = 0;
+      if (strsrch(args," -a",) != -1) bAccessible = 1; 
+    //args = replace_string(args," ","");
+    // handle complex arguments
+    foreach(string argument in explode(args, "--")) {
+      sscanf(argument, "minlevel %d", minLevel);
+      sscanf(argument, "maxlevel %d", maxLevel);    
+      sscanf(argument, "sphere %(([a-z]+ [a-z]+)|([a-z]+))",onlySphere);     
+      if (sscanf(argument, "type %([a-z]+)",type)) {
+        nType = ResolveType(type);
+        if (!nType) {
+          return type + " is not a valid spell type\n" 
+            "Valid types are: healing, combat, other, or defense";
+        }
+      }
+    }
+  }    
+
+  if (!bAccessible) {
     tmp = "You know the following " + sizeof(who->GetSpellBook())+" ";
-    tmp += chealing +"Healing%^RESET%^, "+ccombat+"Combat%^RESET%^, "+cother+"Other%^RESET%^,\n";
-    tmp += ctimed+"Timed Shield%^RESET%^ and "+cdamage+"Damage Shield%^RESET%^ spells:\n";
-    tmp += "spell name (spell level) : mastery percent %%/ maximum %%\n";
+    if (bColor) {
+      tmp += chealing +"Healing%^RESET%^, "+ccombat+"Combat%^RESET%^, "+cother+
+        "Other%^RESET%^,\n";
+      tmp += ctimed+"Timed Shield%^RESET%^ and "+cdamage+
+        "Damage Shield%^RESET%^ spells:\n";
+      tmp += "spell name (spell level) : mastery percent %%/ maximum %%\n";
+    } else {
+      tmp += " spells:\n";
+    }
   } else {
-    tmp = "You know the following " + sizeof(who->GetSpellBook())+" spells:\n";
+    tmp = "Spells known:\n"; 
   }
 
   if (bSort) {
@@ -68,6 +99,7 @@ mixed cmd(string args) {
   } else {
     spells = sort_array(keys(who->GetSpellBook()),1);
   }
+  
   foreach(string spell in spells)       {
     object obj = SPELLS_D->GetSpell(spell);
     string temp = base_name(obj);
@@ -75,14 +107,49 @@ mixed cmd(string args) {
     string colorspell;
 
     if (undefinedp(obj)) continue;
-    sphere = resolve_sphere(temp);
+    
+    // handle sphere argument
+    if (onlySphere != "") {
+      if (resolve_sphere(temp) != onlySphere) {
+        continue;
+      }
+    } else { 
+      sphere = resolve_sphere(temp);
+    }
 
+    // handle type argument
+    if (nType) {
+      if(obj->GetSpellType() != nType) continue;        
+    }
+    
+    // handle minlevel argument
+    if (minLevel) {
+      if(obj->GetSpellLevel() < minLevel) continue; 
+    }
+    
+    // handle maxlevel argument
+    if (maxLevel) {
+      if(obj->GetSpellLevel() > maxLevel) continue;  
+    }
+    
+    // handle onlyMastered flag
+    if (onlyMastered == 1 && who->GetSpellLevel(spell) < 100) {
+      continue;
+    } else if (onlyMastered == -1 && who->GetSpellLevel(spell) >= 100) {
+      continue; 
+    }
+    
     // if we're doing colors, replace "spell name" with "[pell nam]".
     // this is necessary for finding & recoloring unique spell names.
     // (otherwise "poison sphere" will look funny due to grabbing "sphere's"
     // coloring
     if (bColor) {
-      colorspell = sprintf("%:-20s","["+spell[1..<2]+"]");
+      // accessible output can skip table complexity.
+      if (bAccessible) { 
+        colorspell = spell;
+      } else {
+        colorspell = sprintf("%:-20s","["+spell[1..<2]+"]");        
+      }
       if(obj->GetSpellType() == SPELL_HEALING) {
         colors[colorspell] =
           chealing + sprintf("%:-20s",spell) + "%^RESET%^";
@@ -103,28 +170,54 @@ mixed cmd(string args) {
       }
     } else {
         colorspell = spell;
-    }
+    }            
     if(!sorted[sphere]) {
-      sorted[sphere] = ({ sprintf("%:-20s (%-3d): %:-3d/%-3d%%", colorspell,
-        temp->GetSpellLevel(),
-        who->GetSpellBook()[spell], GetMaxSpellLevel(who, load_object(temp))) });
+      if (bAccessible) {
+        sorted[sphere] = ({ colorspell }); 
+      } else {
+        sorted[sphere] = ({ sprintf("%:-20s (%-3d): %:-3d/%-3d%%", colorspell,
+          temp->GetSpellLevel(),
+          who->GetSpellBook()[spell], GetMaxSpellLevel(who, load_object(temp)))
+        });
+      }
     } else {
-      sorted[sphere] += ({ sprintf("%:-20s (%-3d): %:-3d/%-3d%%", colorspell,
-        temp->GetSpellLevel(),
-        who->GetSpellBook()[spell], GetMaxSpellLevel(who, load_object(temp))) });
+      if (bAccessible) {
+        sorted[sphere] += ({ colorspell }); 
+      } else {      
+        sorted[sphere] += ({ sprintf("%:-20s (%-3d): %:-3d/%-3d%%", colorspell,
+          temp->GetSpellLevel(),
+          who->GetSpellBook()[spell], GetMaxSpellLevel(who, load_object(temp)))
+        });
+      }
     }
   }
 
-  // Mahkefel 2011: i split the command into several eventPrints, cuz the 
+  // Mahkefel 2011: i split the command into several eventPrints, cuz the
   // command, even before mods, had a real threat of runtimes due to output
   // size on chars with crazy spells (like test characters)
   this_player()->eventPrint(tmp);
   if(!sizeof(keys(sorted)))       {
     tmp = "You know no spells.";
     this_player()->eventPrint(tmp);
-  } else {
+  } else {            
     foreach(string sph in keys(sorted)) {
-      tmp = "In the "+sph+" sphere:\n";
+      if (sph) {
+        tmp = "In the "+sph+" sphere:\n";
+      } else {
+        tmp = "In the "+onlySphere+" sphere:\n";        
+      }
+      // accessible? output
+      // skip a lot of stuff, just output text 1 spell/line
+      if (bAccessible) {
+        this_player()->eventPrint(tmp);
+        foreach(string spe in sorted[sph]) {
+          if (bColor) {
+            spe = colors[spe];
+          }
+          this_player()->eventPrint(spe);  
+        }
+        continue;
+      }
       foreach(string spe in sorted[sph]) {
         int i = strlen(spe);
         if(i > len) {
@@ -141,7 +234,7 @@ mixed cmd(string args) {
       }
       this_player()->eventPrint(tmp);
     }
-  } 
+  }
   return 1;
 }
 
@@ -151,6 +244,15 @@ string GetHelp() {
             "proficiency in each spell. These arguments are available:\n\n"
             " -c display color highlights on spells.\n\n"
             " -l sort spells by spell level.\n\n"
+            " -m show only mastered spells (100% trained.)\n\n"
+            " -n show only unmastered spells (less than 100% trained.)\n\n"
+            " -a force accessible output.\n\n"
+            " -v force nonaccessible output.\n\n"
+            " --sphere [sphere] show only spells of a certain sphere.\n\n"
+            " --type [healing, combat, defense, other]\n"
+            "   show only spells of a certain type.\n\n"
+            " --minlevel [#} do not show spells below given level.\n\n"
+            " --maxlevel [#} do not show spells above given level.\n\n"            
             "See also: skills, stats, status");
 }
 
@@ -184,3 +286,19 @@ int SortByLevel(string spell1, string spell2) {
   }
 }
 
+// turn plain english spell types
+// into haven parsible spell enums
+// returns 0 if someone tries to get spelltype fruit or whatever
+int ResolveType(string spelltype) {
+  if (spelltype == "healing") {
+    return SPELL_HEALING;
+  } else if (spelltype == "defense") {
+    return SPELL_DEFENSE;
+  } else if (spelltype == "combat") {
+    return SPELL_COMBAT;
+  } else if (spelltype == "other") {
+    return SPELL_OTHER;      
+  } else {
+    return 0; 
+  } 
+}

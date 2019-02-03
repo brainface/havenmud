@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a small channel");
   SetLong( "Water flows to the northwest through a series of small "
            "channels like this one.  A mudflat begins to the east." );

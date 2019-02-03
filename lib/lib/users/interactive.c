@@ -565,8 +565,9 @@ void eventDescribeEnvironment(int brief) {
     object *obs;
     string key;
     int val;
-    
+    int accessibility; 
 
+    accessibility = this_object()->GetProperty("accessibility_mode");
     if(!(env = environment(this_object()))) {
         eventPrint("You are nowhere.", MSG_ROOMDESC);
         eventDestruct();
@@ -599,13 +600,16 @@ void eventDescribeEnvironment(int brief) {
         weather = WEATHER_D->GetWeather(env);
     
     } else {  /* brief is on */
-	    desc = capitalize((string)env->GetShort());
-	    if( (tmp = (string)env->GetObviousExits()) && tmp != "" )
+      desc = capitalize((string)env->GetShort());
+      if( (tmp = (string)env->GetObviousExits()) && tmp != "" )
 	      desc += " [Exits: " + tmp + "]";
       if (sizeof(env->GetUniqueEnters())) {
         desc += "[Enters: " + implode(values(env->GetUniqueEnters()), ", ") + "]";
       }
-	  }	
+      if(accessibility) {
+        desc +=" (" + env->GetClimate() + ")";
+      }
+    }	
     
     if( desc )   eventPrint(desc,                   MSG_ROOMDESC);
     if( smell )  eventPrint("%^GREEN%^"  + smell,   MSG_ROOMDESC);
@@ -613,6 +617,9 @@ void eventDescribeEnvironment(int brief) {
     if( touch )  eventPrint("%^YELLOW%^" + touch,   MSG_ROOMDESC);
     if (weather) eventPrint("%^BLUE%^"   + weather, MSG_ROOMDESC);
     if (env->GetPoisonGas()) eventPrint("%^RED%^There is a cloud of poison gas here.%^RESET%^");
+    if (accessibility && !brief){
+     eventPrint("%^BOLD%^%^BLUE%^You are in " + add_article(env->GetClimate()) + " environment.%^RESET%^");
+    }
 
     desc = "";
     

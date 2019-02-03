@@ -4,6 +4,7 @@ inherit LIB_ROOM;
 
 static void create() {
   ::create();
+  SetClimate("sub-arctic");
   SetShort("the Center Road near the gate");
   SetExits( ([
     "north" : GUROV_ROOM "cr2",

@@ -12,7 +12,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("mountains");
+  SetClimate("temperate");
   SetShort("a dead end");
   SetLong("The canyon here narrows to a point that it cannot be traversed "
           "further.  It does however, widen in the southeast into the main "

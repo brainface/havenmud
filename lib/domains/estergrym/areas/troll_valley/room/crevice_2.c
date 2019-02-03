@@ -12,7 +12,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("mountains");
+  SetClimate("temperate");
   SetShort("a sharp curve in the canyon");
   SetLong("The crevice here cuts back sharply from the east to the southeast, "
           "leaving a narrow point of rock between.");

@@ -5,6 +5,7 @@ inherit LIB_FISHING;
 
 static void create() {
   ::create();
+  SetClimate("sub-arctic");
   SetExits( ([
     "west"  : GUROV_ROOM "dock2",
     "north" : GUROV_ROOM "bay7",

@@ -11,7 +11,7 @@ inherit LIB_ROOM;
 static void create() {
   room::create();
   SetAmbientLight(40);
-  SetClimate("sub-artic");
+  SetClimate("sub-arctic");
   SetShort("within a cold peatbog");
   SetLong(
     "Large skeletal black spruce trees protrude from soil " 

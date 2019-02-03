@@ -6,7 +6,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("guardpost");
   SetLong( "The mudflat runs right up to the base of the cliff here with "
            "trails leading off through the trees in westerly and southerly "

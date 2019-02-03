@@ -5,7 +5,7 @@ inherit LIB_ROOM;
 static void create() {
   ::create();
   
-  SetClimate("outdoors");
+  SetClimate("arid");
   SetShort("the Yozrath Menagerie");
   SetLong(
      "Palace menagerie filled with various animals. Gazelle, hyena, sand cat "

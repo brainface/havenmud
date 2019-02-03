@@ -19,6 +19,6 @@ SetExits( ([
   "west"  : C_ROOM + "entry",
   "east"  : C_ROOM + "throne",
 ]) );
-SetClimate("indoor");
+SetClimate("indoors");
 SetAmbientLight(60);
 }

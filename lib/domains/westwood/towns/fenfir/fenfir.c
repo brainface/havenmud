@@ -176,7 +176,7 @@ static void create(int x, int y)
     "mountain" : ({"towering"}),
     "pass" : ({"small"}),
   ]) );    
-  SetClimate("sub-artic");
+  SetClimate("sub-arctic");
   SetSmell( ([
     "default" : "The light airy scent of fenfir fills the air.",
   ]) );

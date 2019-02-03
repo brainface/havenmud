@@ -20,6 +20,6 @@ SetLong("This is a dark and damp cave.  It lies behind a waterfall "
 SetExits( ([
   "out" : "/domains/westwood/virtual/westwood/25,29",
 ]) );
-SetClimate("indoor");
+SetClimate("indoors");
 SetAmbientLight(25);
 }

@@ -11,7 +11,7 @@ inherit LIB_ROOM;
 
 static void create() {
   room::create();
-  SetClimate("arctic");
+  SetClimate("sub-arctic");
   SetDomain("Frostmarches");
   //hyphen in snow-filled doesn't seem to work with SetItemAdjective
   SetShort("a snow filled clearing on the side of a mountain");

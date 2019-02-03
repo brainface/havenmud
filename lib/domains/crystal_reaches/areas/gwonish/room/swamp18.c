@@ -9,7 +9,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a soggy swamp");
   SetLong( "The water flowing from the southeast is especially disgusting.  "
            "It churns in with the other flows, creating a nasty brown foam "

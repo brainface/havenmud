@@ -8,7 +8,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a soggy swamp");
   SetLong( "Filthy water swirls a couple of feet deep around your legs and "
            "your feet are buried up to the ankles in a slimy mud that "

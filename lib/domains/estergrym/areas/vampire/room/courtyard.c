@@ -5,7 +5,7 @@
 inherit LIB_ROOM;
 static void create() {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("temperate");
   SetShort("the courtyard of a gothic manor");
   SetLong(
      "No, you are STILL not in the actual manor. But, damnit, "

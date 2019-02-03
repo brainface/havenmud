@@ -12,7 +12,7 @@ static void create()
 {
   dugOut = 0;
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("cave opening");
   SetLong( "Cool air breathes from the opening of the tiny hole at "
            "the base of the cliff." );

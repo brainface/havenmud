@@ -12,7 +12,7 @@ inherit LIB_ROOM;
 static void create() {
   room::create();
   SetAmbientLight(40);
-  SetClimate("sub-artic");
+  SetClimate("sub-arctic");
   SetShort("Sunken Ruins within the bog");
   SetLong(
    "A large stagnent body of water pools here, the waters are black" 

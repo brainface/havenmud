@@ -19,7 +19,7 @@ static void create() {
   SetSpellType(SPELL_DEFENSE);
   SetSkills( ([
      "faith"     : 100,
-     "evokation" : 100,
+    "evokation"     : 100,
      ]) );
   SetDifficulty(40);
   SetMorality(0);

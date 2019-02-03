@@ -4,7 +4,7 @@ inherit LIB_ROOM;
 
 static void create() {
    room::create();
-   SetClimate("inside");
+   SetClimate("indoors");
    
    SetAmbientLight(25);
    SetShort("inside the West Wood");

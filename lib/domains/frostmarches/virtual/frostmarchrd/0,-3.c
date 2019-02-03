@@ -11,7 +11,7 @@ static void create(int x, int y) {
       "south" : "0,-4",
     ]) );
   SetLong( GetLong() +
-    "A ragged trail leads off to the west.");
+    " A ragged trail leads off to the west.");
   SetSmell("A faintly noxious, chemical smell wafts follows a breeze from the west.");
   AddExit("west", FROSTMARCHES_AREAS+"oil_ocean/room/k5");
  }

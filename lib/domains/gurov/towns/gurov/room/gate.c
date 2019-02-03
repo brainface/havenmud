@@ -7,6 +7,7 @@ int BlockCitizens();
 
 static void create() {
   ::create();
+  SetClimate("sub-arctic");
   SetShort("a large gate leading into Gurov");
   SetTown("Gurov");
   SetExits( ([

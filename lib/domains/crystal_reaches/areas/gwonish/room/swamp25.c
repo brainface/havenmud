@@ -7,7 +7,7 @@ inherit LIB_ROOM;
 
 static void create() {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("among the boulders");
   SetLong( "A narrow ledge runs along the edge of one of the larger boulders "
            "leading from a breakdown of small boulders, that can be ascended "

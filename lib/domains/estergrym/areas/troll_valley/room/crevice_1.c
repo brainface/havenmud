@@ -12,7 +12,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("mountains");
+  SetClimate("temperate");
   SetShort("a fork in the canyon");
   SetLong("The crevice forks here with the wider branch continuing west and "
           "a much narrower one leading northwest.  Mountains made of dark "

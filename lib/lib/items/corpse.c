@@ -68,6 +68,7 @@ mixed direct_eat_obj() {
   if ((this_player()->GetRace() == "orc")    ||
       (this_player()->GetRace() == "gnoll")  ||
       (this_player()->GetRace() == "goblin") ||
+      (this_player()->GetRace() == "lizardman") ||
       (this_player()->GetRace() == "ogre")   ||
       (this_player()->GetRace() == "dragon") ||
       (this_player()->GetRace() == "daemon") ||

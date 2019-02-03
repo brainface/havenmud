@@ -9,7 +9,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a mudbar");
   SetLong( "The land here is a bit drier as it is higher than most of "
            "the surrounding area.  The water swirling around the mudbar "

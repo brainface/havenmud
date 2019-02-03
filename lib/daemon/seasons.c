@@ -532,6 +532,10 @@ int eventShow(object who, string args) {
         who->eventPrint("You are indoors!");
         return 1;
     }
+    if( (string)environment(who)->GetClimate() == "underground" ) {
+        who->eventPrint("You are underground!");
+        return 1;
+    }
     who->eventPrint(str);
     environment(who)->eventPrint((string)who->GetName() + " gazes toward the sky.", who);
     return 1;

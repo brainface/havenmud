@@ -4,6 +4,7 @@ inherit LIB_ROOM;
 
 static void create() {
   ::create();
+  SetClimate("sub-arctic");
   SetExits( ([
     "north" : GUROV_ROOM "cr8",
     "south" : GUROV_ROOM "cr6",

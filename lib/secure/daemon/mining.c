@@ -164,7 +164,7 @@ void eventMine(object who, object where) {
   if (!where->GetProperty("MinedOut")) {
     where->SetProperty("MinedOut",0);
   } else {
-    if ( where->GetProperty("MinedOut") > (skill / 10 - 5)) {
+    if ( where->GetProperty("MinedOut") > (skill / 10 - 15)) {
       who->eventPrint("You've stripped " + strip_colours(where->GetShort()) + " bare!");
       map_delete(Miners, who);
       return;
@@ -198,7 +198,7 @@ void eventMine(object who, object where) {
     //if(skillxp < 1) skillxp = 1;
     food->eventMove(who);
     who->AddExperience(food->GetValue() * 5 + random(skill*2));
-    where->SetProperty("MinedOut",where->GetProperty("MinedOut")+random(3));
+  where->SetProperty("MinedOut",where->GetProperty("MinedOut")+random(2));
     RemoveMiner(who);
     return;
   }

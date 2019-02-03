@@ -32,9 +32,9 @@ static void create() {
     "mesmer barrier" : 100,
     ]) );
   SetAction(12, ({
-    "!cast mesmer barrier",
-    "!cast mesmer barrier",
-    "!cast mesmer barrier",
+    "!cast sphere",
+    "!cast sphere",
+    "!cast sphere",
     "!speak I can make you one of us",
     "!speak Necromancy is an art",
   }) );

@@ -7,7 +7,7 @@ inherit LIB_ROOM;
 
 static void create() {
   room::create();
-  SetClimate("indoor");
+  SetClimate("indoors");
   SetShort("Inside a large oak tree");
   SetLong(
     "The inside of the oak tree is not very well decorated. There "

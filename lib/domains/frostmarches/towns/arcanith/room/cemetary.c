@@ -15,10 +15,11 @@ static void create() {
     "south"  : ROOM "/ruins3a",
   ]) );
 
-    SetLong("Large tombstones rise out of the ground like bleached "
-            "bones of some dead beast. The ground is soft and feels "
-            "moist.  Shadows flit about the cemetary in a macabre dance. "
-            "A mist covers the cemetary floor.");
+  SetLong("Large tombstones rise out of the ground like bleached "
+          "bones of some dead beast. The ground is soft and feels "
+          "moist.  Shadows flit about the cemetary in a macabre dance. "
+          "Slightly to the north a mausoleum can be seen. A mist covers "
+          "the cemetary grounds.");
  
   SetItems( ([
     ({ "cemetary" })  :
@@ -51,6 +52,9 @@ static void create() {
       "beast", "large bones", "large bone" })  :
       "The tombstones are bleached white from the elements.  They look like "
       "large bones.  They almost look like the remains of a giant beast.",
+   ({ "mausoleum" }) :
+      "A dark grey stone mausoleum sits on the northern end of the cemetery."
+      " The stone work is immaculate and shows no signs of age or wear.",
   ]) );
 
   SetSmell( ([
@@ -64,7 +68,10 @@ static void create() {
 
   SetInventory( ([
      STD_OBJ "reztotem" : 1,
-     NPC "/gargoyle" : 1,
-     NPC "/healer"   : 1,
-      ]) );
+     NPC "/gargoyle"    : 1,
+     NPC "/healer"      : 1,
+  ]) );
+  SetEnters( ([
+    "mausoleum": ROOM "/mausoleum",
+  ]) );
 }

@@ -78,8 +78,10 @@ static void create() {
   ]) );  
   SetInventory( ([
     DAL_NPC "cage_vendor" : 1,
+    DAL_NPC "priest_damhair" : 1,
     DAL_VEH "yacht" : 1,
     DAL_OBJ "bay_dive" : 1,
+    DAL_NPC "rogue" : 1,
     DAL_NPC "seagull" : 1 + random(2) + random(2),
     DAL_OBJ "warning_sign" : 1,  ]) );
   SetListen( ([

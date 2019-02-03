@@ -5,7 +5,7 @@ inherit LIB_ROOM;
 static void create() {
   ::create();
   
-  SetClimate("outdoors");
+  SetClimate("arid");
   SetShort("the menagerie");
   SetLong(
      "South to menagerie3, west to menagerie1."

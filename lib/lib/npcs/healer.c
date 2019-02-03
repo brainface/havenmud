@@ -34,7 +34,7 @@ static void create() {
     ]);
   LocalCurrency = "imperials";
 }
- 
+
 mapping SetFees(mapping mp) {
         return Fees; /* This function deliberately does not do anything anymore */
 }
@@ -56,7 +56,7 @@ mixed eventAsk(object who, string args) {
         string cmd, what;
         mixed tmp;
         if (tmp = npc::eventAsk(who, args) == 1) return 1;
-        
+
         if (!args || args == "") {
                 eventForce("speak Are you asking me to heal you?");
                 return 1;
@@ -65,21 +65,31 @@ mixed eventAsk(object who, string args) {
         cmd = args;
         what = 0;
     }
+
+  // mahkefel 2018:
+  // ugly bit of code makes religios healers help anyone of same
+  // religion, race, town, or of good reputation in town
   if (GetReligion() != "agnostic") {
-    if (GetReligion() && who->GetReligion() != GetReligion()) {
-                eventForce("speak I only deal with " + GetReligion() + " people.");
-                return 1;
+    if (GetReligion() && (who->GetReligion() != GetReligion())) {
+      if (GetTown() && (who->GetTown() != GetTown())) {
+        if (GetRace() && (who->GetRace() != GetRace())) {
+          if (who->GetReputation(GetTown()) > 250 ) {
+            eventForce("speak I'm really not supposed to help foreigners, but "
+              "for you I'll gladly make an exception."); 
+          } else {
+            eventForce("speak You are not one of the " + GetReligion() + " faithful, "
+              "nor of " + GetTown() + ", and I will not assist you.");
+            return 1;
+          }
         }
-  }
-  if (who->GetTown() != GetTown() && GetTown() != "Wilderness") {
-        eventForce("speak I only serve citizens of " + GetTown());
-        return 1;
+      }
+    }
   }
   if (who->GetReputation(GetTown()) < -100) {
         eventForce("speak Why would I heal someone as disliked as you?");
         return 1;
     }
-  
+
         switch(cmd) {
                 case "res": case "resurrect": case "rez":
                   eventResurrect(who, what);
@@ -93,6 +103,7 @@ mixed eventAsk(object who, string args) {
                 default:
                   eventForce("speak I am not sure what you need. Do you need to be "
                              "resurrected, healed, or have a limb restored?");
+                      eventForce("tend wounds on " + who->GetName()); //mahk: make them help confused people.
                   break;
                 }
                 return 1;
@@ -101,9 +112,9 @@ mixed eventAsk(object who, string args) {
 void eventGreet(object who) {
   eventForce("speak I can heal you, raise you from the dead, and restore your limbs. "
              "Just <ask " + GetKeyName() + " to> either heal, restore, or resurrect.");
-}             
+}
 
-int GetResurrectModifier(int x) {  
+int GetResurrectModifier(int x) {
   int cost;
   switch(x) {
     case 0..25:
@@ -142,7 +153,7 @@ int eventResurrect(object who, string what) {
         if (!tmp = GetFee("resurrect")) {
                 eventForce("speak Sadly I do not perform resurrections.");
                 return 1;
-        }  
+        }
   if (newbiep(who)) tmp = 0;
   tmp = to_int(tmp);
         tmp = tmp * GetResurrectModifier(who->GetLevel());
@@ -218,8 +229,7 @@ int eventHeal(object who,string what) {
    }
    if(who->GetCurrency(GetLocalCurrency()) < GetFee(what) ) {
       eventForce("speak I'm afraid you cannot afford my services.  I charge "
-                 + GetFee(what) + " " + GetLocalCurrency() + 
-" to heal "
+                 + GetFee(what) + " " + GetLocalCurrency() + " to heal "
                  + what + ".");
       return 1;
    }
@@ -228,7 +238,7 @@ int eventHeal(object who,string what) {
    }
    switch(what) {
       case "health":
-      if(who->GetHealthPoints()+5 >= who->GetMaxHealthPoints()) { 
+      if(who->GetHealthPoints()+5 >= who->GetMaxHealthPoints()) {
          eventForce("speak But you are perfectly healthy!");
          return 1;
       }
@@ -245,7 +255,7 @@ int eventHeal(object who,string what) {
          return 1;
       }
       break;
-	case "poison":
+        case "poison":
       if(!(who->GetPoison())) {
          eventForce("speak But you are not poisoned!");
          return 1;
@@ -272,7 +282,7 @@ int eventHeal(object who,string what) {
       who->AddMagicPoints(5);
       eventForce("speak Now you're looking more energized!");
       break;
-	case "poison":
+        case "poison":
       AddStaminaPoints(-10);
       who->AddPoison(-10);
       eventForce("speak Now you're looking a little healthier!");
@@ -286,3 +296,4 @@ int SetCharge(int x) {
   CHAT_D->eventSendChannel(GetKeyName(), "error", base_name(this_object()) + " is an OLD HEALER!  FIX ME!");
   return 1;
 }
+

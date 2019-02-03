@@ -12,7 +12,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("mountains");
+  SetClimate("temperate");
   SetShort("near a fissure in the rock");
   SetLong("A broad fissure opens into the wall of rock here that makes up "
           "the wall around the valley.  Rocks lay strewn about the grass, "

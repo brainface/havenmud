@@ -14,7 +14,7 @@ inherit LIB_ROOM;
 static void create()
 {
   room::create();
-  SetClimate("mountains");
+  SetClimate("temperate");
   SetShort("a narrow crevice");
   SetLong("A few yards north of the road the crack opens up into a fairly wide crevice that "
           "winds its way west through the mountains.");

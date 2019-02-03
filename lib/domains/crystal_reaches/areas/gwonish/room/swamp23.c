@@ -9,7 +9,7 @@ int CheckNPC(int chance);
 static void create()
 {
   room::create();
-  SetClimate("outdoors");
+  SetClimate("tropical");
   SetShort("a rocky trail");
   SetLong( "The trail leads up through a series of increasingly large "
            "boulders.  It eventually curves around from the east to the "
