@@ -1496,3 +1496,6 @@ If the identity used for this commit is wrong, you can fix it with:
  create mode 100644 lib/realms/melchezidek/tutorials/nuke_domain_wip
  rewrite lib/save/classes.o (86%)
  rewrite lib/save/unique.o (69%)
+[master 0cf0865] Sun Feb  3 09:00:01 EST 2019 snapshot
+ 3 files changed, 155 insertions(+), 1 deletions(-)
+ create mode 100644 lib/realms/torak/dalnairn/npc/nergui.c
