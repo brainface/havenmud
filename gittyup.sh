@@ -12,7 +12,8 @@ cd /home/haven/haven
 sDATE=`date`
 
 # grab dumb chat daemon, weather daemon stuff etc
-./tarball_ignores.py
+# on second thought we only need this once, really
+# ./tarball_ignores.py
 
 # add eerthing
 git add .
