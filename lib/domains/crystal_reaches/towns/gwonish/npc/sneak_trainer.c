@@ -24,12 +24,12 @@ static void create() {
   SetLevel(50);
   SetMorality(-100);
   // don't like giving bargaining to crazy lizard folk.
-  // but no bargainign = worthlessly broke
+  // but no bargaining = worthlessly broke
   AddTrainingSkills("bargaining");
   AddTrainingSkills("cooking");
   AddTrainingSkills("fishing");
   AddTrainingSkills("navigation");
-  //AddTrainingSkills("sailing");
+  AddTrainingSkills("sailing");
   AddTrainingSkills("skinning");
   AddTrainingSkills("stealth");
   AddTrainingSkills("swimming");

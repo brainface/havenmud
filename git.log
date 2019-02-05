@@ -1501,3 +1501,6 @@ If the identity used for this commit is wrong, you can fix it with:
  create mode 100644 lib/realms/torak/dalnairn/npc/nergui.c
 yo skipped /lib/Fluff_LIB
 
+[master 2815e5d] Mon Feb  4 09:00:01 EST 2019 snapshot
+ 3 files changed, 5 insertions(+), 3 deletions(-)
+ rewrite lib/save/skills.o (68%)
