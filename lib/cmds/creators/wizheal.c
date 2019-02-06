@@ -21,6 +21,7 @@ mixed cmd(string str)
   healed->AddFood(200);
   healed->AddDrink(200);
   healed->AddPoison(-(healed->GetPoison()));
+  healed->SetBleeding(0);
   healed->AddRecoveryTime(-(healed->GetRecoveryTime()));
   if (healed->GetBlind()) healed->RemoveBlindness();
   foreach(object ob in all_inventory(healed)) {
