@@ -56,7 +56,7 @@ int eventAttack(object who, object target) {
     send_messages( ({ "graze" }), "$agent_name%^BOLD%^ $agent_verb%^RESET%^ "
       "$target_possessive_noun cheek with $agent_possessive "+weapon->GetKeyName()+".",
       who, target, environment(who));
-    target->AddBleeding(2); // flavor
+    target->AddBleeding(2, who); // flavor
     target->eventDisplayStatus();
     return 1;
   }
@@ -78,7 +78,7 @@ int eventAttack(object who, object target) {
 
   //BLEEEED for me.
   if (!target->GetBleeding()) {
-    target->AddBleeding(random(who->GetStatLevel("coordination")/16));
+    target->AddBleeding(random(who->GetStatLevel("coordination")/16), who);
     target->eventDisplayStatus(); // so they know they're bleeding
   }
   return 1;

@@ -80,7 +80,7 @@ int eventAttack(object who, object target) {
   if (who->GetTestChar()) debug("skewer damage: " + damage);
   damage = target->GetDamageInflicted(who, weapon->GetDamageType(), damage, 0, limb);
   if (who->GetTestChar()) debug("skewer damage after GetDamageInflicted: " + damage);
-  target->AddBleeding( random(who->GetStatLevel("coordination")/16) );
+    target->AddBleeding(random(who->GetStatLevel("coordination")/16), who);
   target->AddParalyzed(random(3)+1);
   target->eventInflictDamage(who, weapon->GetDamageType(), damage, 0, limb);
   if(target && environment(target)) { 

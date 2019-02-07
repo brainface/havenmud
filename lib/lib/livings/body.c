@@ -52,10 +52,16 @@ int AddRecoveryTime(int);
 string GetOwner();
 int GetTestChar();
 
+/* bleeding adds because.. breaky */
+varargs int eventInflictDamage(object agent, int type, int x, int internal, mixed limbs);
+
+/* PersistentDamageTypes */
+private mapping PersistentDamages;
+
 static void create() {
     AddSave( ({ "HealthPoints", "MagicPoints", "StaminaPoints", "Undead",
                 "Limbs", "MissingLimbs", "WornItems", "Sleeping", "Bleeding", "Smoke",
-                "Blessed", "Cursed",
+                "Blessed", "Cursed", "PersistentDamages",
                  }) );
     NewBody(0);
     Protect = 0;
@@ -69,6 +75,9 @@ static void create() {
     Dying = 0;
     LastHeal = time();
     Protection = ({});
+    PersistentDamages = ([
+				"bleeding": ([]),
+			 ]);
 }
 
 mixed direct_tend_str_on_liv(string what) {
@@ -145,9 +154,88 @@ private void checkCollapse() {
     }
 }
 
+mapping GetPersistentDamages(string type) {
+  switch(type) {
+    case "bleeding":
+      return PersistentDamages["bleeding"];
+    default:
+      return PersistentDamages;
+  }
+}
+
 int eventBleed(int amount) {
-  eventReceiveDamage(load_object(STD_DUMMY "bleeding"), DISEASE, amount * 3, 1);
-  eventPrint("%^RED%^You are bleeding.%^RESET%^");
+  mixed k;
+  string msg;
+  //mixed *tmp;
+  // new bleeding -- why is bleeding damage * 3?
+  // Need to check if Dying and attribute death to the appropriate person
+  if (sizeof(keys(PersistentDamages["bleeding"])) > 0) {
+        foreach (k in keys(PersistentDamages["bleeding"])) {
+                int amt = PersistentDamages["bleeding"][k];
+                if (objectp(k) && amt > 0) {
+                        if (playerp(k)) {
+                                if (member_array(k, all_inventory(environment())) != -1) {
+                                        eventReceiveDamage(k, DISEASE, amt * 3, 1);
+                                } else { // bleeding inflictor is not in the room
+                                        eventReceiveDamage(load_object(STD_DUMMY "bleeding"), DISEASE, amt * 3, 1);
+                                }
+
+                        } else {
+                                eventReceiveDamage(k, DISEASE, amt * 3, 1);
+                        }
+                } else {
+                        //debug("bleeding damage coming from not an object!");
+                        if (k == "generic" && amt > 0) {
+                                  //debug("generic bleeding amt: " + amt);
+                                  eventReceiveDamage(load_object(STD_DUMMY "bleeding"), DISEASE, amt * 3, 1);
+                        } else {
+                                int accounted_for_sources;
+                                int current_bleeding = GetBleeding();
+                                foreach(mixed s in keys(PersistentDamages["bleeding"])) {
+                                        if (objectp(s) || s == "generic") {
+                                            accounted_for_sources += PersistentDamages["bleeding"][s];
+                                        }
+                                }
+                                if (accounted_for_sources != current_bleeding) {
+                                  /* this is necessary if a player logs off to ensure the damage
+                                   * persists even if they're not around */
+                                  int diff = current_bleeding - accounted_for_sources;
+                                  PersistentDamages["bleeding"]["generic"] += diff;
+                                  /* rebuild mapping */
+                                  PersistentDamages["tmp"] = ([ ]);
+                                  foreach (mixed s in keys(PersistentDamages["bleeding"])) {
+                                     if (s != 0) {
+                                        PersistentDamages["tmp"][s] = PersistentDamages["bleeding"][s];
+                                     }
+                                  }
+                                  PersistentDamages["bleeding"] = PersistentDamages["tmp"];
+                                  map_delete(PersistentDamages, "tmp");
+                                  eventReceiveDamage(load_object(STD_DUMMY "bleeding"), DISEASE, diff * 3, 1);
+                                }
+                        }
+                }
+        }
+    } 
+  // make bleeding messages public, so everyone can laugh at you
+  // someone should make these messages better.
+
+  switch(GetBleeding()) {
+	case 1..10: 
+		msg = "Blood seeps from $agent_possessive_noun wounds.";
+	        break;
+	case 11..35: 
+		msg = "Blood pours from $agent_possessive_noun severe wounds.";
+		break;
+	case 36..101: 
+		msg = "Blood flows freely from $agent_possessive_noun severe wounds.";
+		break;
+	default:
+		msg = "Blood seeps $agent_verb from $agent_possessive_noun wounds.";
+		break;
+  }
+  send_messages("", "%^RED%^" + msg + "%^RESET%^", this_object(), 0, environment());
+
+  //eventPrint("%^RED%^You are bleeding.%^RESET%^");
 }
 
 int eventTend(object tender, object tendee) {
@@ -1031,7 +1119,15 @@ int RemoveLimb(string limb, object agent) {
 
         message("environment", possessive_noun(GetName()) + " " + limb +  " is severed!", environment(), ({ this_object() }));
         message("environment", "Your "+ limb + " is severed!", this_object());
-        if (userp(this_object()) && !userp(agent)) AddBleeding(10);
+        if (living(this_object())) {   //(userp(this_object())) {
+	      if(!userp(agent)) {
+		//debug("Limb severed by NON-USER ->"  + agent->GetKeyName());
+		AddBleeding(10); 
+		} else {
+		//debug("Limb severed by USER -> " + agent->GetCapName());
+		AddBleeding(10, agent);
+		}
+	} /* new_bleeding -- should cause npc bleeding too */
         if (agent) {
           if (userp(agent) && limb == "head") agent->AddSeveredHead(1);
           }
@@ -1336,19 +1432,98 @@ int GetStaminaPoints() { return to_int(StaminaPoints); }
 
 float GetMaxStaminaPoints() {  return 0; }
 
-int SetBleeding(int x) { return Bleeding = x; }
+varargs int SetBleeding(int x, object who) {
+	mixed k;
+	if (!mapp(PersistentDamages["bleeding"])) {
+		//debug("Bleeding isn't a mapping, creating");
+		PersistentDamages["bleeding"] = ([]);
+	}
+	foreach(k in keys(PersistentDamages["bleeding"])) {
+		//debug("Deleting mapping: " + k + ".");
+		map_delete(PersistentDamages["bleeding"], k);
+		//debug("Size of bleeding map: " + sizeof(PersistentDamages["bleeding"]) + ".");
+	}
+	if (playerp(who)) {
+		PersistentDamages["bleeding"][who] = x;
+	} else {
+		PersistentDamages["bleeding"]["generic"] = x;
+	}
+	return Bleeding = x; 
+}
 
-int AddBleeding(int x) {
-  Bleeding += x;
+mixed GetBleedingInfo() {
+	string ret = "";
+	mixed k;
+	string nom = "generic";
+	if (sizeof(keys(PersistentDamages["bleeding"])) > 0) {
+		foreach( k in keys(PersistentDamages["bleeding"])) {
+			if (objectp(k)) {
+				if (playerp(k)) nom = k->GetCapName();
+			} else {
+				if (k == "generic") nom = "generic";
+			}
+			ret += sprintf("%s : %d, ", nom, PersistentDamages["bleeding"][k]);
+		}
+	}
+	return ret;
+}
+
+varargs int AddBleeding(int x, object who) {
+	mixed k;
+	int current_bleeding = Bleeding;
+	int accounted_for_sources;
+        Bleeding = 0; /* reset bleeding for later calcs */
+	
+	if (x < 0) { /* we're getting healed */
+		mixed a;
+		int num_of_agents = sizeof(PersistentDamages["bleeding"]);
+
+		if (num_of_agents > 0) { /* should always be true because of generic */
+			mixed amt_to_heal_per_agent = abs(x) / num_of_agents;
+
+			if(floatp(amt_to_heal_per_agent)) { 
+				amt_to_heal_per_agent = to_int(amt_to_heal_per_agent);
+			}
+			if(amt_to_heal_per_agent < 1) {
+				amt_to_heal_per_agent = 1;
+			}
+			
+			foreach(a in keys(PersistentDamages["bleeding"])) {
+				PersistentDamages["bleeding"][a] -= amt_to_heal_per_agent;
+			}
+		}
+	} else { /* we're adding bleeding, categorize appropriately */
+		if (who && playerp(who)) {
+			/* Damage from a player, get that XP, woot */
+			PersistentDamages["bleeding"][who] += x;
+		} else {
+			/* Damage from any other source, even npc, throw to generic */
+			PersistentDamages["bleeding"]["generic"] += x;
+		}
+	}
+
+	/* square up, remove mappings that no longer exist and set bleeding total */
+	if (sizeof(keys(PersistentDamages["bleeding"])) > 0) {
+		foreach(k in keys(PersistentDamages["bleeding"])) {
+			if (PersistentDamages["bleeding"][k] <= 0 && k != "generic") {
+				map_delete(PersistentDamages["bleeding"], k);
+			} else {
+				Bleeding += PersistentDamages["bleeding"][k];
+			}
+		}
+	} else {
+		Bleeding = 0;
+	}
   if (Bleeding <= 0) {
   	eventPrint("You are no longer bleeding.");
+	SetBleeding(0);
   	Bleeding = 0;
   }
   if (Bleeding >= 200) Bleeding = 200;
   return Bleeding;
 }
 
-int GetBleeding() { return Bleeding; }
+varargs int GetBleeding(object who) { return Bleeding; }
 
 int AddMagicProtection(class MagicProtection cl) {
     if( ( !cl->absorb && !(cl->protect && cl->time) ) ||

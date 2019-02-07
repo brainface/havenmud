@@ -1507,3 +1507,12 @@ yo skipped /lib/Fluff_LIB
 [master a8b7d86] Tue Feb  5 09:00:01 EST 2019 snapshot
  4 files changed, 9 insertions(+), 6 deletions(-)
  rewrite lib/save/skills.o (68%)
+[master 6eb5f76] Wed Feb  6 09:00:01 EST 2019 snapshot
+ 10 files changed, 6727 insertions(+), 8 deletions(-)
+ create mode 100644 lib/lib/livings/body.c_pre_mel_bleeding
+ create mode 100644 lib/realms/melchezidek/body.c
+ create mode 100755 lib/realms/melchezidek/body.c_new_bleeding
+ create mode 100755 lib/realms/melchezidek/body.c_orig
+ create mode 100644 lib/realms/melchezidek/include/body.h
+ rewrite lib/save/skills.o (68%)
+ rewrite lib/save/unique.o (69%)

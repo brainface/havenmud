@@ -86,7 +86,7 @@ int eventAttack(object who, object target) {
       damage = target->GetDamageInflicted(who, weapon->GetDamageType(), damage, 0, limb);
       if (who->GetTestChar()) debug("bumrush damage after GetDamageInflicted: " + damage);
       target->eventInflictDamage(who, weapon->GetDamageType(), damage, 0, limb);
-      if ( !target->GetBleeding() ) target->AddBleeding(random(10)+1);
+      if ( !target->GetBleeding() ) target->AddBleeding(random(10)+1, who);
     }
   }
   return 1;

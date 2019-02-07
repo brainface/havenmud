@@ -57,7 +57,7 @@ int eventAttack(object who, object target) {
       "into $target_possessive_noun " + limb +" with $agent_possessive"+weapon->GetKeyName()+", "
       "causing a bloody but shallow wound!",
       who, target, environment(who));
-    target->AddBleeding(random(who->GetStatLevel("coordination")/60)+1);//flavahflave
+    target->AddBleeding(random(who->GetStatLevel("coordination")/60)+1, who);//flavahflave
     target->eventDisplayStatus();
     return 1;
   }
@@ -79,7 +79,7 @@ int eventAttack(object who, object target) {
 
   //BLEEEED for me.
   if (!target->GetBleeding()) {
-    target->AddBleeding(random(who->GetStatLevel("coordination")/30)+1);
+    target->AddBleeding(random(who->GetStatLevel("coordination")/30)+1, who);
     target->eventDisplayStatus(); // so they know they're bleeding
   }
   return 1;

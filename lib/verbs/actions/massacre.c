@@ -100,7 +100,7 @@ int eventAttack(object who, object* targets) {
       "$agent_possessive_noun axe%^RED%^ carves%^RESET%^ a furrowed "
         "line into $target_possessive_noun flesh!",
         who, target, environment(who));
-      target->AddBleeding(1,10);
+    target->AddBleeding(random(1,10),who);
     // hit
     } else {
 

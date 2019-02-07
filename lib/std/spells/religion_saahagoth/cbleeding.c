@@ -42,7 +42,7 @@ varargs int eventCast(object who, int level, mixed b, object array targets) {
     "$target_possessive skin to rip and tear, %^BOLD%^%^RED%^blood%^RESET%^ "
     "sprays out from $target_possessive wounds."
     ,who,target,environment(who));
-  target->AddBleeding(level/5);
+  target->AddBleeding(level/5, who);
   return 1;
   }
 }
