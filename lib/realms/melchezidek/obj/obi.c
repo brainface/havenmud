@@ -1,9 +1,10 @@
 #include <lib.h>
 #include <armour_class.h>
-inherit LIB_WORN_STORAGE;
 #include <armour_types.h>
 #include <size.h>
 #include <vendor_types.h>
+inherit LIB_WORN_STORAGE;
+
 
 mixed CanPutInto(object who, object item);
 static void create() {
@@ -47,5 +48,5 @@ mixed CanPutInto(object who, object item) {
     if( env != this_player() && env != environment(this_player()) ) {
         return "It is not within reach.";
     }
-    return ::eventReceiveObject();
+    return ::eventReceiveObject(item);
 }

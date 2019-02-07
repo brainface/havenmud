@@ -1434,6 +1434,9 @@ float GetMaxStaminaPoints() {  return 0; }
 
 varargs int SetBleeding(int x, object who) {
 	mixed k;
+        if (GetDying()) {
+	    return 1;
+        }
 	if (!mapp(PersistentDamages["bleeding"])) {
 		//debug("Bleeding isn't a mapping, creating");
 		PersistentDamages["bleeding"] = ([]);
