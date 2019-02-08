@@ -1476,7 +1476,11 @@ varargs int AddBleeding(int x, object who) {
 	int current_bleeding = Bleeding;
 	int accounted_for_sources;
         Bleeding = 0; /* reset bleeding for later calcs */
-	
+
+        if (member_array("bleeding", keys(PersistentDamages)) == -1) {
+            PersistentDamages["bleeding"] = ([]);
+        }
+
 	if (x < 0) { /* we're getting healed */
 		mixed a;
 		int num_of_agents = sizeof(PersistentDamages["bleeding"]);
