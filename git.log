@@ -1522,3 +1522,10 @@ yo skipped /lib/Fluff_LIB
 [master 4ffff46] Fri Feb  8 09:00:01 EST 2019 snapshot
  2 files changed, 8 insertions(+), 4 deletions(-)
  rewrite lib/save/skills.o (68%)
+[master 9c11c84] Sat Feb  9 09:00:01 EST 2019 snapshot
+ 5 files changed, 263 insertions(+), 147 deletions(-)
+ create mode 100644 lib/realms/mahkefel/npc/fake.c
+ create mode 100644 lib/realms/mahkefel/npc/illusion.c
+ rewrite lib/std/mission_obj/crystal_ball.c (85%)
+ mode change 100755 => 100644
+ rename lib/std/{mission_obj/crystal_ball.c => obj/crystal_ball_alli.c} (100%)
