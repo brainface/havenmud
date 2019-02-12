@@ -32,7 +32,6 @@ object SetIllusionTarget(object target) {
 object GetIllusionTarget() {
   object target;
   if (IllusionTarget) {
-    debug("finding target :" + IllusionTarget);
     target = find_living(IllusionTarget);
     if (target) {
       return target;

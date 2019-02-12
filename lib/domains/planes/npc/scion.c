@@ -34,10 +34,10 @@ static void create() {
     "cast wall of force",
     "cast wall of force",
   }) );
-  SetAction(5, ([ 
+SetAction(5, ({
   	  "!emote hovers gracefully in the air, white wings barely flapping.",
       "!say Dost thou come in peace and walk in the law?"
-  	  ]) );
+}) );
   SetInventory( ([
      PLANE_OBJ + "halo" : "wear halo",
      PLANE_OBJ + "sapphire" : random(5),
