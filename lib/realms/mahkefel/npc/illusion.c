@@ -1,5 +1,5 @@
 /*
- * an illusion template attempt 
+ * an illusion template attempt
 */
 #include <lib.h>
 inherit LIB_NPC;
@@ -26,6 +26,11 @@ static void create(){
 // not checked! may hilarity
 object SetIllusionTarget(object target) {
   IllusionTarget = target;
+  
+  // I think this does parser magic to make ids reset
+  // i also think it may mean that the specific way i'm doing this doesn't
+  // work. Illusions may need SetId/SetKeyname/etc run, THEN
+  // parse_reset run.
 }
 
 // Get the object the illusion is targeting, 0 if it can't find them
@@ -44,41 +49,41 @@ object GetIllusionTarget() {
 // doesn't seem to work as intended, may need to be set before
 // dude is loaded?
 string GetKeyName() {
-  object target=GetIllusionTarget(); 
+  object target=GetIllusionTarget();
   if (target) {
-    return target->GetKeyName(); 
+    return target->GetKeyName();
   } else {
-    return npc::GetKeyName(); 
+    return npc::GetKeyName();
   }
 }
 
 string GetName() {
-  object target=GetIllusionTarget(); 
+  object target=GetIllusionTarget();
   if (target) {
-    return target->GetName(); 
+    return target->GetName();
   } else {
-    return npc::GetName(); 
+    return npc::GetName();
   }
 }
 
 // make id match illusion target if possible
 string array GetId() {
-  object target=GetIllusionTarget(); 
+  object target=GetIllusionTarget();
   if (target) {
-    return target->GetId() + npc::GetId(); 
+    return target->GetId() + npc::GetId();
   } else {
-    return npc::GetId(); 
+    return npc::GetId();
   }
 }
 
 // make adjectives match illusion target if possible
 string array GetAdjectives() {
-  object target=GetIllusionTarget(); 
+  object target=GetIllusionTarget();
   if (target) {
-    return target->GetAdjectives() + npc::GetAdjectives(); 
+    return target->GetAdjectives() + npc::GetAdjectives();
   } else {
-    return npc::GetId(); 
-  }  
+    return npc::GetId();
+  }
 }
 
 // make long match illusion target if possible
@@ -86,9 +91,9 @@ string array GetAdjectives() {
 string GetLong(string nom) {
   object target=GetIllusionTarget();
   if (target) {
-    return target->GetLong(nom); 
+    return target->GetLong(nom);
   } else {
-    return npc::GetLong(nom); 
+    return npc::GetLong(nom);
   }
 }
 
@@ -96,9 +101,11 @@ string GetLong(string nom) {
 string GetShort(string nom) {
   object target=GetIllusionTarget();
   if (target) {
-    return target->GetShort(); 
+    return target->GetShort();
   } else {
-    return npc::GetShort(); 
+    return npc::GetShort();
   }
 }
 
+
+  parse_refresh();
