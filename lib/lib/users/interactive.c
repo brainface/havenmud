@@ -561,7 +561,7 @@ void eventDescribeEnvironment(int brief) {
     string *shorts;
     string desc, smell, sound, touch, weather;
     int i, maxi;
-    mapping lying = ([]), sitting = ([]), standing = ([]), sleeping = ([]);
+    mapping lying = ([]), sitting = ([]), standing = ([]), sleeping = ([]), chaired = ([]);
     object *obs;
     string key;
     int val;
@@ -625,142 +625,161 @@ void eventDescribeEnvironment(int brief) {
     
     /* non-living inventory */
     shorts = map(filter(all_inventory(env), function(object ob) {
-	           if( living(ob) )                       return 0;
-             if( (int)ob->GetInvis(this_object()) ) return 0;
-				     if( (int)ob->isFreshCorpse() )         return 0;
-             if (ob == environment())               return 0;
-				     return 1;
-	          } ), (: (string)$1->GetShort() :));
-	  foreach(string s in shorts) {
-	    if( s ) {
-		    lying[s]++;
-	      }
-	    }
-	  for(i=0, desc = 0, maxi = sizeof(shorts = keys(lying)); i<maxi; i++) {
-	    key = shorts[i];
-	    val = lying[shorts[i]];
-	    if( val < 2 ) {
-		    if( !desc ) desc = "%^MAGENTA%^" + capitalize(key) + "%^RESET%^MAGENTA%^";
-		      else desc += key + "%^RESET%^MAGENTA%^";
-	    } else {
-		    if( !desc ) desc = "%^MAGENTA%^" + capitalize(consolidate(val, key)) + "%^RESET%^MAGENTA%^";
-		      else desc += consolidate(val, key) + "%^RESET%^MAGENTA%^";
-	      }
-	    if( i == maxi - 1 ) {
-		    if( maxi > 1 || val >1 )
-		      desc += " are here.%^RESET%^\n";
-		      else desc += " is here.%^RESET%^\n";
-	      }
-	      else if( i == maxi - 2 ) {
-		      if( maxi == 2 ) {
-		        desc += " and ";
-		        }
-		        else {
-		        desc += ", and ";
-	   	      }
-	        }
-	      else desc += ", ";
-	     } 
-     
-     key = 0; val = 0; lying = ([]);
-     obs = filter(all_inventory(env), function(object ob) {
-             if( (int)ob->GetInvis(this_object()) >= rank() ) return 0;
-					   if( living(ob) )                                 return 1;
-					   if( (int)ob->isFreshCorpse() )                   return 1;
-	           }) - ({ this_object() });
-	
-	  maxi = sizeof(shorts = map(obs, (: (string)$1->GetHealthShort() :)));
-	  foreach(object liv in obs) {
-	    string s = (string)liv->GetHealthShort();
-	    int pos = (int)liv->GetPosition();
-	    
-	    if( !s ) continue;
-	    if( creatorp(liv) || pos == POSITION_STANDING) standing[s]++;
-	    else if( (pos == POSITION_LYING || (int)liv->isFreshCorpse()) && !liv->GetSleeping() )
-	      lying[s]++;
-	    else if( pos == POSITION_SITTING ) sitting[s]++;
-	    else if (liv->GetSleeping()) sleeping[s]++;
-	    else lying[s]++;
-	  }
-    if( !desc ) {  tmp = "";  } else { tmp = desc;  }
-	  desc = ""; 
-	  
-	  foreach(key, val in lying) {
-	    if( val < 2 ) desc += capitalize(key) + "%^RESET%^ is lying down.";
-	      else desc += capitalize(consolidate(val, key)) + "%^RESET%^ are lying down.";
-	    desc += "\n";
-	    }
-	  foreach(key, val in sleeping) {
-      if (val < 2) desc += capitalize(key) + "%^RESET%^ is sleeping.";
-        else desc += capitalize(consolidate(val, key)) + "%^RESET%^ are sleeping.";
-      desc += "\n";
+      if( living(ob) )                       return 0;
+      if( (int)ob->GetInvis(this_object()) ) return 0;
+      if( (int)ob->isFreshCorpse() )         return 0;
+      if (ob == environment())               return 0;
+      return 1;
+    } ), (: (string)$1->GetShort() :));
+    foreach(string s in shorts) {
+      if( s ) {
+        lying[s]++;
       }
-	  foreach(key, val in sitting) {
-	    if( val < 2 )
-	      desc += capitalize(key) + "%^RESET%^ is sitting down.";
-	        else desc += capitalize(consolidate(val, key)) + "%^RESET%^ are sitting down.";
-	      desc += "\n";
-	    }
-	  foreach(key, val in standing) {
-	    if( val < 2 )
-	      desc += capitalize(key) + "%^RESET%^ is here.";
-	        else desc += capitalize(consolidate(val, key)) + "%^RESET%^ are here.";
-	      desc += "\n";
-	    }
+    }
+    for(i=0, desc = 0, maxi = sizeof(shorts = keys(lying)); i<maxi; i++) {
+      key = shorts[i];
+      val = lying[shorts[i]];
+      if( val < 2 ) {
+        if( !desc ) desc = "%^MAGENTA%^" + capitalize(key) + "%^RESET%^MAGENTA%^";
+        else desc += key + "%^RESET%^MAGENTA%^";
+      } else {
+        if( !desc ) desc = "%^MAGENTA%^" + capitalize(consolidate(val, key)) + "%^RESET%^MAGENTA%^";
+        else desc += consolidate(val, key) + "%^RESET%^MAGENTA%^";
+      }
+      if( i == maxi - 1 ) {
+        if( maxi > 1 || val >1 ) desc += " are here.%^RESET%^\n";
+        else desc += " is here.%^RESET%^\n";
+      } else if( i == maxi - 2 ) {
+        if( maxi == 2 ) {
+          desc += " and ";
+        } else {
+          desc += ", and ";
+        }
+      } else {
+	desc += ", ";
+      }
+    }
+     
+    key = 0; val = 0; lying = ([]);
+    obs = filter(all_inventory(env), function(object ob) {
+      if( (int)ob->GetInvis(this_object()) >= rank() ) return 0;
+      if( living(ob) )                                 return 1;
+      if( (int)ob->isFreshCorpse() )                   return 1;
+    }) - ({ this_object() });
+	
+    maxi = sizeof(shorts = map(obs, (: (string)$1->GetHealthShort() :)));
+    foreach(object liv in obs) {
+      string s = (string)liv->GetHealthShort();
+      int pos = (int)liv->GetPosition();
+      object chair = liv->GetChair();
+	    
+      if( !s ) continue;
+      if( creatorp(liv) || pos == POSITION_STANDING) standing[s]++;
+      // handle people lying or sitting ON things
+      // have to pull desc and describe sitter HERE.
+      else if( pos == POSITION_LYING && chair && chair->GetShort() ) {
+        chaired[capitalize(s) + "%^RESET%^ is lying on " + chair->GetShort() + "."]++;
+      } else if( pos == POSITION_SITTING && chair && chair->GetShort() ) {
+        if (chair->GetRider()==liv || vehiclep(chair) ) {
+          chaired[capitalize(s) + "%^RESET%^ is riding on " + add_article(remove_article(chair->GetName())) + "."]++;
+        } else {
+          chaired[capitalize(s) + "%^RESET%^ is sitting on " + add_article(remove_article(chair->GetName())) + "."]++;
+        }
+      }
+      // okay back to people not being on things
+      else if( (pos == POSITION_LYING || (int)liv->isFreshCorpse()) && !liv->GetSleeping() )
+        lying[s]++;
+      else if( pos == POSITION_SITTING ) sitting[s]++;
+      else if (liv->GetSleeping()) sleeping[s]++;
+      else lying[s]++;
+    }
+    if( !desc ) {  tmp = "";  } else { tmp = desc;  }
+    desc = ""; 
+	  
+    foreach(key, val in lying) {
+      if( val < 2 ) desc += capitalize(key) + "%^RESET%^ is lying down.";
+      else desc += capitalize(consolidate(val, key)) + "%^RESET%^ are lying down.";
+        desc += "\n";
+    }
+    foreach(key, val in sleeping) {
+      if (val < 2) desc += capitalize(key) + "%^RESET%^ is sleeping.";
+      else desc += capitalize(consolidate(val, key)) + "%^RESET%^ are sleeping.";
+      desc += "\n";
+    }
+    foreach(key, val in sitting) {
+      if( val < 2 )
+        desc += capitalize(key) + "%^RESET%^ is sitting down.";
+      else desc += capitalize(consolidate(val, key)) + "%^RESET%^ are sitting down.";
+      desc += "\n";
+    }
+    // too big a pita to handle multiples, and it will hardly come up,
+    // making it just read i.e. "A drunk is sitting in a chair here. A drunk is sitting in a chair here."
+    // as opposed to "two drunks are sitting in chairs here."
+    foreach(key, val in chaired) {
+      while (val > 0) {
+        desc += capitalize(key);
+        desc += "\n";
+        val--;
+      }
+    }
+	  
+    foreach(key, val in standing) {
+      if( val < 2 )
+        desc += capitalize(key) + "%^RESET%^ is here.";
+      else desc += capitalize(consolidate(val, key)) + "%^RESET%^ are here.";
+        desc += "\n";
+    }
     
-   if( tmp ) { desc = tmp + desc; }
-   if( sizeof(desc) ) {
-	   if (environment()->GetProperty("PROP_VEHICLE"))
-	     eventPrint(desc, MSG_ROOMDESC); else
-	     eventPrint(desc + "\n", MSG_ROOMDESC);
+    if( tmp ) { desc = tmp + desc; }
+    if( sizeof(desc) ) {
+      if (environment()->GetProperty("PROP_VEHICLE"))
+        eventPrint(desc, MSG_ROOMDESC); else
+      eventPrint(desc + "\n", MSG_ROOMDESC);
     }
    
-   /* Room description complete... unless you're in a vehicle */
-   if (environment()->GetProperty("PROP_VEHICLE")) {
-       eventPrint("%^ORANGE%^" + environment()->GetLong() + "%^RESET%^");
-       env = environment();
+    /* Room description complete... unless you're in a vehicle */
+    if (environment()->GetProperty("PROP_VEHICLE")) {
+      eventPrint("%^ORANGE%^" + environment()->GetLong() + "%^RESET%^");
+      env = environment();
 
-    desc = ""; lying = ([]); standing = ([]); sitting = ([]); sleeping = ([]);
-    key = 0; val = 0;
+      desc = ""; lying = ([]); standing = ([]); sitting = ([]); sleeping = ([]);
+      key = 0; val = 0;
     
-    /* non-living inventory */
-    shorts = map(filter(all_inventory(env), function(object ob) {
-	           if( living(ob) )                       return 0;
-             if( (int)ob->GetInvis(this_object()) ) return 0;
-				     if( (int)ob->isFreshCorpse() )         return 0;
-             if (ob == environment())               return 0;
-				     return 1;
-	          } ), (: (string)$1->GetShort() :));
-	  foreach(string s in shorts) {
-	    if( s ) {
-		    lying[s]++;
-	      }
-	    }
-	  for(i=0, desc = 0, maxi = sizeof(shorts = keys(lying)); i<maxi; i++) {
-	    key = shorts[i];
-	    val = lying[shorts[i]];
-	    if( val < 2 ) {
-		    if( !desc ) desc = "%^MAGENTA%^" + capitalize(key) + "%^RESET%^MAGENTA%^";
-		      else desc += key + "%^RESET%^MAGENTA%^";
-	    } else {
-		    if( !desc ) desc = "%^MAGENTA%^" + capitalize(consolidate(val, key)) + "%^RESET%^MAGENTA%^";
-		      else desc += consolidate(val, key) + "%^RESET%^MAGENTA%^";
-	      }
-	    if( i == maxi - 1 ) {
-		    if( maxi > 1 || val >1 )
-		      desc += " are here.%^RESET%^\n";
-		      else desc += " is here.%^RESET%^\n";
-	      }
-	      else if( i == maxi - 2 ) {
-		      if( maxi == 2 ) {
-		        desc += " and ";
-		        }
-		        else {
-		        desc += ", and ";
-	   	      }
-	        }
-	      else desc += ", ";
-	     } 
+      /* non-living inventory */
+      shorts = map(filter(all_inventory(env), function(object ob) {
+        if( living(ob) )                       return 0;
+        if( (int)ob->GetInvis(this_object()) ) return 0;
+        if( (int)ob->isFreshCorpse() )         return 0;
+        if (ob == environment())               return 0;
+        return 1;
+      } ), (: (string)$1->GetShort() :));
+      foreach(string s in shorts) {
+        if( s ) {
+          lying[s]++;
+        }
+      }
+      for(i=0, desc = 0, maxi = sizeof(shorts = keys(lying)); i<maxi; i++) {
+        key = shorts[i];
+        val = lying[shorts[i]];
+        if( val < 2 ) {
+          if( !desc ) desc = "%^MAGENTA%^" + capitalize(key) + "%^RESET%^MAGENTA%^";
+          else desc += key + "%^RESET%^MAGENTA%^";
+        } else {
+          if( !desc ) desc = "%^MAGENTA%^" + capitalize(consolidate(val, key)) + "%^RESET%^MAGENTA%^";
+          else desc += consolidate(val, key) + "%^RESET%^MAGENTA%^";
+        }
+        if( i == maxi - 1 ) {
+          if( maxi > 1 || val >1 )
+            desc += " are here.%^RESET%^\n";
+          else desc += " is here.%^RESET%^\n";
+        } else if( i == maxi - 2 ) {
+          if( maxi == 2 ) {
+            desc += " and ";
+          } else {
+            desc += ", and ";
+          }
+        } else desc += ", ";
+      } 
      
      key = 0; val = 0; lying = ([]);
      obs = filter(all_inventory(env), function(object ob) {

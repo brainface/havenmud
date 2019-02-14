@@ -79,10 +79,14 @@ int eventExecuteAttack(mixed target) {
 
   SetNextRoundFunction(0);
   SetNextRound(ROUND_UNDEFINED);
-  if (position == POSITION_LYING || position == POSITION_SITTING) {
+  if (position == POSITION_LYING) {
     eventPrint("You can't fight unless you are standing up!");
     return 0;
-    }
+  }
+  if (position == POSITION_SITTING && !this_object()->GetChair()) {
+    eventPrint("You can't fight unless you are standing up!");
+    return 0;
+  }
   if (arrayp(target)) {
     if (!attack || functionp(attack) & FP_OWNER_DESTED) {
           /*  Has to error out, since by default this

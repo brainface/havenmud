@@ -49,7 +49,27 @@ string GetShortSuffixes() {
   string prettySuffixes = "";
 
   if (!ShortSuffixes) return "";
-  
+
+  // Always return "ridden" if has a rider
+  if (this_object()->GetRider()) {
+    prettySuffixes += " (ridden by " + this_object()->GetRider()->GetName() + ")";
+  }
+   
+  if (this_object()->GetHitcher()) {
+    prettySuffixes += " (hitched to " + this_object()->GetHitcher()->GetName() + ")";
+  }
+
+  /* doesn't want to work right and looks gross
+  if (this_object()->GetSitters() && sizeof(this_object()->GetSitters())) {
+    string *sitters = ({ });
+    foreach(object sitter in this_object()->GetSitters()) {
+      if (sitter != this_object()->GetRider()) {
+        sitters += ({ sitter->GetName() });
+      }
+    }
+    prettySuffixes += " (bearing " + item_list(sitters) + ")";   
+    }*/
+
   // if someone is (on fire!) 5 times, only show it once
   foreach(string suffix in values(ShortSuffixes)) {
     if (member_array(suffix, uniqueSuffixes) == -1) {

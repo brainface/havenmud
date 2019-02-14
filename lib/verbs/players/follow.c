@@ -29,6 +29,9 @@ mixed can_follow() {
    if(this_player()->GetSleeping()) {
       return "You cannot do that while sleeping!";
    }
+   if(this_player()->GetHitcher()) {
+     return "You are hitched to something and cannot move.";
+   }
    return 1;
 }
 

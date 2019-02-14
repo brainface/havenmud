@@ -2,7 +2,7 @@
 // mahkefel 2012--cheap copy of dark elf caravel
 #include <lib.h>
 #include <vehicle.h>
-inherit LIB_VEHICLE;
+inherit LIB_SHIP;
 
 static void create() {
   ::create();

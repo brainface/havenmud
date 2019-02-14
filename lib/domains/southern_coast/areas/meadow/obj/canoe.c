@@ -4,7 +4,7 @@
 
 #include <lib.h>
 #include <vehicle.h>
-inherit LIB_VEHICLE;
+inherit LIB_SHIP;
 
 static void create() {
   ::create();

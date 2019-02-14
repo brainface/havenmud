@@ -1,7 +1,7 @@
 #include <lib.h>
 // Mahkefel 2017: gave unique and more vikingy description
 #include <vehicle.h>
-inherit LIB_VEHICLE;
+inherit LIB_SHIP;
 
 static void create() {
   ::create();

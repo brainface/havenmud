@@ -88,6 +88,10 @@ varargs mixed CanLead(object ob) {
             return ob->GetName() + " is already leading you.";
         if( ob == this_object() )
             return "You cannot possibly do that.";
+        // fail to lead if it's a horse dragging a wagon.
+        if ( ob->GetHitcher() ) {
+            return "Mounts hitched to wagons must be driven, not lead";
+        }
     }
     return 1;
 }
@@ -98,6 +102,10 @@ varargs mixed CanEvade(object ob) {
     return 1;
 }
 
+//mahk 2019: oh my god what does any of this mean
+// what kind of nonsense is this these are not words
+// oh my god why is there a followerclass
+
 int eventMoveFollowers(object dest) {
     class FollowerClass follower;
     object ob;
@@ -105,7 +113,6 @@ int eventMoveFollowers(object dest) {
 
     foreach(ob in GetFollowers()) {
         follower = Followers[ob];
-
         followChance = 100;
         if( !follower->allowed ) followChance -= 20 + this_object()->GetSkillLevel("stealth");
         followChance += ob->GetSkillLevel("stealth");

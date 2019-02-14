@@ -36,6 +36,9 @@ varargs mixed CanFollow(object ob) {
             return ob->GetName() + " is already following you.";
         if( ob == this_object() )
             return "You cannot possibly do that.";
+        // fail to follow if it's a horse dragging a wagon.
+        if ( ob->GetHitcher() )
+        	return "You're hitched to something, complicating things";
     }
     return 1;
 }
