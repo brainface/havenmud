@@ -50,7 +50,7 @@ mixed cmd(string args) {
       break;
     case "exterior":
       env->SetLong(what);
-      who->eventPrint(environment(who)->GetLong());
+      who->eventPrint(env->GetExternalDesc(who));
       CHAT_D->eventSendChannel("VEHICLE", "reports", who->GetCapName() + " set short to " + what);
       // again, no vehicles logfile
       write_file("/log/players/estates", who->GetCapName() + " set short to " + what + " in " + short_file(base_name(env)) + "\n");
