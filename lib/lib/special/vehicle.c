@@ -264,10 +264,13 @@ varargs int eventMoveLiving(mixed dest, string outmessage, string inmessage) {
   hasMoved = 1;
   if (!(environment()->GetDirection(prev)) && !inmessage) { 
       msg = GetMessage("telin");
-    } else  
-      if (inmessage) { msg = replace_string(inmessage, "$N", GetName());
-    } else { msg = GetMessage("come"); }
-    environment()->eventPrint(msg, MSG_ENV, this_object());
+  } else  
+    if (inmessage) { msg = replace_string(inmessage, "$N", GetName());
+  } else { msg = GetMessage("come"); }
+  environment()->eventPrint(msg, MSG_ENV, this_object());
+
+  // oh god none of this should be in base vehicle
+  // maybe it's usable for bandit encounters though? leaving.
   if (sizeof(ar = SAILING_D->GetCoordinates(base_name(environment()))) == 2) {
     x = ar[0]; y = ar[1];
     if (!random(25)) SAILING_D->createShipEncounter(x, y);
