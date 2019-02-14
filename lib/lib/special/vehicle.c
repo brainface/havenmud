@@ -308,6 +308,7 @@ string GetOwner() { return Owner; }
 
 int GetHasMoved() { return hasMoved; }
 
+// long used for the interior of the vehicle
 string SetBridgeDescription(string x) { return BridgeDescription = x; }
 string GetBridgeDescription() { return BridgeDescription; }
 
