@@ -1540,3 +1540,7 @@ yo skipped /lib/Fluff_LIB
  rewrite lib/save/skills.o (68%)
  mode change 100755 => 100644 lib/std/failure/catastrophic/rift.c
  mode change 100755 => 100644 lib/std/failure/major/rift.c
+[master 22151d7] Thu Feb 14 09:00:01 EST 2019 snapshot
+ 3 files changed, 10 insertions(+), 5 deletions(-)
+ rewrite lib/save/skills.o (68%)
+ rewrite lib/save/unique.o (69%)
