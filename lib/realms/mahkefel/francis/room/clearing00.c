@@ -1,4 +1,4 @@
-/* Field0,1
+/* Field0,0
  * An empty field in front of
  * all this wagonage
  *
@@ -19,15 +19,16 @@ static void create() {
   SetItems( ([ ]) );
 
   SetListen( ([
-    "default" : "A bird chitters angrily above in something that sounds annoyingly like gnomish.",
+    "default" : "Someone is snoring to wake the dead.",
   ]) );
 
   SetSmell( ([
-    "default" : "Mud and pollen mix together in some sort of ill-advised stew."
+    "default" : "Treesap, kicked up dust, and the bitter "
+    "smoke of burnt coffee fill the air.",
   ]) );
   SetExits( ([
-      "north" : FRANCIS_ROOM "barn1,1",
-      "east"  : FRANCIS_ROOM "clear2,0"
+      "north" : FRANCIS_ROOM "forest01",
+      "east"  : FRANCIS_ROOM  "clearing10"
   ]) );
 
 }

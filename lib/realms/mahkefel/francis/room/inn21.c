@@ -25,9 +25,9 @@ static void create() {
     "default" : "The scent of fresh bread mixes with something greasy and harder to define."
   ]) );
   SetExits( ([
-      "north" : FRANCIS_ROOM "fence2,2",
-      "west"  : FRANCIS_ROOM "barn1,1",
-      "south" : FRANCIS_ROOM "clear2,0"
+      "north" : FRANCIS_ROOM "fence22",
+      "west"  : FRANCIS_ROOM "barn11",
+      "south" : FRANCIS_ROOM "clearing20"
   ]) );
 
 }
