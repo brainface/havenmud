@@ -234,4 +234,16 @@ int vehiclep(object ob) {
   return 0;
 }
 
+int shipp(object ob) {
+  if (!ob) ob = previous_object();
+  if (ob->GetProperty("PROP_VEHICLE") == "ship") return 1;
+  return 0;
+}
+
+int wagonp(object ob) {
+  if (!ob) ob = previous_object();
+  if (ob->GetProperty("PROP_VEHICLE")=="wagon") return 1;
+  return 0;
+}
+
 int greatermusep(object ob) { return sagep(ob); }

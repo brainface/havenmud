@@ -105,7 +105,7 @@ int eventNewShip(object who, string thing, string args) {
   	return 1;
   }
   who->AddCurrency(LocalCurrency, -cost);
-  ship = new(LIB_VEHICLE);
+  ship = new(LIB_SHIP);
   ship->SetVehicleSize(size);
   ship->SetDamagePoints(to_int(size * 200000));
   ship->SetVehicleName(args);
@@ -224,7 +224,7 @@ int eventBuyShip(object who, string what) {
 
 int eventSalvage(object who, string arg) {
 	object ship = 0;
-	object *allships = children(LIB_VEHICLE);
+	object *allships = children(LIB_SHIP);
 	int cost, size;
 	
 	foreach(object ss in allships) {

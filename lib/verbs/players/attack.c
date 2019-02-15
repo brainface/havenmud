@@ -39,8 +39,11 @@ mixed can_attack_liv(object target) {
    if(this_player()->GetSleeping()) {
       return "You cannot do that while sleeping!";
    }
-    if( pos == POSITION_SITTING || pos == POSITION_LYING ) {
-	return "You cannot attack in that position!";
+    if( pos == pos == POSITION_LYING ) {
+        return "You cannot attack in that position!";
+    }
+    if (pos == POSITION_SITTING && !this_player()->GetChair()) {
+        return "You cannot attack in that position!";    
     }
     if( (int)environment(this_player())->GetProperty("no attack") ) {
       return "A mystical force prevents your malice.";

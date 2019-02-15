@@ -31,6 +31,7 @@ string GetDefiniteShort() {
 }
 
 string GetShort() {
+    string shorty;
     if( !Short ) {
         return 0;
     }
@@ -38,16 +39,15 @@ string GetShort() {
         if( functionp(Short) & FP_OWNER_DESTED ) {
             return "Error in evaluating function pointer.";
         }
-        return evaluate(Short) + GetShortSuffixes();
+	shorty = evaluate(Short);
+    } else if( arrayp(Short) ) {
+        shorty = Short[query_night()];
+    } else {
+        shorty = Short;
     }
-    else if( arrayp(Short) ) {
-        return Short[query_night()];
-    }
-    else {
-        //return Short;
-        //MAHK - Add temporary suffixes to description
-        return Short + GetShortSuffixes();
-    }
+    // mahk sometime: add any suffixes (on fire!, ridden by Fortunado, etc)
+    shorty += GetShortSuffixes();
+    return shorty;   
 }
 
 varargs mixed SetShort(mixed val, int proper) {

@@ -46,27 +46,39 @@ mixed can_sit_down() {
 }
 
 mixed can_sit_word_obj() {
-    return can_sit_down();
+	if (this_player()->GetHitcher()) {
+	  return "That's going to be really awkward while hitched to something.";	
+	}
+	if (this_player()->GetRider()) {
+	  return "You better not sit on that while something's riding you, you crazy horse-like thing you.";
+	}
+  return can_sit_down();
 }
 
 mixed can_sit_down_word_obj() {
-    return can_sit_down();
+  if (this_player()->GetHitcher()) {
+    return "That's going to be really awkward while hitched to something.";	
+  }
+  if (this_player()->GetRider()) {
+    return "You better not sit on that while something's riding you, you crazy horse-like thing you.";
+  }
+  return can_sit_down();
 }
 
 mixed can_sit_up() {
-	   if(this_player()->GetSleeping()) {
-      return "You cannot do that while sleeping!";
+   if(this_player()->GetSleeping()) {
+     return "You cannot do that while sleeping!";
    }
-    if( this_player()->GetParalyzed() ) {
-	return "You cannot do anything!";
-    }
+   if( this_player()->GetParalyzed() ) {
+     return "You cannot do anything!";
+   }
    if( this_player()->GetPosition() != POSITION_LYING ) {
      return "Do you mean to sit down?";
-	 }
+   }
    if (this_player()->GetConditionFlag(CONDITION_PREVENT_POSITION)) {
      return "Your knees refuse to straighten!";
    }
-    return 1;
+   return 1;
 }
 
 mixed do_sit_down() {
@@ -79,9 +91,17 @@ mixed do_sit_up() {
 
 
 mixed do_sit_word_obj(string word, object target) {
-    return this_player()->eventSit(target);
+  if(target->GetChair() ) {
+    this_player()->eventPrint("You can't sit on " +target->GetShort()+ " while it's sitting on something.");
+    return 1;
+  }
+  return this_player()->eventSit(target);
 }
 
 mixed do_sit_down_word_obj(string word, object target) {
-    return this_player()->eventSit(target);
+  if(target->GetChair() ) {
+    this_player()->eventPrint("You can't sit on " +target->GetShort()+ " while it's sitting on something.");
+    return 1;
+  }
+  return this_player()->eventSit(target);
 }

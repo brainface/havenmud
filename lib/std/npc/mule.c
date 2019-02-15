@@ -1,9 +1,10 @@
 #include <lib.h>
 inherit LIB_NPC;
+inherit LIB_MOUNT;
 
 static void create() {
   ::create();
-  SetKeyName("pack mule");
+  SetKeyName("mule");
   SetRace("horse", "mule");
   SetGender("female");
   SetShort("a lowly pack mule");

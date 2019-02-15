@@ -11,16 +11,27 @@
 private int          MaxSitters = 1;
 private object array Sitters    = ({});
 
+int RemoveSitters() {
+  Sitters = ({ });	
+}
+
 int GetMaxSitters() {
     return MaxSitters;
 }
 
-static int SetMaxSitters(int x) {
+// mahkefel 2016: this was static for some reason?
+int SetMaxSitters(int x) {
     return (MaxSitters = x);
 }
 
 object array GetSitters() {
-    return Sitters;
+    // this is really failing in novel ways revolving around
+    // saving.
+	if (Sitters == 0) Sitters = ({ });
+	foreach( object sitter in Sitters) {
+	  if (sitter == 0) Sitters -= ({0});	
+	}
+	return Sitters;
 }
 
 mixed eventReceiveSit(object who) {

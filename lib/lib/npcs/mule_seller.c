@@ -40,7 +40,7 @@ int GetCost(object who) {
     float comparison;
     // this person has already checked on this object
     if( Costs[who]) {
-	    return Costs[who];
+    return Costs[who];
       }
     cost = 1000 * CostModifier;
     mod = who->GetSkillLevel("bargaining");
@@ -80,7 +80,18 @@ void eventGreet(object who) {
 int PurchaseMule(object who, string what) {
   string currency = CURRENCY_D->GetTownCurrency(GetTown());
   int cost;
+  int level;
   object mule;
+
+  // let's make mules not level 1;
+  // so they either pick out a really good horse because they're fucktacularly 
+  // good at riding or they know a good deal when they see it.
+  level = who->GetSkillLevel("riding");
+  if (who->GetSkillLevel("bargaining") > level) {
+    level = who->GetSkillLevel("bargaining"); 
+  }
+  level = level/2;
+  if (level < 1) level = 1;
   
   if (what != GetMuleString()) {
    eventForce("speak You could <ask " + GetKeyName() + " for " + GetMuleString() + "> or <request " + GetMuleString() + " from " + GetKeyName() + ">");
@@ -101,8 +112,9 @@ int PurchaseMule(object who, string what) {
   mule->eventMove(environment());
   who->AddCurrency(currency, -cost);
   mule->SetOwner(who->GetKeyName());
+  mule->SetLevel(level);
   eventForce("speak Here you go " + who->GetCapName() + ", " + add_article(GetMuleString()) + " just for you.");
-  mule->eventForce("sign sadly");
+  mule->eventForce("sigh sadly");
   mule->eventForce("follow " + who->GetKeyName());
   who->eventForce("lead " + mule->GetKeyName());
   return 1;

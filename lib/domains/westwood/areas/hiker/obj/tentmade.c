@@ -1,6 +1,6 @@
 #include <lib.h>
 #include <damage_types.h>
-inherit LIB_VEHICLE;
+inherit LIB_SHIP;
 #include "../hiker.h"
 
 void desttent();

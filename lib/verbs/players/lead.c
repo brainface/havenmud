@@ -30,6 +30,10 @@ mixed can_lead_liv() {
 }
 
 mixed do_lead_liv(object ob) {
+  if(ob->GetHitcher()) {
+    this_player()->eventPrint(ob->GetName() + " looks a little tied up at the moment. (help drive)");
+    return 1;
+  }
   if(!ob->IsFollowing(this_player())) {
     this_player()->eventPrint(ob->GetName() + " is not following you.");
     return 1;
