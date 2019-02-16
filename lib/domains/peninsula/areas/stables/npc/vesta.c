@@ -27,6 +27,6 @@ static void create() {
   SetTown("Sanctum");
 
   AddStableItem("wagon", STD_VEHICLES "wagon");
-  AddStableItem("wagon", STD_VEHICLES "caravan");
+  AddStableItem("caravan", STD_VEHICLES "caravan");
 }
 
