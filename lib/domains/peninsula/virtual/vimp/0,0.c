@@ -9,7 +9,8 @@ int DomainCheck();
 static void create(int x, int y) {
   ::create(0, 0);
   Setup();
-  AddLong(" A cobblestone path leads east to a stables.");
-  AddExit("east", PENINSULA_AREAS "stables/room/stables");
+//  AddLong(" A cobblestone path leads east to a stables.")
+//  AddExit("east", PENINSULA_AREAS "stables/room/stables")
+
 }
 
