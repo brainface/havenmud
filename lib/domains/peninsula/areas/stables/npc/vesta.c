@@ -12,7 +12,7 @@ static void create() {
   SetId( ({ "vesta", "caravaneer" }) );
   SetAdjectives( ({ "vesta the" }) );
   SetLong(
-  "An ambitious young trader, Vesta took control of Sulumus' caravans after "
+  "An ambitious young trader, Vesta took control of Sanctum's caravans after "
   "the former head caravanner was lost to bandits somewhere deep in the "
   "Yozrath. Seldom spoke rumors describe his fate as a little too convenient "
   "for Vesta's rise."
@@ -27,6 +27,6 @@ static void create() {
   SetTown("Sanctum");
 
   AddStableItem("wagon", STD_VEHICLES "wagon");
-  AddStableItem("wagon", STD_VEHICLES "caravan");
+  AddStableItem("caravan", STD_VEHICLES "caravan");
 }
 
