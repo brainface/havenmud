@@ -28,6 +28,7 @@ void eventPrint(string);
 int GetCombatStyleLevel(string);
 int AddExperience(int);
 int GetDefense();
+object GetChair();
 
 static void create() {
 }
@@ -119,6 +120,11 @@ int GetWeaponChance(object target, string type, int hands, int num) {
     pro = pro * 0.4; /* pro + multi-weapon skill 80% effectiveness */
   }
 
+  // mounted combat bonus
+  if ( GetChair() && living(GetChair()) ) {
+    pro+=GetSkillLevel("riding")/4;
+  }
+  
   // player offense affected by all poor light levels, npcs affected
   // only by the full blind condition
   if (userp()) if (GetEffectiveVision() != VISION_CLEAR) {

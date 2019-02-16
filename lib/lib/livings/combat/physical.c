@@ -170,6 +170,12 @@ int GetOffense(mixed skill) {
   //if (GetSkillLevel("accuracy"))
   //   pro += (GetSkillLevel("accuracy")/20 || 1);
   pro+=GetSkillLevel("accuracy");
+
+  // mounted combat bonus
+  if ( GetChair() && living(GetChair()) ) {
+    pro+=GetSkillLevel("riding")/4;
+  }
+
   // mahkefel: made blind word on npcs, greatly reduced penalty (1/10 to 3/4)
   if (GetBlind()) { pro = pro*0.75; }
   if (userp()) if (GetEffectiveVision() != VISION_CLEAR) { pro = pro/10; }
@@ -177,25 +183,30 @@ int GetOffense(mixed skill) {
 }
 
 int GetDefense() {
-  int x = 0;
+  int pro = 0;
   if (sizeof(GetWielded())) {
-    x += GetSkillLevel(GetWielded()[0]->GetWeaponType() + " combat");
-    x += GetSkillLevel("parry")/2;
-    x += GetSkillLevel("dodge")/2;
+    pro += GetSkillLevel(GetWielded()[0]->GetWeaponType() + " combat");
+    pro += GetSkillLevel("parry")/2;
+    pro += GetSkillLevel("dodge")/2;
   } else {
-    x += GetSkillLevel("melee combat");
-    x += GetSkillLevel("dodge");
+    pro += GetSkillLevel("melee combat");
+    pro += GetSkillLevel("dodge");
   }
-  x += GetStatLevel("agility")/10;
+  pro += GetStatLevel("agility")/10;
 
+  // mounted combat bonus
+  if ( GetChair() && living(GetChair()) ) {
+    pro+=GetSkillLevel("riding")/4;
+  }
+  
   // players negatively affected by all bad light levels,
   // npcs affected only by the blind condition specifically
   if (userp()) if (GetEffectiveVision() != VISION_CLEAR) {
-    x *= 0.75;
+    pro *= 0.75;
   } else if (GetBlind()) {
-    x *= 0.75;
+    pro *= 0.75;
   }
-  return x;
+  return pro;
 }
 
 varargs int eventInflictDamage(object agent, int type, int amount, int internal, mixed limbs) {
