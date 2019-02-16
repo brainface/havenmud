@@ -1,4 +1,6 @@
 #include <lib.h>
+#include <std.h>
+#include "../vesta.h"
 inherit LIB_MULE_SELLER;
 
 static void create() {
@@ -6,9 +8,9 @@ static void create() {
   SetKeyName("Galo");
   SetShort("Galo the Seller of Steeds");
   SetLong(
-    "Alpacha is a strange elf. He sells mules to those in need of "
-    "extra carrying capacity. <greet alpacha> to see the cost he "
-    "would charge you."
+    "Galo is short, stocky human with a perpetual frown on his face. "
+    "He sells horses for those with enough imperials to buy them. "
+    "<greet galo> to see the cost he would charge you."
     );
   SetRace("human");
   SetGender("male");
@@ -19,6 +21,6 @@ static void create() {
   SetClass("merchant");
   SetLevel(10);
   SetMorality(150);
-  SetReligion("Kylin");
+  
+  SetMule(VESTA_NPC "draft_horse");
 }
-

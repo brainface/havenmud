@@ -25,8 +25,8 @@ static void create() {
   SetLevel(15);
   SetLimit(1);
   SetTown("Sanctum");
- 
-  AddStableItem("wagon", STD_VEHICLES "wagon");
-}
 
+  AddStableItem("wagon", STD_VEHICLES "wagon");
+  AddStableItem("wagon", STD_VEHICLES "caravan");
+}
 

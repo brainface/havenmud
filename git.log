@@ -1544,3 +1544,8 @@ yo skipped /lib/Fluff_LIB
  3 files changed, 10 insertions(+), 5 deletions(-)
  rewrite lib/save/skills.o (68%)
  rewrite lib/save/unique.o (69%)
+[master ee35b03] Fri Feb 15 09:00:01 EST 2019 snapshot
+ 2 files changed, 11 insertions(+), 3 deletions(-)
+ create mode 100644 lib/doc/help/skills/riding
+ rewrite lib/save/skills.o (77%)
+ mode change 100644 => 100755 shipfix
