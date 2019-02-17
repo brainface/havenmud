@@ -16,7 +16,7 @@ static void create() {
   SetBridgeDescription(
     "It smells oddly of cheese in here."
   );
-  SetValue(1000);
+  SetValue(100000);
   SetMaxSitters(3);
 }
 

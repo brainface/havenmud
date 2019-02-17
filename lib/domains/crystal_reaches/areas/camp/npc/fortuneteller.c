@@ -14,7 +14,7 @@ static void create() {
     "black eyes. Not much escapes her knowing gaze."
   );
   SetClass("necromancer");
-  SetLevel(30);
+  SetLevel(90);
   SetRace("human");  
   SetGender("female");  
   SetMorality(-50);

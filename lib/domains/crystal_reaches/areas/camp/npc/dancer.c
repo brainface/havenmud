@@ -15,7 +15,8 @@ static void create() {
   );
   SetRace("human");
   SetGender("female");
-  SetClass("bard");
+  SetClass("dancer");
+
   SetLevel(20);
   SetSongBook( ([
   	"staccato"       : 100,

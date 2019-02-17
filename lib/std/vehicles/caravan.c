@@ -16,7 +16,7 @@ static void create() {
   SetBridgeDescription(
     "It smells faintly of sawdust and paint."
   );
-  SetValue(10000);
+  SetValue(1000000);
   SetMaxSitters(3);
 }
 

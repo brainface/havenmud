@@ -25,7 +25,7 @@ static void create() {
     "A little bit of wiggle room in the seats suggests they can be taken up "
     "to allow a bit more storage room.");
   
-  SetValue(100000);
+  SetValue(2000000);
   SetMaxSitters(1);
 }
 
