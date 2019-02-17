@@ -80,6 +80,8 @@ mixed do_drive_str(string str) {
   send_messages("drive",
     "$agent_name $agent_verb the wagon " + str + ".",
     this_player(), 0, wagon);
+  //mahk: disabling skill check for now
+  //success = 1;
   if (success < 0) {
     switch(random(100)) {
       case 0..50:
