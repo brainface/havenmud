@@ -1,5 +1,6 @@
 #include <lib.h>
 inherit LIB_NPC;
+inherit LIB_MOUNT;
 static void create(){
   npc::create();
   SetKeyName("bear");
