@@ -20,6 +20,5 @@ static void create() {
   SetMass(100);
   SetDamagePoints(250);
 
-  SetWeaponClass(20); // BARSTOOL MEAT FACE.
 }
 
