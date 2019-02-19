@@ -1,5 +1,4 @@
-
-/* Merchant Caravan Quest Guy
+/* Merchant Caravan Quest Guy 
  * Duukie
  */
 #include <lib.h>
@@ -56,10 +55,9 @@ static void create() {
     ]) );
   AddCurrency("chits", 100);
   SetWanderPath(MERCHANT_PATH);
-  //SetUnique(1);
 }
 
-void heart_beat() {
+void heart_beat() { 
   ::heart_beat();
   if (sizeof(Guards) && !random(25)) eventAttackMerchant();
 }
@@ -75,7 +73,7 @@ varargs void RequestJob(object who, string what) {
     return;
   }
   wages = (((wages = who->GetLevel() * 500) > 5000) ? 5000 : wages);
-  eventForce("speak I will pay you " + (string)wages + " chits "
+  eventForce("speak I will pay you " + (string)wages + " chits " 
              "to accompany me to Keryth.  Thank you.");
   Guards = distinct_array( Guards + ({ who }) );
   who->eventForce("follow herb runner");
@@ -87,13 +85,13 @@ varargs void RequestJob(object who, string what) {
     }) );
 }
 
-varargs void CommandHire(object who, string verb, string what) {
+varargs void CommandHire(object who, string verb, string what) {   
         RequestJob(who, verb);
 }
 
 int cmdEndWander() {
   int wages;
-
+  
   foreach(object guard in Guards) {
   if (!guard) continue;
   wages = (((wages = guard->GetLevel() * 500) > 5000) ? 5000 : wages);
@@ -108,10 +106,7 @@ int cmdEndWander() {
   SetWanderSpeed(0);
   eventForce("speak Thank you for guarding me.");
   eventForce("wave farewell");
-    Guards = ({ });
-  eventMove(BARIA_TOWNS "baria/room/path9");
-  SetWanderPath(MERCHANT_PATH);  
-  //call_out( (: eventDestruct :), 0);
+  call_out( (: eventDestruct :), 0);
   return 1;
 }
 
@@ -139,12 +134,12 @@ void eventAttackMerchant() {
   guardlevel = guardlevel/sizeof(Guards);
   guardlevel = guardlevel * 0.8;
   guardlevel += random( (guardlevel * 0.2) );
-//      debug("Guardlevel " + guardlevel);
+//	debug("Guardlevel " + guardlevel);
   if (!guardlevel) guardlevel = 1;
   num = random(num) + 2;
   if (num > 5) num = 5;
-        num = num * sizeof(Guards);
-//      debug("NUM " + num);
+	num = num * sizeof(Guards);
+//	debug("NUM " + num);
   if (enemies > 10) return;
   eventForce("yell A KYLIN INTERDICT TEAM!");
   while (num--) {
@@ -159,7 +154,7 @@ void eventAttackMerchant() {
     attacker->SetAttack(this_object());
     }
 }
-
+  
 
 varargs int eventDie(object agent) {
   if (sizeof(Guards)) {
@@ -175,4 +170,3 @@ object *GetGuards() { return Guards; }
 void eventGreet(object who) {
   return RequestJob(who, "");
 }
-
