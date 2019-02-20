@@ -141,6 +141,10 @@ int GetSize() { return Size; }
 varargs string SetRace(string race, mixed extra) {
     mixed array args = ({ ({}), ({}), ({}), ({}), ({}) });
     mixed array tmp;
+    array core_stats = ({ "agility", "durability", "intelligence",
+                          "wisdom", "luck", "strength", "charisma",
+                          "coordination" });
+    mixed array stats = ({ });
     
     if (member_array(race, RACES_D->GetRaces()) == -1 && extra != 1) {
        CHAT_D->eventSendChannel("RACES_D", "error",
@@ -150,6 +154,14 @@ varargs string SetRace(string race, mixed extra) {
     RACES_D->SetCharacterRace(race, args);
     foreach(tmp in args[0]) SetResistance(tmp...);
     foreach(tmp in args[1]) AddStat(tmp...);
+    stats = GetStats();
+    foreach(string stat in core_stats) {
+      if (member_array(stat, stats) == -1) {
+         /* if stat hasn't been assigned to us yet
+          * set default to ~30, class 3 - mel 2019 */
+         AddStat(stat, 25 + random(10), 3);
+      }
+    }
     if( stringp(args[2]) ) SetLanguage(args[2], 100, 1);
     if( sizeof(args[3]) == 2 ) SetLightSensitivity(args[3]...);
     if (sizeof(args[4]) == 1) SetSize(args[4][0]);

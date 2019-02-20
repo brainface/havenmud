@@ -68,7 +68,7 @@ int eventCheckPlayer() {
     else return 0;
   }
 
-varargs int eventDir(object agent) {
+varargs int eventDie(object agent) {
   string *stuff_dir;
   object stuff;
   

@@ -172,6 +172,7 @@ int eventBleed(int amount) {
   if (sizeof(keys(PersistentDamages["bleeding"])) > 0) {
         foreach (k in keys(PersistentDamages["bleeding"])) {
                 int amt = PersistentDamages["bleeding"][k];
+                if (Dying) break;
                 if (objectp(k) && amt > 0) {
                         if (playerp(k)) {
                                 if (member_array(k, all_inventory(environment())) != -1) {
@@ -226,11 +227,11 @@ int eventBleed(int amount) {
 	case 11..35: 
 		msg = "Blood pours from $agent_possessive_noun severe wounds.";
 		break;
-	case 36..101: 
+	case 36..201: 
 		msg = "Blood flows freely from $agent_possessive_noun severe wounds.";
 		break;
 	default:
-		msg = "Blood seeps $agent_verb from $agent_possessive_noun wounds.";
+		msg = "Blood seeps from $agent_possessive_noun wounds.";
 		break;
   }
   send_messages("", "%^RED%^" + msg + "%^RESET%^", this_object(), 0, environment());
