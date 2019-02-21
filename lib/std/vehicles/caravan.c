@@ -8,9 +8,9 @@ static void create() {
   SetId( ({ "caravan" }) );
   SetAdjectives( ({ "colorful" }) );
   SetLong(
-    "This four wheeled carriage is painted a bright, if garish, green and "
-    "white shutters line the single window on each side. The drivers seat in "
-    "front has the thinnest of blankets for curshioning, and a door on the "
+    "This four wheeled carriage is painted a bright, if garish, green with "
+    "white shutters that line the single window on each side. The drivers seat in "
+   "front has the thinnest of blankets for cushioning and a door on the "
     "rear allows ingress."
   );
   SetBridgeDescription(

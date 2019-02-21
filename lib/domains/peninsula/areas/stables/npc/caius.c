@@ -26,7 +26,7 @@ static void create() {
   SetMorality(0);
   SetLevel(35);
   SetLimit(1);
-  //SetTown("Sanctum");
+  SetTown("all");
   SetTrainingSkills( ({ "riding", "slash combat", "pole combat" }) ); 
 }
 
