@@ -1565,3 +1565,11 @@ yo skipped /lib/Fluff_LIB
 [master adbf8c0] Wed Feb 20 09:00:01 EST 2019 snapshot
  5 files changed, 22 insertions(+), 5 deletions(-)
  rewrite lib/save/unique.o (66%)
+[master b852245] Thu Feb 21 09:00:01 EST 2019 snapshot
+ 10 files changed, 357 insertions(+), 5 deletions(-)
+ create mode 100644 lib/realms/mahkefel/spells/quadrify.c
+ create mode 100644 lib/std/spells/obj/quadrify/chair.c
+ create mode 100644 lib/std/spells/obj/quadrify/couch.c
+ create mode 100644 lib/std/spells/obj/quadrify/dag.c
+ create mode 100644 lib/std/spells/obj/quadrify/horse.c
+ create mode 100644 lib/std/spells/obj/quadrify/table.c
