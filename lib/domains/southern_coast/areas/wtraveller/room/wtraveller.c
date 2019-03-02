@@ -3,12 +3,14 @@
 
 #include <lib.h>
 #include <domains.h>
+#include <std.h>
 inherit LIB_ROOM;
 
 static void create() {
   room::create();
   SetShort("the Weary Traveler Inn");
   SetInventory( ([
+    DIR_STD "furniture/barstool" : 3,
     SOUTHERN_COAST_AREAS "wtraveller/npc/pjack" : 1,
     SOUTHERN_COAST_AREAS "wtraveller/npc/wtpatron" : random(3)+1 ])
     );

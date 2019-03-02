@@ -71,10 +71,9 @@ int eventCheckPlayer() {
 varargs int eventDie(object agent) {
   string *stuff_dir;
   object stuff;
-  
   stuff_dir = get_dir(OIL_OBJ);
-  stuff = new(OIL_DIR + stuff_dir[random(sizeof(stuff_dir))]);
-  stuff->eventMove(environment());
+  stuff = new(OIL_OBJ + stuff_dir[random(sizeof(stuff_dir))]);
+  stuff->eventMove(environment(this_object()));
   return ::eventDie(agent);
 
 }

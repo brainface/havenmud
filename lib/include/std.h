@@ -26,6 +26,7 @@
 #define STD_STYLE    DIR_STD "style/"
 #define STD_VEHICLES DIR_STD "vehicles/"
 #define STD_WEAPON   DIR_STD "weapon/"
+#define STD_FURNITURE DIR_STD "furniture/"
 
 
 /*  STD_WEAPON defs */
