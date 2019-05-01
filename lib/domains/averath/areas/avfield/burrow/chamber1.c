@@ -34,7 +34,6 @@ static void create() {
                    "appear to be rather fresh looking and still "
                    "have meat attached to them. One of the bones "
                    "appears to be a partly decayed hand that "
-                   "is sticking out of the pile. "
                    "sticking out of the middle of the pile.",
             ({ "hand" }) : 
                 "The partly decayed hand is still intact enough "
