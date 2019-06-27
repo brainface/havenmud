@@ -1837,3 +1837,7 @@ yo skipped /lib/Fluff_LIB
  1 files changed, 2 insertions(+), 0 deletions(-)
 [master e265b3e] Tue Jun 25 09:00:01 EDT 2019 snapshot
  1 files changed, 2 insertions(+), 0 deletions(-)
+[master 7dc67e2] Wed Jun 26 09:00:01 EDT 2019 snapshot
+ 4 files changed, 22 insertions(+), 5 deletions(-)
+ create mode 100644 lib/doc/help/players/accessibility
+ rewrite lib/save/skills.o (77%)
