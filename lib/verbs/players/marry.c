@@ -9,8 +9,8 @@ static void create() {
   SetRules("LIV to LIV");
   SetErrorMessage("Marry whom to whom?");
   SetHelp("Syntax: <marry PLAYER to PLAYER>\n\n"
-          "Allows servants of a faith to join to souls in marriage.  "
-          "In order to marry to people, you must however be in a place "
+          "Allows servants of a faith to join two souls in marriage.  "
+          "In order to marry two people, you must however be in a place "
           "which you find holy.\n\n"
           "See also: divorce");
 }
