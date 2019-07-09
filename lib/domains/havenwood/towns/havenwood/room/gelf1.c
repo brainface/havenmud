@@ -39,5 +39,6 @@ static void create() {
   SetListen("Birds chirp happily from the trees.");
   SetInventory( ([
     HWD_NPC "/controller" : 1,
+    HWD_OBJ "/spring" : 1,
    ]) );
 }
