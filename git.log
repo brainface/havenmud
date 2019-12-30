@@ -2253,3 +2253,11 @@ yo skipped /lib/Fluff_LIB
 [master e26650b] Sat Dec 28 09:00:02 EST 2019 snapshot
  2 files changed, 5 insertions(+), 3 deletions(-)
  rewrite lib/save/skills.o (77%)
+[master 64e29ab] Sun Dec 29 09:00:01 EST 2019 snapshot
+ 7 files changed, 739 insertions(+), 3 deletions(-)
+ create mode 100644 lib/realms/mahkefel/players/aleph.o
+ create mode 100644 lib/realms/mahkefel/players/casmin.o
+ create mode 100644 lib/realms/mahkefel/players/eugenie.o
+ create mode 100644 lib/realms/mahkefel/players/fortunado.o
+ create mode 100644 lib/realms/mahkefel/players/morte.o
+ rewrite lib/save/skills.o (77%)
