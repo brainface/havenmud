@@ -11,7 +11,7 @@ string GetPeltSource() { return PeltSource; }
 int SetPeltClass(int x) { return PeltClass = x; }
 int SetPeltLevel(int x) { return PeltLevel = x; }
 
-void SetPelt() { 
+void SetPelt() {
   string adj;
   switch(PeltClass) {
     case 0..9:
@@ -40,6 +40,7 @@ void SetPelt() {
   SetLong("This " + adj + " pelt formerly belonged to a " + PeltSource + ".");
   SetValue(PeltClass * 3 * PeltLevel);
   SetAdjectives( ({ PeltSource, adj }) );
+  SetMaterial( ({ "leather" }) );
 }
 
 static void create() {
