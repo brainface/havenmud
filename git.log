@@ -2281,3 +2281,7 @@ yo skipped /lib/Fluff_LIB
  1 files changed, 2 insertions(+), 0 deletions(-)
 [master aae71df] Tue Jan  7 09:00:01 EST 2020 snapshot
  1 files changed, 2 insertions(+), 0 deletions(-)
+[master 93d6ee4] Wed Jan  8 09:00:01 EST 2020 snapshot
+ 3 files changed, 7 insertions(+), 4 deletions(-)
+ rewrite lib/save/skills.o (77%)
+ mode change 100755 => 100644 lib/std/obj/skin.c
