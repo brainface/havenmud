@@ -2285,3 +2285,5 @@ yo skipped /lib/Fluff_LIB
  3 files changed, 7 insertions(+), 4 deletions(-)
  rewrite lib/save/skills.o (77%)
  mode change 100755 => 100644 lib/std/obj/skin.c
+[master b8b311c] Thu Jan  9 09:00:01 EST 2020 snapshot
+ 1 files changed, 4 insertions(+), 0 deletions(-)
