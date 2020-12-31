@@ -3128,3 +3128,7 @@ yo skipped /lib/Fluff_LIB
  1 files changed, 2 insertions(+), 0 deletions(-)
 [master aab59b7] Tue Dec 29 09:00:01 EST 2020 snapshot
  1 files changed, 2 insertions(+), 0 deletions(-)
+[master 1f59a66] Wed Dec 30 09:00:01 EST 2020 snapshot
+ 4 files changed, 29 insertions(+), 1 deletions(-)
+ create mode 100644 lib/doc/help/skills/vampirism
+ create mode 100644 lib/secure/cfg/classes/vampire
