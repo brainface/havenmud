@@ -3132,3 +3132,5 @@ yo skipped /lib/Fluff_LIB
  4 files changed, 29 insertions(+), 1 deletions(-)
  create mode 100644 lib/doc/help/skills/vampirism
  create mode 100644 lib/secure/cfg/classes/vampire
+[master 0013984] Thu Dec 31 09:00:01 EST 2020 snapshot
+ 1 files changed, 4 insertions(+), 0 deletions(-)
