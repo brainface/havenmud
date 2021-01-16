@@ -3166,3 +3166,31 @@ yo skipped /lib/Fluff_LIB
  4 files changed, 9 insertions(+), 1 deletions(-)
 [master ead8961] Thu Jan 14 09:00:01 EST 2021 snapshot
  1 files changed, 2 insertions(+), 0 deletions(-)
+# On branch master
+# Changed but not updated:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    lib/domains/averath/areas/avfield/burrow/indoors.lsed
+#	deleted:    lib/domains/estergrym/areas/underdark/room/inToUnder.lsed
+#	deleted:    lib/realms/mahkefel/CMD_EVAL_TMP_FILE.c
+#	deleted:    lib/realms/mahkefel/spells/quadrify.c
+#	deleted:    lib/realms/melchezidek/CMD_EVAL_TMP_FILE.c
+#	deleted:    lib/realms/melchezidek/alessia.o
+#	deleted:    lib/realms/melchezidek/cat_file_to_user
+#	deleted:    lib/realms/melchezidek/char_files/maartael.o
+#	deleted:    lib/realms/melchezidek/char_files/ruakh.o
+#	deleted:    lib/realms/melchezidek/char_files/sekh.o
+#	deleted:    lib/realms/melchezidek/char_files/serack.o
+#	deleted:    lib/realms/melchezidek/faustino.or
+#	deleted:    lib/realms/melchezidek/fortunado.o
+#	deleted:    lib/realms/melchezidek/mahkefel.o~
+#	deleted:    lib/realms/melchezidek/necro.c
+#	deleted:    lib/realms/melchezidek/necro_staff.c
+#	deleted:    lib/realms/melchezidek/nuke_domain
+#	deleted:    lib/realms/melchezidek/nuke_domain_wip
+#	deleted:    lib/realms/melchezidek/skeleton.c
+#	deleted:    lib/realms/melchezidek/yorin.o
+#	deleted:    shipfix
+#
+no changes added to commit (use "git add" and/or "git commit -a")
