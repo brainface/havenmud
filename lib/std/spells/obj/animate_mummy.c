@@ -7,21 +7,32 @@ void eventSpecial();
 
 static void create() {
   ::create();
-  SetKeyName("mummy");
-  SetShort("a mummy");
+
+  // spells lib autoreplaces $race with race
+  SetShort("a tattered and shambling $r mummy");
+  SetLong("This is a heavily bandaged corpse of $r that has been preserved "
+	  "and animated by necromatic rituals.");
+  SetId("mummy");
+  SetKeyName("mummified $r");
+  SetAdjectives( ({"tattered","shambling","mummified"}) );
   SetDie("The mummy collapses into a tattered pile of old bandages and bonedust.");
+
+  SetResistance(HEAT,"weakness");
+  SetResistance(ALL_PHYSICAL,"low");
+  SetResistance(GAS|POISON|HUNGER|DISEASE,"immune");
+  
   SetNoCorpse(1);
   SetUndead(1);
   SetUndeadType("mummy");
-
-  // note that racial resistances will override this e.g. mummy demons/angels.
-  SetResistance(ALL_PHYSICAL, "low");
-
+ 
   SetCombatAction(5,
     (: eventSpecial :)
   );
 }
 
+/*
+ * Mummy curse special
+ */
 void eventSpecial() {
   object who = this_object();
   object target = GetCurrentEnemy();

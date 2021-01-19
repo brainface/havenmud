@@ -14,6 +14,7 @@
 
 inherit LIB_DAEMON;
 inherit LIB_HELP;
+private string       Animate         = 0;             // zombie file to raise
 private int          AreaSpell       = 0; 
 private int          GlobalSpell     = 0;
 private int          AutoDamage      = -1;            // perform dmg?
@@ -114,6 +115,14 @@ static string SetConjure(string str) {
     return (Conjure = str);
 }
 
+// animate dead type spells
+string SetAnimate(string str) {
+  return (Animate = str);
+}
+string GetAnimate() {
+  return Animate;
+}
+
 int GetDamage(int level) {
   int damage;
   
@@ -130,7 +139,7 @@ int SetDamageType(int type) {
 }
 
 varargs static void SetDamage(int type, mixed array rest...) {
-   /* unused. Mostly */
+   //unused. Mostly.
    DamageType = type;
    return;
 }
@@ -181,7 +190,7 @@ int GetHealing(int level) {
 }
 
 static varargs int array SetHealing(mixed args...) {
-    /* unused */
+    // unused
     return ({ 1 });
 }
 
@@ -193,7 +202,7 @@ int GetMagicCost(object who) {
 }
 
 static varargs int array SetMagicCost(mixed args...) {
-  /* This function only actually does anything for SPELL_OTHER */
+  // This function only actually does anything for SPELL_OTHER
     MagicCost[0] = args[0];
     if( sizeof(args) == 2 ) {
 	    MagicCost[1] = args[1];
@@ -362,12 +371,12 @@ varargs object *GetTargets(object who, mixed args...) {
       def = who;
      }
 
-  /* Set up target for SetRules("") responses. */
+  // Set up target for SetRules("") responses.
 
-  if (!count) {                     /*  There are no arguments passed. */
+  if (!count) { // There are no arguments passed.
      if (member_array("", Rules) == -1) {
           return 0;
-     }     /*  Returns no target if no argument is not a valid rule. */
+     }     //  Returns no target if no argument is not a valid rule.
      if (AreaSpell == 1) {
        targets = filter(all_inventory(env), (: $1 :) );
        targets = filter(targets, (: living :));
@@ -398,7 +407,7 @@ varargs object *GetTargets(object who, mixed args...) {
          }
        }
        return targets;
-    /* Return all living targets for an area spell. */
+       // Return all living targets for an area spell.
     } else {
       if ( (def) && (!AreaSpell) ) {
         return ({ def });
@@ -406,7 +415,7 @@ varargs object *GetTargets(object who, mixed args...) {
          return 0;
       }
     }
-  }  /*  End of No Arg */
+  }  //  End of No Arg
 
 /*  Number of Args == 1
  *  Test for objectp() livingp()
@@ -766,6 +775,72 @@ varargs int eventCast(object who, int level, mixed limb, object array targets) {
   	}
     return 1;
   }
+  // handle animate dead et al
+  if( GetAnimate() ) {
+    object zombie;
+    object corpse = targets[0];
+    int zombielevel = 1;
+
+    if( !corpse ) {
+      who->eventPrint("Your corpse has gone missing.");
+      return 1;
+    }
+    if(!RACES_D->GetValidRace(corpse->GetRace())) {
+      who->eventPrint(capitalize(corpse->GetShort()) + " refuses to be animated.");
+      zombie->eventDestruct();
+      return 1;
+    }
+    zombie = new(GetAnimate());
+    if( !zombie ) {
+      who->eventPrint("An error occurred in animation. Please bug report this.");
+      return 1;
+    }
+    zombie->SetGender(corpse->GetGender());
+    zombie->SetRace(corpse->GetRace());
+    zombie->SetClass(corpse->GetOriginalClass());
+    switch(level) {
+      case 0..20:
+        zombielevel = who->GetLevel() - 50;
+        break;
+      case 21..50:
+        zombielevel = who->GetLevel() - 20;
+        break;
+      case 51..100:
+        zombielevel = who->GetLevel() - 10;
+        break;
+      }
+    if (zombielevel < 1) zombielevel = 1;
+    if (zombielevel > corpse->GetLevel() * 2) zombielevel = corpse->GetLevel() * 2;
+    zombie->SetLevel(zombielevel); 
+
+    //descriptions
+    zombie->SetId( ({ zombie->GetId()..., corpse->GetId()..., corpse->GetRace() }) );
+    zombie->SetAdjectives( ({ zombie->GetAdjectives()..., corpse->GetAdjectives(),
+	    corpse->GetRace() }) );
+    // short/log/keyname all need to have "$r" somewhere in them to dynamically show race
+    zombie->SetKeyName(replace_string(zombie->GetKeyName(),"$r",corpse->GetRace()));
+    zombie->SetShort(replace_string(zombie->GetShort(),"$r",corpse->GetRace()));
+    zombie->SetLong(replace_string(zombie->GetExternalDesc(),"$r",add_article(corpse->GetRace())));
+    zombie->SetCapName(capitalize(zombie->GetKeyName())); 
+
+    foreach(object thing in all_inventory(corpse)) {
+      thing->eventMove(zombie);
+    }
+    zombie->eventForce("wear all");
+    // send custom spell effect message
+    send_messages(Messages[0][0], Messages[0][1], who,zombie,environment(who));
+    corpse->eventDestruct();
+    who->SetPermanentProperty("animate_zombie", file_name(zombie));
+    zombie->SetOwner(who->GetKeyName());
+    zombie->eventMove(environment(who));
+    zombie->eventForce("emote blinks its eyes open.");
+    zombie->eventForce("speak You... rang...?");
+    zombie->eventForce("follow "+ who->GetKeyName());
+    who->eventForce("lead "+ zombie->GetKeyName());
+    zombie->eventForce("guard " + who->GetKeyName());
+    zombie->SetReligion(who->GetReligion());
+    return 1;
+  }
   if( GetConjure() ) {
 	object ob = new(GetConjure());
 
@@ -781,7 +856,7 @@ varargs int eventCast(object who, int level, mixed limb, object array targets) {
 	    ob->eventMove(environment(who));
 	}
 	return 1;
-    }
+  }
     if( AutoHeal != -1 ) {
 	mapping messages = ([]);
 	int total_healing = 0;
