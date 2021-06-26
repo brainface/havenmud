@@ -117,5 +117,8 @@ int direct_jab_liv() {
 int direct_polevault_liv() {
   return 1;
 } 
+int direct_chomp_liv() {
+  return 1;
+} 
 
 

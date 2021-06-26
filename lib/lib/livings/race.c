@@ -49,7 +49,7 @@ mixed CanDrink(object ob) {
       return "That drink is too strong for your feeble durability right now.";
     if( (type & MEAL_CAFFEINE) && (GetStatLevel("durability") < GetCaffeine()))
       return "Any more caffeine and your heart will burst.";
-    if( (type & MEAL_DRINK) && (GetDrink() > 500) )
+    if( (type & MEAL_DRINK) && (GetDrink() >= 500) )
       return "You are too bloated to drink any more!";
     return 1;
 }
@@ -73,7 +73,10 @@ mixed CanEat(object ob) {
     int type;
     if (!ob) return 0;
     type = ob->GetMealType();
-    if(GetFood() > 500 )
+    if(GetUndeadType() == "vampire") {
+      return "You don't really do that anymore, bloodsucker. Try to 'chomp' something!";
+    }
+    if(GetFood() >= 500 )
       return "One more bite, and you would explode!";
     if( (type & MEAL_ALCOHOL) && (GetStatLevel("durability") < GetAlcohol()) )
       return "You are way too stoned to handle another smoke.";
@@ -321,12 +324,12 @@ static void heart_beat() {
     body::heart_beat();
     language::heart_beat();
     genetics::heart_beat();
-    if (GetWarmth() < 30 && !GetUndead()) {
+    if (GetWarmth() < 30 && !GetZombie()) {
     	eventPrint("You shiver with cold.");
         if (!newbiep())
     	eventReceiveDamage(load_object(STD_DUMMY "temperature"), COLD, random(30 - GetWarmth()), 1);
     }
-    if (GetWarmth() > 180  && !GetUndead()) {
+    if (GetWarmth() > 180  && !GetZombie()) {
     	eventForce("pant");
     	eventPrint("You are extremely hot.");
         if (!newbiep())

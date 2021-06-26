@@ -246,45 +246,41 @@ static void eventDestroyUndead(object agent) {
 }
 
 int eventDie(object agent) {
-    int x;
-    int xploss = GetExperience() * 0.5; // death is painful enough, cap xploss at 50% -mel
-/*  if (userp(agent)) {
-    environment()->eventPrint("%^RED%^" + GetCapName() + " dies.%^RESET%^", this_object());
-    eventPrint("%^RED%^You die.%^RESET%^");
-    CHAT_D->eventSendChannel("A cold wind", "ooc", "%^RED%^Death (from " + 
-                             capitalize((agent->GetKeyName() || agent->GetShort())) + ") has claimed " + 
-                             capitalize(GetKeyName()) + ".%^RESET%^");
-    eventMove(ROOM_DEATH);
-    SetParalyzed(20);
-    return 1;
-  } */
+  int x;
+  int xploss = GetExperience() * 0.5; // death is painful enough, cap xploss at 50% -mel
+  int aBadDeath = 0;
   if (!agent) (agent = this_object());
   CHAT_D->eventSendChannel("XP Loss", "reports", capitalize(GetKeyName()) + " lost " + xploss + " XP");
-    //if (GetExperience() / 1000000) CHAT_D->eventSendChannel("A cold wind", "ooc", capitalize(GetKeyName()) + " lost more than " + (GetExperience() / 1000000) + " million experience!"); // this doesn't need to be broadcast to OOC
   AddExperience(-xploss);
   SetAttack(0);
   if (userp(agent) && agent != this_object() && GetUndead()) {
     eventPrint("Your soul refuses to be purged from the universe. "
                "Your body, however, is less than forgiving.");
     eventRevive();
-    }
+  }
+  debug("Undead? " + GetUndead());
+  debug("Type? " + GetUndeadType());
+  // must check before eventDie
+  // this doesn't actually work, who knows why.
+  if (GetUndead() && GetUndeadType() == "zombie") {
+    debug("a bad death!");
+    aBadDeath = 1;
+  }
   if( (x = living::eventDie(agent)) != 1 ) return x;
   if(!GetTestChar())
     CHAT_D->eventSendChannel("A cold wind", "ooc", "%^RED%^Death (from " +
      capitalize((agent->GetKeyName() || agent->GetShort()))
      + ") has claimed " + capitalize(GetKeyName()) + ".%^RESET%^");
- /* CHAT_D->eventSendChannel("A cold wind", "fs", "%^RED%^Death (from " +
-     capitalize((agent->GetKeyName() || agent->GetShort()))
-     + ") has claimed " + capitalize(GetKeyName()) + ".%^RESET%^"); */
-  if( !GetUndead() ) {
-       eventDestroyUndead(agent);
-       } else {
+  if( aBadDeath  ) {  
+    debug("oh no!");
+    eventDestroyUndead(agent);
+  } else {
     class death this_death;
         
     CHAT_D->eventSendChannel("Death", "players",
-     capitalize(GetKeyName()) + " (" + GetLevel() + ") was killed by " +
-             (agent ? capitalize(agent->GetKeyName()) : "an unknown source") +
-             (agent ? " (" + agent->GetLevel() + "). " : " (N)."));
+      capitalize(GetKeyName()) + " (" + GetLevel() + ") was killed by " +
+      (agent ? capitalize(agent->GetKeyName()) : "an unknown source") +
+      (agent ? " (" + agent->GetLevel() + "). " : " (N)."));
     if(!GetTestChar())
       log_file("players/deaths", GetCapName() + " (" + GetLevel() +
              ") was killed by " +
@@ -294,38 +290,35 @@ int eventDie(object agent) {
              " (" + ctime(time()) + ")\n" +
              " (" + short_file(base_name(agent)) + ") (" + 
              short_file(base_name(environment())) + ")\n");     
-        this_death = new(class death);
-        this_death->Date = time();
-        if( agent)
-          this_death->Enemy = ((string)agent->GetKeyName() || (string)agent->GetShort());
-        if( !Deaths ) Deaths = ({ this_death });
-        else Deaths += ({ this_death });
+    this_death = new(class death);
+    this_death->Date = time();
+    if( agent)
+      this_death->Enemy = ((string)agent->GetKeyName() || (string)agent->GetShort());
+    if( !Deaths ) Deaths = ({ this_death });
+    else Deaths += ({ this_death });
     message("system", 
       "You die.   \n"
       "You have a strange sensation as your soul passes from your body. "
       "You awaken different than you were.  You are undead.",
-            this_object() );
-        if( agent ) {
-             
-            message("other_action", GetName() + " drops dead by the hand "
-                    "of " + (string)agent->GetName() + ".",
-                    environment(this_object()), ({ agent, this_object() }));
-           message("other_action", "You slaughter " + GetName() + ".",
-                     agent);
-        }
-        else message("other_action", GetName() + " drops dead.",
-                     environment(), ({ this_object() }) );
-        NewBody(GetRace());
-        
-        SetParalyzed(0);
-        SetSleeping(0);
-        SetPoison(0);
-        eventCompleteHeal(10000);
-        AddFood(500);
-        AddDrink(500);
-        eventMove(ROOM_DEATH);
-       }
-    return 1;
+      this_object() );
+    if( agent ) {
+      message("other_action", GetName() + " drops dead by the hand "
+        "of " + (string)agent->GetName() + ".",
+        environment(this_object()), ({ agent, this_object() }));
+      message("other_action", "You slaughter " + GetName() + ".", agent);
+    } else {
+      message("other_action", GetName() + " drops dead.", environment(), ({ this_object() }) );
+    }
+    NewBody(GetRace());
+    SetParalyzed(0);
+    SetSleeping(0);
+    SetPoison(0);
+    eventCompleteHeal(10000);
+    AddFood(500);
+    AddDrink(500);
+    eventMove(ROOM_DEATH);
+  }
+  return 1;
 }
 
 void eventRevive() {
@@ -345,6 +338,14 @@ void eventRevive() {
     foreach(string stat in GetStats() ) {
       if (!random(3)) AddStatLevel(stat, -1);
     }
+
+  // vampire block
+  if (GetSkillLevel("vampirism") > 1) {
+    SetUndead(1);
+    SetUndeadType("vampire");
+    eventPrint("The resurrection magic affecting you suddenly goes awry as the cursed blood "
+      "within you surges! Your incisors lengthen and you feel your heart stop. You are a vampire again!"); 
+  }
 }
 
 int eventMove(mixed dest) {
@@ -743,7 +744,7 @@ int SetUndead(int x) {
 
 string GetName() {
   string n;
-   if (GetUndead()) return "a " + GetUndeadType();
+   if (GetUndeadType()== "zombie") return "a zombie";
    if(GetInvis()) return "a shadow";
    if (GetSurname()) {
      if (GetTown() == "Tairi")

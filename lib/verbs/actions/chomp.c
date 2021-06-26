@@ -3,12 +3,13 @@
 #include <lib.h>
 #include <damage_types.h>
 #include <vision.h>
+#include <conditions.h>
 inherit LIB_ACTION;
 
 static void create() {
   ::create();
   SetVerb("chomp");
-  SetRules("LIV");
+  SetRules("LIV", "");
   SetHelp("You attempt to bite your foe and drink delicious bloodjuice "
     "from them. This is even more effective against bleeding foes, and "
 "tends to cause bloodloss anyway due to the entire vampire business.");
@@ -18,18 +19,50 @@ static void create() {
     "vampirism" : 1,
     "melee combat" : 1,
     ]) );
+  //SetCooldown(10);
 }
 
-/*
-mixed can_chomp_liv() {
-  if (this_player()->GetInCombat()) {
-    return "You suspect the time for subtlety has passed, as you continue to fight for your life.";
+// overriding this to not require a weapon.
+mixed CanAction(object who) {
+  if (who->GetStaminaPoints() < StaminaCost) {
+    return "You are too tired.";
   }
+  if (who->GetParalyzed()) {
+    return "You are paralyzed.";
+  }
+  if (who->GetSleeping()) {
+    return "You are asleep.";
+  }
+  /*if (who->GetCooldown(GetVerb())) {
+    return "You need a moment to work up some more spit.";
+    }*/
+  if (who->GetConditionFlag(CONDITION_PREVENT_COMBAT)) {
+    return "You can't work up the will to fight."; 
+  }
+  foreach(string s in keys(RequiredSkills)) {
+    if (who->GetSkillLevel(s) < RequiredSkills[s]) {
+      return "You are not proficient enough in " + s + " to perform that action.";
+    }
+  }
+
+  return 1;
+}
+
+mixed can_chomp() {
+  if (!this_player()->GetInCombat()) { return "chomp who?"; }
   return CanAction(this_player());
-}*/
+}
+
+mixed can_chomp_liv() {
+  return CanAction(this_player());
+}
 
 mixed do_chomp_liv(object target) {
   return eventAction(this_player(), target);
+}
+
+mixed do_chomp() {
+  return do_chomp_liv(this_player()->GetCurrentEnemy());
 }
 
 int eventAttack(object who, object target) {
@@ -45,10 +78,10 @@ int eventAttack(object who, object target) {
     "widely at $target_name, exposing fangs!",
     who, target, environment(who));
   if (result == -1) {
-    send_messages( ({ "swing" }), "$agent_name%^BOLD%^ $agent_verb"
-      "%^RESET%^ wildy at the thin air $target_name occupied moments before!",
+    send_messages( ({ "bite" }), "$agent_name somehow manages to %^BOLD%^ $agent_verb"
+      "%^RESET%^ $agent_possessive tongue instead of $target_name!",
       who, target, environment(who));
-    who->eventCollapse();
+    //who->eventCollapse();
     return 1;
   }
   if (result = 0) {
@@ -72,7 +105,7 @@ int eventAttack(object who, object target) {
 
   if (target->GetBleeding()) {
 blood = target->GetBleeding();
-    send_messages( ({ "slurp" }), "$agent_name noisily %^BOLD%^%^RED%^ $agent_verb%^RESET%^ "
+    send_messages( ({ "slurp" }), "$agent_name noisily%^BOLD%^%^RED%^ $agent_verb%^RESET%^ "
   "up some blood.",
       who, target, environment(who));
 who->AddDrink(blood*10);

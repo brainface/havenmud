@@ -9,6 +9,7 @@
 
 #include <daemons.h>
 #include <damage_types.h>
+#include <std.h>
 
 private int           Undead      = 0;
 private string        UndeadType  = 0;
@@ -23,6 +24,7 @@ int GetHealthPoints();
 int eventMoralAct(int x);
 string GetRace();
 void NewBody(string str);
+void burnInSunlight();
 // end virtual method section
 
 /*****            Data manipulation              *****/
@@ -45,6 +47,11 @@ string SetUndeadType(string str) {
 
 int GetUndead() {
     return Undead;
+}
+
+// Check specifically for zombie, i.e. "is a dead player", status.
+int GetZombie() {
+  return GetUndeadType() == "zombie";
 }
 
 int SetUndead(int x) {
@@ -97,5 +104,34 @@ static void heart_beat() {
 				      this_object());
 	}
     }
+    if (type == "vampire" && !random(10)) {
+      burnInSunlight();
+    }
 }
 
+/* 
+ * Burn, bloodsucker.
+ */
+void burnInSunlight() {
+  object room;
+  int amount;
+  string climate,domain;
+
+  room = environment();
+  if(!room) return;
+  climate = room->GetClimate();
+  domain = room->GetDomain();
+
+  if (!query_night()) {
+    if( (climate != "indoors") && (climate != "underground") ){
+      if (WEATHER_D->GetRaining(domain,climate) > 6) {
+	eventPrint("The heavy clouds protect you from the judgmental sun.");
+      } else {
+	send_messages("burn","$agent_possessive_noun flesh "
+          "%^BOLD%^RED%^burns%^RESET%^ in the sunlight!",
+          this_object(), 0, room);
+        eventReceiveDamage(load_object(STD_DUMMY "sunburn"), HEAT, random(20), 1);
+      }
+    }
+  } 
+}

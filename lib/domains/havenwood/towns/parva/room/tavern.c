@@ -16,6 +16,7 @@ static void create() {
     PARVA_NPC "barmaid" : 1,
     PARVA_NPC "armour_equipper" : 1,
     PARVA_NPC "treasurehunter" : 1,
+    PARVA_NPC "vamp_leader" : 1,
     ]) );
   SetNewsgroups( ({"player.general"}) );
   SetLong(

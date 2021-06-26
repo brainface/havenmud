@@ -22,7 +22,8 @@ varargs int RemovePlayer(string str) {
 
 	if( !(who = previous_object()) || creatorp(who) ) return 0;
 	file = save_file((string)who->GetKeyName()) + __SAVE_EXTENSION__;
-  find_living("duuk")->eventPrint(file);
+        // mahk 2021: lawl this worked everytime eric looked.
+        //  find_living("duuk")->eventPrint(file);
 	backup = DIR_SECURE_SAVE "/backup/" + who->GetKeyName() + __SAVE_EXTENSION__;
 	return unguarded( (: rename($(file), $(backup)) :) );
     }

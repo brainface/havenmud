@@ -440,43 +440,40 @@ void eventPreview(object who, string args) {
 }
 
 void eventJoin(object who, string args) {
-    object equip;
-    string tmp;
+  object equip;
+  string tmp;
   if (who->GetNationality() != GetTown() && GetTown() != "all" && !GlobalLeader) {
-  eventForce("speak Sorry, I only deal with people born in " + GetTown());
-  return;
+    eventForce("speak Sorry, I only deal with people born in " + GetTown());
+    return;
   }
   if( GetNoJoin() ) {
-        eventForce("speak Sadly, I cannot accept any new trainees "
-        "at this time.");
-       return;
-      }
+    eventForce("speak Sadly, I cannot accept any new trainees "
+      "at this time.");
+    return;
+  }
   if( !args || args == "" ) {
-        eventForce("speak Do you mean you wish to become " +
-                   add_article(GetClass()) + "?");
-        return;
-    }
+    eventForce("speak Do you mean you wish to become " + add_article(GetClass()) + "?");
+    return;
+  }
   args = remove_article(lower_case(args));
   if( args != GetClass() && args[0..<2] != GetClass() && args != pluralize(GetClass()) )
-{
-        eventForce("speak you want me to make you a what?");
-        eventForce("speak people only ask me to join the " +
-                   pluralize(GetClass()));
-        return;
-    }
+  {
+    eventForce("speak you want me to make you a what?");
+    eventForce("speak people only ask me to join the " + pluralize(GetClass()));
+    return;
+  }
   if (who->GetClass() && (!(GetMultiAllowed()) || !(who->GetMultiAllowed()))) {
-      eventForce("speak I am sorry, but I cannot allow that.");
-      return;
-     }
+    eventForce("speak I am sorry, but I cannot allow that.");
+    return;
+  }
   if( (int)who->ClassMember(GetClass()) ) {
-        eventForce("speak You are already " + add_article(GetClass()));
-        return;
-     }
+    eventForce("speak You are already " + add_article(GetClass()));
+    return;
+  }
   if (GetReligion() != "agnostic" && (who->GetReligion(0) != GetReligion(0) ) ) {
-     eventForce("speak Only members of my faith may become " + 
-                  pluralize(GetClass()));
-     return;
-    }
+    eventForce("speak Only members of my faith may become " + pluralize(GetClass()));
+    return;
+  }
   foreach(string sk in GetSkills()) {
     if (SKILLS_D->CheckRestrictedSkill(sk, who->GetSkills())) {
     eventForce("speak One of your skills prevents you from learning " + sk);
@@ -484,27 +481,37 @@ void eventJoin(object who, string args) {
     }
   }
   if (who->GetClass()) {
-if (who->GetDevelopmentPoints() < 100) {
-    eventForce("speak You are not prepared to multiclass.");
-who->eventPrint("You must have 100 development points for that.");
+    if (who->GetDevelopmentPoints() < 100) {
+      eventForce("speak You are not prepared to multiclass.");
+      who->eventPrint("You must have 100 development points for that.");
       return;
     }
   }
   if (who->GetDevelopmentPoints() < 160 && !(who->GetClass())) {
-  eventForce("speak You are not able to join a class.");
-  who->eventPrint("You must have 160 development points for that.");
-  return;
+    eventForce("speak You are not able to join a class.");
+    who->eventPrint("You must have 160 development points for that.");
+    return;
   }
+
+  // this makes them the class! this final if loop! right here!
   if( (string)who->GetClass() == (string)who->SetClass(GetClass()) ) {
-        eventForce("speak You cannot become " + add_article(GetClass()) + "!");
-        return;
-    }
-  environment()->eventPrint(GetName() + " makes " + (string)who->GetName() +
-                              " " + add_article(GetClass()) + ".",
-                              ({ who, this_object() }));
+    eventForce("speak You cannot become " + add_article(GetClass()) + "!");
+    return;
+  }
+
+  if (GetClass() == "vampire") {
+    send_messages("bite", "%^RED%^$agent_name $agent_verb $target_name on the neck "
+      "and quickly sucks all $target_possessive_noun blood out. What did "
+      "$target_nominative expect?%^RESET%^", this_object(), who, environment(who) );
+      who->SetUndead(1);
+      who->SetUndeadType("vampire");
+  }
+  environment()->eventPrint(GetName() + 
+    " makes " + (string)who->GetName() + " " + add_article(GetClass()) + ".",
+    ({ who, this_object() }));
   eventForce("speak Congratulations new " + GetClass() + "!");
   if (who->GetClass() != GetClass()) who->AddDevelopmentPoints(-100);
-    else who->AddDevelopmentPoints(-160);
+  else who->AddDevelopmentPoints(-160);
   eventBestowTitles(who, "titles");
   if (sizeof(GetFreeEquip())) {
     foreach(string thing in keys(GetFreeEquip())) {

@@ -375,9 +375,8 @@ void eventCheckHealing() {
     }
 	if( Food > 0 && userp(this_object()) ) Food--;
 	if (Food > 50 && Food < 100) {
-		if (!GetUndead())
-		 eventPrint("You are getting hungry.");
-		}
+          if (!GetUndead()) eventPrint("You are getting hungry.");
+        }
 	if (Food < 50) {
 		if (!GetUndead() && userp() ) {
 		  eventPrint("You are starving.");
@@ -386,12 +385,12 @@ void eventCheckHealing() {
 		}
 	if( Drink > 0 && userp(this_object())) Drink--;
   if (Drink >= 50 && Drink <= 100) {
-  	if (!GetUndead()) {
+  	if (!GetZombie()) {
 		  eventPrint("You are getting thirsty.");
 		  }
     }
   if (Drink < 50) {
-  	if (!GetUndead() && userp() ) {
+  	if (!GetZombie() && userp() ) {
 		  eventPrint("You are dying of thirst.");
 		  eventReceiveDamage(load_object(STD_DUMMY "thirst"), HUNGER, random(10), 1);
 		  }
@@ -871,7 +870,10 @@ varargs int eventDie(object agent) {
           } 
         }
     }
-    SetUndead(!x);
+    // fuck you, eric
+    // SetUndead(!x);
+    SetUndead(1);
+    SetUndeadType("zombie");
     SetBleeding(0);
     ResetConditions();
     ResetCooldowns();
@@ -1597,11 +1599,21 @@ int AddCaffeine(int x) {
 
 int GetCaffeine() { return Caffeine; }
 
-int AddDrink(int x) { Drink += x; if (Drink < 0) Drink = 0; return Drink; }
+int AddDrink(int x) {
+  Drink += x;
+  if (Drink < 0) Drink = 0;
+  if (Drink > 500) Drink = 500;
+  return Drink;
+}
 
 int GetDrink() { return Drink; }
 
-int AddFood(int x) { Food += x; if (Food < 0) Food = 0; return Food; }
+int AddFood(int x) {
+  Food += x;
+  if (Food < 0) Food = 0;
+  if (Food > 500) Food = 500;
+  return Food; 
+}
 
 int GetFood() { return Food; }
 
