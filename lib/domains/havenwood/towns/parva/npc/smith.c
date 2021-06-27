@@ -27,6 +27,7 @@ static void create() {
     "broadsword"     : PARVA_OBJ "smith_broadsword",
     "cutlass"        : PARVA_OBJ "smith_cutlass",
     "horseshoe"      : PARVA_OBJ "smith_horseshoe",
+    "hammer"         : PARVA_OBJ "smith_hammer",
    ]) );
   SetLimit(1);
   SetInventory( ([

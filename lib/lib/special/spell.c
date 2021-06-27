@@ -26,6 +26,7 @@ private int          DamagingShield  = 0;
 private mixed array  Messages        = ({});          // damage/heal messages
 private int          DamageType      = MAGIC;         // damage type done
 private int          Difficulty      = 0;             // 1-100 scale
+private int array    DrinkCost       = ({ 0, 0 });    // base, random
 private int array    Healing         = ({ 0, 0 });    // base, random
 private int array    HealthCost      = ({ 0, 0 });
 private int array    MagicCost       = ({ 0, 0 });    // base, random
@@ -59,6 +60,7 @@ int GetSpellLevel();
 
 // mahkefel 2017--prototype for spells to override, applies affects on "hit"
 int eventAfterEffect(object who, int level, string limb, object target) { return 0;}
+int GetDrinkCost(object who);
 
 /* ********************* spell.c attributes ************************ */
 
@@ -195,6 +197,9 @@ static varargs int array SetHealing(mixed args...) {
 }
 
 int GetMagicCost(object who) {
+  // mrr, override for vampire spells
+  if (DrinkCost[0]) return 0;
+
     if (SpellType == SPELL_DEFENSE) MagicCost = ({ (GetSpellLevel() * 2) + 20, (GetSpellLevel() * 2) + 20 });
     if (SpellType == SPELL_COMBAT)  MagicCost = ({ (GetSpellLevel()) + 10, GetSpellLevel() + 10 });
     if (SpellType == SPELL_HEALING) MagicCost = ({ (GetSpellLevel() * 2) + 20, (GetSpellLevel() * 2) + 20 });
@@ -348,6 +353,9 @@ int GetHealthCost(object who) {
     return HealthCost[0] + HealthCost[1] - (HealthCost[1] * who->GetSpellLevel(GetSpell())/100);
 }
 
+int GetDrinkCost(object who) {
+    return DrinkCost[0] + DrinkCost[1] - (DrinkCost[1] * who->GetSpellLevel(GetSpell())/100);
+}
 
 static varargs int array SetStaminaCost(mixed args...) {
     StaminaCost[0] = args[0];
@@ -356,6 +364,15 @@ static varargs int array SetStaminaCost(mixed args...) {
     }
     return StaminaCost;
 }
+
+static varargs int array SetDrinkCost(mixed args...) {
+    DrinkCost[0] = args[0];
+    if( sizeof(args) == 2 ) {
+	DrinkCost[1] = args[1];
+    }
+    return DrinkCost;
+}
+
 varargs object *GetTargets(object who, mixed args...) {
    object env = environment(who);
    object array targets = ({ });
@@ -661,6 +678,15 @@ varargs int CanCast(object who, int level, string limb, object array targets) {
   if( cost > 0 ) {
 	  who->eventReceiveDamage(who, HUNGER, cost, 1);
     }
+  cost = 0;
+  cost = GetDrinkCost(who);
+  if (cost > who->GetDrink()) {
+    who->eventPrint("You're too thirsty for that.");
+    return 0;
+  }
+  if (cost > 0) {
+    who->AddDrink(-cost);
+  }
   if( AutoHeal != -1 ) {
 	  int i, maxi = sizeof(targets);
     	for(i=0; i<maxi; i++) {
@@ -1014,7 +1040,7 @@ void eventTrainSpell(object who, int success) {
   foreach(string skill in GetSkills()) {
     numskills++;
     if(numskills<=2) {
-      skillval = GetRequiredSkill(skill);
+
       points *= skillval;
     }
   }
@@ -1126,12 +1152,13 @@ string GetHelp(string str) {
 	tmp += "\n";
 	if (sizeof(EnhanceSkills)) tmp += "Enhancing Skills: " + conjunction(EnhanceSkills, "and") +"\n"; 
 	tmp += "Casting costs: ";
-  if (SpellType == SPELL_DEFENSE) MagicCost = ({ (GetSpellLevel() * 2) + 20, (GetSpellLevel() * 2) + 20 });
-  if (SpellType == SPELL_COMBAT)  MagicCost = ({ GetSpellLevel() + 10, GetSpellLevel() + 10 });
-  if (SpellType == SPELL_HEALING) MagicCost = ({ (GetSpellLevel() * 2) + 20, (GetSpellLevel() * 2) + 20 });
+	if (SpellType == SPELL_DEFENSE && !DrinkCost[0]) MagicCost = ({ (GetSpellLevel() * 2) + 20, (GetSpellLevel() * 2) + 20 });
+	if (SpellType == SPELL_COMBAT && !DrinkCost[0])  MagicCost = ({ GetSpellLevel() + 10, GetSpellLevel() + 10 });
+	if (SpellType == SPELL_HEALING && !DrinkCost[0]) MagicCost = ({ (GetSpellLevel() * 2) + 20, (GetSpellLevel() * 2) + 20 });
 	if ((MagicCost[0] + MagicCost[1]))     tmp += (MagicCost[0]   + "-" + (MagicCost[0]   + MagicCost[1]))   + " Magic ";
 	if ((StaminaCost[0] + StaminaCost[1])) tmp += (StaminaCost[0] + "-" + (StaminaCost[0] + StaminaCost[1])) + " Stamina ";
 	if ((HealthCost[0] + HealthCost[1]))   tmp += (HealthCost[0]  + "-" + (HealthCost[0]  + HealthCost[1]))  + " Health ";
+	if ((DrinkCost[0] + DrinkCost[1]))   tmp += (DrinkCost[0]  + "-" + (DrinkCost[0]  + DrinkCost[1]))  + " Drink (Blood) ";
 	tmp += "\n";
 	if (sizeof(GetReligions())) 
 		tmp += "Religion: " + conjunction(GetReligions(), "or") + "\n";

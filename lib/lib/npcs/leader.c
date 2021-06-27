@@ -777,6 +777,9 @@ string *GetTaughtSpheres() {
   if (GetSkillLevel("practical magic")) {
     str += ({ "practical" });
   }  
+  if (GetSkillLevel("vampirism")) {
+    str += ({ "vampirism" });
+  }  
   if (GetReligion() != "agnostic") 
     str += ({ "religion " + lower_case(GetReligion()) });
   return str;

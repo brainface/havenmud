@@ -16,10 +16,10 @@ static void create() {
      "curving bit of iron could probably be used "
      "in combat, in a pinch. "
   	 );
-  SetClass(5);
+  SetClass(15);
   SetDamagePoints(1200);
   SetValue(50);
-  SetWeaponType("blunt");
+  SetWeaponType("melee");
   SetDamageType(BLUNT);
   SetMass(90);
   SetMaterial( ({ "metal" }) );

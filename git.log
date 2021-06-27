@@ -3551,3 +3551,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
  1 files changed, 2 insertions(+), 0 deletions(-)
 [master 11c94dd] Fri Jun 25 09:00:01 EDT 2021 snapshot
  1 files changed, 2 insertions(+), 0 deletions(-)
+[master 8596f56] Sat Jun 26 09:00:01 EDT 2021 snapshot
+ 14 files changed, 367 insertions(+), 117 deletions(-)
+ create mode 100644 lib/domains/havenwood/towns/parva/npc/vamp_leader.c
+ create mode 100644 lib/std/obj/dummy/sunburn.c
+ create mode 100644 lib/std/spells/vampirism/cloak_of_night.c

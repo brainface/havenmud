@@ -38,7 +38,7 @@ static void create() {
 
   ]) );
   SetInventory( ([
-         "/realms/mahkefel/npc/vampony" : 1,
+         "/realms/mahkefel/npc/gammit" : 1,
               "/realms/mahkefel/verbs/loom" : 1,
        "/realms/mahkefel/verbs/spinny_wheel" : 1,
   ]) );
