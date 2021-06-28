@@ -30,5 +30,6 @@ static void create() {
   AddTrainingSkills("wood working");
   AddTrainingSkills("textile working");
   AddTrainingSkills("natural working");
+  AddTrainingSkills("skinning");
   SetTown("Parva");
 }
