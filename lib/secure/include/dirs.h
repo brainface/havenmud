@@ -36,6 +36,7 @@
 #define DIR_SPELL_VERBS         DIR_VERBS "/spells"
 #define DIR_UNDEAD_VERBS        DIR_VERBS "/undead"
 #define DIR_VEHICLE_VERBS       DIR_VERBS "/vehicles"
+#define DIR_CRAFTING_VERBS       DIR_VERBS "/crafting"
 #define DIR_ACTION_VERBS        DIR_VERBS "/actions"
 
 #define DIR_CFG                 "/cfg"

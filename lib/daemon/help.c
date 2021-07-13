@@ -83,6 +83,7 @@ static private void LoadIndices() {
   tmp = get_dir(DIR_ROOM_VERBS + "/*.c") +	
 	      get_dir(DIR_VEHICLE_VERBS + "/*.c") +
 	      get_dir(DIR_ITEM_VERBS + "/*.c") +
+               get_dir(DIR_CRAFTING_VERBS + "/*.c") +
 	      get_dir(DIR_PLAYER_VERBS+"/*.c") 
 	      ;
   Indices["verbs"] = map(tmp, f);	      
