@@ -14,12 +14,13 @@ There are three major Spheres of Magic:
         Natural Magic
         Conjuring
 
-There are five minor Sphers of Magic that need a major Sphere:
+There are six minor Spheres of Magic:
         Enchantment
         Evokation
         Healing
         Illusion
         Necromancy
+        Vampirism
 
 Most spells require a major and minor sphere. For instance, fireball is a 
 Conjuring Evokation spell, while hellfire is a Faith Necromancy spell.
@@ -52,6 +53,8 @@ Illusion spells create false images, sounds, or directly alter a target's
 senses. Illusions are taught by illusionists and some priests of chaotic gods.
 Unlike other minor spheres, illusion spells do not require a major sphere. 
 
+Vampirism is the specific magic of vampires, who can cast a small amount of
+macabre magic based on their undead blood.
 
 Lesson Two: Places of Learning
 ****************************************************************************

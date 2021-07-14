@@ -3594,3 +3594,9 @@ no changes added to commit (use "git add" and/or "git commit -a")
  1 files changed, 2 insertions(+), 0 deletions(-)
 [master 7d64c37] Mon Jul 12 09:00:01 EDT 2021 snapshot
  1 files changed, 2 insertions(+), 0 deletions(-)
+[master 812876b] Tue Jul 13 09:00:01 EDT 2021 snapshot
+ 8 files changed, 279 insertions(+), 4 deletions(-)
+ rewrite lib/save/skills.o (86%)
+ create mode 100644 lib/std/crafting/stations/loom.c
+ create mode 100644 lib/std/crafting/stations/spinny_wheel.c
+ create mode 100644 lib/verbs/crafting/sew.c
