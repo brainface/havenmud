@@ -3600,3 +3600,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
  create mode 100644 lib/std/crafting/stations/loom.c
  create mode 100644 lib/std/crafting/stations/spinny_wheel.c
  create mode 100644 lib/verbs/crafting/sew.c
+[master 2316003] Wed Jul 14 09:00:01 EDT 2021 snapshot
+ 5 files changed, 169 insertions(+), 7 deletions(-)
+ create mode 100644 lib/doc/help/classes/vampire
+ create mode 100644 lib/realms/mahkefel/dumb/spell_effect.c
