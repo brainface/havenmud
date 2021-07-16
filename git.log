@@ -3604,3 +3604,5 @@ no changes added to commit (use "git add" and/or "git commit -a")
  5 files changed, 169 insertions(+), 7 deletions(-)
  create mode 100644 lib/doc/help/classes/vampire
  create mode 100644 lib/realms/mahkefel/dumb/spell_effect.c
+[master e286044] Thu Jul 15 09:00:01 EDT 2021 snapshot
+ 1 files changed, 4 insertions(+), 0 deletions(-)
