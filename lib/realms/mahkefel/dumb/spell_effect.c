@@ -37,8 +37,6 @@ int GetLevel() {
 int ApplySpellEffect();
 int RemoveSpellEffect();
 
-int eventSpellEffect(object who, int Potency, int lifespan);
-
 int startingPotency = 5;
 
 static void create() {
