@@ -559,7 +559,7 @@ void eventDescribeEnvironment(int brief) {
     object env;
     mixed tmp = 0;
     string *shorts;
-    string desc, smell, sound, touch, weather;
+    string desc, smell, sound, touch, weather, exits;
     int i, maxi;
     mapping lying = ([]), sitting = ([]), standing = ([]), sleeping = ([]), chaired = ([]);
     object *obs;
@@ -580,25 +580,40 @@ void eventDescribeEnvironment(int brief) {
     }  
     
    if( !brief ) { /* brief is off */
-     desc = (string)env->GetObviousExits() || "";
-      if (!vehiclep(environment())) {
-	      desc = capitalize((string)env->GetShort() || "") + " [" + desc + "]\n";
-        } else { desc = "[" + desc + "]\n"; }
+     
+     //desc = (string)env->GetObviousExits() || "";
+     // if (!vehiclep(environment())) {
+     //      desc = capitalize((string)env->GetShort() || "") + " [" + desc + "]\n";
+     //   } else { desc = "[" + desc + "]\n"; }
+     desc = ""
+       if (vehiclep(environment()) {
+
+	 }
+     desc = capitalize
+     if (!vehiclep(environment())) {
+           desc = capitalize((string)env->GetShort() || "") + " [" + desc + "]\n";
+     } else { desc = "[" + desc + "]\n"; }
+
       if (environment()->GetProperty("PROP_VEHICLE")) 
         desc = "%^BOLD%^GREEN%^Aboard " + environment()->GetShort() + " [out]\n%^RESET%^" + desc;
 	   desc += (string)env->GetLong();
-     if(functionp(tmp = (mixed)env->GetSmell("default")))
+      if(functionp(tmp = (mixed)env->GetSmell("default")))
 	      tmp = (string)(*tmp)("default");
-     smell = tmp;
-     if(functionp(tmp = (mixed)env->GetListen("default")))
+      smell = tmp;
+      if(functionp(tmp = (mixed)env->GetListen("default")))
         tmp = (string)(*tmp)("default");
-     sound = tmp;
-     if( functionp(tmp = (mixed)env->GetTouch("default")) )
+      sound = tmp;
+      if( functionp(tmp = (mixed)env->GetTouch("default")) )
         tmp = evaluate(tmp, "default");
-     touch = tmp;
-     if (env->GetClimate() != "indoors" && env->GetClimate() != "underground" && !(env->GetProperty("no weather")) )
+      touch = tmp;
+      if (env->GetClimate() != "indoors" && env->GetClimate() != "underground" && !(env->GetProperty("no weather")) )
         weather = WEATHER_D->GetWeather(env);
-     //desc += (string)env->GetObviousExits() || "";
+      exits = (string)env->GetObviousExits() || "";
+      if (!vehiclep(environment())) {
+           desc += capitalize((string)env->GetShort() || "") + " [" + desc + "]\n";
+      } else { 
+         desc = "[" + desc + "]\n"; 
+      }
     
     } else {  /* brief is on */
       desc = capitalize((string)env->GetShort());

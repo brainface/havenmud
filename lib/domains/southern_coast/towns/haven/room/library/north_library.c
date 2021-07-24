@@ -41,6 +41,9 @@ static void create() {
    SetListen( ([
       "default" : "Soft chants come from the east.",
    ]) );
+   SetInventory( ([
+      H_NPC + "dancer" : 1,
+   ]) );
 }
 
 
