@@ -812,8 +812,7 @@ varargs int eventCast(object who, int level, mixed limb, object array targets) {
       return 1;
     }
     if(!RACES_D->GetValidRace(corpse->GetRace())) {
-      who->eventPrint(capitalize(corpse->GetShort()) + " refuses to be animated.");
-      zombie->eventDestruct();
+      who->eventPrint(capitalize(corpse->GetShort()) + "'s bizarre anatomy defies reanimation.");
       return 1;
     }
     zombie = new(GetAnimate());

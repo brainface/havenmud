@@ -13,7 +13,7 @@ string CraftedObject;
 mapping Materials;
 mapping Skills;
 string *CraftingMessage;
-int Unique;
+int Unique = 0;
 
 static void create() {
         ::create();

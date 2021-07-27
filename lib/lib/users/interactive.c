@@ -582,7 +582,12 @@ void eventDescribeEnvironment(int brief) {
    if( !brief ) { /* brief is off */
      desc = (string)env->GetObviousExits() || "";
       if (!vehiclep(environment())) {
-	      desc = capitalize((string)env->GetShort() || "") + " [" + desc + "]\n";
+	      desc = capitalize((string)env->GetShort() || "") + " [" + desc + "]";
+      if (sizeof(env->GetUniqueEnters())) {
+        desc += "[Enters: " + implode(values(env->GetUniqueEnters()), ", ") + "]";
+      }
+      desc += "\n";
+
         } else { desc = "[" + desc + "]\n"; }
       if (environment()->GetProperty("PROP_VEHICLE")) 
         desc = "%^BOLD%^GREEN%^Aboard " + environment()->GetShort() + " [out]\n%^RESET%^" + desc;

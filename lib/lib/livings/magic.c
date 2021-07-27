@@ -263,7 +263,11 @@ varargs mixed eventPrepareCast(string verb, mixed array args...) {
         cast_pretext + "$agent_verb a %^BOLD%^MAGENTA%^hypnotic pattern%^RESET%^ "
         "through the air!", 
         this_object(), send_to, environment());
-      
+    } else if( member_array("vampirism", spell->GetSkills()) != -1) {
+      send_messages(({ "bare", "flush"}),
+        cast_pretext + "$agent_verb $agent_possessive %^BOLD%^WHITE%^fangs%^RESET%^ "
+		    "and%^RED%^ $agent_verb red with stolen blood!%^RESET%^",
+		    this_object(), send_to, environment());
     } else {
       // "Dzames closes his eyes and begins uttering an incantation.
       send_messages(({ "close","begin"}),

@@ -23,23 +23,23 @@ static void create() {
 }
 
 void LoadRecipes() {
-    string *recipes = ({ });
+  string *recipes = ({ });
 	
-    RecipeFiles = ([]);
-    recipes = get_dir(STD_CRAFTING + "recipes/" + "*.c");
-    if (DEBUG) debug("SizeOf Recipes = " + sizeof(recipes));
-    foreach(string recipe in recipes) {
-      object ob = find_object(STD_CRAFTING + "recipes/" + recipe);
-			if (DEBUG) debug("recipe: " STD_CRAFTING + "recipes/" + recipe);
-			if( ob ) {
-	    	ob->eventDestruct();
-			}
-  		if (ob = load_object(STD_CRAFTING + "recipes/" + recipe) ) {
-  		  Recipes[ob->GetRecipe()] = ob;
-	  		RecipeFiles[ob->GetRecipe()] = STD_CRAFTING + "recipes/" + recipe;
-	  		if (DEBUG) debug("Completed Recipe: " + ob->GetRecipe() + " ~~ " + RecipeFiles[ob->GetRecipe()]);
-			}
-		}		
+  RecipeFiles = ([]);
+  recipes = get_dir(STD_CRAFTING + "recipes/" + "*.c");
+  if (DEBUG) debug("SizeOf Recipes = " + sizeof(recipes));
+  foreach(string recipe in recipes) {
+    object ob = find_object(STD_CRAFTING + "recipes/" + recipe);
+    if (DEBUG) debug("recipe: " STD_CRAFTING + "recipes/" + recipe);
+    if( ob ) {
+      ob->eventDestruct();
+    }
+    if (ob = load_object(STD_CRAFTING + "recipes/" + recipe) ) {
+      Recipes[ob->GetRecipe()] = ob;
+      RecipeFiles[ob->GetRecipe()] = STD_CRAFTING + "recipes/" + recipe;
+      if (DEBUG) debug("Completed Recipe: " + ob->GetRecipe() + " ~~ " + RecipeFiles[ob->GetRecipe()]);
+    }
+  }		
 }
 
 string* GetRecipes() { return keys(Recipes); }

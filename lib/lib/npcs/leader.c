@@ -554,90 +554,91 @@ varargs int eventTeachPlayer(object who, string spell, int nospamflag) {
   string *learn = ({ });
   if (!environment()) return 0;
   if (spell == "all spells") {
-    foreach(string sph in GetTaughtSpheres()) {
-      
-      foreach(string sp in SPELLS_D->GetSphereSpells(sph)) {
-      
+    foreach(string sph in GetTaughtSpheres()) {     
+      foreach(string sp in SPELLS_D->GetSphereSpells(sph)) {      
         if ((SPELLS_D->GetSpell(sp))->GetUniqueSpell()) continue;
         if (!who->GetSpellLevel(sp)) { 
-      
           eventTeachPlayer(who, sp, 1); 
           if (who->GetSpellLevel(sp)) learn += ({ sp }); 
-          }
-        } 
+        }
+      } 
     } 
     if (who != this_object()) {
       if (sizeof(learn) <= 25 && sizeof(learn)) {  eventForce("speak I taught you " + conjunction(learn, "and")); }
       if (sizeof(learn) > 25 )  eventForce("speak I taught you an excessive number of spells.");
       if (!sizeof(learn))  eventForce("speak You are not prepared to learn any new magic.");
-      }
+    }
     return 1;
-  }
+  }  // end all spells
   if (spell == "all songs") {
     foreach(string sp in SONGS_D->GetSongs()) {
-        if (resolve_song_type(base_name(SONGS_D->GetSong(sp))) != "test songs" && !(who->GetSongLevel(sp)) ) {
-          eventTeachSong(who, sp, 1);
-          if (who->GetSongLevel(sp)) learn += ({ sp }); 
-          }
-       }
+      if ((SONGS_D->GetSong(sp))->GetUniqueSong()) continue;
+      if (resolve_song_type(base_name(SONGS_D->GetSong(sp))) != "test songs" && !(who->GetSongLevel(sp)) ) {
+        eventTeachSong(who, sp, 1);
+        if (who->GetSongLevel(sp)) learn += ({ sp }); 
+      }
+    }
     if (who != this_object()) {
       if (sizeof(learn) <= 25 && sizeof(learn)) eventForce("speak I taught you " + conjunction(learn, "and"));
       if (sizeof(learn) > 25 ) eventForce("speak I taught you an excessive number of songs.");
-      if (!sizeof(learn)) eventForce("speak You are not prepared to learn any new music.");          
-     }
+      if (!sizeof(learn)) eventForce("speak You are not prepared to learn any new music.");         
+    }
     return 1;
-  }
+  } // end all songs
   if (!ob && spell) {
     if(ob = SONGS_D->GetSong(spell)) {
-       return eventTeachSong(who, spell);
-     }
-  eventForce("speak I'm sorry, I don't know that magic.");
-  return 1;
-  }
+      if (ob->GetUniqueSong()) {
+        eventForce("speak I'm afraid I don't know that song. You must discover it on your own.");
+      }
+      return eventTeachSong(who, spell);
+    }
+    eventForce("speak I'm sorry, I don't know that magic.");
+    return 1;
+  } // a song
 
   if (!sizeof(GetTaughtSpheres()) && !ClassMember("bard") && !ClassMember("dancer")) {
     eventForce("speak Uhhhhhhhhhhh, I don't teach magic.");
     eventForce("emote looks confused.");
     if (sizeof(GetSpellBook()) || sizeof(GetSongBook()) ) {
       CHAT_D->eventSendChannel(GetName(), "error", GetName() + 
-                               " is non compliant with Spheres.", 1);
-      CHAT_D->eventSendChannel(GetName(), "error", file_name(
-this_object()), 1);
-      }
-    return 1;
+        " is non compliant with Spheres.", 1);
+      CHAT_D->eventSendChannel(GetName(), "error", file_name(this_object()), 1);
     }
+    return 1;
+  } // doesn't... teach this sphere?
+
   if (ClassMember("bard")) {
     eventForce("speak I teach music and songs.");
-  return 1;
+    return 1;
   }
   if (!spell) {
-       eventForce("speak I teach from the spheres:");
-       eventForce("speak " + conjunction(GetTaughtSpheres()) );
-       return 1;
-     }
+    eventForce("speak I teach from the spheres:");
+    eventForce("speak " + conjunction(GetTaughtSpheres()) );
+    return 1;
+  } // no spell name
   if(member_array(SPELLS_D->GetSpellSphere(spell), spheres) == -1) {
     eventForce("speak I don't know that spell.");
     eventForce("speak I only teach spells from the spheres: ");
     eventForce("speak " + conjunction(GetTaughtSpheres(), "and"));
     return 1;
-  }
-  if(ob->GetUniqueSpell() && !GetSpellLevel(spell)) {
-      eventForce("speak I'm afraid I don't teach that spell.");
-      return 1;
-     }
+  } // spell we do not teach
+  if(ob->GetUniqueSpell() /*&& !GetSpellLevel(spell)*/ ) {
+    eventForce("speak I'm afraid I don't teach that spell. You must search for it elsewhere.");
+    return 1;
+  } // unique spell--what does get spell level do?
   if (GetReligion() && (who->GetReligion() != GetReligion()) && GetReligion() != "agnostic") {
-  eventForce("speak I only teach people of my own faith!");
-  return 1;
-  }
+    eventForce("speak I only teach people of my own faith!");
+    return 1;
+  } // baddd religionnn
   if (who->eventLearnSpell(spell)) {
-      send_messages( ({ "teach" }),
-         "$agent_name $agent_verb $target_name " + spell + ".",
-          this_object(), who, environment() );
-       return 1;
-     } else {
-        if (!nospamflag) eventForce("speak You are not prepared to learn " + spell + "!");
-        return 1;
-      }
+    send_messages( ({ "teach" }),
+    "$agent_name $agent_verb $target_name " + spell + ".",
+    this_object(), who, environment() );
+    return 1;
+  } else {
+    if (!nospamflag) eventForce("speak You are not prepared to learn " + spell + "!");
+    return 1;
+  }
 }
 
 varargs int eventTeachSong(object who, string song, int nospamflag) {
