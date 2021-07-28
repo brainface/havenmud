@@ -42,7 +42,7 @@ mixed cmd(string args) {
     case "add":
       if (target->GetProperty("party_allow_" + who->GetKeyName())) {
         target->RemoveProperty("party_allow_" + who->GetKeyName());
-        if ((target->GetLevel()  > who->GetLevel() * 1.3) || (target->GetLevel() < who->GetLevel() * 0.7) && (who->GetLevel() < 100 || target->GetLevel() < 100)) {
+        if ((target->GetLevel()  > who->GetLevel() * 1.3) || (target->GetLevel() < who->GetLevel() * 0.7) && (who->GetLevel() < 100 || target->GetLevel() < 100) && (who->GetLevel() + target->GetLevel() > 30)) {
           who->eventPrint("In order to party, you must be within 30% of the level of the leader.");
           return 1;
         }

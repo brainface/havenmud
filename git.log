@@ -3631,3 +3631,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
  1 files changed, 4 insertions(+), 0 deletions(-)
 [master 37b350f] Mon Jul 26 09:00:01 EDT 2021 snapshot
  1 files changed, 2 insertions(+), 0 deletions(-)
+[master 343d488] Tue Jul 27 09:00:01 EDT 2021 snapshot
+ 9 files changed, 231 insertions(+), 73 deletions(-)
+ create mode 100644 lib/realms/mahkefel/ioca.o
+ rewrite lib/save/skills.o (86%)

@@ -21,7 +21,7 @@ static void create() {
    ::create();
    AddCommandResponse("give", (: Give :) );
    FreeEquipment = ([ ]);
-   LevelLimit = 10;
+   LevelLimit = 20;
 }
 
 

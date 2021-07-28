@@ -87,10 +87,10 @@ room::create();
                      "south" : PENINSULA_VIRTUAL "vimp/0,6" ]) );                     
         AddExit("northeast", HAVENWOOD_VIRTUAL + "havenwoodroad/126,126", (: DomainCheck :) );
         SetEnters( ([
-                     ({"large rectangular building","rectangular building",
+                     ({"tavern","large rectangular building","rectangular building",
                        "large building","building","wood and brick structure",
                        "wood structure","brick structure","inn", "structure",
-                       "tavern","pub"}) :
+                       "pub"}) :
                        SOUTHERN_COAST_AREAS + "wtraveller/room/wtraveller"
                  ]) );
 }

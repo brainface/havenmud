@@ -153,6 +153,9 @@ mapping Towns = ([
 "human"     : ({ "Parva", "Haven", "Sanctum", "Karak" }),
 "orc"       : ({ "Karak" }),
 "wild-elf"  : ({ "Havenwood" }),
+"sprite"     : ({ "Jidoor" }),
+"lamrani"    : ({ "Jidoor" }),
+"skaven"     : ({ "Malveillant" }),
 ]);
 
 mapping AdvancedStart = ([
@@ -163,15 +166,12 @@ mapping AdvancedStart = ([
 "halfling"   : ({ "Lloryk" }),
 "muezzin"    : ({ "Westwood" }),
 "dark-dwarf" : ({ "Dalnairn" }),
-"sprite"     : ({ "Jidoor" }),
-"lamrani"    : ({ "Jidoor" }),
 "lizardman"  : ({ "Gwonish" }),
 "goblin"     : ({ "Kresh" }),      
 "goden"      : ({ "Keryth" }),
 "muezzin"    : ({ "Soleil" }),
 "nosferatu"  : ({ "Grymxoria" }),
 "kobold"     : ({ "Arcanith" }),
-"skaven"     : ({ "Malveillant" }),
 ]);    
     
 #endif /* l_setup_h */

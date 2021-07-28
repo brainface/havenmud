@@ -19,7 +19,7 @@ static void create() {
    SetBaseLanguage("Eltherian");      
    SetMorality(900);
    SetClass("rogue");
-   SetLevel(10);      
+   SetLevel(10);
    SetFreeEquipment( ([
      "vest" : STORE_DIR + "oldvest",
      "pants" : STORE_DIR + "oldpants",
@@ -27,7 +27,7 @@ static void create() {
      "glove" : STORE_DIR + "oldglove",
      "helmet" : STORE_DIR + "oldhelmet",     
    ]) );
-   SetLevelLimit(10);   
+   SetLevelLimit(20);
    SetAction(1, ({ "!say I have a few spare pieces of armour, if you can't "
      "afford what this fool charges." }) );    
 }
