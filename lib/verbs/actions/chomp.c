@@ -78,14 +78,14 @@ int eventAttack(object who, object target) {
     "widely at $target_name, exposing fangs!",
     who, target, environment(who));
   if (result == -1) {
-    send_messages( ({ "bite" }), "$agent_name somehow manages to %^BOLD%^ $agent_verb"
+    send_messages( ({ "manage" }), "$agent_name somehow $agent_verb to%^BOLD%^ bite"
       "%^RESET%^ $agent_possessive tongue instead of $target_name!",
       who, target, environment(who));
     //who->eventCollapse();
     return 1;
   }
   if (result = 0) {
-    send_messages( ({ "leap", "chomp" }), "$agent_possessive_noun teeth %^RED%^ snap%^RESET%^ "
+    send_messages( ({ "leap", "chomp" }), "$agent_possessive_noun teeth%^RED%^ snap%^RESET%^ "
   "together a hair's breadth from $target_possessive_noun body!",
       who, target, environment(who));
     return 1;

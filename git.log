@@ -3635,3 +3635,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
  9 files changed, 231 insertions(+), 73 deletions(-)
  create mode 100644 lib/realms/mahkefel/ioca.o
  rewrite lib/save/skills.o (86%)
+[master 9c18e3f] Wed Jul 28 09:00:01 EDT 2021 snapshot
+ 16 files changed, 560 insertions(+), 15 deletions(-)
+ create mode 100644 lib/doc/help/players/coins
+ create mode 100755 lib/lib/users/#nmsh.c#
+ rewrite lib/save/classes.o (91%)

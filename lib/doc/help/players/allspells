@@ -195,6 +195,7 @@ illusion
    feign death: illusion : 104
 natural enchantment
    mend textile: enchantment : 5, natural magic : 5
+   carrier pigeon: enchantment : 7, natural magic : 7
    warp wood: enchantment : 10, natural magic : 10
    transmorph: enchantment : 15, natural magic : 15
    soothe: enchantment : 25, natural magic : 25
@@ -280,7 +281,6 @@ practical
    practical light: practical magic : 30
    practical water: practical magic : 80
    practical food: practical magic : 120
-   carrier pigeon: practical magic : 160
 religion aberach
    carapace: faith : 1, necromancy : 1
    skirmish touch: faith : 20, necromancy : 20
