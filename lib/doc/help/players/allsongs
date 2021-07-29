@@ -2,7 +2,6 @@ instrumental
    tingling song: instrumental music : 1
    quenching: instrumental music : 5
    nourishment: instrumental music : 10
-   tavernsong: instrumental music : 15
    drift: instrumental music : 20
    lunar ballad: instrumental music : 25
    solar ballad: instrumental music : 25
@@ -43,6 +42,7 @@ vocal
    debutant aria: vocal music : 5
    harpy's shriek: vocal music : 10
    angel whisper: vocal music : 15
+   tavernsong: vocal music : 15
    staccato: vocal music : 20
    expulsion: vocal music : 25
    pianissimo: vocal music : 30

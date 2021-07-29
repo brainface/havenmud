@@ -130,7 +130,7 @@ void burnInSunlight() {
 	send_messages("burn","$agent_possessive_noun flesh "
           "%^BOLD%^RED%^burns%^RESET%^ in the sunlight!",
           this_object(), 0, room);
-        eventReceiveDamage(load_object(STD_DUMMY "sunburn"), HEAT, random(20), 1);
+        eventReceiveDamage(load_object(STD_DUMMY "sunburn"), HEAT, random(20)+10, 1);
       }
     }
   } 

@@ -324,16 +324,16 @@ static void heart_beat() {
     body::heart_beat();
     language::heart_beat();
     genetics::heart_beat();
-    if (GetWarmth() < 30 && !GetZombie()) {
+    if (GetWarmth() < 30 && !GetZombie() && !random(4)) {
     	eventPrint("You shiver with cold.");
         if (!newbiep())
-    	eventReceiveDamage(load_object(STD_DUMMY "temperature"), COLD, random(30 - GetWarmth()), 1);
+    	eventReceiveDamage(load_object(STD_DUMMY "temperature"), COLD, random(60 - GetWarmth()), 1);
     }
-    if (GetWarmth() > 180  && !GetZombie()) {
+    if (GetWarmth() > 180  && !GetZombie() && !random(4)) {
     	eventForce("pant");
     	eventPrint("You are extremely hot.");
         if (!newbiep())
-    	eventReceiveDamage(load_object(STD_DUMMY "temperature"), HEAT, random(GetWarmth() - 180), 1);
+    	eventReceiveDamage(load_object(STD_DUMMY "temperature"), HEAT, random(GetWarmth() - 90), 1);
     	AddDrink(-5);
     	}
 }

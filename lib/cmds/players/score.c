@@ -126,6 +126,7 @@ varargs mixed eventScore(string target)
     str += ({ "Offense Rating (unarmed):" + who->GetWeaponChance(0,"melee",1,1) });
   }  
   str += ({ "Defense Rating: " + who->GetDefense() });
+  str += ({ "Heart rate: " + who->GetHeartRate() });
   
   printto->eventPage(str, "info");
   if (who->GetProperty("mission")) {

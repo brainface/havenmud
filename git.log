@@ -3640,3 +3640,6 @@ no changes added to commit (use "git add" and/or "git commit -a")
  create mode 100644 lib/doc/help/players/coins
  create mode 100755 lib/lib/users/#nmsh.c#
  rewrite lib/save/classes.o (91%)
+[master f016e81] Thu Jul 29 09:00:01 EDT 2021 snapshot
+ 6 files changed, 106 insertions(+), 7 deletions(-)
+ create mode 100755 lib/std/spells/natural_enchantment/pigeons.c

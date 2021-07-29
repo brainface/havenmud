@@ -157,6 +157,8 @@ static void heart_beat() {
         set_heart_beat(0);
         return;
     }
+    // mahk: I don't think heartrate changes ever applied
+    set_heart_beat(GetHeartRate());
     position = GetPosition();
     AddFood(1); AddDrink(1);
     if( position == POSITION_LYING || position == POSITION_SITTING ) {

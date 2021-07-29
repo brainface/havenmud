@@ -100,6 +100,8 @@ static void heart_beat() {
         set_heart_beat(0);
         return;
     }
+    // mahk: I think this never reset until at login?
+    set_heart_beat(GetHeartRate());
     interactive::heart_beat();
     if( query_idle(this_object()) >= 3600 ) {
       CHAT_D->eventSendChannel("", "notify", capitalize(GetKeyName()) + " has idled out.", 1);
