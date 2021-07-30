@@ -51,7 +51,7 @@ static void create(int x, int y) {
   SetObviousExits(tmp);
   SetLongAndItems();
   // a solitary road sign
-  if (x == -10 && y == -8 ) AddInventory(BARIA_VIRTUAL "junglen10n8", 1);
+  if (x == -10 && y == 8 ) AddInventory(BARIA_VIRTUAL "junglen10p8", 1);
 
 
 }

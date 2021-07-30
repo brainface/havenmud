@@ -32,6 +32,7 @@ void sell_off() {
        thing->eventDestruct();
      }
   }
+  reset(); // put our goddamned base inventory back->Mahk
 }
 
 void SetPurgeInterval(int x) { return; }

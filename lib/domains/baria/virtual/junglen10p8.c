@@ -1,3 +1,5 @@
+// jungle-10,8
+
 #include <lib.h>
 inherit LIB_ITEM;
 
@@ -10,9 +12,9 @@ static void create() {
      "Wooden arrows point off in various directions with abandon. "
    );
    SetRead("default",
-       "Northeast: Gurov\n"
-     "East: Grymxoria\n"
-     "South: the Port of Parva, Malveillant, the Havenwood\n"
+     "North: the Ruins of Durgoroth, Old Arcanith, Keryth,\n"
+     "East: Jidoor, Glimmerdin, Unghk,\n"
+     "South: Baria."
    );
    //SetLong( GetLong() + GetRead("default") );
    SetId( ({"sign"}) );

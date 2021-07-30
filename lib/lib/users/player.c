@@ -260,12 +260,12 @@ int eventDie(object agent) {
                "Your body, however, is less than forgiving.");
     eventRevive();
   }
-  debug("Undead? " + GetUndead());
-  debug("Type? " + GetUndeadType());
+  //debug("Undead? " + GetUndead());
+  //debug("Type? " + GetUndeadType());
   // must check before eventDie
   // this doesn't actually work, who knows why.
   if (GetUndead() && GetUndeadType() == "zombie") {
-    debug("a bad death!");
+    //debug("a bad death!");
     aBadDeath = 1;
   }
   if( (x = living::eventDie(agent)) != 1 ) return x;
@@ -326,20 +326,26 @@ int eventDie(object agent) {
 void eventRevive() {
   string skill;
   int x = 0;
+  int sucked = 0;
   if( !GetUndead() ) return;
   SetUndead(0);
   if( !newbiep()  )   { 
     foreach(skill in GetSkills()) {
-      AddSkillLevels(skill, -(random(2)) );
+      if (sucked > 5) continue; // cap at losing 5 skills (mahk)
+      if ( random(2) ){
+        AddSkillLevels(skill, -(random(2)) );
+	sucked += 1;
+      }
     }
   }
   NewBody(GetRace());
   eventCompleteHeal(GetMaxHealthPoints());
   AddMagicPoints(-(GetMaxMagicPoints()/2));
-  if (!newbiep() && GetLevel() != 500 ) 
+  // mahk: let's not, actually
+  /*if (!newbiep() && GetLevel() != 500 ) 
     foreach(string stat in GetStats() ) {
       if (!random(3)) AddStatLevel(stat, -1);
-    }
+      }*/
 
   // vampire block
   if (GetSkillLevel("vampirism") > 1) {

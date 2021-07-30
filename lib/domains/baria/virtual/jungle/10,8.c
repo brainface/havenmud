@@ -15,12 +15,13 @@ static void create() {
      "north" : "/domains/baria/virtual/jungle/10,9",
     ]) );
   AddExit("east", JUNGLE_ROAD, (: DomainCheck :) );
-  SetLong("The jungle thins here, with a road seeming to lead up and into "
-          "the jungle from the east. As far as the eye can see in the other "
-          "directions are jungle.");
   SetInventory( ([
      "/domains/baria/virtual/sign" : 1,
       ]) );
+
+  SetLong("The jungle thins here, with a road seeming to lead up and into "
+          "the jungle from the east. As far as the eye can see in the other "
+          "directions are jungle.");
   }
 
 int DomainCheck() {

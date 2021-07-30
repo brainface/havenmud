@@ -4,7 +4,7 @@
 #include <armour_types.h>
 #include <vendor_types.h>
 
-inherit "/std/crafting/clothing/include/craftable";
+inherit STD_CRAFTING "clothing/include/craftable";
 inherit LIB_ARMOUR;
 
 string CraftPattern;

@@ -21,10 +21,13 @@ static void create() {
 varargs int eventSing(object who, int level, mixed x, object *targets) {
   object target = targets[0];
   int amt;
+  int existing_drunk;
   if (target->GetAlcohol() > target->GetStatLevel("durability")*3) {
      who->eventPrint("That person is way too drunk already.");
      return 1; 
   }
+
+  existing_drunk = target->GetAlcohol();
 
   send_messages( ({ "sing", }),
     "$agent_name $agent_verb a %^GREEN%^rousing%^RESET%^ tavern tune which reminds $target_name of a night long ago. ", 
@@ -35,7 +38,9 @@ varargs int eventSing(object who, int level, mixed x, object *targets) {
   amt = 10;
   amt += (who->GetSkillLevel("vocal music")/10);
   amt *= (who->GetSongLevel("tavernsong")/100);
-  if (target->GetAlcohol() / 2 > amt) {
+
+  amt -= existing_drunk;
+  if (amt < 1) {
     who->eventPrint("That person is as song-drunk as you can make them!");
     return 1;
   }

@@ -39,8 +39,8 @@ static void create() {
   ]) );
   SetInventory( ([
          "/realms/mahkefel/npc/gammit" : 1,
-              "/realms/mahkefel/verbs/loom" : 1,
-       "/realms/mahkefel/verbs/spinny_wheel" : 1,
+	 STD_CRAFTING "stations/loom" : 1,
+	 STD_CRAFTING "stations/spinny_wheel" : 1,
   ]) );
   SetListen("default", "Odd. You don't /see/ a pipe organ anywhere.");
   SetSmell("default", "Gothic. Yes, a very gothic smell.");

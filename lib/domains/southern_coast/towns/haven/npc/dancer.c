@@ -40,7 +40,7 @@ static void create() {
   SetLimit(1);
   SetPlayerTitles( ([
 		     "newbie" : "the Apprentice of Acceleration",
-		     //"mortal" : "the Storyteller of Haven Town",
+"mortal" : "The Sophomore of Seduction",
 		     //"hm"     : "the SongMaster of Haven Town",
 		     //"legend" : "the Bardic Legend of Haven Town",
 		     //"avatar" : "the Truly Divine SongMaster of Haven Town",

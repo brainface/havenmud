@@ -57,6 +57,7 @@ static void create() {
   SetId("craftything");
   SetShort("craftything");
   SetKeyName("craftything");
+  SetLong("This is a craftything. You should never see this. Please bug me.");
 
   SetDestroyOnSell(1);
   

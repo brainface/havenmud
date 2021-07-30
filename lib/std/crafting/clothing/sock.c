@@ -1,9 +1,10 @@
 #include <lib.h>
+#include <std.h>
 #include <vendor_types.h>
 #include <armour_types.h>
 #include <armour_class.h>
 
-inherit "/std/crafting/clothing/include/clothing";
+inherit STD_CRAFTING "clothing/include/clothing";
 
 void SetCraftResult() {
   string adj = GetCraftAdj();

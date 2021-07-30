@@ -1,9 +1,7 @@
 #include <lib.h>
 #include <vendor_types.h>
-#include <std.h>
-//inherit LIB_ITEM;
-inherit STD_CRAFTING "clothing/include/craftable";
-/*
+inherit LIB_ITEM;
+
 string* CraftSources;
 int CraftLevel;
 string* CraftMaterials;
@@ -14,10 +12,10 @@ int SetLevel(int x) { return CraftLevel = x; }
 int GetLevel() { return CraftLevel;}
 string* SetCraftMaterials(string* str) { return CraftMaterials = str; }
 string* GetCraftMaterials() { return CraftMaterials; }
-*/
+
 void SetCraftResult() {
-  string adj = GetCraftAdj();
-  /*switch(CraftLevel) {
+  string adj;
+  switch(CraftLevel) {
     case 0..4:
       adj = "novice";
       break;
@@ -42,13 +40,12 @@ void SetCraftResult() {
     default:
       adj = "torn";
       break;
-      }*/
+    }
   SetShort("a spool of " + adj + " " + CraftSources[0] + " yarn");
   SetLong("This tightly wound spool of thick " + CraftSources[0] +" is clearly of " + adj + " quality.");
-  /*SetValue(CraftLevel * 5);
+  SetValue(CraftLevel * 5);
   SetAdjectives( CraftSources + ({adj}) );
-  SetMaterials( CraftMaterials );*/
-  craftable::SetCraftResult();
+  SetMaterials( CraftMaterials );
 }
 
 static void create() {

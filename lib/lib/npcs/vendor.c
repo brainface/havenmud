@@ -235,8 +235,8 @@ mixed eventAsk(object who, string str) {
 	}
 	else {
 	    if( !(ob = present(args, who)) ) {
-		eventForce("speak Get out of here you cheat!");
-		eventForce("bump " + (string)this_player()->GetKeyName());
+		eventForce("speak I do not understand what you want me to buy!");
+		eventForce("shrug " + (string)this_player()->GetKeyName());
 		return 1;
 	    }
 	    obs = ({ ob });
