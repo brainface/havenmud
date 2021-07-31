@@ -9,12 +9,12 @@ inherit LIB_ARMOUR;
 
 static void create() {
   armour::create();
-  SetKeyName("leather vest");
-  SetId( ({ "vest" }) );
+  SetKeyName("leather cuirass");
+  SetId( ({ "cuirass" }) );
   SetAdjectives( ({ "old", "leather" }) );
-  SetShort("an old leather vest");
+  SetShort("an old leather cuirass");
   SetLong(
-    "This old vest is made from inferior leather, and is barely held together "
+    "This old cuirass is made from inferior leather, and is barely held together "
     "by rusty metal studs. It seems rather ineffective at providing much "
     "protection, and has obviously been worn to battle a great many times. "    
   );
@@ -23,7 +23,7 @@ static void create() {
   SetValue(0);  
   SetArmourClass(ARMOUR_LEATHER);  
   SetVendorType(VT_ARMOUR);
-  SetArmourType(A_VEST);
+  SetArmourType(A_ARMOUR);
   SetSize(SIZE_VERY_SMALL);
   SetDamagePoints(800);
 }

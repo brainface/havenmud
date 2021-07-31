@@ -9,12 +9,12 @@ inherit LIB_ARMOUR;
 
 static void create() {
   armour::create();
-  SetKeyName("leather vest");
-  SetId( ({ "vest" }) );
+  SetKeyName("leather cuirass");
+  SetId( ({ "cuirass" }) );
   SetAdjectives( ({ "tough", "leather" }) );
-  SetShort("a tough leather vest");
+  SetShort("a tough leather cuirass");
   SetLong(
-    "This vest is made of toughened leather, held together by small metal "
+    "This cuirass is made of toughened leather, held together by small metal "
     "studs. It looks fairly durable, able to take a reasonable amount of "
     "punishment to protect the wearer from many physical attacks. It seems "
     "fairly comfortable, and has a thin fur lining that provides the wearer "
@@ -26,7 +26,7 @@ static void create() {
   SetWarmth(5);
   SetArmourClass(ARMOUR_LEATHER);  
   SetVendorType(VT_ARMOUR);
-  SetArmourType(A_VEST);
+  SetArmourType(A_ARMOUR);
   SetSize(SIZE_MEDIUM);
   SetDamagePoints(2500);
 }

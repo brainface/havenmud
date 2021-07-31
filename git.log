@@ -3643,3 +3643,13 @@ no changes added to commit (use "git add" and/or "git commit -a")
 [master f016e81] Thu Jul 29 09:00:01 EDT 2021 snapshot
  6 files changed, 106 insertions(+), 7 deletions(-)
  create mode 100755 lib/std/spells/natural_enchantment/pigeons.c
+[master 72a8452] Fri Jul 30 09:00:01 EDT 2021 snapshot
+ 25 files changed, 811 insertions(+), 68 deletions(-)
+ create mode 100755 lib/domains/baria/virtual/junglen10p8.c
+ create mode 100644 lib/domains/havenwood/towns/parva/room/tavern3.c
+ create mode 100644 lib/std/crafting/clothing/bak/thread.c
+ create mode 100644 lib/std/crafting/clothing/bak/yarn.c
+ create mode 100644 lib/verbs/items/attach.c
+ create mode 100644 lib/verbs/items/sew.c
+ create mode 100644 lib/verbs/items/spin.c
+ create mode 100644 lib/verbs/items/weave.c

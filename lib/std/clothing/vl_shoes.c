@@ -9,9 +9,9 @@ static void create() {
 	SetArmourClass(ARMOUR_CLOTH); 
 	SetMaterials( ({ "textile" }) ); 
 
-	SetKeyName("threadbare shoes");
-	SetShort("a threadbare pair of shoes");
-	SetId( ({ "shoes" }) );
+	SetKeyName("threadbare socks");
+	SetShort("a threadbare pair of socks");
+	SetId( ({ "socks" }) );
 	SetAdjectives( ({ "threadbare", "pair", "of" }) );
 	SetArmourType(A_BOOT);
         SetDamagePoints(1000);
@@ -19,7 +19,7 @@ static void create() {
 	SetWarmth(10);
 	SetValue(0);
 	SetSize(SIZE_VERY_LARGE);
-	SetLong("This dull pair of shoes seems to be almost worthless. "
+	SetLong("This dull pair of socks seems to be almost worthless. "
 	        "However, they look slightly warmer than being barefoot, "
 	        "so wearing them is better than nothing.");
 }

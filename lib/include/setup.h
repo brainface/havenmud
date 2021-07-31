@@ -32,6 +32,7 @@ mapping Cemeteries = ([
 
 mapping MoveMessages = ([
 "lamrani" : ({ "$N drifts $D effortlessly.", "$N drifts in effortlessly." }),
+"sprite" : ({ "$N buzzes out $D", "$N buzzes in." }),
  ]);
 
 mapping Religions = ([

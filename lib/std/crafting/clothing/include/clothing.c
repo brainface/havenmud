@@ -3,6 +3,7 @@
 #include <armour_class.h>
 #include <armour_types.h>
 #include <vendor_types.h>
+#include <std.h>
 
 inherit STD_CRAFTING "clothing/include/craftable";
 inherit LIB_ARMOUR;
