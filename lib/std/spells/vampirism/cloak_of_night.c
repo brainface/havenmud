@@ -14,8 +14,8 @@ static void create() {
    spell::create();
    SetSpell("cloak of night");
    SetSpellType(SPELL_OTHER);
-   SetStaminaCost(50, 25);
-   SetRequiredStamina(75);
+   SetDrinkCost(100,50);
+   SetMagicCost(0,0);
    SetRules("");
    SetSkills( ([ 
      "vampirism" : 30,

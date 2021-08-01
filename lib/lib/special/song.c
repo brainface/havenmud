@@ -501,7 +501,7 @@ static int CanAttack(object who, object array enemies, int power) {
 	    area = environment(who);
 	}
 	
-	power += (GetSongLevel() - enemies[i]->GetLevel());
+	// mahk power += (GetSongLevel() - enemies[i]->GetLevel());
 	if( !enemies[i]->eventReceiveAttack(power, "magic", who) ) {
 	    misses += enemies[i]->GetLevel();
 	    miss_count++;
@@ -760,7 +760,7 @@ varargs int eventSing(object who, int level, mixed limb, object array targets) {
 	mapping messages = ([]);
 	int total_damage = 0;
   
-  if( CanAttack(who, targets, GetSongLevel() + level/5) == - 1 ) {
+	if( CanAttack(who, targets, GetSongLevel() + level/2/*level/5*/) == - 1 ) {
 	    who->eventPrint("Your powers fail you.");
 	    return 0;
 	    }

@@ -911,7 +911,7 @@ varargs int eventCast(object who, int level, mixed limb, object array targets) {
 	mapping messages = ([]);
 	int total_damage = 0;
   
-    if( CanAttack(who, targets, GetSpellLevel() + level/5) == - 1 ) {
+	if( CanAttack(who, targets, GetSpellLevel() + level/2 /*level/5*/) == - 1 ) {
 	    who->eventPrint("Your powers fail you.");
 	    return 0;
 	    }

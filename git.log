@@ -3653,3 +3653,12 @@ no changes added to commit (use "git add" and/or "git commit -a")
  create mode 100644 lib/verbs/items/sew.c
  create mode 100644 lib/verbs/items/spin.c
  create mode 100644 lib/verbs/items/weave.c
+[master 9035531] Sat Jul 31 09:00:01 EDT 2021 snapshot
+ 22 files changed, 181 insertions(+), 237 deletions(-)
+ rewrite lib/save/skills.o (86%)
+ copy lib/std/crafting/clothing/{ => bak}/fabric.c (100%)
+ create mode 100644 lib/std/crafting/clothing/include/dye.c
+ create mode 100644 lib/std/crafting/clothing/include/pattern.c
+ rewrite lib/std/crafting/clothing/thread.c (68%)
+ rewrite lib/std/crafting/clothing/yarn.c (66%)
+ create mode 100644 lib/std/crafting/stations/#dye_vat.c#
