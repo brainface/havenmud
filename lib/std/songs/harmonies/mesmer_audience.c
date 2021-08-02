@@ -31,12 +31,12 @@ object *GetTargets(object who, mixed args...) {
 int eventSing(object who, int level, mixed q, object *targets) {
   int Effectiveness;
   int tmp;
-  
+
   Effectiveness = (who->GetSkillLevel("vocal music") + 
                    who->GetSkillLevel("instrumental music"));
   Effectiveness += who->GetStatLevel("charisma");
   Effectiveness = (Effectiveness * level) / 100;
-  
+
   foreach(object t in targets) {
     tmp = t->GetMagicResistance() + t->GetStatLevel("charisma") + t->GetLevel();
     tmp = Effectiveness - tmp;

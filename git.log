@@ -3662,3 +3662,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
  rewrite lib/std/crafting/clothing/thread.c (68%)
  rewrite lib/std/crafting/clothing/yarn.c (66%)
  create mode 100644 lib/std/crafting/stations/#dye_vat.c#
+[master 914f255] Sun Aug  1 09:00:01 EDT 2021 snapshot
+ 8 files changed, 139 insertions(+), 16 deletions(-)
+ create mode 100644 lib/std/spells/obj/fruit_bat.c
+ create mode 100644 lib/std/spells/vampirism/bat_swarm.c

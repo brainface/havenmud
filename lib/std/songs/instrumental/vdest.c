@@ -14,6 +14,7 @@ static void create() {
   SetRules("", "LIV");
   SetSongType(SONG_COMBAT);
   SetMagicCost(75, 75);
+  SetEnhanceSkills( ({ "poison magic" }) );
   SetSkills( ([
      "instrumental music" : 75,
       ]) );
@@ -26,6 +27,13 @@ int eventSing(object who, int level, mixed n, object *targets) {
   int limb_hp = target->GetLimb(limb)["health"];
 
   if(environment(target) != environment(who)) return 0;
+
+  foreach(string enhance in GetEnhanceSkills()) {
+    int damageboost = who->GetSkillLevel(enhance) / (GetSongLevel() * 2);
+    if (damageboost > 3) damageboost = 3;
+    damage += damage * damageboost;
+  }  
+
   damage = target->eventReceiveDamage(who, ACID, damage, 0, limb);
   if(damage >= limb_hp) {
       send_messages("play",
