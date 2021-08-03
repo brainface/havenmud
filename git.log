@@ -3666,3 +3666,6 @@ no changes added to commit (use "git add" and/or "git commit -a")
  8 files changed, 139 insertions(+), 16 deletions(-)
  create mode 100644 lib/std/spells/obj/fruit_bat.c
  create mode 100644 lib/std/spells/vampirism/bat_swarm.c
+[master 40fb330] Mon Aug  2 09:00:01 EDT 2021 snapshot
+ 4 files changed, 17 insertions(+), 5 deletions(-)
+ rewrite lib/save/skills.o (86%)

@@ -17,6 +17,7 @@ static void create() {
     STD_STORAGE "backpack" : 2,
     STD_STORAGE "scabbard" : 2,
     STD_OBJ "fishing/pole" : 4,
+STD_OBJ "digging/shovel" : 2,
     ]) );
 
 }

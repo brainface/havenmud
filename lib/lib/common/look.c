@@ -44,6 +44,8 @@ varargs int GetInvis(object ob) {
     }
     if( functionp(Invisible) ) {
 	return evaluate(Invisible, ob);
+    } else if ( this_object()->GetRace() == "wild-elf" && this_object()->GetSleeping()) {
+      return 1;
     }
     else return Invisible;
 }

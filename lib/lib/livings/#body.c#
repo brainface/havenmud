@@ -361,6 +361,7 @@ void eventCheckHealing() {
 		message("other_action", GetName() + " wakes up from " +
 			possessive(this_object()) + " deep sleep.",
 			environment(this_object()), ({ this_object() }));
+                
 	    }
 	    else if( random(100) < 8 ) {
 		message("my_action", "You snore.", this_object());
@@ -1572,9 +1573,7 @@ int RemoveMagicProtection(int i) {
 
 int GetDying() { return Dying; }
 
-int SetSleeping(int x) { 
-  return (Sleeping = x); 
-}
+int SetSleeping(int x) { return (Sleeping = x); }
 
 int GetSleeping() { return Sleeping; }
 

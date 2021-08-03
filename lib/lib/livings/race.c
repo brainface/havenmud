@@ -232,7 +232,10 @@ int GetMaxMagicPoints() {
     divider++;
    }
    if (!divider) return 50;
-   return (MP/divider) + bonus;
+   MP = (MP/divider) + bonus;
+   // mahk: give sprites a bonus to magic?
+   //if (GetRace() == "sprite") MP *= 1.25
+   return MP;
 }
 
 float GetMaxStaminaPoints() {

@@ -1,5 +1,6 @@
 #include <lib.h>
 #include <position.h>
+#include <conditions.h>
 inherit LIB_VERB;
 
 static void create() {
@@ -23,9 +24,9 @@ mixed can_sleep() {
    if(this_player()->GetSleeping()) {
       return "You are already asleep!";
    }
-  if (this_player()->GetPosition() != POSITION_LYING) {
+   /*if (this_player()->GetPosition() != POSITION_LYING) {
     return "You must be lying down to do that.";
-    }
+    }*/
   if (environment(this_player())->GetProperty("shallows") || environment(this_player())->GetProperty("ocean")) {
     return "You can't sleep in the water!";
   }
@@ -33,9 +34,23 @@ mixed can_sleep() {
 }
 
 mixed do_sleep() {
-  this_player()->SetSleeping(random(3) + 2);
+  if (this_player()->GetPosition() != POSITION_LYING && 
+      !this_player()->GetConditionFlag(CONDITION_PREVENT_POSITION)) {
+    this_player()->eventLay();
+    if (this_player() ->GetPosition() != POSITION_LYING) {
+      this_player()->eventPrint( "You must be lying down to do that.");
+      return 0;
+    }
+  }
+
+  this_player()->SetSleeping(random(3)+2);
   send_messages("drift", 
     "$agent_name $agent_verb into a sound sleep.", 
     this_player(), 0, environment(this_player()) );
+  if (this_player()->GetRace() == "wild-elf") {
+    send_messages("", 
+      "$agent_possessive_noun body fades into dream.",
+      this_player(), 0, environment(this_player()) );
+  }
   return 1;
 }
