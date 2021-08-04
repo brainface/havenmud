@@ -2,7 +2,7 @@
 #include <vendor_types.h>
 #include <domains.h>
 #include <std.h>
-#include "store.h"
+#include "../store.h"
 
 inherit LIB_VENDOR;
 
@@ -29,7 +29,7 @@ static void create() {
   SetClass("merchant");
   SetLevel(30);
   AddCurrency("imperials", random(100)+1);
-  SetStorageRoom(STORE_DIR + "store");
+  SetStorageRoom(LSTORE_ROOM + "store");
   SetProperty("no bump", 1);
   SetVendorType(VT_ARMOUR|VT_CLOTHING);
 

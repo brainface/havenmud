@@ -1,5 +1,5 @@
 #include <lib.h>
-#include "store.h"
+#include "../store.h"
 inherit LIB_EQUIPPER;
 
 static void create() {

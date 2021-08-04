@@ -1,6 +1,6 @@
 #include <lib.h>
 #include <std.h>
-#include "store.h"
+#include "../store.h"
 
 inherit LIB_ROOM;
 
@@ -10,10 +10,11 @@ static void create() {
    SetClimate("indoors");
    SetAmbientLight(30);
    SetExits( ([
-      "out" : OUT_DIR,
+     "out" : LSTORE_EXIT,
+     "south" : LSTORE_ROOM "craft_hub"
    ]) );
    SetLong(
-     "This little store belongs to Tornys, a renound leather dealer. His "
+     "This little store belongs to Tornys, a renowned leather dealer. His "
      "products are generally well known for being of decent quality, and "
      "this store is popular especially among the inhabitants of Haven town "
      "and the surrounding area. There is a wooden counter near the door, "
@@ -29,8 +30,8 @@ static void create() {
      "counter" : ({ "wooden" }),      
    ]) );   
    SetInventory( ([ 
-      STORE_DIR + "tornys" : 1,
-      STORE_DIR + "odele" : 1,
+      LSTORE_NPC + "tornys" : 1,
+      LSTORE_NPC + "odele" : 1,
       STD_OBJ "lootchest" : 1,
    ]) );
    SetProperties( ([
