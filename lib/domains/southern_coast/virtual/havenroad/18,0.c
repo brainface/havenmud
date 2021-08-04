@@ -13,7 +13,7 @@ static void create(int x, int y) {
   AddItem("store", "There is a store here with a sign displaying leather goods.");
   AddItemAdjectives("store", ({ "small", "leather" }) );
   SetEnters( ([ 
-    "store" : STORE_DIR "leatherstore",
+    "store" : LSTORE_ROOM "leatherstore",
   ]) );
   SetLong(GetLong() + " There is a small store just south of the road here.");  
   SetSmell("A faint smell of meat comes from the leather merchant's store.");  
