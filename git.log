@@ -3669,3 +3669,9 @@ no changes added to commit (use "git add" and/or "git commit -a")
 [master 40fb330] Mon Aug  2 09:00:01 EDT 2021 snapshot
  4 files changed, 17 insertions(+), 5 deletions(-)
  rewrite lib/save/skills.o (86%)
+[master 82bd676] Tue Aug  3 09:00:01 EDT 2021 snapshot
+ 11 files changed, 1815 insertions(+), 11 deletions(-)
+ create mode 100755 lib/doc/help/races/wild-elf
+ create mode 100755 lib/lib/livings/#body.c#
+ rewrite lib/save/races.o (87%)
+ rewrite lib/save/skills.o (86%)

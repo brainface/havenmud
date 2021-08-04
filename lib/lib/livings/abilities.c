@@ -242,6 +242,11 @@ int AddSkillLevels(string skill, int x) {
 
 int GetExperience() { return Experience; }
 int AddExperience(int x) { 
+  // mdw: removing permadeath, zombies gaining no experience is a side effect
+  if (this_object()->GetZombie()) {
+    eventPrint("You cannot gain experience. Your brain is all wormy!");
+    return 0;
+  }
   if (x) eventPrint("You receive " + x + " experience.");
   return Experience += x; 
 }

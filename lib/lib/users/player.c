@@ -215,6 +215,7 @@ int eventDisplayStatus() {
     return 1;
 }
 
+// mahk 2021: just removing this whole thing
 static void eventDestroyUndead(object agent) {
 
   CHAT_D->eventSendChannel("Death", "players",
@@ -267,6 +268,8 @@ int eventDie(object agent) {
   if (GetUndead() && GetUndeadType() == "zombie") {
     //debug("a bad death!");
     aBadDeath = 1;
+    // mahk 2021: disabling permadeath
+    aBadDeath = 0;
   }
   if( (x = living::eventDie(agent)) != 1 ) return x;
   if(!GetTestChar())
