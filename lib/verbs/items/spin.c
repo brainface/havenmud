@@ -31,6 +31,7 @@ int eventSpinThread(string good, object wheel, object who) {
   foreach(object thing in all_inventory(wheel)) {
     if (thing->GetProperty("craft_fiber")) {
       material = thing;
+      continue;
     }
   }
   
@@ -41,8 +42,6 @@ int eventSpinThread(string good, object wheel, object who) {
     return 0;
   }
   
-
-
   if (good == "thread") {
     thread = new(STD_CRAFTING + "clothing/thread");
   } else if (good == "yarn") {
@@ -70,7 +69,7 @@ int eventSpinThread(string good, object wheel, object who) {
   if (lvl < 1) {
    send_messages("ruin","$agent_name $agent_verb $target_name", 
     who, material, environment(who));
-   material->eventDest();
+   material->eventDestruct();
    return 0;
   }
   

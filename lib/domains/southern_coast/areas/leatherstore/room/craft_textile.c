@@ -5,7 +5,7 @@
 inherit LIB_ROOM;
 
 static void create() {
-   room::create();   
+   room::create();
    SetShort("Textile Room");
    SetClimate("indoors");
    SetAmbientLight(30);
@@ -13,15 +13,23 @@ static void create() {
      "west"  : LSTORE_ROOM + "craft_hub",
    ]) );
    SetLong(
-     "An unfinished room in the back of Tornys' Shop"
+     "A workroom in the back of Tornys' shop. Open "
+     "shuttered windows allow an intermittent breeze "
+     "to flow through."
    );
    SetItems ( ([
-	]) );
+   ]) );
    SetItemAdjectives( ([
-	]) );
+   ]) );
    SetInventory( ([
-		   ]));
+     LSTORE_OBJ + "sign_textile" : 1,
+     STD_CRAFTING + "stations/loom" : 1,
+     STD_CRAFTING + "stations/spinny_wheel" : 1,  
+     STD_CRAFTING + "stations/dye_vat" : 1,  
+   ]));
    SetSmell( ([
-     "default" : "It smells unfinished",
-      ]) );
-}   
+     "default" : "The strong but not unpleasant scent of wet "
+       "fabric and concentrated dyes fills the room.",
+   ]) );
+}
+

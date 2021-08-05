@@ -46,7 +46,7 @@ string GetCraftAdj() {
 
 void SetCraftResult() {
   string adj = GetCraftAdj();
-    
+
   SetAdjectives( CraftSources + ({ adj }) );
   SetMaterials( CraftMaterials );
   SetValue(CraftLevel * 5);

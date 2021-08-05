@@ -28,10 +28,15 @@ static void create() {
   SetLocked(0);
 }
 
-indirect_attach_obj_to_obj() {
+int indirect_attach_obj_to_obj() {
   return 1;
 }
 
-direct_spin_str_with_obj() {
+int direct_spin_str_with_obj() {
   return 1;
+}
+
+// override inventory
+mixed CanPutInto(object who, object item) {
+  who->eventPrint("You can't put things into a spinning wheel. Try <attach>ing textile plants.");
 }

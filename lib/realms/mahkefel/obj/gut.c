@@ -17,4 +17,3 @@ static void create() {
   SetSmell("Smells like molasses and whiskey.");
 }
 
-

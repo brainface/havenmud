@@ -35,3 +35,8 @@ indirect_attach_obj_to_obj() {
 direct_weave_str_with_obj() {
   return 1;
 }
+
+// override inventory
+mixed CanPutInto(object who, object item) {
+  who->eventPrint("You can't put things into a loom. Try <attach>ing yarn.");
+}

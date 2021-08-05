@@ -6,17 +6,15 @@ inherit LIB_ROOM;
 
 static void create() {
    room::create();   
-   SetShort("Cotton Field");
+   SetShort("Flax Field");
    SetClimate("temperate");
    SetAmbientLight(30);
    SetExits( ([
-     "north"  : LSTORE_ROOM + "craft_hub",
-    "west" : LSTORE_ROOM + "farm_hemp",
-     "east" : LSTORE_ROOM + "farm_flax",
+     "west"  : LSTORE_ROOM + "farm_cotton",
    ]) );
    SetLong(
-     "A seemingly endless cotton field. Other fields lie to the east and west. A wooden "
-     "building lies to the north, and beyond that, the Haven Road.",
+     "A seemingly endless flax field. Other fields lie to the west. A wooden "
+     "building lies to the northwest, and beyond that, the Haven Road.",
    );
    SetItems ( ([
 	]) );
@@ -27,5 +25,5 @@ static void create() {
    SetSmell( ([
      "default" : "It smells unfinished",
       ]) );
-   SetSpecialCrop(STD_FARMING "cotton");
+   SetSpecialCrop(STD_FARMING "flax");
 }   

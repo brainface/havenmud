@@ -8,6 +8,7 @@ static void create() {
    room::create();   
    SetShort("The Crafting Hub");
    SetClimate("indoors");
+   SetNewsgroups( ({ "player.crafting" }) );
    SetAmbientLight(30);
    SetExits( ([
      "north" : LSTORE_ROOM + "leatherstore",
@@ -24,6 +25,7 @@ static void create() {
    SetItemAdjectives( ([
 	]) );
    SetInventory( ([
+     LSTORE_OBJ "donation" : 1,
 		   ]));
    SetSmell( ([
      "default" : "It smells unfinished",

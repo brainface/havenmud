@@ -50,6 +50,12 @@ int eventCraft(object loom, string pattern, object who) {
   	  if (sizeof(materials) >= 2) break;
   	}
   }
+
+  if (sizeof(materials) < 2) {
+    who->eventPrint("There's not enough on the loom to weave fabric!");
+    who->eventPrint("You must attach two yarns to the loom to weave.");
+    return 0;
+  }
   
   // Test our skills for each yarn.
   foreach(object material in materials) {
