@@ -2,19 +2,23 @@
 #include <vendor_types.h>
 #include <std.h>
 inherit STD_CRAFTING "clothing/include/craftable";
-inherit STD_CRAFTING "clothing/include/dye";
 
 void SetCraftResult() {
   string adj = GetCraftAdj();
-  SetShort("a spool of " + GetDye() + " " + CraftSources[0] + " yarn");
-  SetLong("This tightly wound spool of thick " + GetDye() + " " + 
+
+  if (!CraftColors) {
+    CraftColors = ({ "undyed", "undyed"});
+  }
+ 
+  SetShort("a spool of " + CraftColors[0] + " " + CraftSources[0] + " yarn");
+  SetLong("This tightly wound spool of thick " + CraftColors[0] + " " + 
     CraftSources[0] +" is clearly of " + adj + " quality.");
   craftable::SetCraftResult();
-  AddAdjective(GetDye());
+  SetId(GetId() + ({"spool"}));
 }
 
 static void create() {
-  ::create();
+  craftable::create();
   SetKeyName("yarn");
   SetVendorType(VT_CLOTHING);
   SetMass(5);
@@ -25,4 +29,9 @@ static void create() {
 
 direct_attach_obj_to_obj() {
   return 1; 
+}
+
+// for dyeing.
+int direct_dip_obj_in_obj() {
+  return 1;
 }

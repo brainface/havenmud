@@ -54,7 +54,7 @@ int eventDyeThing(object good, object vat, object who) {
   send_messages("dip","$agent_name $agent_verb " + good->GetShort() + " "
     "into " + vat->GetShort() + ", dyeing it " + color + ".",
     who, 0, environment(who));   
-  good->SetDye(color);
+  good->SetCraftColors( ({color}) );
   // forces item to remake
   good->SetCraftResult();
 }

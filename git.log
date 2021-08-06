@@ -3677,3 +3677,15 @@ no changes added to commit (use "git add" and/or "git commit -a")
  rewrite lib/save/skills.o (86%)
 [master 6998523] Wed Aug  4 09:00:01 EDT 2021 snapshot
  1 files changed, 2 insertions(+), 2 deletions(-)
+[master 48d976d] Thu Aug  5 09:00:02 EDT 2021 snapshot
+ 23 files changed, 488 insertions(+), 32 deletions(-)
+ create mode 100644 lib/domains/southern_coast/areas/leatherstore/obj/donation.c
+ create mode 100644 lib/domains/southern_coast/areas/leatherstore/obj/sign_farm.c
+ create mode 100644 lib/domains/southern_coast/areas/leatherstore/obj/sign_textile.c
+ create mode 100644 lib/domains/southern_coast/areas/leatherstore/room/craft_store.c
+ copy lib/domains/southern_coast/areas/leatherstore/room/{farm_cotton.c => farm_flax.c} (60%)
+ copy lib/domains/southern_coast/areas/leatherstore/room/{farm_cotton.c => farm_hemp.c} (60%)
+ rewrite lib/save/skills.o (86%)
+ create mode 100644 lib/std/crafting/stations/dye_vat.c
+ create mode 100644 lib/verbs/items/dip.c
+ create mode 100644 lib/verbs/items/mix.c

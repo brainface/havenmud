@@ -1,6 +1,5 @@
 #include <lib.h>
 inherit LIB_PERSIST;
-inherit LIB_ITEM;
 
 string* Colors = ({
   "black",
@@ -38,15 +37,5 @@ int GetLegalColor(string color) {
 }
 
 static void create() {
-  item::create();
-  SetId( "dyething" );
-  SetKeyName("dyething");
-  SetShort("a dyething");
   AddSave( ({ CraftDye }) );
 }
-
-// for dyeing.
-int direct_dip_obj_in_obj() {
-  return 1;
-}
-

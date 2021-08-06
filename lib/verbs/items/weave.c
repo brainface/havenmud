@@ -108,6 +108,7 @@ int eventCraft(object loom, string pattern, object who) {
     who, 0, environment(who));
   fabric->SetCraftMaterials(repair_skills);
   fabric->SetCraftSources( materials[0]->GetCraftSources() + materials[1]->GetCraftSources()  );
+  fabric->SetCraftColors( materials[0]->GetCraftColors() + materials[1]->GetCraftColours() );
   fabric->SetCraftPattern(pattern);
   // eat up the materials used
   materials[1]->eventDestruct();

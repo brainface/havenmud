@@ -103,6 +103,7 @@ int eventSpinThread(string good, object wheel, object who) {
   thread->SetCraftMaterials(material->GetMaterials());
   // use the first word in mat for source, i.e. "mithril ingot" -> "mithril"
   thread->SetCraftSources( ({ explode(material->GetKeyName()," ")[0] }) );
+  thread->SetCraftColors( ({ "undyed" }) );
   material->eventDestruct();
   if (who->CanCarry(thread->GetMass())) {
     thread->eventMove(who);

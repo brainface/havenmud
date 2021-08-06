@@ -13,6 +13,35 @@ int GetLevel() { return CraftLevel;}
 string* SetCraftMaterials(string* str) { return CraftMaterials = str; }
 string* GetCraftMaterials() { return CraftMaterials; }
 
+string* CraftColors;
+string* SetCraftColors(string* str) {return CraftColors = str;}
+string* GetCraftColors() {  return CraftColors; }
+
+string* Colors = ({
+  "black",
+  "red",
+  "green",
+  "yellow",
+  "blue",
+  "purple",
+  "cyan",
+  "white",
+  "brown",
+  "indigo",
+});
+
+string* GetColors() {
+  return Colors;
+}
+
+int GetLegalColor(string color) {
+  if (member_array(color, Colors) != -1) {
+    return 1;
+  }
+  return 0;
+}
+
+
 string GetCraftAdj() {
   string adj;
   switch(CraftLevel) {
@@ -47,7 +76,8 @@ string GetCraftAdj() {
 void SetCraftResult() {
   string adj = GetCraftAdj();
 
-  SetAdjectives( CraftSources + ({ adj }) );
+  SetAdjectives( CraftSources + ({ adj }) + CraftColors );
+  SetCraftColors( CraftColors );
   SetMaterials( CraftMaterials );
   SetValue(CraftLevel * 5);
 }
@@ -63,5 +93,5 @@ static void create() {
   
   call_out( (: SetCraftResult :), 0);
       
-  AddSave( ({ "CraftSources", "CraftLevel", "CraftMaterials",}) );
+  AddSave( ({ "CraftColors", "CraftSources", "CraftLevel", "CraftMaterials",}) );
 }
