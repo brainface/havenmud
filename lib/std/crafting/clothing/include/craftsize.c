@@ -6,5 +6,5 @@ string SetCraftSize(string size) {return CraftSize = size; }
 string GetCraftSize() {return CraftSize;}
 
 string array GetSave() {
-  return ({ "CraftPattern" });
+  return ({ "CraftSize" });
 }
