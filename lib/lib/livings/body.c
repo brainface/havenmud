@@ -90,7 +90,7 @@ mixed direct_tend_str_on_liv(string what) {
 	if (GetInCombat()) {
 		return "That person is a bit busy right now.";
 	}
-        if (GetHealthPoints() == GetMaxHealthPoints()) {
+        if (GetHealthPoints() == GetMaxHealthPoints() && !GetBleeding() ) {
                 return "That person needs no healing.";
         }
 	return 1;

@@ -7,7 +7,7 @@ void SetCraftResult() {
   string adj = GetCraftAdj();
 
   if (!CraftColors) {
-    CraftColors = ({ "undyed", "undyed"});
+    CraftColors = ({ "undyed"});
   }
  
   SetShort("a spool of " + CraftColors[0] + " " + CraftSources[0] + " yarn");
@@ -25,6 +25,7 @@ static void create() {
   SetId( ({ "yarn" }) );
   SetAdjectives( ({ }) );
   SetProperty("craft_yarn",1);
+  AddSave( craftable::GetSave() );
 }
 
 direct_attach_obj_to_obj() {

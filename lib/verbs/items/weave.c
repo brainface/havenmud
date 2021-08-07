@@ -108,7 +108,7 @@ int eventCraft(object loom, string pattern, object who) {
     who, 0, environment(who));
   fabric->SetCraftMaterials(repair_skills);
   fabric->SetCraftSources( materials[0]->GetCraftSources() + materials[1]->GetCraftSources()  );
-  fabric->SetCraftColors( materials[0]->GetCraftColors() + materials[1]->GetCraftColours() );
+  fabric->SetCraftColors( materials[0]->GetCraftColors() + materials[1]->GetCraftColors() );
   fabric->SetCraftPattern(pattern);
   // eat up the materials used
   materials[1]->eventDestruct();
@@ -121,6 +121,7 @@ int eventCraft(object loom, string pattern, object who) {
     who->eventPrint("The fabric is too heavy for you to carry right now.");
   }
   fabric->SetCraftedState();
+  return 1;
 }
 
 mixed can_weave_str_with_obj() {

@@ -29,14 +29,15 @@ void SetCraftResult() {
 }
 
 static void create() {
+  //pattern::create();
   craftable::create();
-  pattern::create();
 
   SetKeyName("fabric");
   SetVendorType(VT_CLOTHING);
   SetMass(5);
   SetId( ({ "fabric", "bolt" }) );
   SetProperty( "craft_fabric", 1 );
+  AddSave( pattern::GetSave() + craftable::GetSave() );
 }
 
 mixed direct_sew_str_from_obj_with_obj() {

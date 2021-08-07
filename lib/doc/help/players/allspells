@@ -408,6 +408,7 @@ religion thorian
 religion tulu
    protection of tulu: evokation : 400, faith : 400
 vampirism
-   blood mending: vampirism : 1
+   minor hemokinesis: vampirism : 1
    bat swarm: vampirism : 5
+   blood mending: vampirism : 5
    cloak of night: stealth : 30, vampirism : 30

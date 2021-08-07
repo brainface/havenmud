@@ -41,7 +41,6 @@ int GetLegalColor(string color) {
   return 0;
 }
 
-
 string GetCraftAdj() {
   string adj;
   switch(CraftLevel) {
@@ -82,6 +81,11 @@ void SetCraftResult() {
   SetValue(CraftLevel * 5);
 }
 
+string array GetSave() {
+  return ({ "CraftColors", "CraftSources", "CraftLevel", "CraftMaterials" });
+}
+
+
 static void create() {
   ::create();
   SetId("craftything");
@@ -93,5 +97,8 @@ static void create() {
   
   call_out( (: SetCraftResult :), 0);
       
-  AddSave( ({ "CraftColors", "CraftSources", "CraftLevel", "CraftMaterials",}) );
+  //AddSave( ({ "CraftColors", "CraftSources", "CraftLevel", "CraftMaterials",}) );
+
 }
+
+

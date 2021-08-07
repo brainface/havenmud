@@ -55,6 +55,7 @@ int eventCraft(string good, string size_text, object* materials, object who) {
   int size_value = 0;
   string* CraftMaterials = ({});
   string* CraftSources = ({});
+  string* CraftColors = ({});
   string CraftPattern;
 
   // define garment size
@@ -90,6 +91,9 @@ int eventCraft(string good, string size_text, object* materials, object who) {
     }
     foreach(string source in mat->GetCraftSources() ) {
       CraftSources += ({ source });	
+    }
+    foreach(string color in mat->GetCraftColors() ) {
+      CraftColors += ({ color });
     }
   }
   
@@ -145,6 +149,7 @@ int eventCraft(string good, string size_text, object* materials, object who) {
   garment->SetCraftMaterials(CraftMaterials);
   garment->SetCraftSources(CraftSources);
   garment->SetCraftPattern(CraftPattern);
+  garment->SetCraftColors(CraftColors);
   materials[1]->eventDestruct();
   materials[0]->eventDestruct();
   if (who->CanCarry(garment->GetMass())) {
@@ -175,10 +180,10 @@ mixed do_sew_str_from_obj_with_obj(string args, object mat1, object mat2) {
   debug("trying to get size info out");
   // pull out size information, if available
   foreach(string size in keys(Sizes)) {
-  	if(strsrch(args, size) == 0) {
-  	  size_text = size;
-  	  args = replace_string(args, size, "");
-  	}
+    if(strsrch(args, size) == 0) {
+      size_text = size;
+      args = replace_string(args, size, "");
+    }
   }
   debug("trying to determine garment");
   debug(args);
@@ -188,9 +193,8 @@ mixed do_sew_str_from_obj_with_obj(string args, object mat1, object mat2) {
     who->AddStaminaPoints(-50);
     eventCraft(garment, size_text, ({mat1, mat2}), who);
   } else {
-  	who->eventPrint("You can only sew socks for now.");
-  	return 0;
-  	  
+    who->eventPrint("You can only sew socks for now.");
+    return 0;
   }
   
   return 1;

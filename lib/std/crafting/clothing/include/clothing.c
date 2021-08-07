@@ -6,27 +6,21 @@
 #include <std.h>
 
 inherit STD_CRAFTING "clothing/include/craftable";
+inherit STD_CRAFTING "clothing/include/pattern";
+inherit STD_CRAFTING "clothing/include/craftsize";
 inherit LIB_ARMOUR;
 
-string CraftPattern;
-int CraftSize;
 int CraftDamagePoints = 100;
 
-string SetCraftPattern(string pattern) {return CraftPattern = pattern; }
-string GetCraftPattern() {return CraftPattern;}
-int SetCraftSize(int size) {return CraftSize = size;}
-
-mapping Patterns = ([
-	"checked" : ({1, "checkerboard"}),
-	"chevron" : ({25, "alternating chevron"}),
-	"fleur-de-lis" : ({50, "fleur-de-lis"}),
-	"brocade" : ({100, "detailed floral"}),
-	"chinoiserie" : ({200, "detailed scenic"}),
-]);
-	
 void SetCraftResult() {
   ::SetCraftResult();
+
+  if (!CraftColors) {
+    CraftColors = ({ "undyed", "undyed", "undyed" });
+  }
+  SetCraftColors( CraftColors );
   SetCraftPattern( CraftPattern );  
+  SetCraftSize( CraftSize );
   SetSize(CraftSize);
   SetDamagePoints(CraftDamagePoints);
 }
@@ -34,9 +28,9 @@ void SetCraftResult() {
 static void create() {
   armour::create();
   craftable::create();
-  SetId("craftything");
-  SetShort("craftything");
-  SetKeyName("craftything");
+  SetId("clothything");
+  SetShort("clothything");
+  SetKeyName("clothything");
   
   SetArmourType(A_SOCK);
   SetArmourClass(ARMOUR_CLOTH);
@@ -45,6 +39,6 @@ static void create() {
 
   call_out( (: SetCraftResult :), 0);
 
-  AddSave( ({  "CraftDamagePoints", "CraftPattern", "CraftSize" }) );
+  AddSave( pattern::GetSave() + craftable::GetSave() + craftsize::GetSave() );
 }
 

@@ -57,4 +57,5 @@ int eventDyeThing(object good, object vat, object who) {
   good->SetCraftColors( ({color}) );
   // forces item to remake
   good->SetCraftResult();
+  return 1;
 }

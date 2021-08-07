@@ -14,7 +14,7 @@ static void create() {
   SetAutoHeal(1);
   SetSpellType(SPELL_HEALING);
   SetSkills( ([
-    "vampirism" : 1,
+    "vampirism" : 5,
   ]) );
   SetDrinkCost(50,50);
   SetMagicCost(0,0);

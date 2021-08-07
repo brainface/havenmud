@@ -39,4 +39,6 @@ static void create() {
   SetVendorType(VT_CLOTHING);
   SetMass(5);
   SetId( ({ "sock" }) );  
+
+  //AddSave( /*pattern::GetSave() + craftable::GetSave() + craftsize::GetSave() */);
 }
