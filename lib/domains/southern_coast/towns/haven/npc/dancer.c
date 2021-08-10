@@ -39,13 +39,12 @@ static void create() {
 	  }) );
   SetLimit(1);
   SetPlayerTitles( ([
-		     "newbie" : "the Apprentice of Acceleration",
-"mortal" : "The Sophomore of Seduction",
-		     //"hm"     : "the SongMaster of Haven Town",
-		     //"legend" : "the Bardic Legend of Haven Town",
-		     //"avatar" : "the Truly Divine SongMaster of Haven Town",
-		     //"priest" : "the Chorist of Haven Town",
-		     ]) );
+    "newbie" : "the Apprentice of Acceleration",
+    "mortal" : "the Sophomore of Seduction",
+    "hm" : "the Scholar of Allure",
+    "legend" : "the Graduate of Gesticulation",
+    "avatar" : "the Master of Motion",
+  ]) );
   SetFreeEquip( ([
 		  STD_INSTRUMENTS "mandolin" : 1,
 		  STD_KNIFE       "small_knife" : 2,
