@@ -13,7 +13,10 @@ inherit LIB_ARMOUR;
 int CraftDamagePoints = 100;
 
 void SetCraftResult() {
-  ::SetCraftResult();
+  string adj = GetCraftAdj();
+  string color, fabric;
+
+  craftable::SetCraftResult();
 
   if (!CraftColors) {
     CraftColors = ({ "undyed", "undyed", "undyed" });
@@ -23,14 +26,34 @@ void SetCraftResult() {
   SetCraftSize( CraftSize );
   SetSize(CraftSize);
   SetDamagePoints(CraftDamagePoints);
+
+  // set the unique desc for this item.
+  if (CraftColors[0] == CraftColors[1]) {
+    color = CraftColors[0];
+  } else {
+    color = CraftColors[0] + " and " + CraftColors[1];
+  }
+  if (CraftSources[0] == CraftSources[1]) {
+    fabric = CraftSources[0];
+  } else {
+    fabric = "mixed fabric";
+  }
+
+  SetShort(sprintf("a %s %s %s", color, fabric, CraftName));
+
+  SetLong(sprintf("A %s woven from %s %s and %s %s fabric in a %s pattern, "
+    "stitched together with %s %s thread. It is clearly of %s quality.",
+    CraftName, CraftColors[0], CraftSources[0], CraftColors[1], CraftSources[1],
+    CraftPattern, CraftColors[2], CraftSources[2], adj));
+
 }
 
 static void create() {
   armour::create();
   craftable::create();
-  SetId("clothything");
-  SetShort("clothything");
-  SetKeyName("clothything");
+  SetId( ({CraftName}) );
+  SetShort(CraftName);
+  SetKeyName(CraftName);
   
   SetArmourType(A_SOCK);
   SetArmourClass(ARMOUR_CLOTH);

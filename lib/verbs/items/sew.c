@@ -29,18 +29,32 @@ mapping Patterns = ([
 	"chinoiserie" : ({200, "detailed scenic"}),
 ]);
 
+// name to file-name mapping
+// i should probably use absolute paths but no.
+mapping Garments = ([
+  "sock" : "sock",
+  "scarf" : "scarf",
+  "tail wrap" : "tail_wrap",
+  "shirt" : "shirt",
+  "glove" : "glove",
+  "hat" : "hat",
+  "trousers" : "trousers",    
+  "cloak" : "cloak",
+  "robe" : "robe",
+  "dress" : "dress",
+  "skirt" : "skirt",
+]);
+
 static void create() {
   ::create();
   SetVerb("sew");
   SetRules("STR from OBJ with OBJ");
   SetErrorMessage("Sew what from what?");
   SetHelp(
-    "Syntax:   sew [size] <sock, scarf, sheathe> from <fabric> with <thread>\n"
-  	"          sew [size] <garment> from <fabric> on <mannequin> using <thread>\n"
+    "Syntax:   sew [size] <garment> from <fabric> with <thread>\n"
     "Attempts to make the garment you specify from the materials you specify.\n"
     "You can make small garments anywhere, but larger clothing requires a the "
     "use of a sewing mannequin.\n"
-    "Currently you can make socks, scarves, and sheathes (for tails).\n"
     "The possible sizes are tiny, very small, small, medium, large, and very large.\n"
     "If unspecified, a garment of your size is made.\n"
   );
@@ -61,14 +75,11 @@ int eventCraft(string good, string size_text, object* materials, object who) {
   // define garment size
   size_value = Sizes[size_text];  
 
-  // implement various sewable things
-  // this should probably be... a daemon? include? at some point
-  if (good == "sock") {
-  	  garment = new(STD_CRAFTING + "clothing/sock");
-  }
+
+  garment = new(STD_CRAFTING + "clothing/" + Garments[good]);
   
   if (!garment) {
-    debug("Failed to create fabric");
+    debug("Failed to create garment");
     return -1;
   }
   
@@ -187,15 +198,17 @@ mixed do_sew_str_from_obj_with_obj(string args, object mat1, object mat2) {
   }
   debug("trying to determine garment");
   debug(args);
-  
-  if (args == "sock" || args == "scarf" || args == "sheathe") {
-    garment = args;
-    who->AddStaminaPoints(-50);
-    eventCraft(garment, size_text, ({mat1, mat2}), who);
-  } else {
-    who->eventPrint("You can only sew socks for now.");
+
+  // check for legal garment type
+  if ( member_array(args, keys(Garments)) == -1) {
+    who->eventPrint("You cannot sew a " + args + ".");
+    who->eventPrint("You can only sew " + conjunction(keys(Garments)) + ".");
     return 0;
   }
+  
+  garment = args;
+  who->AddStaminaPoints(-50);
+  eventCraft(garment, size_text, ({mat1, mat2}), who);
   
   return 1;
 }

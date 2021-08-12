@@ -4,7 +4,7 @@
 
 inherit STD_CRAFTING "clothing/include/clothing";
 
-string GarmentName = "sock";
+string GarmentName = "skirt";
 
 /*
 void SetCraftResult() {
@@ -12,8 +12,8 @@ void SetCraftResult() {
   }*/
 
 static void create() {
-  SetCraftName("sock");
+  SetCraftName("skirt");
   clothing::create();
-  SetArmourType(A_SOCK);
-  SetMass(5);
+  SetArmourType(A_PANTS);
+  SetMass(15);
 }

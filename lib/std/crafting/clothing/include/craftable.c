@@ -5,6 +5,7 @@ inherit LIB_ITEM;
 int CraftLevel;
 string* CraftMaterials;
 string* CraftSources;
+string CraftName = "craftything";
 
 string* SetCraftSources(string* str) { return CraftSources = str; }
 string* GetCraftSources() { return CraftSources; }
@@ -16,6 +17,9 @@ string* GetCraftMaterials() { return CraftMaterials; }
 string* CraftColors;
 string* SetCraftColors(string* str) {return CraftColors = str;}
 string* GetCraftColors() {  return CraftColors; }
+
+string GetCraftName() {return CraftName;}
+string SetCraftName(string str) {return CraftName = str;}
 
 string* Colors = ({
   "black",
@@ -73,9 +77,13 @@ string GetCraftAdj() {
 }
 
 void SetCraftResult() {
-  string adj = GetCraftAdj();
-
-  SetAdjectives( CraftSources + ({ adj }) + CraftColors );
+  foreach(string adj in CraftSources) {
+    AddAdjective(adj);
+  }
+  foreach(string adj in CraftColors) {
+    AddAdjective(adj);
+  }
+  AddAdjective(GetCraftAdj());
   SetCraftColors( CraftColors );
   SetMaterials( CraftMaterials );
   SetValue(CraftLevel * 5);
