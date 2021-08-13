@@ -10,37 +10,26 @@ inherit STD_CRAFTING "clothing/include/pattern";
 inherit STD_CRAFTING "clothing/include/craftsize";
 inherit LIB_ARMOUR;
 
-int CraftDamagePoints = 100;
-
-string* CraftColors;
-string* CraftSources;
+int DamagePointsPerLevel = 20;
 
 void SetCraftResult() {
   string adj = GetCraftAdj();
   string color, fabric;
 
-  debug("clothing");
-
-  if (sizeof(CraftSources) < 3) {
-    debug("no craft sources in clothing");
-    if (CraftSources) debug(conjunction(CraftSources));
-    if (CraftColors) debug(conjunction(CraftColors));
-    debug(CraftPattern);
-
-    //debug(CraftSources[2]);
-    return;
-  }
-
+  // not initialized yet go away
+  if (sizeof(CraftSources) < 3) return;
+  
   craftable::SetCraftResult();
 
   if (!CraftColors) {
     CraftColors = ({ "undyed", "undyed", "undyed" });
   }
+
   SetCraftColors( CraftColors );
   SetCraftPattern( CraftPattern );  
   SetCraftSize( CraftSize );
   SetSize(CraftSize);
-  SetDamagePoints(CraftDamagePoints);
+  SetDamagePoints(DamagePointsPerLevel * GetLevel());
 
   // set the unique desc for this item.
   if (CraftColors[0] == CraftColors[1]) {
@@ -75,11 +64,7 @@ static void create() {
   SetVendorType(VT_CLOTHING);
   SetMass(5);
 
-  debug("cloth create");
-
   //call_out( (: SetCraftResult :), 0);
-  SetCraftResult();
 
   AddSave( pattern::GetSave() + craftable::GetSave() + craftsize::GetSave() );
 }
-

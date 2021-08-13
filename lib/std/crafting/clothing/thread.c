@@ -27,6 +27,7 @@ static void create() {
   SetId( ({ "thread" }) );
   SetProperty("craft_thread",1);
   AddSave( craftable::GetSave() );
+  call_out( (: SetCraftResult :), 0);
 }
 
 direct_attach_obj_to_obj() {

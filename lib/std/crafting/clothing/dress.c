@@ -6,11 +6,6 @@ inherit STD_CRAFTING "clothing/include/clothing";
 
 string GarmentName = "dress";
 
-/*
-void SetCraftResult() {
-  clothing::SetCraftResult();
-  }*/
-
 static void create() {
   SetCraftName("dress");
   clothing::create();

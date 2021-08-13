@@ -28,6 +28,8 @@ static void create() {
   SetAdjectives( ({ }) );
   SetProperty("craft_yarn",1);
   AddSave( craftable::GetSave() );
+  //call_out( (: SetCraftResult :), 0);
+
 }
 
 direct_attach_obj_to_obj() {

@@ -40,6 +40,7 @@ static void create() {
   SetId( ({ "fabric", "bolt" }) );
   SetProperty( "craft_fabric", 1 );
   AddSave( pattern::GetSave() + craftable::GetSave() );
+  //call_out( (: SetCraftResult :), 0); 
 }
 
 mixed direct_sew_str_from_obj_with_obj() {
