@@ -8,4 +8,4 @@
 #include <size.h>
 #include <std.h>
 inherit LIB_ITEM;
-mixed eval() { (1/0); }
+mixed eval() { debug(conjunction((0)); }

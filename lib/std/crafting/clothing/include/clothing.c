@@ -12,9 +12,24 @@ inherit LIB_ARMOUR;
 
 int CraftDamagePoints = 100;
 
+string* CraftColors;
+string* CraftSources;
+
 void SetCraftResult() {
   string adj = GetCraftAdj();
   string color, fabric;
+
+  debug("clothing");
+
+  if (sizeof(CraftSources) < 3) {
+    debug("no craft sources in clothing");
+    if (CraftSources) debug(conjunction(CraftSources));
+    if (CraftColors) debug(conjunction(CraftColors));
+    debug(CraftPattern);
+
+    //debug(CraftSources[2]);
+    return;
+  }
 
   craftable::SetCraftResult();
 
@@ -60,7 +75,10 @@ static void create() {
   SetVendorType(VT_CLOTHING);
   SetMass(5);
 
-  call_out( (: SetCraftResult :), 0);
+  debug("cloth create");
+
+  //call_out( (: SetCraftResult :), 0);
+  SetCraftResult();
 
   AddSave( pattern::GetSave() + craftable::GetSave() + craftsize::GetSave() );
 }

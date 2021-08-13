@@ -77,6 +77,11 @@ string GetCraftAdj() {
 }
 
 void SetCraftResult() {
+  debug("craft");
+  if (!sizeof(CraftSources) || !sizeof(CraftColors)) {
+    debug("no craft sources in craft");
+    return;
+  }
   foreach(string adj in CraftSources) {
     AddAdjective(adj);
   }
@@ -102,8 +107,11 @@ static void create() {
   SetLong("This is a craftything. You should never see this. Please bug me.");
 
   SetDestroyOnSell(1);
+
+  debug("craft create");
   
-  call_out( (: SetCraftResult :), 0);
+  //call_out( (: SetCraftResult :), 0);
+  SetCraftResult();
       
   //AddSave( ({ "CraftColors", "CraftSources", "CraftLevel", "CraftMaterials",}) );
 

@@ -38,7 +38,9 @@ varargs string array SetAdjectives(mixed adjs...) {
 }
 
 string array AddAdjective(string arg) {
-  Adjectives += ({ arg });
+  if (member_array(arg, GetAdjectives()) == -1) {
+    Adjectives += ({ arg });
+  }
   parse_refresh();
   return Adjectives;
 }

@@ -6,6 +6,8 @@ inherit STD_CRAFTING "clothing/include/craftable";
 void SetCraftResult() {
   string adj = GetCraftAdj();
 
+  if (!sizeof(CraftSources)) return;
+
   if (!CraftColors) {
     CraftColors = ({ "undyed" });
   }

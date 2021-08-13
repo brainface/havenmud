@@ -3755,3 +3755,16 @@ no changes added to commit (use "git add" and/or "git commit -a")
 [master d0e538d] Wed Aug 11 09:00:01 EDT 2021 snapshot
  2 files changed, 6 insertions(+), 3 deletions(-)
  rewrite lib/save/skills.o (86%)
+[master 7398d15] Thu Aug 12 09:00:01 EDT 2021 snapshot
+ 15 files changed, 283 insertions(+), 67 deletions(-)
+ create mode 100644 lib/std/crafting/clothing/cloak.c
+ create mode 100644 lib/std/crafting/clothing/dress.c
+ create mode 100644 lib/std/crafting/clothing/glove.c
+ create mode 100644 lib/std/crafting/clothing/hat.c
+ create mode 100644 lib/std/crafting/clothing/robe.c
+ create mode 100644 lib/std/crafting/clothing/scarf.c
+ create mode 100644 lib/std/crafting/clothing/shirt.c
+ create mode 100644 lib/std/crafting/clothing/skirt.c
+ rewrite lib/std/crafting/clothing/sock.c (81%)
+ create mode 100644 lib/std/crafting/clothing/tail_wrap.c
+ create mode 100644 lib/std/crafting/clothing/trousers.c

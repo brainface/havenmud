@@ -27,7 +27,7 @@ static void create() {
           "$agent_name $agent_verb $target_name with a wind-formed wolf."
           }),
     ({ "",
-          "$agent_possessive wind-wolf bites down on $target_name!",
+          "$agent_possessive_noun wind-wolf bites down on $target_name!",
           }),
      }) );
 }
