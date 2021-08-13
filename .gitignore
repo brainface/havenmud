@@ -25,6 +25,8 @@ tags
 #/bin/driver
 #/bin/portbind
 /lib/bak
+/lib/doc/help/players/allspells
+/lib/doc/help/players/allsongs
 /lib/Fluff_LIB
 /lib/ftp
 /lib/log
