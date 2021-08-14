@@ -3768,3 +3768,55 @@ no changes added to commit (use "git add" and/or "git commit -a")
  rewrite lib/std/crafting/clothing/sock.c (81%)
  create mode 100644 lib/std/crafting/clothing/tail_wrap.c
  create mode 100644 lib/std/crafting/clothing/trousers.c
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Changed but not updated:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    lib/domains/averath/areas/avfield/burrow/indoors.lsed
+#	deleted:    lib/domains/baria/virtual/junglen10n8.c
+#	deleted:    lib/domains/estergrym/areas/underdark/room/inToUnder.lsed
+#	deleted:    lib/domains/havenwood/towns/parva/npc/vamp_lead.c
+#	deleted:    lib/lib/users/#interactive.c#
+#	deleted:    lib/realms/mahkefel/alessia.o
+#	deleted:    lib/realms/mahkefel/allisick.c
+#	deleted:    lib/realms/mahkefel/players/fortunado.o
+#	deleted:    lib/realms/mahkefel/quotes.o
+#	deleted:    lib/realms/mahkefel/sailfix
+#	deleted:    lib/realms/mahkefel/sailingChanges
+#	deleted:    lib/realms/mahkefel/spells/quadrify.c
+#	deleted:    lib/realms/mahkefel/spider.c
+#	deleted:    lib/realms/mahkefel/vampony.bad
+#	deleted:    lib/realms/mahkefel/verbs/attach.c
+#	deleted:    lib/realms/mahkefel/verbs/loom.c
+#	deleted:    lib/realms/mahkefel/verbs/sew.c
+#	deleted:    lib/realms/mahkefel/verbs/spin.c
+#	deleted:    lib/realms/mahkefel/verbs/spinny_wheel.c
+#	deleted:    lib/realms/mahkefel/verbs/weave.c
+#	deleted:    lib/realms/mahkefel/vpmahkcard.c
+#	deleted:    lib/realms/mahkefel/wagonstuff
+#	deleted:    lib/realms/melchezidek/CMD_EVAL_TMP_FILE.c
+#	deleted:    lib/realms/melchezidek/alessia.o
+#	deleted:    lib/realms/melchezidek/cat_file_to_user
+#	deleted:    lib/realms/melchezidek/char_files/maartael.o
+#	deleted:    lib/realms/melchezidek/char_files/ruakh.o
+#	deleted:    lib/realms/melchezidek/char_files/sekh.o
+#	deleted:    lib/realms/melchezidek/char_files/serack.o
+#	deleted:    lib/realms/melchezidek/faustino.or
+#	deleted:    lib/realms/melchezidek/fortunado.o
+#	deleted:    lib/realms/melchezidek/mahkefel.o~
+#	deleted:    lib/realms/melchezidek/necro.c
+#	deleted:    lib/realms/melchezidek/necro_staff.c
+#	deleted:    lib/realms/melchezidek/nuke_domain
+#	deleted:    lib/realms/melchezidek/nuke_domain_wip
+#	deleted:    lib/realms/melchezidek/skeleton.c
+#	deleted:    lib/realms/melchezidek/yorin.o
+#	deleted:    lib/std/crafting/stations/#dye_vat.c#
+#	deleted:    lib/std/songs/instrumental/tavernsong.c
+#	deleted:    lib/std/spells/practical/pigeons.c
+#	deleted:    lib/verbs/crafting/sew.c
+#	deleted:    shipfix
+#
+no changes added to commit (use "git add" and/or "git commit -a")
