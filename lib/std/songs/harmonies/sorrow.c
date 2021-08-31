@@ -44,8 +44,10 @@ varargs int eventSing(object who, int level, mixed n, object *targets) {
   who->AddCooldown(GetSong(), GetCooldown());
 
   foreach(object target in targets) {
-    if( CanAttack(who, targets, who->GetSkillLevel("vocal music")/2 + level/5) == - 1 ) {
-      who->eventPrint(target->GetName() + " ignores your song.");
+        if( CanAttack(who, targets, who->GetSkillLevel("vocal music")/2 + level/5) == - 1 ) {
+        if (target) {
+          who->eventPrint(target->GetShort() + " ignores your song.");
+        }
     } else {
 
      send_messages( ({ "get", "forget" }),
