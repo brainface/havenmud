@@ -80,6 +80,8 @@ int eventBackstab(object who, object target) {
   }
   weapon = who->GetWielded()[0];
   if (!weapon) return 1;                                                                                          
+
+  //damage = LIB_ACTION->GetStandardDamage(who, weapon);
   damage = who->GetDamage(weapon->GetClass(), "stealth", weapon->GetWeaponType() + " combat");
   damage *= 2;
   // mahkefel: double damage for knives, bows.
@@ -126,23 +128,15 @@ int eventBackstab(object who, object target) {
     return 1;              
   }   
   if (chance > 1000) chance = 1000;
+  // mahk in the after times: I calmed this multiplier down by lots
   switch (chance) {
-    case 0..19:
+    case 0..250:
       break;
-    case 20..50:
+    case 251..500:
       damage *= 2;
       break;
-    case 51..80:
+    case 501..1000:
       damage *= 3;
-      break;
-    case 81..100:
-      damage *= 4;
-      break;
-    case 101..150:
-      damage *= 5;
-      break;
-    case 151..1000:
-      damage *= 6;
       break;
     default:
       debug("Broken Backstab Chance of " + chance + " " + identify(who) + " -> " + identify(target));
