@@ -5,17 +5,17 @@ inherit LIB_DAEMON;
 
 
 private string* Brackets = ({
-           ({ "", "" }),    // Newbie
-                       ({ "%^MAGENTA%^[%^RESET%^", "%^MAGENTA%^]%^RESET%^" }),  // Mortal
-                       ({ "%^MAGENTA%^(%^RESET%^", "%^MAGENTA%^)%^RESET%^" }),  // High Mortal
-                       ({ "%^MAGENTA%^{%^RESET%^", "%^MAGENTA%^}%^RESET%^" }),  // Legend
-                       ({ "%^YELLOW%^|%^RESET%^", "%^YELLOW%^|%^RESET%^" }),  // Avatar
-                       ({ "%^BOLD%^RED%^(%^RESET%^", "%^BOLD%^RED%^)%^RESET%^" }),    // Demigod
-                       ({ "%^MAGENTA%^<%^RESET%^", "%^MAGENTA%^>%^RESET%^" }),  // Immortal
-           ({ "%^BOLD%^MAGENTA%^<%^RESET%^", "%^BOLD%^MAGENTA%^>%^RESET%^" }),  // Immortal     
-           ({ "%^BOLD%^BLACK%^(%^RESET%^", "%^BOLD%^BLACK%^)%^RESET%^" }), // Epic
-           ({ "%^MAGENTA%^:%^RESET%^", "%^MAGENTA%^:%^RESET%^", }),
-                   });
+    ({ "", "" }),    // Newbie
+    ({ "%^MAGENTA%^[%^RESET%^", "%^MAGENTA%^]%^RESET%^" }),  // Mortal
+    ({ "%^MAGENTA%^(%^RESET%^", "%^MAGENTA%^)%^RESET%^" }),  // High Mortal
+    ({ "%^MAGENTA%^{%^RESET%^", "%^MAGENTA%^}%^RESET%^" }),  // Legend
+    ({ "%^YELLOW%^|%^RESET%^", "%^YELLOW%^|%^RESET%^" }),  // Avatar
+    ({ "%^BOLD%^RED%^(%^RESET%^", "%^BOLD%^RED%^)%^RESET%^" }),    // Demigod
+    ({ "%^MAGENTA%^<%^RESET%^", "%^MAGENTA%^>%^RESET%^" }),  // Immortal
+    ({ "%^BOLD%^MAGENTA%^<%^RESET%^", "%^BOLD%^MAGENTA%^>%^RESET%^" }),  // Immortal     
+    ({ "%^BOLD%^BLACK%^(%^RESET%^", "%^BOLD%^BLACK%^)%^RESET%^" }), // Epic
+    ({ "%^MAGENTA%^:%^RESET%^", "%^MAGENTA%^:%^RESET%^", }),
+ });
 
 static void create() {
   ::create();
