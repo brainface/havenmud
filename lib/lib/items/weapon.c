@@ -38,7 +38,8 @@ varargs string GetEquippedDescription(object who) {
 	else {
 	    tmp += possessive_noun(environment());
 	}
-	tmp += " " + item_list(GetWorn()) + ".";
+	// mahk: replace wielded 'in head' with 'in mouth'
+	tmp += " " + replace_string(item_list(GetWorn()),"head","mouth") + ".";
 	return tmp;
   }
   return 0;
@@ -49,13 +50,17 @@ string GetEquippedShort() {
     object env = environment();
     string ret = GetShort();
     string array limbs;
+    string limb;
  
     if( !env || !living(env) ) {
 	return ret;
     }
     limbs = GetWorn();
+
+    // mahk: replace wileded 'in head' with 'in mouth'
+    limb = replace_string(item_list(limbs),"head","mouth");
     if( sizeof(limbs) > 0 ) {
-	ret += " (wielded in " + item_list(limbs) + ")";
+	ret += " (wielded in " + limb + ")";
     }
     return ret;
 }
