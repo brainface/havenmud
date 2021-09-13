@@ -3885,3 +3885,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
  1 files changed, 2 insertions(+), 0 deletions(-)
 [master 0a7e98d] Sat Sep 11 09:00:01 EDT 2021 snapshot
  1 files changed, 2 insertions(+), 0 deletions(-)
+[master 6b3f58b] Sun Sep 12 09:00:01 EDT 2021 snapshot
+ 8 files changed, 96 insertions(+), 8 deletions(-)
+ create mode 100755 lib/domains/planes/npc/barkdog.c
+ rewrite lib/save/races.o (74%)
+ create mode 100644 lib/std/weapon/pole/stick.c
