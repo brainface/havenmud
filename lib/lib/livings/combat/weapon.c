@@ -47,7 +47,9 @@ int eventWeaponRound(mixed target, mixed args) {
       int num_weapons = sizeof(weapons);
       foreach(object weapon in weapons) {
         if (target->GetDying()) break;
-        attacks = 1 + GetSkillLevel(weapon->GetWeaponType() + " combat")/100;
+	// mahk 2022: haven's going down, i'm removing combat spam because no one can stop me not even you mel.
+        // attacks = 1 + GetSkillLevel(weapon->GetWeaponType() + " combat")/100;
+	attacks = 1;
         while (attacks--)
         eventWeaponAttack(target, weapon, num_weapons);
         }

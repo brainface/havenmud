@@ -47,9 +47,11 @@ int eventMeleeRound(mixed target, function attack) {
   int attacks;
 
   if (!functionp(attack) || (functionp(attack) & FP_OWNER_DESTED)) {
-    attacks = 1 + (GetSkillLevel("melee combat")/50);
+    // attacks = 1 + (GetSkillLevel("melee combat")/50);
     // mahk 2018: keeping animals dumb.
-    if (GetClass()=="animal") attacks = 1;
+    // if (GetClass()=="animal") attacks = 1;
+    // haha you can't stop me --mahk
+    attacks = 2;
     while (attacks--) {
       if (target->GetDying()) break;
       eventMeleeAttack(target, targetlimb);
