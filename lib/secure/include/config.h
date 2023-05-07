@@ -28,7 +28,7 @@
 #define HOUR_LENGTH              1200
 #define DAY_LENGTH               24
 
-#define MAX_NEWBIE_LEVEL       19
+#define MAX_NEWBIE_LEVEL       9
 #define AUTOSAVE_TIME            450
 #define MORTAL_POSITIONS         ({ "player",})
 
