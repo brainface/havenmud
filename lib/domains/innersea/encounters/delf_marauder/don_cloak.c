@@ -25,7 +25,7 @@ static void create() {
   SetWear("Shadows ripple around you.");
   SetMass(150);
   SetWarmth(10);
-  SetValue(1000);
+    SetValue(5000);
   SetSize(SIZE_MEDIUM);
   SetArmourType(A_CLOAK);
   SetArmourClass(ARMOUR_CLOTH);

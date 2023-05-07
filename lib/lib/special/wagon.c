@@ -41,7 +41,7 @@ static void create() {
   SetMessages( ([
     "come"   : "$N clatters in.",
     "leave"  : "$N clatters $D.",
-    "telout" : "$N clatters away.",
+    "telout" : "",
     "telin"  : "$N clatters in.",
   ]) );
   SetMaxSitters(1);

@@ -145,20 +145,20 @@ varargs int newbiep(object ob) {
 int high_mortalp(object ob) {
     if(!ob) ob = previous_object();
     if (!userp(ob)) return 0;
-    return (!creatorp(ob) && ((int)ob->GetLevel() > 24));
+    return (!creatorp(ob) && ((int)ob->GetLevel() > 49));
 }
 
 
 int legendp(object ob) {
 	if (!ob) ob = previous_object();
 	if (!userp(ob)) return 0;
-	return (!creatorp(ob) && ((int)ob->GetLevel() > 49));
+	return (!creatorp(ob) && ((int)ob->GetLevel() > 99));
 }
 
 int avatarp(object ob) {
     if( !ob ) ob = previous_object();
     if (!userp(ob)) return 0;
-    return (!creatorp(ob) && (int)ob->GetLevel() > 99);
+    return (!creatorp(ob) && (int)ob->GetLevel() > 149);
 }
 
 int demigodp(object ob) {

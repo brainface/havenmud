@@ -8,4 +8,4 @@
 #include <size.h>
 #include <std.h>
 inherit LIB_ITEM;
-mixed eval() { t(); }
+mixed eval() { GetPlayer("mahkefel"); }

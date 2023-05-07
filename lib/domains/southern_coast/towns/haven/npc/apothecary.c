@@ -6,7 +6,7 @@ inherit LIB_VENDOR;
 static void create() {
 ::create();
 SetKeyName("talnif");
-SetId( ({ "talnif" }) );
+SetId( ({ "talnif", "mixer", "apothecary" }) );
 SetShort("talnif, Mixer of Medicine");
 SetLong("Talnif is a lanky half-elf, who spends his days"
 "brewing potions for the largely thankless haven citizenry. "

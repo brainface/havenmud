@@ -5,7 +5,7 @@ static void create() {
   ::create();
   SetKeyName("caravan");
   SetShort("a colorful caravan");
-  SetId( ({ "caravan" }) );
+  SetId( ({ "caravan", "wagon" }) );
   SetAdjectives( ({ "colorful" }) );
   SetLong(
     "This four wheeled carriage is painted a bright, if garish, green with "
@@ -19,4 +19,3 @@ static void create() {
   SetValue(1000000);
   SetMaxSitters(3);
 }
-

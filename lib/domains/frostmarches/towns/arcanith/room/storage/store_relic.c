@@ -15,6 +15,7 @@ static void create() {
     OBJ "/plate_helm"        : 1,
     OBJ "/plate_cuisse"      : 1,
     OBJ "/small_shield"      : 1,
+    OBJ "/chainmail"         : 2,
   ]) );
 }
 

@@ -199,16 +199,14 @@ int eventDisplayStatus() {
     // mahkefel 2011: make combat action boosts display in status.
     if (GetCombatActionDescriptions()) str += GetCombatActionDescriptions();
 
-    if (GetProperty("status") == "full") {
       str += "\n";
       str += "Food (" + GetFood() + ")";
       str += " Drink (" + GetDrink() + ")";
       if (GetAlcohol()) str += " Alcohol (" + GetAlcohol() + ")";
       if (GetSmoke()) str += " Smoke (" + GetSmoke() + ")";
       if (GetCaffeine()) str += " Caffeine (" + GetCaffeine() + ")";
-      str += "\nXP: " + GetExperience() + "";
+      str += " XP: " + GetExperience() + "";
       str += " Morality: " + GetMorality() + "";
-    }
     message("system", str, this_object());
     if (sizeof(GetMissingLimbs())) message("system", "Missing: " + conjunction(GetMissingLimbs(), "and"), this_object());
     eventDisplayConditions(this_object(), this_object());

@@ -44,10 +44,6 @@ static void create() {
     ]) );
   SetCurrency("imperials", 3000);
   SetAction(10, ({
-    "!cast energy field",
-    "!cast haste",
-    "!cast planar strength",
-    "!cast planar durability",
           }) );
   SetCombatAction(50, ({
     "!cast fireball",

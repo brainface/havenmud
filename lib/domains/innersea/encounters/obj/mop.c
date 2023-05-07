@@ -19,7 +19,7 @@ static void create() {
   );
   SetClass(10);
   SetDamagePoints(2000);
-  SetValue(2500);
+  SetValue(100);
   SetWeaponType("blunt");
   SetDamageType(BLUNT);
   SetMass(300);

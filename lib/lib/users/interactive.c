@@ -584,7 +584,7 @@ void eventDescribeEnvironment(int brief) {
       if (!vehiclep(environment())) {
 	      desc = capitalize((string)env->GetShort() || "") + " [" + desc + "]";
       if (sizeof(env->GetUniqueEnters())) {
-        desc += "[Enters: " + implode(values(env->GetUniqueEnters()), ", ") + "]";
+        desc += " [Enters: " + implode(values(env->GetUniqueEnters()), ", ") + "]";
       }
       desc += "\n";
 
