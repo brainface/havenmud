@@ -1,5 +1,0 @@
-#!/bin/bash
-mv "./lib/save/vehicles/sunerose/t/third_time's_the_charm.o" ./lib/save/vehicles/sunerose/t/third.o
-find ./lib/save/vehicles/ -type f -exec sed -i 's#special/vehicle#special/ship#' {} \;
-mv ./lib/save/vehicles/sunerose/t/third.o "./lib/save/vehicles/sunerose/t/third_time's_the_charm.o"
-

@@ -50,7 +50,7 @@ static void create() {
       "legend"      : "the Lich-borne Lice",
       "avatar"      : "the Motley Mosquito",
       "rogue"       : "the Larcenous Leech",
-      "fighter"     : "the Drinker of Drunks",
+      "fighter"    : "the Bar Fly",
       "necromancer" : "the Liver-Gnawer",
       ]) );
   }

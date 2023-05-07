@@ -50,7 +50,11 @@ string find_where(object target) {
   string base, where;
   where = "";
   env = environment(target);
-  if (vehiclep(env)) { env = environment(env); v = 1; }
+  if (vehiclep(env)) {
+    if (wagonp(env)) v = 2;
+  if (shipp(env)) v = 1;
+    env = environment(env);
+  }
   if (!env) return target->GetCapName() + " is not available.";
   if (living(env) || vehiclep(env)) env = environment(env);
   if (!env) return target->GetCapName() + " is not available.";
@@ -72,7 +76,8 @@ string find_where(object target) {
     where = parse_area(path[2], path[1]);
   if (path[1] == "estates")
     where = "in the private estate of " + env->GetOwner() + " in " + env->GetTown();
-  if (v) { where = "aboard a ship sailing " + env->GetShort(); }
+if (v) { where = "aboard a ship sailing " + env->GetShort(); }
+if (v==2) { where = "riding a caravan near " + env->GetShort(); }
   if (target->GetCanLocate() == 0 && !duukp(this_player())) {
        if (path[1] == "estates") {
 	      where = "in " + capitalize(find_domain(env->GetTown()) + "*");

@@ -1,0 +1,11 @@
+# Creating Users for sFTP access
+
+# Generate an ssh key pair (pub/private) in PEM format
+ssh-keygen -t rsa -b 4096 -m PEM -f aless.id_rsa.pem
+
+# Create the user, and add them to the appropriate groups, 'havenstaff' is the group used for sequestering ssh access specifically to sftp
+useradd -c "Aless" -s /sbin/nologin -m alessandra 
+usermod -g haven -a -G alessandra,havenstaff  alessandra  
+mkdir /home/alessandra/.ssh 
+vim /home/alessandra/.ssh/authorized_keys   # <-- This is where you put in the pubkey for their SSH key pair (ie: aless.id_rsa.pub)
+chown -R alessandra:alessandra /home/alessandra/.ssh/  # <-- set appropriate permissions
