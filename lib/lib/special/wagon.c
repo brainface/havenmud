@@ -121,7 +121,7 @@ string WagonHelp() {
 */
 // add some helpish like things to all wagon descs so I don't have to type it a bajillion times.
 varargs string GetExternalDesc(object who) {
-  return vehicle::GetExternalDesc(who) + " There is a brass plaque nailed to the side with some writing on it. (<read plaque on wagon>)";
+  return vehicle::GetExternalDesc(who) + " There is a brass plaque nailed to the side with some writing on it. (<read plaque on " + GetName() + ">.)";
 }            
 
 

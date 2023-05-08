@@ -10,6 +10,7 @@ static void create() {
   SetKeyName("leather collar");
   SetSize(SIZE_VERY_SMALL);
   SetShort("a leather dog collar");
+  SetDestroyOnSell(1);
   SetId( ({ "collar" }) );
   SetAdjectives( ({ "leather", "dog" }) );
   SetLong("This collar is a leathery mark of submission to the bandit lords.");
