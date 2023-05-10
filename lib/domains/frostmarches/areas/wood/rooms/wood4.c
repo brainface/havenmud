@@ -31,8 +31,8 @@ static void create() {
          ({"limb","limbs","branches","branch"}) : "The elegantly "
                 "sweeping branches of the willow gently brush "
                 "the mossy ground.",
-         ({"greenery","foilage"}) : "Upon closer examination, "
-                "an opening in the dense foilage is visible.",
+         ({"greenery","foliage"}) : "Upon closer examination, "
+                "an opening in the dense foliage is visible.",
          ({"willow","tree","willow tree"}) : "The ancient tree, "
                    "with its harboring branches, could provide "
                    "a safe hiding place.",
@@ -45,7 +45,7 @@ static void create() {
          "shelter" : "The dense greenery create a small shelter.",
          ]) );
   SetEnters( ([
-   ({"greenery","foilage"}) : WOOD_ROOMS + "wood4.5",
+   ({"greenery","foliage"}) : WOOD_ROOMS + "wood4.5",
      ]) );
   SetSmell( ([
     "default" : "There is the distinct aroma of wet earth and trees.",

@@ -8,4 +8,4 @@
 #include <size.h>
 #include <std.h>
 inherit LIB_ITEM;
-mixed eval() { GetPlayer("mahkefel"); }
+mixed eval() { {return ctime(1352952854)}; }

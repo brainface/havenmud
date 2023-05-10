@@ -2,11 +2,12 @@
 #include <domains.h>
 #include <std.h>
 #include "../store.h"
-inherit LIB_ROOM;
+inherit LIB_STOREROOM;
 
 static void create() {
   ::create();
 
+  SetPurgeInterval(14);
   SetInventory( ([
      LSTORE_OBJ "leatherpants" : 2,
      LSTORE_OBJ "leathervest" : 2,

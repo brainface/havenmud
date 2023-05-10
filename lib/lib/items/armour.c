@@ -50,6 +50,7 @@ private int            MagicBonus    = 0;
 private int            Deterioration = 0;
 
 int direct_cast_str_on_obj() { return 1; }
+int direct_resize_obj_to_str() { return 1; }
 
 mixed direct_plant_obj_on_liv() { 
     if (environment() != this_player()) return "You don't have that.";

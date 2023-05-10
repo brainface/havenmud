@@ -33,7 +33,6 @@ static void create() {
 
 void init() {
   room::init();
-  
   if (this_player()->GetKeyName() == OWNER) {
     add_action("welcome", "welcome");
     add_action("shield", "shield");
@@ -99,7 +98,7 @@ int welcome(string person) {
   }
 
   ppl -= ({ person });
-  save_object("/realms/atrus/arena", 1);
+  save_object("/realms/tassadar/atrus/arena", 1);
   ob->eventPrint("Person %^WHITE%^removed%^RESET%^.");
   return 1;
 }
