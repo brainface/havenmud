@@ -72,7 +72,7 @@ int SetGateStatus(int x) {
   GateStatus = x;
     SetLong(
     "Rounding the end of the valley brings the path here to an abrupt halt. "
-    "A large wall, crosses the path here. Beyond the wall is seemingly nothing "
+    "A large wall crosses the path here. Beyond the wall is seemingly nothing "
     "but wilderness and the side of Mount Trogg. The swirling clouds and mist which "
     "obscure most of the wild peak seem to billow and eddy around the precipice. "
     "Rich green evergreen trees dot the lower slopes of the mountainsides, and "
@@ -84,7 +84,6 @@ int SetGateStatus(int x) {
     "protecting the Gnomish City of Underland. The road to the world continues "
     "to the west from here."
     );
-
   return x;
  }
 
