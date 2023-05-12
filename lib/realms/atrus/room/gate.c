@@ -1,20 +1,25 @@
 #include <lib.h>
 #include <domains.h>
-#include "../underland.h"
 inherit LIB_ROOM;
-
-int GateStatus = 0;
-int StatusCheck();
-int SetGateStatus(int);
-void ChangeGateStatus();
 
 static void create() {
   ::create();
   SetShort("at the end of the path");
-  SetExits( ([
-    "west" : VALLEY_VIRTUAL "valley/10,10",
-    ]) );
-  AddExit("east", UNDER_ROOM "gate2", (: StatusCheck :) );
+    SetLong(
+    "Rounding the end of the valley brings the path here to an abrupt halt. "
+    "A large wall crosses the path here. Beyond the wall is seemingly nothing "
+    "but wilderness and the side of Mount Trogg. The swirling clouds and mist which "
+    "obscure most of the wild peak seem to billow and eddy around the precipice. "
+    "Rich green evergreen trees dot the lower slopes of the mountainsides, and "
+    "seem to decend right down to the back of the wall. "
+    //gatetime
+    "Set into the wall is a wide wooden gate reinforced with iron. The gate stands "
+    "open to the world. "
+    "The gate shows great wear from thousands of years of use and care while "
+    "protecting the Gnomish City of Underland. The road to the world continues "
+    "to the west from here."
+    );
+
   SetItems( ([
     ( { "valley", "path", "road",  } ) : (: GetLong :),
     ( { "mountain", "mount", "trogg" } ) : "Mount Trogg stands looming in the east. "
@@ -65,55 +70,7 @@ static void create() {
     "brace" : ({ "woven", "intricate", "iron", "thick", "nailed" }),
     ]) );
     
-  SetInventory( ([
-    UNDER_OBJ "lever" : 1,
-    ]) );
-  SetGateStatus(0);
   SetListen("The faint sounds of chatter come from beyond the wall.");
   SetSmell("The pervasive smell of oil and iron lingers here."); 
  }
 
-int StatusCheck() {
-  if (GateStatus) return 1;
-  this_player()->eventPrint("You bump into the gate.");
-  return 0;
- }
-
-int SetGateStatus(int x) {
-  GateStatus = x;
-    SetLong(
-    "Rounding the end of the valley brings the path here to an abrupt halt. "
-    "A large wall crosses the path here. Beyond the wall is seemingly nothing "
-    "but wilderness and the side of Mount Trogg. The swirling clouds and mist which "
-    "obscure most of the wild peak seem to billow and eddy around the precipice. "
-    "Rich green evergreen trees dot the lower slopes of the mountainsides, and "
-    "seem to decend right down to the back of the wall. "
-    //gatetime
-    "Set into the wall is a wide wooden gate reinforced with iron. The gate stands "
-    + (GateStatus ? "open and inviting" : "closed and barred") + " to the world. "
-    "The gate shows great wear from thousands of years of use and care while "
-    "protecting the Gnomish City of Underland. The road to the world continues "
-    "to the west from here."
-    );
-  return x;
- }
-
-void heart_beat() {
-  ::heart_beat();
-  if (GateStatus) {
-    eventPrint("The gate closes with a low humming groan and locks with a dull boom.");
-    SetGateStatus(0);
-  }
- }
-
-void ChangeGateStatus() {
-  if (!GateStatus) {
-    eventPrint("The gate hisses softly and begins to open, creaking ponderously on vast hinges. "
-               "A warm glow is emitted from within.");
-    SetGateStatus(1);
-  } else  {
-    eventPrint("The gate closes with a low humming groan and locks with a loud boom. "
-               "Once closed, no light escapes from within.");
-    SetGateStatus(0);
-  }
- }

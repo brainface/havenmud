@@ -1,3 +1,9 @@
+// This is going to be a land of artesians. 
+// However, they have stat caps in place.
+// High level should deter HM/Legend characters believing they can roll it
+// Most casters will be able to, and fighters can cruise through on level.
+
+
 #include <lib.h>
 #include "../underland.h"
 inherit LIB_BARKEEP;
@@ -9,14 +15,34 @@ static void create() {
   SetGender("female");
   SetShort("Nazza the Armourer");
   SetId( ({ "armourer", "nazza", "gnome" }) );
-  SetAdjectives( ({ }) );
+  SetAdjectives( ({ "beautiful", "kind", "artesian" }) );
   SetLong(
-    "Nazza is the Armourer in the Underland. Her wares range from mundane to "
-    "exotic, and her prices are enough to make most grown gnomes cry."
+    "As gnomes go, Nazza is an exceptional example of strength and durability. "
+    "She has a beautiful face and kind eyes. Her face is tanned from the forge. Her long "
+    "flowing black hair tumbles over her shoulder in a mass that almost protects "
+    "her neck as well as her apron does. Her movements have a calm and practiced gait "
+    "which reveals her to be an artisan."
     );
   SetClass("merchant");
-  SetLevel(10);
+  SetLevel(100);
+  //For fairer combat rolls
+  SetStat("strength",175);
+  SetStat("durability",175);
+  SetStat("agility",75);
+  SetStat("coordination",75);
+  SetStat("luck",75);
+  SetStat("wisdom",75);
+  SetStat("charisma",190);
+  SetStat("intelligence",85);
   SetLocalCurrency("rupies");
+  SetInventory( ([
+   UNDER_OBJ "apron" : "wear apron",
+   UNDER_OBJ "smithhammer" : "wield hammer",
+   UNDER_OBJ "artisanpant" : "wear pants",
+   UNDER_OBJ "artisanshirt" : "wear shirt",
+   UNDER_OBJ "pocketwatch" : 1,
+   UNDER_OBJ "leatherboots" : "wear boots",
+  ]) );
   SetMenuItems( ([
     "cloth belt"    : UNDER_OBJ "clothbelt",
     "cloth glove"   : UNDER_OBJ "clothglove",

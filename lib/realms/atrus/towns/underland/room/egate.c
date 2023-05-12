@@ -12,9 +12,9 @@ static void create() {
   ::create();
   SetShort("at the end of the path");
   SetExits( ([
-    "west" : VALLEY_VIRTUAL "valley/10,10",
+    "east" :  "/domains/valley/areas/mount_trog/room/entrance",
     ]) );
-  AddExit("east", UNDER_ROOM "gate2", (: StatusCheck :) );
+  AddExit("west", UNDER_ROOM "egate2", (: StatusCheck :) );
   SetItems( ([
     ( { "valley", "path", "road",  } ) : (: GetLong :),
     ( { "mountain", "mount", "trogg" } ) : "Mount Trogg stands looming in the east. "
@@ -33,6 +33,7 @@ static void create() {
              "surrounding areas. They lead thickly off to the east past the gate. "
              "The slopes of Mount Trogg are clearly dotted with vast pines, fed "
              "from endless supplies of fresh snowmelt water from above.",
+
     ( { "reinforcement", "reinforcements", "brace", "braces" }) :
              "The thick bands making up the reinforcements of the gate are "
              "wrought of iron and nailed through the logs with huge beaten "
@@ -82,18 +83,8 @@ int StatusCheck() {
 int SetGateStatus(int x) {
   GateStatus = x;
     SetLong(
-    "Rounding the end of the valley brings the path here to an abrupt halt. "
-    "A large wall crosses the path here. Beyond the wall is seemingly nothing "
-    "but wilderness and the side of Mount Trogg. The swirling clouds and mist which "
-    "obscure most of the wild peak seem to billow and eddy around the precipice. "
-    "Rich green evergreen trees dot the lower slopes of the mountainsides, and "
-    "seem to decend right down to the back of the wall. "
-    //gatetime
-    "Set into the wall is a wide wooden gate reinforced with iron. The gate stands "
+    "The gate stands to the west is "
     + (GateStatus ? "open and inviting" : "closed and barred") + " to the world. "
-    "The gate shows great wear from thousands of years of use and care while "
-    "protecting the Gnomish City of Underland. The road to the world continues "
-    "to the west from here."
     );
   return x;
  }

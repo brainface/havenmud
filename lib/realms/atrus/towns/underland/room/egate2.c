@@ -16,9 +16,9 @@ static void create() {
   ::create();
   SetShort("at the Gate of the Underland");
   SetExits( ([
-    "east" : UNDER_ROOM "worc",
+    "west" : UNDER_ROOM "eorc",
     ]) );
-  AddExit("west", UNDER_ROOM "gate", (: StatusCheck :) );
+  AddExit("east", UNDER_ROOM "egate", (: StatusCheck :) );
   SetItems( ([
     "wall" : "The western wall is dominated by what appears to be a solid iron "
              "door. There are large buttresses and arches reinforce the wall acting "
@@ -72,14 +72,8 @@ int StatusCheck() {
 
 int SetGateStatus(int x) {
   GateStatus = x;
-  SetLong("Just inside the western gate of Underland is bathed in a soft warm glow. "
-    "Instead of leading into, what appeared from the outside, as endless trees; "
-    "here the road is a deeply sloping ramp plunging into the depths under Mount Trogg. "
-    "A perfectly bored tunnel houses the ramp as it descends into the very planet. "
-    "Huge score marks trail up and down the walls, evidence of the hugh machines "
-    "which removed the vast amounts of rock. Small orange lamps glow in the middle "
-    "of the arch-reinforced ceiling, evenly spaced, descending off to the east. "    
-    "The city gate to the west is " + (GateStatus ? "open" : "sealed") + " to the world."
+  SetLong(   
+    "The city gate to the east is " + (GateStatus ? "open" : "sealed") + " to the world."
     );
   return x;
 }
@@ -101,4 +95,3 @@ void ChangeGateStatus() {
     SetGateStatus(0);
   }
 }
-

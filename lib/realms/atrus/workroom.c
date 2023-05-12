@@ -25,6 +25,7 @@ static void create() {
   SetExits( ([
     "north" : DIR_STANDARD_DOMAIN "/staffroom",
     "east" : "/realms/atrus/areas/black_horse/room/horseyard",
+    "south" : "/realms/atrus/room/gate"
   ]) );
   restore_object("/realms/atrus/workroom2");
   SetInventory( ([
