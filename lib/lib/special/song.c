@@ -679,7 +679,7 @@ varargs int eventSing(object who, int level, mixed limb, object array targets) {
     protection->hit = (: hitCallback :);
   	protection->caster = who;
   	if (ShieldType == SHIELD_TIMED) {
-  		protection->time    = (GetSongLevel() * level)/10 + 1; 
+  		protection->time    = (GetSongLevel() * level)/3 + 1; 
   		protection->protect = ((GetSongLevel() * level)/10 + 1) ;
   		if (who->GetTestChar())
   		  debug("Time = " + protection->time + " Amount = " +  protection->protect + " SL: " + GetSongLevel());

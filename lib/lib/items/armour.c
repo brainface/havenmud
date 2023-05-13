@@ -535,7 +535,7 @@ varargs mixed eventUnequip(object who) {
 /* ******************** armour.c driver applies ******************** */
 static void create() {
     AddSave(equip::GetSave() + value::GetSave() + mass::GetSave() +
-	    poison::GetSave() + deterioration::GetSave() + ({ "Deterioration" }));
+	    poison::GetSave() + deterioration::GetSave() + ({ "Deterioration", "Size" }));
     steal::create();
     object::create();
     SetVendorType(VT_ARMOUR);
