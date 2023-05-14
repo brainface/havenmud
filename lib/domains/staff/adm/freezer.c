@@ -15,6 +15,8 @@ static private object *Old;
 void create() {
     room::create();
     SetNoClean(1);
+    SetDomain("Southern Coast");
+
     SetProperties(([ "login" : ROOM_START, "no teleport" : 1 ]));
     SetShort( "The freezer");
     SetLong( "The local freezer.  Go down to leave.");

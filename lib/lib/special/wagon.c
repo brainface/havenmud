@@ -40,7 +40,7 @@ static void create() {
   // the player's movement will display direction, context etc.
   SetMessages( ([
     "come"   : "$N clatters in.",
-    "leave"  : "$N clatters $D.",
+    "leave"  : "$N clatters away.", // need to hack something to show direction, maybe.
     "telout" : "",
     "telin"  : "$N clatters in.",
   ]) );
