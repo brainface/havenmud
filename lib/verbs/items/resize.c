@@ -38,7 +38,7 @@ mixed do_resize_obj_to_str(object junk, string size) {
   int con = 0;
   int result = 0;
   int is_upsize = 0;
-  
+  float resize_ratio = 0;
   object *my_mats = ({});
 
   // get a list of all scrap in inventory
@@ -104,9 +104,13 @@ mixed do_resize_obj_to_str(object junk, string size) {
   pro += who->GetStatLevel("coordination")/10;
   pro += who->GetLuck();
 
+  //resize_ratio = sizes[size]/float(junk->GetSize());
+
   if (sizes[size] > junk->GetSize()) {
     is_upsize = 1;
   }
+
+
 	    
   foreach( string material in junk->GetMaterials() ) {
 
