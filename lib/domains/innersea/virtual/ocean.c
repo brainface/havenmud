@@ -48,7 +48,7 @@ static void create(int x, int y) {
    SetSailingDifficulty(10);
     
   /* Basic Long Setup.  Defines Which ocean we're in */
-  if (x > -180 && x < 100 && y < 51 && y > -50) {
+  if (x > -180 && x < 240 && y < 51 && y > -50) {
     short = "the Ruined Sea";
     long = "The reddish waters of the Ruined Sea swirl around in chaotic fury, "
            "their motion that of waves on a mission. ";
@@ -84,7 +84,7 @@ static void create(int x, int y) {
       "violence to come.";
     SetSailingDifficulty(15);
   }
-  if ( x < 100 && x >= 95 ) {
+  if ( x < 260 && x >= 240 ) {
     short = "Perilously Close to the Endless Sea";
     long = "The hazardous waters of the endless sea churn not many leagues "
       "distant to the east, a graveyard to all but the most experienced of "
@@ -95,7 +95,7 @@ static void create(int x, int y) {
       "violence to come.";
     SetSailingDifficulty(15);
   }
-  if (x <= -180 || x >= 100) {
+  if (x <= -180 || x >= 260) {
     short = "the Endless Sea";
     long  = "The waves of the Endless sea stretch out in all directions as "
             "far as the eye can sea. Clouds don't seem to make any impression "
