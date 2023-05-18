@@ -86,6 +86,11 @@ mixed do_resize_obj_to_str(object junk, string size) {
     who->eventPrint(size + " is not a reasonable size.\n (The sizes are tiny, very small, small, medium, large, very large, huge, and giant.)");
     return 0;
   }
+
+  if (sizes[size] == junk->GetSize()) {
+    who->eventPrint(junk->GetShort() + " seems to already be " + size + " sized?");
+    return 0;
+  }
   
   if(environment(junk) != this_player() ) {
         who->eventPrint("You can only resize something you're holding!");
@@ -104,10 +109,14 @@ mixed do_resize_obj_to_str(object junk, string size) {
   pro += who->GetStatLevel("coordination")/10;
   pro += who->GetLuck();
 
-  //resize_ratio = sizes[size]/float(junk->GetSize());
-
+  resize_ratio = sizes[size]/to_float(junk->GetSize());
+  resize_ratio *= 4/3.0;
+  
   if (sizes[size] > junk->GetSize()) {
     is_upsize = 1;
+    resize_ratio *= 5/6.0;
+  } else {
+    resize_ratio *= 4/3.0;
   }
 
 
@@ -150,7 +159,7 @@ mixed do_resize_obj_to_str(object junk, string size) {
 
     // actually resize the thing.
     junk->SetSize(sizes[size]);
-
+    junk->SetMass(to_int(resize_ratio * junk->GetMass()));
     if (my_mats) {
       foreach(scrap in my_mats) {
         scrap->eventDestruct();
