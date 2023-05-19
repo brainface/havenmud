@@ -23,6 +23,6 @@ static void create() {
   SetMorality(-250);
   SetLevel(30);
   SetLimit(1);
-  SetLargestShip(VS_GALLEY);
+  SetLargestShip(VS_DREADNAUGHT);
   SetLargestWeapon(VW_DEVASTATING);
 }
