@@ -5,7 +5,7 @@ inherit LIB_SHIPCAPTAIN;
 
 static void create() {
   ::create();
-  SetKeyName("Jean-Luc");
+  SetKeyName("ferry captain");
   SetId( ({ "ferrycaptain", "captain", "jean-luc", "jean", "vernier",
         "averath_person" }) );
   SetShort("Jean-Luc Vernier the Ferry Captain");

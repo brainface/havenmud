@@ -293,6 +293,14 @@ int GetInCombat() {
   return 0;
   }
 
+string SetShort(string x) {
+  if (rank(this_player()) < rank(this_object())) {
+    this_player()->eventPrint("That seems like a bad idea.");
+    return "No";
+    }
+  return ::SetShort(x);
+}
+
 mixed SetStatus(mixed n) { return Status = n; }
 
 mixed GetStatus() {

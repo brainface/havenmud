@@ -362,7 +362,9 @@ void heart_beat() {
   if (!com) { /* Ok.  I have stores, I am not in combat, and I don't have a ShipWanderPath */
     if (ShipWander) { com = eventShipWander(); }
     }
+/*
   if (!sizeof(players())) { com = "scuttle ship"; }
+*/
   /* Ok, do we have a valid command? */
   if (com) {
     if (!stringp(com)) return;
