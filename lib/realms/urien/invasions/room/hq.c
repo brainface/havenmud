@@ -111,8 +111,9 @@ int summon(string args) {
   thing->eventForce("speak By your will!");
   return 1;
 }
-
+/*
 int CanReceive(object ob) {
   if (!musep(ob) && userp(ob)) return 0;
   return ::CanReceive(ob);
 }
+*/

@@ -23,7 +23,7 @@ static void create() {
   SetLevel(90);
   SetStat("wisdom", 100000, 1);
   SetFearType("elemental fear");
-  SetResistLevel(60);
+  SetResistLevel(50);
   SetFearLength(15);
   SetCombatAction(3, (: eventSpecial :) );
   SetEncounter(100);

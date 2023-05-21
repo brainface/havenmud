@@ -16,7 +16,7 @@ static void create(){
   );
   SetKeyName("steel steer");
   SetAdjectives( ({"steel"}) );
-  SetId(({"steer"}));
+  SetId(({"steed"}));
   SetRace("horse");
   SetClass("animal");
   SetLevel(2);
