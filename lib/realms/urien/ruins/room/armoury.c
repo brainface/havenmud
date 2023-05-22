@@ -6,13 +6,31 @@
 // Revision History:
 // Urien@Haven 12.8.12
 // Added Everything
+// Urien@Haven 5.16.23
+// Room eats the objects in the room, a unique bug. 
+// Tested with Duuk, too many SetItems() created the bug
+// Seems 24 or around there is the max - driver limit
 
 #include <lib.h>
-inherit LIB_ROOM;
+//#include <domains.h>
+//#include <std.h>
+// added this to try somethin - did nothing
 #include "../castle.h" 
+
+inherit LIB_ROOM;
 
 static void create() {
 ::create();
+SetClimate("indoors");
+//Moved/Erased SetClimate to see if that did anything 
+//SetAmbientLight(20);
+//Moved/Erased AmbientLight
+SetObviousExits("east");
+//Added this to see if it was a exits thing
+SetExits( ([
+        "east" : RUINS_ROOMS + "guard",
+        ]) );
+//Moved SetExits to see if that did anything - did nothing
 SetShort("a barred armoury");
 SetLong("Old barren weapon racks and shelves line the walls in this "
         "square room inside the ruins. In the direct center of the "
@@ -21,20 +39,15 @@ SetLong("Old barren weapon racks and shelves line the walls in this "
         "ash, coals and debris that is covered in dust. A stone "
         "fire pit looks rather new in the center of this square room "
         "and it seems to provide some decent lighting.");
-  SetExits( ([
-        "east" : RUINS_ROOMS + "guard",
-        ]) );
-  SetInventory( ([ 
+SetInventory( ([ 
                     RUINS_NPC "muezzin01" : 1,
                     RUINS_NPC "muezzin02" : 1,
                     RUINS_OBJ "campfire" : 1,
-                     ]) );
-  SetListen("default", "The walls and shelves creak from the heat.");
-  SetSmell("default", "Heavy thick smoke lies dormant here.");
-  SetClimate("indoors");
-  SetAmbientLight(20);
-  SetItems( ([ 
-    ({ "armoury","room","ruins" }) : (: GetLong :),
+                    RUINS_OBJ "trunk" : 1,
+                                ]) );
+SetListen("default", "The walls and shelves creak from the heat.");
+SetSmell("default", "Heavy thick smoke lies dormant here.");
+SetItems( ([ 
      "racks" : "Old weapon racks line the walls corner to "
                "corner. It seems they used to hold numerous "
                "belongings due to how they are strongly "
@@ -69,9 +82,9 @@ SetLong("Old barren weapon racks and shelves line the walls in this "
      "mats" : "Straw mats rest in the center of the room "
               "surrounding a little section. They look "
               "suitable for sleeping, if you were a slave.",
-     "straw" : "straw mats rest in the center of the room.",
      "stone" : "The stone looks yellowed from age, it almost "
-               "looks incredibly close .",
+               "looks incredibly close to an aged ivory or white "
+               "rock material.",
      "stones" : "The stones make up the walls, ceiling and on "
                 "the ground they make up the floor covered in "
                 "dirt. A section also sits in the middle of the "
@@ -81,8 +94,6 @@ SetLong("Old barren weapon racks and shelves line the walls in this "
               "incredibly black and sticky.",
      "drawers" : "The drawers line the cabinets. They are empty "
                  "and some are missing from the cabinets.",
-     "hinges" : "Loose hinges hold the drawers in place. If they "
-                "were connected.",
      "rubble" : "Rubble lies abundantly in this armoury. It "
                 "seems to have suffered some siege damage before "
                 "it was looted properly.",
@@ -91,12 +102,13 @@ SetLong("Old barren weapon racks and shelves line the walls in this "
                  "wall.",
      "window" : "The window is merely an open slit through "
                 "the western wall. With a strong force it is "
-                "pulling in the thick smoke from this room.",
+                "pulling out the thick smoke from this room.",
      "section" : "A little section has been placed where "
                  "a campfire would rest in the center of the "
                  "armoury.",
      "smoke" : "Thick smoke lingers about, it is not difficult "
-               "to breathe.",
+               "to breathe. It does obscure natural vision but "
+               "only slightly.",
      "cabinets" : "The cabinets have all been looted, some are "
                   "even missing. Hinges cover the cabinets to "
                   "secure the drawers in place.",
@@ -108,22 +120,17 @@ SetLong("Old barren weapon racks and shelves line the walls in this "
                "light and exhume some of the smoke. During "
                "climate change it would not cause any "
                "discomfort to those who occupied these ruins.",
-     "ash" : "Ash lies completely everywhere.",
      "coal" : "Coal lies in the center of the section near "
               "the straw mats.",
-     "dust" : "Dust rests on every horizontal surface in this "
-              "dump.",
-     "blood" : "In some areas of the floor some small blood can "
-               "be seen stained with the dirt.",
-    ]) );
- SetItemAdjectives( ([
+   ]) );  
+SetItemAdjectives( ([
     "mats" : ({ "straw" }),
     "room" : ({ "square" }),
     "racks" : ({ "weapon" }),
     "stones" : ({ "rectangular","cut","aged","yellow" }),
   ]) );
-}
 
+}
 void heart_beat() {
   string fire;
   ::heart_beat();
@@ -146,3 +153,4 @@ void heart_beat() {
    }
   eventPrint(fire);
 }
+
