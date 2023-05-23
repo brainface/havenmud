@@ -14,7 +14,7 @@ static void create() {
   ::create();
   SetVerb("whirlwind");
   SetRules("LIV","");
-  SetHelp("You slash around with your sword at all enemies, trying "
+  SetHelp("You slash around with your blade at all enemies, trying "
     "to cut down all around you in an exhausting manuever."
   );
   SetStaminaCost(150);

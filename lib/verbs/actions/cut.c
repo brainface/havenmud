@@ -8,7 +8,7 @@ static void create() {
   SetVerb("cut");
   SetRules("LIV down", "down");
   SetHelp("Syntax: cut down, cut LIV down\n\n"
-    "You hack with your sword at your opponent's legs, "
+    "You hack with your blade at your opponent's legs, "
     "trying to cut them to the ground."
   );
   SetStaminaCost(300);

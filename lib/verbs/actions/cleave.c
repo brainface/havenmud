@@ -15,7 +15,7 @@ static void create() {
   SetVerb("cleave");
   SetRules("LIV","");
   SetHelp("A single soldier or an army, it makes no difference to "
-    "you or your axe, as you swing murderously around."
+    "you or your weapon, as you swing murderously around."
   );
   SetStaminaCost(100);
   SetRequiredWeapon("hack");
@@ -97,7 +97,7 @@ int eventAttack(object who, object* targets) {
     // normal miss
     } else if (result == 0) {
       send_messages( ({ "whistle" }),
-      "$agent_possessive_noun axe%^RED%^ whistles%^RESET%^ as it passes "
+      "$agent_possessive_noun weapon%^RED%^ whistles%^RESET%^ as it passes "
       "mere inches from $target_possessive_noun head!",
       who, target, environment(who));
     // hit

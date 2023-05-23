@@ -57,7 +57,7 @@ int eventAttack(object who, object target) {
     if (result == -1) {
       send_messages( ({ "grab","struggle" }), "$target_name%^BOLD%^ "
         "$target_verb%^RESET%^ $agent_possessive_noun "
-        "knife hand and $target_verb against $agent_possessive attack!",
+        "weapon hand and $target_verb against $agent_possessive attack!",
         who, target, environment(who));
     }
     if (result == 0) {
