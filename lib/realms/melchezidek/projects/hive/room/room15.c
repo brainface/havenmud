@@ -8,7 +8,7 @@ static void create() {
 	SetClimate("underground");
 	SetAmbientLight(0);
 	SetShort("a dark sandy tunnel below Yozrath");
-	SetLong(""
+	SetLong(ROOM_DESC_TUNNEL
 	  );
 	SetInventory( ([
 	    HIVE_OBJ "largecrystal"    : 1,

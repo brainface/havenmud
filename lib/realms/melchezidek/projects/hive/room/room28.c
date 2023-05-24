@@ -8,8 +8,7 @@ static void create() {
         SetClimate("underground");
         SetAmbientLight(0);
         SetShort("the Queen's Mine");
-        SetLong(""
-          );
+        SetLong(ROOM_DESC_MINE);
         SetInventory( ([
             HIVE_OBJ "largecrystal"    : 1,
             ]) );

@@ -8,7 +8,6 @@ static void create() {
 	string ADJ;
 	string GENDER;
 	switch(random(2)) {
-		
 		case 0:
 		GENDER = "male";
 		break;
@@ -22,14 +21,14 @@ static void create() {
 	SetMorality(0);
 	SetClass("merchant");
 	SetSkill("pierce combat", 1, 1);
+  SetSkill("blunt combat", 1, 1);
 	
 	ADJ = "thri-kreen";
 	switch(random(2)) {
-		
 		case 0:
 		WHO_ME = "miner";
-		SetLevel(20 + random(10));
-		if (GetLevel() > 24) {
+		SetLevel(50 + random(20));
+		if (GetLevel() < 60) {
 			AddAdjective( ({ "fragile", "fragile-looking"}) );
 			ADJ = "fragile thri-kreen";
 		}
@@ -41,8 +40,8 @@ static void create() {
 		
 		case 1:
 		  WHO_ME = "craftsman";
-	    SetLevel(20 + random(10));
-	  	if (GetLevel() > 24) {
+	    SetLevel(50 + random(20));
+	  	if (GetLevel() < 60) {
 	  		AddAdjective( ({ "fragile", "fragile-looking"}) );
 	  		ADJ = "fragile thri-kreen";
 	  	}

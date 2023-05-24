@@ -636,7 +636,7 @@ varargs int eventReceiveDamage(object agent, int type, int x, int internal, mixe
     rec = x/20;
     if (rec > 10) rec = 10;
     AddRecoveryTime(rec);
-  if (GetTestChar() && GetProperty("combat_debug"))  debug("internal damage -> " + x);
+    if (GetTestChar() && GetProperty("combat_debug"))  debug("internal damage -> " + x);
   	if (agent) {
   	  if (agent->GetOwner()) {
   	    if (present(agent->GetOwner(), environment(this_object()))) agent = present(agent->GetOwner(), environment(this_object()));

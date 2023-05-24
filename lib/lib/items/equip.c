@@ -41,6 +41,18 @@ string array GetWorn() {
     return Worn;
 }
 
+// helper function to return wearer/wielder of equipment.
+object GetWearer() {
+  if (!GetWorn()) return 0;
+  if (!environment()) return 0;
+  
+  if (living(environment())) {
+    return environment();
+  } else {
+    return 0;
+  }
+}
+
 string array SetWorn(string array limbs) {
     return (Worn = limbs);
 }
@@ -137,3 +149,4 @@ int GetRequiredSkill(string sk) {
   if (RequiredSkills[sk]) return RequiredSkills[sk];
   return 0;
 }
+

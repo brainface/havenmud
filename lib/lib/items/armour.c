@@ -403,49 +403,49 @@ void eventDeteriorate(int type) {
 }
  
 mixed eventEquip(object who, string array limbs) {
-    mixed tmp;
-	  string limb;
-	  int armour = GetArmourType(); 
-    if (!limbs || !sizeof(limbs)) {  
-	  string array guess = who->GetLimbs();
+  mixed tmp;
+  string limb;
+  int armour = GetArmourType(); 
+  if (!limbs || !sizeof(limbs)) {  
+    string array guess = who->GetLimbs();
 
-	    if( !guess ) { return "You have no limbs!"; }
-      limbs = ({});
-      foreach(limb in guess) {
-        mapping data;
-    
-        data = who->GetLimb(limb);
-        if( data["armours"] & armour ) {
-		      limbs += ({ limb });
-	      }
+    if( !guess ) { return "You have no limbs!"; }
+    limbs = ({});
+    foreach(limb in guess) {
+      mapping data;   
+      data = who->GetLimb(limb);
+      if( data["armours"] & armour ) {
+        limbs += ({ limb });
       }
-   }
+    }
+  }
   tmp = who->CanWear(this_object(), limbs);
   if (tmp != 1) return tmp;
   if( functionp(Wear) ) {
-	  if( functionp(Wear) & FP_OWNER_DESTED ) {
-	    return "Error in evaluating function pointer.";
-	  }
-	  if( !evaluate(Wear, who, limbs) ) {
-	    return 1;
-	  }
+    if( functionp(Wear) & FP_OWNER_DESTED ) {
+      return "Error in evaluating function pointer.";
+    }
+    if( !evaluate(Wear, who, limbs) ) {
+      return 1;
+    }
   }
   tmp = equip::eventEquip(who, limbs);
   if( tmp != 1 ) {
-	  if( tmp ) {
-	    who->eventPrint(tmp);
-	   }	else {
- 	    who->eventPrint("Error in wearing armour.");
-	  }
-	  return 1;
+    if( tmp ) {
+      who->eventPrint(tmp);
+    } else {
+      who->eventPrint("Error in wearing armour.");
+    }
+    return 1;
   }
   tmp = GetShort();
   SetWorn(limbs);
   if( functionp(Wear) ) {
-	  return 1;
-    } else if( stringp(Wear) ) { who->eventPrint(Wear); }
-    else {
-	  who->eventPrint("You wear " + tmp + ".");
+    return 1;
+  } else if( stringp(Wear) ) {
+    who->eventPrint(Wear);
+  } else {
+    who->eventPrint("You wear " + tmp + ".");
   }
   environment(who)->eventPrint(who->GetName() + " wears " + tmp + ".", who);
   return 1;
@@ -471,7 +471,21 @@ int eventReceiveDamage(object agent, int type, int amount, int u, mixed array l)
   pro = pro/100 * amount;
   if (environment()->GetTestChar())
     debug("reducing damage by " + pro + " on a hit of " + amount + " with deterioration of " + Deterioration);
-  deterioration::eventReceiveDamage(agent, type, amount/10, l);
+
+  amount = amount/10;
+
+  // Mahk 2023: make breaking armor give exp
+  if (deterioration::GetDamagePoints() <= amount) {
+    if (equip::GetWearer() && agent->GetLevel() ) {
+      object wearer = equip::GetWearer();
+      if (wearer->GetLevel() + 20 > agent->GetLevel() || wearer->GetLevel() > 90) {
+	agent->eventPrint("Your attack tears into " + GetShort()+ "!");
+       	agent->AddExperience(amount);
+      }
+    }
+  }
+  
+  deterioration::eventReceiveDamage(agent, type, amount, l);
   return pro;
 }
 
