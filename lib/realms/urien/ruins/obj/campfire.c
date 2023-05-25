@@ -2,7 +2,7 @@
 inherit LIB_ITEM;
 
 static void create() {
-  item::create();
+  ::create();
   SetKeyName("campfire");
   SetId( ({ "pit" }) );
   SetAdjectives( ({  "small" , "campfire"}) );

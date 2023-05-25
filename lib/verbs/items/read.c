@@ -40,7 +40,16 @@ mixed can_read_str_word_obj() {
 }
 
 mixed do_read_obj(object ob) {
-    return ob->eventRead(this_player());
+  if (!environment(ob)) {
+    return 1;
+  }
+  if (living(environment(ob))) {
+    if (environment() != this_player()) {
+      this_player()->eventPrint("You can't read something held by another!");
+      return 1;
+    }
+  }
+  return ob->eventRead(this_player());
 }
 
 mixed do_read_str_word_obj(string str, object ob) {
