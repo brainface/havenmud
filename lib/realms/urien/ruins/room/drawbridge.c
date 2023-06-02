@@ -125,10 +125,7 @@ SetItemAdjectives( ([
   ]) );
 SetExits( ([
         "north" : RUINS_ROOMS + "outside2",   
-        "south"     : WESTWOOD + "25,28",
-        "west"      : WESTWOOD + "24,29",
-        "northwest" : WESTWOOD + "24,30",
-        "southwest" : WESTWOOD + "24,28",  
+        "south"     : WESTWOOD + "30,30",
         ]) );
 SetClimate("temperate");
 AddExit("east", RUINS_ROOMS "entry", (:PreExit:));
