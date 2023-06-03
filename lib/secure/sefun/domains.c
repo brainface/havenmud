@@ -236,6 +236,7 @@ string parse_area(string area, string domain) {
       if (area == "hospital")       return "in the Eclat Hospital";
       if (area == "monastery")      return "in the Eclat Monastery";
       if (area == "rooklair")       return "by Rook's Lair";
+      if (area == "ruins")          return "by the ruins of Ivory Castle";
       if (area == "starvingorcs")   return "in the Orc Camp";
       if (area == "soleilroad")     return "on the Road to Soleil";
       if (area == "westwood")       return "in the Forest";
