@@ -9,7 +9,7 @@ static void create() {
  ::create();
  SetKeyName("merchant");
  SetShort("a muezzin fisher merchant");
- SetId( ({ "muezzin","merchant"}) );
+ SetId( ({ "muezzin","merchant","fisher"}) );
  SetAdjectives( ({ "fisher", "merchant" }) );
  SetRace("muezzin");
  SetBaseLanguage("Oiseau");
@@ -19,6 +19,7 @@ static void create() {
  SetLevel(random(10)+10);
  SetCurrency("cuicui", random(50)+5);
  SetWander(39);
+ SetLimit(1); 
  SetLong(
     "A rather stout aged muezzin fisher with short and shaggy hair "
     "along his exposed limbs. He has a welcoming appearance despite "
@@ -33,10 +34,10 @@ static void create() {
     "!say Expand your knowledge on Soliel cuisine for a small price.",
     "!gestures you to browse his wares",
     "!smile",
-    "!beam"
+    "!beam",
   }) );
  SetMenuItems( ([
-    "silver bass"   : WORLD_OBJ  "fish_fbss",
+    "bass"   : WORLD_OBJ  "fish_fbss",
     ]) );
  SetLocalCurrency("cuicui");
  SetCurrency("cuicui",10);
