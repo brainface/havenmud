@@ -19,7 +19,8 @@ static void create() {
  SetLevel(random(10)+10);
  SetCurrency("cuicui", random(50)+5);
  SetWander(39);
- SetLimit(1); 
+ SetLimit(1);
+ SetMorality(10); 
  SetLong(
     "A rather stout aged muezzin fisher with short and shaggy hair "
     "along his exposed limbs. He has a welcoming appearance despite "
@@ -28,16 +29,17 @@ static void create() {
     "nose. His garb itself appear to have various mud stains along "
     "his fisher tools and makeshift merchant uniform."
   );
- SetAction(5, ({
+ SetAction(40, ({
     "!say I have fish for sale if you desire.",
     "!yell Delicious fresh fish hand picked daily!",
     "!say Expand your knowledge on Soliel cuisine for a small price.",
     "!gestures you to browse his wares",
-    "!smile",
-    "!beam",
   }) );
  SetMenuItems( ([
     "bass"   : WORLD_OBJ  "fish_fbss",
+    ]) );
+  SetInventory( ([
+    WORLD_OBJ + "fish_boot" : "wear boots",
     ]) );
  SetLocalCurrency("cuicui");
  SetCurrency("cuicui",10);

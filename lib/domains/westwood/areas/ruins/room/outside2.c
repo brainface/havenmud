@@ -31,8 +31,6 @@ SetLong("The grasslands here appear tame and nourished "
 SetExits( ([
       "south" : RUINS_ROOMS "drawbridge",
       "north" : RUINS_ROOMS "outside3",
-       "west" : WESTWOOD + "24,30",
-  "southwest" : WESTWOOD + "24,29",  
 ]) ); 
 SetInventory( ([ 
                 RUINS_NPC "cleric" : 1,

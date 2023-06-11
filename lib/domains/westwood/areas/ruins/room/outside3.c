@@ -34,9 +34,7 @@ static void create() {
  SetClimate("temperate");
  SetExits( ([
   "south" : RUINS_ROOMS "outside2",
-  "southwest" : WESTWOOD + "24,30",  
         ]) );
- SetObviousExits("south, southwest");
  SetInventory( ([ 
             RUINS_OBJ "lake" : 1,
           ]) );
