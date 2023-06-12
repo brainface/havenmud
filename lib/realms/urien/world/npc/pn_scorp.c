@@ -16,7 +16,8 @@ static void create(){
           "types. The claws are usually various in size and have "
           "different roles for crushing or smashing. In her "
           "movements a soft white colored base meat color "
-          "can be seen through her various activity.");
+          "can be seen through her various activity as she moves "
+          "and wriggles in her thick chitin body.");
   SetRace("lobster","scorpion");
   AddLimb("body spike","abdomen",4, ({ }) );
   AddLimb("head spike","head",4, ({ }) );

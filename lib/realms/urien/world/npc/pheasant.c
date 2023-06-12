@@ -1,4 +1,5 @@
 // A stray pheasant
+// Urien@Haven 11JUN2023
 
 #include <lib.h>
 #include <std.h>
@@ -11,10 +12,10 @@ static void create() {
   SetKeyName("pheasant");
   SetId( ({ "pheasant", "bird"}) );
   SetAdjectives( ({ "stray" }) );
-  SetRace("bird");
+  SetRace("bird","pheasant");
   SetClass("animal");
   SetGender("female");
-  SetLevel(random(4) + 2);
+  SetLevel(random(3) + 2);
   SetShort("a stray pheasant");
   SetLong("This bird has a blue head with red eye "
           "pits. Her white neck feathers form to "
@@ -23,7 +24,8 @@ static void create() {
           "body. Her talons are somewhat blunted from "
           "traversing on the hard Kailie soil for food. "
           "Her long tail feathers seem ragged and "
-          "harmed from a previous encounter.");
+          "harmed from a previous encounter preventing "
+          "or inhibiting prolonged and steady flight.");
   SetAction(2, ({
      "The pheasant looks about her surroundings.",
      "The stray pheasant pecks on the ground.",

@@ -1,4 +1,5 @@
-// A wild elephant
+// A wild elephant with enhanced HP
+// Urien@Haven 11JUN2023
 
 #include <lib.h>
 #include <std.h>
@@ -25,8 +26,7 @@ static void create() {
   SetStat("durability", random(10) + 150, 1); //very tough NPC
   SetAction(2, ({
      "The wild elephant slowly flutters his ears.",
-     "The wild elephant stomps on the ground.",
+     "The wild elephant stomps on the ground as it grazes.",
      }) );
-  SetMeleeAttackString("fucking elephant tusk");
   SetMeleeDamageType(PIERCE);
 }

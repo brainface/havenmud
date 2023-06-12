@@ -29,7 +29,7 @@ static void create() {
     "nose. His garb itself appear to have various mud stains along "
     "his fisher tools and makeshift merchant uniform."
   );
- SetAction(40, ({
+ SetAction(2, ({
     "!say I have fish for sale if you desire.",
     "!yell Delicious fresh fish hand picked daily!",
     "!say Expand your knowledge on Soliel cuisine for a small price.",
@@ -39,7 +39,7 @@ static void create() {
     "bass"   : WORLD_OBJ  "fish_fbss",
     ]) );
   SetInventory( ([
-    WORLD_OBJ + "fish_boot" : "wear boots",
+    WORLD_OBJ + "fish_boots" : "wear boots",
     ]) );
  SetLocalCurrency("cuicui");
  SetCurrency("cuicui",10);
