@@ -1,7 +1,8 @@
 // Indochinese rhesus Macaque
 // They usually hunt in packs of 80-100
 // To add to the world roadmap package
-// Urien@Haven 11JUN2023
+// Tweaked to get out of the 'newbie' level range
+// Urien@Haven 21JUN2023
 
 #include <lib.h>
 #include <std.h>
@@ -23,12 +24,15 @@ static void create(){
           "or food matter. Bright brown eyes with narrow iris "
           "rest sunken in the fur free humanoid shaped face. Its "
           "body resembles a tiny human with much longer digits "
-          "and flexibility than its much larger comparison.");
+          "and flexibility than its much larger comparison. A "
+          "rather long and slender tail can be seen protruding "
+          "from just above the rear end of the agile being.");
   SetRace("primate","macaque");
+  AddLimb("tail","torso",2, ({ }) );
   SetGender("male");
   SetClass("animal");
   SetKeyName("macaque");
-  SetLevel(random(7) + 2);
+  SetLevel(random(7) + 6);
  SetAction(2, ({
     "!looks around picking something off the ground.",
     "!searches for something.",
