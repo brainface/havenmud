@@ -1,7 +1,7 @@
 // Wandering World Mayor to assign quests to kill animals
 // A blanket quester to assign. This can be changed 
-// If I find a domain to sit him in or use Island Domain
-// or IUrien@Haven 22JUN2023
+// If I find a domain like 'all' to sit him in...
+// Urien@Haven 22JUN2023
 
 #include <lib.h>
 #include <domains.h>
@@ -19,8 +19,8 @@ static void create() {
   SetLimit(1);
   SetRace("half-elf");
   SetGender("male");
-  SetBaseLanguage("Enlan");
-  SetTown("World");      //Subject to change
+  SetBaseLanguage("Oiseau");  // Should be Enlan due to trade
+  SetTown("BrandeBountyHunter");      
   SetLong(
     "An average heighted half-elf with long black hair and vanilla "
     "features. Soft and unmarred pale skin can be seen exposed "
