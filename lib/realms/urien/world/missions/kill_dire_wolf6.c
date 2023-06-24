@@ -23,7 +23,19 @@ static void create() {
   SetMissionPriority(20);
   SetReward("10000 XP");
 }
-
+/*
+int CheckCompletedMission(object who) {
+  mapping kills = STATISTICS_D->GetKills(who->GetKeyName());
+  int wolf_kills = kills[WORLD_NPC "dire_wolf"]
+  if ((wolf_kills >= 1)) {
+    who->eventPrint("You have reduced the dire wolf threat at least "
+                    "by one, as requested.");
+    who->AddExperience(10000);
+    return 1;
+  }
+  return 0;
+}
+*/
 int CheckCompletedMission(object who) {
   int count = 0;
   mapping kills = STATISTICS_D->GetKills(who->GetKeyName());
@@ -35,13 +47,15 @@ int CheckCompletedMission(object who) {
   }
   return 0;
 }
+/*
 void AssignMission(object who) {
 }
+*/
 // Everyone can get this mission no prerequisits
 int CanGetMission(object who) {
   return 1;
 }
-/*
+/* Thought this was required to be 'something' made it tc town
 int CanGetMission(object who) {
 	 if(who->GetTown() == "Soleil" ) return 1;
      return 0;
