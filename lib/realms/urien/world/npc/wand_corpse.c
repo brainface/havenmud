@@ -16,7 +16,7 @@ static void create() {
   SetRace("human","undead corpse");
   SetGender("male");
   SetClass("rogue");
-  SetLevel(random(3)+2);
+  SetLevel(random(5)+5);
   SetKeyName("corpse");
   SetId( ({ "corpse","undead_wander"}) );
   SetShort("a walking corpse");
@@ -30,7 +30,7 @@ static void create() {
           "eyes are missing below the aged melted nose of the undead "
           "human. It seems undetermined, as if the mission it was "
           "resurrected by dark magics for has expired or forgotten and "
-          "ignores the surroundings almost completely.");
+          "ignores most beings in its surroundings.");
   SetUndead(1);
   SetWander(2);   //I want this super slow, 1 did nothing.
   SetDie("The corpse falls over, completely lifeless.");
